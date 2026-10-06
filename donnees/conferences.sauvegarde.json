@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-06 13:31",
- "derniere_lecture_reussie": "2026-10-06 13:31",
+ "mis_a_jour": "2026-10-06 13:50",
+ "derniere_lecture_reussie": "2026-10-06 13:50",
  "dernier_passage": {
-  "date": "2026-10-06 13:31",
+  "date": "2026-10-06 13:50",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 287,
    "brutes": 2301,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 27,
    "brutes": 127,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 29,
    "brutes": 155,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 4,
    "brutes": 24,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 121,
    "brutes": 142,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -73,7 +73,7 @@
    "etat": "ok",
    "nombre": 54,
    "brutes": 54,
-   "derniere_reussite": "2026-10-06 13:31",
+   "derniere_reussite": "2026-10-06 13:50",
    "raison": "",
    "depuis": ""
   }
