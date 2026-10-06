@@ -1,8 +1,8 @@
 {
  "verifie_le": "2026-10-06",
  "nombre": 54,
- "injoignables": 2,
- "a_verifier_a_la_main": 20,
+ "injoignables": 0,
+ "a_verifier_a_la_main": 22,
  "resultats": [
   {
    "acronyme": "MODAV-ICA 2026",
@@ -19,8 +19,8 @@
   {
    "acronyme": "RIARF 2026",
    "lien": "https://riarf.uib.es/",
-   "etat": "injoignable",
-   "detail": "<urlopen error timed out>"
+   "etat": "protege",
+   "detail": "ne répond pas aux robots (délai dépassé) : à vérifier à la main"
   },
   {
    "acronyme": "CAR Conference 2026",
@@ -325,8 +325,8 @@
   {
    "acronyme": "AQU 2027",
    "lien": "https://alqasimia.ac.ae/",
-   "etat": "injoignable",
-   "detail": "<urlopen error timed out>"
+   "etat": "protege",
+   "detail": "ne répond pas aux robots (délai dépassé) : à vérifier à la main"
   }
  ]
 }

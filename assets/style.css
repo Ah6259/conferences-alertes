@@ -36,6 +36,9 @@ img,svg{display:block}
 .entete-boutons{display:flex;align-items:center;gap:8px;flex:none}
 .entete-pro{background:#F2B33D;color:#3A2A00;border-radius:999px;padding:7px 12px;font-weight:800;font-size:14px;text-decoration:none;white-space:nowrap}
 .entete-pro:hover{filter:brightness(1.05)}
+.partager{flex:none;border:1px solid var(--ligne);background:var(--bg);border-radius:999px;width:36px;height:36px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;padding:0;color:var(--bleu)}
+.partager svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}
+@media (max-width:420px){ .partager{width:32px;height:32px} .partager svg{width:16px;height:16px} }
 select.langue{width:auto;flex:none;border:1px solid var(--ligne);background-color:var(--bg);color:var(--texte);border-radius:999px;
   padding:6px 26px 6px 12px;font-size:14px;font-weight:700;cursor:pointer;background-position:calc(100% - 13px) 50%,calc(100% - 8px) 50%}
 html[dir="rtl"] select.langue{padding:6px 12px 6px 26px;background-position:13px 50%,18px 50%}

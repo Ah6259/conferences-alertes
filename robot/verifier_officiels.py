@@ -62,6 +62,8 @@ def tester(url):
     except Exception as e:
         if "CERTIFICATE_VERIFY_FAILED" in str(e):      # certificat du site incomplet : la page marche dans un navigateur
             return "protege", "certificat du site incomplet : à vérifier à la main"
+        if "timed out" in str(e).lower():               # serveur lent ou qui ignore les robots : pas une page disparue
+            return "protege", "ne répond pas aux robots (délai dépassé) : à vérifier à la main"
         return "injoignable", str(e)[:120]
 
 
@@ -69,6 +71,11 @@ def main(jour=None, tester_url=tester, pause=3):
     jour = jour or dt.date.today().isoformat()
     with open(SELECTION, encoding="utf-8") as f:
         sel = json.load(f)
+    try:
+        with open(SORTIE, encoding="utf-8") as f:
+            avant = {r["lien"]: r for r in json.load(f).get("resultats") or []}
+    except (OSError, ValueError, KeyError, TypeError):
+        avant = {}
     cache, res = {}, []
     for c in sel.get("conferences") or []:
         if str(c.get("fin") or "") < jour:
@@ -79,9 +86,16 @@ def main(jour=None, tester_url=tester, pause=3):
         else:
             etat, detail = tester_url(url)
             time.sleep(pause)
+            if etat == "injoignable":               # deuxième essai un peu plus tard (serveur lent, coupure passagère)
+                time.sleep(pause * 10)
+                etat, detail = tester_url(url)
+            if etat == "injoignable" and (avant.get(url) or {}).get("etat") not in ("injoignable", "casse"):
+                etat, detail = "injoignable", detail + " (1re fois : on attend le mois prochain avant d'alerter)"
+            elif etat == "injoignable":
+                etat = "casse"
         res.append({"acronyme": c.get("acronyme"), "lien": url, "etat": etat, "detail": detail})
         print(f"  {etat:12} {c.get('acronyme')} — {detail}")
-    casses = [r for r in res if r["etat"] == "injoignable"]
+    casses = [r for r in res if r["etat"] == "casse"]       # injoignable 2 mois de suite = alerte
     d = {"verifie_le": jour, "nombre": len(res), "injoignables": len(casses),
          "a_verifier_a_la_main": sum(1 for r in res if r["etat"] == "protege"), "resultats": res}
     tmp = SORTIE + ".tmp"

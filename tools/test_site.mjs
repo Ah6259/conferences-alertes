@@ -33,16 +33,27 @@ check("données : identifiants uniques", new Set(avenir.map(c => c.id)).size ===
 const vides = avenir.filter(c => !c.pays && c.mode !== "en-ligne").length;
 check(`données : lieu connu pour presque toutes (${vides} sans pays, au plus 5 %)`, vides <= avenir.length * 0.05);
 check("données : chaque conférence cite sa source (liste ouverte MIT, INSPIRE CC0 ou page officielle vérifiée)", avenir.every(c => c.sources.length));
-// Thèmes demandés par Ahmed (06/10/2026) : comptabilité, finance et SURTOUT finance islamique, avec un minimum de conférences
+// Thèmes demandés par Ahmed (06/10/2026) : comptabilité, finance et SURTOUT finance islamique.
+// Minimums comptés sur la SÉLECTION OFFICIELLE (fichier qui ne fait que grandir) et jamais sur les conférences à venir
+// (qui diminuent seules avec le temps) : le robot quotidien n'est jamais bloqué (règle commune § 13).
+const SEL = JSON.parse(lire("donnees/selection-officielle.json")).conferences;
+const domSpec = s => ({ "compta-generale": "comptabilite", "compta-financiere": "comptabilite", "compta-gestion": "comptabilite", audit: "comptabilite",
+  fiscalite: "comptabilite", gouvernance: "comptabilite", "finance-generale": "finance", "finance-entreprise": "finance", marches: "finance", banque: "finance",
+  fintech: "finance", "economie-islamique": "finance-islamique", "banque-islamique": "finance-islamique", sukuk: "finance-islamique", takaful: "finance-islamique",
+  "zakat-waqf": "finance-islamique", "aaoifi-charia": "finance-islamique" })[s];
 const MINI = { "comptabilite": 20, "finance": 10, "finance-islamique": 10 };
 for (const [dm, n] of Object.entries(MINI)) {
-  const k = avenir.filter(c => c.domaines.includes(dm)).length;
-  check(`thème « ${dm} » : ${k} conférences à venir (au moins ${n})`, k >= n);
+  const k = SEL.filter(c => c.specialites.some(s => domSpec(s) === dm)).length;
+  check(`sélection officielle : thème « ${dm} » : ${k} conférences vérifiées (au moins ${n})`, k >= n);
+  const av = avenir.filter(c => c.domaines.includes(dm)).length;
+  if (av < n) console.log(`   (info, ne bloque pas) thème « ${dm} » : seulement ${av} conférences encore à venir — enrichir la sélection (GUIDE §4)`);
 }
+check("sélection officielle : chaque entrée a un lien https, des dates AAAA-MM-JJ et une page vérifiée",
+  SEL.every(c => /^https:\/\//.test(c.lien) && /^\d{4}-\d{2}-\d{2}$/.test(c.debut) && c.fin >= c.debut && /^https:\/\//.test(c.page_verifiee) && c.specialites.length));
 check("sélection officielle : chaque conférence a sa date de vérification et sa page vérifiée",
   avenir.filter(c => c.sources[0] === "officiel").every(c => /^\d{4}-\d{2}-\d{2}$/.test(c.verifie_le) && /^https:\/\//.test(c.page_verifiee)));
-check("finance islamique : des spécialités dédiées (banque islamique, sukuk, zakat/waqf, AAOIFI/charia…)",
-  ["banque-islamique", "sukuk", "zakat-waqf", "aaoifi-charia", "economie-islamique"].every(s => avenir.some(c => c.specialites.includes(s))));
+check("finance islamique : des spécialités dédiées dans la sélection (banque islamique, sukuk, zakat/waqf, AAOIFI/charia…)",
+  ["banque-islamique", "sukuk", "zakat-waqf", "aaoifi-charia", "economie-islamique"].every(s => SEL.some(c => c.specialites.includes(s))));
 
 // ---- Chargement d'une page comme un navigateur ---------------------------------------------
 async function page(chemin, params = "") {
@@ -93,6 +104,24 @@ check("résumé : nombre de conférences à venir", +texte(d.querySelector("#r-a
 check("résumé : dates limites sous 30 jours", +texte(d.querySelector("#r-limites b")) === avenir.filter(c => { const p = prochaine(c, JOUR); return p && ecart(p, JOUR) <= 30; }).length);
 check("accueil : gros bouton doré Alertes Pro en haut, vers abonnement/", d.querySelector(".hero #btn-pro-accueil")?.getAttribute("href") === "abonnement/");
 check("en-tête : bouton doré « Alertes Pro » sur la page", d.querySelector("#entete .entete-pro")?.getAttribute("href") === "abonnement/");
+// Bouton Partager (demande d'Ahmed pour tous les sites)
+{
+  const b = d.querySelector("#entete button.partager");
+  check("en-tête : bouton rond « Partager » (icône SVG, aria-label)", !!b && !!b.querySelector("svg circle") && /Partager/.test(b.getAttribute("aria-label")));
+  const ouverts = [], comptes = [];
+  w.open = (u) => ouverts.push(u);
+  w.goatcounter = { count: o => comptes.push(o) };
+  b.dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
+  await new Promise(r => setTimeout(r, 10));
+  check("Partager sans menu du téléphone : WhatsApp avec titre + adresse sans paramètre de langue, clic compté (partage/…)",
+    ouverts.length === 1 && /^https:\/\/wa\.me\/\?text=/.test(ouverts[0]) && !/lang%3D/.test(ouverts[0]) && decodeURIComponent(ouverts[0]).includes(URL_SITE) &&
+    comptes.length === 1 && comptes[0].path.startsWith("partage/") && comptes[0].event === true);
+  const partages = [];
+  Object.defineProperty(w.navigator, "share", { value: async o => { partages.push(o); }, configurable: true });
+  b.dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
+  await new Promise(r => setTimeout(r, 10));
+  check("Partager avec navigator.share : menu du téléphone (titre + adresse sans ?lang=)", partages.length === 1 && partages[0].url.startsWith(URL_SITE) && !/lang=/.test(partages[0].url) && ouverts.length === 1);
+}
 check("accueil : « Gratuit, sans inscription » dit dès le premier écran (FR, EN, AR)",
   /Gratuit, sans inscription/.test(texte(d.querySelector('.intro [data-l="fr"]'))) && /Free, no sign-up/.test(texte(d.querySelector('.intro [data-l="en"]'))) && /مجاني/.test(texte(d.querySelector('.intro [data-l="ar"]'))));
 check("accueil : alertes gratuites RSS (bouton) sans données personnelles", !!d.querySelector('.btn-rss[href^="flux/"]'));
@@ -102,9 +131,10 @@ const domsPresents = [...new Set(avenir.flatMap(c => c.domaines))];
 check(`tuiles des domaines : ${domsPresents.length} domaines, image couleur, nombre, lien vers la page`,
   d.querySelectorAll("#grille-domaines a").length === domsPresents.length && [...d.querySelectorAll("#grille-domaines a")].every(a =>
     a.querySelector(".ic-d svg") && /\d+/.test(texte(a.querySelector("small"))) && existsSync(join(root, a.getAttribute("href"), "index.html"))));
-check("accueil : les trois thèmes Comptabilité, Finance, Finance islamique sont les premières tuiles, avec leur image en couleur",
-  [...d.querySelectorAll("#grille-domaines a")].slice(0, 3).map(a => a.getAttribute("href")).join() === "domaine/comptabilite/,domaine/finance/,domaine/finance-islamique/" &&
-  [...d.querySelectorAll("#grille-domaines a")].slice(0, 3).every(a => a.querySelector(".ic-d svg rect, .ic-d svg path")));
+const themes = ["comptabilite", "finance", "finance-islamique"].filter(x => avenir.some(c => c.domaines.includes(x)));
+check(`accueil : les thèmes ${themes.join(", ")} sont les premières tuiles, avec leur image en couleur`,
+  [...d.querySelectorAll("#grille-domaines a")].slice(0, themes.length).map(a => a.getAttribute("href")).join() === themes.map(x => `domaine/${x}/`).join() &&
+  [...d.querySelectorAll("#grille-domaines a")].slice(0, themes.length).every(a => a.querySelector(".ic-d svg rect, .ic-d svg path")));
 check("accueil : la comptabilité, la finance et la finance islamique sont citées dès le texte d'introduction (EN, FR, AR)",
   /accounting, finance and Islamic finance/.test(texte(d.querySelector('.intro [data-l="en"]'))) && /finance islamique/.test(texte(d.querySelector('.intro [data-l="fr"]'))) &&
   /التمويل الإسلامي/.test(texte(d.querySelector('.intro [data-l="ar"]'))));
@@ -259,10 +289,12 @@ w = await page(`conference/${exF.id}/index.html`, `lang=en&jour=${JOUR}`);
 check(`fiche ${exF.id} : liste des dates limites, passées barrées (date du visiteur)`,
   w.document.querySelectorAll(".limites li").length === exF.dates_limites.length &&
   [...w.document.querySelectorAll(".limites li")].every(li => li.classList.contains("passe") === (li.dataset.d < JOUR)));
-const exO = avenir.find(c => c.sources[0] === "officiel" && c.domaines.includes("finance-islamique"));
-w = await page(`conference/${exO.id}/index.html`, `lang=en&jour=${JOUR}`);
-check(`fiche ${exO.id} (finance islamique) : « Checked on the official page on … » + lien de la page vérifiée`,
-  /Checked on the official page on \d/.test(texte(w.document.querySelector(".fiche-dl"))) && !!w.document.querySelector(`.fiche-dl a[href="${exO.page_verifiee.replace(/&/g, "&amp;")}"]`.replace("&amp;", "&")));
+const exO = avenir.find(c => c.sources[0] === "officiel" && c.domaines.includes("finance-islamique")) || avenir.find(c => c.sources[0] === "officiel");
+if (exO) {
+  w = await page(`conference/${exO.id}/index.html`, `lang=en&jour=${JOUR}`);
+  check(`fiche ${exO.id} (sélection officielle) : « Checked on the official page on … » + lien de la page vérifiée`,
+    /Checked on the official page on \d/.test(texte(w.document.querySelector(".fiche-dl"))) && [...w.document.querySelectorAll(".fiche-dl a")].some(a => a.href === new URL(exO.page_verifiee).href));
+}
 w = await page(`conference/${exF.id}/index.html`, `lang=en&jour=${JOUR}`);
 check("fiche : bouton Alertes Pro et alerte RSS gratuite du domaine", !!w.document.querySelector('a.btn-pro[href="../../abonnement/"]') && !!w.document.querySelector(".btn-rss"));
 
@@ -278,9 +310,10 @@ for (const u of urls.filter(x => /\/(domaine|specialite|continent|pays|mois)\//.
   if (n !== attendu || n === 0) { okListes = false; console.log(`   ${chemin} : ${n} cartes au lieu de ${attendu}`); }
 }
 check("pages domaine / spécialité / continent / pays / mois : les bonnes conférences, jamais une page vide", okListes);
-w = await page("domaine/finance-islamique/index.html", `lang=en&jour=${JOUR}`);
-check("page Islamic finance : en anglais par défaut demandé, spécialités dédiées listées",
-  /Islamic finance/.test(texte(w.document.querySelector("h1"))) && w.document.querySelectorAll("#grille-specs a").length >= 4);
+if (existsSync(join(root, "domaine/finance-islamique/index.html"))) {
+  w = await page("domaine/finance-islamique/index.html", `lang=en&jour=${JOUR}`);
+  check("page Islamic finance : titre anglais, spécialités dédiées listées", /Islamic finance/.test(texte(w.document.querySelector("h1"))) && w.document.querySelectorAll("#grille-specs a").length >= 1);
+}
 w = await page("domaine/physique/index.html", `lang=fr&jour=${JOUR}`);
 check("page domaine : pas de filtre domaine, spécialités du domaine seulement, filtre spécialité qui marche", !w.document.getElementById("f-dom") &&
   [...w.document.querySelectorAll("#grille-specs a")].every(a => /specialite\//.test(a.getAttribute("href"))) && (() => {

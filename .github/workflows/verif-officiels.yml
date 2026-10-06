@@ -42,11 +42,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           N=$(python -c "import json;print(json.load(open('donnees/verification-officielle.json',encoding='utf-8'))['injoignables'])")
-          LISTE=$(python -c "import json;d=json.load(open('donnees/verification-officielle.json',encoding='utf-8'));print(chr(10).join('- '+r['acronyme']+' : '+r['lien']+' ('+r['detail']+')' for r in d['resultats'] if r['etat']=='injoignable'))")
+          LISTE=$(python -c "import json;d=json.load(open('donnees/verification-officielle.json',encoding='utf-8'));print(chr(10).join('- '+r['acronyme']+' : '+r['lien']+' ('+r['detail']+')' for r in d['resultats'] if r['etat']=='casse'))")
           NUM=$(gh issue list --state open --search "Sélection officielle : liens à revérifier in:title" --json number --jq '.[0].number // empty')
           if [ "$N" != "0" ]; then
             if [ -z "$NUM" ]; then
-              gh issue create --title "Sélection officielle : liens à revérifier" --body "Ces liens officiels ne répondent plus :
+              gh issue create --title "Sélection officielle : liens à revérifier" --body "Ces liens officiels ne répondent plus depuis deux vérifications mensuelles :
 
           $LISTE
 

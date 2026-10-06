@@ -27,6 +27,7 @@
             <small>${T("Conférences scientifiques · dates limites", "Academic conferences · deadlines", "مؤتمرات علمية · آجال الإرسال")}</small></span>
         </a>
         <div class="entete-boutons">
+          <button class="partager" type="button" aria-label="${T("Partager cette page", "Share this page", "شارك هذه الصفحة")}" title="${T("Partager", "Share", "شارك")}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
           <a class="entete-pro" href="${racine}abonnement/">${T("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a>
           <select class="langue" aria-label="Langue / Language / اللغة">
             <option value="fr"${html.lang === "fr" ? " selected" : ""}>FR</option>
@@ -62,6 +63,16 @@
       </div>`;
     document.querySelectorAll("select.langue").forEach(s =>
       s.addEventListener("change", () => appliquer(s.value)));
+    // bouton Partager (demande d'Ahmed, tous les sites) : menu de partage du téléphone, sinon WhatsApp avec le lien ;
+    // chaque clic compté anonymement dans GoatCounter (« partage/<page> »)
+    document.querySelectorAll(".partager").forEach(b => b.addEventListener("click", async () => {
+      const url = location.href.split("#")[0].replace(/([?&])lang=(fr|en|ar)&?/, "$1").replace(/[?&]$/, "");
+      const titre = document.title.split(" | ")[0];
+      const base = "/conferences-alertes/";
+      try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "partage/" + location.pathname.replace(base, ""), title: "Partage", event: true }); } catch (e) {}
+      if (navigator.share) { try { await navigator.share({ title: titre, text: titre, url }); return; } catch (e) { if (e && e.name === "AbortError") return; } }
+      window.open("https://wa.me/?text=" + encodeURIComponent(titre + " " + url), "_blank", "noopener");
+    }));
   }
 
   // Dates dans la langue de la page : « 5–7 oct. 2026 », « 5–7 Oct 2026 », « ⁦5–7⁩ أكتوبر ⁦2026⁩ »
