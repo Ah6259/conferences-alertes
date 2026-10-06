@@ -1,0 +1,18 @@
+{
+  "id": "/conferences-alertes/",
+  "name": "Conference Radar — Radar des conférences",
+  "short_name": "Conferences",
+  "description": "Free: upcoming academic conferences by field and specialty, with submission deadlines. Gratuit : conférences scientifiques à venir et dates limites.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "lang": "en",
+  "dir": "auto",
+  "theme_color": "#3B2F96",
+  "background_color": "#F4F4FA",
+  "icons": [
+    {"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

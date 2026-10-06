@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Language &amp; speech processing</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-langage.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-langage.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/acl-2027/</id>
+<title>ACL 2027 — Annual Meeting of the Association for Computational Linguistics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/acl-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>17–22 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027 · Official: https://2027.aclweb.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/naacl-2027/</id>
+<title>NAACL 2027 — The Annual Conference of the North American Chapter of the Association for Computational Linguistics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/naacl-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>1–5 Jun 2027 · San Francisco, United States · Deadline: 12 Oct 2026, 23 Dec 2026 · Official: https://2027.naacl.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/coling-2027/</id>
+<title>COLING 2027 — International Conference on Computational Linguistics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/coling-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>9–14 May 2027 · Macau SAR, China · Deadline: 12 Oct 2026, 23 Dec 2026 · Official: https://2027.coling-iccl.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iclr-2027/</id>
+<title>ICLR 2027 — International Conference on Learning Representations</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iclr-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>26–30 Apr 2027 · San Francisco, United States · Deadline: 18 Sep 2026, 25 Sep 2026 · Official: https://iclr.cc/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/eacl-2027/</id>
+<title>EACL 2027 — The Annual Conference of the European Chapter of the Association for Computational Linguistics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/eacl-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>9–14 Mar 2027 · Athens, Greece · Deadline: 3 Aug 2026, 11 Oct 2026 · Official: https://2027.eacl.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/aaai-2027/</id>
+<title>AAAI 2027 — AAAI Conference on Artificial Intelligence</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/aaai-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–23 Feb 2027 · Montréal, Canada · Deadline: 21 Jul 2026, 28 Jul 2026 · Official: https://aaai.org/conference/aaai/aaai-27/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ijcnlp-2026/</id>
+<title>IJCNLP 2026 — International Joint Conference on Natural Language Processing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ijcnlp-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>6–10 Nov 2026 · Hengqin, China · Deadline: 25 May 2026, 7 Aug 2026, 25 Aug 2026 · Official: https://2026.aaclnet.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/nlpcc-2026/</id>
+<title>NLPCC 2026 — CCF International Conference on Natural Language Processing and Chinese Computing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/nlpcc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–5 Nov 2026 · Macau, China · Deadline: 20 Jun 2026 · Official: https://tcci.ccf.org.cn/conference/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/emnlp-2026/</id>
+<title>EMNLP 2026 — The annual Conference on Empirical Methods in Natural Language Processing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/emnlp-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>25–27 Oct 2026 · Budapest, Hungary · Deadline: 2 Aug 2026 · Official: https://2026.emnlp.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/emnlp-industry-track-2026/</id>
+<title>EMNLP (Industry Track) 2026 — The annual Conference on Empirical Methods in Natural Language Processing (Industry Track)</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/emnlp-industry-track-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–29 Oct 2026 · HUNGEXPO Budapest Congress &amp; Exhibition Center, Hungary · Deadline: see official website · Official: https://2026.emnlp.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/emnlp-system-demonstrations-track-2026/</id>
+<title>EMNLP (System Demonstrations Track) 2026 — The annual Conference on Empirical Methods in Natural Language Processing (System Demonstrations Track)</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/emnlp-system-demonstrations-track-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–29 Oct 2026 · HUNGEXPO Budapest Congress &amp; Exhibition Center, Hungary · Deadline: 10 Jul 2026 · Official: https://2026.emnlp.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/inlg-2026/</id>
+<title>INLG 2026 — International Conference on Natural Language Generation</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/inlg-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>17–21 Oct 2026 · Utrecht, Netherlands · Deadline: see official website · Official: https://2026.inlgmeeting.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/colm-2026/</id>
+<title>COLM 2026 — Conference on Language Modeling</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/colm-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>6–8 Oct 2026 · Hilton Union Square, United States · Deadline: 26 Mar 2026, 31 Mar 2026 · Official: https://colm.cc/Conferences/2026/CallForPapers</summary>
+</entry>
+</feed>

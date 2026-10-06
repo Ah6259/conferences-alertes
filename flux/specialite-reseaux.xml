@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Networks &amp; communications</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-reseaux.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-reseaux.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mobicom-2027/</id>
+<title>MobiCom 2027 — ACM Annual International Conference On Mobile Computing And Networking</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mobicom-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–22 Oct 2027 ·  · Deadline: 26 Aug 2026, 2 Sep 2026 · Official: https://www.sigmobile.org/mobicom/2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sigcomm-2027/</id>
+<title>SIGCOMM 2027 — ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sigcomm-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>8–12 Aug 2027 · Bangkok, Thailand · Deadline: see official website · Official: https://conferences.sigcomm.org/sigcomm/2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mobisys-2027/</id>
+<title>MobiSys 2027 — ACM International Conference on Mobile Systems, Applications, and Services</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mobisys-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>21–25 Jun 2027 · Ho Chi Minh City, Vietnam · Deadline: 27 Nov 2026, 4 Dec 2026 · Official: https://www.sigmobile.org/mobisys/2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/wowmom-2027/</id>
+<title>WoWMoM 2027 — IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/wowmom-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>21–24 Jun 2027 · Irvine, United States · Deadline: 1 Dec 2026 · Official: https://wowmom2027.dii.unipi.it/index.html</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icc-2027/</id>
+<title>ICC 2027 — IEEE International Conference on Communications</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icc-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>30 May – 3 Jun 2027 · Washington, United States · Deadline: 16 Oct 2026 · Official: https://icc2027.ieee-icc.org</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/infocom-2027/</id>
+<title>INFOCOM 2027 — IEEE International Conference on Computer Communications</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/infocom-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–27 May 2027 · Honolulu, United States · Deadline: 24 Jul 2026, 31 Jul 2026 · Official: https://infocom2027.ieee-infocom.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sensys-2027/</id>
+<title>SenSys 2027 — ACM Conference on Embedded Networked Sensor Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sensys-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>17–20 May 2027 · Boulder, United States · Deadline: 29 May 2026, 5 Jun 2026, 29 Oct 2026 · Official: https://sensys.acm.org/2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/nsdi-2027/</id>
+<title>NSDI 2027 — USENIX Symposium on Networked Systems Design and Implementation</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/nsdi-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–13 May 2027 · Providence, United States · Deadline: 16 Apr 2026, 23 Apr 2026, 10 Sep 2026 · Official: https://www.usenix.org/conference/nsdi27</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/secon-2027/</id>
+<title>SECON 2027 — IEEE International Conference on Sensing, Communication, and Networking</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/secon-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>5–7 May 2027 · Lisbon, Portugal · Deadline: 30 Nov 2026 · Official: https://secon2027.ieee-secon.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/wcnc-2027/</id>
+<title>WCNC 2027 — IEEE Wireless Communications and Networking Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/wcnc-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>5–8 Apr 2027 · Panama City, Panama · Deadline: 15 Sep 2026 · Official: https://wcnc2027.ieee-wcnc.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mmsys-2027/</id>
+<title>MMSys 2027 — ACM International Conference on Multimedia Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mmsys-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>30 Mar – 2 Apr 2027 · Ghent, Belgium · Deadline: 17 Sep 2026, 17 Sep 2026, 12 Nov 2026 · Official: https://2027.acmmmsys.org</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/msn-2026/</id>
+<title>MSN 2026 — International Conference on Mobility, Sensing and Networking</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/msn-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–20 Dec 2026 · Ningbo, China · Deadline: 30 Aug 2026 · Official: https://ieee-msn.org/2026</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/conext-2026/</id>
+<title>CoNEXT 2026 — International Conference on Emerging Networking Experiments and Technologies</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/conext-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>7–10 Dec 2026 · Utrecht, Netherlands · Deadline: 5 Dec 2025, 12 Dec 2025, 29 May 2026 · Official: https://conferences.sigcomm.org/co-next/2026/#!/home</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/globecom-2026/</id>
+<title>GLOBECOM 2026 — IEEE Global Communications Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/globecom-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>7–11 Dec 2026 · Macao, China · Deadline: 3 May 2026 · Official: https://globecom2026.ieee-globecom.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/wicon-2026/</id>
+<title>WiCON 2026 — International Wireless Internet Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/wicon-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>2–4 Dec 2026 · Bratislava, Slovakia · Deadline: 30 Sep 2026 · Official: https://wicon.eai-conferences.org/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mobihoc-2026/</id>
+<title>MobiHoc 2026 — International Symposium on Mobile Ad Hoc Networking and Computing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mobihoc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>23–25 Nov 2026 · Tokyo, Japan · Deadline: 13 Apr 2026 · Official: https://www.sigmobile.org/mobihoc/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/hotnets-2026/</id>
+<title>HotNets 2026 — ACM Workshop on Hot Topics in Networks</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/hotnets-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–17 Nov 2026 · Salt Lake City, United States · Deadline: 16 Jul 2026, 16 Jul 2026 · Official: https://conferences.sigcomm.org/hotnets/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mswim-2026/</id>
+<title>MSWiM 2026 — International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mswim-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>27–29 Oct 2026 · Paris, France · Deadline: 14 Jun 2026, 15 Jun 2026 · Official: https://mswimconf.com/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mobicom-2026/</id>
+<title>MobiCom 2026 — ACM Annual International Conference On Mobile Computing And Networking</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mobicom-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>26–29 Oct 2026 · Austin, United States · Deadline: 27 Aug 2025, 3 Sep 2025, 6 Mar 2026 · Official: https://sigmobile.org/mobicom/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/imc-2026/</id>
+<title>IMC 2026 — ACM Internet Measurement Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/imc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>13–16 Oct 2026 · Karlsruhe, Germany · Deadline: 13 Nov 2025, 20 Nov 2025, 22 Apr 2026 · Official: https://conferences.sigcomm.org/imc/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/lcn-2026/</id>
+<title>LCN 2026 — IEEE Conference on Local Computer Networks</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/lcn-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>7–9 Oct 2026 · Coimbra, Portugal · Deadline: 4 May 2026, 4 May 2026 · Official: https://www.ieeelcn.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icnp-2026/</id>
+<title>ICNP 2026 — IEEE International Conference on Network Protocols</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icnp-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>6–8 Oct 2026 · Tempe, United States · Deadline: 15 May 2026, 22 May 2026 · Official: https://icnp26.cs.ucr.edu/</summary>
+</entry>
+</feed>

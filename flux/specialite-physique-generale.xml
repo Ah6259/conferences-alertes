@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — General physics</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-physique-generale.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-physique-generale.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icagac2027/</id>
+<title>ICAGAC2027 — 2nd International Conference on Advances in Gravitation, Astrophysics and Cosmology — ICAGAC2027</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icagac2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–19 Oct 2027 · Nice, France · Deadline: see official website · Official: https://astrophysics2027.pagesconferences.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/tg2027/</id>
+<title>TG2027 — 6th Testing Gravity 2027</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/tg2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>27–30 Jan 2027 · Vancouver, Canada · Deadline: see official website · Official: https://www.sfu.ca/physics/cosmology/TestingGravity2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/dark-matter-2027/</id>
+<title>Dark Matter 2027 — Saas Fee Advanced Doctoral Workshop 2027 — From Astrophysics to Particle Physics: Cold Dark Matter and Beyond.</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/dark-matter-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–29 Jan 2027 · Saas Fee, Switzerland · Deadline: see official website · Official: https://saasfee2027.ch/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/neutrino-geoscience-2026-and-2026-fall-school-on/</id>
+<title>Neutrino Geoscience 2026 and 2026 Fall School on Interdisciplinary Neutrino Science</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/neutrino-geoscience-2026-and-2026-fall-school-on/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–19 Nov 2026 · Zhuhai, China · Deadline: see official website · Official: https://ifcen.sysu.edu.cn/nu-geoscience2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/2026-asia-communications-and-photonics/</id>
+<title>2026 Asia Communications and Photonics Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/2026-asia-communications-and-photonics/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>1–4 Nov 2026 · Hangzhou, China · Deadline: see official website · Official: https://acpconf.com/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/astro-colibri-2026/</id>
+<title>Astro-COLIBRI 2026 — 5th Astro-COLIBRI Multi-Messenger Astrophysics Workshop</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/astro-colibri-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–16 Oct 2026 · Paris-Saclay, France · Deadline: see official website · Official: https://www.multimessenger-astrophysics.com</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/the-acme-hands-on-observational-school-in-optical-2026/</id>
+<title>The ACME Hands-On Observational School in Optical Follow-Up of Transients — PhD School</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/the-acme-hands-on-observational-school-in-optical-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–16 Oct 2026 · Asiago, Italy · Deadline: see official website · Official: https://acme-asiago-sch.sciencesconf.org/</summary>
+</entry>
+</feed>

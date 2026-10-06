@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Banking &amp; financial intermediation</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-banque.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-banque.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/firs-2027/</id>
+<title>FIRS 2027 — 2027 Financial Intermediation Research Society (FIRS) Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/firs-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>3–5 Jun 2027 · Glasgow, United Kingdom · Deadline: see official website · Official: https://firsociety.org/conference/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/gerzensee-fi-2027/</id>
+<title>Gerzensee FI 2027 — BIS-CEPR-Gerzensee-SFI Conference on Financial Intermediation</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/gerzensee-fi-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>2–5 May 2027 · Gerzensee, Switzerland · Deadline: 20 Nov 2026 · Official: https://cepr.org/events/bis-cepr-gerzensee-sfi-conference-financial-intermediation-2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/afbc-2026/</id>
+<title>AFBC 2026 — 39th Australasian Finance and Banking Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/afbc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>10–12 Dec 2026 · Sydney, Australia · Deadline: 10 Aug 2026 · Official: https://www.unsw.edu.au/business/our-research/research-centres-institutes/institute-of-global-finance/annual-australasian-finance-and-banking-conference/39th-australasian-finance-and-banking-conference</summary>
+</entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Financial accounting &amp; IFRS</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-compta-financiere.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-compta-financiere.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/jaaf-2027/</id>
+<title>JAAF 2027 — Journal of Accounting, Auditing and Finance (JAAF) Annual Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/jaaf-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>9–12 Jul 2027 · Sofia, Bulgaria · Deadline: 27 Feb 2027 · Official: https://www.jaafconference2027.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/aaa-fars-midyear-2027/</id>
+<title>AAA FARS Midyear 2027 — AAA Financial Accounting and Reporting Section (FARS) Midyear Meeting</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/aaa-fars-midyear-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>21–23 Jan 2027 · San Francisco, United States · Deadline: 14 Sep 2026 · Official: https://aaahq.org/Meetings/2027/FARS-Midyear-Meeting</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/rast-iasb-2026/</id>
+<title>RAST-IASB 2026 — Review of Accounting Studies – IASB Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/rast-iasb-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–5 Dec 2026 · Vancouver, Canada · Deadline: 22 May 2026 · Official: https://www.london.edu/faculty-and-research/accounting/review-of-accounting-studies</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/riarf-2026/</id>
+<title>RIARF 2026 — Regional International Accounting Research Forum</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/riarf-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>19 Oct 2026 · Palma de Mallorca, Spain · Deadline: 15 Sep 2026 · Official: https://riarf.uib.es/</summary>
+</entry>
+</feed>

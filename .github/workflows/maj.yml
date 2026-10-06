@@ -1,0 +1,113 @@
+# Mise à jour quotidienne : collecte des conférences (listes ouvertes MIT + INSPIRE-HEP) -> construction du site -> tests
+# -> alertes Telegram par domaine (si les secrets existent) -> commit (GitHub Pages republie tout seul).
+# En cas de panne d'une source : anciennes conférences gardées, issue GitHub « Sources des conférences en panne depuis le … »
+# ouverte (ou complétée), puis refermée automatiquement quand tout remarche.
+name: maj-conferences
+on:
+  schedule:
+    - cron: "20 4 * * *"       # 5h20 heure de Tunis, chaque jour
+  workflow_dispatch:
+concurrency:
+  group: maj-site              # groupe commun à tous les robots qui écrivent dans ce dépôt
+  cancel-in-progress: false
+permissions:
+  contents: write
+  issues: write
+env:
+  TZ: Africa/Tunis
+  PYTHONIOENCODING: utf-8
+jobs:
+  maj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Outils
+        run: |
+          pip install --quiet pyyaml
+          npm install --no-save --no-package-lock jsdom
+
+      - name: Collecte lente des conférences (sources ouvertes)
+        id: lecture
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          set +e
+          python robot/collecter.py
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          exit 0     # une panne ne doit pas arrêter le robot : le site garde les anciennes données
+
+      - name: Construction du site
+        run: |
+          python robot/construire_site.py
+
+      - name: Tests (le site n'est publié que si tout est bon)
+        run: |
+          node tools/test_site.mjs
+          node tools/test_sw.mjs
+          node tools/test_avis.mjs
+          python tools/test_pannes.py
+
+      - name: Alertes Telegram par domaine (rien si les secrets n'existent pas)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CANAUX: ${{ secrets.TELEGRAM_CANAUX }}
+        run: |
+          python robot/telegram.py || echo "échec : alertes Telegram (le site n'est pas touché)"
+
+      - name: Commit des données et des pages
+        run: |
+          git config user.name "robot-conferences"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A          # tout ce que le robot a changé (node_modules et captures sont ignorés par .gitignore)
+          if git diff --cached --quiet; then echo "Rien de nouveau."; exit 0; fi
+          git commit -m "Conférences du $(date +'%d/%m/%Y %H:%M')"
+          git push
+
+      - name: Alerte si une source est en panne (issue GitHub)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CODE_LECTURE: ${{ steps.lecture.outputs.code }}
+        run: |
+          python - <<'PY' > alerte.env
+          import json, os, shlex
+          e = json.load(open("donnees/etat-source.json", encoding="utf-8"))
+          panne = e["source_en_panne"]
+          raison = e.get("raison") or ""
+          if os.environ.get("CODE_LECTURE", "0") != "0" and not panne:
+              panne, raison = True, "le robot de collecte s'est arrêté en erreur (voir le journal)"
+          d = (e.get("depuis") or e.get("derniere_lecture_reussie") or "")[:10]
+          q = lambda v: shlex.quote(str(v))
+          print(f"PANNE={'1' if panne else '0'}")
+          print("DEPUIS=" + q(f"{d[8:10]}/{d[5:7]}/{d[0:4]}" if d else "?"))
+          print("RAISON=" + q(raison))
+          print("DERNIERE=" + q(e.get("derniere_lecture_reussie") or "?"))
+          PY
+          cat alerte.env
+          set -a; . ./alerte.env; set +a
+          JOURNAL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          NUM=$(gh issue list --state open --search "Sources des conférences en panne in:title" --json number --jq '.[0].number // empty')
+          if [ "$PANNE" = "1" ]; then
+            if [ -z "$NUM" ]; then
+              gh issue create --title "Sources des conférences en panne depuis le $DEPUIS" --body "Le robot n'a pas pu lire correctement une ou plusieurs sources.
+
+          - Raison : $RAISON
+          - Dernière lecture réussie : $DERNIERE
+          - Journal : $JOURNAL
+
+          Le site garde les anciennes conférences de la source en panne (30 jours au plus ; les conférences terminées disparaissent seules).
+          Un bandeau daté prévient les visiteurs si aucune source n'a pu être lue depuis 2 jours.
+          Cette issue se fermera toute seule quand tout remarchera. Que faire : voir README, section « Plan de continuité »."
+            else
+              gh issue comment "$NUM" --body "Toujours en panne ($(date +'%d/%m/%Y %H:%M')). Raison : $RAISON. Journal : $JOURNAL"
+            fi
+          elif [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "Toutes les sources remarchent : lecture réussie le $DERNIERE. Fermeture automatique."
+          fi

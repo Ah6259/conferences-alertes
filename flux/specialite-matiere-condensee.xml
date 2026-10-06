@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Condensed matter</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-matiere-condensee.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-matiere-condensee.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/meta-2027/</id>
+<title>META 2027 — 17th International Conference on Metamaterials, Photonic Crystals and Plasmonics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/meta-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>13–16 Jul 2027 · Niagara Falls, Canada · Deadline: see official website · Official: https://metaconferences.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icdms2027/</id>
+<title>ICDMS2027 — Dark Matter and Stars: Multi-Messenger Probes of Dark Matter and Modified Gravity</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icdms2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–14 Jul 2027 · Cambridge, United States · Deadline: see official website · Official: https://indico.cern.ch/event/1606005</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sm-ft-2026/</id>
+<title>SM&amp;FT 2026 — SM&amp;FT 2026 – The XX Workshop on Statistical Mechanics and Nonperturbative Field Theory — Frontiers in Computational Physics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sm-ft-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–18 Dec 2026 · Bari, Italy · Deadline: see official website · Official: https://agenda.infn.it/event/49926</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icc-2026/</id>
+<title>ICC 2026 — 6th International Conference on Condensed Matter &amp; Applied Physics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–15 Dec 2026 · Bikaner, India · Deadline: see official website · Official: https://www.iccindia.in/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/juliacon-local-tokyo-2026/</id>
+<title>JuliaCon Local Tokyo 2026</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/juliacon-local-tokyo-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–5 Dec 2026 · Kashiwa, Chiba, Japan · Deadline: see official website · Official: https://juliacon.org/local/tokyo2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sql26-2026/</id>
+<title>SQL26 2026 — Sensing with Quantum Light</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sql26-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>9–13 Nov 2026 · Cologne, Germany · Deadline: see official website · Official: https://www.sqlkonferenz.com</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/mitp-topical-workshop-critical-stability-of-few-2026/</id>
+<title>MITP Topical Workshop: Critical Stability of Few-Body Quantum Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/mitp-topical-workshop-critical-stability-of-few-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>19–23 Oct 2026 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/458/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/novel-developments-in-correlated-quantum-2026/</id>
+<title>Novel Developments in Correlated Quantum Materials</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/novel-developments-in-correlated-quantum-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–16 Oct 2026 · São Paulo, Brazil · Deadline: see official website · Official: https://www.ictp-saifr.org/ndcqm2026/</summary>
+</entry>
+</feed>

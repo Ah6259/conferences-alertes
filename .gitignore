@@ -1,0 +1,7 @@
+node_modules/
+captures/
+*.tmp
+__pycache__/
+# Les preuves (licences, conditions d utilisation) restent sur le PC, jamais publiées
+preuves*/
+alerte.env

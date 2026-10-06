@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Computer vision</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-vision.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-vision.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iccv-2027/</id>
+<title>ICCV 2027 — IEEE International Conference on Computer Vision</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iccv-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/miccai-2027/</id>
+<title>MICCAI 2027 — International Conference on Medical Image Computing and Computer Assisted Intervention</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/miccai-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>26 Sep – 1 Oct 2027 · Auckland, New Zealand · Deadline: see official website · Official: https://conferences.miccai.org/2027/en/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icdar-2027/</id>
+<title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icdar-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 31 Jan 2027, 20 Feb 2027 · Official: https://icdar2027.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/cvpr-2027/</id>
+<title>CVPR 2027 — IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/cvpr-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–25 Jun 2027 · Seattle, United States · Deadline: 10 Nov 2026, 16 Nov 2026 · Official: https://cvpr.thecvf.com/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icra-2027/</id>
+<title>ICRA 2027 — IEEE International Conference on Robotics and Automation</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icra-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–28 May 2027 · Seoul, South Korea · Deadline: 16 Sep 2026 · Official: https://2027.ieee-icra.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iclr-2027/</id>
+<title>ICLR 2027 — International Conference on Learning Representations</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iclr-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>26–30 Apr 2027 · San Francisco, United States · Deadline: 18 Sep 2026, 25 Sep 2026 · Official: https://iclr.cc/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/cvc-2027/</id>
+<title>CVC 2027 — Computer Vision Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/cvc-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>15–16 Apr 2027 · Amsterdam, Netherlands · Deadline: 1 Sep 2026, 1 Oct 2026 · Official: https://saiconference.com/CVC</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/3dv-2027/</id>
+<title>3DV 2027 — International Conference on 3D Vision</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/3dv-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>6–9 Apr 2027 · Thessaloniki, Greece · Deadline: 28 Aug 2026, 28 Aug 2026 · Official: https://3dvconf.github.io/2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/wacv-2027/</id>
+<title>WACV 2027 — IEEE/CVF Winter Conference on Applications of Computer Vision</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/wacv-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–8 Jan 2027 · Disney Springs, United States · Deadline: 21 Aug 2026, 28 Aug 2026 · Official: https://wacv.thecvf.com/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/accv-2026/</id>
+<title>ACCV 2026 — Asian Conference on Computer Vision</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/accv-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–18 Dec 2026 · Osaka, Japan · Deadline: 3 Jul 2026, 5 Jul 2026 · Official: https://accv2026.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/bmvc-2026/</id>
+<title>BMVC 2026 — British Machine Vision Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/bmvc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>23–26 Nov 2026 · Lancaster, United Kingdom · Deadline: 22 May 2026, 29 May 2026 · Official: https://bmvc2026.bmva.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/acm-mm-2026/</id>
+<title>ACM MM 2026 — ACM International Conference on Multimedia</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/acm-mm-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
+</entry>
+</feed>

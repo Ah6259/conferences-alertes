@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Systems, architecture &amp; HPC</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-systemes.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-systemes.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/dac-2027/</id>
+<title>DAC 2027 — Design Automation Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/dac-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–14 Jul 2027 · San Jose, United States · Deadline: 11 Nov 2026, 18 Nov 2026 · Official: https://dac.com/2027/authors/call-for-contributions</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icdcs-2027/</id>
+<title>ICDCS 2027 — IEEE International Conference on Distributed Computing Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icdcs-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>5–8 Jul 2027 · Melbourne, Australia · Deadline: see official website · Official: https://icdcs2027.icdcs.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sigmetrics-2027/</id>
+<title>SIGMETRICS 2027 — ACM Special Interest Group on Measurement and Evaluation</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sigmetrics-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>7–11 Jun 2027 · Atlanta, United States · Deadline: 3 Jul 2026, 10 Jul 2026, 2 Oct 2026 · Official: https://www.sigmetrics.org/sigmetrics2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iscas-2027/</id>
+<title>ISCAS 2027 — IEEE International Symposium on Circuits and Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iscas-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>6–9 Jun 2027 · Bordeaux, France · Deadline: 13 Oct 2026 · Official: https://2027.ieee-iscas.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/spaa-2027/</id>
+<title>SPAA 2027 — ACM Symposium on Parallelism in Algorithms and Architectures</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/spaa-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>5–11 Jun 2027 · Atlanta, United States · Deadline: 18 Sep 2026, 25 Sep 2026, 22 Jan 2027 · Official: https://spaa.acm.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ipdps-2027/</id>
+<title>IPDPS 2027 — IEEE International Parallel and Distributed Processing Symposium</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ipdps-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>1–5 Jun 2027 · Seattle, United States · Deadline: 1 Oct 2026, 8 Oct 2026 · Official: https://www.ipdps.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ccgrid-2027/</id>
+<title>CCGRID 2027 — IEEE International Symposium on Cluster, Cloud and Internet Computing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ccgrid-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–27 May 2027 · Dallas-Fort Worth, United States · Deadline: 24 Nov 2026, 1 Dec 2026 · Official: https://hpcclab.org/ccgrid27/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ets-2027/</id>
+<title>ETS 2027 — IEEE European Test Symposium</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ets-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>24–28 May 2027 · London, United Kingdom · Deadline: 8 Dec 2026, 15 Dec 2026 · Official: https://www.ets2027.co.uk/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/msst-2027/</id>
+<title>MSST 2027 — International Conference on Massive Storage Systems and Technology</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/msst-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>17–21 May 2027 ·  · Deadline: see official website · Official: https://www.msstconference.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/rtas-2027/</id>
+<title>RTAS 2027 — IEEE Real-Time and Embedded Technology and Applications Symposium</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/rtas-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>17–20 May 2027 · Boulder, United States · Deadline: 5 Nov 2026 · Official: https://2027.rtas.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/eurosys-2027/</id>
+<title>EuroSys 2027 — European Conference on Computer Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/eurosys-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>19–23 Apr 2027 · Rabat, Morocco · Deadline: 7 May 2026, 14 May 2026, 17 Sep 2026 · Official: https://2027.eurosys.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/asplos-2027/</id>
+<title>ASPLOS 2027 — International Conference on Architectural Support for Programming Languages and Operating Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/asplos-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–15 Apr 2027 · Crete, Greece · Deadline: 15 Apr 2026, 9 Sep 2026 · Official: https://www.asplos-conference.org/asplos2027/cfp/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ispd-2027/</id>
+<title>ISPD 2027 — International Symposium on Physical Design</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ispd-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>30 Mar – 2 Apr 2027 · Taipei, Taiwan · Deadline: 21 Sep 2026, 28 Sep 2026 · Official: https://ispd.cc/ispd2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/date-2027/</id>
+<title>DATE 2027 — Design, Automation &amp; Test in Europe</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/date-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>22–24 Mar 2027 · Dresden, Germany · Deadline: 13 Sep 2026, 20 Sep 2026 · Official: https://www.date-conference.com/date-2027-call-papers</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/hpca-2027/</id>
+<title>HPCA 2027 — IEEE International Symposium on High-Performance Computer Architecture</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/hpca-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–24 Mar 2027 · Salt Lake City, United States · Deadline: 24 Jul 2026, 31 Jul 2026 · Official: https://conf.researchr.org/home/hpca-2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ieee-acm-cgo-2027/</id>
+<title>IEEE/ACM CGO 2027 — The International Symposium on Code Generation and Optimization</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-acm-cgo-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–24 Mar 2027 · Salt Lake City, United States · Deadline: 11 Jun 2026, 10 Sep 2026 · Official: https://conf.researchr.org/home/cgo-2027</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ppopp-2027/</id>
+<title>PPoPP 2027 — ACM SIGPLAN Symposium on Principles &amp; Practice of Parallel Programming</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ppopp-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–24 Mar 2027 · Salt Lake City, United States · Deadline: 3 Aug 2026 · Official: https://ppopp27.sigplan.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/fpga-2027/</id>
+<title>FPGA 2027 — ACM/SIGDA International Symposium on Field-Programmable Gate Arrays</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/fpga-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>14–16 Mar 2027 · Monterey, United States · Deadline: 1 Oct 2026, 8 Oct 2026 · Official: https://www.isfpga.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/fast-2027/</id>
+<title>FAST 2027 — USENIX Conference on File and Storage Technologies</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/fast-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>23–25 Feb 2027 · Renton, United States · Deadline: 17 Mar 2026, 15 Sep 2026 · Official: https://www.usenix.org/conference/fast27</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/asp-dac-2027/</id>
+<title>ASP-DAC 2027 — Asia and South Pacific Design Automation Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/asp-dac-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>25–28 Jan 2027 · Hitotsubashi Hall, Japan · Deadline: 11 Jul 2026, 18 Jul 2026 · Official: https://www.aspdac.com/aspdac2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/hipeac-2027/</id>
+<title>HiPEAC 2027 — International Conference on High Performance and Embedded Architectures and Compilers</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/hipeac-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–20 Jan 2027 · Glasgow, United Kingdom · Deadline: 1 Jun 2026 · Official: https://www.hipeac.net/2027/glasgow/#/call-for-papers/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ispa-2026/</id>
+<title>ISPA 2026 — IEEE International Symposium on Parallel and Distributed Processing with Applications</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ispa-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>27–30 Dec 2026 · Kuala Lumpur, Malaysia · Deadline: 30 Sep 2026 · Official: https://ieee-ai-for-science.org/2026/ispa/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/fpt-2026/</id>
+<title>FPT 2026 — International Conference on Field Programmable Technology</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/fpt-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>8–10 Dec 2026 · Honolulu, United States · Deadline: 1 May 2026, 19 Jun 2026, 19 Jun 2026 · Official: https://fpt2026.uark.edu</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/pdcat-2026/</id>
+<title>PDCAT 2026 — International Conference on Parallel and Distributed Computing, Applications and Technologies</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/pdcat-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–6 Dec 2026 · Changsha, China · Deadline: 21 Sep 2026, 20 Oct 2026 · Official: https://www.pd-cat.org/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ats-2026/</id>
+<title>ATS 2026 — IEEE Asian Test Symposium</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ats-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>1–3 Dec 2026 · Kaohsiung, Taiwan · Deadline: 7 Jul 2026 · Official: https://www.ats2026.tw/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icpads-2026/</id>
+<title>ICPADS 2026 — IEEE International Conference on Parallel and Distributed Systems</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icpads-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>22–26 Nov 2026 · Tokyo, Japan · Deadline: 15 Aug 2026 · Official: https://www.cloud-conf.net/icpads2026</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/socc-2026/</id>
+<title>SoCC 2026 — ACM Symposium on Cloud Computing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/socc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–20 Nov 2026 · Singapore · Deadline: 6 Feb 2026, 13 Feb 2026, 7 Jul 2026 · Official: https://acmsocc.org/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iccd-2026/</id>
+<title>ICCD 2026 — International Conference on Computer Design</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iccd-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–18 Nov 2026 · Hong Kong SAR, China · Deadline: 3 Jun 2026, 10 Jun 2026 · Official: https://www.iccd-conf.com/2026/home.html</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sc-2026/</id>
+<title>SC 2026 — International Conference for High Performance Computing, Networking, Storage, and Analysis</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–20 Nov 2026 · McCormick Place, United States · Deadline: 1 Apr 2026, 8 Apr 2026 · Official: https://sc26.supercomputing.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sigops-atc-2026/</id>
+<title>SIGOPS ATC 2026 — ACM SIGOPS Annual Technical Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sigops-atc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>16–18 Nov 2026 · Hyatt Hotel, China · Deadline: 11 Jun 2026 · Official: https://sigops.org/s/conferences/atc/2026/index.html</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iccad-2026/</id>
+<title>ICCAD 2026 — IEEE/ACM International Conference on Computer-Aided Design</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iccad-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>8–12 Nov 2026 · San Jose, United States · Deadline: 7 Apr 2026, 14 Apr 2026 · Official: https://iccad.com/2026</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/performance-2026/</id>
+<title>Performance 2026 — International Symposium on Computer Performance, Modeling, Measurements and Evaluation</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/performance-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>3–5 Nov 2026 · Ghent, Belgium · Deadline: 15 May 2026, 22 May 2026 · Official: https://performance2026.github.io/call/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/micro-2026/</id>
+<title>MICRO 2026 — IEEE/ACM International Symposium on Microarchitecture</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/micro-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>2–4 Nov 2026 · Athens, Greece · Deadline: 31 Mar 2026, 7 Apr 2026 · Official: https://microarch.org/micro59/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/hpcc-2026/</id>
+<title>HPCC 2026 — IEEE International Conference on High Performance Computing and Communications</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/hpcc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>29 Oct – 2 Nov 2026 · Luoyang, China · Deadline: 5 Aug 2026 · Official: https://ieee-hyper-intelligence.org/2026/hpcc/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ica3pp-2026/</id>
+<title>ICA3PP 2026 — International Conference on Algorithms and Architectures for Parallel Processing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ica3pp-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>26–28 Oct 2026 · Exeter, United Kingdom · Deadline: 25 Jul 2026 · Official: https://hpcn.exeter.ac.uk/ica3pp2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/pact-2026/</id>
+<title>PACT 2026 — International Conference on Parallel Architectures and Compilation Techniques</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/pact-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–22 Oct 2026 · Chicago, United States · Deadline: 23 Apr 2026, 30 Apr 2026 · Official: https://pact2026.github.io/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/sec-2026/</id>
+<title>SEC 2026 — ACM/IEEE Symposium on Edge Computing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/sec-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>13–16 Oct 2026 · Santa Clara University, United States · Deadline: 8 May 2026, 8 May 2026 · Official: https://acm-ieee-sec.org/2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/itc-2026/</id>
+<title>ITC 2026 — International Test Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/itc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–16 Oct 2026 · Grand Hyatt San Antonio Riverwalk, United States · Deadline: 20 Mar 2026, 24 Apr 2026 · Official: https://www.itctestweek.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/codes-isss-2026/</id>
+<title>CODES+ISSS 2026 — International Conference on Hardware/Software Co-design and System Synthesis</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/codes-isss-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–9 Oct 2026 · Barcelona, Spain · Deadline: 23 Mar 2026, 30 Mar 2026 · Official: https://esweek.org/codes_isss_cfp/</summary>
+</entry>
+</feed>

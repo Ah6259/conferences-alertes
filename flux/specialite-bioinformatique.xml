@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Bioinformatics &amp; genomics</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-bioinformatique.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-bioinformatique.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ismb-2027/</id>
+<title>ISMB 2027 — International Conference on Intelligent Systems for Molecular Biology</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ismb-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>18–22 Jul 2027 · Copenhagen, Denmark · Deadline: see official website · Official: https://www.iscb.org/ismbeccb2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/gecco-2027/</id>
+<title>GECCO 2027 — Genetic and Evolutionary Computation Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/gecco-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–16 Jul 2027 · Kraków, Poland · Deadline: see official website · Official: https://gecco-2027.sigevo.org/HomePage</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/recomb-2027/</id>
+<title>RECOMB 2027 — International Conference on Research inComputational Molecular Biology</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/recomb-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>17–20 May 2027 · Toronto, Canada · Deadline: 28 Oct 2026, 4 Nov 2026 · Official: https://recomb.org/recomb2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/eurogp-2027/</id>
+<title>EuroGP 2027 — European Conference on Genetic Programming</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/eurogp-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>31 Mar – 2 Apr 2027 · Mainz, Germany · Deadline: 1 Nov 2026 · Official: https://www.evostar.org/2027/eurogp/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/cardio-genomics-conference-2026/</id>
+<title>Cardio Genomics Conference 2026 — ESC Cardio Genomics Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/cardio-genomics-conference-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–5 Dec 2026 · Munich, Germany · Deadline: 7 Sep 2026 · Official: https://esc365.escardio.org/event/2256</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/bibm-2026/</id>
+<title>BIBM 2026 — IEEE International Conference on Bioinformatics and Biomedicine</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/bibm-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>1–4 Dec 2026 · Dallas, United States · Deadline: 5 Jul 2026 · Official: https://ieeebibm.org/BIBM2026/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/esc-digital-ai-summit-2026/</id>
+<title>ESC Digital &amp; AI Summit 2026</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/esc-digital-ai-summit-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–13 Nov 2026 · Basel, Switzerland · Deadline: 11 Nov 2026 · Official: https://www.escardio.org/Congresses-Events/ESC-Digital-AI-Summit</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/apbc-2026/</id>
+<title>APBC 2026 — Asia Pacific Bioinformatics Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/apbc-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>22–24 Oct 2026 · Hsinchu, Taiwan · Deadline: 17 Jul 2026 · Official: https://www.apbc2026.com/home</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/ashg-2026/</id>
+<title>ASHG 2026 — American Society of Human Genetics</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/ashg-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–24 Oct 2026 · Montreal, Canada · Deadline: 18 May 2026 · Official: https://www.ashg.org/annual-meeting-2026/</summary>
+</entry>
+</feed>

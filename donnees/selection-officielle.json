@@ -1,0 +1,1198 @@
+{
+ "description": "Sélection éditoriale : conférences de comptabilité, finance et finance islamique, vérifiées une à une sur la page officielle de l'organisateur (faits : nom, dates, lieu, date limite, lien). Mise à jour à la main ou par le formulaire des organisateurs ; le robot mensuel verifier_officiels.py vérifie que chaque lien répond encore.",
+ "verifie_le": "2026-10-06",
+ "conferences": [
+  {
+   "acronyme": "MODAV-ICA 2026",
+   "titre": "23rd International Accounting Conference (MÖDAV)",
+   "annee": 2026,
+   "debut": "2026-10-15",
+   "fin": "2026-10-17",
+   "ville": "Istanbul",
+   "code_pays": "TR",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.modav.org.tr/",
+   "dates_limites": [
+    {
+     "date": "2026-06-30",
+     "type": "resume",
+     "libelle": "Extended abstract"
+    }
+   ],
+   "page_verifiee": "https://www.afc-cca.com/pages/liste-des-manifestations-appels-communication",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "ECAS 2026",
+   "titre": "Early Career Accounting Scholars Conference (with Accounting and Business Research)",
+   "annee": 2026,
+   "debut": "2026-10-16",
+   "fin": "2026-10-16",
+   "ville": "London",
+   "code_pays": "GB",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/cefarr/2026-early-career-accounting-scholars-conference",
+   "dates_limites": [
+    {
+     "date": "2026-06-30",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/cefarr/2026-early-career-accounting-scholars-conference",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "RIARF 2026",
+   "titre": "Regional International Accounting Research Forum",
+   "annee": 2026,
+   "debut": "2026-10-19",
+   "fin": "2026-10-19",
+   "ville": "Palma de Mallorca",
+   "code_pays": "ES",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-financiere"
+   ],
+   "lien": "https://riarf.uib.es/",
+   "dates_limites": [
+    {
+     "date": "2026-09-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://riarf.uib.es/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "CAR Conference 2026",
+   "titre": "41st Annual Contemporary Accounting Research (CAR) Conference",
+   "annee": 2026,
+   "debut": "2026-10-23",
+   "fin": "2026-10-24",
+   "ville": "Montréal",
+   "code_pays": "CA",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.caaa.ca/journals-and-research/contemporary-accounting-research-car",
+   "dates_limites": [
+    {
+     "date": "2026-04-01",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.caaa.ca/journals-and-research/contemporary-accounting-research-car",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "CIGD 2026",
+   "titre": "2e Conférence internationale de la gouvernance et de la durabilité / International Conference on Governance and Sustainability",
+   "annee": 2026,
+   "debut": "2026-10-30",
+   "fin": "2026-11-01",
+   "ville": "Hammamet",
+   "code_pays": "TN",
+   "mode": "presentiel",
+   "specialites": [
+    "gouvernance"
+   ],
+   "lien": "https://www.afc-cca.com/assets/images/bibli/fichiers/CIGD_2026_Appel_Communications_VF-1-1.pdf",
+   "dates_limites": [
+    {
+     "date": "2026-07-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.afc-cca.com/pages/liste-des-manifestations-appels-communication",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "MARG 2026",
+   "titre": "Management Accounting Research Group (MARG) Conference",
+   "annee": 2026,
+   "debut": "2026-11-05",
+   "fin": "2026-11-06",
+   "ville": "Birmingham",
+   "code_pays": "GB",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-gestion"
+   ],
+   "lien": "https://www.conftool.com/marg2026",
+   "dates_limites": [
+    {
+     "date": "2026-09-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.conftool.com/marg2026",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "Burton 2026",
+   "titre": "45th Columbia Burton Accounting Conference",
+   "annee": 2026,
+   "debut": "2026-11-06",
+   "fin": "2026-11-07",
+   "ville": "New York",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://business.columbia.edu/faculty/divisions/accounting/seminars/burton-accounting-conference",
+   "dates_limites": [
+    {
+     "date": "2026-06-17",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://business.columbia.edu/faculty/divisions/accounting/seminars/burton-accounting-conference",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "FourA 2026",
+   "titre": "23rd Asian Academic Accounting Association (FourA) Annual Conference",
+   "annee": 2026,
+   "debut": "2026-11-27",
+   "fin": "2026-11-28",
+   "ville": "Hong Kong",
+   "code_pays": "HK",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.foura.org",
+   "dates_limites": [
+    {
+     "date": "2026-07-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.foura.org",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "Masters CCA 2026",
+   "titre": "Xe workshop de l'association des masters Comptabilité-Contrôle-Audit (CCA)",
+   "annee": 2026,
+   "debut": "2026-12-03",
+   "fin": "2026-12-04",
+   "ville": "Perpignan",
+   "code_pays": "FR",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale",
+    "audit"
+   ],
+   "lien": "https://www.afc-cca.com/assets/images/bibli/fichiers/Workshop-X-France-Master-CCA-Perpignan-3-et-4-decembre-20261.pdf",
+   "dates_limites": [
+    {
+     "date": "2026-10-12",
+     "type": "article",
+     "libelle": "Communication"
+    }
+   ],
+   "page_verifiee": "https://www.afc-cca.com/pages/manifestations-des-partenaires-lafc",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "RAST-IASB 2026",
+   "titre": "Review of Accounting Studies – IASB Conference",
+   "annee": 2026,
+   "debut": "2026-12-04",
+   "fin": "2026-12-05",
+   "ville": "Vancouver",
+   "code_pays": "CA",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-financiere"
+   ],
+   "lien": "https://www.london.edu/faculty-and-research/accounting/review-of-accounting-studies",
+   "dates_limites": [
+    {
+     "date": "2026-05-22",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.london.edu/faculty-and-research/accounting/review-of-accounting-studies",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "SAS 2026",
+   "titre": "Singapore Accounting Symposium",
+   "annee": 2026,
+   "debut": "2026-12-10",
+   "fin": "2026-12-11",
+   "ville": "Singapore",
+   "code_pays": "SG",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://accountancy.smu.edu.sg/research/academic-research/seminars-and-conferences/accounting-symposium",
+   "dates_limites": [
+    {
+     "date": "2026-09-01",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://accountancy.smu.edu.sg/research/academic-research/seminars-and-conferences/accounting-symposium",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "HKUST ARS 2026",
+   "titre": "HKUST Accounting Research Symposium",
+   "annee": 2026,
+   "debut": "2026-12-14",
+   "fin": "2026-12-15",
+   "ville": "Hong Kong",
+   "code_pays": "HK",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://acct.hkust.edu.hk/research/research-symposium/2026symposium",
+   "dates_limites": [
+    {
+     "date": "2026-09-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://acct.hkust.edu.hk/research/research-symposium/2026symposium",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "HARC 2027",
+   "titre": "Hawaii Accounting Research Conference",
+   "annee": 2027,
+   "debut": "2027-01-02",
+   "fin": "2027-01-05",
+   "ville": "Honolulu",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://manoa.hawaii.edu/harc/",
+   "dates_limites": [
+    {
+     "date": "2026-07-31",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://manoa.hawaii.edu/harc/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AAA MAS Midyear 2027",
+   "titre": "AAA Management Accounting Section Midyear Meeting",
+   "annee": 2027,
+   "debut": "2027-01-07",
+   "fin": "2027-01-09",
+   "ville": "Atlanta",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-gestion"
+   ],
+   "lien": "https://aaahq.org/Meetings/2027/MAS-Midyear-Meeting",
+   "dates_limites": [],
+   "page_verifiee": "https://aaahq.org/Meetings/2027/MAS-Midyear-Meeting",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AAA Auditing Midyear 2027",
+   "titre": "AAA Auditing Section Midyear Meeting",
+   "annee": 2027,
+   "debut": "2027-01-14",
+   "fin": "2027-01-16",
+   "ville": "Phoenix",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "audit"
+   ],
+   "lien": "https://aaahq.org/Meetings/2027/Auditing-Section-Midyear-Meeting",
+   "dates_limites": [
+    {
+     "date": "2026-08-31",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://aaahq.org/Meetings/2027/Auditing-Section-Midyear-Meeting",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AAA FARS Midyear 2027",
+   "titre": "AAA Financial Accounting and Reporting Section (FARS) Midyear Meeting",
+   "annee": 2027,
+   "debut": "2027-01-21",
+   "fin": "2027-01-23",
+   "ville": "San Francisco",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-financiere"
+   ],
+   "lien": "https://aaahq.org/Meetings/2027/FARS-Midyear-Meeting",
+   "dates_limites": [
+    {
+     "date": "2026-09-14",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://aaahq.org/Meetings/2027/FARS-Midyear-Meeting",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "SARAC 2027",
+   "titre": "5th Swiss Accounting Research Alpine Camp",
+   "annee": 2027,
+   "debut": "2027-02-17",
+   "fin": "2027-02-19",
+   "ville": "Crans-Montana",
+   "code_pays": "CH",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://sarac-conference.ch/",
+   "dates_limites": [
+    {
+     "date": "2026-09-01",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://sarac-conference.ch/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "Utah WAC 2027",
+   "titre": "Utah Winter Accounting Conference",
+   "annee": 2027,
+   "debut": "2027-02-18",
+   "fin": "2027-02-20",
+   "ville": "Salt Lake City",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.utah-wac.org",
+   "dates_limites": [
+    {
+     "date": "2026-11-07",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.utah-wac.org",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "ACMAR 2027",
+   "titre": "24th Annual Conference for Management Accounting Research",
+   "annee": 2027,
+   "debut": "2027-03-04",
+   "fin": "2027-03-05",
+   "ville": "Vallendar",
+   "code_pays": "DE",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-gestion"
+   ],
+   "lien": "https://www.whu-acmar.com",
+   "dates_limites": [
+    {
+     "date": "2026-12-02",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.whu-acmar.com",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "EAR 2027",
+   "titre": "European Accounting Review (EAR) 2027 Annual Conference",
+   "annee": 2027,
+   "debut": "2027-04-01",
+   "fin": "2027-04-02",
+   "ville": "Bologna",
+   "code_pays": "IT",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://eaa-online.org/events/ear-2027-annual-conference/",
+   "dates_limites": [
+    {
+     "date": "2026-08-31",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://eaa-online.org/events/ear-2027-annual-conference/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "BAFA 2027",
+   "titre": "British Accounting and Finance Association (BAFA) Annual Conference",
+   "annee": 2027,
+   "debut": "2027-04-06",
+   "fin": "2027-04-08",
+   "ville": "Cardiff",
+   "code_pays": "GB",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale",
+    "finance-generale"
+   ],
+   "lien": "https://bafa.ac.uk/",
+   "dates_limites": [],
+   "page_verifiee": "https://bafa.ac.uk/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "Gupta Governance 2027",
+   "titre": "Raj & Kamla Gupta Governance Institute (Drexel University) 2027 Academic Conference",
+   "annee": 2027,
+   "debut": "2027-04-16",
+   "fin": "2027-04-16",
+   "ville": "Philadelphia",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "gouvernance"
+   ],
+   "lien": "https://www.lebow.drexel.edu/event/2026/08/19/raj-kamla-gupta-governance-institute-drexel-university-2027-academic-conference",
+   "dates_limites": [
+    {
+     "date": "2026-12-31",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.lebow.drexel.edu/event/2026/08/19/raj-kamla-gupta-governance-institute-drexel-university-2027-academic-conference",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "JAR 2027",
+   "titre": "2027 Ray Ball Journal of Accounting Research Conference",
+   "annee": 2027,
+   "debut": "2027-04-30",
+   "fin": "2027-05-01",
+   "ville": "Chicago",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.chicagobooth.edu/research/chookaszian/journal-of-accounting-research/call-for-papers",
+   "dates_limites": [
+    {
+     "date": "2026-12-01",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.chicagobooth.edu/research/chookaszian/journal-of-accounting-research/call-for-papers",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IAS 2027",
+   "titre": "28e Université de printemps de l'audit social (IAS)",
+   "annee": 2027,
+   "debut": "2027-05-05",
+   "fin": "2027-05-07",
+   "ville": "Paris",
+   "code_pays": "FR",
+   "mode": "presentiel",
+   "specialites": [
+    "audit",
+    "gouvernance"
+   ],
+   "lien": "https://auditsocial.world/activites/evenements-colloques-ias/",
+   "dates_limites": [
+    {
+     "date": "2026-09-26",
+     "type": "resume",
+     "libelle": "Intention"
+    },
+    {
+     "date": "2027-03-15",
+     "type": "article",
+     "libelle": "Article"
+    }
+   ],
+   "page_verifiee": "https://auditsocial.world/activites/evenements-colloques-ias/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "EAA 2027",
+   "titre": "49th Annual Congress of the European Accounting Association",
+   "annee": 2027,
+   "debut": "2027-05-26",
+   "fin": "2027-05-28",
+   "ville": "Turin",
+   "code_pays": "IT",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://eaa-online.org/congress-2027/",
+   "dates_limites": [
+    {
+     "date": "2026-12-01",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://eaa-online.org/congress-2027/key-dates/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "GCGC 2027",
+   "titre": "Global Corporate Governance Colloquium (GCGC) 2027",
+   "annee": 2027,
+   "debut": "2027-06-11",
+   "fin": "2027-06-12",
+   "ville": "New Haven",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "gouvernance",
+    "finance-entreprise"
+   ],
+   "lien": "https://www.ecgi.global/events/2027-global-corporate-governance-colloquium",
+   "dates_limites": [],
+   "page_verifiee": "https://www.ecgi.global/events/2027-global-corporate-governance-colloquium",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "JAAF 2027",
+   "titre": "Journal of Accounting, Auditing and Finance (JAAF) Annual Conference",
+   "annee": 2027,
+   "debut": "2027-07-09",
+   "fin": "2027-07-12",
+   "ville": "Sofia",
+   "code_pays": "BG",
+   "mode": "presentiel",
+   "specialites": [
+    "audit",
+    "compta-financiere"
+   ],
+   "lien": "https://www.jaafconference2027.org/",
+   "dates_limites": [
+    {
+     "date": "2027-02-27",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.jaafconference2027.org/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AAA 2027",
+   "titre": "AAA Global Connect 2027 (American Accounting Association Annual Meeting)",
+   "annee": 2027,
+   "debut": "2027-07-31",
+   "fin": "2027-08-04",
+   "ville": "Orlando",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://aaahq.org/Meetings/2027/AAA-Global-Connect",
+   "dates_limites": [],
+   "page_verifiee": "https://aaahq.org/Meetings/2027/AAA-Global-Connect",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "JAE 2027",
+   "titre": "2027 Journal of Accounting and Economics (JAE) Conference",
+   "annee": 2027,
+   "debut": "2027-10-15",
+   "fin": "2027-10-16",
+   "ville": "Rochester",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www.sciencedirect.com/journal/journal-of-accounting-and-economics",
+   "dates_limites": [
+    {
+     "date": "2027-02-26",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://eaa-online.org/arc/events/2027-journal-of-accounting-and-economics-jae-conference/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "FMA 2026",
+   "titre": "2026 FMA Annual Meeting (Financial Management Association)",
+   "annee": 2026,
+   "debut": "2026-10-14",
+   "fin": "2026-10-17",
+   "ville": "Tampa",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale"
+   ],
+   "lien": "https://www.fma.org/",
+   "dates_limites": [],
+   "page_verifiee": "https://www.fma.org/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "NBS AI for Finance 2026",
+   "titre": "NBS Conference on AI for Finance & AI and Big Data in Finance Research Forum (ABFR)",
+   "annee": 2026,
+   "debut": "2026-11-20",
+   "fin": "2026-11-21",
+   "ville": "Singapore",
+   "code_pays": "SG",
+   "mode": "presentiel",
+   "specialites": [
+    "fintech"
+   ],
+   "lien": "https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026",
+   "dates_limites": [
+    {
+     "date": "2026-09-20",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AFBC 2026",
+   "titre": "39th Australasian Finance and Banking Conference",
+   "annee": 2026,
+   "debut": "2026-12-10",
+   "fin": "2026-12-12",
+   "ville": "Sydney",
+   "code_pays": "AU",
+   "mode": "presentiel",
+   "specialites": [
+    "banque"
+   ],
+   "lien": "https://www.unsw.edu.au/business/our-research/research-centres-institutes/institute-of-global-finance/annual-australasian-finance-and-banking-conference/39th-australasian-finance-and-banking-conference",
+   "dates_limites": [
+    {
+     "date": "2026-08-10",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.unsw.edu.au/business/our-research/research-centres-institutes/institute-of-global-finance/annual-australasian-finance-and-banking-conference/39th-australasian-finance-and-banking-conference",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AFA 2027",
+   "titre": "2027 American Finance Association (AFA) Annual Meeting",
+   "annee": 2027,
+   "debut": "2027-01-03",
+   "fin": "2027-01-05",
+   "ville": "Washington",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale"
+   ],
+   "lien": "https://afajof.org/annual-meeting/",
+   "dates_limites": [
+    {
+     "date": "2026-03-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://afajof.org/annual-meeting/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "FINTECH2027",
+   "titre": "International Fintech Research Conference – Finance, Technology, Methodologies",
+   "annee": 2027,
+   "debut": "2027-01-28",
+   "fin": "2027-01-29",
+   "ville": "Modena",
+   "code_pays": "IT",
+   "mode": "presentiel",
+   "specialites": [
+    "fintech"
+   ],
+   "lien": "https://www.finmore.unimore.it/",
+   "dates_limites": [],
+   "page_verifiee": "https://www.finmore.unimore.it/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "SWFA 2027",
+   "titre": "66th Southwestern Finance Association Annual Meeting",
+   "annee": 2027,
+   "debut": "2027-02-17",
+   "fin": "2027-02-19",
+   "ville": "Las Vegas",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale"
+   ],
+   "lien": "https://www.swfinance.org/",
+   "dates_limites": [
+    {
+     "date": "2026-09-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.swfinance.org/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "MFA 2027",
+   "titre": "2027 Midwest Finance Association Annual Meeting",
+   "annee": 2027,
+   "debut": "2027-03-18",
+   "fin": "2027-03-20",
+   "ville": "Chicago",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale"
+   ],
+   "lien": "https://www.midwestfinance.org/2027-annual-meeting",
+   "dates_limites": [
+    {
+     "date": "2026-09-04",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.midwestfinance.org/2027-annual-meeting",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "EFA Eastern 2027",
+   "titre": "63rd Annual Eastern Finance Association Meeting",
+   "annee": 2027,
+   "debut": "2027-04-07",
+   "fin": "2027-04-10",
+   "ville": "Philadelphia",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale"
+   ],
+   "lien": "https://easternfinance.org/2027-meeting/",
+   "dates_limites": [
+    {
+     "date": "2026-10-05",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://easternfinance.org/2027-meeting/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IYFS 2027",
+   "titre": "International Young Finance Scholars Conference",
+   "annee": 2027,
+   "debut": "2027-04-08",
+   "fin": "2027-04-09",
+   "ville": "Brighton",
+   "code_pays": "GB",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale",
+    "fintech"
+   ],
+   "lien": "https://www.sussex.ac.uk/collaborate/events/iyfs-conference/submit-paper",
+   "dates_limites": [
+    {
+     "date": "2026-12-31",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.sussex.ac.uk/collaborate/events/iyfs-conference/submit-paper",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "Gerzensee FI 2027",
+   "titre": "BIS-CEPR-Gerzensee-SFI Conference on Financial Intermediation",
+   "annee": 2027,
+   "debut": "2027-05-02",
+   "fin": "2027-05-05",
+   "ville": "Gerzensee",
+   "code_pays": "CH",
+   "mode": "presentiel",
+   "specialites": [
+    "banque"
+   ],
+   "lien": "https://cepr.org/events/bis-cepr-gerzensee-sfi-conference-financial-intermediation-2027",
+   "dates_limites": [
+    {
+     "date": "2026-11-20",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://cepr.org/events/bis-cepr-gerzensee-sfi-conference-financial-intermediation-2027",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "FIRS 2027",
+   "titre": "2027 Financial Intermediation Research Society (FIRS) Conference",
+   "annee": 2027,
+   "debut": "2027-06-03",
+   "fin": "2027-06-05",
+   "ville": "Glasgow",
+   "code_pays": "GB",
+   "mode": "presentiel",
+   "specialites": [
+    "banque"
+   ],
+   "lien": "https://firsociety.org/conference/",
+   "dates_limites": [],
+   "page_verifiee": "https://firsociety.org/conference/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "WFA 2027",
+   "titre": "2027 Western Finance Association (WFA) Annual Meeting",
+   "annee": 2027,
+   "debut": "2027-06-27",
+   "fin": "2027-06-30",
+   "ville": "Indian Wells",
+   "code_pays": "US",
+   "mode": "presentiel",
+   "specialites": [
+    "finance-generale",
+    "marches"
+   ],
+   "lien": "https://westernfinance.org/conference/",
+   "dates_limites": [
+    {
+     "date": "2026-11-18",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://westernfinance.org/conference/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "S&P-DIFC IFC 2026",
+   "titre": "16th Annual Islamic Finance Conference (S&P Global Ratings and DIFC)",
+   "annee": 2026,
+   "debut": "2026-10-07",
+   "fin": "2026-10-07",
+   "ville": "Dubai",
+   "code_pays": "AE",
+   "mode": "presentiel",
+   "specialites": [
+    "sukuk",
+    "banque-islamique"
+   ],
+   "lien": "https://www.spglobal.com/ratings/en/events/in-person/islamic-finance-conference",
+   "dates_limites": [],
+   "page_verifiee": "https://www.spglobal.com/ratings/en/events/in-person/islamic-finance-conference",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AAOIFI SBC 2026",
+   "titre": "AAOIFI 24th Annual Shari'ah Boards Conference – Islamic Finance in the Era of Artificial Intelligence",
+   "annee": 2026,
+   "debut": "2026-10-11",
+   "fin": "2026-10-12",
+   "ville": "Manama",
+   "code_pays": "BH",
+   "mode": "presentiel",
+   "specialites": [
+    "aaoifi-charia"
+   ],
+   "lien": "https://aaoifi.com/aaoifi-24th-annual-shariah-boards-conference/?lang=en",
+   "dates_limites": [],
+   "page_verifiee": "https://aaoifi.com/aaoifi-24th-annual-shariah-boards-conference/?lang=en",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "12th IIMEFC",
+   "titre": "12th International Islamic Monetary Economics and Finance Conference (Bank Indonesia, JIMF)",
+   "annee": 2026,
+   "debut": "2026-10-13",
+   "fin": "2026-10-13",
+   "ville": "Jakarta",
+   "code_pays": "ID",
+   "mode": "hybride",
+   "specialites": [
+    "economie-islamique",
+    "banque-islamique"
+   ],
+   "lien": "https://submit.confbay.com/conf/iimefc2026",
+   "dates_limites": [
+    {
+     "date": "2026-08-10",
+     "type": "article",
+     "libelle": "Full paper"
+    }
+   ],
+   "page_verifiee": "https://submit.confbay.com/conf/iimefc2026",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AICIF 2026",
+   "titre": "14th ASEAN Universities International Conference on Islamic Finance",
+   "annee": 2026,
+   "debut": "2026-10-13",
+   "fin": "2026-10-15",
+   "ville": "Jakarta",
+   "code_pays": "ID",
+   "mode": "presentiel",
+   "specialites": [
+    "economie-islamique",
+    "zakat-waqf"
+   ],
+   "lien": "https://submit.confbay.com/conf/aicif2026",
+   "dates_limites": [
+    {
+     "date": "2026-09-25",
+     "type": "resume",
+     "libelle": "Abstract"
+    },
+    {
+     "date": "2026-10-07",
+     "type": "article",
+     "libelle": "Full paper"
+    }
+   ],
+   "page_verifiee": "https://submit.confbay.com/conf/aicif2026",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "FIFC 2026",
+   "titre": "14th Foundation of Islamic Finance Conference",
+   "annee": 2026,
+   "debut": "2026-10-27",
+   "fin": "2026-10-29",
+   "ville": "Cape Town",
+   "code_pays": "ZA",
+   "mode": "presentiel",
+   "specialites": [
+    "economie-islamique",
+    "aaoifi-charia"
+   ],
+   "lien": "https://fifcsa.co.za/",
+   "dates_limites": [],
+   "page_verifiee": "https://www.uwc.ac.za/news-and-announcements/events/important-conference-update-14th-foundation-of-islamic-finance-conference-fifc-2026",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IFN Pakistan 2026",
+   "titre": "IFN Pakistan Forum 2026",
+   "annee": 2026,
+   "debut": "2026-10-28",
+   "fin": "2026-10-28",
+   "ville": "Karachi",
+   "code_pays": "PK",
+   "mode": "presentiel",
+   "specialites": [
+    "banque-islamique"
+   ],
+   "lien": "https://redmoneyevents.com/event/ifnpakistan2026/",
+   "dates_limites": [],
+   "page_verifiee": "https://redmoneyevents.com/event/ifnpakistan2026/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IISFC 2026",
+   "titre": "International Islamic and Sustainable Finance Conference (Muscat University & Rennes School of Business)",
+   "annee": 2026,
+   "debut": "2026-11-02",
+   "fin": "2026-11-03",
+   "ville": "Muscat",
+   "code_pays": "OM",
+   "mode": "presentiel",
+   "specialites": [
+    "economie-islamique",
+    "sukuk"
+   ],
+   "lien": "https://www.iisfc2026.com/",
+   "dates_limites": [
+    {
+     "date": "2026-10-05",
+     "type": "resume",
+     "libelle": "Abstract"
+    },
+    {
+     "date": "2026-10-16",
+     "type": "article",
+     "libelle": "Full paper"
+    }
+   ],
+   "page_verifiee": "https://www.iisfc2026.com/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IFN KSA 2026",
+   "titre": "IFN KSA Dialogues 2026",
+   "annee": 2026,
+   "debut": "2026-11-22",
+   "fin": "2026-11-22",
+   "ville": "Riyadh",
+   "code_pays": "SA",
+   "mode": "presentiel",
+   "specialites": [
+    "banque-islamique"
+   ],
+   "lien": "https://redmoneyevents.com/event/ifnksa2026/",
+   "dates_limites": [],
+   "page_verifiee": "https://redmoneyevents.com/event/ifnksa2026/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IFN Kuwait 2026",
+   "titre": "IFN Kuwait Dialogues 2026",
+   "annee": 2026,
+   "debut": "2026-11-24",
+   "fin": "2026-11-24",
+   "ville": "Kuwait City",
+   "code_pays": "KW",
+   "mode": "presentiel",
+   "specialites": [
+    "banque-islamique"
+   ],
+   "lien": "https://redmoneyevents.com/event/ifnkuwait2026/",
+   "dates_limites": [],
+   "page_verifiee": "https://redmoneyevents.com/event/ifnkuwait2026/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IFN Türkiye 2026",
+   "titre": "IFN Türkiye Dialogues 2026",
+   "annee": 2026,
+   "debut": "2026-11-26",
+   "fin": "2026-11-26",
+   "ville": "Istanbul",
+   "code_pays": "TR",
+   "mode": "presentiel",
+   "specialites": [
+    "banque-islamique"
+   ],
+   "lien": "https://redmoneyevents.com/event/ifnturkiye2026/",
+   "dates_limites": [],
+   "page_verifiee": "https://redmoneyevents.com/event/ifnturkiye2026/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "ICIFE 2026",
+   "titre": "9th International Conference on Islamic Finance and Economy (HBKU, College of Islamic Studies)",
+   "annee": 2026,
+   "debut": "2026-11-29",
+   "fin": "2026-11-30",
+   "ville": "Doha",
+   "code_pays": "QA",
+   "mode": "presentiel",
+   "specialites": [
+    "economie-islamique"
+   ],
+   "lien": "https://www.hbku.edu.qa/en/CIS-ICIFE2026",
+   "dates_limites": [
+    {
+     "date": "2026-08-31",
+     "type": "article",
+     "libelle": "Full paper"
+    }
+   ],
+   "page_verifiee": "https://www.hbku.edu.qa/en/CIS-ICIFE2026",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "ICSIBF 2026",
+   "titre": "6th International Conference on Sustainable Islamic Business and Finance (University of Bahrain, with AAOIFI)",
+   "annee": 2026,
+   "debut": "2026-12-08",
+   "fin": "2026-12-09",
+   "ville": "Sakhir",
+   "code_pays": "BH",
+   "mode": "presentiel",
+   "specialites": [
+    "economie-islamique",
+    "aaoifi-charia"
+   ],
+   "lien": "https://icsibf.uob.edu.bh/",
+   "dates_limites": [
+    {
+     "date": "2026-10-10",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://icsibf.uob.edu.bh/",
+   "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "AQU 2027",
+   "titre": "12th International Conference of Al Qasimia University: Halal Industry and Sustainable Development – Fundamentals, Governance and Innovation",
+   "annee": 2027,
+   "debut": "2027-04-14",
+   "fin": "2027-04-15",
+   "ville": "Sharjah",
+   "code_pays": "AE",
+   "mode": "hybride",
+   "specialites": [
+    "economie-islamique",
+    "zakat-waqf"
+   ],
+   "lien": "https://alqasimia.ac.ae/",
+   "dates_limites": [
+    {
+     "date": "2026-10-15",
+     "type": "resume",
+     "libelle": "Abstract"
+    },
+    {
+     "date": "2027-01-15",
+     "type": "article",
+     "libelle": "Full paper"
+    }
+   ],
+   "page_verifiee": "https://www.alkhaleej.ae/2026-08-06/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%D9%8A%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-%D8%A8%D8%A7%D8%A8-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB%D9%8A%D8%A9",
+   "verifie_le": "2026-10-06"
+  }
+ ]
+}

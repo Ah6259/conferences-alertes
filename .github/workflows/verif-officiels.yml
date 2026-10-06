@@ -1,0 +1,60 @@
+# Vérification mensuelle de la sélection officielle (comptabilité, finance, finance islamique) : chaque lien officiel
+# répond-il encore ? Lecture lente, robots.txt respecté. Si des liens ne répondent plus : issue GitHub
+# « Sélection officielle : liens à revérifier » (e-mail à Ahmed), refermée automatiquement quand tout va bien.
+name: verif-officiels
+on:
+  schedule:
+    - cron: "11 6 3 * *"       # le 3 de chaque mois
+  workflow_dispatch:
+concurrency:
+  group: maj-site
+  cancel-in-progress: false
+permissions:
+  contents: write
+  issues: write
+env:
+  TZ: Africa/Tunis
+  PYTHONIOENCODING: utf-8
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vérification lente des liens officiels
+        run: |
+          pip install --quiet pyyaml
+          python robot/verifier_officiels.py
+      - name: Enregistrer le résultat
+        run: |
+          git config user.name "robot-conferences"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add donnees/verification-officielle.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Vérification des liens officiels du $(date +'%d/%m/%Y')"
+          git pull --rebase
+          git push
+      - name: Issue si des liens ne répondent plus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          N=$(python -c "import json;print(json.load(open('donnees/verification-officielle.json',encoding='utf-8'))['injoignables'])")
+          LISTE=$(python -c "import json;d=json.load(open('donnees/verification-officielle.json',encoding='utf-8'));print(chr(10).join('- '+r['acronyme']+' : '+r['lien']+' ('+r['detail']+')' for r in d['resultats'] if r['etat']=='injoignable'))")
+          NUM=$(gh issue list --state open --search "Sélection officielle : liens à revérifier in:title" --json number --jq '.[0].number // empty')
+          if [ "$N" != "0" ]; then
+            if [ -z "$NUM" ]; then
+              gh issue create --title "Sélection officielle : liens à revérifier" --body "Ces liens officiels ne répondent plus :
+
+          $LISTE
+
+          Que faire : ouvrir le lien, chercher la nouvelle page officielle, corriger donnees/selection-officielle.json (voir GUIDE)."
+            else
+              gh issue comment "$NUM" --body "Toujours $N lien(s) à revérifier :
+          $LISTE"
+            fi
+          elif [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "Tous les liens officiels répondent. Fermeture automatique."
+          fi

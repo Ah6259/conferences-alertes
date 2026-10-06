@@ -1,0 +1,332 @@
+{
+ "verifie_le": "2026-10-06",
+ "nombre": 54,
+ "injoignables": 0,
+ "a_verifier_a_la_main": 21,
+ "resultats": [
+  {
+   "acronyme": "MODAV-ICA 2026",
+   "lien": "https://www.modav.org.tr/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "ECAS 2026",
+   "lien": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/cefarr/2026-early-career-accounting-scholars-conference",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "RIARF 2026",
+   "lien": "https://riarf.uib.es/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "CAR Conference 2026",
+   "lien": "https://www.caaa.ca/journals-and-research/contemporary-accounting-research-car",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "CIGD 2026",
+   "lien": "https://www.afc-cca.com/assets/images/bibli/fichiers/CIGD_2026_Appel_Communications_VF-1-1.pdf",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "MARG 2026",
+   "lien": "https://www.conftool.com/marg2026",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "Burton 2026",
+   "lien": "https://business.columbia.edu/faculty/divisions/accounting/seminars/burton-accounting-conference",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "FourA 2026",
+   "lien": "https://www.foura.org",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "Masters CCA 2026",
+   "lien": "https://www.afc-cca.com/assets/images/bibli/fichiers/Workshop-X-France-Master-CCA-Perpignan-3-et-4-decembre-20261.pdf",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "RAST-IASB 2026",
+   "lien": "https://www.london.edu/faculty-and-research/accounting/review-of-accounting-studies",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "SAS 2026",
+   "lien": "https://accountancy.smu.edu.sg/research/academic-research/seminars-and-conferences/accounting-symposium",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "HKUST ARS 2026",
+   "lien": "https://acct.hkust.edu.hk/research/research-symposium/2026symposium",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "HARC 2027",
+   "lien": "https://manoa.hawaii.edu/harc/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AAA MAS Midyear 2027",
+   "lien": "https://aaahq.org/Meetings/2027/MAS-Midyear-Meeting",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AAA Auditing Midyear 2027",
+   "lien": "https://aaahq.org/Meetings/2027/Auditing-Section-Midyear-Meeting",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AAA FARS Midyear 2027",
+   "lien": "https://aaahq.org/Meetings/2027/FARS-Midyear-Meeting",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "SARAC 2027",
+   "lien": "https://sarac-conference.ch/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "Utah WAC 2027",
+   "lien": "https://www.utah-wac.org",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "ACMAR 2027",
+   "lien": "https://www.whu-acmar.com",
+   "etat": "protege",
+   "detail": "certificat du site incomplet : à vérifier à la main"
+  },
+  {
+   "acronyme": "EAR 2027",
+   "lien": "https://eaa-online.org/events/ear-2027-annual-conference/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "BAFA 2027",
+   "lien": "https://bafa.ac.uk/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "Gupta Governance 2027",
+   "lien": "https://www.lebow.drexel.edu/event/2026/08/19/raj-kamla-gupta-governance-institute-drexel-university-2027-academic-conference",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "JAR 2027",
+   "lien": "https://www.chicagobooth.edu/research/chookaszian/journal-of-accounting-research/call-for-papers",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "IAS 2027",
+   "lien": "https://auditsocial.world/activites/evenements-colloques-ias/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "EAA 2027",
+   "lien": "https://eaa-online.org/congress-2027/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "GCGC 2027",
+   "lien": "https://www.ecgi.global/events/2027-global-corporate-governance-colloquium",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "JAAF 2027",
+   "lien": "https://www.jaafconference2027.org/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AAA 2027",
+   "lien": "https://aaahq.org/Meetings/2027/AAA-Global-Connect",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "JAE 2027",
+   "lien": "https://www.sciencedirect.com/journal/journal-of-accounting-and-economics",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "FMA 2026",
+   "lien": "https://www.fma.org/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "NBS AI for Finance 2026",
+   "lien": "https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AFBC 2026",
+   "lien": "https://www.unsw.edu.au/business/our-research/research-centres-institutes/institute-of-global-finance/annual-australasian-finance-and-banking-conference/39th-australasian-finance-and-banking-conference",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AFA 2027",
+   "lien": "https://afajof.org/annual-meeting/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "FINTECH2027",
+   "lien": "https://www.finmore.unimore.it/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "SWFA 2027",
+   "lien": "https://www.swfinance.org/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "MFA 2027",
+   "lien": "https://www.midwestfinance.org/2027-annual-meeting",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "EFA Eastern 2027",
+   "lien": "https://easternfinance.org/2027-meeting/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "IYFS 2027",
+   "lien": "https://www.sussex.ac.uk/collaborate/events/iyfs-conference/submit-paper",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "Gerzensee FI 2027",
+   "lien": "https://cepr.org/events/bis-cepr-gerzensee-sfi-conference-financial-intermediation-2027",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "FIRS 2027",
+   "lien": "https://firsociety.org/conference/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "WFA 2027",
+   "lien": "https://westernfinance.org/conference/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "S&P-DIFC IFC 2026",
+   "lien": "https://www.spglobal.com/ratings/en/events/in-person/islamic-finance-conference",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "AAOIFI SBC 2026",
+   "lien": "https://aaoifi.com/aaoifi-24th-annual-shariah-boards-conference/?lang=en",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "12th IIMEFC",
+   "lien": "https://submit.confbay.com/conf/iimefc2026",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AICIF 2026",
+   "lien": "https://submit.confbay.com/conf/aicif2026",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "FIFC 2026",
+   "lien": "https://fifcsa.co.za/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "IFN Pakistan 2026",
+   "lien": "https://redmoneyevents.com/event/ifnpakistan2026/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "IISFC 2026",
+   "lien": "https://www.iisfc2026.com/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "IFN KSA 2026",
+   "lien": "https://redmoneyevents.com/event/ifnksa2026/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "IFN Kuwait 2026",
+   "lien": "https://redmoneyevents.com/event/ifnkuwait2026/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "IFN Türkiye 2026",
+   "lien": "https://redmoneyevents.com/event/ifnturkiye2026/",
+   "etat": "protege",
+   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+  },
+  {
+   "acronyme": "ICIFE 2026",
+   "lien": "https://www.hbku.edu.qa/en/CIS-ICIFE2026",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "ICSIBF 2026",
+   "lien": "https://icsibf.uob.edu.bh/",
+   "etat": "ok",
+   "detail": "code 200"
+  },
+  {
+   "acronyme": "AQU 2027",
+   "lien": "https://alqasimia.ac.ae/",
+   "etat": "ok",
+   "detail": "code 200"
+  }
+ ]
+}

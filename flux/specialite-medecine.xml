@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Medicine &amp; cardiology</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-medecine.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-medecine.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/miccai-2027/</id>
+<title>MICCAI 2027 — International Conference on Medical Image Computing and Computer Assisted Intervention</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/miccai-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>26 Sep – 1 Oct 2027 · Auckland, New Zealand · Deadline: see official website · Official: https://conferences.miccai.org/2027/en/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/cardio-genomics-conference-2026/</id>
+<title>Cardio Genomics Conference 2026 — ESC Cardio Genomics Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/cardio-genomics-conference-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–5 Dec 2026 · Munich, Germany · Deadline: 7 Sep 2026 · Official: https://esc365.escardio.org/event/2256</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/esc-digital-ai-summit-2026/</id>
+<title>ESC Digital &amp; AI Summit 2026</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/esc-digital-ai-summit-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>12–13 Nov 2026 · Basel, Switzerland · Deadline: 11 Nov 2026 · Official: https://www.escardio.org/Congresses-Events/ESC-Digital-AI-Summit</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/miccai-2026/</id>
+<title>MICCAI 2026 — International Conference on Medical Image Computing and Computer-Assisted Intervention</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/miccai-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>4–8 Oct 2026 · Abu Dhabi, United Arab Emirates · Deadline: 12 Feb 2026, 26 Feb 2026 · Official: https://conferences.miccai.org/2026/en/default.asp</summary>
+</entry>
+</feed>

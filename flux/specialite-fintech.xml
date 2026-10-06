@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — FinTech &amp; AI in finance</title>
+<id>https://ah6259.github.io/conferences-alertes/flux/specialite-fintech.xml</id>
+<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-fintech.xml"/>
+<link href="https://ah6259.github.io/conferences-alertes/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/iyfs-2027/</id>
+<title>IYFS 2027 — International Young Finance Scholars Conference</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/iyfs-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>8–9 Apr 2027 · Brighton, United Kingdom · Deadline: 31 Dec 2026 · Official: https://www.sussex.ac.uk/collaborate/events/iyfs-conference/submit-paper</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/fintech2027/</id>
+<title>FINTECH2027 — International Fintech Research Conference – Finance, Technology, Methodologies</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/fintech2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>28–29 Jan 2027 · Modena, Italy · Deadline: see official website · Official: https://www.finmore.unimore.it/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/nbs-ai-for-finance-2026/</id>
+<title>NBS AI for Finance 2026 — NBS Conference on AI for Finance &amp; AI and Big Data in Finance Research Forum (ABFR)</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/nbs-ai-for-finance-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–21 Nov 2026 · Singapore, Singapore · Deadline: 20 Sep 2026 · Official: https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026</summary>
+</entry>
+</feed>
