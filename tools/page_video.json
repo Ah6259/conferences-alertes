@@ -1,0 +1,43 @@
+{
+ "site": "https://ah6259.github.io/conferences-alertes/",
+ "logo": "assets/logo.svg",
+ "defaut": "en",
+ "modele": "a-propos/index.html",
+ "nom": {
+  "en": "Conference Radar",
+  "fr": "Radar des conférences",
+  "ar": "رادار المؤتمرات"
+ },
+ "partager": {
+  "en": "Share the video",
+  "fr": "Partager la vidéo",
+  "ar": "شارك الفيديو"
+ },
+ "pages": [
+  {
+   "chemin": "video/",
+   "video": "presentation",
+   "couverture": "couverture.jpg",
+   "apercu": "apercu-video.jpg",
+   "site": "",
+   "titre": {
+    "en": "Presentation video",
+    "fr": "Vidéo de présentation",
+    "ar": "الفيديو التقديمي"
+   },
+   "description": {
+    "en": "Presentation video: upcoming academic conferences, submission deadlines and official links — accounting, finance, Islamic finance and more.",
+    "fr": "Vidéo de présentation : les conférences scientifiques à venir, dates limites et liens officiels — comptabilité, finance, finance islamique…",
+    "ar": "فيديو تقديمي: المؤتمرات العلمية القادمة وآجال تقديم البحوث والروابط الرسمية."
+   },
+   "bouton": {
+    "en": "Open the website",
+    "fr": "Ouvrir le site",
+    "ar": "افتح الموقع"
+   },
+   "sources": {
+    "fr": "presentation-fr"
+   }
+  }
+ ]
+}

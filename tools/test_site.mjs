@@ -113,14 +113,16 @@ check("en-tête : bouton doré « Alertes Pro » sur la page", d.querySelector("
   w.goatcounter = { count: o => comptes.push(o) };
   b.dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
   await new Promise(r => setTimeout(r, 10));
-  check("Partager sans menu du téléphone : WhatsApp avec titre + adresse sans paramètre de langue, clic compté (partage/…)",
-    ouverts.length === 1 && /^https:\/\/wa\.me\/\?text=/.test(ouverts[0]) && !/lang%3D/.test(ouverts[0]) && decodeURIComponent(ouverts[0]).includes(URL_SITE) &&
+  // partage par lien (demande d'Ahmed) : page vidéo du site (dans la langue de la page) + adresse du site
+  const lg = w.document.documentElement.lang, q = lg === "en" ? "" : "?lang=" + lg;
+  check("Partager sans menu du téléphone : WhatsApp avec titre, adresse du site et page vidéo (langue de la page), clic compté (partage/…)",
+    ouverts.length === 1 && /^https:\/\/wa\.me\/\?text=/.test(ouverts[0]) && decodeURIComponent(ouverts[0]).endsWith(" " + URL_SITE + "video/" + q) && decodeURIComponent(ouverts[0]).includes(URL_SITE + q) &&
     comptes.length === 1 && comptes[0].path.startsWith("partage/") && comptes[0].event === true);
   const partages = [];
   Object.defineProperty(w.navigator, "share", { value: async o => { partages.push(o); }, configurable: true });
   b.dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
   await new Promise(r => setTimeout(r, 10));
-  check("Partager avec navigator.share : menu du téléphone (titre + adresse sans ?lang=)", partages.length === 1 && partages[0].url.startsWith(URL_SITE) && !/lang=/.test(partages[0].url) && ouverts.length === 1);
+  check("Partager avec navigator.share : menu du téléphone (page vidéo + adresse du site, aucun fichier)", partages.length === 1 && partages[0].url === URL_SITE + "video/" + q && partages[0].text.includes(URL_SITE) && !partages[0].files && ouverts.length === 1);
 }
 check("accueil : « Gratuit, sans inscription » dit dès le premier écran (FR, EN, AR)",
   /Gratuit, sans inscription/.test(texte(d.querySelector('.intro [data-l="fr"]'))) && /Free, no sign-up/.test(texte(d.querySelector('.intro [data-l="en"]'))) && /مجاني/.test(texte(d.querySelector('.intro [data-l="ar"]'))));
@@ -239,12 +241,13 @@ for (const u of urls) {
   if (!existsSync(join(root, chemin))) { ok.fichiers = false; console.log("   page manquante : " + chemin); continue; }
   const h = lire(chemin);
   if (!(/<title>[^<]{20,}<\/title>/.test(h) && /<meta name="description" content="[^"]{50,}"/.test(h) && h.includes(`<link rel="canonical" href="${u}">`) &&
-      h.includes(`property="og:image" content="${URL_SITE}assets/og-image-v1.jpg"`) && h.includes('<meta property="og:image:type" content="image/jpeg">') && /name="viewport"/.test(h))) {
+      h.includes(`property="og:image" content="${URL_SITE}${chemin === "video/index.html" ? "assets/video/apercu-video.jpg" : "assets/og-image-v1.jpg"}"`) && h.includes('<meta property="og:image:type" content="image/jpeg">') && /name="viewport"/.test(h))) {
     ok.seo = false; console.log("   SEO incomplet : " + chemin); }
   if (!(h.match(/\?v=([0-9a-f]+)/g) || []).every(x => x === "?v=" + v) || !/\?v=/.test(h)) { ok.v = false; console.log("   ?v= périmé : " + chemin); }
-  if (!/<h1>(<span data-l="fr">[^<]+<\/span><span data-l="en">[^<]+<\/span><span data-l="ar">.+?<\/span>)<\/h1>/.test(h)) { ok.h1 = false; console.log("   h1 FR+EN+AR : " + chemin); }
+  if (!/<h1>(<span data-l="fr">[^<]+<\/span><span data-l="en">[^<]+<\/span><span data-l="ar">.+?<\/span>)<\/h1>/.test(h) && !(chemin === "video/index.html" && /<h1 data-ven="[^"]+" data-vfr="[^"]+" data-var="[^"]+">/.test(h))) { ok.h1 = false; console.log("   h1 FR+EN+AR : " + chemin); }
   if (!/INSPIRE-HEP/.test(h) || !/MIT/.test(h)) ok.src = false;
-  const nFr = (h.match(/data-l="fr"/g) || []).length, nEn = (h.match(/data-l="en"/g) || []).length, nAr = (h.match(/data-l="ar"/g) || []).length;
+  // page vidéo : textes traduits par attributs data-vfr / data-ven / data-var (tools/page_video.mjs)
+  const nFr = (h.match(/data-l="fr"|data-vfr=/g) || []).length, nEn = (h.match(/data-l="en"|data-ven=/g) || []).length, nAr = (h.match(/data-l="ar"|data-var=/g) || []).length;
   if (!nFr || nFr !== nEn || nEn !== nAr) { ok.en = false; console.log(`   langues incomplètes (${nFr} fr / ${nEn} en / ${nAr} ar) : ${chemin}`); }
   if (!/©/.test(h)) ok.copy = false;
   if (!/<html [^>]*translate="no"/.test(h) || !h.includes('<meta name="google" content="notranslate">')) ok.trad = false;

@@ -1292,6 +1292,11 @@ def construire(donnees, sortie, jour):
         sitemap.append(f"  <url><loc>{URL_SITE}{chemin}</loc><lastmod>{jour}</lastmod></url>")
     sitemap.append("</urlset>")
     ecrire(sortie, "sitemap.xml", "\n".join(sitemap) + "\n")
+    # pages vidéo (video/) tirées de la page À propos : mêmes en-tête, pied, CSP et ?v= (tools/page_video.py)
+    sys.path.insert(0, os.path.join(RACINE_SITE, "tools"))
+    from page_video import pages_video
+    with open(os.path.join(RACINE_SITE, "tools", "page_video.json"), encoding="utf-8") as fv:
+        pages_video(sortie, json.load(fv))
     print(f"  {len(pages)} pages, {len(vis)} conférences à venir (sur {len(confs)} en mémoire), version {v}"
           f"{', AVERTISSEMENT : ' + raison if panne else ''}")
     return 0
