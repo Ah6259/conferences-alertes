@@ -6,7 +6,8 @@
   let langue = "en";
   try {
     const n = (navigator.language || "").slice(0, 2);
-    langue = localStorage.getItem("langue") || (LANGUES.includes(n) ? n : "en");
+    const sauvee = localStorage.getItem("langue-conferences");
+    langue = LANGUES.includes(sauvee) ? sauvee : (LANGUES.includes(n) ? n : "en");
   } catch (e) {}
   const demande = new URLSearchParams(location.search).get("lang");
   if (LANGUES.includes(demande)) langue = demande;
@@ -103,7 +104,7 @@
   function appliquer(l) {
     if (!LANGUES.includes(l)) l = "en";
     html.lang = l; html.dir = l === "ar" ? "rtl" : "ltr";
-    try { localStorage.setItem("langue", l); } catch (e) {}
+    try { localStorage.setItem("langue-conferences", l); } catch (e) {}
     cadre();
     traduire();
     document.dispatchEvent(new Event("langue"));
