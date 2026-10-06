@@ -67,3 +67,6 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 2. `bash tools/captures.sh` (Edge, 360/500 px, FR/EN/AR) et regarder les images.
 3. Image d'aperçu `assets/og-image-v1.jpg` (source `tools/og-image.html`, JPEG < 250 Ko) : si on la change, nouveau nom (-v2).
 4. Service worker : `sw.js` (préfixe `conferences-alertes-`), changer `CACHE_VERSION` si une vieille version reste bloquée.
+
+- **Vidéo de présentation** (06/10/2026) : `assets/video/presentation.mp4` (anglais) et `presentation-fr.mp4` (choisie si la page est en français) + `couverture.jpg`, 1080 × 1920, sans musique. Le bouton « Partager » envoie la vidéo + le lien quand le téléphone le permet, sinon le lien seul (`window.partagerVideo`, bloc « vidéo de présentation » en fin de `assets/page.js`) ; lien « Vidéo de présentation » en bas de l'accueil et de À propos ; test `node tools/test_video.mjs`.
+  Pour la refaire (vraies captures du site, chiffres lus en ligne) : `python fabriquer.py conferences` puis `python brancher_partage.py conferences` dans le dossier PRIVÉ du PC `videos (outil)/`.
