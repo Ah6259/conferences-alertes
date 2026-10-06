@@ -1,8 +1,8 @@
 {
  "verifie_le": "2026-10-06",
  "nombre": 54,
- "injoignables": 0,
- "a_verifier_a_la_main": 21,
+ "injoignables": 2,
+ "a_verifier_a_la_main": 20,
  "resultats": [
   {
    "acronyme": "MODAV-ICA 2026",
@@ -19,8 +19,8 @@
   {
    "acronyme": "RIARF 2026",
    "lien": "https://riarf.uib.es/",
-   "etat": "ok",
-   "detail": "code 200"
+   "etat": "injoignable",
+   "detail": "<urlopen error timed out>"
   },
   {
    "acronyme": "CAR Conference 2026",
@@ -73,8 +73,8 @@
   {
    "acronyme": "HKUST ARS 2026",
    "lien": "https://acct.hkust.edu.hk/research/research-symposium/2026symposium",
-   "etat": "ok",
-   "detail": "code 200"
+   "etat": "protege",
+   "detail": "certificat du site incomplet : à vérifier à la main"
   },
   {
    "acronyme": "HARC 2027",
@@ -115,8 +115,8 @@
   {
    "acronyme": "ACMAR 2027",
    "lien": "https://www.whu-acmar.com",
-   "etat": "protege",
-   "detail": "certificat du site incomplet : à vérifier à la main"
+   "etat": "ok",
+   "detail": "code 200"
   },
   {
    "acronyme": "EAR 2027",
@@ -157,8 +157,8 @@
   {
    "acronyme": "GCGC 2027",
    "lien": "https://www.ecgi.global/events/2027-global-corporate-governance-colloquium",
-   "etat": "protege",
-   "detail": "robots.txt interdit la lecture automatique : à vérifier à la main"
+   "etat": "ok",
+   "detail": "code 200"
   },
   {
    "acronyme": "JAAF 2027",
@@ -325,8 +325,8 @@
   {
    "acronyme": "AQU 2027",
    "lien": "https://alqasimia.ac.ae/",
-   "etat": "ok",
-   "detail": "code 200"
+   "etat": "injoignable",
+   "detail": "<urlopen error timed out>"
   }
  ]
 }
