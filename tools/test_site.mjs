@@ -197,7 +197,11 @@ const premiere = avenir.slice().sort((a, b) => a.fin.localeCompare(b.fin))[0];
 w = await page("index.html", `lang=fr&jour=${plus(premiere.fin, 1)}`);
 d = w.document;
 check("une conférence terminée (date du visiteur) disparaît", d.getElementById(premiere.id).hidden && d.getElementById(premiere.id).dataset.ok === "");
-check("données de plus de 2 jours : avertissement daté visible", d.getElementById("alerte-panne").classList.contains("on") && /depuis le \d\d\/\d\d\/\d{4}/.test(texte(d.getElementById("alerte-panne"))));
+// l'avertissement se compte depuis la DERNIÈRE LECTURE RÉUSSIE (data-maj), pas depuis la fin d'une conférence
+// (07/10/2026 : une conférence finissait le jour même → jour simulé à 1 jour des données → faux échec qui bloquait le robot)
+const MAJ = String(etat.derniere_lecture_reussie || JOUR).slice(0, 10);
+w = await page("index.html", `lang=fr&jour=${plus(MAJ, 2)}`);
+check("données de plus de 2 jours : avertissement daté visible", w.document.getElementById("alerte-panne").classList.contains("on") && /depuis le \d\d\/\d\d\/\d{4}/.test(texte(w.document.getElementById("alerte-panne"))));
 const avecDeux = avenir.find(c => c.dates_limites.filter(x => (x.type === "article" || x.type === "resume") && x.date >= JOUR).length >= 2);
 if (avecDeux) {
   const ds = avecDeux.dates_limites.filter(x => (x.type === "article" || x.type === "resume") && x.date >= JOUR).map(x => x.date).sort();
@@ -205,8 +209,8 @@ if (avecDeux) {
   const c = w.document.getElementById(avecDeux.id);
   check(`date limite passée (${ds[0]}) : la suivante (${ds[1]}) est montrée`, c.dataset.prochaine === ds[1] && [...c.querySelectorAll(".dl")].filter(b => !b.hidden).map(b => b.dataset.d).join() === ds[1]);
 }
-w = await page("index.html", `lang=fr&jour=${plus(JOUR, 1)}`);
-check("données d'hier : pas encore d'avertissement", !w.document.getElementById("alerte-panne").classList.contains("on"));
+w = await page("index.html", `lang=fr&jour=${plus(MAJ, 1)}`);
+check("données d'hier : pas encore d'avertissement", etat.bandeau_visible || !w.document.getElementById("alerte-panne").classList.contains("on"));
 const derniere = avenir.map(c => c.fin).sort().pop();
 w = await page("index.html", `lang=fr&jour=${plus(derniere, 1)}`);
 check("tout terminé : aucune carte, message « aucune conférence », site non vide (domaines, sources)",
