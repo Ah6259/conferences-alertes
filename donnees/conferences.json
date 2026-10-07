@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-06 14:07",
- "derniere_lecture_reussie": "2026-10-06 14:07",
+ "mis_a_jour": "2026-10-07 16:23",
+ "derniere_lecture_reussie": "2026-10-07 16:23",
  "dernier_passage": {
-  "date": "2026-10-06 14:07",
+  "date": "2026-10-07 16:23",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 287,
    "brutes": 2301,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 27,
    "brutes": 127,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 29,
    "brutes": 155,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 4,
    "brutes": 24,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 121,
-   "brutes": 142,
-   "derniere_reussite": "2026-10-06 14:07",
+   "nombre": 119,
+   "brutes": 140,
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 54,
    "brutes": 54,
-   "derniere_reussite": "2026-10-06 14:07",
+   "derniere_reussite": "2026-10-07 16:23",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 499,
+ "nombre": 497,
  "conferences": [
   {
    "id": "seke-2026",
@@ -619,41 +619,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "lidine-2026",
-   "acronyme": "LIDINE 2026",
-   "titre": "LIght Detection In Noble Elements",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-09",
-   "ville": "Amsterdam",
-   "pays": "NL",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "instrumentation",
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.nikhef.nl/event/7584/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3162623",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "pg-2026",
    "acronyme": "PG",
    "titre": "Pacific Graphics, The Pacific Conference on Computer Graphics and Applications",
@@ -697,39 +662,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "quantum-2026",
-   "acronyme": "",
-   "titre": "Quantum Effects",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-07",
-   "ville": "Stuttgart",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.messe-stuttgart.de/quantum-effects/en/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3127481",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -14614,10 +14546,10 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-06",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-09-29",
