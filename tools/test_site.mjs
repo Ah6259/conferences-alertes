@@ -415,8 +415,8 @@ const ta = texte(d.querySelector("main"));
 check("abonnement : prix tout de suite (9 DT / mois ou 79 DT / an), essai 14 jours, sans engagement au-delà d'un an, pas de renouvellement automatique",
   /9 DT \/ mois ou 79 DT \/ an/.test(texte(d.getElementById("abo-prix"))) && /14 jours d'essai gratuit/.test(ta) && /Sans engagement au-delà d'un an/.test(ta) && /Pas de renouvellement automatique/.test(ta));
 const pay = d.getElementById("paiement");
-check("bouton « Paiement » qui déplie D17, IZI, Wafacash au 24 321 390 + montant + motif", pay && pay.tagName === "DETAILS" && !pay.open &&
-  ["D17", "IZI", "Wafacash"].every(m => texte(pay).includes(m)) && (texte(pay).match(/24 321 390/g) || []).length >= 3 && /Motif/.test(texte(pay)));
+check("bouton « Paiement » qui déplie D17 et IZI (liens vers les applications officielles, mode d'emploi, plus de Wafacash) au 24 321 390 + montant + motif", pay && pay.tagName === "DETAILS" && !pay.open &&
+  ["D17", "IZI", "Transfert rapide"].every(m => texte(pay).includes(m)) && (texte(pay).match(/24 321 390/g) || []).length >= 3 && /Motif/.test(texte(pay)) && !/Wafacash/i.test(pay.outerHTML) && ["tn.mobipost", "tn.izi.consumer", "id1475640303", "id1603653941"].every(u => pay.querySelector(`a.appli[href*="${u}"]`)));
 check("paiement : ligne honnête pour l'étranger (carte : bientôt ; WhatsApp)", /Paiement par carte pour l'étranger : bientôt ; écrivez-nous sur WhatsApp/.test(texte(pay)));
 const wa = d.getElementById("abo-preuve");
 check("bouton vert « preuve de paiement » vers wa.me/21624321390 avec texte prérempli", wa && /^https:\/\/wa\.me\/21624321390\?text=/.test(wa.href) && /preuve de paiement/.test(decodeURIComponent(wa.href)));
@@ -439,7 +439,7 @@ check("après l'envoi : confirmation, paiement et Telegram affichés", d.getElem
 w = await page("abonnement/conditions/index.html", "lang=fr");
 const tc = texte(w.document.querySelector("main"));
 check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de renouvellement, aucun remboursement, données personnelles, INPDP",
-  /vendu par l'éditeur du site/.test(tc) && /9 DT par mois ou 79 DT par an/.test(tc) && /14 premiers jours sont gratuits/.test(tc) && /D17, IZI ou Wafacash/.test(tc) &&
+  /vendu par l'éditeur du site/.test(tc) && /9 DT par mois ou 79 DT par an/.test(tc) && /14 premiers jours sont gratuits/.test(tc) && /D17 ou IZI/.test(tc) &&
   /aucun renouvellement automatique/.test(tc) && /Aucune période déjà payée n'est remboursée/.test(tc) && /Données personnelles/.test(tc) && /INPDP/.test(tc));
 
 console.log(`\n${total - erreurs}/${total} vérifications réussies` + (erreurs ? ` — ${erreurs} ÉCHEC(S) : ne pas publier.` : " — tout est bon."));
