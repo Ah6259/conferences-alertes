@@ -54,7 +54,7 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 
 ## Alertes Pro (payant, comme le site Appels d'offres)
 - 9 DT / mois ou 79 DT / an, 14 jours d'essai, sans engagement au-delà d'un an, pas de renouvellement automatique.
-  Paiement D17 / IZI / Wafacash 24 321 390 + preuve WhatsApp ; ligne « Paiement par carte pour l'étranger : bientôt ».
+  Paiement D17 / IZI 24 321 390 + preuve WhatsApp ; ligne « Paiement par carte pour l'étranger : bientôt ».
 - Bouton doré « Alertes Pro » dans l'en-tête (page.js) + gros bouton dans le bandeau de l'accueil ; `abonnement/` + `conditions/`.
 - Abonnés = dépôt **PRIVÉ** `Ah6259/conferences-abonnes` (dossier PC `../abonnes (prive)/`) : `alertes.yml`, `activer-abonne.yml`.
   Sa copie de `classement.py` (DOMAINES, SPECIALITES) doit rester identique (son test le vérifie sur le PC).

@@ -21,7 +21,7 @@ https://ah6259.github.io/conferences-alertes/ (anglais par défaut ; menu « FR 
 Voir le README du dépôt **privé** `conferences-abonnes` : créer le robot Telegram, mettre son jeton dans les Secrets du
 dépôt privé, écrire son nom dans `robot/reglages.py` (`TELEGRAM_ROBOT_ALERTES`), puis activer chaque inscription avec le
 bouton `activer-abonne` depuis l'application GitHub du téléphone.
-**Paiement international** : aujourd'hui D17 / IZI / Wafacash (Tunisie) ; pour l'étranger le site dit « carte bancaire :
+**Paiement international** : aujourd'hui D17 / IZI (Tunisie) ; pour l'étranger le site dit « carte bancaire :
 bientôt, écrivez-nous sur WhatsApp ». Choix à faire : Konnect (carte) ou un autre service (voir l'étude privée).
 
 ## 4. Ajouter une conférence de comptabilité, finance ou finance islamique (sélection officielle)
