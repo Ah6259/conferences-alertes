@@ -766,14 +766,21 @@ def lien_appli(m, t):
 
 
 def liste_paiements(ident="abo-etranger"):
-    modes = "".join(f'<dt>{lien_appli(m, m)}</dt><dd><bdi dir="ltr">{ABO["numero"]}</bdi> · {lien_appli(m, "iPhone")}</dd>' for m in ABO["paiements"])
-    comment, mode = L("Comment payer", "How to pay", "طريقة الدفع"), L("Touchez D17 ou IZI pour ouvrir l'application (sur iPhone : le lien « iPhone »). Dans D17 : « Transfert d'argent » puis « Transfert rapide » ; dans IZI : « Transfert ». Tapez le numéro 24 321 390 et le montant, puis « Envoyer ».", "Tap D17 or IZI to open the app (on iPhone: the “iPhone” link). In D17: “Transfert d'argent” then “Transfert rapide”; in IZI: “Transfert”. Enter the number 24 321 390 and the amount, then “Envoyer”.", 'اضغط على D17 أو IZI لفتح التطبيق (على آيفون: رابط « iPhone »). في D17: « تحويل الأموال » ثم « التحويل السريع »؛ في IZI: « تحويل ». أدخل الرقم \u206824 321 390\u2069 والمبلغ ثم « إرسال ».')
-    modes += f'<dt>{comment}</dt><dd>{mode}</dd>'
+    # paiement en 3 étapes numérotées + phrase de confiance (demande d'Ahmed, 08/10/2026 : simple, rassurant)
+    applis = "".join(f'<a class="appli-btn" href="{APPLIS[m][0]}" target="_blank" rel="noopener noreferrer">{m}</a>' for m in ABO["paiements"])
+    ios = " · ".join(f'<a class="appli" href="{APPLIS[m][1]}" target="_blank" rel="noopener noreferrer">{m}</a>' for m in ABO["paiements"])
+    e1, e1b = L("Ouvrez l'application :", 'Open the app:', 'افتح التطبيق:'), L('Sur iPhone :', 'On iPhone:', 'على آيفون:')
+    e2 = L('Choisissez « Transfert rapide » (dans IZI : « Transfert ») et tapez le numéro', 'Choose “Transfert rapide” (in IZI: “Transfert”) and enter the number', 'اختر « التحويل السريع » (في IZI: « تحويل ») وأدخل الرقم')
+    e2b, e3 = L('Montant :', 'Amount:', 'المبلغ:'), L('Motif :', 'Reference:', 'سبب الدفع:')
+    e3b = L('Puis envoyez la capture du paiement par WhatsApp (bouton vert).', 'Then send the payment screenshot on WhatsApp (green button).', 'ثم أرسل لقطة الدفع عبر واتساب (الزر الأخضر).')
+    conf = L("Vous payez directement dans l'application officielle de La Poste Tunisienne (D17) ou de Zitouna Paiement (IZI) : nous ne voyons jamais vos codes.", 'You pay directly in the official app of La Poste Tunisienne (D17) or Zitouna Paiement (IZI): we never see your codes.', 'تدفع مباشرة في التطبيق الرسمي للبريد التونسي (D17) أو لزيتونة للدفع (IZI): لا نطّلع أبدًا على رموزك.')
+    motif = L('votre nom', 'your name', 'اسمك')
+    paie = (f'<div class="paie"><ol class="paie-etapes"><li>{e1} <span class="applis">{applis}</span><br><span class="petit">{e1b} {ios}</span></li>'
+            f'<li>{e2} <strong><bdi dir="ltr">{ABO["numero"]}</bdi></strong>.<br>{e2b} <strong>{prix_abo()}</strong></li>'
+            f'<li>{e3} <strong>{motif}</strong>. {e3b}</li></ol><p class="paie-confiance">{conf}</p></div>')
     etranger = (f'<p class="carte-etranger">{L("Paiement par carte pour l\'étranger : bientôt ; écrivez-nous sur WhatsApp.", "Card payment from abroad: coming soon; write to us on WhatsApp.", "الدفع بالبطاقة من الخارج: قريبًا؛ راسلنا عبر واتساب.")}</p>'
                 + lien_wa(TEXTE_ETRANGER, ident, L("Je suis à l'étranger : écrire sur WhatsApp", "I am abroad: write on WhatsApp", "أنا خارج تونس: راسلنا عبر واتساب")))
-    return (f'<dl class="paie">{modes}'
-            f'<dt>{L("Montant", "Amount", "المبلغ")}</dt><dd>{prix_abo()}</dd>'
-            f'<dt>{L("Motif", "Reference", "سبب الدفع")}</dt><dd>{L("votre nom", "your name", "اسمك")}</dd></dl>' + etranger)
+    return paie + etranger
 
 
 def texte_telegram(robot):
@@ -809,7 +816,7 @@ def pages_abonnement(confs, adr, v, etat):
   <p class="ruban">{L(f"{essai} jours d'essai gratuit", f"{essai}-day free trial", f"تجربة مجانية {ISO(essai)} يومًا")}</p>
   <h2>{L("Abonnement Alertes Pro", "Pro Alerts subscription", "اشتراك تنبيهات Pro")}</h2>
   <p class="prix" id="abo-prix">{prix_abo()}</p>
-  <ul class="avantages">
+  <ul class="avantages masque-si-paiement">
     <li>{L("Un message chaque matin sur <b>Telegram</b> : seulement les nouvelles conférences de vos spécialités", "One message every morning on <b>Telegram</b>: only new conferences in your specialties", "رسالة كل صباح على <b>تيليغرام</b>: المؤتمرات الجديدة في تخصصاتك فقط")}</li>
     <li>{L("Rappels des dates limites de soumission à J-7 et J-1", "Submission deadline reminders 7 days and 1 day before", "تذكير بآجال الإرسال قبل 7 أيام وقبل يوم")}</li>
     <li>{L("Plusieurs spécialités au choix, dans tous les domaines", "Several specialties of your choice, in every field", "عدة تخصصات حسب اختيارك في كل المجالات")}</li>
@@ -817,7 +824,7 @@ def pages_abonnement(confs, adr, v, etat):
     <li>{L(f"Pas de renouvellement automatique : rappel {rj} jours avant la fin, puis l'alerte s'arrête simplement", f"No automatic renewal: reminder {rj} days before the end, then alerts simply stop", f"لا تجديد آلي: تذكير قبل النهاية بـ{ISO(rj)} أيام، ثم يتوقف التنبيه ببساطة")}</li>
     <li><strong>{L("Sans engagement au-delà d'un an", "No commitment beyond one year", "دون التزام بعد السنة")}</strong></li>
   </ul>
-  <p class="petit">{L(f"{essai} jours d'essai gratuit, sans paiement. Ensuite, paiement par D17 ou IZI (bouton « Paiement »). Une facture vous est adressée.",
+  <p class="petit masque-si-paiement">{L(f"{essai} jours d'essai gratuit, sans paiement. Ensuite, paiement par D17 ou IZI (bouton « Paiement »). Une facture vous est adressée.",
                       f"{essai}-day free trial, no payment. Then payment by D17 or IZI (“Payment” button). An invoice is sent to you.",
                       f"تجربة مجانية لمدة {ISO(essai)} يومًا دون دفع. بعدها، الدفع عبر ⁨D17⁩ أو ⁨IZI⁩ (زر «الدفع»). تُرسل إليك فاتورة.")}</p>
   <details class="paiement" id="paiement"><summary class="btn-clair">{L("Paiement", "Payment", "الدفع")}</summary>
