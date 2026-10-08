@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-07 16:23",
- "derniere_lecture_reussie": "2026-10-07 16:23",
+ "mis_a_jour": "2026-10-08 12:25",
+ "derniere_lecture_reussie": "2026-10-08 12:25",
  "dernier_passage": {
-  "date": "2026-10-07 16:23",
+  "date": "2026-10-08 12:25",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 287,
+   "nombre": 282,
    "brutes": 2301,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:24",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 27,
    "brutes": 127,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 29,
+   "nombre": 28,
    "brutes": 155,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 4,
    "brutes": 24,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   },
@@ -65,110 +65,21 @@
    "etat": "ok",
    "nombre": 119,
    "brutes": 140,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 54,
+   "nombre": 53,
    "brutes": 54,
-   "derniere_reussite": "2026-10-07 16:23",
+   "derniere_reussite": "2026-10-08 12:25",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 497,
+ "nombre": 490,
  "conferences": [
-  {
-   "id": "seke-2026",
-   "acronyme": "SEKE",
-   "titre": "International Conference on Software Engineering and Knowledge Engineering",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-01",
-   "fin": "2026-10-07",
-   "ville": "Toronto",
-   "pays": "CA",
-   "mode": "hybride",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-10",
-     "type": "article",
-     "libelle": "CFP and proceedings event dates conflict",
-     "heure": "23:59",
-     "fuseau": "UTC-5"
-    }
-   ],
-   "lien": "https://ksiresearch.org/seke/seke26.html",
-   "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "nordichi-2026",
-   "acronyme": "NordiCHI",
-   "titre": "Nordic Conference on Human-Computer Interaction",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-03",
-   "fin": "2026-10-07",
-   "ville": "Vaasa",
-   "pays": "FI",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-16",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-04-23",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://sites.uwasa.fi/nordichi2026/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "codes-isss-2026",
    "acronyme": "CODES+ISSS",
@@ -259,184 +170,6 @@
    "rang": "",
    "sources": [
     "bio"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "smc-2026",
-   "acronyme": "SMC",
-   "titre": "IEEE International Conference on Systems, Man, and Cybernetics",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-04",
-   "fin": "2026-10-07",
-   "ville": "Bellevue",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "info-interdisciplinaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-03",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    }
-   ],
-   "lien": "https://www.ieeesmc2026.org/",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "emsoft-2026",
-   "acronyme": "EMSOFT",
-   "titre": "International Conference on Embedded Software",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-05",
-   "fin": "2026-10-07",
-   "ville": "Barcelona",
-   "pays": "ES",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "info-interdisciplinaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-23",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-30",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://esweek.org/emsoft/",
-   "rang": "CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icmla-2026",
-   "acronyme": "ICMLA",
-   "titre": "International Conference on Machine Learning and Applications",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-05",
-   "fin": "2026-10-07",
-   "ville": "Oakland Center",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-31",
-     "type": "article",
-     "libelle": "Main Conference Papers DDL.",
-     "heure": "23:59",
-     "fuseau": "PT"
-    }
-   ],
-   "lien": "https://www.icmla-conference.org/icmla26/",
-   "rang": "CORE C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "oopsla-2026",
-   "acronyme": "OOPSLA",
-   "titre": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-05",
-   "fin": "2026-10-07",
-   "ville": "Oakland",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-10-10",
-     "type": "article",
-     "libelle": "Round 1",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-03-17",
-     "type": "article",
-     "libelle": "Round 2",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://conf.researchr.org/track/splash-2026/oopsla-2026",
-   "rang": "CORE A · CCF A",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -988,40 +721,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "s-p-difc-ifc-2026",
-   "acronyme": "S&P-DIFC IFC 2026",
-   "titre": "16th Annual Islamic Finance Conference (S&P Global Ratings and DIFC)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-07",
-   "fin": "2026-10-07",
-   "ville": "Dubai",
-   "pays": "AE",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "sukuk",
-    "banque-islamique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.spglobal.com/ratings/en/events/in-person/islamic-finance-conference",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.spglobal.com/ratings/en/events/in-person/islamic-finance-conference",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -1653,8 +1352,8 @@
     "economie-islamique",
     "zakat-waqf"
    ],
-   "date_limite": "2026-10-07",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -13232,10 +12931,10 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-10-07",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-02-04",
@@ -13248,14 +12947,14 @@
      "date": "2026-06-10",
      "type": "article",
      "libelle": "Paper",
-     "heure": "23:59",
+     "heure": "12:00",
      "fuseau": "AoE"
     },
     {
      "date": "2026-10-07",
      "type": "article",
      "libelle": "Paper",
-     "heure": "23:59",
+     "heure": "12:00",
      "fuseau": "AoE"
     }
    ],
