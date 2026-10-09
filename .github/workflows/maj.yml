@@ -68,7 +68,7 @@ jobs:
           git add -A          # tout ce que le robot a changé (node_modules et captures sont ignorés par .gitignore)
           if git diff --cached --quiet; then echo "Rien de nouveau."; exit 0; fi
           git commit -m "Conférences du $(date +'%d/%m/%Y %H:%M')"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
 
       - name: Alerte si une source est en panne (issue GitHub)
