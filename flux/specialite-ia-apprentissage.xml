@@ -4,9 +4,16 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/specialite-ia-apprentissage.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-ia-apprentissage.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-08T06:00:00Z</updated>
+<updated>2026-10-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icpr-2027/</id>
+<title>ICPR 2027 — International Conference on Pattern Recognition</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icpr-2027/"/>
+<updated>2026-10-09T06:00:00Z</updated>
+<summary>4–6 Oct 2027 · Online · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://www.icpr2027.com/</summary>
+</entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/ecai-2027/</id>
 <title>ECAI 2027 — European Conference on Artificial Intelligence</title>
@@ -349,12 +356,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/cicai-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–19 Oct 2026 · Haining, China · Deadline: 8 Jun 2026 · Official: https://cicai.caai.cn/index.html</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/colm-2026/</id>
-<title>COLM 2026 — Conference on Language Modeling</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/colm-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>6–8 Oct 2026 · Hilton Union Square, United States · Deadline: 26 Mar 2026, 31 Mar 2026 · Official: https://colm.cc/Conferences/2026/CallForPapers</summary>
 </entry>
 </feed>

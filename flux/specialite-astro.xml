@@ -4,9 +4,16 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/specialite-astro.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-astro.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-08T06:00:00Z</updated>
+<updated>2026-10-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/quantum-gravity-2027/</id>
+<title>Quantum Gravity 2027</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/quantum-gravity-2027/"/>
+<updated>2026-10-09T06:00:00Z</updated>
+<summary>13–17 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://www.thphys.uni-heidelberg.de/~qg2027/</summary>
+</entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/horizons-in-quantum-2027/</id>
 <title>Horizons in Quantum Gravity</title>
@@ -419,12 +426,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/aepshep-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–27 Oct 2026 · Taoyuan, Taiwan · Deadline: see official website · Official: https://indico.cern.ch/event/1663642/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/astro-colibri-2026/</id>
-<title>Astro-COLIBRI 2026 — 5th Astro-COLIBRI Multi-Messenger Astrophysics Workshop</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/astro-colibri-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>12–16 Oct 2026 · Paris-Saclay, France · Deadline: see official website · Official: https://www.multimessenger-astrophysics.com</summary>
 </entry>
 </feed>

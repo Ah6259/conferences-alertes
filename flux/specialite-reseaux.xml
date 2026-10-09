@@ -4,7 +4,7 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/specialite-reseaux.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-reseaux.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-08T06:00:00Z</updated>
+<updated>2026-10-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -153,12 +153,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/lcn-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–9 Oct 2026 · Coimbra, Portugal · Deadline: 4 May 2026, 4 May 2026 · Official: https://www.ieeelcn.org/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icnp-2026/</id>
-<title>ICNP 2026 — IEEE International Conference on Network Protocols</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icnp-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>6–8 Oct 2026 · Tempe, United States · Deadline: 15 May 2026, 22 May 2026 · Official: https://icnp26.cs.ucr.edu/</summary>
 </entry>
 </feed>

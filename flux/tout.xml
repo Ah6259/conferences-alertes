@@ -4,9 +4,30 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/tout.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/tout.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-08T06:00:00Z</updated>
+<updated>2026-10-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icpr-2027/</id>
+<title>ICPR 2027 — International Conference on Pattern Recognition</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icpr-2027/"/>
+<updated>2026-10-09T06:00:00Z</updated>
+<summary>4–6 Oct 2027 · Online · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://www.icpr2027.com/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/quantum-gravity-2027/</id>
+<title>Quantum Gravity 2027</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/quantum-gravity-2027/"/>
+<updated>2026-10-09T06:00:00Z</updated>
+<summary>13–17 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://www.thphys.uni-heidelberg.de/~qg2027/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/qai-2026/</id>
+<title>QAI 2026 — 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/qai-2026/"/>
+<updated>2026-10-09T06:00:00Z</updated>
+<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
+</entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2027/</id>
 <title>ACM SIGGRAPH ASIA 2027 — ACM SIGGRAPH Annual Conference in Asia</title>
@@ -405,26 +426,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/pets-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–24 Jul 2027 · Delft, Netherlands · Deadline: 31 May 2026, 31 Aug 2026, 30 Nov 2026 · Official: https://petsymposium.org/cfp27.php</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sacmat-2027/</id>
-<title>SACMAT 2027 — ACM Symposium on Access Control Models and Technologies</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sacmat-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–21 Jul 2027 · Durham, United Kingdom · Deadline: 30 Oct 2026, 12 Feb 2027 · Official: https://www.sacmat.org/2027/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ismb-2027/</id>
-<title>ISMB 2027 — International Conference on Intelligent Systems for Molecular Biology</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ismb-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Jul 2027 · Copenhagen, Denmark · Deadline: see official website · Official: https://www.iscb.org/ismbeccb2027/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sigir-2027/</id>
-<title>SIGIR 2027 — International Conference on Research on Development in Information Retrieval</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sigir-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–24 Jul 2027 · San Jose, United States · Deadline: 14 Jan 2027, 21 Jan 2027 · Official: https://sigir2027.org/</summary>
 </entry>
 </feed>

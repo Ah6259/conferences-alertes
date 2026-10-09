@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-08 12:25",
- "derniere_lecture_reussie": "2026-10-08 12:25",
+ "mis_a_jour": "2026-10-09 12:21",
+ "derniere_lecture_reussie": "2026-10-09 12:21",
  "dernier_passage": {
-  "date": "2026-10-08 12:25",
+  "date": "2026-10-09 12:21",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 282,
-   "brutes": 2301,
-   "derniere_reussite": "2026-10-08 12:24",
+   "nombre": 279,
+   "brutes": 2302,
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 27,
    "brutes": 127,
-   "derniere_reussite": "2026-10-08 12:25",
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 28,
    "brutes": 155,
-   "derniere_reussite": "2026-10-08 12:25",
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
@@ -41,15 +41,15 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-08 12:25",
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
   "bio": {
    "etat": "ok",
-   "nombre": 4,
+   "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-08 12:25",
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-08 12:25",
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 119,
-   "brutes": 140,
-   "derniere_reussite": "2026-10-08 12:25",
+   "nombre": 121,
+   "brutes": 142,
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   },
@@ -73,7 +73,7 @@
    "etat": "ok",
    "nombre": 53,
    "brutes": 54,
-   "derniere_reussite": "2026-10-08 12:25",
+   "derniere_reussite": "2026-10-09 12:21",
    "raison": "",
    "depuis": ""
   }
@@ -129,22 +129,22 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "miccai-2026",
-   "acronyme": "MICCAI",
-   "titre": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+   "id": "icmi-2026",
+   "acronyme": "ICMI",
+   "titre": "ICMI",
    "annee": 2026,
    "type": "conference",
-   "debut": "2026-10-04",
-   "fin": "2026-10-08",
-   "ville": "Abu Dhabi",
-   "pays": "AE",
+   "debut": "2026-10-05",
+   "fin": "2026-10-09",
+   "ville": "Napoli",
+   "pays": "IT",
    "mode": "presentiel",
-   "continent": "asie",
+   "continent": "europe",
    "domaines": [
-    "vie-sante"
+    "informatique"
    ],
    "specialites": [
-    "medecine"
+    "ihm"
    ],
    "date_limite": "",
    "type_limite": "",
@@ -152,24 +152,24 @@
    "fuseau_limite": "",
    "dates_limites": [
     {
-     "date": "2026-02-12",
+     "date": "2026-04-13",
      "type": "resume",
      "libelle": "Abstract",
      "heure": "23:59",
-     "fuseau": "UTC+4"
+     "fuseau": "UTC-7"
     },
     {
-     "date": "2026-02-26",
+     "date": "2026-04-20",
      "type": "article",
-     "libelle": "Submission",
+     "libelle": "Paper",
      "heure": "23:59",
-     "fuseau": "UTC+4"
+     "fuseau": "UTC-7"
     }
    ],
-   "lien": "https://conferences.miccai.org/2026/en/default.asp",
+   "lien": "https://icmi.acm.org/2026/call-for-papers/",
    "rang": "",
    "sources": [
-    "bio"
+    "hci"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -183,8 +183,8 @@
    "annee": 2026,
    "type": "conference",
    "debut": "2026-10-06",
-   "fin": "2026-10-08",
-   "ville": "Hilton Union Square",
+   "fin": "2026-10-09",
+   "ville": "Hilton San Francisco Union Square",
    "pays": "US",
    "mode": "presentiel",
    "continent": "amerique-nord",
@@ -192,8 +192,7 @@
     "informatique"
    ],
    "specialites": [
-    "langage",
-    "ia-apprentissage"
+    "langage"
    ],
    "date_limite": "",
    "type_limite": "",
@@ -203,14 +202,14 @@
     {
      "date": "2026-03-26",
      "type": "resume",
-     "libelle": "Abstract",
+     "libelle": "Abstract Submission",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-03-31",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Paper Submission",
      "heure": "23:59",
      "fuseau": "AoE"
     },
@@ -236,115 +235,10 @@
      "fuseau": "AoE"
     }
    ],
-   "lien": "https://colm.cc/Conferences/2026/CallForPapers",
+   "lien": "https://colmweb.org/",
    "rang": "CCF N · CORE N · THCPL: N",
    "sources": [
-    "ccfddl",
     "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icmi-2026",
-   "acronyme": "ICMI",
-   "titre": "ACM International Conference on Multimodal Interaction",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-08",
-   "ville": "Napoli",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-13",
-     "type": "resume",
-     "libelle": "Abstract · Paper deadline extended to Apr 23, 23:59 AoE; normalized to UTC-7",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    },
-    {
-     "date": "2026-04-20",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    },
-    {
-     "date": "2026-04-24",
-     "type": "article",
-     "libelle": "Paper deadline extended to Apr 23, 23:59 AoE; normalized to UTC-7",
-     "heure": "04:59",
-     "fuseau": "UTC-7"
-    }
-   ],
-   "lien": "https://icmi.acm.org/2026/",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl",
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icnp-2026",
-   "acronyme": "ICNP",
-   "titre": "IEEE International Conference on Network Protocols",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-08",
-   "ville": "Tempe",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-15",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-22",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://icnp26.cs.ucr.edu/",
-   "rang": "CORE B · CCF B",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -432,54 +326,6 @@
    ],
    "lien": "https://rv2026.smithengineering.queensu.ca/",
    "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sas-2026",
-   "acronyme": "SAS",
-   "titre": "International Static Analysis Symposium",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-08",
-   "ville": "Oakland",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-01",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-07",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conf.researchr.org/home/splash-issta-2026/sas-2026",
-   "rang": "CORE B · CCF B",
    "sources": [
     "ccfddl"
    ],
@@ -8296,7 +8142,7 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "sas-2026-2",
+   "id": "sas-2026",
    "acronyme": "SAS 2026",
    "titre": "Singapore Accounting Symposium",
    "annee": 2026,
@@ -8443,6 +8289,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "qai-2026",
+   "acronyme": "QAI",
+   "titre": "2026 IEEE 2nd International Conference on Quantum Artificial Intelligence",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-13",
+   "fin": "2026-12-16",
+   "ville": "Nottingham",
+   "pays": "GB",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://attend.ieee.org/qai-2026/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213100",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-09"
   },
   {
    "id": "slt-2026",
@@ -11598,10 +11477,10 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-10-08",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-01",
@@ -14167,10 +14046,10 @@
     "ia-apprentissage",
     "robotique"
    ],
-   "date_limite": "2026-10-08",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-01",
@@ -15778,11 +15657,19 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2026-11-25",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-25",
+     "type": "article",
+     "libelle": "Research papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://dasfaa2027.github.io/",
    "rang": "CORE B · CCF B",
    "sources": [
@@ -15956,10 +15843,10 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-10-08",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-01",
@@ -20495,6 +20382,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "quantum-gravity-2027",
+   "acronyme": "",
+   "titre": "Quantum Gravity 2027",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-13",
+   "fin": "2027-09-17",
+   "ville": "Heidelberg",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.thphys.uni-heidelberg.de/~qg2027/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213096",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-09"
+  },
+  {
    "id": "14th-international-workshop-on-the-ckm-unitarity-2027",
    "acronyme": "",
    "titre": "14th International Workshop on the CKM Unitarity Triangle — CKM 2027",
@@ -20969,6 +20889,55 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icpr-2027",
+   "acronyme": "ICPR",
+   "titre": "International Conference on Pattern Recognition",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-04",
+   "fin": "2027-10-06",
+   "ville": "",
+   "pays": "",
+   "mode": "en-ligne",
+   "continent": "en-ligne",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "vision",
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-03-01",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-03-01",
+     "type": "resume",
+     "libelle": "Abstract · All dates tentative; March 1 is paper registration; author rebuttal A",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-03-08",
+     "type": "article",
+     "libelle": "All dates tentative; March 1 is paper registration; author rebuttal April 23 (pr",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.icpr2027.com/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-09"
   },
   {
    "id": "oopsla-2027",

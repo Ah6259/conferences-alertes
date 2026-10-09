@@ -4,9 +4,16 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/informatique.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/informatique.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-08T06:00:00Z</updated>
+<updated>2026-10-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icpr-2027/</id>
+<title>ICPR 2027 — International Conference on Pattern Recognition</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icpr-2027/"/>
+<updated>2026-10-09T06:00:00Z</updated>
+<summary>4–6 Oct 2027 · Online · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://www.icpr2027.com/</summary>
+</entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2027/</id>
 <title>ACM SIGGRAPH ASIA 2027 — ACM SIGGRAPH Annual Conference in Asia</title>
@@ -419,12 +426,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/euros-p-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–9 Jul 2027 · Madrid, Spain · Deadline: 25 Nov 2026, 2 Dec 2026 · Official: https://eurosp2027.ieee-security.org/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icalp-2027/</id>
-<title>ICALP 2027 — EATCS International Colloquium on Automata, Languages, and Programming</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icalp-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>5–9 Jul 2027 · Kraków, Poland · Deadline: 15 Sep 2026 · Official: https://icalp.uj.edu.pl/</summary>
 </entry>
 </feed>
