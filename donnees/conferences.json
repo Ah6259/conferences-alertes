@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-09 12:21",
- "derniere_lecture_reussie": "2026-10-09 12:21",
+ "mis_a_jour": "2026-10-10 11:39",
+ "derniere_lecture_reussie": "2026-10-10 11:39",
  "dernier_passage": {
-  "date": "2026-10-09 12:21",
+  "date": "2026-10-10 11:39",
   "reussi": true
  },
  "statut_source": {
@@ -15,25 +15,25 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 279,
-   "brutes": 2302,
-   "derniere_reussite": "2026-10-09 12:21",
+   "nombre": 274,
+   "brutes": 2306,
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 27,
+   "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 28,
+   "nombre": 26,
    "brutes": 155,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 121,
    "brutes": 142,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   },
@@ -73,550 +73,13 @@
    "etat": "ok",
    "nombre": 53,
    "brutes": 54,
-   "derniere_reussite": "2026-10-09 12:21",
+   "derniere_reussite": "2026-10-10 11:39",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 490,
+ "nombre": 483,
  "conferences": [
-  {
-   "id": "codes-isss-2026",
-   "acronyme": "CODES+ISSS",
-   "titre": "International Conference on Hardware/Software Co-design and System Synthesis",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-04",
-   "fin": "2026-10-09",
-   "ville": "Barcelona",
-   "pays": "ES",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-23",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-30",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://esweek.org/codes_isss_cfp/",
-   "rang": "CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icmi-2026",
-   "acronyme": "ICMI",
-   "titre": "ICMI",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-05",
-   "fin": "2026-10-09",
-   "ville": "Napoli",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-13",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    },
-    {
-     "date": "2026-04-20",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    }
-   ],
-   "lien": "https://icmi.acm.org/2026/call-for-papers/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "colm-2026",
-   "acronyme": "COLM",
-   "titre": "Conference on Language Modeling",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-09",
-   "ville": "Hilton San Francisco Union Square",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-26",
-     "type": "resume",
-     "libelle": "Abstract Submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-31",
-     "type": "article",
-     "libelle": "Paper Submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-22",
-     "type": "autre",
-     "libelle": "Rebuttal Period Start",
-     "heure": "00:00",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-08",
-     "type": "autre",
-     "libelle": "Rebuttal Period End",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-08",
-     "type": "autre",
-     "libelle": "Decision Notification",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://colmweb.org/",
-   "rang": "CCF N · CORE N · THCPL: N",
-   "sources": [
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "pg-2026",
-   "acronyme": "PG",
-   "titre": "Pacific Graphics, The Pacific Conference on Computer Graphics and Applications",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-09",
-   "ville": "Singapore Management University",
-   "pays": "SG",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "graphisme"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-01",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-08",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://pacificgraphics2026.github.io/",
-   "rang": "CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "rv-2026",
-   "acronyme": "RV",
-   "titre": "International Conference on Runtime Verification",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-06",
-   "fin": "2026-10-09",
-   "ville": "Kingston",
-   "pays": "CA",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-16",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://rv2026.smithengineering.queensu.ca/",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "aft-2026",
-   "acronyme": "AFT",
-   "titre": "Advances in Financial Technologies",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-07",
-   "fin": "2026-10-09",
-   "ville": "London",
-   "pays": "GB",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "info-interdisciplinaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-20",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-05-27",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://aft.ifca.ai/aft26/index.html",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ismar-2026",
-   "acronyme": "ISMAR",
-   "titre": "International Symposium on Mixed and Augmented Reality",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-07",
-   "fin": "2026-10-09",
-   "ville": "Bari",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "graphisme",
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-09",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-16",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.ieeeismar.net/2026/",
-   "rang": "CORE A* · CCF B",
-   "sources": [
-    "ccfddl",
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "issta-2026",
-   "acronyme": "ISSTA",
-   "titre": "ACM SIGSOFT International Symposium on Software Testing and Analysis",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-07",
-   "fin": "2026-10-09",
-   "ville": "Oakland",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-01-29",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conf.researchr.org/home/issta-2026",
-   "rang": "CORE A · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "lcn-2026",
-   "acronyme": "LCN",
-   "titre": "IEEE Conference on Local Computer Networks",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-07",
-   "fin": "2026-10-09",
-   "ville": "Coimbra",
-   "pays": "PT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-04",
-     "type": "article",
-     "libelle": "Registration / full paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-04",
-     "type": "resume",
-     "libelle": "Abstract · Registration / full paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.ieeelcn.org/",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "models-2026",
-   "acronyme": "MoDELS",
-   "titre": "International Conference on Model Driven Engineering Languages and Systems",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-07",
-   "fin": "2026-10-09",
-   "ville": "Málaga",
-   "pays": "ES",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-20",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-27",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conf.researchr.org/home/models-2026",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "esem-2026",
-   "acronyme": "ESEM",
-   "titre": "International Symposium on Empirical Software Engineering and Measurement",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-08",
-   "fin": "2026-10-09",
-   "ville": "München",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-11",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-18",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conf.researchr.org/home/eseiw-2026",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "cscw-2026",
    "acronyme": "CSCW",
@@ -12129,10 +11592,10 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2026-10-09",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "PT",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-09",
@@ -12205,10 +11668,10 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-10-09",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-02",
@@ -13267,8 +12730,8 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "bttb-2027",
-   "acronyme": "BTTB",
+   "id": "bttb15-2027",
+   "acronyme": "BTTB15",
    "titre": "15th Beam Telescopes and Test Beams workshop",
    "annee": 2027,
    "type": "atelier",
@@ -13282,7 +12745,9 @@
     "physique"
    ],
    "specialites": [
-    "particules"
+    "particules",
+    "instrumentation",
+    "calcul-physique"
    ],
    "date_limite": "",
    "type_limite": "",
@@ -13297,7 +12762,7 @@
    "identifiant_source": "inspire-3210166",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
+   "ajoute_le": "2026-10-10"
   },
   {
    "id": "refsq-2027",
@@ -13784,8 +13249,8 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-09",
-   "type_limite": "resume",
+   "date_limite": "2026-10-16",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -15792,6 +15257,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "eurovis-2027",
+   "acronyme": "EuroVis",
+   "titre": "Eurographics Conference on Visualization",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-31",
+   "fin": "2027-06-04",
+   "ville": "Stuttgart",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "graphisme"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://eurovis27.github.io/web/",
+   "rang": "CORE B · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-10"
+  },
+  {
    "id": "susy-2027",
    "acronyme": "SUSY 2027",
    "titre": "34th International Conference on Supersymmetry and Unification of Fundamental Interactions (SUSY 2027)",
@@ -16370,8 +15868,8 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-10-09",
-   "type_limite": "article",
+   "date_limite": "2027-01-04",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -19080,6 +18578,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icic-2027",
+   "acronyme": "ICIC",
+   "titre": "International Conference on Intelligent Computing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-22",
+   "fin": "2027-07-26",
+   "ville": "Jinan",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "info-interdisciplinaire"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://ic-icc.cn/2027/index.php",
+   "rang": "CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-10"
+  },
+  {
    "id": "cec-2027",
    "acronyme": "CEC",
    "titre": "IEEE Congress on Evolutionary Computation",
@@ -19332,7 +18863,7 @@
    "debut": "2027-08-07",
    "fin": "2027-08-13",
    "ville": "Kyoto",
-   "pays": "CN",
+   "pays": "JP",
    "mode": "presentiel",
    "continent": "asie",
    "domaines": [
@@ -19345,25 +18876,25 @@
    ],
    "date_limite": "2027-01-04",
    "type_limite": "resume",
-   "heure_limite": "59:00",
+   "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2027-01-04",
      "type": "resume",
-     "libelle": "Abstract",
-     "heure": "59:00",
+     "libelle": "Abstract · Separate satellite event: August 15-17, 2027, Hengqin, China",
+     "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2027-01-11",
      "type": "article",
-     "libelle": "Paper",
-     "heure": "59:00",
+     "libelle": "Separate satellite event: August 15-17, 2027, Hengqin, China",
+     "heure": "23:59",
      "fuseau": "AoE"
     }
    ],
-   "lien": "https://www.ijcai.org/node/8",
+   "lien": "https://2027.ijcai.org/",
    "rang": "CORE A* · CCF B",
    "sources": [
     "ccfddl",
@@ -21357,6 +20888,88 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icdm-2027",
+   "acronyme": "ICDM",
+   "titre": "IEEE International Conference on Data Mining",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-11-15",
+   "fin": "2027-11-18",
+   "ville": "Brisbane",
+   "pays": "AU",
+   "mode": "presentiel",
+   "continent": "oceanie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "2027-06-06",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-06-06",
+     "type": "article",
+     "libelle": "Full papers; dates are tentative and subject to change",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://icdm2027-website.onrender.com/",
+   "rang": "CORE A* · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-10"
+  },
+  {
+   "id": "icip-2027",
+   "acronyme": "ICIP",
+   "titre": "The IEEE International Conference on Image Processing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-11-29",
+   "fin": "2027-12-03",
+   "ville": "",
+   "pays": "SG",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "graphisme"
+   ],
+   "date_limite": "2027-03-31",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-03-31",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://2027.ieeeicip.org/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-10"
   },
   {
    "id": "acm-siggraph-asia-2027",

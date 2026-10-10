@@ -4,7 +4,7 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-systemes.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-09T06:00:00Z</updated>
+<updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -272,12 +272,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/itc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–16 Oct 2026 · Grand Hyatt San Antonio Riverwalk, United States · Deadline: 20 Mar 2026, 24 Apr 2026 · Official: https://www.itctestweek.org/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/codes-isss-2026/</id>
-<title>CODES+ISSS 2026 — International Conference on Hardware/Software Co-design and System Synthesis</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/codes-isss-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>4–9 Oct 2026 · Barcelona, Spain · Deadline: 23 Mar 2026, 30 Mar 2026 · Official: https://esweek.org/codes_isss_cfp/</summary>
 </entry>
 </feed>

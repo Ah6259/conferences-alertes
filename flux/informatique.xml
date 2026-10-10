@@ -4,9 +4,37 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/informatique.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/informatique.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-09T06:00:00Z</updated>
+<updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icip-2027/</id>
+<title>ICIP 2027 — The IEEE International Conference on Image Processing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icip-2027/"/>
+<updated>2026-10-10T06:00:00Z</updated>
+<summary>29 Nov – 3 Dec 2027 · Singapore · Deadline: 31 Mar 2027 · Official: https://2027.ieeeicip.org/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icdm-2027/</id>
+<title>ICDM 2027 — IEEE International Conference on Data Mining</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icdm-2027/"/>
+<updated>2026-10-10T06:00:00Z</updated>
+<summary>15–18 Nov 2027 · Brisbane, Australia · Deadline: 6 Jun 2027 · Official: https://icdm2027-website.onrender.com/</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/icic-2027/</id>
+<title>ICIC 2027 — International Conference on Intelligent Computing</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/icic-2027/"/>
+<updated>2026-10-10T06:00:00Z</updated>
+<summary>22–26 Jul 2027 · Jinan, China · Deadline: see official website · Official: https://ic-icc.cn/2027/index.php</summary>
+</entry>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/eurovis-2027/</id>
+<title>EuroVis 2027 — Eurographics Conference on Visualization</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/eurovis-2027/"/>
+<updated>2026-10-10T06:00:00Z</updated>
+<summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: see official website · Official: https://eurovis27.github.io/web/</summary>
+</entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/icpr-2027/</id>
 <title>ICPR 2027 — International Conference on Pattern Recognition</title>
@@ -264,7 +292,7 @@
 <title>IJCAI 2027 — International Joint Conference on Artificial Intelligence</title>
 <link href="https://ah6259.github.io/conferences-alertes/conference/ijcai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>7–13 Aug 2027 · Kyoto, China · Deadline: 4 Jan 2027, 11 Jan 2027 · Official: https://www.ijcai.org/node/8</summary>
+<summary>7–13 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027, 11 Jan 2027 · Official: https://2027.ijcai.org/</summary>
 </entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/ieee-cog-2027/</id>
@@ -398,33 +426,5 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/acisp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Jul 2027 · Melbourne, Australia · Deadline: 30 Nov 2026, 1 Mar 2027 · Official: https://acisp.org/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/osdi-2027/</id>
-<title>OSDI 2027 — USENIX Symposium on Operating Systems Design and Implementation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/osdi-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–9 Jul 2027 · Baltimore, United States · Deadline: 1 Dec 2026, 8 Dec 2026 · Official: https://www.usenix.org/conference/osdi27</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/rss-2027/</id>
-<title>RSS 2027 — Robotics Science and Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/rss-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>6–11 Jul 2027 · Athens, Greece · Deadline: 4 Dec 2026 · Official: https://roboticsconference.org/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cgi-2027/</id>
-<title>CGI 2027 — Computer Graphics International</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cgi-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>5–9 Jul 2027 · Cairns, Australia · Deadline: 20 Apr 2027 · Official: https://cgs-network.org/cgi27/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/euros-p-2027/</id>
-<title>EuroS&amp;P 2027 — IEEE European Symposium on Security and Privacy</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/euros-p-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>5–9 Jul 2027 · Madrid, Spain · Deadline: 25 Nov 2026, 2 Dec 2026 · Official: https://eurosp2027.ieee-security.org/</summary>
 </entry>
 </feed>

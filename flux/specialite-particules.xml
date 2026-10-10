@@ -4,9 +4,16 @@
 <id>https://ah6259.github.io/conferences-alertes/flux/specialite-particules.xml</id>
 <link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-particules.xml"/>
 <link href="https://ah6259.github.io/conferences-alertes/"/>
-<updated>2026-10-09T06:00:00Z</updated>
+<updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://ah6259.github.io/conferences-alertes/conference/bttb15-2027/</id>
+<title>BTTB15 2027 — 15th Beam Telescopes and Test Beams workshop</title>
+<link href="https://ah6259.github.io/conferences-alertes/conference/bttb15-2027/"/>
+<updated>2026-10-10T06:00:00Z</updated>
+<summary>12–16 Apr 2027 · Amsterdam, Netherlands · Deadline: see official website · Official: https://indico.cern.ch/e/bttb15</summary>
+</entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/horizons-in-quantum-2027/</id>
 <title>Horizons in Quantum Gravity</title>
@@ -111,13 +118,6 @@
 <link href="https://ah6259.github.io/conferences-alertes/conference/iso-break-27-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–24 Apr 2027 · Kielce, Poland · Deadline: see official website · Official: https://indico.cern.ch/event/1715495/</summary>
-</entry>
-<entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/bttb-2027/</id>
-<title>BTTB 2027 — 15th Beam Telescopes and Test Beams workshop</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/bttb-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>12–16 Apr 2027 · Amsterdam, Netherlands · Deadline: see official website · Official: https://indico.cern.ch/e/bttb15</summary>
 </entry>
 <entry>
 <id>https://ah6259.github.io/conferences-alertes/conference/ghp2027/</id>
