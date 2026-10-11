@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-10 11:39",
- "derniere_lecture_reussie": "2026-10-10 11:39",
+ "mis_a_jour": "2026-10-11 11:51",
+ "derniere_lecture_reussie": "2026-10-11 11:51",
  "dernier_passage": {
-  "date": "2026-10-10 11:39",
+  "date": "2026-10-11 11:51",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 274,
+   "nombre": 275,
    "brutes": 2306,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 155,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 121,
    "brutes": 142,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 53,
    "brutes": 54,
-   "derniere_reussite": "2026-10-10 11:39",
+   "derniere_reussite": "2026-10-11 11:51",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 483,
+ "nombre": 484,
  "conferences": [
   {
    "id": "cscw-2026",
@@ -7297,8 +7297,8 @@
     "economie-islamique",
     "aaoifi-charia"
    ],
-   "date_limite": "2026-10-10",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -8906,10 +8906,10 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-10-10",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-10",
@@ -16041,8 +16041,8 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-10-10",
-   "type_limite": "resume",
+   "date_limite": "2026-10-17",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -18330,11 +18330,19 @@
     "bioinformatique",
     "info-interdisciplinaire"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-14",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-14",
+     "type": "article",
+     "libelle": "Proceedings; conditional acceptance: March 2, 2027; revised papers due: March 18",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://www.iscb.org/ismbeccb2027/",
    "rang": "CCF B",
    "sources": [
@@ -20059,6 +20067,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "kr-2027",
+   "acronyme": "KR",
+   "titre": "International Conference on Principles of Knowledge Representation and Reasoning",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-21",
+   "fin": "2027-09-24",
+   "ville": "Buenos Aires",
+   "pays": "AR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-04-23",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-04-23",
+     "type": "resume",
+     "libelle": "Abstract · Main track; author response period: June 15-18, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-04-28",
+     "type": "article",
+     "libelle": "Main track; author response period: June 15-18, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://kr.org/KR2027/",
+   "rang": "CORE A* · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-11"
   },
   {
    "id": "icfp-2027",

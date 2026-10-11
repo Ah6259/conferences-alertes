@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-10T06:00:00Z</updated>
+<updated>2026-10-11T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/kr-2027/</id>
+<title>KR 2027 — International Conference on Principles of Knowledge Representation and Reasoning</title>
+<link href="https://conferences.clicvia.com/conference/kr-2027/"/>
+<updated>2026-10-11T06:00:00Z</updated>
+<summary>21–24 Sep 2027 · Buenos Aires, Argentina · Deadline: 23 Apr 2027, 28 Apr 2027 · Official: https://kr.org/KR2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icip-2027/</id>
 <title>ICIP 2027 — The IEEE International Conference on Image Processing</title>
@@ -355,7 +362,7 @@
 <title>ISMB 2027 — International Conference on Intelligent Systems for Molecular Biology</title>
 <link href="https://conferences.clicvia.com/conference/ismb-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Jul 2027 · Copenhagen, Denmark · Deadline: see official website · Official: https://www.iscb.org/ismbeccb2027/</summary>
+<summary>18–22 Jul 2027 · Copenhagen, Denmark · Deadline: 14 Jan 2027 · Official: https://www.iscb.org/ismbeccb2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sigir-2027/</id>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/sai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–9 Jul 2027 · London, United Kingdom · Deadline: 1 Oct 2026, 1 Dec 2026 · Official: https://saiconference.com/Computing</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acisp-2027/</id>
-<title>ACISP 2027 — Australasia Conference on Information Security and Privacy</title>
-<link href="https://conferences.clicvia.com/conference/acisp-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–10 Jul 2027 · Melbourne, Australia · Deadline: 30 Nov 2026, 1 Mar 2027 · Official: https://acisp.org/</summary>
 </entry>
 </feed>
