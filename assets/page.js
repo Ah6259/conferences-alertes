@@ -69,7 +69,7 @@
     document.querySelectorAll(".partager").forEach(b => b.addEventListener("click", async () => {
       const url = location.href.split("#")[0].replace(/([?&])lang=(fr|en|ar)&?/, "$1").replace(/[?&]$/, "");
       const titre = document.title.split(" | ")[0];
-      const base = "/conferences-alertes/";
+      const base = /^\/(conferences-alertes\/)?/;   // ancienne adresse ou conferences.clicvia.com
       try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "partage/" + location.pathname.replace(base, ""), title: "Partage", event: true }); } catch (e) {}
       return window.partagerLien();
     }));
