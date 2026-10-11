@@ -10,7 +10,7 @@ import { dirname, join } from "path";
 
 // ---- Réglages propres à ce site ------------------------------------------------
 const SITE = "Radar des conférences";                                         // valeur du champ caché « site »
-const BASE = "https://ah6259.github.io/conferences-alertes/";            // adresse de l'accueil en ligne
+const BASE = "https://conferences.clicvia.com/";            // adresse de l'accueil en ligne
 const IGNORER = ["node_modules", ".git", "tools", "captures", "preuves"];
 // --------------------------------------------------------------------------------
 const FORMSPREE = "https://formspree.io/f/mwlpakqj";

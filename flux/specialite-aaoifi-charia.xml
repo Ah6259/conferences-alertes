@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — AAOIFI standards &amp; Shariah governance</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-aaoifi-charia.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-aaoifi-charia.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-aaoifi-charia.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-aaoifi-charia.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icsibf-2026/</id>
+<id>https://conferences.clicvia.com/conference/icsibf-2026/</id>
 <title>ICSIBF 2026 — 6th International Conference on Sustainable Islamic Business and Finance (University of Bahrain, with AAOIFI)</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icsibf-2026/"/>
+<link href="https://conferences.clicvia.com/conference/icsibf-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–9 Dec 2026 · Sakhir, Bahrain · Deadline: 10 Oct 2026 · Official: https://icsibf.uob.edu.bh/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fifc-2026/</id>
+<id>https://conferences.clicvia.com/conference/fifc-2026/</id>
 <title>FIFC 2026 — 14th Foundation of Islamic Finance Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fifc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/fifc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–29 Oct 2026 · Cape Town, South Africa · Deadline: see official website · Official: https://fifcsa.co.za/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/aaoifi-sbc-2026/</id>
+<id>https://conferences.clicvia.com/conference/aaoifi-sbc-2026/</id>
 <title>AAOIFI SBC 2026 — AAOIFI 24th Annual Shari'ah Boards Conference – Islamic Finance in the Era of Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/aaoifi-sbc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/aaoifi-sbc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–12 Oct 2026 · Manama, Bahrain · Deadline: see official website · Official: https://aaoifi.com/aaoifi-24th-annual-shariah-boards-conference/?lang=en</summary>
 </entry>

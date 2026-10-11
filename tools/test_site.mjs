@@ -10,7 +10,7 @@ import { createHash } from "crypto";
 
 const i = process.argv.indexOf("--racine");
 const root = i > 0 ? process.argv[i + 1] : join(dirname(fileURLToPath(import.meta.url)), "..");
-const URL_SITE = "https://ah6259.github.io/conferences-alertes/";
+const URL_SITE = "https://conferences.clicvia.com/";
 const lire = f => readFileSync(join(root, f), "utf8");
 let erreurs = 0, total = 0;
 const check = (desc, cond) => { total++; if (!cond) { console.log("FAIL " + desc); erreurs++; } else console.log("OK   " + desc); };
@@ -355,7 +355,7 @@ const tailleJpeg = b => { for (let k = 2; k < b.length;) { if (b[k] !== 0xFF) re
   if (m >= 0xC0 && m <= 0xC3) return [b.readUInt16BE(k + 7), b.readUInt16BE(k + 5)]; k += 2 + n; } return null; };
 check("image d'aperçu : JPEG 1200 × 630 de moins de 250 Ko", og[0] === 0xFF && og[1] === 0xD8 && og.length < 250000 && String(tailleJpeg(og)) === "1200,630");
 const mani = JSON.parse(lire("manifest.webmanifest"));
-check("manifeste : id unique /conferences-alertes/, icônes 192/512/maskable présentes", mani.id === "/conferences-alertes/" && mani.start_url === "./" &&
+check("manifeste : id unique /conferences-alertes/, icônes 192/512/maskable présentes", mani.id === "/" && mani.start_url === "./" &&
   mani.icons.length === 3 && mani.icons.every(ic => existsSync(join(root, ic.src))) && mani.icons.some(ic => ic.purpose === "maskable"));
 check("icône de la famille (logo SVG avec accent doré #F2B33D, sans texte)", /#F2B33D/i.test(lire("assets/logo.svg")) && !/<text/.test(lire("assets/logo.svg")));
 
@@ -368,7 +368,7 @@ const IA = ["GPTBot", "ChatGPT-User", "OAI-SearchBot", "ClaudeBot", "Claude-Web"
   "HTTrack", "WebCopier", "WebZIP", "Offline Explorer", "wget", "SiteSnagger"];
 check(`robots.txt : les ${IA.length} robots d'IA et aspirateurs sont interdits`, IA.every(interdit));
 check("robots.txt : Googlebot, Bingbot et les autres restent autorisés ; sitemap indiqué", ["Googlebot", "Bingbot", "*"].every(u => !interdit(u)) &&
-  /Sitemap: https:\/\/ah6259\.github\.io\/conferences-alertes\/sitemap\.xml/.test(robots));
+  /Sitemap: https:\/\/conferences\.clicvia\.com\/sitemap\.xml/.test(robots));
 const pj = lire("assets/page.js");
 check("anti-copie : clic droit/glisser sur images bloqués, source ajoutée au texte copié, anti-iframe",
   /contextmenu/.test(pj) && /dragstart/.test(pj) && /clipboardData\.setData/.test(pj) && /window\.top !== window\.self/.test(pj));
@@ -380,7 +380,7 @@ const h3 = w.document.querySelector("#liste .cf h3");
 const sel = w.getSelection(); const rg = w.document.createRange(); rg.selectNodeContents(h3); sel.removeAllRanges(); sel.addRange(rg);
 const ev = new w.Event("copy", { bubbles: true, cancelable: true }); ev.clipboardData = { setData: (t, x) => { copie = x; } };
 h3.dispatchEvent(ev);
-check("anti-copie : le texte copié reçoit « Source : … — © … tous droits réservés »", /Source : https:\/\/ah6259\.github\.io\/conferences-alertes\//.test(copie) && /tous droits réservés/.test(copie));
+check("anti-copie : le texte copié reçoit « Source : … — © … tous droits réservés »", /Source : https:\/\/conferences\.clicvia\.com\//.test(copie) && /tous droits réservés/.test(copie));
 const fichiers = [];
 const parcourir = dossier => { for (const f of readdirSync(join(root, dossier))) {
   if (["node_modules", ".git", "captures", "__pycache__"].includes(f)) continue;

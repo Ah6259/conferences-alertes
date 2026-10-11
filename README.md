@@ -7,7 +7,7 @@ Site gratuit, sans inscription, pour les **professeurs et chercheurs du monde en
 Thèmes mis en avant : **Comptabilité et audit**, **Finance**, **Finance islamique** (banque islamique, sukuk, takaful,
 zakat/waqf, normes AAOIFI et gouvernance charia).
 
-- Adresse : https://ah6259.github.io/conferences-alertes/
+- Adresse : https://conferences.clicvia.com/
 - Alertes **gratuites** sans données personnelles : flux RSS (Atom) par domaine et par spécialité (`flux/`).
 - Alertes **personnalisées** sur Telegram (« Alertes Pro », `abonnement/`) : 9 DT / mois ou 79 DT / an, 14 jours d'essai gratuit,
   sans renouvellement automatique. La consultation reste gratuite.

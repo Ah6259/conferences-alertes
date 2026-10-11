@@ -1,359 +1,359 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — AI &amp; machine learning</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-ia-apprentissage.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-ia-apprentissage.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icpr-2027/</id>
+<id>https://conferences.clicvia.com/conference/icpr-2027/</id>
 <title>ICPR 2027 — International Conference on Pattern Recognition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icpr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icpr-2027/"/>
 <updated>2026-10-09T06:00:00Z</updated>
 <summary>4–6 Oct 2027 · Online · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://www.icpr2027.com/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ecai-2027/</id>
+<id>https://conferences.clicvia.com/conference/ecai-2027/</id>
 <title>ECAI 2027 — European Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ecai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ecai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–7 Oct 2027 · Athens, Greece · Deadline: 14 Apr 2027 · Official: https://ecai2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iccv-2027/</id>
+<id>https://conferences.clicvia.com/conference/iccv-2027/</id>
 <title>ICCV 2027 — IEEE International Conference on Computer Vision</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iccv-2027/"/>
+<link href="https://conferences.clicvia.com/conference/iccv-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iros-2027/</id>
+<id>https://conferences.clicvia.com/conference/iros-2027/</id>
 <title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iros-2027/"/>
+<link href="https://conferences.clicvia.com/conference/iros-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icdar-2027/</id>
+<id>https://conferences.clicvia.com/conference/icdar-2027/</id>
 <title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icdar-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 31 Jan 2027, 20 Feb 2027 · Official: https://icdar2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acl-2027/</id>
+<id>https://conferences.clicvia.com/conference/acl-2027/</id>
 <title>ACL 2027 — Annual Meeting of the Association for Computational Linguistics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acl-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acl-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–22 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027 · Official: https://2027.aclweb.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ijcai-2027/</id>
+<id>https://conferences.clicvia.com/conference/ijcai-2027/</id>
 <title>IJCAI 2027 — International Joint Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ijcai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ijcai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–13 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027, 11 Jan 2027 · Official: https://2027.ijcai.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cec-2027/</id>
+<id>https://conferences.clicvia.com/conference/cec-2027/</id>
 <title>CEC 2027 — IEEE Congress on Evolutionary Computation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cec-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cec-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 15 Jan 2027 · Official: https://ieeecec.org</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-cec-2027/</id>
+<id>https://conferences.clicvia.com/conference/ieee-cec-2027/</id>
 <title>IEEE CEC 2027 — IEEE Congress on Evolutionary Computation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-cec-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-cec-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 28 Feb 2027 · Official: https://ieeecec.org/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/gecco-2027/</id>
+<id>https://conferences.clicvia.com/conference/gecco-2027/</id>
 <title>GECCO 2027 — Genetic and Evolutionary Computation Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/gecco-2027/"/>
+<link href="https://conferences.clicvia.com/conference/gecco-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–16 Jul 2027 · Kraków, Poland · Deadline: see official website · Official: https://gecco-2027.sigevo.org/HomePage</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/rss-2027/</id>
+<id>https://conferences.clicvia.com/conference/rss-2027/</id>
 <title>RSS 2027 — Robotics Science and Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/rss-2027/"/>
+<link href="https://conferences.clicvia.com/conference/rss-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–11 Jul 2027 · Athens, Greece · Deadline: 4 Dec 2026 · Official: https://roboticsconference.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/colt-2027/</id>
+<id>https://conferences.clicvia.com/conference/colt-2027/</id>
 <title>COLT 2027 — Annual Conference on Learning Theory</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/colt-2027/"/>
+<link href="https://conferences.clicvia.com/conference/colt-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>28 Jun – 2 Jul 2027 · Tokyo, Japan · Deadline: see official website · Official: https://learningtheory.org/colt2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icaps-2027/</id>
+<id>https://conferences.clicvia.com/conference/icaps-2027/</id>
 <title>ICAPS 2027 — International Conference on Automated Planning and Scheduling</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icaps-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icaps-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27 Jun – 2 Jul 2027 · Columbia, United States · Deadline: 7 Dec 2026, 14 Dec 2026 · Official: https://icaps27.icaps-conference.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cvpr-2027/</id>
+<id>https://conferences.clicvia.com/conference/cvpr-2027/</id>
 <title>CVPR 2027 — IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cvpr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cvpr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–25 Jun 2027 · Seattle, United States · Deadline: 10 Nov 2026, 16 Nov 2026 · Official: https://cvpr.thecvf.com/Conferences/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ijcnn-2027/</id>
+<id>https://conferences.clicvia.com/conference/ijcnn-2027/</id>
 <title>IJCNN 2027 — International Joint Conference on Neural Networks</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ijcnn-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ijcnn-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–18 Jun 2027 · Cape Town, South Africa · Deadline: 31 Jan 2027 · Official: https://ijcnn.org/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/naacl-2027/</id>
+<id>https://conferences.clicvia.com/conference/naacl-2027/</id>
 <title>NAACL 2027 — The Annual Conference of the North American Chapter of the Association for Computational Linguistics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/naacl-2027/"/>
+<link href="https://conferences.clicvia.com/conference/naacl-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–5 Jun 2027 · San Francisco, United States · Deadline: 12 Oct 2026, 23 Dec 2026 · Official: https://2027.naacl.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icra-2027/</id>
+<id>https://conferences.clicvia.com/conference/icra-2027/</id>
 <title>ICRA 2027 — IEEE International Conference on Robotics and Automation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icra-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icra-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>24–28 May 2027 · Seoul, South Korea · Deadline: 16 Sep 2026 · Official: https://2027.ieee-icra.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/www-2027/</id>
+<id>https://conferences.clicvia.com/conference/www-2027/</id>
 <title>WWW 2027 — International World Wide Web Conferences</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/www-2027/"/>
+<link href="https://conferences.clicvia.com/conference/www-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–14 May 2027 · Dublin, Ireland · Deadline: 18 Oct 2026, 25 Oct 2026 · Official: https://www2027.thewebconf.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/coling-2027/</id>
+<id>https://conferences.clicvia.com/conference/coling-2027/</id>
 <title>COLING 2027 — International Conference on Computational Linguistics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/coling-2027/"/>
+<link href="https://conferences.clicvia.com/conference/coling-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–14 May 2027 · Macau SAR, China · Deadline: 12 Oct 2026, 23 Dec 2026 · Official: https://2027.coling-iccl.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/aamas-2027/</id>
+<id>https://conferences.clicvia.com/conference/aamas-2027/</id>
 <title>AAMAS 2027 — International Conference on Autonomous Agents and Multiagent Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/aamas-2027/"/>
+<link href="https://conferences.clicvia.com/conference/aamas-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–7 May 2027 · Hanoi, Vietnam · Deadline: 1 Oct 2026, 8 Oct 2026 · Official: https://warwick.ac.uk/fac/sci/dcs/aamas2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/aistats-2027/</id>
+<id>https://conferences.clicvia.com/conference/aistats-2027/</id>
 <title>AISTATS 2027 — International Conference on Artificial Intelligence and Statistics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/aistats-2027/"/>
+<link href="https://conferences.clicvia.com/conference/aistats-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–6 May 2027 · Montréal, Canada · Deadline: 29 Sep 2026, 6 Oct 2026 · Official: https://virtual.aistats.org/Conferences/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fg-2027/</id>
+<id>https://conferences.clicvia.com/conference/fg-2027/</id>
 <title>FG 2027 — International Conference on Automatic Face and Gesture Recognition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fg-2027/"/>
+<link href="https://conferences.clicvia.com/conference/fg-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–30 Apr 2027 · Marrakesh, Morocco · Deadline: 9 Oct 2026, 16 Oct 2026 · Official: https://fg2027.ieee-biometrics.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iclr-2027/</id>
+<id>https://conferences.clicvia.com/conference/iclr-2027/</id>
 <title>ICLR 2027 — International Conference on Learning Representations</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iclr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/iclr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–30 Apr 2027 · San Francisco, United States · Deadline: 18 Sep 2026, 25 Sep 2026 · Official: https://iclr.cc/Conferences/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/esann-2027/</id>
+<id>https://conferences.clicvia.com/conference/esann-2027/</id>
 <title>ESANN 2027 — European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/esann-2027/"/>
+<link href="https://conferences.clicvia.com/conference/esann-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>21–23 Apr 2027 · Bruges, Belgium · Deadline: 18 Nov 2026 · Official: https://www.esann.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cvc-2027/</id>
+<id>https://conferences.clicvia.com/conference/cvc-2027/</id>
 <title>CVC 2027 — Computer Vision Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cvc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cvc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–16 Apr 2027 · Amsterdam, Netherlands · Deadline: 1 Sep 2026, 1 Oct 2026 · Official: https://saiconference.com/CVC</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/3dv-2027/</id>
+<id>https://conferences.clicvia.com/conference/3dv-2027/</id>
 <title>3DV 2027 — International Conference on 3D Vision</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/3dv-2027/"/>
+<link href="https://conferences.clicvia.com/conference/3dv-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–9 Apr 2027 · Thessaloniki, Greece · Deadline: 28 Aug 2026, 28 Aug 2026 · Official: https://3dvconf.github.io/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eurogp-2027/</id>
+<id>https://conferences.clicvia.com/conference/eurogp-2027/</id>
 <title>EuroGP 2027 — European Conference on Genetic Programming</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eurogp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eurogp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>31 Mar – 2 Apr 2027 · Mainz, Germany · Deadline: 1 Nov 2026 · Official: https://www.evostar.org/2027/eurogp/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/evoapplications-2027/</id>
+<id>https://conferences.clicvia.com/conference/evoapplications-2027/</id>
 <title>EvoApplications 2027 — International Conference on the Applications of Evolutionary Computation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/evoapplications-2027/"/>
+<link href="https://conferences.clicvia.com/conference/evoapplications-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>31 Mar – 2 Apr 2027 · Mainz, Germany · Deadline: 1 Nov 2026 · Official: https://www.evostar.org/2027/evoapps/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/evocop-2027/</id>
+<id>https://conferences.clicvia.com/conference/evocop-2027/</id>
 <title>EvoCOP 2027 — European Conference on Evolutionary Computation in Combinatorial Optimisation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/evocop-2027/"/>
+<link href="https://conferences.clicvia.com/conference/evocop-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>31 Mar – 2 Apr 2027 · Mainz, Germany · Deadline: 1 Nov 2026 · Official: https://www.evostar.org/2027/evocop/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/evomusart-2027/</id>
+<id>https://conferences.clicvia.com/conference/evomusart-2027/</id>
 <title>EvoMUSART 2027 — International Conference on Artificial Intelligence in Music, Sound, Art and Design</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/evomusart-2027/"/>
+<link href="https://conferences.clicvia.com/conference/evomusart-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>31 Mar – 2 Apr 2027 · Mainz, Germany · Deadline: 1 Nov 2026, 1 Nov 2026 · Official: https://www.evostar.org/2027/evomusart/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cpal-2027/</id>
+<id>https://conferences.clicvia.com/conference/cpal-2027/</id>
 <title>CPAL 2027 — The Conference on Parsimony and Learning</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cpal-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cpal-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–26 Mar 2027 · Tokyo, Japan · Deadline: 23 Nov 2026, 5 Dec 2026 · Official: https://cpal.cc/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/alt-2027/</id>
+<id>https://conferences.clicvia.com/conference/alt-2027/</id>
 <title>ALT 2027 — International Conference on Algorithmic Learning Theory</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/alt-2027/"/>
+<link href="https://conferences.clicvia.com/conference/alt-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–12 Mar 2027 · Leiden, Netherlands · Deadline: 12 Oct 2026 · Official: https://algorithmiclearningtheory.org/alt2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eacl-2027/</id>
+<id>https://conferences.clicvia.com/conference/eacl-2027/</id>
 <title>EACL 2027 — The Annual Conference of the European Chapter of the Association for Computational Linguistics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eacl-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eacl-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–14 Mar 2027 · Athens, Greece · Deadline: 3 Aug 2026, 11 Oct 2026 · Official: https://2027.eacl.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/aaai-2027/</id>
+<id>https://conferences.clicvia.com/conference/aaai-2027/</id>
 <title>AAAI 2027 — AAAI Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/aaai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/aaai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–23 Feb 2027 · Montréal, Canada · Deadline: 21 Jul 2026, 28 Jul 2026 · Official: https://aaai.org/conference/aaai/aaai-27/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/wacv-2027/</id>
+<id>https://conferences.clicvia.com/conference/wacv-2027/</id>
 <title>WACV 2027 — IEEE/CVF Winter Conference on Applications of Computer Vision</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/wacv-2027/"/>
+<link href="https://conferences.clicvia.com/conference/wacv-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–8 Jan 2027 · Disney Springs, United States · Deadline: 21 Aug 2026, 28 Aug 2026 · Official: https://wacv.thecvf.com/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/accv-2026/</id>
+<id>https://conferences.clicvia.com/conference/accv-2026/</id>
 <title>ACCV 2026 — Asian Conference on Computer Vision</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/accv-2026/"/>
+<link href="https://conferences.clicvia.com/conference/accv-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–18 Dec 2026 · Osaka, Japan · Deadline: 3 Jul 2026, 5 Jul 2026 · Official: https://accv2026.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/neurips-2026/</id>
+<id>https://conferences.clicvia.com/conference/neurips-2026/</id>
 <title>NeurIPS 2026 — Conference on Neural Information Processing Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/neurips-2026/"/>
+<link href="https://conferences.clicvia.com/conference/neurips-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–10 Dec 2026 · Sydney, France · Deadline: 5 May 2026, 6 May 2026, 7 May 2026 · Official: https://neurips.cc/Conferences/2026</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/dai-2026/</id>
+<id>https://conferences.clicvia.com/conference/dai-2026/</id>
 <title>DAI 2026 — International Conference on Distributed Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/dai-2026/"/>
+<link href="https://conferences.clicvia.com/conference/dai-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>30 Nov – 1 Dec 2026 · Hong Kong, China · Deadline: 3 Aug 2026 · Official: https://www.adai.ai/dai/2026/index.html</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/bmvc-2026/</id>
+<id>https://conferences.clicvia.com/conference/bmvc-2026/</id>
 <title>BMVC 2026 — British Machine Vision Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/bmvc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/bmvc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–26 Nov 2026 · Lancaster, United Kingdom · Deadline: 22 May 2026, 29 May 2026 · Official: https://bmvc2026.bmva.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iconip-2026/</id>
+<id>https://conferences.clicvia.com/conference/iconip-2026/</id>
 <title>ICONIP 2026 — International Conference on Neural Information Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iconip-2026/"/>
+<link href="https://conferences.clicvia.com/conference/iconip-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Nov 2026 · Melbourne, Australia · Deadline: 31 May 2026 · Official: https://www.iconip2026.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/log-2026/</id>
+<id>https://conferences.clicvia.com/conference/log-2026/</id>
 <title>LOG 2026 — Learning on Graphs Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/log-2026/"/>
+<link href="https://conferences.clicvia.com/conference/log-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–22 Nov 2026 · Northeastern University, United States · Deadline: 5 Aug 2026, 7 Aug 2026 · Official: https://logconference.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/pricai-2026/</id>
+<id>https://conferences.clicvia.com/conference/pricai-2026/</id>
 <title>PRICAI 2026 — Pacific Rim International Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/pricai-2026/"/>
+<link href="https://conferences.clicvia.com/conference/pricai-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–20 Nov 2026 · Guangzhou, China · Deadline: 27 Jun 2026 · Official: https://2026.pricai.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-mm-2026/</id>
+<id>https://conferences.clicvia.com/conference/acm-mm-2026/</id>
 <title>ACM MM 2026 — ACM International Conference on Multimedia</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-mm-2026/"/>
+<link href="https://conferences.clicvia.com/conference/acm-mm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cikm-2026/</id>
+<id>https://conferences.clicvia.com/conference/cikm-2026/</id>
 <title>CIKM 2026 — ACM International Conference on Information and Knowledge Management</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cikm-2026/"/>
+<link href="https://conferences.clicvia.com/conference/cikm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–11 Nov 2026 · Rome, Italy · Deadline: 16 May 2026, 23 May 2026 · Official: https://cikm2026.diag.uniroma1.it/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/corl-2026/</id>
+<id>https://conferences.clicvia.com/conference/corl-2026/</id>
 <title>CoRL 2026 — The Conference on Robot Learning</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/corl-2026/"/>
+<link href="https://conferences.clicvia.com/conference/corl-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–11 Nov 2026 · Austin, United States · Deadline: 25 May 2026, 26 May 2026, 28 May 2026 · Official: https://www.corl.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ijcnlp-2026/</id>
+<id>https://conferences.clicvia.com/conference/ijcnlp-2026/</id>
 <title>IJCNLP 2026 — International Joint Conference on Natural Language Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ijcnlp-2026/"/>
+<link href="https://conferences.clicvia.com/conference/ijcnlp-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–10 Nov 2026 · Hengqin, China · Deadline: 25 May 2026, 7 Aug 2026, 25 Aug 2026 · Official: https://2026.aaclnet.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/nlpcc-2026/</id>
+<id>https://conferences.clicvia.com/conference/nlpcc-2026/</id>
 <title>NLPCC 2026 — CCF International Conference on Natural Language Processing and Chinese Computing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/nlpcc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/nlpcc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–5 Nov 2026 · Macau, China · Deadline: 20 Jun 2026 · Official: https://tcci.ccf.org.cn/conference/2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ictai-2026/</id>
+<id>https://conferences.clicvia.com/conference/ictai-2026/</id>
 <title>ICTAI 2026 — International Conference on Tools with Artificial Intellignce</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ictai-2026/"/>
+<link href="https://conferences.clicvia.com/conference/ictai-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–4 Nov 2026 · Boca Raton FL, United States · Deadline: 21 Jul 2026 · Official: https://ictai.computer.org/2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/emnlp-2026/</id>
+<id>https://conferences.clicvia.com/conference/emnlp-2026/</id>
 <title>EMNLP 2026 — The annual Conference on Empirical Methods in Natural Language Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/emnlp-2026/"/>
+<link href="https://conferences.clicvia.com/conference/emnlp-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–27 Oct 2026 · Budapest, Hungary · Deadline: 2 Aug 2026 · Official: https://2026.emnlp.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cicai-2026/</id>
+<id>https://conferences.clicvia.com/conference/cicai-2026/</id>
 <title>CICAI 2026 — CAAI International Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cicai-2026/"/>
+<link href="https://conferences.clicvia.com/conference/cicai-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–19 Oct 2026 · Haining, China · Deadline: 8 Jun 2026 · Official: https://cicai.caai.cn/index.html</summary>
 </entry>

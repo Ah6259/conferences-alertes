@@ -3,7 +3,7 @@
 Le site tourne **tout seul** sur GitHub. Voici seulement ce qu'Ahmed peut faire, quand il le souhaite.
 
 ## 1. Voir le site
-https://ah6259.github.io/conferences-alertes/ (anglais par défaut ; menu « FR / EN / ع » en haut à droite).
+https://conferences.clicvia.com/ (anglais par défaut ; menu « FR / EN / ع » en haut à droite).
 
 ## 2. Canaux Telegram gratuits par domaine (facultatif, plus tard)
 1. Telegram → Menu → **Nouveau canal**, public, par ex. `radarconf_finance_islamique` (un canal par domaine voulu).

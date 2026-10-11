@@ -1,429 +1,429 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — Computer science &amp; AI</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/informatique.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/informatique.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/informatique.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icip-2027/</id>
+<id>https://conferences.clicvia.com/conference/icip-2027/</id>
 <title>ICIP 2027 — The IEEE International Conference on Image Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icip-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icip-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <summary>29 Nov – 3 Dec 2027 · Singapore · Deadline: 31 Mar 2027 · Official: https://2027.ieeeicip.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icdm-2027/</id>
+<id>https://conferences.clicvia.com/conference/icdm-2027/</id>
 <title>ICDM 2027 — IEEE International Conference on Data Mining</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icdm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icdm-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <summary>15–18 Nov 2027 · Brisbane, Australia · Deadline: 6 Jun 2027 · Official: https://icdm2027-website.onrender.com/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icic-2027/</id>
+<id>https://conferences.clicvia.com/conference/icic-2027/</id>
 <title>ICIC 2027 — International Conference on Intelligent Computing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icic-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icic-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <summary>22–26 Jul 2027 · Jinan, China · Deadline: see official website · Official: https://ic-icc.cn/2027/index.php</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eurovis-2027/</id>
+<id>https://conferences.clicvia.com/conference/eurovis-2027/</id>
 <title>EuroVis 2027 — Eurographics Conference on Visualization</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eurovis-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eurovis-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: see official website · Official: https://eurovis27.github.io/web/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icpr-2027/</id>
+<id>https://conferences.clicvia.com/conference/icpr-2027/</id>
 <title>ICPR 2027 — International Conference on Pattern Recognition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icpr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icpr-2027/"/>
 <updated>2026-10-09T06:00:00Z</updated>
 <summary>4–6 Oct 2027 · Online · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://www.icpr2027.com/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2027/</id>
+<id>https://conferences.clicvia.com/conference/acm-siggraph-asia-2027/</id>
 <title>ACM SIGGRAPH ASIA 2027 — ACM SIGGRAPH Annual Conference in Asia</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acm-siggraph-asia-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>30 Nov – 3 Dec 2027 · Tokyo International Forum, Japan · Deadline: see official website · Official: https://asia.siggraph.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/issre-2027/</id>
+<id>https://conferences.clicvia.com/conference/issre-2027/</id>
 <title>ISSRE 2027 — International Symposium on Software Reliability Engineering</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/issre-2027/"/>
+<link href="https://conferences.clicvia.com/conference/issre-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–22 Oct 2027 · Taipa, China · Deadline: see official website · Official: https://conf.researchr.org/home/issre-2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fm-2027/</id>
+<id>https://conferences.clicvia.com/conference/fm-2027/</id>
 <title>FM 2027 — International Symposium on Formal Methods</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/fm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Oct 2027 · Athens, Greece · Deadline: see official website · Official: https://www.fmeurope.org/feature/upcoming_conferences/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/mobicom-2027/</id>
+<id>https://conferences.clicvia.com/conference/mobicom-2027/</id>
 <title>MobiCom 2027 — ACM Annual International Conference On Mobile Computing And Networking</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/mobicom-2027/"/>
+<link href="https://conferences.clicvia.com/conference/mobicom-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Oct 2027 ·  · Deadline: 26 Aug 2026, 2 Sep 2026 · Official: https://www.sigmobile.org/mobicom/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/securecomm-2027/</id>
+<id>https://conferences.clicvia.com/conference/securecomm-2027/</id>
 <title>SecureComm 2027 — International Conference on Security and Privacy in Communication Networks</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/securecomm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/securecomm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–18 Oct 2027 · Hefei, China · Deadline: 1 Feb 2027, 15 Apr 2027 · Official: https://securecomm.eai-conferences.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ccs-2027/</id>
+<id>https://conferences.clicvia.com/conference/ccs-2027/</id>
 <title>CCS 2027 — ACM Conference on Computer and Communications Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ccs-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ccs-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–15 Oct 2027 · Atlanta, United States · Deadline: see official website · Official: https://www.sigsac.org/ccs/CCS2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/oopsla-2027/</id>
+<id>https://conferences.clicvia.com/conference/oopsla-2027/</id>
 <title>OOPSLA 2027 — Conference on Object-Oriented Programming Systems, Languages, and Applications</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/oopsla-2027/"/>
+<link href="https://conferences.clicvia.com/conference/oopsla-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–15 Oct 2027 · Prague, Czech Republic · Deadline: 14 Oct 2026, 7 Apr 2027 · Official: https://2027.splashcon.org/track/splashoopsla2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/imwut-resubmission-only-ubicomp-iswc-2027/</id>
+<id>https://conferences.clicvia.com/conference/imwut-resubmission-only-ubicomp-iswc-2027/</id>
 <title>IMWUT - resubmission only (Ubicomp/ISWC) 2027</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/imwut-resubmission-only-ubicomp-iswc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/imwut-resubmission-only-ubicomp-iswc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–7 Oct 2027 · Seoul Dragon City, South Korea · Deadline: 1 Aug 2027 · Official: https://dl.acm.org/journal/imwut/how-to-submit</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/imwut-ubicomp-iswc-2027/</id>
+<id>https://conferences.clicvia.com/conference/imwut-ubicomp-iswc-2027/</id>
 <title>IMWUT (Ubicomp/ISWC) 2027</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/imwut-ubicomp-iswc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/imwut-ubicomp-iswc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–7 Oct 2027 · Seoul Dragon City, South Korea · Deadline: 1 Nov 2026, 1 Feb 2027, 1 May 2027 · Official: https://dl.acm.org/journal/imwut/how-to-submit</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ecai-2027/</id>
+<id>https://conferences.clicvia.com/conference/ecai-2027/</id>
 <title>ECAI 2027 — European Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ecai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ecai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–7 Oct 2027 · Athens, Greece · Deadline: 14 Apr 2027 · Official: https://ecai2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iccv-2027/</id>
+<id>https://conferences.clicvia.com/conference/iccv-2027/</id>
 <title>ICCV 2027 — IEEE International Conference on Computer Vision</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iccv-2027/"/>
+<link href="https://conferences.clicvia.com/conference/iccv-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icfp-2027/</id>
+<id>https://conferences.clicvia.com/conference/icfp-2027/</id>
 <title>ICFP 2027 — International Conference on Function Programming</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icfp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icfp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26 Sep – 1 Oct 2027 · Nijmegen, Netherlands · Deadline: 25 Feb 2027 · Official: https://icfp27.sigplan.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iros-2027/</id>
+<id>https://conferences.clicvia.com/conference/iros-2027/</id>
 <title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iros-2027/"/>
+<link href="https://conferences.clicvia.com/conference/iros-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/miccai-2027/</id>
+<id>https://conferences.clicvia.com/conference/miccai-2027/</id>
 <title>MICCAI 2027 — International Conference on Medical Image Computing and Computer Assisted Intervention</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/miccai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/miccai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26 Sep – 1 Oct 2027 · Auckland, New Zealand · Deadline: see official website · Official: https://conferences.miccai.org/2027/en/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ecml-pkdd-2027/</id>
+<id>https://conferences.clicvia.com/conference/ecml-pkdd-2027/</id>
 <title>ECML-PKDD 2027 — European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ecml-pkdd-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ecml-pkdd-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–24 Sep 2027 · Eindhoven, Netherlands · Deadline: see official website · Official: https://ecmlpkdd.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/mobilehci-2027/</id>
+<id>https://conferences.clicvia.com/conference/mobilehci-2027/</id>
 <title>MobileHCI 2027 — ACM International Conference on Mobile Human-Computer Interaction</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/mobilehci-2027/"/>
+<link href="https://conferences.clicvia.com/conference/mobilehci-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–23 Sep 2027 · Limassol, Cyprus · Deadline: 10 Feb 2027, 17 Feb 2027 · Official: https://mobilehci.acm.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/csfw-2027/</id>
+<id>https://conferences.clicvia.com/conference/csfw-2027/</id>
 <title>CSFW 2027 — IEEE Computer Security Foundations Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/csfw-2027/"/>
+<link href="https://conferences.clicvia.com/conference/csfw-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–17 Sep 2027 · Tokyo, Japan · Deadline: 3 Aug 2026, 15 Oct 2026, 28 Jan 2027 · Official: https://www.ieee-security.org/TC/CSF2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icsme-2027/</id>
+<id>https://conferences.clicvia.com/conference/icsme-2027/</id>
 <title>ICSME 2027 — International Conference on Software Maintenance and Evolution</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icsme-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icsme-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–11 Sep 2027 · Toronto, Canada · Deadline: 5 Mar 2027 · Official: https://conf.researchr.org/home/icsme-2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/issta-2027/</id>
+<id>https://conferences.clicvia.com/conference/issta-2027/</id>
 <title>ISSTA 2027 — ACM SIGSOFT International Symposium on Software Testing and Analysis</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/issta-2027/"/>
+<link href="https://conferences.clicvia.com/conference/issta-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Sep 2027 · Singapore · Deadline: 8 Jan 2027, 11 Jan 2027 · Official: https://conf.researchr.org/home/issta-2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ches-2027/</id>
+<id>https://conferences.clicvia.com/conference/ches-2027/</id>
 <title>CHES 2027 — International Conference on Cryptographic Hardware and Embedded Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ches-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ches-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–9 Sep 2027 · Cancún, Mexico · Deadline: 15 Jul 2026, 15 Oct 2026, 15 Jan 2027 · Official: https://ches.iacr.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eusipco-2027/</id>
+<id>https://conferences.clicvia.com/conference/eusipco-2027/</id>
 <title>EUSIPCO 2027 — European Signal Processing Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eusipco-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eusipco-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>30 Aug – 3 Sep 2027 · Darmstadt, Germany · Deadline: 6 Feb 2027 · Official: https://eusipco2027.de/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/interspeech-2027/</id>
+<id>https://conferences.clicvia.com/conference/interspeech-2027/</id>
 <title>InterSpeech 2027 — Conference of the International Speech Communication Association</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/interspeech-2027/"/>
+<link href="https://conferences.clicvia.com/conference/interspeech-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>29 Aug – 2 Sep 2027 · São Paulo, Brazil · Deadline: 9 Feb 2027 · Official: https://interspeech2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fscd-2027/</id>
+<id>https://conferences.clicvia.com/conference/fscd-2027/</id>
 <title>FSCD 2027 — International Conference on Formal Structures for Computation and Deduction</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fscd-2027/"/>
+<link href="https://conferences.clicvia.com/conference/fscd-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–26 Aug 2027 · Nijmegen, Netherlands · Deadline: see official website · Official: https://fscd-cade.science.ru.nl/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/interact-2027/</id>
+<id>https://conferences.clicvia.com/conference/interact-2027/</id>
 <title>INTERACT 2027 — IFIP TC13 International Conference on Human-Computer Interaction</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/interact-2027/"/>
+<link href="https://conferences.clicvia.com/conference/interact-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Aug 2027 · Tallinn, Estonia · Deadline: 25 Jan 2027, 1 Feb 2027 · Official: https://interact2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/re-2027/</id>
+<id>https://conferences.clicvia.com/conference/re-2027/</id>
 <title>RE 2027 — IEEE International Requirements Engineering Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/re-2027/"/>
+<link href="https://conferences.clicvia.com/conference/re-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Aug 2027 · Milan, Italy · Deadline: see official website · Official: https://conf.researchr.org/home/RE-2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/recsys-2027/</id>
+<id>https://conferences.clicvia.com/conference/recsys-2027/</id>
 <title>RecSys 2027 — ACM Conference on Recommender Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/recsys-2027/"/>
+<link href="https://conferences.clicvia.com/conference/recsys-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Aug 2027 · Honolulu, United States · Deadline: see official website · Official: https://recsys.acm.org/recsys27/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/vldb-2027/</id>
+<id>https://conferences.clicvia.com/conference/vldb-2027/</id>
 <title>VLDB 2027 — International Conference on Very Large Data Bases</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/vldb-2027/"/>
+<link href="https://conferences.clicvia.com/conference/vldb-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Aug 2027 · Athens, Greece · Deadline: 25 Nov 2026, 1 Dec 2026, 25 Dec 2026 · Official: https://www.vldb.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cade-2027/</id>
+<id>https://conferences.clicvia.com/conference/cade-2027/</id>
 <title>CADE 2027 — The Conference on Automated Deduction</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cade-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cade-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>22–25 Aug 2027 · Nijmegen, Netherlands · Deadline: 15 Feb 2027, 22 Feb 2027 · Official: https://fscd-cade.science.ru.nl/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icdar-2027/</id>
+<id>https://conferences.clicvia.com/conference/icdar-2027/</id>
 <title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icdar-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 31 Jan 2027, 20 Feb 2027 · Official: https://icdar2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acl-2027/</id>
+<id>https://conferences.clicvia.com/conference/acl-2027/</id>
 <title>ACL 2027 — Annual Meeting of the Association for Computational Linguistics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acl-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acl-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–22 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027 · Official: https://2027.aclweb.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/usenix-security-2027/</id>
+<id>https://conferences.clicvia.com/conference/usenix-security-2027/</id>
 <title>USENIX Security 2027 — USENIX Security Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/usenix-security-2027/"/>
+<link href="https://conferences.clicvia.com/conference/usenix-security-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–13 Aug 2027 · Denver, United States · Deadline: 18 Aug 2026, 25 Aug 2026, 19 Jan 2027 · Official: https://www.usenix.org/conference/usenixsecurity27</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-2027/</id>
+<id>https://conferences.clicvia.com/conference/acm-siggraph-2027/</id>
 <title>ACM SIGGRAPH 2027 — ACM SIGGRAPH Annual Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acm-siggraph-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Aug 2027 · Anaheim, United States · Deadline: see official website · Official: https://s2027.siggraph.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sigcomm-2027/</id>
+<id>https://conferences.clicvia.com/conference/sigcomm-2027/</id>
 <title>SIGCOMM 2027 — ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sigcomm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sigcomm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Aug 2027 · Bangkok, Thailand · Deadline: see official website · Official: https://conferences.sigcomm.org/sigcomm/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/siggraph-2027/</id>
+<id>https://conferences.clicvia.com/conference/siggraph-2027/</id>
 <title>SIGGRAPH 2027 — Conference on Computer Graphics and Interactive Techniques</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/siggraph-2027/"/>
+<link href="https://conferences.clicvia.com/conference/siggraph-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Aug 2027 · Anaheim Convention Center, United States · Deadline: see official website · Official: https://www.siggraph.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/soups-2027/</id>
+<id>https://conferences.clicvia.com/conference/soups-2027/</id>
 <title>SOUPS 2027 — Symposium On Usable Privacy and Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/soups-2027/"/>
+<link href="https://conferences.clicvia.com/conference/soups-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–10 Aug 2027 · Denver, United States · Deadline: see official website · Official: https://www.usenix.org/conference/soups2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ijcai-2027/</id>
+<id>https://conferences.clicvia.com/conference/ijcai-2027/</id>
 <title>IJCAI 2027 — International Joint Conference on Artificial Intelligence</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ijcai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ijcai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–13 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027, 11 Jan 2027 · Official: https://2027.ijcai.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-cog-2027/</id>
+<id>https://conferences.clicvia.com/conference/ieee-cog-2027/</id>
 <title>IEEE CoG 2027 — IEEE Conference on Games</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-cog-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-cog-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–5 Aug 2027 · Aizuwakamatsu, Japan · Deadline: 1 Mar 2027, 15 May 2027 · Official: https://cog2027.u-aizu.ac.jp/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sigkdd-2027/</id>
+<id>https://conferences.clicvia.com/conference/sigkdd-2027/</id>
 <title>SIGKDD 2027 — ACM Knowledge Discovery and Data Mining</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sigkdd-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sigkdd-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–5 Aug 2027 · San Jose, United States · Deadline: 19 Jul 2026, 26 Jul 2026 · Official: https://kdd2027.kdd.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cec-2027/</id>
+<id>https://conferences.clicvia.com/conference/cec-2027/</id>
 <title>CEC 2027 — IEEE Congress on Evolutionary Computation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cec-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cec-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 15 Jan 2027 · Official: https://ieeecec.org</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-cec-2027/</id>
+<id>https://conferences.clicvia.com/conference/ieee-cec-2027/</id>
 <title>IEEE CEC 2027 — IEEE Congress on Evolutionary Computation</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-cec-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-cec-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 28 Feb 2027 · Official: https://ieeecec.org/2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cav-2027/</id>
+<id>https://conferences.clicvia.com/conference/cav-2027/</id>
 <title>CAV 2027 — International Conference on Computer-Aided Verification</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cav-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cav-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–23 Jul 2027 · KIT, Netherlands · Deadline: 20 Jan 2027 · Official: https://conferences.i-cav.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ccc-2027/</id>
+<id>https://conferences.clicvia.com/conference/ccc-2027/</id>
 <title>CCC 2027 — Computational Complexity Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ccc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ccc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–22 Jul 2027 · Seattle, United States · Deadline: see official website · Official: https://computationalcomplexity.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/pets-2027/</id>
+<id>https://conferences.clicvia.com/conference/pets-2027/</id>
 <title>PETS 2027 — Privacy Enhancing Technologies Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/pets-2027/"/>
+<link href="https://conferences.clicvia.com/conference/pets-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–24 Jul 2027 · Delft, Netherlands · Deadline: 31 May 2026, 31 Aug 2026, 30 Nov 2026 · Official: https://petsymposium.org/cfp27.php</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sacmat-2027/</id>
+<id>https://conferences.clicvia.com/conference/sacmat-2027/</id>
 <title>SACMAT 2027 — ACM Symposium on Access Control Models and Technologies</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sacmat-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sacmat-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–21 Jul 2027 · Durham, United Kingdom · Deadline: 30 Oct 2026, 12 Feb 2027 · Official: https://www.sacmat.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ismb-2027/</id>
+<id>https://conferences.clicvia.com/conference/ismb-2027/</id>
 <title>ISMB 2027 — International Conference on Intelligent Systems for Molecular Biology</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ismb-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ismb-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Jul 2027 · Copenhagen, Denmark · Deadline: see official website · Official: https://www.iscb.org/ismbeccb2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sigir-2027/</id>
+<id>https://conferences.clicvia.com/conference/sigir-2027/</id>
 <title>SIGIR 2027 — International Conference on Research on Development in Information Retrieval</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sigir-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sigir-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–24 Jul 2027 · San Jose, United States · Deadline: 14 Jan 2027, 21 Jan 2027 · Official: https://sigir2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/compsac-2027/</id>
+<id>https://conferences.clicvia.com/conference/compsac-2027/</id>
 <title>COMPSAC 2027 — International Computer Software and Applications Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/compsac-2027/"/>
+<link href="https://conferences.clicvia.com/conference/compsac-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–16 Jul 2027 · Tokyo, Japan · Deadline: 31 Jan 2027 · Official: https://ieeecompsac.computer.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icme-2027/</id>
+<id>https://conferences.clicvia.com/conference/icme-2027/</id>
 <title>ICME 2027 — The IEEE International Conference on Multimedia &amp; Expo</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icme-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icme-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–17 Jul 2027 · Xiamen, China · Deadline: see official website · Official: https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/asiaccs-2027/</id>
+<id>https://conferences.clicvia.com/conference/asiaccs-2027/</id>
 <title>AsiaCCS 2027 — Asia Conference on Computer and Communications Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/asiaccs-2027/"/>
+<link href="https://conferences.clicvia.com/conference/asiaccs-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–16 Jul 2027 · Macau, China · Deadline: 21 Aug 2026, 11 Dec 2026 · Official: https://asiaccs2027.cityu.edu.mo/index.html</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fse-2027-2/</id>
+<id>https://conferences.clicvia.com/conference/fse-2027-2/</id>
 <title>FSE 2027 — ACM International Conference on the Foundations of Software Engineering</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fse-2027-2/"/>
+<link href="https://conferences.clicvia.com/conference/fse-2027-2/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–16 Jul 2027 · Shenzhen, China · Deadline: 2 Oct 2026 · Official: https://conf.researchr.org/home/fse-2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/gecco-2027/</id>
+<id>https://conferences.clicvia.com/conference/gecco-2027/</id>
 <title>GECCO 2027 — Genetic and Evolutionary Computation Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/gecco-2027/"/>
+<link href="https://conferences.clicvia.com/conference/gecco-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–16 Jul 2027 · Kraków, Poland · Deadline: see official website · Official: https://gecco-2027.sigevo.org/HomePage</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/whc-2027/</id>
+<id>https://conferences.clicvia.com/conference/whc-2027/</id>
 <title>WHC 2027 — IEEE World Haptics Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/whc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/whc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–15 Jul 2027 · Boston, United States · Deadline: 29 Jan 2027 · Official: https://2027.worldhaptics.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/dac-2027/</id>
+<id>https://conferences.clicvia.com/conference/dac-2027/</id>
 <title>DAC 2027 — Design Automation Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/dac-2027/"/>
+<link href="https://conferences.clicvia.com/conference/dac-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–14 Jul 2027 · San Jose, United States · Deadline: 11 Nov 2026, 18 Nov 2026 · Official: https://dac.com/2027/authors/call-for-contributions</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sai-2027/</id>
+<id>https://conferences.clicvia.com/conference/sai-2027/</id>
 <title>SAI 2027 — Computing Conference (SAI)</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sai-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–9 Jul 2027 · London, United Kingdom · Deadline: 1 Oct 2026, 1 Dec 2026 · Official: https://saiconference.com/Computing</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acisp-2027/</id>
+<id>https://conferences.clicvia.com/conference/acisp-2027/</id>
 <title>ACISP 2027 — Australasia Conference on Information Security and Privacy</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acisp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acisp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Jul 2027 · Melbourne, Australia · Deadline: 30 Nov 2026, 1 Mar 2027 · Official: https://acisp.org/</summary>
 </entry>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — Financial markets &amp; asset pricing</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-marches.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-marches.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-marches.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-marches.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/wfa-2027/</id>
+<id>https://conferences.clicvia.com/conference/wfa-2027/</id>
 <title>WFA 2027 — 2027 Western Finance Association (WFA) Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/wfa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/wfa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–30 Jun 2027 · Indian Wells, United States · Deadline: 18 Nov 2026 · Official: https://westernfinance.org/conference/</summary>
 </entry>

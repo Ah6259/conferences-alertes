@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — Finance (general)</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-finance-generale.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-finance-generale.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-finance-generale.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-finance-generale.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/wfa-2027/</id>
+<id>https://conferences.clicvia.com/conference/wfa-2027/</id>
 <title>WFA 2027 — 2027 Western Finance Association (WFA) Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/wfa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/wfa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–30 Jun 2027 · Indian Wells, United States · Deadline: 18 Nov 2026 · Official: https://westernfinance.org/conference/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/iyfs-2027/</id>
+<id>https://conferences.clicvia.com/conference/iyfs-2027/</id>
 <title>IYFS 2027 — International Young Finance Scholars Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/iyfs-2027/"/>
+<link href="https://conferences.clicvia.com/conference/iyfs-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–9 Apr 2027 · Brighton, United Kingdom · Deadline: 31 Dec 2026 · Official: https://www.sussex.ac.uk/collaborate/events/iyfs-conference/submit-paper</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/efa-eastern-2027/</id>
+<id>https://conferences.clicvia.com/conference/efa-eastern-2027/</id>
 <title>EFA Eastern 2027 — 63rd Annual Eastern Finance Association Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/efa-eastern-2027/"/>
+<link href="https://conferences.clicvia.com/conference/efa-eastern-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Apr 2027 · Philadelphia, United States · Deadline: 5 Oct 2026 · Official: https://easternfinance.org/2027-meeting/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/bafa-2027/</id>
+<id>https://conferences.clicvia.com/conference/bafa-2027/</id>
 <title>BAFA 2027 — British Accounting and Finance Association (BAFA) Annual Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/bafa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/bafa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–8 Apr 2027 · Cardiff, United Kingdom · Deadline: see official website · Official: https://bafa.ac.uk/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/mfa-2027/</id>
+<id>https://conferences.clicvia.com/conference/mfa-2027/</id>
 <title>MFA 2027 — 2027 Midwest Finance Association Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/mfa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/mfa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–20 Mar 2027 · Chicago, United States · Deadline: 4 Sep 2026 · Official: https://www.midwestfinance.org/2027-annual-meeting</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/swfa-2027/</id>
+<id>https://conferences.clicvia.com/conference/swfa-2027/</id>
 <title>SWFA 2027 — 66th Southwestern Finance Association Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/swfa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/swfa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–19 Feb 2027 · Las Vegas, United States · Deadline: 15 Sep 2026 · Official: https://www.swfinance.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/afa-2027/</id>
+<id>https://conferences.clicvia.com/conference/afa-2027/</id>
 <title>AFA 2027 — 2027 American Finance Association (AFA) Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/afa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/afa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–5 Jan 2027 · Washington, United States · Deadline: 15 Mar 2026 · Official: https://afajof.org/annual-meeting/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fma-2026/</id>
+<id>https://conferences.clicvia.com/conference/fma-2026/</id>
 <title>FMA 2026 — 2026 FMA Annual Meeting (Financial Management Association)</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fma-2026/"/>
+<link href="https://conferences.clicvia.com/conference/fma-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–17 Oct 2026 · Tampa, United States · Deadline: see official website · Official: https://www.fma.org/</summary>
 </entry>

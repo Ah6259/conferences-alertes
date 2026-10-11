@@ -1,226 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — Graphics &amp; multimedia</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-graphisme.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-graphisme.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-graphisme.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-graphisme.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icip-2027/</id>
+<id>https://conferences.clicvia.com/conference/icip-2027/</id>
 <title>ICIP 2027 — The IEEE International Conference on Image Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icip-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icip-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <summary>29 Nov – 3 Dec 2027 · Singapore · Deadline: 31 Mar 2027 · Official: https://2027.ieeeicip.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eurovis-2027/</id>
+<id>https://conferences.clicvia.com/conference/eurovis-2027/</id>
 <title>EuroVis 2027 — Eurographics Conference on Visualization</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eurovis-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eurovis-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: see official website · Official: https://eurovis27.github.io/web/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2027/</id>
+<id>https://conferences.clicvia.com/conference/acm-siggraph-asia-2027/</id>
 <title>ACM SIGGRAPH ASIA 2027 — ACM SIGGRAPH Annual Conference in Asia</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acm-siggraph-asia-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>30 Nov – 3 Dec 2027 · Tokyo International Forum, Japan · Deadline: see official website · Official: https://asia.siggraph.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eusipco-2027/</id>
+<id>https://conferences.clicvia.com/conference/eusipco-2027/</id>
 <title>EUSIPCO 2027 — European Signal Processing Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eusipco-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eusipco-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>30 Aug – 3 Sep 2027 · Darmstadt, Germany · Deadline: 6 Feb 2027 · Official: https://eusipco2027.de/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/interspeech-2027/</id>
+<id>https://conferences.clicvia.com/conference/interspeech-2027/</id>
 <title>InterSpeech 2027 — Conference of the International Speech Communication Association</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/interspeech-2027/"/>
+<link href="https://conferences.clicvia.com/conference/interspeech-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>29 Aug – 2 Sep 2027 · São Paulo, Brazil · Deadline: 9 Feb 2027 · Official: https://interspeech2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-2027/</id>
+<id>https://conferences.clicvia.com/conference/acm-siggraph-2027/</id>
 <title>ACM SIGGRAPH 2027 — ACM SIGGRAPH Annual Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acm-siggraph-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Aug 2027 · Anaheim, United States · Deadline: see official website · Official: https://s2027.siggraph.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/siggraph-2027/</id>
+<id>https://conferences.clicvia.com/conference/siggraph-2027/</id>
 <title>SIGGRAPH 2027 — Conference on Computer Graphics and Interactive Techniques</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/siggraph-2027/"/>
+<link href="https://conferences.clicvia.com/conference/siggraph-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Aug 2027 · Anaheim Convention Center, United States · Deadline: see official website · Official: https://www.siggraph.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-cog-2027/</id>
+<id>https://conferences.clicvia.com/conference/ieee-cog-2027/</id>
 <title>IEEE CoG 2027 — IEEE Conference on Games</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-cog-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-cog-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–5 Aug 2027 · Aizuwakamatsu, Japan · Deadline: 1 Mar 2027, 15 May 2027 · Official: https://cog2027.u-aizu.ac.jp/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icme-2027/</id>
+<id>https://conferences.clicvia.com/conference/icme-2027/</id>
 <title>ICME 2027 — The IEEE International Conference on Multimedia &amp; Expo</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icme-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icme-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–17 Jul 2027 · Xiamen, China · Deadline: see official website · Official: https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cgi-2027/</id>
+<id>https://conferences.clicvia.com/conference/cgi-2027/</id>
 <title>CGI 2027 — Computer Graphics International</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cgi-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cgi-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–9 Jul 2027 · Cairns, Australia · Deadline: 20 Apr 2027 · Official: https://cgs-network.org/cgi27/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/gmp-2027/</id>
+<id>https://conferences.clicvia.com/conference/gmp-2027/</id>
 <title>GMP 2027 — International Conference on Geometric Modeling and Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/gmp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/gmp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>21–25 Jun 2027 · Singapore · Deadline: 14 Dec 2026, 21 Dec 2026 · Official: https://gmp-conference-2027.github.io/gmp2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sgp-2027/</id>
+<id>https://conferences.clicvia.com/conference/sgp-2027/</id>
 <title>SGP 2027 — Eurographics Symposium on Geometry Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sgp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sgp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>21–25 Jun 2027 · Singapore · Deadline: see official website · Official: https://igs2027singapore.github.io/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/smi-2027/</id>
+<id>https://conferences.clicvia.com/conference/smi-2027/</id>
 <title>SMI 2027 — Shape Modeling International</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/smi-2027/"/>
+<link href="https://conferences.clicvia.com/conference/smi-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>21–25 Jun 2027 · Singapore · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://smiconf.github.io/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/spm-2027/</id>
+<id>https://conferences.clicvia.com/conference/spm-2027/</id>
 <title>SPM 2027 — Symposium on Solid and Physical Modeling</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/spm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/spm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>21–25 Jun 2027 · Singapore · Deadline: see official website · Official: https://igs2027singapore.github.io/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icmr-2027/</id>
+<id>https://conferences.clicvia.com/conference/icmr-2027/</id>
 <title>ICMR 2027 — ACM SIGMM International Conference on Multimedia Retrieval</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icmr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icmr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Jun 2027 · Singapore · Deadline: 31 Jan 2027 · Official: https://www.icmr2027.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icassp-2027/</id>
+<id>https://conferences.clicvia.com/conference/icassp-2027/</id>
 <title>ICASSP 2027 — IEEE International Conference on Acoustics, Speech, and Signal Processing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icassp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icassp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–21 May 2027 · Toronto, Canada · Deadline: 23 Sep 2026 · Official: https://2027.ieeeicassp.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eurographics-2027/</id>
+<id>https://conferences.clicvia.com/conference/eurographics-2027/</id>
 <title>Eurographics 2027</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eurographics-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eurographics-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–14 May 2027 · Lucca, Italy · Deadline: 1 Oct 2026, 2 Oct 2026 · Official: https://eg2027.isti.cnr.it/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/pacificvis-2027/</id>
+<id>https://conferences.clicvia.com/conference/pacificvis-2027/</id>
 <title>PacificVis 2027 — IEEE Pacific Visualization Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/pacificvis-2027/"/>
+<link href="https://conferences.clicvia.com/conference/pacificvis-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–22 Apr 2027 · Busan, South Korea · Deadline: 2 Nov 2026, 9 Nov 2026 · Official: https://pacificvis2027.github.io/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cvm-2027/</id>
+<id>https://conferences.clicvia.com/conference/cvm-2027/</id>
 <title>CVM 2027 — The international conference on Computational Visual Media</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cvm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cvm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–11 Apr 2027 · Nanyang Technological University, Singapore · Deadline: 23 Oct 2026, 26 Oct 2026 · Official: https://iccvm.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/3dv-2027/</id>
+<id>https://conferences.clicvia.com/conference/3dv-2027/</id>
 <title>3DV 2027 — International Conference on 3D Vision</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/3dv-2027/"/>
+<link href="https://conferences.clicvia.com/conference/3dv-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–9 Apr 2027 · Thessaloniki, Greece · Deadline: 28 Aug 2026, 28 Aug 2026 · Official: https://3dvconf.github.io/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/dcc-2027/</id>
+<id>https://conferences.clicvia.com/conference/dcc-2027/</id>
 <title>DCC 2027 — Data Compression Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/dcc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/dcc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–26 Mar 2027 · Snowbird, United States · Deadline: 9 Oct 2026 · Official: https://datacompressionconference.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-vr-2027/</id>
+<id>https://conferences.clicvia.com/conference/ieee-vr-2027/</id>
 <title>IEEE VR 2027 — IEEE Virtual Reality</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-vr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-vr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27 Feb – 3 Mar 2027 · Melbourne, Australia · Deadline: 24 Aug 2026, 31 Aug 2026 · Official: https://ieeevr.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/mmm-2027/</id>
+<id>https://conferences.clicvia.com/conference/mmm-2027/</id>
 <title>MMM 2027 — International Conference on Multimedia Modeling</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/mmm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/mmm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–8 Jan 2027 · Siem Reap, Cambodia · Deadline: 30 Aug 2026 · Official: https://www.mmm2027.net/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icvrv-2026/</id>
+<id>https://conferences.clicvia.com/conference/icvrv-2026/</id>
 <title>ICVRV 2026 — International Conference on Virtual Reality and Visualization</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icvrv-2026/"/>
+<link href="https://conferences.clicvia.com/conference/icvrv-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–20 Dec 2026 · Valparaíso, Chile · Deadline: 15 Aug 2026, 22 Aug 2026 · Official: https://icvrv2026.aconf.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/mmasia-2026/</id>
+<id>https://conferences.clicvia.com/conference/mmasia-2026/</id>
 <title>MMAsia 2026 — ACM Multimedia Asia</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/mmasia-2026/"/>
+<link href="https://conferences.clicvia.com/conference/mmasia-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–18 Dec 2026 · VinUniversity, Vietnam · Deadline: 14 Aug 2026 · Official: https://www.mmasia2026.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/slt-2026/</id>
+<id>https://conferences.clicvia.com/conference/slt-2026/</id>
 <title>SLT 2026 — IEEE Spoken Language Technology (SLT) Workshop</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/slt-2026/"/>
+<link href="https://conferences.clicvia.com/conference/slt-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–16 Dec 2026 · Palermo, Italy · Deadline: 24 Jun 2026, 1 Jul 2026 · Official: https://attend.ieee.org/slt-2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2026/</id>
+<id>https://conferences.clicvia.com/conference/acm-siggraph-asia-2026/</id>
 <title>ACM SIGGRAPH ASIA 2026 — ACM SIGGRAPH Annual Conference in Asia</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-siggraph-asia-2026/"/>
+<link href="https://conferences.clicvia.com/conference/acm-siggraph-asia-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–4 Dec 2026 · KLCC, Malaysia · Deadline: 5 May 2026, 12 May 2026 · Official: https://asia.siggraph.org/2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acm-mm-2026/</id>
+<id>https://conferences.clicvia.com/conference/acm-mm-2026/</id>
 <title>ACM MM 2026 — ACM International Conference on Multimedia</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acm-mm-2026/"/>
+<link href="https://conferences.clicvia.com/conference/acm-mm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-vis-2026/</id>
+<id>https://conferences.clicvia.com/conference/ieee-vis-2026/</id>
 <title>IEEE VIS 2026 — IEEE Visualization Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-vis-2026/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-vis-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–13 Nov 2026 · Boston, United States · Deadline: 21 Mar 2026, 31 Mar 2026 · Official: https://ieeevis.org/year/2026/welcome</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ncmmsc-2026/</id>
+<id>https://conferences.clicvia.com/conference/ncmmsc-2026/</id>
 <title>NCMMSC 2026 — National Conference on Man-Machine Speech Communication</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ncmmsc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/ncmmsc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–8 Nov 2026 · Hengqin, China · Deadline: 5 Jul 2026, 12 Jul 2026 · Official: https://www.ncmmsc.org.cn/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/vinci-2026/</id>
+<id>https://conferences.clicvia.com/conference/vinci-2026/</id>
 <title>VINCI 2026 — International Symposium on Visual Information Communication and Interaction</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/vinci-2026/"/>
+<link href="https://conferences.clicvia.com/conference/vinci-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–4 Nov 2026 · Hangzhou, China · Deadline: 29 Jul 2026 · Official: https://vinci-symp.org/</summary>
 </entry>

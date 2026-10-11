@@ -36,7 +36,7 @@ import reglages          # noqa: E402
 import sources as S      # noqa: E402
 
 RACINE_SITE = os.path.dirname(ICI)
-URL_SITE = "https://ah6259.github.io/conferences-alertes/"
+URL_SITE = "https://conferences.clicvia.com/"
 CHEMIN_SITE = "/conferences-alertes/"
 NOM = ("Radar des conférences", "Conference Radar", "رادار المؤتمرات")
 OG_IMAGE = "assets/og-image-v1.jpg"

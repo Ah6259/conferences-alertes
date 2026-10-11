@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — Neuroscience</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-neurosciences.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-neurosciences.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-neurosciences.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-neurosciences.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/neuroscience-2027/</id>
+<id>https://conferences.clicvia.com/conference/neuroscience-2027/</id>
 <title>Neuroscience 2027 — Society for Neuroscience Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/neuroscience-2027/"/>
+<link href="https://conferences.clicvia.com/conference/neuroscience-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Oct 2027 · Chicago, United States · Deadline: see official website · Official: https://www.sfn.org/meetings/past-and-future-sfn-meetings</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/spr-2027/</id>
+<id>https://conferences.clicvia.com/conference/spr-2027/</id>
 <title>SPR 2027 — Society for Psychophysiological Research Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/spr-2027/"/>
+<link href="https://conferences.clicvia.com/conference/spr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–16 Oct 2027 · Rotterdam, Netherlands · Deadline: see official website · Official: https://sprweb.org/futurepastmeetings/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ieee-ner-2027/</id>
+<id>https://conferences.clicvia.com/conference/ieee-ner-2027/</id>
 <title>IEEE NER 2027 — 13th International IEEE/EMBS Conference on Neural Engineering</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ieee-ner-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ieee-ner-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Sep 2027 · Milan, Italy · Deadline: see official website · Official: https://www.embs.org/event/13th-international-conference-on-neural-engineering-ner/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ccn-2027/</id>
+<id>https://conferences.clicvia.com/conference/ccn-2027/</id>
 <title>CCN 2027 — Cognitive Computational Neuroscience</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ccn-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ccn-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–29 Jul 2027 · Edinburgh, United Kingdom · Deadline: see official website · Official: https://2027.ccneuro.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/embc-2027/</id>
+<id>https://conferences.clicvia.com/conference/embc-2027/</id>
 <title>EMBC 2027 — 49th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/embc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/embc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–15 Jul 2027 · Singapore · Deadline: 24 Jan 2027, 23 Apr 2027 · Official: https://embc.embs.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cns-2027-2/</id>
+<id>https://conferences.clicvia.com/conference/cns-2027-2/</id>
 <title>CNS* 2027 — Annual Computational Neuroscience Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cns-2027-2/"/>
+<link href="https://conferences.clicvia.com/conference/cns-2027-2/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–14 Jul 2027 · Gran Canaria, Spain · Deadline: see official website · Official: https://www.cnsorg.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ohbm-2027/</id>
+<id>https://conferences.clicvia.com/conference/ohbm-2027/</id>
 <title>OHBM 2027 — Organization for Human Brain Mapping Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ohbm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ohbm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–30 Jun 2027 · Toronto, Canada · Deadline: 14 Dec 2026 · Official: https://humanbrainmapping.org/ohbm-2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/bci-meeting-2027/</id>
+<id>https://conferences.clicvia.com/conference/bci-meeting-2027/</id>
 <title>BCI Meeting 2027 — 12th International BCI Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/bci-meeting-2027/"/>
+<link href="https://conferences.clicvia.com/conference/bci-meeting-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Jun 2027 · Šibenik, Croatia · Deadline: 15 Jan 2027 · Official: https://bcisociety.org/bci-meeting/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ismrm-2027/</id>
+<id>https://conferences.clicvia.com/conference/ismrm-2027/</id>
 <title>ISMRM 2027 — ISMRM &amp; ISMRT Annual Meeting &amp; Exhibition</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ismrm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ismrm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–13 May 2027 · Vancouver, Canada · Deadline: 28 Oct 2026 · Official: https://www.ismrm.org/27m/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/nice-2027/</id>
+<id>https://conferences.clicvia.com/conference/nice-2027/</id>
 <title>NICE 2027 — Neuro-Inspired Computational Elements Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/nice-2027/"/>
+<link href="https://conferences.clicvia.com/conference/nice-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–9 Apr 2027 · Brighton, United Kingdom · Deadline: 11 Nov 2026 · Official: https://niceworkshop.org/nice-2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cns-2027/</id>
+<id>https://conferences.clicvia.com/conference/cns-2027/</id>
 <title>CNS 2027 — Cognitive Neuroscience Society Annual Meeting</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cns-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cns-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–23 Mar 2027 · Boston, United States · Deadline: 3 Nov 2026, 19 Jan 2027 · Official: https://www.cogneurosociety.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cosyne-2027/</id>
+<id>https://conferences.clicvia.com/conference/cosyne-2027/</id>
 <title>COSYNE 2027 — Computational and Systems Neuroscience</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cosyne-2027/"/>
+<link href="https://conferences.clicvia.com/conference/cosyne-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–16 Mar 2027 · Montreal, Canada · Deadline: 18 Oct 2026 · Official: https://www.cosyne.org/</summary>
 </entry>

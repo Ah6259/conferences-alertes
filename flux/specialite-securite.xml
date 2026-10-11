@@ -1,268 +1,268 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Conference Radar — Security &amp; cryptography</title>
-<id>https://ah6259.github.io/conferences-alertes/flux/specialite-securite.xml</id>
-<link rel="self" href="https://ah6259.github.io/conferences-alertes/flux/specialite-securite.xml"/>
-<link href="https://ah6259.github.io/conferences-alertes/"/>
+<id>https://conferences.clicvia.com/flux/specialite-securite.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-securite.xml"/>
+<link href="https://conferences.clicvia.com/"/>
 <updated>2026-10-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/securecomm-2027/</id>
+<id>https://conferences.clicvia.com/conference/securecomm-2027/</id>
 <title>SecureComm 2027 — International Conference on Security and Privacy in Communication Networks</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/securecomm-2027/"/>
+<link href="https://conferences.clicvia.com/conference/securecomm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–18 Oct 2027 · Hefei, China · Deadline: 1 Feb 2027, 15 Apr 2027 · Official: https://securecomm.eai-conferences.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ccs-2027/</id>
+<id>https://conferences.clicvia.com/conference/ccs-2027/</id>
 <title>CCS 2027 — ACM Conference on Computer and Communications Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ccs-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ccs-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–15 Oct 2027 · Atlanta, United States · Deadline: see official website · Official: https://www.sigsac.org/ccs/CCS2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/csfw-2027/</id>
+<id>https://conferences.clicvia.com/conference/csfw-2027/</id>
 <title>CSFW 2027 — IEEE Computer Security Foundations Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/csfw-2027/"/>
+<link href="https://conferences.clicvia.com/conference/csfw-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–17 Sep 2027 · Tokyo, Japan · Deadline: 3 Aug 2026, 15 Oct 2026, 28 Jan 2027 · Official: https://www.ieee-security.org/TC/CSF2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ches-2027/</id>
+<id>https://conferences.clicvia.com/conference/ches-2027/</id>
 <title>CHES 2027 — International Conference on Cryptographic Hardware and Embedded Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ches-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ches-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–9 Sep 2027 · Cancún, Mexico · Deadline: 15 Jul 2026, 15 Oct 2026, 15 Jan 2027 · Official: https://ches.iacr.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/usenix-security-2027/</id>
+<id>https://conferences.clicvia.com/conference/usenix-security-2027/</id>
 <title>USENIX Security 2027 — USENIX Security Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/usenix-security-2027/"/>
+<link href="https://conferences.clicvia.com/conference/usenix-security-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–13 Aug 2027 · Denver, United States · Deadline: 18 Aug 2026, 25 Aug 2026, 19 Jan 2027 · Official: https://www.usenix.org/conference/usenixsecurity27</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/soups-2027/</id>
+<id>https://conferences.clicvia.com/conference/soups-2027/</id>
 <title>SOUPS 2027 — Symposium On Usable Privacy and Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/soups-2027/"/>
+<link href="https://conferences.clicvia.com/conference/soups-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–10 Aug 2027 · Denver, United States · Deadline: see official website · Official: https://www.usenix.org/conference/soups2027</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/pets-2027/</id>
+<id>https://conferences.clicvia.com/conference/pets-2027/</id>
 <title>PETS 2027 — Privacy Enhancing Technologies Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/pets-2027/"/>
+<link href="https://conferences.clicvia.com/conference/pets-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–24 Jul 2027 · Delft, Netherlands · Deadline: 31 May 2026, 31 Aug 2026, 30 Nov 2026 · Official: https://petsymposium.org/cfp27.php</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/sacmat-2027/</id>
+<id>https://conferences.clicvia.com/conference/sacmat-2027/</id>
 <title>SACMAT 2027 — ACM Symposium on Access Control Models and Technologies</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/sacmat-2027/"/>
+<link href="https://conferences.clicvia.com/conference/sacmat-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–21 Jul 2027 · Durham, United Kingdom · Deadline: 30 Oct 2026, 12 Feb 2027 · Official: https://www.sacmat.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/asiaccs-2027/</id>
+<id>https://conferences.clicvia.com/conference/asiaccs-2027/</id>
 <title>AsiaCCS 2027 — Asia Conference on Computer and Communications Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/asiaccs-2027/"/>
+<link href="https://conferences.clicvia.com/conference/asiaccs-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–16 Jul 2027 · Macau, China · Deadline: 21 Aug 2026, 11 Dec 2026 · Official: https://asiaccs2027.cityu.edu.mo/index.html</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acisp-2027/</id>
+<id>https://conferences.clicvia.com/conference/acisp-2027/</id>
 <title>ACISP 2027 — Australasia Conference on Information Security and Privacy</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acisp-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acisp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–10 Jul 2027 · Melbourne, Australia · Deadline: 30 Nov 2026, 1 Mar 2027 · Official: https://acisp.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/euros-p-2027/</id>
+<id>https://conferences.clicvia.com/conference/euros-p-2027/</id>
 <title>EuroS&amp;P 2027 — IEEE European Symposium on Security and Privacy</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/euros-p-2027/"/>
+<link href="https://conferences.clicvia.com/conference/euros-p-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–9 Jul 2027 · Madrid, Spain · Deadline: 25 Nov 2026, 2 Dec 2026 · Official: https://eurosp2027.ieee-security.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acns-2027/</id>
+<id>https://conferences.clicvia.com/conference/acns-2027/</id>
 <title>ACNS 2027 — Applied Cryptography and Network Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acns-2027/"/>
+<link href="https://conferences.clicvia.com/conference/acns-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>28 Jun – 1 Jul 2027 · Royal Holloway, United Kingdom · Deadline: 24 Sep 2026, 21 Jan 2027 · Official: https://acns2027.isg.rhul.ac.uk/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icdf2c-2027/</id>
+<id>https://conferences.clicvia.com/conference/icdf2c-2027/</id>
 <title>ICDF2C 2027 — International Conference on Digital Forensics &amp; Cyber Crime</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icdf2c-2027/"/>
+<link href="https://conferences.clicvia.com/conference/icdf2c-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–27 Jun 2027 · New York, United States · Deadline: 15 Dec 2026 · Official: https://icdf2c.eai-conferences.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/dsn-2027/</id>
+<id>https://conferences.clicvia.com/conference/dsn-2027/</id>
 <title>DSN 2027 — International Conference on Dependable Systems and Networks</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/dsn-2027/"/>
+<link href="https://conferences.clicvia.com/conference/dsn-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>22–25 Jun 2027 · Berlin, Germany · Deadline: 25 Nov 2026, 2 Dec 2026 · Official: https://dsn2027-berlin.github.io/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/codaspy-2027/</id>
+<id>https://conferences.clicvia.com/conference/codaspy-2027/</id>
 <title>CODASPY 2027 — ACM Conference on Data and Application Security and Privacy</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/codaspy-2027/"/>
+<link href="https://conferences.clicvia.com/conference/codaspy-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–17 Jun 2027 · Fort Collins, United States · Deadline: 16 Nov 2026, 23 Nov 2026 · Official: https://www.codaspy.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fse-2027/</id>
+<id>https://conferences.clicvia.com/conference/fse-2027/</id>
 <title>FSE 2027 — Fast Software Encryption</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fse-2027/"/>
+<link href="https://conferences.clicvia.com/conference/fse-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>24–28 May 2027 · Maastricht, Netherlands · Deadline: 1 Sep 2026, 1 Dec 2026 · Official: https://fse.iacr.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/s-p-2027/</id>
+<id>https://conferences.clicvia.com/conference/s-p-2027/</id>
 <title>S&amp;P 2027 — IEEE Symposium on Security and Privacy</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/s-p-2027/"/>
+<link href="https://conferences.clicvia.com/conference/s-p-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–19 May 2027 · MONTREAL, Canada · Deadline: 4 Jun 2026, 11 Jun 2026, 10 Nov 2026 · Official: https://sp2027.ieee-security.org/index.html</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/noms-2027/</id>
+<id>https://conferences.clicvia.com/conference/noms-2027/</id>
 <title>NOMS 2027 — IEEE/IFIP Network Operations and Management Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/noms-2027/"/>
+<link href="https://conferences.clicvia.com/conference/noms-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–14 May 2027 · Montreal, Canada · Deadline: 9 Nov 2026 · Official: https://noms2027.ieee-noms.org/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/eurocrypt-2027/</id>
+<id>https://conferences.clicvia.com/conference/eurocrypt-2027/</id>
 <title>EUROCRYPT 2027 — European Cryptology Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/eurocrypt-2027/"/>
+<link href="https://conferences.clicvia.com/conference/eurocrypt-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–15 Apr 2027 · Eindhoven, Netherlands · Deadline: 17 Sep 2026 · Official: https://eurocrypt.iacr.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ct-rsa-2027/</id>
+<id>https://conferences.clicvia.com/conference/ct-rsa-2027/</id>
 <title>CT-RSA 2027 — Cryptographer's Track at RSA Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ct-rsa-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ct-rsa-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–8 Apr 2027 · San Francisco, United States · Deadline: 22 Oct 2026 · Official: https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/dfrws-2027/</id>
+<id>https://conferences.clicvia.com/conference/dfrws-2027/</id>
 <title>DFRWS 2027 — Digital Forensic Research Workshop</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/dfrws-2027/"/>
+<link href="https://conferences.clicvia.com/conference/dfrws-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>30 Mar – 2 Apr 2027 · Edinburgh, United Kingdom · Deadline: 2 Oct 2026, 9 Oct 2026 · Official: https://dfrws.org/conferences/dfceurope2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ndss-2027/</id>
+<id>https://conferences.clicvia.com/conference/ndss-2027/</id>
 <title>NDSS 2027 — Network and Distributed System Security (NDSS) Symposium</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ndss-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ndss-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>22–26 Mar 2027 · Seoul, South Korea · Deadline: 6 May 2026, 19 Aug 2026 · Official: https://www.ndss-symposium.org/ndss2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/pkc-2027/</id>
+<id>https://conferences.clicvia.com/conference/pkc-2027/</id>
 <title>PKC 2027 — International Conference on Practice and Theory of Public-Key Cryptography</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/pkc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/pkc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–4 Mar 2027 · Taipei, Taiwan · Deadline: 16 Aug 2026 · Official: https://pkc.iacr.org/2027/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/fc-2027/</id>
+<id>https://conferences.clicvia.com/conference/fc-2027/</id>
 <title>FC 2027 — Financial Cryptography and Data Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/fc-2027/"/>
+<link href="https://conferences.clicvia.com/conference/fc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Feb 2027 ·  · Deadline: 24 Sep 2026 · Official: https://fc27.ifca.ai/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ifip-wg-11-9-2027/</id>
+<id>https://conferences.clicvia.com/conference/ifip-wg-11-9-2027/</id>
 <title>IFIP WG 11.9 2027 — IFIP WG 11.9 International Conference on Digital Forensics</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ifip-wg-11-9-2027/"/>
+<link href="https://conferences.clicvia.com/conference/ifip-wg-11-9-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–8 Jan 2027 · New Delhi, India · Deadline: 10 Oct 2026 · Official: https://www.ifip119.org/Conferences/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/cscloud-2026/</id>
+<id>https://conferences.clicvia.com/conference/cscloud-2026/</id>
 <title>CSCloud 2026 — IEEE International Conference on Cyber Security and Cloud Computing</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/cscloud-2026/"/>
+<link href="https://conferences.clicvia.com/conference/cscloud-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–21 Dec 2026 · Shanghai, China · Deadline: 15 Sep 2026 · Official: https://www.cloud-conf.net/cscloud/2026/cscloud/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/indocrypt-2026/</id>
+<id>https://conferences.clicvia.com/conference/indocrypt-2026/</id>
 <title>INDOCRYPT 2026 — International Conference on Cryptology in India</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/indocrypt-2026/"/>
+<link href="https://conferences.clicvia.com/conference/indocrypt-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–16 Dec 2026 · Bengaluru, India · Deadline: 27 Aug 2026 · Official: https://indocrypt2026.cdacb.in/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/acsac-2026/</id>
+<id>https://conferences.clicvia.com/conference/acsac-2026/</id>
 <title>ACSAC 2026 — Annual Computer Security Applications Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/acsac-2026/"/>
+<link href="https://conferences.clicvia.com/conference/acsac-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–11 Dec 2026 · Los Angeles, United States · Deadline: 26 May 2026 · Official: https://www.acsac.org/2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/asiacrypt-2026/</id>
+<id>https://conferences.clicvia.com/conference/asiacrypt-2026/</id>
 <title>ASIACRYPT 2026 — International Conference on the Theory and Application of Cryptology and Information Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/asiacrypt-2026/"/>
+<link href="https://conferences.clicvia.com/conference/asiacrypt-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–11 Dec 2026 · Hong Kong, China · Deadline: 22 May 2026 · Official: https://asiacrypt.iacr.org/2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ccs-2026/</id>
+<id>https://conferences.clicvia.com/conference/ccs-2026/</id>
 <title>CCS 2026 — ACM Conference on Computer and Communications Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ccs-2026/"/>
+<link href="https://conferences.clicvia.com/conference/ccs-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–18 Nov 2026 · World Forum, Netherlands · Deadline: 7 Jan 2026, 14 Jan 2026, 22 Apr 2026 · Official: https://www.sigsac.org/ccs/CCS2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/tcc-2026/</id>
+<id>https://conferences.clicvia.com/conference/tcc-2026/</id>
 <title>TCC 2026 — Theory of Cryptography Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/tcc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/tcc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–13 Nov 2026 · New York City, United States · Deadline: 19 May 2026 · Official: https://tcc.iacr.org/2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/inscrypt-2026/</id>
+<id>https://conferences.clicvia.com/conference/inscrypt-2026/</id>
 <title>INSCRYPT 2026 — International Conference on Information Security and Cryptology</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/inscrypt-2026/"/>
+<link href="https://conferences.clicvia.com/conference/inscrypt-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–9 Nov 2026 · Hong Kong SAR, China · Deadline: 8 May 2026 · Official: https://inscrypt2026.comp.polyu.edu.hk</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/isc-2026/</id>
+<id>https://conferences.clicvia.com/conference/isc-2026/</id>
 <title>ISC 2026 — Information Security Conference</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/isc-2026/"/>
+<link href="https://conferences.clicvia.com/conference/isc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>28–30 Oct 2026 · Rennes, France · Deadline: 2 Jul 2026 · Official: https://isc2026.github.io/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/icics-2026/</id>
+<id>https://conferences.clicvia.com/conference/icics-2026/</id>
 <title>ICICS 2026 — International Conference on Information and Communications Security</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/icics-2026/"/>
+<link href="https://conferences.clicvia.com/conference/icics-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–30 Oct 2026 · Fukui, Japan · Deadline: 12 Mar 2026, 1 Jun 2026 · Official: https://sulab-sever.u-aizu.ac.jp/icics2026/cfp.html</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/dfrws-apac-2026/</id>
+<id>https://conferences.clicvia.com/conference/dfrws-apac-2026/</id>
 <title>DFRWS APAC 2026 — Digital Forensic Research Workshop Asia Pacific</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/dfrws-apac-2026/"/>
+<link href="https://conferences.clicvia.com/conference/dfrws-apac-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–22 Oct 2026 · Singapore · Deadline: 29 May 2026, 5 Jun 2026 · Official: https://dfrws.org/conferences/dfrws-apac-2026/</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/raid-2026/</id>
+<id>https://conferences.clicvia.com/conference/raid-2026/</id>
 <title>RAID 2026 — International Symposium on Recent Advances in Intrusion Detection</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/raid-2026/"/>
+<link href="https://conferences.clicvia.com/conference/raid-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–14 Oct 2026 · Lancaster, United Kingdom · Deadline: 16 Apr 2026 · Official: https://raid2026.org</summary>
 </entry>
 <entry>
-<id>https://ah6259.github.io/conferences-alertes/conference/ches-2026/</id>
+<id>https://conferences.clicvia.com/conference/ches-2026/</id>
 <title>CHES 2026 — International Conference on Cryptographic Hardware and Embedded Systems</title>
-<link href="https://ah6259.github.io/conferences-alertes/conference/ches-2026/"/>
+<link href="https://conferences.clicvia.com/conference/ches-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–15 Oct 2026 · Antalya, Turkey · Deadline: 15 Jul 2025, 15 Oct 2025, 15 Jan 2026 · Official: https://ches.iacr.org/2026/</summary>
 </entry>
