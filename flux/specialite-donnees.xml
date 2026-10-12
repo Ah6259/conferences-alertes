@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-donnees.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-donnees.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-11T06:00:00Z</updated>
+<updated>2026-10-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/eswc-2027/</id>
+<title>ESWC 2027 — European Semantic Web Conference</title>
+<link href="https://conferences.clicvia.com/conference/eswc-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>23–27 May 2027 · Limassol, Cyprus · Deadline: see official website · Official: https://2027.eswc-conferences.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icdm-2027/</id>
 <title>ICDM 2027 — IEEE International Conference on Data Mining</title>
@@ -180,6 +187,6 @@
 <title>ISWC 2026 — International Semantic Web Conference</title>
 <link href="https://conferences.clicvia.com/conference/iswc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>27–29 Oct 2026 · Bari, Italy · Deadline: 11 Apr 2026, 2 May 2026, 7 May 2026 · Official: https://iswc2026.semanticweb.org/</summary>
+<summary>27–29 Oct 2026 · Bari, Italy · Deadline: 2 May 2026, 7 May 2026 · Official: https://iswc2026.semanticweb.org/</summary>
 </entry>
 </feed>

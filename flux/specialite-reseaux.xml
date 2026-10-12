@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-reseaux.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-reseaux.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-11T06:00:00Z</updated>
+<updated>2026-10-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/conext-2027/</id>
+<title>CoNEXT 2027 — International Conference on Emerging Networking Experiments and Technologies</title>
+<link href="https://conferences.clicvia.com/conference/conext-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>6–9 Dec 2027 · Rio de Janeiro, Brazil · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://conferences.sigcomm.org/co-next/2027/#!/home</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mobicom-2027/</id>
 <title>MobiCom 2027 — ACM Annual International Conference On Mobile Computing And Networking</title>

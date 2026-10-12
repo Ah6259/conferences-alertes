@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-11T06:00:00Z</updated>
+<updated>2026-10-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/conext-2027/</id>
+<title>CoNEXT 2027 — International Conference on Emerging Networking Experiments and Technologies</title>
+<link href="https://conferences.clicvia.com/conference/conext-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>6–9 Dec 2027 · Rio de Janeiro, Brazil · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://conferences.sigcomm.org/co-next/2027/#!/home</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/eps-hep-2027/</id>
+<title>EPS-HEP 2027 — 2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)</title>
+<link href="https://conferences.clicvia.com/conference/eps-hep-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>26–30 Jul 2027 · Bucharest, Romania · Deadline: see official website · Official: https://www.eps-hep2027.eu/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/eswc-2027/</id>
+<title>ESWC 2027 — European Semantic Web Conference</title>
+<link href="https://conferences.clicvia.com/conference/eswc-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>23–27 May 2027 · Limassol, Cyprus · Deadline: see official website · Official: https://2027.eswc-conferences.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/xxxiii-cracow-epiphany-conference-advances-in-2027/</id>
+<title>XXXIII Cracow Epiphany Conference — Advances in precission calculations for the LHC</title>
+<link href="https://conferences.clicvia.com/conference/xxxiii-cracow-epiphany-conference-advances-in-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>11–15 Jan 2027 · Kraków, Poland · Deadline: see official website · Official: https://epiphany.ifj.edu.pl</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kr-2027/</id>
 <title>KR 2027 — International Conference on Principles of Knowledge Representation and Reasoning</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/soups-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–10 Aug 2027 · Denver, United States · Deadline: see official website · Official: https://www.usenix.org/conference/soups2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ijcai-2027/</id>
-<title>IJCAI 2027 — International Joint Conference on Artificial Intelligence</title>
-<link href="https://conferences.clicvia.com/conference/ijcai-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–13 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027, 11 Jan 2027 · Official: https://2027.ijcai.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ieee-cog-2027/</id>
-<title>IEEE CoG 2027 — IEEE Conference on Games</title>
-<link href="https://conferences.clicvia.com/conference/ieee-cog-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–5 Aug 2027 · Aizuwakamatsu, Japan · Deadline: 1 Mar 2027, 15 May 2027 · Official: https://cog2027.u-aizu.ac.jp/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigkdd-2027/</id>
-<title>SIGKDD 2027 — ACM Knowledge Discovery and Data Mining</title>
-<link href="https://conferences.clicvia.com/conference/sigkdd-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>1–5 Aug 2027 · San Jose, United States · Deadline: 19 Jul 2026, 26 Jul 2026 · Official: https://kdd2027.kdd.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/aaa-2027/</id>
-<title>AAA 2027 — AAA Global Connect 2027 (American Accounting Association Annual Meeting)</title>
-<link href="https://conferences.clicvia.com/conference/aaa-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>31 Jul – 4 Aug 2027 · Orlando, United States · Deadline: see official website · Official: https://aaahq.org/Meetings/2027/AAA-Global-Connect</summary>
 </entry>
 </feed>

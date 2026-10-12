@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-11 11:51",
- "derniere_lecture_reussie": "2026-10-11 11:51",
+ "mis_a_jour": "2026-10-12 13:05",
+ "derniere_lecture_reussie": "2026-10-12 13:05",
  "dernier_passage": {
-  "date": "2026-10-11 11:51",
+  "date": "2026-10-12 13:05",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 275,
-   "brutes": 2306,
-   "derniere_reussite": "2026-10-11 11:51",
+   "nombre": 277,
+   "brutes": 2309,
+   "derniere_reussite": "2026-10-12 13:04",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-11 11:51",
+   "derniere_reussite": "2026-10-12 13:04",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 26,
+   "nombre": 25,
    "brutes": 155,
-   "derniere_reussite": "2026-10-11 11:51",
+   "derniere_reussite": "2026-10-12 13:04",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-11 11:51",
+   "derniere_reussite": "2026-10-12 13:05",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-11 11:51",
+   "derniere_reussite": "2026-10-12 13:05",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-11 11:51",
+   "derniere_reussite": "2026-10-12 13:05",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 121,
-   "brutes": 142,
-   "derniere_reussite": "2026-10-11 11:51",
+   "nombre": 122,
+   "brutes": 143,
+   "derniere_reussite": "2026-10-12 13:05",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 53,
    "brutes": 54,
-   "derniere_reussite": "2026-10-11 11:51",
+   "derniere_reussite": "2026-10-12 13:05",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 484,
+ "nombre": 486,
  "conferences": [
   {
    "id": "cscw-2026",
@@ -115,47 +115,6 @@
    "rang": "CORE A · CCF A",
    "sources": [
     "ccfddl",
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sui-2026",
-   "acronyme": "SUI",
-   "titre": "SUI",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-10",
-   "fin": "2026-10-11",
-   "ville": "Bari",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-29",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://sui.acm.org/2026/call-for-papers/",
-   "rang": "",
-   "sources": [
     "hci"
    ],
    "identifiant_source": "",
@@ -254,39 +213,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "esc-2026",
-   "acronyme": "ESC 2026",
-   "titre": "17th Efficient Scientific Computing School",
-   "annee": 2026,
-   "type": "ecole",
-   "debut": "2026-10-11",
-   "fin": "2026-10-22",
-   "ville": "Bertinoro",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "calcul-physique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://esc.infn.it/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3148255",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -2489,23 +2415,16 @@
    "fuseau_limite": "",
    "dates_limites": [
     {
-     "date": "2026-04-11",
-     "type": "resume",
-     "libelle": "Abstract · ESWC transfer",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
      "date": "2026-05-02",
      "type": "resume",
-     "libelle": "Abstract · Regular route",
+     "libelle": "Abstract · ESWC resubmissions must be committed by April 11, 2026",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-05-07",
      "type": "article",
-     "libelle": "ESWC transfer",
+     "libelle": "ESWC resubmissions must be committed by April 11, 2026",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -9114,6 +9033,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "xxxiii-cracow-epiphany-conference-advances-in-2027",
+   "acronyme": "",
+   "titre": "XXXIII Cracow Epiphany Conference — Advances in precission calculations for the LHC",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-11",
+   "fin": "2027-01-15",
+   "ville": "Kraków",
+   "pays": "PL",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://epiphany.ifj.edu.pl",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213819",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-12"
+  },
+  {
    "id": "pepm-2027",
    "acronyme": "PEPM",
    "titre": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
@@ -10789,10 +10741,10 @@
     "langage",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-11",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-08-03",
@@ -14684,6 +14636,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "eswc-2027",
+   "acronyme": "ESWC",
+   "titre": "European Semantic Web Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-23",
+   "fin": "2027-05-27",
+   "ville": "Limassol",
+   "pays": "CY",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://2027.eswc-conferences.org/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-12"
   },
   {
    "id": "pm2027",
@@ -18734,6 +18719,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "eps-hep-2027",
+   "acronyme": "EPS-HEP 2027",
+   "titre": "2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-26",
+   "fin": "2027-07-30",
+   "ville": "Bucharest",
+   "pays": "RO",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation",
+    "astro",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.eps-hep2027.eu/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213816",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-12"
+  },
+  {
    "id": "aaa-2027",
    "acronyme": "AAA 2027",
    "titre": "AAA Global Connect 2027 (American Accounting Association Annual Meeting)",
@@ -21059,6 +21079,68 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "conext-2027",
+   "acronyme": "CoNEXT",
+   "titre": "International Conference on Emerging Networking Experiments and Technologies",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-12-06",
+   "fin": "2027-12-09",
+   "ville": "Rio de Janeiro",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "reseaux"
+   ],
+   "date_limite": "2026-11-27",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-27",
+     "type": "resume",
+     "libelle": "Abstract · December Cycle",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-04",
+     "type": "article",
+     "libelle": "December Cycle",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-05-28",
+     "type": "resume",
+     "libelle": "Abstract · June Cycle",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-06-04",
+     "type": "article",
+     "libelle": "June Cycle",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://conferences.sigcomm.org/co-next/2027/#!/home",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-12"
   }
  ]
 }

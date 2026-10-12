@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-11T06:00:00Z</updated>
+<updated>2026-10-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/conext-2027/</id>
+<title>CoNEXT 2027 — International Conference on Emerging Networking Experiments and Technologies</title>
+<link href="https://conferences.clicvia.com/conference/conext-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>6–9 Dec 2027 · Rio de Janeiro, Brazil · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://conferences.sigcomm.org/co-next/2027/#!/home</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/eswc-2027/</id>
+<title>ESWC 2027 — European Semantic Web Conference</title>
+<link href="https://conferences.clicvia.com/conference/eswc-2027/"/>
+<updated>2026-10-12T06:00:00Z</updated>
+<summary>23–27 May 2027 · Limassol, Cyprus · Deadline: see official website · Official: https://2027.eswc-conferences.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kr-2027/</id>
 <title>KR 2027 — International Conference on Principles of Knowledge Representation and Reasoning</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/whc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–15 Jul 2027 · Boston, United States · Deadline: 29 Jan 2027 · Official: https://2027.worldhaptics.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/dac-2027/</id>
-<title>DAC 2027 — Design Automation Conference</title>
-<link href="https://conferences.clicvia.com/conference/dac-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–14 Jul 2027 · San Jose, United States · Deadline: 11 Nov 2026, 18 Nov 2026 · Official: https://dac.com/2027/authors/call-for-contributions</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sai-2027/</id>
-<title>SAI 2027 — Computing Conference (SAI)</title>
-<link href="https://conferences.clicvia.com/conference/sai-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–9 Jul 2027 · London, United Kingdom · Deadline: 1 Oct 2026, 1 Dec 2026 · Official: https://saiconference.com/Computing</summary>
 </entry>
 </feed>
