@@ -52,6 +52,7 @@
           <a href="${racine}publier/">${T("Signaler une conférence", "Submit a conference", "أضف مؤتمرًا")}</a>
           <a href="${racine}a-propos/">${T("À propos et sources", "About and sources", "من نحن والمصادر")}</a>
           <a href="${racine}#avis">${T("Votre avis", "Feedback", "رأيك")}</a>
+        <a href="https://clicvia.com/" rel="noopener" target="_blank">${T("Tous nos services", "All our services", "كل خدماتنا")}</a>
         </nav>
         <p>${T("Sources : listes ouvertes de conférences (licence MIT : CCF Deadlines, AI Deadlines, HCI Deadlines, Neuro Deadlines, Bioinformatics Conferences, RoboDDL), base INSPIRE-HEP (CC0) et pages officielles des organisateurs (comptabilité, finance, finance islamique). Chaque conférence renvoie à son site officiel.",
                "Sources: open conference lists (MIT licence: CCF Deadlines, AI Deadlines, HCI Deadlines, Neuro Deadlines, Bioinformatics Conferences, RoboDDL), the INSPIRE-HEP database (CC0) and official organiser pages (accounting, finance, Islamic finance). Every conference links to its official website.",
