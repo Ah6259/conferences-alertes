@@ -50,6 +50,11 @@ Langues : anglais, français, arabe.
 
 Le site compte 590 pages au total ; la liste complète est dans le plan du site : https://conferences.clicvia.com/sitemap.xml
 
+## Données fraîches (JSON, lisibles par une machine)
+
+Ces fichiers sont produits par les robots du site ; un assistant peut les lire pour répondre avec les données du jour, en citant le site.
+- [Conférences scientifiques à venir dans le monde, avec dates limites de soumission](https://conferences.clicvia.com/donnees/conferences.json) — mis à jour chaque jour. Champs : conferences[] : acronyme, titre, debut, fin, ville, pays, domaines[], date_limite, lien (officiel) ; mis_a_jour = date du relevé.
+
 ## À savoir
 
 - Conférences scientifiques relevées sur les sites officiels ; chaque page donne les dates limites et le lien officiel.
