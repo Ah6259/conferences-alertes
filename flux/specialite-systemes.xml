@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-12T06:00:00Z</updated>
+<updated>2026-10-13T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/isca-2027/</id>
+<title>ISCA 2027 — International Symposium on Computer Architecture</title>
+<link href="https://conferences.clicvia.com/conference/isca-2027/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026 · Official: https://iscaconf.org/isca2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/dac-2027/</id>
 <title>DAC 2027 — Design Automation Conference</title>

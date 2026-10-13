@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-12 13:05",
- "derniere_lecture_reussie": "2026-10-12 13:05",
+ "mis_a_jour": "2026-10-13 12:52",
+ "derniere_lecture_reussie": "2026-10-13 12:52",
  "dernier_passage": {
-  "date": "2026-10-12 13:05",
+  "date": "2026-10-13 12:52",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 277,
-   "brutes": 2309,
-   "derniere_reussite": "2026-10-12 13:04",
+   "nombre": 278,
+   "brutes": 2310,
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-12 13:04",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 155,
-   "derniere_reussite": "2026-10-12 13:04",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-12 13:05",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-12 13:05",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-12 13:05",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 122,
+   "nombre": 121,
    "brutes": 143,
-   "derniere_reussite": "2026-10-12 13:05",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 53,
+   "nombre": 52,
    "brutes": 54,
-   "derniere_reussite": "2026-10-12 13:05",
+   "derniere_reussite": "2026-10-13 12:52",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 486,
+ "nombre": 485,
  "conferences": [
   {
    "id": "cscw-2026",
@@ -120,39 +120,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "aaoifi-sbc-2026",
-   "acronyme": "AAOIFI SBC 2026",
-   "titre": "AAOIFI 24th Annual Shari'ah Boards Conference – Islamic Finance in the Era of Artificial Intelligence",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-11",
-   "fin": "2026-10-12",
-   "ville": "Manama",
-   "pays": "BH",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "aaoifi-charia"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://aaoifi.com/aaoifi-24th-annual-shariah-boards-conference/?lang=en",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://aaoifi.com/aaoifi-24th-annual-shariah-boards-conference/?lang=en",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -314,110 +281,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "astro-colibri-2026",
-   "acronyme": "Astro-COLIBRI",
-   "titre": "5th Astro-COLIBRI Multi-Messenger Astrophysics Workshop",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-12",
-   "fin": "2026-10-16",
-   "ville": "Paris-Saclay",
-   "pays": "FR",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "calcul-physique",
-    "physique-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.multimessenger-astrophysics.com",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3092370",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "novel-developments-in-correlated-quantum-2026",
-   "acronyme": "",
-   "titre": "Novel Developments in Correlated Quantum Materials",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-12",
-   "fin": "2026-10-16",
-   "ville": "São Paulo",
-   "pays": "BR",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique",
-    "matiere-condensee"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.ictp-saifr.org/ndcqm2026/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3178310",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "qcdex2026",
-   "acronyme": "QCDEX2026",
-   "titre": "QCD at the Extremes 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-12",
-   "fin": "2026-10-16",
-   "ville": "Geneve",
-   "pays": "CH",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "nucleaire",
-    "calcul-physique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.cern.ch/event/1683852/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3154503",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "raid-2026",
    "acronyme": "RAID",
    "titre": "International Symposium on Recent Advances in Intrusion Detection",
@@ -454,74 +317,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "the-2026-international-conference-on",
-   "acronyme": "",
-   "titre": "The 2026 International Conference on Instrumentation for Colliding Beam Physics (INSTR 2026)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-12",
-   "fin": "2026-10-16",
-   "ville": "Hefei",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "instrumentation"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.pnp.ustc.edu.cn/event/6142/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3158951",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "the-acme-hands-on-observational-school-in-optical-2026",
-   "acronyme": "",
-   "titre": "The ACME Hands-On Observational School in Optical Follow-Up of Transients — PhD School",
-   "annee": 2026,
-   "type": "ecole",
-   "debut": "2026-10-12",
-   "fin": "2026-10-16",
-   "ville": "Asiago",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "physique-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://acme-asiago-sch.sciencesconf.org/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3139130",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -1116,6 +911,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "frontiers-in-scaling-superconducting-quantum-2026",
+   "acronyme": "",
+   "titre": "Frontiers in Scaling Superconducting Quantum Computing 2026",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-10-18",
+   "fin": "2026-10-24",
+   "ville": "Riva del Garda",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique",
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.sissa.it/quantumaimeeting",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213863",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-13"
   },
   {
    "id": "dfrws-apac-2026",
@@ -6535,8 +6364,8 @@
     "compta-generale",
     "audit"
    ],
-   "date_limite": "2026-10-12",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -6798,6 +6627,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "qtml-2026",
+   "acronyme": "QTML 2026",
+   "titre": "Quantum Techniques in Machine Learning — Bridging Quantum Computing and Machine Learning",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-06",
+   "fin": "2026-12-11",
+   "ville": "Stellenbosch",
+   "pays": "ZA",
+   "mode": "presentiel",
+   "continent": "afrique",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://qtml2026.nithecs.ac.za/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213912",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-13"
   },
   {
    "id": "26th-australian-institute-of-physics-aip-2026",
@@ -7563,6 +7426,39 @@
    "verifie_le": "2026-10-06",
    "page_verifiee": "https://accountancy.smu.edu.sg/research/academic-research/seminars-and-conferences/accounting-symposium",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "ml4ps-2026",
+   "acronyme": "ML4PS 2026",
+   "titre": "9th Annual Workshop for Machine Learning and the Physical Sciences",
+   "annee": 2026,
+   "type": "atelier",
+   "debut": "2026-12-11",
+   "fin": "2026-12-11",
+   "ville": "Atlanta",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://ml4physicalsciences.github.io/2026/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213915",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-13"
   },
   {
    "id": "icc-2026",
@@ -10699,10 +10595,10 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-12",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-12",
@@ -11274,7 +11170,7 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-10-12",
+   "date_limite": "2026-10-26",
    "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
@@ -13233,6 +13129,39 @@
   },
   {
    "id": "iclr-2027",
+   "acronyme": "ICLR 2027",
+   "titre": "15th International Conference on Learning Representations",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-26",
+   "fin": "2027-04-30",
+   "ville": "San Francisco",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://iclr.cc/Conferences/2027",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213916",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "iclr-2027-2",
    "acronyme": "ICLR",
    "titre": "International Conference on Learning Representations",
    "annee": 2027,
@@ -13728,7 +13657,7 @@
     "langage",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-12",
+   "date_limite": "2026-12-23",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",
@@ -15375,7 +15304,7 @@
     "langage",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-12",
+   "date_limite": "2026-12-23",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",
@@ -15438,6 +15367,54 @@
    "verifie_le": "2026-10-06",
    "page_verifiee": "https://firsociety.org/conference/",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "isca-2027",
+   "acronyme": "ISCA",
+   "titre": "International Symposium on Computer Architecture",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-05",
+   "fin": "2027-06-09",
+   "ville": "Atlanta",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "2026-11-09",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-09",
+     "type": "resume",
+     "libelle": "Abstract · Main Track; rebuttal/revision period: February 16-March 8, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-11-16",
+     "type": "article",
+     "libelle": "Main Track; rebuttal/revision period: February 16-March 8, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://iscaconf.org/isca2027/",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-13"
   },
   {
    "id": "pldi-2027",
@@ -16464,11 +16441,26 @@
    "specialites": [
     "ihm"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-18",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-18",
+     "type": "resume",
+     "libelle": "Abstract · Full and Short Papers; abstract deadline includes author information",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-25",
+     "type": "article",
+     "libelle": "Full and Short Papers; abstract deadline includes author information",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://idc.acm.org/2027/",
    "rang": "CCF C",
    "sources": [
@@ -19440,11 +19432,26 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-02-22",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-02-22",
+     "type": "resume",
+     "libelle": "Abstract · Research Papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-03-01",
+     "type": "article",
+     "libelle": "Research Papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://conf.researchr.org/home/RE-2027",
    "rang": "CORE A · CCF B",
    "sources": [

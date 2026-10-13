@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/specialite-quantique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-quantique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-12T06:00:00Z</updated>
+<updated>2026-10-13T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qtml-2026/</id>
+<title>QTML 2026 — Quantum Techniques in Machine Learning — Bridging Quantum Computing and Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/qtml-2026/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>6–11 Dec 2026 · Stellenbosch, South Africa · Deadline: see official website · Official: https://qtml2026.nithecs.ac.za/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/frontiers-in-scaling-superconducting-quantum-2026/</id>
+<title>Frontiers in Scaling Superconducting Quantum Computing 2026</title>
+<link href="https://conferences.clicvia.com/conference/frontiers-in-scaling-superconducting-quantum-2026/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>18–24 Oct 2026 · Riva del Garda, Italy · Deadline: see official website · Official: https://www.sissa.it/quantumaimeeting</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/qai-2026/</id>
 <title>QAI 2026 — 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence</title>
@@ -153,12 +167,5 @@
 <link href="https://conferences.clicvia.com/conference/vast-2026-from-vacuum-stability-to-gravitational/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>21–23 Oct 2026 · Madrid, Spain · Deadline: see official website · Official: https://indico.fis.ucm.es/event/42/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/novel-developments-in-correlated-quantum-2026/</id>
-<title>Novel Developments in Correlated Quantum Materials</title>
-<link href="https://conferences.clicvia.com/conference/novel-developments-in-correlated-quantum-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>12–16 Oct 2026 · São Paulo, Brazil · Deadline: see official website · Official: https://www.ictp-saifr.org/ndcqm2026/</summary>
 </entry>
 </feed>

@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-12T06:00:00Z</updated>
+<updated>2026-10-13T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/isca-2027/</id>
+<title>ISCA 2027 — International Symposium on Computer Architecture</title>
+<link href="https://conferences.clicvia.com/conference/isca-2027/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026 · Official: https://iscaconf.org/isca2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ml4ps-2026/</id>
+<title>ML4PS 2026 — 9th Annual Workshop for Machine Learning and the Physical Sciences</title>
+<link href="https://conferences.clicvia.com/conference/ml4ps-2026/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>11 Dec 2026 · Atlanta, United States · Deadline: see official website · Official: https://ml4physicalsciences.github.io/2026/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qtml-2026/</id>
+<title>QTML 2026 — Quantum Techniques in Machine Learning — Bridging Quantum Computing and Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/qtml-2026/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>6–11 Dec 2026 · Stellenbosch, South Africa · Deadline: see official website · Official: https://qtml2026.nithecs.ac.za/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/frontiers-in-scaling-superconducting-quantum-2026/</id>
+<title>Frontiers in Scaling Superconducting Quantum Computing 2026</title>
+<link href="https://conferences.clicvia.com/conference/frontiers-in-scaling-superconducting-quantum-2026/"/>
+<updated>2026-10-13T06:00:00Z</updated>
+<summary>18–24 Oct 2026 · Riva del Garda, Italy · Deadline: see official website · Official: https://www.sissa.it/quantumaimeeting</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/conext-2027/</id>
 <title>CoNEXT 2027 — International Conference on Emerging Networking Experiments and Technologies</title>
@@ -341,7 +369,7 @@
 <title>RE 2027 — IEEE International Requirements Engineering Conference</title>
 <link href="https://conferences.clicvia.com/conference/re-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>23–27 Aug 2027 · Milan, Italy · Deadline: see official website · Official: https://conf.researchr.org/home/RE-2027</summary>
+<summary>23–27 Aug 2027 · Milan, Italy · Deadline: 22 Feb 2027, 1 Mar 2027 · Official: https://conf.researchr.org/home/RE-2027</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/recsys-2027/</id>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/usenix-security-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–13 Aug 2027 · Denver, United States · Deadline: 18 Aug 2026, 25 Aug 2026, 19 Jan 2027 · Official: https://www.usenix.org/conference/usenixsecurity27</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acm-siggraph-2027/</id>
-<title>ACM SIGGRAPH 2027 — ACM SIGGRAPH Annual Conference</title>
-<link href="https://conferences.clicvia.com/conference/acm-siggraph-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Aug 2027 · Anaheim, United States · Deadline: see official website · Official: https://s2027.siggraph.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigcomm-2027/</id>
-<title>SIGCOMM 2027 — ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication</title>
-<link href="https://conferences.clicvia.com/conference/sigcomm-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Aug 2027 · Bangkok, Thailand · Deadline: see official website · Official: https://conferences.sigcomm.org/sigcomm/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/siggraph-2027/</id>
-<title>SIGGRAPH 2027 — Conference on Computer Graphics and Interactive Techniques</title>
-<link href="https://conferences.clicvia.com/conference/siggraph-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Aug 2027 · Anaheim Convention Center, United States · Deadline: see official website · Official: https://www.siggraph.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/soups-2027/</id>
-<title>SOUPS 2027 — Symposium On Usable Privacy and Security</title>
-<link href="https://conferences.clicvia.com/conference/soups-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–10 Aug 2027 · Denver, United States · Deadline: see official website · Official: https://www.usenix.org/conference/soups2027</summary>
 </entry>
 </feed>
