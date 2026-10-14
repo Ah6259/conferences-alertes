@@ -39,6 +39,9 @@ DONNEES = os.path.join(RACINE, "donnees", "conferences.json")
 FENETRE_JOURS = 548          # 18 mois
 SEUIL_SOURCE = 0.3           # une source qui rend moins de 30 % de ses fiches habituelles = panne
 SEUIL_TOTAL = 0.5            # collecte totale < 50 % de la précédente = refus de publier
+# Fiches BRUTES au moins attendues par source (relevé du 14/10/2026 : ccfddl 2 311, hf 127, hci 155, neuro 12, bio 24, robo 35,
+# inspire 145, officiel 54) : en dessous, lecteur cassé -> panne, même au premier passage (règle commune § 17, 15/10/2026)
+MINIMUM_BRUTES = {"ccfddl": 500, "hf": 30, "hci": 40, "neuro": 4, "bio": 8, "robo": 10, "inspire": 30, "officiel": 15}
 GARDE_JOURS = 30             # anciennes fiches d'une source en panne gardées au plus 30 jours
 ORDRE = ["officiel", "ccfddl", "hf", "hci", "robo", "neuro", "bio", "inspire", "organisateur"]   # priorité lors des fusions
 
@@ -268,6 +271,8 @@ def collecter(sortie, jour, cache="", lire=None, organisateurs=None):
                     raise ValueError("réponse vide")
                 if not propres:
                     raise ValueError("format changé : aucune conférence lisible")
+                if len(brutes) < MINIMUM_BRUTES.get(ident, 0):
+                    raise ValueError(f"presque rien lu : {len(brutes)} fiches (au moins {MINIMUM_BRUTES[ident]} attendues)")
                 if habituel >= 10 and len(propres) < SEUIL_SOURCE * habituel:
                     raise ValueError(f"seulement {len(propres)} conférences contre {habituel} d'habitude")
                 etats[ident] = {"etat": "ok", "nombre": len(propres), "brutes": len(brutes),

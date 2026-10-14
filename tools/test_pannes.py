@@ -108,8 +108,17 @@ def faux_lire(table):
     return lire
 
 
+MINIMUM_VRAI, R.MINIMUM_BRUTES = R.MINIMUM_BRUTES, {}   # les sources simulées ont quelques dizaines de fiches
 tmp = tempfile.mkdtemp(prefix="test-conf-")
 try:
+    # 15/10/2026 (§ 17) : une source qui ne rend presque rien = lecteur cassé, même au premier passage (aucun historique)
+    R.MINIMUM_BRUTES = MINIMUM_VRAI
+    sortie0 = os.path.join(tmp, "premier", "conferences.json")
+    code, _ = silence(R.collecter, sortie0, JOUR, lire=faux_lire({"ccfddl": jeu(40), "hf": jeu(40, "H", "hf")}))
+    d0 = json.load(open(sortie0, encoding="utf-8"))
+    check("source qui ne rend presque rien (40 fiches ccfddl au lieu de 500 au moins) -> panne dès le premier passage",
+          d0["sources"]["ccfddl"]["etat"] == "panne" and "presque rien" in d0["sources"]["ccfddl"]["raison"])
+    R.MINIMUM_BRUTES = {}
     sortie = os.path.join(tmp, "donnees", "conferences.json")
     normal = {"ccfddl": jeu(40), "hf": jeu(12, "H", "hf"), "hci": jeu(10, "I", "hci"), "neuro": jeu(10, "N", "neuro"),
               "bio": jeu(10, "B", "bio"), "robo": jeu(10, "R", "robo"), "inspire": jeu(30, "P", "inspire"),
