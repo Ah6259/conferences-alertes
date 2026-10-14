@@ -73,7 +73,7 @@
       var fini = function () {
         var c = document.getElementById("abo-code"), o = document.getElementById("abo-ouvrir-tg");
         if (c) c.textContent = code;
-        if (o) o.setAttribute("href", lien);
+        if (o && form.getAttribute("data-robot")) o.setAttribute("href", lien);
         // liens WhatsApp : on ajoute le nom de l'abonné au message prérempli
         var liens = document.querySelectorAll("#abo-preuve, #abo-preuve-apres, #abo-etranger, #abo-etranger-apres");
         for (var i = 0; i < liens.length; i++) {
