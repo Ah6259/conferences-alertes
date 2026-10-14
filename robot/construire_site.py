@@ -525,8 +525,8 @@ AVIS = """<section class="carte avis" id="avis" aria-labelledby="avis-titre">
     <label class="avis-etiquette" for="avis-message"><span data-l="fr">Votre message</span><span data-l="en">Your message</span><span data-l="ar">رسالتك</span></label>
     <textarea id="avis-message" name="message" required maxlength="1000" rows="4" data-ph-fr="Ce qui vous plaît, ce qui manque, une conférence à ajouter…" data-ph-en="What you like, what is missing, a conference to add…" data-ph-ar="ما يعجبك، ما ينقص، مؤتمر يجب إضافته…"></textarea>
     <span class="avis-compte" id="avis-compte" aria-live="off">0 / 1000</span>
-    <label class="avis-etiquette" for="avis-email"><span data-l="fr">Votre e-mail (facultatif, pour vous répondre)</span><span data-l="en">Your e-mail (optional, so we can reply)</span><span data-l="ar">بريدك الإلكتروني (اختياري، للرد عليك)</span></label>
-    <input type="email" id="avis-email" name="email" autocomplete="email" maxlength="200" data-ph-fr="nom@example.com" data-ph-en="name@example.com" data-ph-ar="nom@example.com">
+    <label class="avis-etiquette" for="avis-email"><span data-l="fr">Votre e-mail (obligatoire, pour vous répondre)</span><span data-l="en">Your e-mail (required, so we can reply)</span><span data-l="ar">بريدك الإلكتروني (إجباري، للرد عليك)</span></label>
+    <input type="email" id="avis-email" name="email" autocomplete="email" required maxlength="200" data-ph-fr="nom@example.com" data-ph-en="name@example.com" data-ph-ar="nom@example.com">
     <input type="hidden" name="site" value="Radar des conférences">
     <input type="hidden" name="page" value="">
     <input type="hidden" name="_subject" value="Avis — Radar des conférences">
