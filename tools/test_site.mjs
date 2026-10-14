@@ -438,6 +438,14 @@ const corps = envois[0] ? Object.fromEntries([...envois[0].o.body.entries()]) : 
 check("inscription simulée : envoi Formspree avec spécialités en une ligne et ligne « pour_activer »",
   envois.length === 1 && envois[0].u === "https://formspree.io/f/mwlpakqj" && corps.specialites && /specialites: /.test(corps.pour_activer || "") && corps.telephone === "+21624000000");
 check("après l'envoi : confirmation, paiement et Telegram affichés", d.getElementById("abo-form").hidden && !d.getElementById("apres-abo").hidden);
+// 14/10/2026 (règle commune § 15 : essai immédiat) : code créé sur place, lien Telegram avec les spécialités, gestes expliqués avant
+{ const ap = d.getElementById("apres-abo"), codeC = d.getElementById("abo-code").textContent, lienC = d.getElementById("abo-ouvrir-tg").getAttribute("href");
+  const spec1 = fa.querySelector('input[name="specialites"]').value;
+  check("essai IMMÉDIAT : code de 6 caractères, « Ouvrir Telegram » avec les spécialités (start=e<CODE>_<spécialités>), code envoyé et dans WhatsApp",
+    /^[A-HJ-NP-Z2-9]{6}$/.test(codeC) && lienC === `https://t.me/${fa.getAttribute("data-robot")}?start=e${codeC}_${w.ESSAI_ALERTES.encoder([spec1], fa.getAttribute("data-specs").split(","))}`
+    && lienC.split("start=")[1].length <= 64 && corps.code === codeC && decodeURIComponent(d.getElementById("abo-preuve-apres").href).includes("code " + codeC));
+  check("essai IMMÉDIAT : 3 gestes avant Telegram (DÉMARRER, réponse le matin suivant), plus d'« activation sous 24 heures »",
+    ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap)) && !/24 heures|24 hours/.test(lire("abonnement/index.html"))); }
 w = await page("abonnement/conditions/index.html", "lang=fr");
 const tc = texte(w.document.querySelector("main"));
 check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de renouvellement, aucun remboursement, données personnelles, INPDP",

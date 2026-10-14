@@ -782,7 +782,7 @@ def liste_paiements(ident="abo-etranger"):
     e2b, e3 = L('Montant :', 'Amount:', 'المبلغ:'), L('Motif :', 'Reference:', 'سبب الدفع:')
     e3b = L('Puis envoyez la capture du paiement par WhatsApp (bouton vert).', 'Then send the payment screenshot on WhatsApp (green button).', 'ثم أرسل لقطة الدفع عبر واتساب (الزر الأخضر).')
     conf = L("Vous payez directement dans l'application officielle de La Poste Tunisienne (D17) ou de Zitouna Paiement (IZI) : nous ne voyons jamais vos codes.", 'You pay directly in the official app of La Poste Tunisienne (D17) or Zitouna Paiement (IZI): we never see your codes.', 'تدفع مباشرة في التطبيق الرسمي للبريد التونسي (D17) أو لزيتونة للدفع (IZI): لا نطّلع أبدًا على رموزك.')
-    motif = L('votre nom', 'your name', 'اسمك')
+    motif = L('votre code personnel (donné à l’inscription)', 'your personal code (given at sign-up)', 'رمزك الشخصي (يُعطى عند التسجيل)')
     paie = (f'<div class="paie"><ol class="paie-etapes"><li>{e1} <span class="applis">{applis}</span><br><span class="petit">{e1b} {ios}</span></li>'
             f'<li>{e2} <strong><bdi dir="ltr">{ABO["numero"]}</bdi></strong>.<br>{e2b} <strong>{prix_abo()}</strong>{AIDE_TRANSFERT}</li>'
             f'<li>{e3} <strong>{motif}</strong>. {e3b}</li></ol><p class="paie-confiance">{conf}</p></div>')
@@ -848,26 +848,27 @@ def pages_abonnement(confs, adr, v, etat):
   <h2>{L("Comment ça marche ?", "How does it work?", "كيف يعمل؟")}</h2>
   <ol class="etapes" data-l="fr">
     <li>Vous choisissez vos <b>spécialités</b> dans le formulaire ci-dessous.</li>
-    <li>Nous activons votre abonnement (en général sous 24 heures) et vous envoyons votre <b>code personnel</b>.</li>
-    <li>Dans Telegram, vous ouvrez notre robot et envoyez <b>/start</b> suivi de votre code.</li>
+    <li>Votre essai démarre <b>tout de suite</b> : la page vous donne votre <b>code personnel</b> et un bouton « Ouvrir Telegram ».</li>
+    <li>Dans Telegram, vous touchez <b>DÉMARRER</b> : c'est tout (vos choix sont dans le lien).</li>
     <li>Chaque matin : les nouvelles conférences de vos spécialités, et un rappel 7 jours puis 1 jour avant chaque date limite.</li>
   </ol>
   <ol class="etapes" data-l="en">
     <li>Choose your <b>specialties</b> in the form below.</li>
-    <li>We activate your subscription (usually within 24 hours) and send you your <b>personal code</b>.</li>
-    <li>In Telegram, open our bot and send <b>/start</b> followed by your code.</li>
+    <li>Your trial starts <b>right away</b>: the page gives you your <b>personal code</b> and an “Open Telegram” button.</li>
+    <li>In Telegram, tap <b>START</b>: that's all (your choices are in the link).</li>
     <li>Every morning: new conferences in your specialties, plus a reminder 7 days and 1 day before each deadline.</li>
   </ol>
   <ol class="etapes" data-l="ar">
     <li>تختار <b>تخصصاتك</b> في الاستمارة أسفله.</li>
-    <li>نفعّل اشتراكك (عادة في غضون ⁦24⁩ ساعة) ونرسل إليك <b>رمزك الشخصي</b>.</li>
-    <li>في تيليغرام، تفتح برنامجنا وترسل <b><bdi dir="ltr">/start</bdi></b> متبوعًا برمزك.</li>
+    <li>تبدأ تجربتك <b>فورًا</b>: تعطيك الصفحة <b>رمزك الشخصي</b> وزر « افتح تيليغرام ».</li>
+    <li>في تيليغرام، تلمس <b>ابدأ</b>: هذا كل شيء (اختياراتك موجودة في الرابط).</li>
     <li>كل صباح: المؤتمرات الجديدة في تخصصاتك، وتذكير قبل كل أجل بـ⁦7⁩ أيام ثم بيوم.</li>
   </ol>
 </section>
 <section class="carte abo" id="inscription" aria-labelledby="abo-titre">
   <h2 id="abo-titre">{L("Inscription", "Sign-up", "التسجيل")}</h2>
-  <form id="abo-form" action="{ABO['formspree']}" method="POST" novalidate>
+  <form id="abo-form" action="{ABO['formspree']}" method="POST" novalidate data-robot="{E(adr['robot'])}"
+        data-specs="{','.join(sorted(s[0] for s in K.SPECIALITES))}">
     <label class="abo-etiquette" for="abo-nom">{L("Votre nom", "Your name", "اسمك")}</label>
     <input id="abo-nom" name="nom" required maxlength="100" autocomplete="name">
     <label class="abo-etiquette" for="abo-etab">{L("Université ou institution", "University or institution", "الجامعة أو المؤسسة")}</label>
@@ -899,11 +900,16 @@ def pages_abonnement(confs, adr, v, etat):
                         "تُستعمل بياناتك للاشتراك والفاتورة فقط: لا تُنشر ولا تُباع أبدًا (إرسال عبر خدمة ⁨Formspree⁩). لا يُرسل أي شيء دون الضغط على «أرسل».")}</p>
   </form>
   <div class="apres-abo" id="apres-abo" hidden>
-    <h3>{L("Merci, votre inscription est bien reçue", "Thank you, your sign-up has been received", "شكرًا، وصلنا تسجيلك")}</h3>
-    <p>{L(f"Nous activons votre abonnement, en général sous 24 heures. Vos {essai} jours d'essai gratuit commencent à l'activation.", f"We activate your subscription, usually within 24 hours. Your {essai} free days start at activation.", f"نفعّل اشتراكك عادة في غضون ⁦24⁩ ساعة. تبدأ أيامك المجانية الـ{ISO(essai)} عند التفعيل.")}</p>
-    <h3>{L("Recevoir les alertes sur Telegram", "Receive alerts on Telegram", "تلقي التنبيهات على تيليغرام")}</h3>
-    <p id="abo-telegram">{texte_telegram(adr["robot"])}</p>
-    <p class="petit">{L("Installez Telegram (gratuit) sur votre téléphone si ce n'est pas déjà fait.", "Install Telegram (free) on your phone if not already done.", "ثبّت تيليغرام (مجاني) على هاتفك إن لم يكن مثبتًا.")}</p>
+    <h3>{L("Dernière étape : ouvrez Telegram", "Last step: open Telegram", "الخطوة الأخيرة: افتح تيليغرام")}</h3>
+    <p>{L(f"Votre essai gratuit de {essai} jours démarre <b>tout de suite</b>, sans attendre personne. Votre code personnel :", f"Your {essai}-day free trial starts <b>right away</b>, without waiting for anyone. Your personal code:", f"تجربتك المجانية لمدة {ISO(essai)} يومًا تبدأ <b>فورًا</b>، دون انتظار أحد. رمزك الشخصي:")}
+      <b class="abo-code" id="abo-code" dir="ltr"></b></p>
+    <ol class="etapes-tg">
+      <li>{L("Touchez « Ouvrir Telegram » : l'application s'ouvre sur notre robot.", "Tap “Open Telegram”: the app opens on our bot.", "المس « افتح تيليغرام »: يفتح التطبيق على برنامجنا.")}</li>
+      <li>{L("Touchez <b>DÉMARRER</b> en bas de l'écran. Rien d'autre à écrire : vos choix sont déjà dans le lien.", "Tap <b>START</b> at the bottom of the screen. Nothing else to type: your choices are already in the link.", "المس <b>ابدأ</b> أسفل الشاشة. لا شيء آخر تكتبه: اختياراتك موجودة في الرابط.")}</li>
+      <li>{L("Le robot vous répond <b>le matin suivant, vers 8 h (heure de Tunis)</b>, avec vos premières conférences, puis chaque matin. Vous pouvez fermer Telegram en attendant.", "The bot replies <b>the following morning, around 8 am (Tunis time)</b>, with your first conferences, then every morning. You can close Telegram meanwhile.", "يجيبك البرنامج <b>في الصباح الموالي، حوالي الساعة ⁦8⁩ (توقيت تونس)</b>، بأولى مؤتمراتك، ثم كل صباح. يمكنك غلق تيليغرام في الأثناء.")}</li>
+    </ol>
+    <a class="btn-tg-essai" id="abo-ouvrir-tg" href="https://t.me/{E(adr['robot'])}" target="_blank" rel="noopener">{L("Ouvrir Telegram", "Open Telegram", "افتح تيليغرام")}</a>
+    <p class="petit">{L("Pas Telegram ? Il s'installe en une minute (Google Play, App Store), puis revenez toucher le bouton. En attendant, toutes les conférences et les flux RSS restent gratuits sur ce site.", "No Telegram? It installs in one minute (Google Play, App Store), then come back and tap the button. Meanwhile, all conferences and RSS feeds stay free on this site.", "ليس لديك تيليغرام؟ يُثبَّت في دقيقة (Google Play، App Store)، ثم عد والمس الزر. في الأثناء، كل المؤتمرات وتدفقات RSS مجانية في هذا الموقع.")}</p>
     <h3>{L("Paiement", "Payment", "الدفع")}</h3>
     <p>{L("Après l'essai (ou tout de suite si vous avez choisi de payer directement), payez par D17 ou IZI, avec pour motif votre nom :", "After the trial (or right away if you chose to pay now), pay by D17 or IZI, with your name as reference:", "بعد التجربة (أو فورًا إن اخترت الدفع مباشرة)، ادفع عبر ⁨D17⁩ أو ⁨IZI⁩ مع ذكر اسمك:")}</p>
     {liste_paiements("abo-etranger-apres")}
