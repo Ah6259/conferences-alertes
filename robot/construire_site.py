@@ -542,10 +542,10 @@ AVIS = """<section class="carte avis" id="avis" aria-labelledby="avis-titre">
 
 def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", classe_hero="", scripts=(), alternates=True):
     canon = URL_SITE + chemin
+    # 14/10/2026 (contrôle de visibilité, règle commune § 8) : PAS de hreflang vers « ?lang=fr/en/ar ». Le serveur renvoie la même
+    # page anglaise à ces adresses : Google y voyait des doublons déclarés comme des langues. Une langue n'aura un hreflang que le
+    # jour où elle aura sa propre adresse (fr/, ar/ : chantier « une adresse par langue », tools/pages_langues.py des Mosquées).
     alt = ""
-    if alternates:
-        alt = "".join(f'<link rel="alternate" hreflang="{l}" href="{canon}?lang={l}">' for l in ("fr", "en", "ar")) + \
-              f'<link rel="alternate" hreflang="x-default" href="{canon}">\n'
     return f"""<!doctype html>
 <html lang="en" dir="ltr" translate="no" data-racine="{racine}">
 <head>

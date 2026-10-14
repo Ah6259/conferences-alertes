@@ -444,5 +444,12 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
   /vendu par l'éditeur du site/.test(tc) && /9 DT par mois ou 79 DT par an/.test(tc) && /14 premiers jours sont gratuits/.test(tc) && /D17 ou IZI/.test(tc) &&
   /aucun renouvellement automatique/.test(tc) && /Aucune période déjà payée n'est remboursée/.test(tc) && /Données personnelles/.test(tc) && /INPDP/.test(tc));
 
+// 14/10/2026 (contrôle de visibilité, règle commune § 8) : jamais de hreflang vers « ?lang= » (même page renvoyée par le serveur)
+{ const toutes = []; const fouiller = d => { for (const n of readdirSync(join(root, d), { withFileTypes: true })) {
+    if (n.isDirectory() && !/^(node_modules|\.git|assets|donnees|captures)$/.test(n.name)) fouiller(join(d, n.name));
+    else if (n.name === "index.html") toutes.push(join(d, n.name)); } };
+  fouiller("");
+  check(`langues : aucune page (${toutes.length}) ne déclare un hreflang vers « ?lang= »`, toutes.length > 100 && toutes.every(f => !/hreflang="[a-z-]+" href="[^"]*[?]lang=/.test(lire(f)))); }
+
 console.log(`\n${total - erreurs}/${total} vérifications réussies` + (erreurs ? ` — ${erreurs} ÉCHEC(S) : ne pas publier.` : " — tout est bon."));
 process.exit(erreurs ? 1 : 0);
