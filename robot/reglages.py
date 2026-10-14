@@ -24,7 +24,7 @@ TELEGRAM_CANAUX_URL = {
 # Alertes Pro (abonnement) : NOM D'UTILISATEUR du robot Telegram des alertes personnalisées, sans @,
 # ex. "RadarConferencesBot" (donné par @BotFather, finit toujours par « bot »).
 # Vide -> la page abonnement/ dit « le lien Telegram vous est envoyé à l'activation ».
-TELEGRAM_ROBOT_ALERTES = ""
+TELEGRAM_ROBOT_ALERTES = "RadarConferencesBot"
 
 # Organisateurs : formulaire Google « Signaler une conférence » (lien court https://forms.gle/…)
 # et la feuille des réponses publiée en CSV. Vides -> la page « Signaler une conférence » affiche « Bientôt ».
