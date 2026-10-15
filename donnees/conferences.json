@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-14 10:33",
- "derniere_lecture_reussie": "2026-10-14 10:33",
+ "mis_a_jour": "2026-10-15 10:11",
+ "derniere_lecture_reussie": "2026-10-15 10:11",
  "dernier_passage": {
-  "date": "2026-10-14 10:33",
+  "date": "2026-10-15 10:11",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 279,
-   "brutes": 2311,
-   "derniere_reussite": "2026-10-14 10:33",
+   "nombre": 278,
+   "brutes": 2312,
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 25,
+   "nombre": 24,
    "brutes": 155,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 122,
    "brutes": 145,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -73,55 +73,13 @@
    "etat": "ok",
    "nombre": 51,
    "brutes": 54,
-   "derniere_reussite": "2026-10-14 10:33",
+   "derniere_reussite": "2026-10-15 10:11",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 486,
+ "nombre": 485,
  "conferences": [
-  {
-   "id": "cscw-2026",
-   "acronyme": "CSCW",
-   "titre": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-10",
-   "fin": "2026-10-14",
-   "ville": "Salt Lake City",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-05-14",
-     "type": "article",
-     "libelle": "MAY 2025 SUBMISSION CYCLE (12:00 EDT)",
-     "heure": "12:00",
-     "fuseau": "UTC-4"
-    }
-   ],
-   "lien": "https://cscw.acm.org/2026/",
-   "rang": "CORE A · CCF A",
-   "sources": [
-    "ccfddl",
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "ches-2026",
    "acronyme": "CHES",
@@ -272,47 +230,6 @@
    ],
    "lien": "https://www.ubicomp.org/ubicomp-iswc-2026",
    "rang": "CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "raid-2026",
-   "acronyme": "RAID",
-   "titre": "International Symposium on Recent Advances in Intrusion Detection",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-12",
-   "fin": "2026-10-14",
-   "ville": "Lancaster",
-   "pays": "GB",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-16",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://raid2026.org",
-   "rang": "CORE A · CCF B",
    "sources": [
     "ccfddl"
    ],
@@ -620,41 +537,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "aepshep-2026",
-   "acronyme": "AEPSHEP 2026",
-   "titre": "2026 Asia-Europe-Pacific School of High-Energy Physics",
-   "annee": 2026,
-   "type": "ecole",
-   "debut": "2026-10-14",
-   "fin": "2026-10-27",
-   "ville": "Taoyuan",
-   "pays": "TW",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "instrumentation",
-    "particules",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.cern.ch/event/1663642/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3149676",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -7186,6 +7068,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "quposium2026",
+   "acronyme": "QUPosium2026",
+   "titre": "QUPosium2026 — Diverse Sensing. New Eyes. New Physics",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-08",
+   "fin": "2026-12-10",
+   "ville": "Tsukuba",
+   "pays": "JP",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro",
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://conference-indico.kek.jp/event/380/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3214923",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-15"
   },
   {
    "id": "nqcomp-2026",
@@ -18636,11 +18553,19 @@
    "specialites": [
     "info-interdisciplinaire"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-03-15",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-03-15",
+     "type": "article",
+     "libelle": "Regular papers; rebuttal notification April 15, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://ic-icc.cn/2027/index.php",
    "rang": "CCF C",
    "sources": [
@@ -20527,6 +20452,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ubicomp-iswc-2027",
+   "acronyme": "UbiComp/ISWC",
+   "titre": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-03",
+   "fin": "2027-10-07",
+   "ville": "Seoul",
+   "pays": "KR",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ihm"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://sigchi.org/events/ubicomp-2027/",
+   "rang": "CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-15"
+  },
+  {
    "id": "6th-astro-colibri-multi-messenger-astrophysics-2027",
    "acronyme": "",
    "titre": "6th Astro-COLIBRI Multi-Messenger Astrophysics workshop",
@@ -20627,7 +20585,7 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-10-14",
+   "date_limite": "2027-04-07",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",

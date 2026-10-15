@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-14T06:00:00Z</updated>
+<updated>2026-10-15T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ubicomp-iswc-2027/</id>
+<title>UbiComp/ISWC 2027 — ACM International Joint Conference on Pervasive and Ubiquitous Computing</title>
+<link href="https://conferences.clicvia.com/conference/ubicomp-iswc-2027/"/>
+<updated>2026-10-15T06:00:00Z</updated>
+<summary>3–7 Oct 2027 · Seoul, South Korea · Deadline: see official website · Official: https://sigchi.org/events/ubicomp-2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/quposium2026/</id>
+<title>QUPosium2026 — QUPosium2026 — Diverse Sensing. New Eyes. New Physics</title>
+<link href="https://conferences.clicvia.com/conference/quposium2026/"/>
+<updated>2026-10-15T06:00:00Z</updated>
+<summary>8–10 Dec 2026 · Tsukuba, Japan · Deadline: see official website · Official: https://conference-indico.kek.jp/event/380/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/psr2027/</id>
 <title>PSR2027 — Parton Showers and Resummation</title>
@@ -103,7 +117,7 @@
 <title>ICIC 2027 — International Conference on Intelligent Computing</title>
 <link href="https://conferences.clicvia.com/conference/icic-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
-<summary>22–26 Jul 2027 · Jinan, China · Deadline: see official website · Official: https://ic-icc.cn/2027/index.php</summary>
+<summary>22–26 Jul 2027 · Jinan, China · Deadline: 15 Mar 2027 · Official: https://ic-icc.cn/2027/index.php</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/eurovis-2027/</id>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/cade-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>22–25 Aug 2027 · Nijmegen, Netherlands · Deadline: 15 Feb 2027, 22 Feb 2027 · Official: https://fscd-cade.science.ru.nl/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/emerging-directions-in-neutral-atom-quantum-2027/</id>
-<title>Emerging Directions in Neutral‐Atom Quantum Information Science</title>
-<link href="https://conferences.clicvia.com/conference/emerging-directions-in-neutral-atom-quantum-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>22–26 Aug 2027 · Bad Honnef, Germany · Deadline: see official website · Official: https://www.we-heraeus-stiftung.de/veranstaltungen/emerging-directions-in-neutral-atom-quantum-information-science/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icdar-2027/</id>
-<title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
-<link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 31 Jan 2027, 20 Feb 2027 · Official: https://icdar2027.org/</summary>
 </entry>
 </feed>

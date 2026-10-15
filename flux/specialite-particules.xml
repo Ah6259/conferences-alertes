@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-14T06:00:00Z</updated>
+<updated>2026-10-15T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/quposium2026/</id>
+<title>QUPosium2026 — QUPosium2026 — Diverse Sensing. New Eyes. New Physics</title>
+<link href="https://conferences.clicvia.com/conference/quposium2026/"/>
+<updated>2026-10-15T06:00:00Z</updated>
+<summary>8–10 Dec 2026 · Tsukuba, Japan · Deadline: see official website · Official: https://conference-indico.kek.jp/event/380/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/psr2027/</id>
 <title>PSR2027 — Parton Showers and Resummation</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/worldsheet-string-theory-and-string-field-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–20 Nov 2026 · Bengaluru, India · Deadline: see official website · Official: https://www.icts.res.in/program/wstsft</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/nnn26-2026/</id>
-<title>NNN26 2026 — 25th International Workshop on Next Generation Nucleon Decay and Neutrino Detectors</title>
-<link href="https://conferences.clicvia.com/conference/nnn26-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>28–30 Oct 2026 · Seoul, South Korea · Deadline: see official website · Official: https://indico.neutrino.or.kr/event/514/</summary>
 </entry>
 </feed>

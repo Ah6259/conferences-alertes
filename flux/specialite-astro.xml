@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-astro.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-astro.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-14T06:00:00Z</updated>
+<updated>2026-10-15T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/quposium2026/</id>
+<title>QUPosium2026 — QUPosium2026 — Diverse Sensing. New Eyes. New Physics</title>
+<link href="https://conferences.clicvia.com/conference/quposium2026/"/>
+<updated>2026-10-15T06:00:00Z</updated>
+<summary>8–10 Dec 2026 · Tsukuba, Japan · Deadline: see official website · Official: https://conference-indico.kek.jp/event/380/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/eps-hep-2027/</id>
 <title>EPS-HEP 2027 — 2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/3rd-ijmcg-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–23 Oct 2026 · Arica, Chile · Deadline: see official website · Official: https://indico.global/event/17840/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iocsym2026/</id>
-<title>IOCSYM2026 — The 1st International Online Conference on Symmetry — Recent Advances in Mathematics and Physics</title>
-<link href="https://conferences.clicvia.com/conference/iocsym2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20–22 Oct 2026 · Beijing, China · Deadline: see official website · Official: https://sciforum.net/event/IOCSYM2026</summary>
 </entry>
 </feed>

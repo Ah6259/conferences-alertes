@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-14T06:00:00Z</updated>
+<updated>2026-10-15T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/quposium2026/</id>
+<title>QUPosium2026 — QUPosium2026 — Diverse Sensing. New Eyes. New Physics</title>
+<link href="https://conferences.clicvia.com/conference/quposium2026/"/>
+<updated>2026-10-15T06:00:00Z</updated>
+<summary>8–10 Dec 2026 · Tsukuba, Japan · Deadline: see official website · Official: https://conference-indico.kek.jp/event/380/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/psr2027/</id>
 <title>PSR2027 — Parton Showers and Resummation</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/tmex-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–10 Jan 2027 · Quy Nhon, Vietnam · Deadline: see official website · Official: https://vietnam.in2p3.fr/2027/tmex/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/spaatind2027/</id>
-<title>Spaatind2027 — Spåtind 2027 - Nordic Conference on Particle Physics — Nordic-Baltic conference series on High Energy Particle and Nuclear Physics</title>
-<link href="https://conferences.clicvia.com/conference/spaatind2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–7 Jan 2027 · Skeikampen, Norway · Deadline: see official website · Official: https://indico.cern.ch/event/1640820/</summary>
 </entry>
 </feed>
