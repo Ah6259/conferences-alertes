@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-15 10:11",
- "derniere_lecture_reussie": "2026-10-15 10:11",
+ "mis_a_jour": "2026-10-16 10:04",
+ "derniere_lecture_reussie": "2026-10-16 10:04",
  "dernier_passage": {
-  "date": "2026-10-15 10:11",
+  "date": "2026-10-16 10:04",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 278,
-   "brutes": 2312,
-   "derniere_reussite": "2026-10-15 10:11",
+   "nombre": 275,
+   "brutes": 2313,
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-15 10:11",
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 24,
+   "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-15 10:11",
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-15 10:11",
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-15 10:11",
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
@@ -57,91 +57,29 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-15 10:11",
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 122,
-   "brutes": 145,
-   "derniere_reussite": "2026-10-15 10:11",
+   "nombre": 123,
+   "brutes": 146,
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 51,
+   "nombre": 50,
    "brutes": 54,
-   "derniere_reussite": "2026-10-15 10:11",
+   "derniere_reussite": "2026-10-16 10:04",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 485,
+ "nombre": 480,
  "conferences": [
-  {
-   "id": "ches-2026",
-   "acronyme": "CHES",
-   "titre": "International Conference on Cryptographic Hardware and Embedded Systems",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-11",
-   "fin": "2026-10-15",
-   "ville": "Antalya",
-   "pays": "TR",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-07-15",
-     "type": "article",
-     "libelle": "TCHES 2026/1",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2025-10-15",
-     "type": "article",
-     "libelle": "TCHES 2026/2",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-01-15",
-     "type": "article",
-     "libelle": "TCHES 2026/3",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-15",
-     "type": "article",
-     "libelle": "TCHES 2026/4",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://ches.iacr.org/2026/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "itc-2026",
    "acronyme": "ITC",
@@ -182,144 +120,6 @@
    ],
    "lien": "https://www.itctestweek.org/",
    "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ubicomp-iswc-2026",
-   "acronyme": "UbiComp/ISWC",
-   "titre": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-11",
-   "fin": "2026-10-15",
-   "ville": "Shanghai",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-02-01",
-     "type": "article",
-     "libelle": "first round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-01",
-     "type": "article",
-     "libelle": "second round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.ubicomp.org/ubicomp-iswc-2026",
-   "rang": "CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "aicif-2026",
-   "acronyme": "AICIF 2026",
-   "titre": "14th ASEAN Universities International Conference on Islamic Finance",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-13",
-   "fin": "2026-10-15",
-   "ville": "Jakarta",
-   "pays": "ID",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "economie-islamique",
-    "zakat-waqf"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-09-25",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "",
-     "fuseau": ""
-    },
-    {
-     "date": "2026-10-07",
-     "type": "article",
-     "libelle": "Full paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://submit.confbay.com/conf/aicif2026",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://submit.confbay.com/conf/aicif2026",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ase-2026",
-   "acronyme": "ASE",
-   "titre": "International Conference on Automated Software Engineering",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-13",
-   "fin": "2026-10-15",
-   "ville": "Munich",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-26",
-     "type": "article",
-     "libelle": "March 30 updates only",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conf.researchr.org/home/ase-2026",
-   "rang": "CORE A* · CCF A",
    "sources": [
     "ccfddl"
    ],
@@ -384,109 +184,6 @@
    "rang": "CORE A · CCF B",
    "sources": [
     "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "imwut-ubicomp-iswc-2026",
-   "acronyme": "IMWUT (Ubicomp/ISWC)",
-   "titre": "IMWUT (Ubicomp/ISWC)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-13",
-   "fin": "2026-10-15",
-   "ville": "Shanghai",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-11-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-02-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-05-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-08-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iswc-notes-brief-2026",
-   "acronyme": "ISWC Notes & Brief",
-   "titre": "ISWC Notes & Brief",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-13",
-   "fin": "2026-10-15",
-   "ville": "Shanghai",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-17",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://www.ubicomp.org/ubicomp-iswc-2026/authors/",
-   "rang": "",
-   "sources": [
-    "hci"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -4574,6 +4271,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "open-quantum-universe-workshop-at-the-2026",
+   "acronyme": "",
+   "titre": "Open Quantum Universe Workshop at The Pennsylvania State University",
+   "annee": 2026,
+   "type": "atelier",
+   "debut": "2026-11-17",
+   "fin": "2026-11-19",
+   "ville": "University Park",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://sites.psu.edu/openquantumuniverse/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3215398",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-16"
   },
   {
    "id": "quantum-cannes-2026",
@@ -12383,10 +12114,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-10-15",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-05-28",
@@ -12604,8 +12335,8 @@
     "economie-islamique",
     "zakat-waqf"
    ],
-   "date_limite": "2026-10-15",
-   "type_limite": "resume",
+   "date_limite": "2027-01-15",
+   "type_limite": "article",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -19707,7 +19438,7 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-10-15",
+   "date_limite": "2027-01-15",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
@@ -19891,7 +19622,7 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-10-15",
+   "date_limite": "2027-01-28",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",

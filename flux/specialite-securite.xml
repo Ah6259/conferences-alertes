@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-securite.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-securite.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-15T06:00:00Z</updated>
+<updated>2026-10-16T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -258,12 +258,5 @@
 <link href="https://conferences.clicvia.com/conference/dfrws-apac-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–22 Oct 2026 · Singapore · Deadline: 29 May 2026, 5 Jun 2026 · Official: https://dfrws.org/conferences/dfrws-apac-2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ches-2026/</id>
-<title>CHES 2026 — International Conference on Cryptographic Hardware and Embedded Systems</title>
-<link href="https://conferences.clicvia.com/conference/ches-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–15 Oct 2026 · Antalya, Turkey · Deadline: 15 Jul 2025, 15 Oct 2025, 15 Jan 2026 · Official: https://ches.iacr.org/2026/</summary>
 </entry>
 </feed>

@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-15T06:00:00Z</updated>
+<updated>2026-10-16T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/open-quantum-universe-workshop-at-the-2026/</id>
+<title>Open Quantum Universe Workshop at The Pennsylvania State University</title>
+<link href="https://conferences.clicvia.com/conference/open-quantum-universe-workshop-at-the-2026/"/>
+<updated>2026-10-16T06:00:00Z</updated>
+<summary>17–19 Nov 2026 · University Park, United States · Deadline: see official website · Official: https://sites.psu.edu/openquantumuniverse/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/quposium2026/</id>
 <title>QUPosium2026 — QUPosium2026 — Diverse Sensing. New Eyes. New Physics</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/14th-bangkok-workshop-on-high-energy-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–8 Jan 2027 · Chulalongkorn University, Bangkok, Thailand · Deadline: see official website · Official: https://www.thaihep.phys.sc.chula.ac.th/BKK2027HEPTH/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/tmex-2027/</id>
-<title>TMEX 2027 — Theory meeting experiments: particle astrophysics and cosmology</title>
-<link href="https://conferences.clicvia.com/conference/tmex-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>4–10 Jan 2027 · Quy Nhon, Vietnam · Deadline: see official website · Official: https://vietnam.in2p3.fr/2027/tmex/</summary>
 </entry>
 </feed>
