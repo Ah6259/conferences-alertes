@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-16 10:04",
- "derniere_lecture_reussie": "2026-10-16 10:04",
+ "mis_a_jour": "2026-10-17 09:37",
+ "derniere_lecture_reussie": "2026-10-17 09:37",
  "dernier_passage": {
-  "date": "2026-10-16 10:04",
+  "date": "2026-10-17 09:37",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 275,
-   "brutes": 2313,
-   "derniere_reussite": "2026-10-16 10:04",
+   "nombre": 273,
+   "brutes": 2315,
+   "derniere_reussite": "2026-10-17 09:36",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:36",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:36",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:36",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:36",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:37",
    "raison": "",
    "depuis": ""
   },
@@ -65,179 +65,21 @@
    "etat": "ok",
    "nombre": 123,
    "brutes": 146,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:37",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 50,
+   "nombre": 49,
    "brutes": 54,
-   "derniere_reussite": "2026-10-16 10:04",
+   "derniere_reussite": "2026-10-17 09:37",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 480,
+ "nombre": 477,
  "conferences": [
-  {
-   "id": "itc-2026",
-   "acronyme": "ITC",
-   "titre": "International Test Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-11",
-   "fin": "2026-10-16",
-   "ville": "Grand Hyatt San Antonio Riverwalk",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-20",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-24",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.itctestweek.org/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "imc-2026",
-   "acronyme": "IMC",
-   "titre": "ACM Internet Measurement Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-13",
-   "fin": "2026-10-16",
-   "ville": "Karlsruhe",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-11-13",
-     "type": "resume",
-     "libelle": "Abstract · Cycle 1",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2025-11-20",
-     "type": "article",
-     "libelle": "Cycle 1",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-22",
-     "type": "resume",
-     "libelle": "Abstract · Cycle 2",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-29",
-     "type": "article",
-     "libelle": "Cycle 2",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conferences.sigcomm.org/imc/2026/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sec-2026",
-   "acronyme": "SEC",
-   "titre": "ACM/IEEE Symposium on Edge Computing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-13",
-   "fin": "2026-10-16",
-   "ville": "Santa Clara University",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-08",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-08",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://acm-ieee-sec.org/2026/",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "fma-2026",
    "acronyme": "FMA 2026",
@@ -310,47 +152,6 @@
    "identifiant_source": "",
    "verifie_le": "2026-10-06",
    "page_verifiee": "https://www.afc-cca.com/pages/liste-des-manifestations-appels-communication",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ecas-2026",
-   "acronyme": "ECAS 2026",
-   "titre": "Early Career Accounting Scholars Conference (with Accounting and Business Research)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-16",
-   "fin": "2026-10-16",
-   "ville": "London",
-   "pays": "GB",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "compta-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-30",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/cefarr/2026-early-career-accounting-scholars-conference",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.bayes.citystgeorges.ac.uk/faculties-and-research/centres/cefarr/2026-early-career-accounting-scholars-conference",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -2321,8 +2122,8 @@
     "economie-islamique",
     "sukuk"
    ],
-   "date_limite": "2026-10-16",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -12753,10 +12554,10 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-10-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-09",
@@ -14781,10 +14582,10 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-10-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-7",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-16",
@@ -17807,6 +17608,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icccn-2027",
+   "acronyme": "ICCCN",
+   "titre": "IEEE International Conference on Computer Communications and Networks",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-12",
+   "fin": "2027-07-15",
+   "ville": "Rome",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "reseaux"
+   ],
+   "date_limite": "2027-02-12",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-02-12",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-02-19",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.icccn.org/ICCCN27/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-17"
   },
   {
    "id": "icdms2027",
