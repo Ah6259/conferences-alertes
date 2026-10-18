@@ -583,6 +583,7 @@ def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", 
 <link rel="stylesheet" href="{racine}assets/style.css?v={v}">
 {jsonld}<script src="{racine}assets/textes.js?v={v}"></script>
 <script src="{racine}assets/page.js?v={v}"></script>
+<script src="{racine}assets/son.js?v={v}"></script>
 <script src="{racine}assets/app.js?v={v}"></script>
 <script src="{racine}assets/avis.js?v={v}"></script>
 {"".join(f'<script src="{racine}assets/{s}?v={v}"></script>{chr(10)}' for s in scripts)}</head>
@@ -1008,7 +1009,7 @@ def pages_abonnement(confs, adr, v, etat):
 # ------------------------------------------------------------ construction
 def version_assets(sortie):
     h = hashlib.sha1()
-    for f in ("style.css", "textes.js", "page.js", "app.js", "avis.js", "abonnement.js"):
+    for f in ("style.css", "textes.js", "page.js", "son.js", "app.js", "avis.js", "abonnement.js"):
         p = os.path.join(sortie, "assets", f)
         if os.path.exists(p):
             with open(p, "rb") as fh:

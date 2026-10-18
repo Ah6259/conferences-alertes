@@ -14,6 +14,10 @@
   const fr = d => `${d.slice(8, 10)}/${d.slice(5, 7)}/${d.slice(0, 4)}`;
   const normaliser = t => (t || "").toLowerCase().normalize("NFKD").replace(/[\p{M}ـ]/gu, "")
     .replace(/[أإآٱ]/g, "ا").replace(/ة/g, "ه").replace(/ى/g, "ي").replace(/[’'`]/g, " ").replace(/\s+/g, " ").trim();
+  // Recherche « au son » (règle commune § 27, 18/10/2026, demande d'Ahmed) : Jerba = Djerba, Qairouan = Kairouan,
+  // Hamamet = Hammamet… (assets/son.js, outil commun copié tel quel). L'ancienne recherche (mot contenu dans le texte) reste valable.
+  const SON = window.sonRecherche;
+  const cherche = (c, mots, tape) => !mots.length || (texteCarte(c), mots.every(x => c._q.includes(x)) || (!!SON && SON.trouve(c._s, tape)));
 
   const PAR_PAGE = 15;
   const RAPPEL = 7;
@@ -72,7 +76,9 @@
       // les petits textes (spécialité, pays…) sont cherchés dans les TROIS langues : « Japon » = « Japan » = « اليابان »
       const X = window.TEXTES || {};
       const trad = [...copie.querySelectorAll("[data-t]")].map(el => (X[el.dataset.t] || []).join(" ")).join(" ");
-      c._q = normaliser(copie.textContent + " " + trad + " " + c.id);
+      const brut = copie.textContent + " " + trad + " " + c.id;
+      c._q = normaliser(brut);
+      c._s = SON ? SON.cle(brut) : "";
     }
     return c._q;
   };
@@ -86,7 +92,7 @@
     FILTRES.forEach(id => { v[id] = valeur(id); });
     const fq = document.getElementById("f-q");
     if (fq) fq.placeholder = T(fq.dataset.fr, fq.dataset.en, fq.dataset.ar);
-    const mots = normaliser(fq ? fq.value : "").split(" ").filter(Boolean);
+    const tape = fq ? fq.value : "", mots = normaliser(tape).split(" ").filter(Boolean);
     // garde(c, sauf, valeurForcee) : la carte passe-t-elle tous les filtres ? (sauf = filtre remplacé par valeurForcee, pour les compteurs)
     const garde = (c, sauf, forcee) => {
       const val = id => id === sauf ? forcee : v[id];
@@ -101,7 +107,7 @@
         if (!c.dataset.prochaine) return false;
         if (l !== "ouverte" && +c.dataset.reste > +l) return false;
       }
-      return mots.every(x => texteCarte(c).includes(x));
+      return cherche(c, mots, tape);
     };
     FILTRES.forEach(id => remplirOptions(document.getElementById(id), garde));
     let visibles = 0;

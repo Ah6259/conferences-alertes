@@ -192,6 +192,25 @@ fq.value = ""; fq.dispatchEvent(new w.Event("input"));
 w = await page("index.html", `lang=fr&jour=${JOUR}&domaine=${dom}&limite=90`);
 check("filtres dans l'adresse (?domaine=…&limite=90)", visibles(w.document).length === avenir.filter(c => { const p = prochaine(c, JOUR); return c.domaines.includes(dom) && p && ecart(p, JOUR) <= 90; }).length);
 
+// ---- Recherche « au son » (règle commune § 27, 18/10/2026, demande d'Ahmed) : deux écritures d'un même nom = même résultat
+{ const w2 = await page("index.html", `lang=fr&jour=${JOUR}`), d2 = w2.document, fq = d2.getElementById("f-q"), S = w2.sonRecherche;
+  const chercher = t => { fq.value = t; fq.dispatchEvent(new w2.Event("input")); return visibles(d2).map(c => c.id); };
+  const commun = join(root, "..", "projets-ahmed", "outils communs", "recherche-au-son", "son.js");
+  check("recherche au son : assets/son.js chargé avant app.js (copie identique de l'outil commun quand il est présent)", !!S &&
+    (!existsSync(commun) || readFileSync(commun, "utf8") === lire("assets/son.js")));
+  const paires = [["Djerba", "Jerba"], ["Kairouan", "Qairouan"], ["Hammamet", "Hamamet"], ["Houmt Souk", "Houmet Essouk"]];
+  check("recherche au son : Djerba = Jerba, Kairouan = Qairouan, Hammamet = Hamamet, Houmt Souk = Houmet Essouk (même résultat)",
+    paires.every(([a, b]) => chercher(a).join() === chercher(b).join()) &&
+    paires.every(([a, b]) => S.trouve(S.cle("Commune de " + a), b) && S.trouve(S.cle("Commune de " + b), a)));
+  // une paire tirée des VRAIES cartes : un mot d'un titre écrit avec une consonne doublée (« travaux » -> « travvaux »)
+  const mots = [...d2.querySelectorAll("#liste .cf")].flatMap(c => ((c._q || c.textContent.toLowerCase()).match(/\b[a-z]{6,}\b/g) || []).map(m => [m, c.id]));
+  const [mot, id] = mots.find(([m]) => /[aeiou][bcdfglmnprstv][aeiou]/.test(m)) || ["", ""];
+  const double = mot.replace(/([aeiou])([bcdfglmnprstv])(?=[aeiou])/, "$1$2$2");
+  const r1 = chercher(mot), r2 = chercher(double);
+  check(`recherche au son : « ${mot} » écrit « ${double} » trouve les mêmes cartes`, !!mot && r2.includes(id) && r2.length > 0 && r2.every(x => r1.includes(x)));
+  check("recherche au son : une recherche absurde (« zzzzqqq ») ne trouve toujours rien", chercher("zzzzqqq").length === 0);
+  chercher(""); }
+
 // ---- 3. Date du VISITEUR : fin, date limite passée, avertissement ---------------------------
 const premiere = avenir.slice().sort((a, b) => a.fin.localeCompare(b.fin))[0];
 w = await page("index.html", `lang=fr&jour=${plus(premiere.fin, 1)}`);
@@ -237,7 +256,7 @@ const sitemap = lire("sitemap.xml");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
 const nFiches = urls.filter(u => /\/conference\//.test(u)).length;
 check(`sitemap : ${urls.length} pages dont ${nFiches} fiches (une par conférence à venir)`, nFiches === avenir.length && urls.includes(URL_SITE) && urls.includes(URL_SITE + "abonnement/"));
-const v = createHash("sha1").update(Buffer.concat(["style.css", "textes.js", "page.js", "app.js", "avis.js", "abonnement.js"].map(f =>
+const v = createHash("sha1").update(Buffer.concat(["style.css", "textes.js", "page.js", "son.js", "app.js", "avis.js", "abonnement.js"].map(f =>
   Buffer.from(readFileSync(join(root, "assets", f), "latin1").replace(/\r\n/g, "\n"), "latin1")))).digest("hex").slice(0, 8);
 let ok = { en: true, seo: true, v: true, h1: true, fichiers: true, copy: true, trad: true, src: true, meta: true, gc: true, ios: true, ext: true };
 for (const u of urls) {
