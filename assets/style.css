@@ -408,3 +408,16 @@ html[dir="rtl"] .paie-etapes>li::before{left:auto;right:12px}
 .rp-citer{background:var(--or-clair);border-radius:12px;padding:10px 12px;font-size:14px;overflow-wrap:anywhere}
 .lien-rapports{margin:12px 0 0;font-weight:700}
 .hero .lien-rapport{color:#fff;font-weight:700;text-decoration:underline}
+/* Rapports du mois : signature + UN bouton « Partager ce rapport » (18/10/2026) — classe à part, jamais « .partager » (bouton rond de l'en-tête) */
+.rp-signature{margin:4px 0 10px;font-size:14px;opacity:.95}
+.rp-signature b{font-weight:800}
+.rp-partage{text-align:center}
+.rp-partager{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;width:auto;max-width:100%;padding:12px 24px;
+  border:0;border-radius:14px;background:#4A3DB0;color:#fff;font:inherit;font-weight:800;font-size:16px;line-height:1.2;cursor:pointer;
+  box-shadow:0 4px 14px rgba(74,61,176,.28);white-space:normal}
+.rp-partager:hover{background:#3B2F96}
+.rp-partager:focus-visible{outline:3px solid #F2B33D;outline-offset:2px}
+.rp-partager svg{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}
+.rp-partage-aide{font-size:13px;color:var(--doux);margin:8px 0 0}
+.rp-copie{margin:8px 0 0;font-weight:700;color:var(--vert)}
+@media (max-width:420px){ .rp-partager{width:100%;padding:12px 16px} }

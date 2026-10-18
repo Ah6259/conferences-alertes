@@ -86,3 +86,8 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   Amorcé le 18/10 depuis l'historique git (`python robot/rapports.py --amorcer-git`, relevés depuis le 09/10/2026). Plan du site :
   lastmod = date des chiffres. Liens : pied de page (page.js), accueil (« Par mois ») et pages `mois/AAAA-MM/`. Le robot Facebook
   du portail publie chaque `rapports/AAAA-MM/`. Tests : bloc « Rapports du mois » de test_site.mjs + section F de test_pannes.py.
+  **Partage (18/10/2026, demande d'Ahmed)** : UN SEUL bouton « Partager ce rapport » en haut ET en bas (`bloc_partage()` de rapports.py,
+  `button[data-partage-rapport]`, classe `.rp-partager` — jamais `.partager`, bouton rond de l'en-tête) : menu du téléphone (`navigator.share`),
+  sinon « texte + lien » copié (« Lien copié ✓ »), sinon fenêtre ; code dans page.js, clic compté `partage/rapports/…`. Texte partagé =
+  « <titre> — Rapport du mois de Radar des conférences (conferences.clicvia.com) : » ; signature `.rp-signature` sous le titre ;
+  description qui commence par « Radar des conférences — rapport du mois. ». Pas de boutons Facebook/WhatsApp séparés (testé).

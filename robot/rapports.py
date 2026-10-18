@@ -133,6 +133,36 @@ def mois_precedent(cle):
     return f"{a - 1}-12" if m == 1 else f"{a}-{m - 1:02d}"
 
 
+# ------------------------------------------------------------------ partage + signature (demande d'Ahmed du 18/10/2026)
+DOMAINE = "conferences.clicvia.com"
+
+
+def signature(C):
+    """« Un rapport de Radar des conférences · conferences.clicvia.com », sous le titre."""
+    fr, en, ar = C.NOM
+    return (f'<p class="rp-signature">{C.L(f"Un rapport de <b>{fr}</b> · {DOMAINE}", f"A report by <b>{en}</b> · {DOMAINE}", f"تقرير من <b>{ar}</b> · {C.ISO(DOMAINE)}")}</p>')
+
+
+def bloc_partage(C, url, titre3, haut):
+    """UN SEUL bouton « Partager ce rapport » : menu de partage du téléphone (Facebook, WhatsApp, LinkedIn…), sinon lien copié.
+    Le texte partagé dit de quel site vient l'article. Le code est dans assets/page.js (CSP : pas de script en ligne)."""
+    fr, en, ar = C.NOM
+    tf, te, ta = (str(x).replace("\u2066", "").replace("\u2069", "") for x in titre3)
+    textes = {"fr": f"{tf} — Rapport du mois de {fr} ({DOMAINE}) :",
+              "en": f"{te} — Monthly report by {en} ({DOMAINE}):",
+              "ar": f"{ta} — تقرير الشهر من {ar} ({DOMAINE}):"}
+    attrs = "".join(f' data-titre-{k}="{C.E(t)}"' for k, t in zip(("fr", "en", "ar"), (tf, te, ta)))
+    attrs += "".join(f' data-texte-{k}="{C.E(t)}"' for k, t in textes.items())
+    ico = ('<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/>'
+           '<circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg>')
+    return (f'<section class="carte rp-partage{" rp-partage-haut" if haut else " rp-partage-bas"}">'
+            f'<button type="button" class="rp-partager" data-partage-rapport data-url="{C.E(url)}"{attrs}>{ico}'
+            f'<span>{C.L("Partager ce rapport", "Share this report", "شارك هذا التقرير")}</span></button>'
+            f'<p class="rp-partage-aide">{C.L("Facebook, WhatsApp, LinkedIn… : le menu de votre téléphone s’ouvre.", "Facebook, WhatsApp, LinkedIn…: your phone’s share menu opens.", "فيسبوك، واتساب، لينكدإن…: تُفتح قائمة المشاركة في هاتفك.")}</p>'
+            f'<p class="rp-copie" role="status" hidden>{C.L("Lien copié ✓ — collez-le où vous voulez", "Link copied ✓ — paste it wherever you like", "تم نسخ الرابط ✓ — الصقه حيث تشاء")}</p>'
+            f'</section>')
+
+
 # ------------------------------------------------------------------ pages
 def pages(C, hist, vis, jour, v, etat):
     """Renvoie [(chemin, html, lastmod)] : rapports/ + rapports/AAAA-MM/ pour chaque mois qui a assez d'événements."""
@@ -370,8 +400,11 @@ def page_mois(C, hist, cle, ids_fiches, jour, v, etat):
                   f"أرقام {der3[2]}، تُحدَّث كل يوم حتى آخر الشهر."))
     hero = f"""{C.fil(racine, f'<a href="../">{L("Rapports du mois", "Monthly reports", "تقارير الشهر")}</a>', LL(m3))}
     <h1>{L(f"Conférences scientifiques : {mfr}", f"Academic conferences: {men}", f"المؤتمرات العلمية: {mar}")}</h1>
+    {signature(C)}
     <p class="intro">{L("Le rapport du mois, calculé sur les conférences, ateliers et écoles scientifiques relevés par le site.", "The monthly report, computed from the conferences, workshops and schools listed on the site.", "تقرير الشهر، محسوب من المؤتمرات وورشات العمل والمدارس العلمية التي يرصدها الموقع.")} {etat_txt}</p>"""
-    contenu = f"""<section class="carte resume" aria-label="Summary">
+    titre3 = (f"Conférences scientifiques : {mfr}", f"Academic conferences: {men}", f"المؤتمرات العلمية: {mar}")
+    contenu = f"""{bloc_partage(C, url, titre3, True)}
+<section class="carte resume" aria-label="Summary">
   <div class="r-avenir" id="rp-n"><b>{n}</b><span>{L(f"événements commencent en {mfr}", f"events start in {men}", f"فعالية تبدأ في {mar}")}</span></div>
   <div class="r-limites" id="rp-limites"><b>{ch['limites']}</b><span>{L("dates limites de soumission ce mois", "submission deadlines this month", "أجل إرسال هذا الشهر")}</span></div>
   <div class="r-domaines" id="rp-pays"><b>{npays}</b><span>{L("pays (sur place ou hybride)", "countries (in person or hybrid)", "بلدًا (حضوري أو هجين)")}</span></div>
@@ -390,9 +423,10 @@ def page_mois(C, hist, cle, ids_fiches, jour, v, etat):
 <section class="carte rp"><h2>{L("Aller plus loin", "Go further", "للمزيد")}</h2><ul class="rp-bref">
 <li><a href="{racine}">{L("Toutes les conférences à venir", "All upcoming conferences", "كل المؤتمرات القادمة")}</a></li>
 <li><a href="{racine}flux/">{L("Alertes gratuites par flux RSS", "Free RSS alerts", "تنبيهات مجانية عبر RSS")}</a></li>
-<li><a href="../">{L("Tous les rapports du mois", "All monthly reports", "كل تقارير الشهر")}</a></li></ul></section>"""
+<li><a href="../">{L("Tous les rapports du mois", "All monthly reports", "كل تقارير الشهر")}</a></li></ul></section>
+{bloc_partage(C, url, titre3, False)}"""
     titre = f"Conférences scientifiques {mfr} : {n} événements, {npays} pays — rapport du mois · Academic conferences {men} | Conference Radar"
-    desc = (f"Rapport du mois, chiffres au {der3[0]} : {n} conférences, ateliers et écoles scientifiques commencent en {mfr} ({npays} pays) ; "
+    desc = (f"{C.NOM[0]} — rapport du mois. Chiffres au {der3[0]} : {n} conférences, ateliers et écoles scientifiques commencent en {mfr} ({npays} pays) ; "
             f"{ch['limites']} dates limites de soumission. Par domaine, continent et pays, calendrier et méthode. Monthly report, {men}.")
     art = {"@context": "https://schema.org", "@type": "Article", "headline": f"Conférences scientifiques {mfr} : {n} événements, {npays} pays"[:110],
            "inLanguage": ["en", "fr", "ar"], "datePublished": e["premier_jour"], "dateModified": e["derniere_date"], "url": url,
@@ -426,13 +460,18 @@ def page_liste(C, hist, mois_ok, v, etat):
                       f' <small>({etat_m})</small></li>')
     hero = f"""{C.fil(racine, L("Rapports du mois", "Monthly reports", "تقارير الشهر"))}
     <h1>{L("Rapports du mois", "Monthly reports", "تقارير الشهر")}</h1>
+    {signature(C)}
     <p class="intro">{L("Chaque mois, les conférences scientifiques relevées par le site, en chiffres : par domaine, continent et pays, avec les dates limites de soumission. Des décomptes, jamais des estimations.",
                         "Every month, the academic conferences listed on the site, in figures: by field, continent and country, with submission deadlines. Counts, never estimates.",
                         "كل شهر، المؤتمرات العلمية التي يرصدها الموقع بالأرقام: حسب المجال والقارة والبلد، مع آجال الإرسال. عدّ فقط، دون تقديرات.")}</p>"""
-    contenu = (f'<section class="carte rp"><h2>{L("Les rapports", "The reports", "التقارير")}</h2><ul class="rp-bref" id="rp-liste">{"".join(lignes)}</ul>'
-               f'<p class="petit">{L(f"Un mois n\'a un rapport qu\'à partir de {MIN_EVENEMENTS} événements. Le mois en cours est mis à jour chaque jour ; un mois terminé n\'est plus jamais modifié.", f"A month gets a report only from {MIN_EVENEMENTS} events. The current month is updated every day; a finished month is never changed again.", f"لا يكون للشهر تقرير إلا ابتداءً من {ISO(MIN_EVENEMENTS)} فعاليات. يُحدَّث الشهر الجاري كل يوم، والشهر المنتهي لا يتغير أبدًا.")}</p></section>')
+    titre3 = ("Rapports du mois : les conférences scientifiques en chiffres", "Monthly reports: academic conferences in figures", "تقارير الشهر: المؤتمرات العلمية بالأرقام")
+    url = C.URL_SITE + "rapports/"
+    contenu = (bloc_partage(C, url, titre3, True) +
+               f'<section class="carte rp"><h2>{L("Les rapports", "The reports", "التقارير")}</h2><ul class="rp-bref" id="rp-liste">{"".join(lignes)}</ul>'
+               f'<p class="petit">{L(f"Un mois n\'a un rapport qu\'à partir de {MIN_EVENEMENTS} événements. Le mois en cours est mis à jour chaque jour ; un mois terminé n\'est plus jamais modifié.", f"A month gets a report only from {MIN_EVENEMENTS} events. The current month is updated every day; a finished month is never changed again.", f"لا يكون للشهر تقرير إلا ابتداءً من {ISO(MIN_EVENEMENTS)} فعاليات. يُحدَّث الشهر الجاري كل يوم، والشهر المنتهي لا يتغير أبدًا.")}</p></section>'
+               + bloc_partage(C, url, titre3, False))
     titre = "Rapports du mois : les conférences scientifiques en chiffres · Monthly reports | Conference Radar"
-    desc = "Chaque mois, les conférences scientifiques relevées par le site en chiffres : par domaine, continent et pays, dates limites de soumission. Monthly reports."
+    desc = f"{C.NOM[0]} — rapport du mois. Chaque mois, les conférences scientifiques relevées par le site en chiffres : par domaine, continent et pays, dates limites de soumission. Monthly reports."
     return "rapports/", C.page("rapports/", racine, titre, desc, hero, contenu, v, etat), max(hist["mois"][k]["derniere_date"] for k in mois_ok)
 
 

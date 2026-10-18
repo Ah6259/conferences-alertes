@@ -520,6 +520,54 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
           : !D.querySelector(`a[href="../../mois/${k}/"]`));
     }
   }
+  // « Partager ce rapport » (demande d'Ahmed du 18/10/2026) : UN SEUL bouton en haut + un en bas, texte qui nomme le site, signature, aperçu
+  const css = lire("assets/style.css"), pjs = lire("assets/page.js");
+  check("rapports : code du bouton « Partager ce rapport » dans page.js (menu du téléphone, sinon lien copié, compté) et style ≥ 44 px, sans la classe .partager de l'en-tête",
+    /button\[data-partage-rapport\]/.test(pjs) && /navigator\.share\(\{ title: titre, text: texte, url: url \}\)/.test(pjs) && /clipboard\.writeText/.test(pjs) &&
+    /window\.prompt/.test(pjs) && /path: "partage" \+ location\.pathname/.test(pjs) &&
+    (() => { const m = css.match(/\.rp-partager\{[^}]*min-height:(\d+)px/); return m && +m[1] >= 44; })());
+  async function testerPartage(chemin, adresse) {
+    const brut = lire(chemin);
+    const w = await page(chemin, "lang=fr"), D = w.document;
+    const bs = [...D.querySelectorAll("button[data-partage-rapport]")];
+    const main = D.querySelector("main");
+    check(`${chemin} : UN bouton « Partager ce rapport » en haut et UN en bas, avec la bonne adresse`,
+      bs.length === 2 && bs.every(b => b.dataset.url === adresse && main.contains(b) && !b.classList.contains("partager") && /Partager ce rapport/.test(texte(b))) &&
+      main.firstElementChild.nextElementSibling === bs[0].closest("section") && bs[1].closest("section") === main.lastElementChild);
+    check(`${chemin} : aucun bouton Facebook / WhatsApp / LinkedIn séparé`, !/sharer|wa\.me|linkedin\.com\/share|facebook\.com\/share/i.test(brut));
+    check(`${chemin} : aide « Facebook, WhatsApp, LinkedIn… » sous chaque bouton, dans les 3 langues`,
+      bs.every(b => { const a = b.closest("section").querySelector(".rp-partage-aide"); return a && a.querySelectorAll("[data-l]").length === 3 && /LinkedIn/.test(a.textContent); }));
+    check(`${chemin} : le texte partagé nomme le site, dans les 3 langues`,
+      bs.every(b => b.dataset.texteFr.endsWith("— Rapport du mois de Radar des conférences (conferences.clicvia.com) :") &&
+        b.dataset.texteEn.endsWith("— Monthly report by Conference Radar (conferences.clicvia.com):") && b.dataset.texteAr.includes("رادار المؤتمرات (conferences.clicvia.com)")));
+    const sig = D.querySelector(".hero .rp-signature");
+    check(`${chemin} : signature « Un rapport de Radar des conférences · conferences.clicvia.com » sous le titre`,
+      !!sig && sig.previousElementSibling && sig.previousElementSibling.tagName === "H1" && /Un rapport de Radar des conférences · conferences\.clicvia\.com/.test(texte(sig)) && sig.querySelectorAll("[data-l]").length === 3);
+    const meta = n => (D.querySelector(`meta[name="${n}"],meta[property="${n}"]`) || {}).content || "";
+    check(`${chemin} : description qui commence par « Radar des conférences — rapport du mois. », og:title / og:description / og:image / og:url justes`,
+      meta("description").startsWith("Radar des conférences — rapport du mois.") && meta("og:description") === meta("description") && meta("og:title").length > 10 &&
+      meta("og:url") === adresse && meta("og:image") === URL_SITE + "assets/og-image-v1.jpg" && existsSync(join(root, "assets/og-image-v1.jpg")));
+    // clic sur un téléphone : menu de partage avec titre, texte et lien ; clic compté dans GoatCounter
+    let recu = null, compte = null;
+    Object.defineProperty(w.navigator, "share", { value: o => { recu = o; return Promise.resolve(); }, configurable: true });
+    w.goatcounter.count = o => { compte = o; };
+    bs[0].dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
+    await new Promise(ok => setTimeout(ok, 20));
+    check(`${chemin} : clic (téléphone) → menu de partage avec le lien et le texte qui nomme le site, compté « partage${new URL(adresse).pathname} »`,
+      !!recu && recu.url === adresse && recu.text === bs[0].dataset.texteFr && !!recu.title && !!compte && compte.path === "partage" + new URL(adresse).pathname && compte.event === true);
+    // ordinateur (pas de menu) : « texte + lien » copié et message « Lien copié ✓ »
+    let copie = null;
+    Object.defineProperty(w.navigator, "share", { value: undefined, configurable: true });
+    Object.defineProperty(w.navigator, "clipboard", { value: { writeText: t => { copie = t; return Promise.resolve(); } }, configurable: true });
+    bs[1].dispatchEvent(new w.MouseEvent("click", { bubbles: true }));
+    await new Promise(ok => setTimeout(ok, 20));
+    const msg = bs[1].closest("section").querySelector(".rp-copie");
+    check(`${chemin} : clic (ordinateur) → « texte + lien » copié et « Lien copié ✓ » affiché`,
+      copie === bs[1].dataset.texteFr + " " + adresse && !!msg && !msg.hidden && /Lien copié ✓ — collez-le où vous voulez/.test(texte(msg)));
+    w.close();
+  }
+  for (const k of avecPage) await testerPartage(`rapports/${k}/index.html`, URL_SITE + `rapports/${k}/`);
+  await testerPartage("rapports/index.html", URL_SITE + "rapports/");
   check("rapports : lien depuis l'accueil et depuis le pied de page commun", lire("index.html").includes('href="rapports/"') && lire("assets/page.js").includes("${racine}rapports/"));
   const wl = await page("rapports/index.html", "lang=fr");
   check("rapports/ : un lien par mois avec rapport", avecPage.every(k => wl.document.querySelector(`#rp-liste a[href="${k}/"]`)) && wl.document.querySelectorAll("#rp-liste li").length === avecPage.length);

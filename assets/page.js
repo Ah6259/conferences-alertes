@@ -215,3 +215,43 @@ window.VIDEO_SITE = {"base": BASE_SITE, "defaut": "en", "nom": {"en": "Conferenc
   try { new MutationObserver(function () { setTimeout(traduire, 0); }).observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] }); } catch (x) {}
 })();
 /* <<< vidéo de présentation */
+/* Bouton « Partager ce rapport » des rapports du mois (demande d'Ahmed du 18/10/2026) : UN SEUL bouton. Menu de partage du
+   téléphone (Facebook, WhatsApp, LinkedIn…) ; sans ce menu (ordinateur) : « texte + lien » copié, sinon fenêtre avec le lien.
+   Le texte dit de quel site vient l'article (attributs data-texte-fr/en/ar écrits par robot/rapports.py). Clic compté dans GoatCounter. */
+(function () {
+  function montrer(b) {
+    var bloc = b.closest(".rp-partage"), m = bloc && bloc.querySelector(".rp-copie");
+    if (!m) return;
+    m.hidden = false;
+    clearTimeout(m._minuteur);
+    m._minuteur = setTimeout(function () { m.hidden = true; }, 4000);
+  }
+  function copier(b, tout) {
+    function fenetre() { try { window.prompt(window.T ? window.T("Copiez ce lien :", "Copy this link:", "انسخ هذا الرابط:") : "", tout); } catch (x) {} }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(tout).then(function () { montrer(b); return "copie"; }, function () { fenetre(); return "fenetre"; });
+      }
+    } catch (x) {}
+    fenetre();
+    return Promise.resolve("fenetre");
+  }
+  document.addEventListener("click", function (e) {
+    var b = e.target && e.target.closest && e.target.closest("button[data-partage-rapport]");
+    if (!b) return;
+    e.preventDefault();
+    var l = document.documentElement.lang;
+    if (["fr", "en", "ar"].indexOf(l) < 0) l = "en";
+    var url = b.getAttribute("data-url") || location.href.split("#")[0];
+    var texte = b.getAttribute("data-texte-" + l) || b.getAttribute("data-texte-en") || "";
+    var titre = b.getAttribute("data-titre-" + l) || document.title.split(" | ")[0];
+    var tout = texte + " " + url;
+    try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "partage" + location.pathname, title: "Partage", event: true }); } catch (x) {}
+    if (navigator.share) {
+      return navigator.share({ title: titre, text: texte, url: url }).then(function () { return "menu"; }, function (err) {
+        return err && err.name === "AbortError" ? "annule" : copier(b, tout);
+      });
+    }
+    return copier(b, tout);
+  });
+})();
