@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-17 09:37",
- "derniere_lecture_reussie": "2026-10-17 09:37",
+ "mis_a_jour": "2026-10-18 09:53",
+ "derniere_lecture_reussie": "2026-10-18 09:53",
  "dernier_passage": {
-  "date": "2026-10-17 09:37",
+  "date": "2026-10-18 09:53",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 273,
    "brutes": 2315,
-   "derniere_reussite": "2026-10-17 09:36",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-17 09:36",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-17 09:36",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-17 09:36",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-17 09:36",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-17 09:37",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
@@ -65,95 +65,21 @@
    "etat": "ok",
    "nombre": 123,
    "brutes": 146,
-   "derniere_reussite": "2026-10-17 09:37",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 49,
+   "nombre": 47,
    "brutes": 54,
-   "derniere_reussite": "2026-10-17 09:37",
+   "derniere_reussite": "2026-10-18 09:53",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 477,
+ "nombre": 475,
  "conferences": [
-  {
-   "id": "fma-2026",
-   "acronyme": "FMA 2026",
-   "titre": "2026 FMA Annual Meeting (Financial Management Association)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-14",
-   "fin": "2026-10-17",
-   "ville": "Tampa",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "finance"
-   ],
-   "specialites": [
-    "finance-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.fma.org/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.fma.org/",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "modav-ica-2026",
-   "acronyme": "MODAV-ICA 2026",
-   "titre": "23rd International Accounting Conference (MÖDAV)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-15",
-   "fin": "2026-10-17",
-   "ville": "Istanbul",
-   "pays": "TR",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "compta-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-30",
-     "type": "resume",
-     "libelle": "Extended abstract",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://www.modav.org.tr/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.afc-cca.com/pages/liste-des-manifestations-appels-communication",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "cicai-2026",
    "acronyme": "CICAI",
@@ -15508,10 +15434,10 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-10-17",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-01-10",

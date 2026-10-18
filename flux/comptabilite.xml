@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/comptabilite.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/comptabilite.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-17T06:00:00Z</updated>
+<updated>2026-10-18T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -195,12 +195,5 @@
 <link href="https://conferences.clicvia.com/conference/riarf-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19 Oct 2026 · Palma de Mallorca, Spain · Deadline: 15 Sep 2026 · Official: https://riarf.uib.es/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/modav-ica-2026/</id>
-<title>MODAV-ICA 2026 — 23rd International Accounting Conference (MÖDAV)</title>
-<link href="https://conferences.clicvia.com/conference/modav-ica-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>15–17 Oct 2026 · Istanbul, Turkey · Deadline: 30 Jun 2026 · Official: https://www.modav.org.tr/</summary>
 </entry>
 </feed>
