@@ -97,3 +97,6 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   « <titre> — Rapport du mois de Radar des conférences : », SANS AUCUNE adresse (Facebook prend la 1re adresse du
   texte et montre l'aperçu de l'ACCUEIL) : le lien du rapport va seulement dans `url` de navigator.share (copie sur ordinateur : texte + lien) ; signature `.rp-signature` sous le titre ;
   description qui commence par « Radar des conférences — rapport du mois. ». Pas de boutons Facebook/WhatsApp séparés (testé).
+
+## Visiteur simulé (18/10/2026, règle générale)
+- `python tools/visiteur_simule.py` (outil COMMUN, copie identique dans chaque site : ne pas le modifier ici) : liens/images morts, puis Chromium à 390 px (page trop large, image cassée, « NaN/undefined », page vide) + scénarios `tools/scenarios-visiteur.json` (recherche, filtres, résultat affiché, groupes « croissant »). Lancé par tests.yml. Nouvelle recherche, nouveau filtre ou nouveau formulaire → ajouter un scénario. Page `video/` : `preload="none"` (la couverture reste affichée ; la page finit de charger sans attendre la vidéo, moins de données sur téléphone ; le visiteur simulé la voyait « non chargée » avec `metadata`).

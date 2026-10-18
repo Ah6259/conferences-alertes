@@ -41,3 +41,5 @@ jobs:
         run: node tools/test_avis.mjs
       - name: Scénarios de panne des robots
         run: python tools/test_pannes.py
+      - name: Visiteur simule (comme un visiteur sur telephone, avant le vrai visiteur - regle generale du 18/10/2026)
+        run: python tools/visiteur_simule.py

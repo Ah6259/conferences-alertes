@@ -1,0 +1,17 @@
+[
+ {"page": "", "nom": "accueil : nombre de conférences à venir (résumé)", "lire": "#r-avenir b"},
+ {"page": "", "nom": "accueil : soumission ouverte, clôture dans 7 jours", "etapes": [{"sel": "#f-limite", "valeur": "7"}], "lire": "#compte", "groupe": "delai", "ordre": 1, "croissant": true},
+ {"page": "", "nom": "accueil : soumission ouverte, clôture dans 30 jours", "etapes": [{"sel": "#f-limite", "valeur": "30"}], "lire": "#compte", "groupe": "delai", "ordre": 2, "croissant": true},
+ {"page": "", "nom": "accueil : soumission ouverte, clôture dans 90 jours", "etapes": [{"sel": "#f-limite", "valeur": "90"}], "lire": "#compte", "groupe": "delai", "ordre": 3, "croissant": true},
+ {"page": "", "nom": "accueil : soumission ouverte (toutes)", "etapes": [{"sel": "#f-limite", "valeur": "ouverte"}], "lire": "#compte", "groupe": "delai", "ordre": 4, "croissant": true},
+ {"page": "", "nom": "accueil : toutes les conférences à venir", "lire": "#compte", "groupe": "delai", "ordre": 5, "croissant": true},
+ {"page": "", "nom": "accueil : recherche d'un mot absent → 0 conférence", "etapes": [{"sel": "#f-q", "valeur": "zzqxwv"}], "lire": "#compte", "groupe": "entonnoir", "ordre": 0, "croissant": true},
+ {"page": "", "nom": "accueil : Informatique + Europe + présentiel", "etapes": [{"sel": "#f-dom", "valeur": "informatique"}, {"sel": "#f-cont", "valeur": "europe"}, {"sel": "#f-mode", "valeur": "presentiel"}], "lire": "#compte", "groupe": "entonnoir", "ordre": 1, "croissant": true},
+ {"page": "", "nom": "accueil : Informatique + Europe", "etapes": [{"sel": "#f-dom", "valeur": "informatique"}, {"sel": "#f-cont", "valeur": "europe"}], "lire": "#compte", "groupe": "entonnoir", "ordre": 2, "croissant": true},
+ {"page": "", "nom": "accueil : Informatique seul", "etapes": [{"sel": "#f-dom", "valeur": "informatique"}], "lire": "#compte", "groupe": "entonnoir", "ordre": 3, "croissant": true},
+ {"page": "", "nom": "accueil : recherche « finance » + tri par date de début", "etapes": [{"sel": "#f-q", "valeur": "finance"}, {"sel": "#f-tri", "valeur": "debut"}], "lire": "#compte"},
+ {"page": "", "nom": "accueil : effacer les filtres (bouton « Tout afficher »)", "etapes": [{"sel": "#f-cont", "valeur": "asie"}, {"sel": "#effacer", "clic": true}], "lire": "#compte", "apres": 800},
+ {"page": "domaine/informatique/", "nom": "page Informatique : filtre Afrique", "etapes": [{"sel": "#f-cont", "valeur": "afrique"}], "lire": "#compte"},
+ {"page": "continent/europe/", "nom": "page Europe : nombre de conférences", "lire": "#compte"},
+ {"page": "rapports/2026-10/", "nom": "rapport d'octobre (tableau des chiffres)", "lire": "table"}
+]
