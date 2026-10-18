@@ -542,7 +542,7 @@ AVIS = """<section class="carte avis" id="avis" aria-labelledby="avis-titre">
 </section>"""
 
 
-def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", classe_hero="", scripts=(), alternates=True):
+def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", classe_hero="", scripts=(), alternates=True, og_image=None, og_type="website"):
     canon = URL_SITE + chemin
     # 14/10/2026 (contrôle de visibilité, règle commune § 8) : PAS de hreflang vers « ?lang=fr/en/ar ». Le serveur renvoie la même
     # page anglaise à ces adresses : Google y voyait des doublons déclarés comme des langues. Une langue n'aura un hreflang que le
@@ -572,11 +572,11 @@ def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", 
 <meta property="og:title" content="{E(titre.split(' | ')[0])}">
 <meta property="og:description" content="{E(description)}">
 <meta property="og:url" content="{canon}">
-<meta property="og:image" content="{URL_SITE}{OG_IMAGE}">
+<meta property="og:image" content="{URL_SITE}{og_image or OG_IMAGE}">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="fr_FR"><meta property="og:locale:alternate" content="ar_TN">
+<meta property="og:type" content="{og_type}">
+<meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="fr_FR"><meta property="og:locale:alternate" content="ar_AR">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700;800&family=Noto+Kufi+Arabic:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -1354,9 +1354,13 @@ def construire(donnees, sortie, jour):
 
     # ---- Rapports du mois (date du plan du site = date des chiffres)
     lastmod = {}
-    for chemin, contenu, date_chiffres in R.pages(sys.modules[__name__], hist, vis, jour, v, etat):
+    import apercus                     # image d'aperçu PROPRE à chaque rapport (18/10/2026, Ahmed : Facebook montrait l'image du site)
+    for chemin, contenu, date_chiffres, ap in R.pages(sys.modules[__name__], hist, vis, jour, v, etat, images=apercus.disponible()):
         pages.append((chemin, contenu))
         lastmod[chemin] = date_chiffres
+        if ap:                         # rapports/ est refait à chaque passage : pas d'ancienne image qui traîne
+            rel, titre_img, mois_img, chiffre, sous = ap
+            apercus.fabriquer(os.path.join(sortie, rel), titre_img, mois_img, chiffre, sous)
 
     # ---- écriture + plan du site
     ecrire_textes(sortie)

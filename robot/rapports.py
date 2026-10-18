@@ -18,6 +18,7 @@ Aucune estimation : chaque chiffre est un décompte de fiches du site.
     python robot/rapports.py --amorcer-git      (une seule fois : rejoue l'historique git de conferences.json)
 """
 import datetime as dt
+import hashlib
 import json
 import os
 import subprocess
@@ -164,17 +165,29 @@ def bloc_partage(C, url, titre3, haut):
 
 
 # ------------------------------------------------------------------ pages
-def pages(C, hist, vis, jour, v, etat):
-    """Renvoie [(chemin, html, lastmod)] : rapports/ + rapports/AAAA-MM/ pour chaque mois qui a assez d'événements."""
+def pages(C, hist, vis, jour, v, etat, images=False):
+    """Renvoie [(chemin, html, lastmod, aperçu ou None)] : rapports/ + rapports/AAAA-MM/ pour chaque mois qui a assez d'événements.
+    Aperçu = image propre au rapport à dessiner (voir apercu()) ; images=False : image générale du site."""
     res = []
     mois_ok = avec_page(hist)
     if not mois_ok:
         return res
     ids_fiches = {c["id"] for c in vis}
     for cle in mois_ok:
-        res.append(page_mois(C, hist, cle, ids_fiches, jour, v, etat))
-    res.insert(0, page_liste(C, hist, mois_ok, v, etat))
+        res.append(page_mois(C, hist, cle, ids_fiches, jour, v, etat, images))
+    res.insert(0, page_liste(C, hist, mois_ok, v, etat) + (None,))
     return res
+
+
+def apercu(C, cle, e):
+    """Image d'aperçu PROPRE au rapport (18/10/2026, Ahmed) : (fichier, titre, mois, chiffre clé, sous-titre), chiffres de la page.
+    Le nom dépend du contenu : quand les chiffres changent, Facebook prend la nouvelle image."""
+    ch = e["chiffres"]
+    titre = "Conférences scientifiques · Academic conferences"
+    chiffre = f"{pl(ch['evenements'], 'événement', 'événements')} · {ch['pays']} pays"
+    sous = f"{pl(ch['limites'], 'date limite', 'dates limites')} de soumission · chiffres au {C.d3(e['derniere_date'])[0]}"
+    h = hashlib.sha1(f"{titre}|{cle}|{chiffre}|{sous}".encode()).hexdigest()[:8]
+    return (f"{chemin_mois(cle)}apercu-{h}.jpg", titre, C.mois3(cle)[0].lower(), chiffre, sous)
 
 
 def chemin_mois(cle):
@@ -221,7 +234,7 @@ def premiers(compte):
     return sorted(k for k, n in compte.items() if n == m), m
 
 
-def page_mois(C, hist, cle, ids_fiches, jour, v, etat):
+def page_mois(C, hist, cle, ids_fiches, jour, v, etat, images=False):
     L, LL, ISO, E = C.L, C.LL, C.ISO, C.E
     e = hist["mois"][cle]
     ch = e["chiffres"]
@@ -428,11 +441,13 @@ def page_mois(C, hist, cle, ids_fiches, jour, v, etat):
     titre = f"Conférences scientifiques {mfr} : {n} événements, {npays} pays — rapport du mois · Academic conferences {men} | Conference Radar"
     desc = (f"{C.NOM[0]} — rapport du mois. Chiffres au {der3[0]} : {n} conférences, ateliers et écoles scientifiques commencent en {mfr} ({npays} pays) ; "
             f"{ch['limites']} dates limites de soumission. Par domaine, continent et pays, calendrier et méthode. Monthly report, {men}.")
+    ap = apercu(C, cle, e) if images else None
+    img = ap[0] if ap else C.OG_IMAGE
     art = {"@context": "https://schema.org", "@type": "Article", "headline": f"Conférences scientifiques {mfr} : {n} événements, {npays} pays"[:110],
            "inLanguage": ["en", "fr", "ar"], "datePublished": e["premier_jour"], "dateModified": e["derniere_date"], "url": url,
            "author": {"@type": "Organization", "name": "Conference Radar", "url": C.URL_SITE},
            "publisher": {"@type": "Organization", "name": "Conference Radar", "url": C.URL_SITE},
-           "image": C.URL_SITE + C.OG_IMAGE}
+           "image": C.URL_SITE + img}
     fil_ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Conference Radar", "item": C.URL_SITE},
         {"@type": "ListItem", "position": 2, "name": "Rapports du mois", "item": C.URL_SITE + "rapports/"},
@@ -440,7 +455,8 @@ def page_mois(C, hist, cle, ids_fiches, jour, v, etat):
     faq_ld = {"@context": "https://schema.org", "@type": "FAQPage",
               "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r, *_ in faq]}
     ld = jsonld(fil_ld) + jsonld(art) + jsonld(faq_ld)
-    return chemin_mois(cle), C.page(chemin_mois(cle), racine, titre, desc, hero, contenu, v, etat, ld), e["derniere_date"]
+    return (chemin_mois(cle), C.page(chemin_mois(cle), racine, titre, desc, hero, contenu, v, etat, ld, og_image=img, og_type="article"),
+            e["derniere_date"], ap)
 
 
 def page_liste(C, hist, mois_ok, v, etat):

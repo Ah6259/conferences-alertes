@@ -30,7 +30,7 @@ jobs:
           node-version: "22"
       - name: Outils
         run: |
-          pip install --quiet pyyaml
+          pip install --quiet pyyaml pillow
           npm install --no-save --no-package-lock jsdom
 
       - name: Collecte lente des conférences (sources ouvertes)

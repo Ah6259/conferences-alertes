@@ -77,6 +77,11 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 
 - **Google + Bing (12/10/2026)** : sitemap envoyé par Ahmed dans Google Search Console et dans Bing Webmaster Tools (site clicvia.com/), indexation de l'accueil demandée. Pour un nouveau site : mêmes gestes, voir `nouveau site - procedure.md` § 4 étape 5 (dépôt projets-ahmed).
 
+- **Image d'aperçu PROPRE à chaque rapport du mois (18/10/2026, Ahmed : Facebook montrait l'image du site)** : `robot/apercus.py` (Pillow,
+  polices DejaVu dans `robot/polices/`, modèle d'Immobilier Tunisie) dessine `rapports/AAAA-MM/apercu-<empreinte 8>.jpg` 1200 × 630
+  (événements · pays, dates limites, date des chiffres) ; og:image + `image` du JSON-LD Article ; sans Pillow : og-image-v1.jpg.
+  maj.yml et tests.yml installent pillow. **og:locale** : jamais fr_TN / ar_TN (refusés par Facebook) → fr_FR / ar_AR (test).
+  Construction : Python 3.12 obligatoire (f-strings de construire_site.py).
 - **Rapports du mois (18/10/2026, règle commune § 25)** : `robot/rapports.py`, appelé par `construire_site.py` (donc par `maj.yml`, chaque jour).
   Pages `rapports/` (liste) et `rapports/AAAA-MM/` (événements qui COMMENCENT ce mois : types, formats, domaines, continents, pays ≥ 2,
   spécialités ≥ 3, Afrique/Tunisie, dates limites de soumission du mois, calendrier, FAQ, méthode, « Citer ces chiffres » ; JSON-LD

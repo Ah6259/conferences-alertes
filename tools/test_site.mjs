@@ -245,7 +245,7 @@ for (const u of urls) {
   if (!existsSync(join(root, chemin))) { ok.fichiers = false; console.log("   page manquante : " + chemin); continue; }
   const h = lire(chemin);
   if (!(/<title>[^<]{20,}<\/title>/.test(h) && /<meta name="description" content="[^"]{50,}"/.test(h) && h.includes(`<link rel="canonical" href="${u}">`) &&
-      h.includes(`property="og:image" content="${URL_SITE}${chemin === "video/index.html" ? "assets/video/apercu-video.jpg" : "assets/og-image-v1.jpg"}"`) && h.includes('<meta property="og:image:type" content="image/jpeg">') && /name="viewport"/.test(h))) {
+      (/^rapports\/\d{4}-\d{2}\//.test(chemin) ? h.includes(`property="og:image" content="${u}apercu-`) : h.includes(`property="og:image" content="${URL_SITE}${chemin === "video/index.html" ? "assets/video/apercu-video.jpg" : "assets/og-image-v1.jpg"}"`)) && h.includes('<meta property="og:image:type" content="image/jpeg">') && /name="viewport"/.test(h))) {
     ok.seo = false; console.log("   SEO incomplet : " + chemin); }
   if (!(h.match(/\?v=([0-9a-f]+)/g) || []).every(x => x === "?v=" + v) || !/\?v=/.test(h)) { ok.v = false; console.log("   ?v= périmé : " + chemin); }
   if (!/<h1>(<span data-l="fr">[^<]+<\/span><span data-l="en">[^<]+<\/span><span data-l="ar">.+?<\/span>)<\/h1>/.test(h) && !(chemin === "video/index.html" && /<h1 data-ven="[^"]+" data-vfr="[^"]+" data-var="[^"]+">/.test(h))) { ok.h1 = false; console.log("   h1 FR+EN+AR : " + chemin); }
@@ -547,7 +547,19 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
     const meta = n => (D.querySelector(`meta[name="${n}"],meta[property="${n}"]`) || {}).content || "";
     check(`${chemin} : description qui commence par « Radar des conférences — rapport du mois. », og:title / og:description / og:image / og:url justes`,
       meta("description").startsWith("Radar des conférences — rapport du mois.") && meta("og:description") === meta("description") && meta("og:title").length > 10 &&
-      meta("og:url") === adresse && meta("og:image") === URL_SITE + "assets/og-image-v1.jpg" && existsSync(join(root, "assets/og-image-v1.jpg")));
+      meta("og:url") === adresse && (chemin === "rapports/index.html" ? meta("og:image") === URL_SITE + "assets/og-image-v1.jpg" && existsSync(join(root, "assets/og-image-v1.jpg")) : meta("og:image").startsWith(adresse + "apercu-")));
+    // image PROPRE à chaque rapport du mois (18/10/2026, Ahmed : sur Facebook, l'aperçu montrait l'image du site, pas l'article)
+    if (chemin !== "rapports/index.html") {
+      const og = meta("og:image").replace(URL_SITE, ""), dos = chemin.replace("index.html", ""), nom = og.split("/").pop();
+      const art = [...D.querySelectorAll('script[type="application/ld+json"]')].map(x => JSON.parse(x.textContent)).find(x => x["@type"] === "Article") || {};
+      const b = existsSync(join(root, og)) ? readFileSync(join(root, og)) : Buffer.alloc(0);
+      let dim = null;
+      for (let i = 2; b[0] === 0xFF && b[1] === 0xD8 && i < b.length - 8;) { if (b[i] !== 0xFF) break; const t = b[i + 1];
+        if (t >= 0xC0 && t <= 0xC3) { dim = [b.readUInt16BE(i + 7), b.readUInt16BE(i + 5)]; break; } i += 2 + b.readUInt16BE(i + 2); }
+      check(`${chemin} : image d'aperçu propre au rapport (apercu-<empreinte>.jpg dans son dossier, JPEG 1200 × 630 < 250 Ko, aussi dans le JSON-LD Article, og:type article)`,
+        og === dos + nom && /^apercu-[0-9a-f]{8}\.jpg$/.test(nom) && b.length > 0 && b.length < 250 * 1024 && dim && dim[0] === 1200 && dim[1] === 630
+        && art.image === meta("og:image") && meta("og:type") === "article" && readdirSync(join(root, dos)).filter(f => /^apercu-.*\.jpg$/.test(f)).length === 1);
+    }
     // clic sur un téléphone : menu de partage avec titre, texte et lien ; clic compté dans GoatCounter
     let recu = null, compte = null;
     Object.defineProperty(w.navigator, "share", { value: o => { recu = o; return Promise.resolve(); }, configurable: true });
@@ -572,6 +584,14 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
   check("rapports : lien depuis l'accueil et depuis le pied de page commun", lire("index.html").includes('href="rapports/"') && lire("assets/page.js").includes("${racine}rapports/"));
   const wl = await page("rapports/index.html", "lang=fr");
   check("rapports/ : un lien par mois avec rapport", avecPage.every(k => wl.document.querySelector(`#rp-liste a[href="${k}/"]`)) && wl.document.querySelectorAll("#rp-liste li").length === avecPage.length);
+}
+
+// ---- og:locale lisible par Facebook (18/10/2026) : « fr_TN » / « ar_TN » sont REJETÉS par Facebook (« n'a pas pu être analysée en tant
+// que type enum ») et l'aperçu partagé était faux ; valeurs admises : fr_FR, ar_AR, en_US.
+{ const pagesLoc = [...sitemap.matchAll(/<loc>https:\/\/[^/]+\/([^<]*)<\/loc>/g)].map(m => m[1] + "index.html").filter(f => existsSync(join(root, f)));
+  const mauvaises = pagesLoc.filter(f => { const h = lire(f); return /_TN"/.test(h) || [...h.matchAll(/property="og:locale(?::alternate)?" content="([^"]+)"/g)].some(m => !["fr_FR", "ar_AR", "en_US"].includes(m[1])); });
+  check(`og:locale admis par Facebook (fr_FR / ar_AR / en_US, jamais fr_TN ni ar_TN) sur les ${pagesLoc.length} pages du plan du site`, pagesLoc.length > 3 && mauvaises.length === 0);
+  if (mauvaises.length) console.log("   og:locale refusé : " + mauvaises.slice(0, 5).join(", "));
 }
 
 console.log(`\n${total - erreurs}/${total} vérifications réussies` + (erreurs ? ` — ${erreurs} ÉCHEC(S) : ne pas publier.` : " — tout est bon."));
