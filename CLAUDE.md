@@ -89,5 +89,6 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   **Partage (18/10/2026, demande d'Ahmed)** : UN SEUL bouton « Partager ce rapport » en haut ET en bas (`bloc_partage()` de rapports.py,
   `button[data-partage-rapport]`, classe `.rp-partager` — jamais `.partager`, bouton rond de l'en-tête) : menu du téléphone (`navigator.share`),
   sinon « texte + lien » copié (« Lien copié ✓ »), sinon fenêtre ; code dans page.js, clic compté `partage/rapports/…`. Texte partagé =
-  « <titre> — Rapport du mois de Radar des conférences (conferences.clicvia.com) : » ; signature `.rp-signature` sous le titre ;
+  « <titre> — Rapport du mois de Radar des conférences : », SANS AUCUNE adresse (Facebook prend la 1re adresse du
+  texte et montre l'aperçu de l'ACCUEIL) : le lien du rapport va seulement dans `url` de navigator.share (copie sur ordinateur : texte + lien) ; signature `.rp-signature` sous le titre ;
   description qui commence par « Radar des conférences — rapport du mois. ». Pas de boutons Facebook/WhatsApp séparés (testé).

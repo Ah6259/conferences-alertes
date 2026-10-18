@@ -537,9 +537,11 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
     check(`${chemin} : aucun bouton Facebook / WhatsApp / LinkedIn séparé`, !/sharer|wa\.me|linkedin\.com\/share|facebook\.com\/share/i.test(brut));
     check(`${chemin} : aide « Facebook, WhatsApp, LinkedIn… » sous chaque bouton, dans les 3 langues`,
       bs.every(b => { const a = b.closest("section").querySelector(".rp-partage-aide"); return a && a.querySelectorAll("[data-l]").length === 3 && /LinkedIn/.test(a.textContent); }));
-    check(`${chemin} : le texte partagé nomme le site, dans les 3 langues`,
-      bs.every(b => b.dataset.texteFr.endsWith("— Rapport du mois de Radar des conférences (conferences.clicvia.com) :") &&
-        b.dataset.texteEn.endsWith("— Monthly report by Conference Radar (conferences.clicvia.com):") && b.dataset.texteAr.includes("رادار المؤتمرات (conferences.clicvia.com)")));
+    check(`${chemin} : le texte partagé nomme le site (sans adresse), dans les 3 langues`,
+      bs.every(b => b.dataset.texteFr.endsWith("— Rapport du mois de Radar des conférences :") &&
+        b.dataset.texteEn.endsWith("— Monthly report by Conference Radar:") && b.dataset.texteAr.endsWith("— تقرير الشهر من رادار المؤتمرات:")));
+    check(`${chemin} : le texte partagé ne contient AUCUNE adresse (sinon Facebook montre l'aperçu de l'accueil) ; l'adresse va seulement dans « url »`,
+      bs.every(b => ["Fr", "En", "Ar"].every(l => !/clicvia|https?:|www\.|\.com/i.test(b.dataset["texte" + l]))));
     const sig = D.querySelector(".hero .rp-signature");
     check(`${chemin} : signature « Un rapport de Radar des conférences · conferences.clicvia.com » sous le titre`,
       !!sig && sig.previousElementSibling && sig.previousElementSibling.tagName === "H1" && /Un rapport de Radar des conférences · conferences\.clicvia\.com/.test(texte(sig)) && sig.querySelectorAll("[data-l]").length === 3);

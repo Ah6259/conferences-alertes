@@ -145,12 +145,13 @@ def signature(C):
 
 def bloc_partage(C, url, titre3, haut):
     """UN SEUL bouton « Partager ce rapport » : menu de partage du téléphone (Facebook, WhatsApp, LinkedIn…), sinon lien copié.
-    Le texte partagé dit de quel site vient l'article. Le code est dans assets/page.js (CSP : pas de script en ligne)."""
+    Le texte partagé dit de quel site vient l'article, SANS adresse (Facebook prendrait la 1re adresse du texte
+    et montrerait l'aperçu de l'accueil) : l'adresse du rapport passe seulement dans le champ url. Le code est dans assets/page.js (CSP : pas de script en ligne)."""
     fr, en, ar = C.NOM
     tf, te, ta = (str(x).replace("\u2066", "").replace("\u2069", "") for x in titre3)
-    textes = {"fr": f"{tf} — Rapport du mois de {fr} ({DOMAINE}) :",
-              "en": f"{te} — Monthly report by {en} ({DOMAINE}):",
-              "ar": f"{ta} — تقرير الشهر من {ar} ({DOMAINE}):"}
+    textes = {"fr": f"{tf} — Rapport du mois de {fr} :",
+              "en": f"{te} — Monthly report by {en}:",
+              "ar": f"{ta} — تقرير الشهر من {ar}:"}
     attrs = "".join(f' data-titre-{k}="{C.E(t)}"' for k, t in zip(("fr", "en", "ar"), (tf, te, ta)))
     attrs += "".join(f' data-texte-{k}="{C.E(t)}"' for k, t in textes.items())
     ico = ('<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/>'
