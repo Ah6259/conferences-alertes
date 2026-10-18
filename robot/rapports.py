@@ -159,7 +159,6 @@ def bloc_partage(C, url, titre3, haut):
     return (f'<section class="carte rp-partage{" rp-partage-haut" if haut else " rp-partage-bas"}">'
             f'<button type="button" class="rp-partager" data-partage-rapport data-url="{C.E(url)}"{attrs}>{ico}'
             f'<span>{C.L("Partager ce rapport", "Share this report", "شارك هذا التقرير")}</span></button>'
-            f'<p class="rp-partage-aide">{C.L("Facebook, WhatsApp, LinkedIn… : le menu de votre téléphone s’ouvre.", "Facebook, WhatsApp, LinkedIn…: your phone’s share menu opens.", "فيسبوك، واتساب، لينكدإن…: تُفتح قائمة المشاركة في هاتفك.")}</p>'
             f'<p class="rp-copie" role="status" hidden>{C.L("Lien copié ✓ — collez-le où vous voulez", "Link copied ✓ — paste it wherever you like", "تم نسخ الرابط ✓ — الصقه حيث تشاء")}</p>'
             f'</section>')
 

@@ -535,8 +535,7 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
       bs.length === 2 && bs.every(b => b.dataset.url === adresse && main.contains(b) && !b.classList.contains("partager") && /Partager ce rapport/.test(texte(b))) &&
       main.firstElementChild.nextElementSibling === bs[0].closest("section") && bs[1].closest("section") === main.lastElementChild);
     check(`${chemin} : aucun bouton Facebook / WhatsApp / LinkedIn séparé`, !/sharer|wa\.me|linkedin\.com\/share|facebook\.com\/share/i.test(brut));
-    check(`${chemin} : aide « Facebook, WhatsApp, LinkedIn… » sous chaque bouton, dans les 3 langues`,
-      bs.every(b => { const a = b.closest("section").querySelector(".rp-partage-aide"); return a && a.querySelectorAll("[data-l]").length === 3 && /LinkedIn/.test(a.textContent); }));
+    check(`${chemin} : plus de phrase d'aide sous le bouton (demande d'Ahmed)`, !/rp-partage-aide|LinkedIn… :/.test(brut));
     check(`${chemin} : le texte partagé nomme le site (sans adresse), dans les 3 langues`,
       bs.every(b => b.dataset.texteFr.endsWith("— Rapport du mois de Radar des conférences :") &&
         b.dataset.texteEn.endsWith("— Monthly report by Conference Radar:") && b.dataset.texteAr.endsWith("— تقرير الشهر من رادار المؤتمرات:")));
