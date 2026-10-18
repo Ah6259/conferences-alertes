@@ -10,6 +10,7 @@ Pages produites (racine du dépôt) :
   continent/<continent>/, pays/<code>/   par continent, par pays (au moins 3 conférences)
   mois/<AAAA-MM>/                    par mois de l'événement
   conference/<id>/                   fiche de chaque conférence (JSON-LD Event)
+  rapports/, rapports/<AAAA-MM>/      « Rapports du mois » (robot/rapports.py, historique donnees/rapports.json)
   flux/ + flux/*.xml                 flux Atom gratuits par domaine et par spécialité
   a-propos/, publier/, abonnement/, abonnement/conditions/, sitemap.xml
 
@@ -34,6 +35,7 @@ sys.path.insert(0, ICI)
 import classement as K   # noqa: E402
 import reglages          # noqa: E402
 import sources as S      # noqa: E402
+import rapports as R     # noqa: E402
 
 RACINE_SITE = os.path.dirname(ICI)
 URL_SITE = "https://conferences.clicvia.com/"
@@ -1026,7 +1028,7 @@ def ecrire(sortie, chemin, contenu):
 PREMIERE = [""]     # date de la toute première collecte : rien n'est « Nouveau » ce jour-là
 
 
-DOSSIERS_GENERES = ("domaine", "specialite", "continent", "pays", "mois", "conference", "flux")
+DOSSIERS_GENERES = ("domaine", "specialite", "continent", "pays", "mois", "conference", "flux", "rapports")
 
 
 def construire(donnees, sortie, jour):
@@ -1077,6 +1079,12 @@ def construire(donnees, sortie, jour):
     etat = {"maj": maj, "maj_texte": maj_texte, "panne": panne, "message": message}
 
     vis = a_venir(confs, jour)
+    # « Rapports du mois » (18/10/2026) : historique mis à jour avec les conférences du site ; jamais avec des données de secours
+    chemin_hist = os.path.join(sortie, "donnees", "rapports.json")
+    hist = R.charger(chemin_hist)
+    if not repli:
+        R.mettre_a_jour(hist, confs, jour)
+    mois_rapports = set(R.avec_page(hist))
     v = "__V__"               # remplacé à l'écriture par l'empreinte des fichiers (textes.js est fabriqué pendant la construction)
     adr = adresses()
     pages = []
@@ -1130,6 +1138,7 @@ def construire(donnees, sortie, jour):
 {grille(paires_pays(vis), "", "pays", "grille-pays")}
 <h2 class="titre-section" id="mois">{L("Par mois", "By month", "حسب الشهر")}</h2>
 {grille(paires_mois(vis), "", "mois", "grille-mois", classe="mois")}
+{f'<p class="lien-rapports"><a href="rapports/">{L("Rapports du mois : les conférences en chiffres", "Monthly reports: conferences in figures", "تقارير الشهر: المؤتمرات بالأرقام")}</a></p>' if mois_rapports else ""}
 <section class="carte" style="margin-top:18px">
   <h2>{L("Comment ça marche ?", "How does it work?", "كيف يعمل الموقع؟")}</h2>
   <ol class="etapes" data-l="fr">
@@ -1219,6 +1228,8 @@ def construire(donnees, sortie, jour):
         hero = f"""{fil("../../", L("Mois", "Months", "الأشهر"))}
     <h1>{L(f"Conférences de {n3[0].lower()}", f"Conferences in {n3[1]}", f"مؤتمرات {n3[2]}")}</h1>
     <p class="intro">{L(f"{len(sel)} conférences commencent ce mois-là.", f"{len(sel)} conferences start that month.", f"{ISO(len(sel))} مؤتمر يبدأ في هذا الشهر.")}</p>"""
+        if cle in mois_rapports:
+            hero += f'\n    <p class="intro"><a class="lien-rapport" href="../../rapports/{cle}/">{L("Le rapport du mois en chiffres", "The monthly report in figures", "تقرير الشهر بالأرقام")}</a></p>'
         apres = f'<h2 class="titre-section">{L("Autres mois", "Other months", "أشهر أخرى")}</h2>{grille(paires_mois(vis), "../../", "mois", "grille-mois", cle, "mois")}'
         titre = f"Academic conferences {n3[1]}: {len(sel)} conferences · Conférences {n3[0].lower()} | Conference Radar"
         desc = f"Academic conferences starting in {n3[1]}, with submission deadlines and official links. Conférences scientifiques de {n3[0].lower()}."
@@ -1341,6 +1352,12 @@ def construire(donnees, sortie, jour):
     # ---- Alertes Pro
     pages += pages_abonnement(vis, adr, v, etat)
 
+    # ---- Rapports du mois (date du plan du site = date des chiffres)
+    lastmod = {}
+    for chemin, contenu, date_chiffres in R.pages(sys.modules[__name__], hist, vis, jour, v, etat):
+        pages.append((chemin, contenu))
+        lastmod[chemin] = date_chiffres
+
     # ---- écriture + plan du site
     ecrire_textes(sortie)
     v = version_assets(sortie)
@@ -1348,9 +1365,10 @@ def construire(donnees, sortie, jour):
         ecrire(sortie, chemin + "index.html", contenu.replace("__V__", v))
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for chemin, _ in pages:
-        sitemap.append(f"  <url><loc>{URL_SITE}{chemin}</loc><lastmod>{jour}</lastmod></url>")
+        sitemap.append(f"  <url><loc>{URL_SITE}{chemin}</loc><lastmod>{lastmod.get(chemin, jour)}</lastmod></url>")
     sitemap.append("</urlset>")
     ecrire(sortie, "sitemap.xml", "\n".join(sitemap) + "\n")
+    R.sauver(chemin_hist, hist)
     # pages vidéo (video/) tirées de la page À propos : mêmes en-tête, pied, CSP et ?v= (tools/page_video.py)
     sys.path.insert(0, os.path.join(RACINE_SITE, "tools"))
     from page_video import pages_video

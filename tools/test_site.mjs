@@ -462,5 +462,68 @@ check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de 
   fouiller("");
   check(`langues : aucune page (${toutes.length}) ne déclare un hreflang vers « ?lang= »`, toutes.length > 100 && toutes.every(f => !/hreflang="[a-z-]+" href="[^"]*[?]lang=/.test(lire(f)))); }
 
+// ---- Rapports du mois (18/10/2026, règle commune § 25) : chaque chiffre = un décompte des fiches, cohérent avec les autres pages
+{
+  const H = JSON.parse(lire("donnees/rapports.json")).mois;
+  const MIN = 10, cleJ = JOUR.slice(0, 7);
+  const avecPage = Object.keys(H).filter(k => (H[k].conferences || []).filter(c => c.debut.slice(0, 7) === k).length >= MIN).sort();
+  const lm = Object.fromEntries([...sitemap.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)].map(m => [m[1], m[2]]));
+  check(`rapports : ${avecPage.length} mois avec rapport (au moins ${MIN} événements)`, avecPage.length >= 1);
+  check("rapports : liste rapports/ et chaque mois dans le plan du site, date = date des chiffres, adresse « rapports/AAAA-MM/ »",
+    urls.includes(URL_SITE + "rapports/") && avecPage.every(k => lm[URL_SITE + `rapports/${k}/`] === H[k].derniere_date) &&
+    urls.filter(u => u.includes("/rapports/") && u !== URL_SITE + "rapports/").every(u => /^\/rapports\/\d{4}-\d{2}\/$/.test(new URL(u).pathname) && avecPage.includes(new URL(u).pathname.slice(10, 17))));
+  check("rapports : aucun mois sous le minimum n'a de page", Object.keys(H).filter(k => !avecPage.includes(k)).every(k => !existsSync(join(root, `rapports/${k}/index.html`))));
+  check("rapports : un mois fini a toujours sa date des chiffres dans ce mois-là, et seul le mois en cours n'est pas figé",
+    Object.entries(H).every(([k, e]) => e.derniere_date.slice(0, 7) === k && (k < cleJ ? e.fini === true : !e.fini)));
+  for (const k of avecPage) {
+    const e = H[k], ev = e.conferences.filter(c => c.debut.slice(0, 7) === k);
+    const lims = e.conferences.flatMap(c => (c.limites || []).map(x => ({ ...x, id: c.id })));
+    const w = await page(`rapports/${k}/index.html`, "lang=fr");
+    const D = w.document;
+    const n = +texte(D.querySelector("#rp-n b"));
+    check(`rapport ${k} : ${n} événements = fiches qui commencent ce mois (${ev.length}) = chiffres enregistrés`, n === ev.length && n === e.chiffres.evenements);
+    check(`rapport ${k} : calendrier = ces ${ev.length} événements, une ligne chacun`, D.querySelectorAll("#calendrier li").length === ev.length &&
+      [...D.querySelectorAll("#calendrier li")].every(li => ev.some(c => c.id === li.dataset.id)));
+    check(`rapport ${k} : ${lims.length} dates limites de soumission, toutes dans ce mois, = chiffre affiché`,
+      +texte(D.querySelector("#rp-limites b")) === lims.length && D.querySelectorAll("#dates-limites li").length === lims.length &&
+      [...D.querySelectorAll("#dates-limites li")].every(li => li.dataset.d.slice(0, 7) === k));
+    const pays = new Set(ev.filter(c => c.pays && c.mode !== "en-ligne").map(c => c.pays));
+    check(`rapport ${k} : ${pays.size} pays (sur place ou hybride) = chiffre affiché`, +texte(D.querySelector("#rp-pays b")) === pays.size);
+    const lignesDom = [...D.querySelectorAll("section.rp")].find(s => /Par domaine/.test(texte(s.querySelector("h2"))));
+    check(`rapport ${k} : tableau par domaine = décompte des fiches`, !!lignesDom && [...lignesDom.querySelectorAll("tbody tr")].every(tr => {
+      const nb = +texte(tr.querySelector("td.n")); const nom = texte(tr.querySelector("th"));
+      return nb > 0 && ev.filter(c => c.domaines.some(dm => nom.includes(({ comptabilite: "Comptabilité", finance: "Finance", "finance-islamique": "Finance islamique", informatique: "Informatique", physique: "Physique", "vie-sante": "vie", ingenierie: "Ingénierie" })[dm] || "§"))).length >= nb; }));
+    let ld = [];
+    try { ld = [...lire(`rapports/${k}/index.html`).matchAll(/<script type="application\/ld\+json">\n([\s\S]*?)\n<\/script>/g)].map(m => JSON.parse(m[1])); } catch (x) { ld = []; }
+    const art = ld.find(x => x["@type"] === "Article"), fq = ld.find(x => x["@type"] === "FAQPage");
+    check(`rapport ${k} : JSON-LD fil d'Ariane + Article (date des chiffres) + FAQ dont la 1re réponse donne le même nombre`,
+      ld.some(x => x["@type"] === "BreadcrumbList") && art && art.dateModified === e.derniere_date && art.url === URL_SITE + `rapports/${k}/` &&
+      fq && fq.mainEntity.length >= 3 && fq.mainEntity[0].acceptedAnswer.text.startsWith(`${ev.length} événements`));
+    const main = texte(D.querySelector("main"));
+    check(`rapport ${k} : « Citer ces chiffres » avec l'adresse, méthode, date des chiffres`,
+      main.includes("Citer ces chiffres") && main.includes(URL_SITE + `rapports/${k}/`) && /Comment ces chiffres sont calculés/.test(main) && /Aucune estimation/.test(main));
+    check(`rapport ${k} : évolution seulement si le mois précédent a un rapport`,
+      (() => { const a = +k.slice(0, 4), m = +k.slice(5, 7); const prec = m === 1 ? `${a - 1}-12` : `${a}-${String(m - 1).padStart(2, "0")}`;
+        return avecPage.includes(prec) ? main.includes("Évolution") && !!D.querySelector(`a[href="../${prec}/"]`) : main.includes("pas encore de comparaison"); })());
+    if (k === cleJ) {
+      const duMois = avenir.filter(c => c.debut.slice(0, 7) === k);
+      const cartesMois = existsSync(join(root, `mois/${k}/index.html`)) ? (lire(`mois/${k}/index.html`).match(/<article class="cf/g) || []).length : 0;
+      check(`rapport ${k} : « pas encore terminés » = ${duMois.length} = cartes de la page mois/${k}/ (${cartesMois})`,
+        new RegExp(`${duMois.length} pas encore terminé`).test(main) && cartesMois === duMois.length);
+      check(`rapport ${k} : chaque conférence encore à venir du mois est dans le calendrier, avec sa fiche`,
+        duMois.every(c => { const a = D.querySelector(`#calendrier li[data-id="${c.id}"] a`); return a && a.getAttribute("href") === `../../conference/${c.id}/` && existsSync(join(root, `conference/${c.id}/index.html`)); }));
+      const limAVenir = avenir.flatMap(c => c.dates_limites.filter(x => (x.type === "article" || x.type === "resume") && x.date.slice(0, 7) === k).map(x => c.id + x.date));
+      check(`rapport ${k} : toutes les dates limites du mois des fiches actuelles (${limAVenir.length}) sont dans le rapport`,
+        limAVenir.every(x => lims.some(l => l.id + l.date === x)));
+      check(`page mois/${k}/ : lien vers le rapport du mois (si la page existe encore), et le rapport n'y renvoie que si elle existe`,
+        existsSync(join(root, `mois/${k}/index.html`)) ? lire(`mois/${k}/index.html`).includes(`href="../../rapports/${k}/"`) && !!D.querySelector(`a[href="../../mois/${k}/"]`)
+          : !D.querySelector(`a[href="../../mois/${k}/"]`));
+    }
+  }
+  check("rapports : lien depuis l'accueil et depuis le pied de page commun", lire("index.html").includes('href="rapports/"') && lire("assets/page.js").includes("${racine}rapports/"));
+  const wl = await page("rapports/index.html", "lang=fr");
+  check("rapports/ : un lien par mois avec rapport", avecPage.every(k => wl.document.querySelector(`#rp-liste a[href="${k}/"]`)) && wl.document.querySelectorAll("#rp-liste li").length === avecPage.length);
+}
+
 console.log(`\n${total - erreurs}/${total} vérifications réussies` + (erreurs ? ` — ${erreurs} ÉCHEC(S) : ne pas publier.` : " — tout est bon."));
 process.exit(erreurs ? 1 : 0);

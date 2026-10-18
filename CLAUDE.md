@@ -76,3 +76,13 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 - **Visibilité Google (12/10/2026, règle commune § 8)** : liens vers nos autres sites en `https://<site>.clicvia.com/` (jamais `ah6259.github.io`), lien « Tous nos services » → https://clicvia.com/ dans le pied de page, `robots.txt` avec ligne Sitemap, `sitemap.xml` daté, JSON-LD sur l'accueil, clé IndexNow `377f054ba9c5ed40d6796adc8d87d1e8.txt` à la racine (ne pas supprimer : robot `indexnow` du portail). Contrôle : `node "outils visibilite/controle.mjs"` (dépôt projets-ahmed). Sitemap envoyé dans Search Console par Ahmed le 12/10/2026.
 
 - **Google + Bing (12/10/2026)** : sitemap envoyé par Ahmed dans Google Search Console et dans Bing Webmaster Tools (site clicvia.com/), indexation de l'accueil demandée. Pour un nouveau site : mêmes gestes, voir `nouveau site - procedure.md` § 4 étape 5 (dépôt projets-ahmed).
+
+- **Rapports du mois (18/10/2026, règle commune § 25)** : `robot/rapports.py`, appelé par `construire_site.py` (donc par `maj.yml`, chaque jour).
+  Pages `rapports/` (liste) et `rapports/AAAA-MM/` (événements qui COMMENCENT ce mois : types, formats, domaines, continents, pays ≥ 2,
+  spécialités ≥ 3, Afrique/Tunisie, dates limites de soumission du mois, calendrier, FAQ, méthode, « Citer ces chiffres » ; JSON-LD
+  fil d'Ariane + Article + FAQ). Décomptes seulement (pas de frais d'inscription : absents des sources), rien du dépôt privé.
+  Historique `donnees/rapports.json` : mois en cours recalculé à chaque passage (conférence terminée = gardée, retirée avant sa fin =
+  oubliée) ; mois fini = figé pour toujours ; pas de page sous 10 événements ; évolution seulement si le mois précédent a un rapport.
+  Amorcé le 18/10 depuis l'historique git (`python robot/rapports.py --amorcer-git`, relevés depuis le 09/10/2026). Plan du site :
+  lastmod = date des chiffres. Liens : pied de page (page.js), accueil (« Par mois ») et pages `mois/AAAA-MM/`. Le robot Facebook
+  du portail publie chaque `rapports/AAAA-MM/`. Tests : bloc « Rapports du mois » de test_site.mjs + section F de test_pannes.py.

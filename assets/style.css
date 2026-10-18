@@ -390,3 +390,21 @@ html[dir="rtl"] .paie-etapes>li::before{left:auto;right:12px}
 .avis-merci-titre{font-size:19px;font-weight:800;color:#1F7A47}
 .btn-avis-autre{font:inherit;font-weight:700;margin-top:6px;padding:9px 14px;border-radius:10px;border:1.5px solid #1F7A47;background:#fff;color:#1F7A47;cursor:pointer}
 .avis-merci:focus{outline:none}
+/* Rapports du mois (18/10/2026) */
+.rp h2{margin-top:0}
+.rp-bref{margin:0;padding-inline-start:20px}
+.rp-bref li{margin:6px 0;line-height:1.5}
+.rp-tab{overflow-x:auto;max-width:100%}
+.rp-tab table{width:100%;border-collapse:collapse;font-size:14.5px}
+.rp-tab th,.rp-tab td{padding:7px 6px;border-bottom:1px solid var(--ligne);text-align:start;vertical-align:top}
+.rp-tab thead th{font-size:12.5px;color:var(--doux);font-weight:700}
+.rp-tab .n{text-align:end;font-variant-numeric:tabular-nums;white-space:nowrap}
+.rp-cal{margin:0;padding-inline-start:22px}
+.rp-cal li{margin:8px 0;line-height:1.45;overflow-wrap:anywhere}
+.rp-date{display:inline-block;font-weight:700;color:var(--bleu);margin-inline-end:6px}
+.rp-info{display:block;font-size:13px;color:var(--doux)}
+.rp details{border-bottom:1px solid var(--ligne);padding:8px 0}
+.rp summary{cursor:pointer;font-weight:700}
+.rp-citer{background:var(--or-clair);border-radius:12px;padding:10px 12px;font-size:14px;overflow-wrap:anywhere}
+.lien-rapports{margin:12px 0 0;font-weight:700}
+.hero .lien-rapport{color:#fff;font-weight:700;text-decoration:underline}

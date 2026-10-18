@@ -48,6 +48,7 @@
           <a href="${racine}#specialites">${T("Par spécialité", "By specialty", "حسب التخصص")}</a>
           <a href="${racine}#lieux">${T("Par pays", "By country", "حسب البلد")}</a>
           <a href="${racine}flux/">${T("Alertes gratuites (RSS)", "Free alerts (RSS)", "تنبيهات مجانية (RSS)")}</a>
+          <a href="${racine}rapports/">${T("Rapports du mois", "Monthly reports", "تقارير الشهر")}</a>
           <a href="${racine}abonnement/">${T("Alertes Pro (abonnement)", "Pro Alerts (subscription)", "تنبيهات Pro (اشتراك)")}</a>
           <a href="${racine}publier/">${T("Signaler une conférence", "Submit a conference", "أضف مؤتمرًا")}</a>
           <a href="${racine}a-propos/">${T("À propos et sources", "About and sources", "من نحن والمصادر")}</a>

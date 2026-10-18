@@ -13,6 +13,8 @@ B. Collecte (collecter.py) : source injoignable, vide, format changé, chute bru
 C. Construction (construire_site.py) : JSON corrompu, chute, aucune donnée, panne d'un jour / de 3 jours, retour à la normale.
 D. Formulaire des organisateurs (CSV) : réponses invalides refusées.
 E. Telegram par domaine : sans secret rien ; jamais deux fois ; erreur -> renvoi au passage suivant.
+F. Rapports du mois (rapports.py) : terminées gardées, retirées avant leur fin oubliées, mois fini figé pour toujours,
+   jamais de retour en arrière, évolution seulement avec un mois précédent, pas de page sous le minimum.
 """
 import datetime as dt
 import io
@@ -32,6 +34,7 @@ import construire_site as C  # noqa: E402
 import organisateurs as O   # noqa: E402
 import sources as S         # noqa: E402
 import telegram as T        # noqa: E402
+import rapports as RP       # noqa: E402
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -293,6 +296,71 @@ finally:
     os.environ.pop("TELEGRAM_BOT_TOKEN", None)
     os.environ.pop("TELEGRAM_CANAUX", None)
     shutil.rmtree(tmp, ignore_errors=True)
+
+# ------------------------------------------------------------------ F. rapports du mois
+def conf_r(i, debut, fin, pays="FR", limites=()):
+    return {"id": i, "acronyme": i.upper(), "titre": "Conf " + i, "annee": 2026, "type": "conference", "debut": debut, "fin": fin,
+            "ville": "Paris", "pays": pays, "mode": "presentiel", "continent": "europe" if pays == "FR" else "afrique",
+            "domaines": ["informatique"], "specialites": ["securite"], "lien": "https://x.org/",
+            "dates_limites": [{"date": d, "type": "article"} for d in limites]}
+
+
+base = [conf_r(f"c{k}", f"2026-10-{10 + k:02d}", f"2026-10-{11 + k:02d}") for k in range(12)]
+base.append(conf_r("tn", "2026-10-25", "2026-10-26", pays="TN"))
+base.append(conf_r("nov", "2026-11-05", "2026-11-06", limites=("2026-10-20",)))
+h = {"mois": {}}
+RP.mettre_a_jour(h, base, "2026-10-09")
+e = h["mois"]["2026-10"]
+check("rapports : 13 événements commencent en octobre ; la date limite d'octobre d'une conférence de novembre est comptée",
+      e["chiffres"]["evenements"] == 13 and e["chiffres"]["limites"] == 1 and e["chiffres"]["tunisie"] == 1 and e["premier_jour"] == "2026-10-09")
+# c0 et c1 terminées (disparues des données), c5 retirée AVANT sa fin (annulée / corrigée)
+jour2 = "2026-10-14"
+restantes = [c for c in base if c["id"] not in ("c0", "c1", "c5")]
+RP.mettre_a_jour(h, restantes, jour2)
+ids = {c["id"] for c in h["mois"]["2026-10"]["conferences"]}
+check("rapports : conférences terminées gardées, conférence retirée avant sa fin oubliée", {"c0", "c1"} <= ids and "c5" not in ids
+      and h["mois"]["2026-10"]["chiffres"]["evenements"] == 12 and h["mois"]["2026-10"]["derniere_date"] == jour2)
+avant = json.dumps(h["mois"]["2026-10"], sort_keys=True)
+RP.mettre_a_jour(h, base, "2026-10-12")
+check("rapports : jamais de retour en arrière (date plus ancienne ignorée)", json.dumps(h["mois"]["2026-10"], sort_keys=True) == avant)
+# conférence déplacée en novembre : ne compte plus pour octobre
+deplacee = [dict(c, debut="2026-11-20", fin="2026-11-21") if c["id"] == "c11" else c for c in restantes]
+RP.mettre_a_jour(h, deplacee, "2026-10-15")
+check("rapports : conférence déplacée à un autre mois retirée du mois", "c11" not in {c["id"] for c in h["mois"]["2026-10"]["conferences"]})
+fige = json.dumps(h["mois"]["2026-10"], sort_keys=True)
+# passage en novembre : octobre figé, plus jamais modifié
+RP.mettre_a_jour(h, [conf_r("x", "2026-10-30", "2026-11-02")] + deplacee, "2026-11-01")
+check("rapports : au 1er novembre, octobre est figé et n'a pas changé", h["mois"]["2026-10"]["fini"] is True
+      and json.dumps(dict(h["mois"]["2026-10"], fini=False), sort_keys=True) == fige)
+RP.mettre_a_jour(h, [], "2026-11-02")
+check("rapports : un mois fini n'est plus jamais modifié, même si les données changent", json.dumps(dict(h["mois"]["2026-10"], fini=False), sort_keys=True) == fige)
+check("rapports : novembre (moins de 10 événements) n'a pas de page ; octobre en a une", RP.avec_page(h) == ["2026-10"])
+tmp_r = tempfile.mkdtemp()
+try:
+    for c in deplacee:
+        c.setdefault("ajoute_le", "2026-10-09")
+        c.setdefault("sources", ["ccfddl"])
+    vis = C.a_venir(C.nettoyer(deplacee), "2026-11-02")
+    etat_t = {"maj": "2026-11-02 05:20", "maj_texte": "02/11/2026", "panne": False, "message": ""}
+    pg = RP.pages(C, h, vis, "2026-11-02", "v1", etat_t)
+    chemins = [x[0] for x in pg]
+    html_oct = dict((x[0], x[1]) for x in pg).get("rapports/2026-10/", "")
+    check("rapports : pages rapports/ + rapports/2026-10/, date des chiffres = dernier jour relevé d'octobre",
+          chemins == ["rapports/", "rapports/2026-10/"] and pg[1][2] == "2026-10-15")
+    check("rapports : mois fini = « chiffres arrêtés », premier rapport = « pas encore de comparaison »",
+          "chiffres arrêtés au 15 oct. 2026" in html_oct and "pas encore de comparaison" in html_oct and "pas encore terminé" not in html_oct)
+    # mois suivant avec assez d'événements -> évolution
+    nov = [conf_r(f"n{k}", f"2026-11-{3 + k:02d}", f"2026-11-{4 + k:02d}") for k in range(11)]
+    RP.mettre_a_jour(h, nov, "2026-11-02")
+    pg = RP.pages(C, h, vis, "2026-11-02", "v1", etat_t)
+    html_nov = dict((x[0], x[1]) for x in pg).get("rapports/2026-11/", "")
+    check("rapports : évolution affichée seulement quand le mois précédent a un rapport", "Évolution" in html_nov and 'href="../2026-10/"' in html_nov
+          and "Évolution" not in dict((x[0], x[1]) for x in pg)["rapports/2026-10/"])
+    RP.sauver(os.path.join(tmp_r, "donnees", "rapports.json"), h)
+    check("rapports : historique enregistré puis relu à l'identique", RP.charger(os.path.join(tmp_r, "donnees", "rapports.json")) == json.loads(json.dumps(h)))
+    check("rapports : historique illisible -> repart de zéro sans planter", RP.charger(os.path.join(tmp_r, "absent.json")) == {"mois": {}})
+finally:
+    shutil.rmtree(tmp_r, ignore_errors=True)
 
 print(f"\n{total - erreurs}/{total} scénarios réussis" + (f" — {erreurs} ÉCHEC(S) : ne pas publier." if erreurs else " — tout est bon."))
 sys.exit(1 if erreurs else 0)
