@@ -418,6 +418,13 @@ const pay = d.getElementById("paiement");
 check("bouton « Paiement » qui déplie D17 et IZI (liens vers les applications officielles, mode d'emploi, plus de Wafacash) au 24 321 390 + montant + motif", pay && pay.tagName === "DETAILS" && !pay.open &&
   ["D17", "IZI", "Transfert rapide"].every(m => texte(pay).includes(m)) && (texte(pay).match(/24 321 390/g) || []).length >= 1 && /Motif/.test(texte(pay)) && !/Wafacash/i.test(pay.outerHTML) && ["tn.mobipost", "tn.izi.consumer", "id1475640303", "id1603653941"].every(u => pay.querySelector(`a[href*="${u}"]`)));
 check("paiement : logos D17 / IZI dans les boutons, étape 2 pour les deux applications, bouton « ? » avec les deux écrans d'exemple", ["d17.png", "izi.png", "transfert-d17.svg", "transfert-izi.svg"].every(f => existsSync(join(root, "assets/paiement", f))) && /class="appli-btn"[^>]*><img src="\.\.\/assets\/paiement\/d17\.png"/.test(lire("abonnement/index.html")) && /class="aide-transfert"/.test(lire("abonnement/index.html")) && /Transfert d’argent/.test(lire("abonnement/index.html")));
+{ // 18/10/2026 : le motif du paiement est le CODE PERSONNEL donné à l'inscription (#abo-code) — jamais « votre nom » / « nom de l'entreprise » ailleurs sur la page ou dans les conditions
+  const sansBalises = f => lire(f).replace(/<[^>]*>/g, " ");
+  const contradictions = [/pour motif (votre nom|le nom)/, /name as reference/, /motif du paiement et facture/];
+  check("paiement : motif = code personnel partout (page d'abonnement + conditions), aucune phrase « motif = nom »",
+    /id="abo-code"/.test(lire("abonnement/index.html")) && /motif[^.]{0,40}code personnel/.test(sansBalises("abonnement/index.html")) && /code personnel/.test(sansBalises("abonnement/conditions/index.html")) &&
+    ["abonnement/index.html", "abonnement/conditions/index.html"].every(f => contradictions.every(r => !r.test(sansBalises(f)))));
+}
 check("paiement simple et rassurant (règle commune du 08/10/2026) : 3 étapes numérotées, phrase de confiance, description de l'offre cachée quand « Paiement » est ouvert", /<ol class="paie-etapes">/.test(lire("abonnement/index.html")) && /class="paie-confiance"/.test(lire("abonnement/index.html")) && /class="avantages[^"]*masque-si-paiement/.test(lire("abonnement/index.html")) && lire("assets/style.css").includes(":has(> details.paiement[open]) > .masque-si-paiement{display:none}"));
 check("paiement : ligne honnête pour l'étranger (carte : bientôt ; WhatsApp)", /Paiement par carte pour l'étranger : bientôt ; écrivez-nous sur WhatsApp/.test(texte(pay)));
 const wa = d.getElementById("abo-preuve");

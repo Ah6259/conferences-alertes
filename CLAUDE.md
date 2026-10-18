@@ -100,3 +100,9 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 
 ## Visiteur simulé (18/10/2026, règle générale)
 - `python tools/visiteur_simule.py` (outil COMMUN, copie identique dans chaque site : ne pas le modifier ici) : liens/images morts, puis Chromium à 390 px (page trop large, image cassée, « NaN/undefined », page vide) + scénarios `tools/scenarios-visiteur.json` (recherche, filtres, résultat affiché, groupes « croissant »). Lancé par tests.yml. Nouvelle recherche, nouveau filtre ou nouveau formulaire → ajouter un scénario. Page `video/` : `preload="none"` (la couverture reste affichée ; la page finit de charger sans attendre la vidéo, moins de données sur téléphone ; le visiteur simulé la voyait « non chargée » avec `metadata`).
+
+## Code personnel des Alertes Pro (18/10/2026, contrôle commun « case du code »)
+- Ce site n'a AUCUNE case où le visiteur tape un code : `abonnement/` CRÉE le code (6 caractères, `assets/abonnement.js`), l'affiche
+  (`#abo-code`) et le met dans le lien Telegram ; rien dans localStorage. Essai gratuit réel de 14 jours (texte juste).
+- Corrigé : la page (bloc « Paiement » et après l'inscription) et les conditions disaient « motif = votre nom » alors que les étapes
+  disent « Motif : votre code personnel » -> partout « code personnel » (FR, EN, AR ; test dans test_site.mjs).

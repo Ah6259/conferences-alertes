@@ -879,9 +879,9 @@ def pages_abonnement(confs, adr, v, etat):
   <details class="paiement" id="paiement"><summary class="btn-clair">{L("Paiement", "Payment", "الدفع")}</summary>
     {liste_paiements()}
     {lien_preuve()}
-    <p class="petit">{L("Payez après l'essai gratuit (ou tout de suite si vous préférez), avec pour motif votre nom, puis envoyez la preuve par WhatsApp. Une facture vous est adressée.",
-                        "Pay after the free trial (or right away if you prefer), with your name as reference, then send the proof on WhatsApp. An invoice is sent to you.",
-                        "ادفع بعد التجربة المجانية (أو فورًا إن أردت) مع ذكر اسمك كسبب للدفع، ثم أرسل الإثبات عبر واتساب. تُرسل إليك فاتورة.")}</p>
+    <p class="petit">{L("Payez après l'essai gratuit (ou tout de suite si vous préférez), avec pour motif votre code personnel (donné à l’inscription), puis envoyez la preuve par WhatsApp. Une facture vous est adressée.",
+                        "Pay after the free trial (or right away if you prefer), with your personal code (given at sign-up) as reference, then send the proof on WhatsApp. An invoice is sent to you.",
+                        "ادفع بعد التجربة المجانية (أو فورًا إن أردت) مع ذكر رمزك الشخصي (يُعطى عند التسجيل) كسبب للدفع، ثم أرسل الإثبات عبر واتساب. تُرسل إليك فاتورة.")}</p>
   </details>
   <a class="btn-pro" href="#inscription">{L(f"Je m'inscris : {essai} jours gratuits", f"Sign up: {essai} days free", f"أسجّل: {ISO(essai)} يومًا مجانًا")}</a>
 </section>
@@ -939,7 +939,7 @@ def pages_abonnement(confs, adr, v, etat):
   </form>
   <div class="apres-abo" id="apres-abo" hidden>
 {bloc_essai_tg(adr['robot'], essai)}    <h3>{L("Paiement", "Payment", "الدفع")}</h3>
-    <p>{L("Après l'essai (ou tout de suite si vous avez choisi de payer directement), payez par D17 ou IZI, avec pour motif votre nom :", "After the trial (or right away if you chose to pay now), pay by D17 or IZI, with your name as reference:", "بعد التجربة (أو فورًا إن اخترت الدفع مباشرة)، ادفع عبر ⁨D17⁩ أو ⁨IZI⁩ مع ذكر اسمك:")}</p>
+    <p>{L("Après l'essai (ou tout de suite si vous avez choisi de payer directement), payez par D17 ou IZI, avec pour motif votre code personnel :", "After the trial (or right away if you chose to pay now), pay by D17 or IZI, with your personal code as reference:", "بعد التجربة (أو فورًا إن اخترت الدفع مباشرة)، ادفع عبر ⁨D17⁩ أو ⁨IZI⁩ مع ذكر رمزك الشخصي كسبب للدفع:")}</p>
     {liste_paiements("abo-etranger-apres")}
     {lien_preuve("abo-preuve-apres")}
     <p class="petit">{L(f"Une facture vous est adressée. Pas de renouvellement automatique : nous vous prévenons {rj} jours avant la fin.", f"An invoice is sent to you. No automatic renewal: we warn you {rj} days before the end.", f"تُرسل إليك فاتورة. لا تجديد آلي: نعلمك قبل النهاية بـ{ISO(rj)} أيام.")}</p>
@@ -971,9 +971,9 @@ def pages_abonnement(confs, adr, v, etat):
           f"The first {essai} days are free, without payment or commitment. Without payment at the end of the trial, alerts simply stop.",
           f"الأيام الـ{ISO(essai)} الأولى مجانية، دون دفع ودون التزام. إذا لم يتم الدفع في نهاية التجربة، يتوقف التنبيه ببساطة.")),
         (("4. Paiement et facture", "4. Payment and invoice", "4. الدفع والفاتورة"),
-         (f"Paiement par D17 ou IZI au {num}, avec pour motif le nom de l'abonné, puis preuve envoyée par WhatsApp au même numéro. Paiement par carte depuis l'étranger : bientôt (nous écrire sur WhatsApp). La période payée commence après l'essai gratuit ou après la période déjà payée. Une facture est adressée à l'abonné.",
-          f"Payment by D17 or IZI to {num}, with the subscriber's name as reference, then proof sent on WhatsApp to the same number. Card payment from abroad: coming soon (write to us on WhatsApp). The paid period starts after the free trial or after the period already paid. An invoice is sent to the subscriber.",
-          f"الدفع عبر ⁨D17⁩ أو ⁨IZI⁩ على الرقم {ISO(num)} مع ذكر اسم المشترك، ثم إرسال الإثبات عبر واتساب على نفس الرقم. الدفع بالبطاقة من الخارج: قريبًا (راسلنا عبر واتساب). تبدأ المدة المدفوعة بعد التجربة المجانية أو بعد المدة المدفوعة سابقًا. تُرسل فاتورة إلى المشترك.")),
+         (f"Paiement par D17 ou IZI au {num}, avec pour motif le code personnel de l'abonné (donné à l'inscription), puis preuve envoyée par WhatsApp au même numéro. Paiement par carte depuis l'étranger : bientôt (nous écrire sur WhatsApp). La période payée commence après l'essai gratuit ou après la période déjà payée. Une facture est adressée à l'abonné.",
+          f"Payment by D17 or IZI to {num}, with the subscriber's personal code (given at sign-up) as reference, then proof sent on WhatsApp to the same number. Card payment from abroad: coming soon (write to us on WhatsApp). The paid period starts after the free trial or after the period already paid. An invoice is sent to the subscriber.",
+          f"الدفع عبر ⁨D17⁩ أو ⁨IZI⁩ على الرقم {ISO(num)} مع ذكر الرمز الشخصي للمشترك (يُعطى عند التسجيل)، ثم إرسال الإثبات عبر واتساب على نفس الرقم. الدفع بالبطاقة من الخارج: قريبًا (راسلنا عبر واتساب). تبدأ المدة المدفوعة بعد التجربة المجانية أو بعد المدة المدفوعة سابقًا. تُرسل فاتورة إلى المشترك.")),
         (("5. Pas de renouvellement automatique", "5. No automatic renewal", "5. لا تجديد آلي"),
          (f"Sans engagement au-delà d'un an. Il n'y a aucun renouvellement automatique : un rappel est envoyé {rj} jours avant la fin ; sans nouveau paiement, l'alerte s'arrête simplement à la date de fin.",
           f"No commitment beyond one year. There is no automatic renewal: a reminder is sent {rj} days before the end; without a new payment, alerts simply stop on the end date.",
