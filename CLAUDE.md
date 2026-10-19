@@ -108,3 +108,5 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   disent « Motif : votre code personnel » -> partout « code personnel » (FR, EN, AR ; test dans test_site.mjs).
 
 - **Recherche « au son » (18/10/2026, règle commune § 27)** : la case « Rechercher » utilise `assets/son.js` (outil commun de projets-ahmed, copié TEL QUEL, chargé avant app.js, compté dans le `?v=`) : Djerba = Jerba, Kairouan = Qairouan, Hammamet = Hamamet (l'ancienne recherche « mot contenu » reste valable en plus). Test dans test_site.mjs (paires + mot réel avec consonne doublée + « zzzzqqq » = 0). Sans Pillow, construire_site.py remplace l'aperçu du rapport : construire avec un Python 3.12 qui a Pillow.
+
+- **19/10/2026 — Visiteur simulé : contrôle des ESPACES (règle commune § 29)** : nouvelle copie commune installée, 0 anomalie, aucun défaut d'espace sur ce site.
