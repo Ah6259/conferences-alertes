@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-18 09:53",
- "derniere_lecture_reussie": "2026-10-18 09:53",
+ "mis_a_jour": "2026-10-19 10:58",
+ "derniere_lecture_reussie": "2026-10-19 10:58",
  "dernier_passage": {
-  "date": "2026-10-18 09:53",
+  "date": "2026-10-19 10:58",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 273,
    "brutes": 2315,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 123,
+   "nombre": 122,
    "brutes": 146,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 47,
    "brutes": 54,
-   "derniere_reussite": "2026-10-18 09:53",
+   "derniere_reussite": "2026-10-19 10:58",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 475,
+ "nombre": 474,
  "conferences": [
   {
    "id": "cicai-2026",
@@ -175,40 +175,6 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "frontiers-in-scaling-superconducting-quantum-2026",
-   "acronyme": "",
-   "titre": "Frontiers in Scaling Superconducting Quantum Computing 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-18",
-   "fin": "2026-10-24",
-   "ville": "Riva del Garda",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "calcul-physique",
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.sissa.it/quantumaimeeting",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3213863",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-13"
   },
   {
    "id": "dfrws-apac-2026",
@@ -10066,8 +10032,8 @@
    "specialites": [
     "neurosciences"
    ],
-   "date_limite": "2026-10-18",
-   "type_limite": "resume",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -13395,8 +13361,8 @@
     "ia-apprentissage",
     "donnees"
    ],
-   "date_limite": "2026-10-18",
-   "type_limite": "resume",
+   "date_limite": "2026-10-25",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
