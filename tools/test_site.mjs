@@ -417,6 +417,13 @@ const fichiersAbo = fichiers.filter(f => /abonn[ée]s?[^/\\]*\.json$/i.test(f) |
 const avecPerso = fichiers.filter(f => /"chat_?id"\s*:\s*-?\d/.test(lire(f)) || /"fin_essai"\s*:\s*"\d{4}/.test(lire(f)) || /"(contact|email|e-mail|telephone)"\s*:\s*"[^"]/.test(lire(f)));
 check("aucune donnée personnelle dans le dépôt public (abonnés, chat_id, e-mails, téléphones, contacts)", !fichiersAbo.length && !avecPerso.length);
 if (fichiersAbo.length || avecPerso.length) console.log("   à retirer : " + [...fichiersAbo, ...avecPerso].join(", "));
+{ // 20/10/2026 (décision d'Ahmed : « Enlève tous les essais gratuits ») : aucune page (FR / EN / AR), aucun script, ni le manifeste ne parle d'essai gratuit
+  const ESSAI = /essais? gratuits?|jours? d(?:'|&#x27;|&#39;|’)essai|(?:votre|pendant l(?:'|&#x27;|&#39;|’)|après l(?:'|&#x27;|&#39;|’)|fin de l(?:'|&#x27;|&#39;|’))essai\b|free[ -]trial|your trial|trial until|\d+-day trial|تجربة مجانية|التجربة المجانية|تجربتك|بعد التجربة|نهاية التجربة/i;
+  const publics = fichiers.filter(f => /\.(html|js|json|txt|xml|webmanifest)$/.test(f) && !/^(\.\/)?(tools|robot)[\/\\]/.test(f));
+  const fautifs = publics.filter(f => ESSAI.test(lire(f)));
+  check(`aucune page ne parle d'essai gratuit / free trial / تجربة مجانية (${publics.length} fichiers lus)` + (fautifs.length ? " : " + fautifs.slice(0, 5).join(", ") : ""),
+    publics.length > 50 && !fautifs.length);
+}
 // Concurrents : leurs noms ne doivent JAMAIS apparaître (liste gardée sous forme d'empreintes ; noms en clair dans l'étude privée)
 const EMPREINTES = lire("tools/concurrents.sha256").split(/\s+/).filter(Boolean);
 const trouves = [];
@@ -433,8 +440,8 @@ if (trouves.length) console.log("   à retirer : " + [...new Set(trouves)].slice
 w = await page("abonnement/index.html", "lang=fr");
 d = w.document;
 const ta = texte(d.querySelector("main"));
-check("abonnement : prix tout de suite (9 DT / mois ou 79 DT / an), essai 14 jours, sans engagement au-delà d'un an, pas de renouvellement automatique",
-  /9 DT \/ mois ou 79 DT \/ an/.test(texte(d.getElementById("abo-prix"))) && /14 jours d'essai gratuit/.test(ta) && /Sans engagement au-delà d'un an/.test(ta) && /Pas de renouvellement automatique/.test(ta));
+check("abonnement : prix tout de suite (9 DT / mois ou 79 DT / an), alertes dès réception du paiement, sans engagement au-delà d'un an, pas de renouvellement automatique",
+  /9 DT \/ mois ou 79 DT \/ an/.test(texte(d.getElementById("abo-prix"))) && /dès réception du paiement/.test(ta) && /Sans engagement au-delà d'un an/.test(ta) && /Pas de renouvellement automatique/.test(ta));
 const pay = d.getElementById("paiement");
 check("bouton « Paiement » qui déplie D17 et IZI (liens vers les applications officielles, mode d'emploi, plus de Wafacash) au 24 321 390 + montant + motif", pay && pay.tagName === "DETAILS" && !pay.open &&
   ["D17", "IZI", "Transfert rapide"].every(m => texte(pay).includes(m)) && (texte(pay).match(/24 321 390/g) || []).length >= 1 && /Motif/.test(texte(pay)) && !/Wafacash/i.test(pay.outerHTML) && ["tn.mobipost", "tn.izi.consumer", "id1475640303", "id1603653941"].every(u => pay.querySelector(`a[href*="${u}"]`)));
@@ -451,6 +458,7 @@ check("paiement : ligne honnête pour l'étranger (carte : bientôt ; WhatsApp)"
 const wa = d.getElementById("abo-preuve");
 check("bouton vert « preuve de paiement » vers wa.me/21624321390 avec texte prérempli", wa && /^https:\/\/wa\.me\/21624321390\?text=/.test(wa.href) && /preuve de paiement/.test(decodeURIComponent(wa.href)));
 const fa = d.getElementById("abo-form");
+check("formulaire : formule 1 mois (cochée) ou 1 an, plus de formule « essai »", [...fa.querySelectorAll('[name="formule"]')].map(x => x.value + (x.checked ? "*" : "")).join(",") === "1 mois*,1 an");
 check("formulaire : Formspree mwlpakqj, nom, institution, pays, téléphone, e-mail, spécialités, formule, conditions",
   fa.getAttribute("action") === "https://formspree.io/f/mwlpakqj" && ["nom", "etablissement", "pays", "telephone", "email", "conditions", "formule"].every(n => fa.querySelector(`[name="${n}"]`)) &&
   fa.querySelectorAll('input[name="specialites"]').length === new Set(avenir.flatMap(c => c.specialites)).size);
@@ -466,21 +474,21 @@ const corps = envois[0] ? Object.fromEntries([...envois[0].o.body.entries()]) : 
 check("inscription simulée : envoi Formspree avec spécialités en une ligne et ligne « pour_activer »",
   envois.length === 1 && envois[0].u === "https://formspree.io/f/mwlpakqj" && corps.specialites && /specialites: /.test(corps.pour_activer || "") && corps.telephone === "+21624000000");
 check("après l'envoi : confirmation, paiement et Telegram affichés", d.getElementById("abo-form").hidden && !d.getElementById("apres-abo").hidden);
-// 14/10/2026 (règle commune § 15 : essai immédiat) : code créé sur place, lien Telegram avec les spécialités, gestes expliqués avant
-if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé : pas de promesse d'essai immédiat
+// 14/10/2026 (règle commune § 15 : inscription immédiate ; plus d'essai depuis le 20/10/2026) : code créé sur place, lien Telegram avec les spécialités, gestes expliqués avant
+if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé : pas de promesse d'inscription immédiate
   check("robot Telegram pas encore réglé : pas de bouton « Ouvrir Telegram », texte honnête « envoyé à l'activation »",
     !d.getElementById("abo-ouvrir-tg") && !d.getElementById("abo-code") && /activation/.test(texte(d.getElementById("apres-abo"))));
 } else { const ap = d.getElementById("apres-abo"), codeC = d.getElementById("abo-code").textContent, lienC = d.getElementById("abo-ouvrir-tg").getAttribute("href");
   const spec1 = fa.querySelector('input[name="specialites"]').value;
-  check("essai IMMÉDIAT : code de 6 caractères, « Ouvrir Telegram » avec les spécialités (start=e<CODE>_<spécialités>), code envoyé et dans WhatsApp",
+  check("inscription IMMÉDIATE : code de 6 caractères, « Ouvrir Telegram » avec les spécialités (start=e<CODE>_<spécialités>), code envoyé et dans WhatsApp",
     /^[A-HJ-NP-Z2-9]{6}$/.test(codeC) && lienC === `https://t.me/${fa.getAttribute("data-robot")}?start=e${codeC}_${w.ESSAI_ALERTES.encoder([spec1], fa.getAttribute("data-specs").split(","))}`
     && lienC.split("start=")[1].length <= 64 && corps.code === codeC && decodeURIComponent(d.getElementById("abo-preuve-apres").href).includes("code " + codeC));
-  check("essai IMMÉDIAT : 3 gestes avant Telegram (DÉMARRER, réponse le matin suivant), plus d'« activation sous 24 heures »",
+  check("inscription IMMÉDIATE : 3 gestes avant Telegram (DÉMARRER, réponse le matin suivant), plus d'« activation sous 24 heures »",
     ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap))); }
 w = await page("abonnement/conditions/index.html", "lang=fr");
 const tc = texte(w.document.querySelector("main"));
-check("conditions : vendeur = l'éditeur du site, prix, essai, paiement, pas de renouvellement, aucun remboursement, données personnelles, INPDP",
-  /vendu par l'éditeur du site/.test(tc) && /9 DT par mois ou 79 DT par an/.test(tc) && /14 premiers jours sont gratuits/.test(tc) && /D17 ou IZI/.test(tc) &&
+check("conditions : vendeur = l'éditeur du site, prix, paiement (période payée dès l'activation), pas de renouvellement, aucun remboursement, données personnelles, INPDP",
+  /vendu par l'éditeur du site/.test(tc) && /9 DT par mois ou 79 DT par an/.test(tc) && /commence le jour de l'activation/.test(tc) && !/gratuits, sans paiement/.test(tc) && /D17 ou IZI/.test(tc) &&
   /aucun renouvellement automatique/.test(tc) && /Aucune période déjà payée n'est remboursée/.test(tc) && /Données personnelles/.test(tc) && /INPDP/.test(tc));
 
 // 14/10/2026 (contrôle de visibilité, règle commune § 8) : jamais de hreflang vers « ?lang= » (même page renvoyée par le serveur)

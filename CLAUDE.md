@@ -53,7 +53,7 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 - Bandeau daté si la dernière lecture réussie a ≥ 2 jours (calcul refait avec la date du visiteur).
 
 ## Alertes Pro (payant, comme le site Appels d'offres)
-- 9 DT / mois ou 79 DT / an, 14 jours d'essai, sans engagement au-delà d'un an, pas de renouvellement automatique.
+- 9 DT / mois ou 79 DT / an, plus d'essai gratuit depuis le 20/10/2026, sans engagement au-delà d'un an, pas de renouvellement automatique.
   Paiement D17 / IZI 24 321 390 + preuve WhatsApp ; ligne « Paiement par carte pour l'étranger : bientôt ».
 - Bouton doré « Alertes Pro » dans l'en-tête (page.js) + gros bouton dans le bandeau de l'accueil ; `abonnement/` + `conditions/`.
 - Abonnés = dépôt **PRIVÉ** `Ah6259/conferences-abonnes` (dossier PC `../abonnes (prive)/`) : `alertes.yml`, `activer-abonne.yml`.
@@ -103,10 +103,16 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 
 ## Code personnel des Alertes Pro (18/10/2026, contrôle commun « case du code »)
 - Ce site n'a AUCUNE case où le visiteur tape un code : `abonnement/` CRÉE le code (6 caractères, `assets/abonnement.js`), l'affiche
-  (`#abo-code`) et le met dans le lien Telegram ; rien dans localStorage. Essai gratuit réel de 14 jours (texte juste).
+  (`#abo-code`) et le met dans le lien Telegram ; rien dans localStorage. Plus d'essai gratuit depuis le 20/10/2026.
 - Corrigé : la page (bloc « Paiement » et après l'inscription) et les conditions disaient « motif = votre nom » alors que les étapes
   disent « Motif : votre code personnel » -> partout « code personnel » (FR, EN, AR ; test dans test_site.mjs).
 
 - **Recherche « au son » (18/10/2026, règle commune § 27)** : la case « Rechercher » utilise `assets/son.js` (outil commun de projets-ahmed, copié TEL QUEL, chargé avant app.js, compté dans le `?v=`) : Djerba = Jerba, Kairouan = Qairouan, Hammamet = Hamamet (l'ancienne recherche « mot contenu » reste valable en plus). Test dans test_site.mjs (paires + mot réel avec consonne doublée + « zzzzqqq » = 0). Sans Pillow, construire_site.py remplace l'aperçu du rapport : construire avec un Python 3.12 qui a Pillow.
 
 - **19/10/2026 — Visiteur simulé : contrôle des ESPACES (règle commune § 29)** : nouvelle copie commune installée, 0 anomalie, aucun défaut d'espace sur ce site.
+
+- **20/10/2026 — PLUS D'ESSAI GRATUIT** (Ahmed : « Enlève tous les essais gratuits ») : aucune mention d'essai sur le site en FR, EN et AR
+  (bouton doré, page `abonnement/`, conditions renumérotées 1-8, page `flux/`, titres, descriptions, FAQ JSON-LD) ; formule 1 mois
+  (cochée) ou 1 an ; le code reste créé sur la page, le robot privé le met « en attente » jusqu'au paiement. Pour refaire les pages :
+  `python3.12 robot/construire_site.py` (sans Pillow, les aperçus des rapports sont remplacés par l'image du site : ne pas les envoyer).
+  Test : « aucune page ne parle d'essai gratuit » dans test_site.mjs.
