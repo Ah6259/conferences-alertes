@@ -27,6 +27,7 @@ import re
 import shutil
 import sys
 import tempfile
+import time
 import unicodedata
 
 ICI = os.path.dirname(os.path.abspath(__file__))
@@ -42,6 +43,14 @@ SEUIL_TOTAL = 0.5            # collecte totale < 50 % de la précédente = refus
 # Fiches BRUTES au moins attendues par source (relevé du 14/10/2026 : ccfddl 2 311, hf 127, hci 155, neuro 12, bio 24, robo 35,
 # inspire 145, officiel 54) : en dessous, lecteur cassé -> panne, même au premier passage (règle commune § 17, 15/10/2026)
 MINIMUM_BRUTES = {"ccfddl": 500, "hf": 30, "hci": 40, "neuro": 4, "bio": 8, "robo": 10, "inspire": 30, "officiel": 15}
+# Lecture suspecte (injoignable, vide, presque rien, chute) : relue jusqu'à 3 fois, 2 puis 4 min d'écart, avant de passer la
+# source en panne (règle commune § 38, venue du site Concours le 20/10/2026 : liste coupée une fois = robot rouge à tort).
+# Toutes sources confondues, pas de nouvel essai au-delà de REPRISE_BUDGET (le robot GitHub est arrêté à 30 min).
+REPRISE_ESSAIS = 3
+REPRISE_ATTENTE = 120
+REPRISE_BUDGET = 8 * 60
+DORMIR = time.sleep          # remplacés dans les tests (aucune vraie attente)
+HORLOGE = time.monotonic
 GARDE_JOURS = 30             # anciennes fiches d'une source en panne gardées au plus 30 jours
 ORDRE = ["officiel", "ccfddl", "hf", "hci", "robo", "neuro", "bio", "inspire", "organisateur"]   # priorité lors des fusions
 
@@ -251,6 +260,21 @@ def lire_source(ident, cache, dossier_tmp):
     return S.LECTEURS[ident](chemin)
 
 
+def lire_avec_reprise(essai, ident, debut):
+    """Une lecture suspecte (exception levée par essai()) est refaite : 2 min puis 4 min d'écart, tant que la collecte entière
+    tient dans REPRISE_BUDGET. La première lecture correcte est gardée ; si tous les essais échouent, la dernière erreur remonte
+    (source en panne, anciennes fiches gardées). Règle commune § 38 (Concours, 20/10/2026)."""
+    for n in range(1, REPRISE_ESSAIS + 1):
+        try:
+            return essai()
+        except Exception as e:   # noqa: BLE001
+            attente = REPRISE_ATTENTE * n
+            if n == REPRISE_ESSAIS or HORLOGE() - debut + attente > REPRISE_BUDGET:
+                raise
+            print(f"  {ident} : lecture suspecte ({str(e)[:80]}) : nouvel essai dans {attente} s")
+            DORMIR(attente)
+
+
 def collecter(sortie, jour, cache="", lire=None, organisateurs=None):
     global maintenant
     maintenant = lambda: f"{jour} {dt.datetime.now():%H:%M}"      # horodatage = jour de la collecte (tests : --aujourdhui)
@@ -260,11 +284,12 @@ def collecter(sortie, jour, cache="", lire=None, organisateurs=None):
     etats_avant = (ancien or {}).get("sources") or {}
     etats, toutes = {}, []
     dossier_tmp = tempfile.mkdtemp(prefix="conf-")
+    debut = HORLOGE()
     try:
         for ident in [l[0] for l in S.LISTES_GITHUB] + ["inspire", "officiel"]:
             avant = etats_avant.get(ident) or {}
             habituel = int(avant.get("nombre") or 0)
-            try:
+            def essai():
                 brutes = lire(ident, cache, dossier_tmp)
                 propres = [c for c in (normaliser(f, jour) for f in brutes if isinstance(f, dict)) if c]
                 if not brutes:
@@ -275,6 +300,9 @@ def collecter(sortie, jour, cache="", lire=None, organisateurs=None):
                     raise ValueError(f"presque rien lu : {len(brutes)} fiches (au moins {MINIMUM_BRUTES[ident]} attendues)")
                 if habituel >= 10 and len(propres) < SEUIL_SOURCE * habituel:
                     raise ValueError(f"seulement {len(propres)} conférences contre {habituel} d'habitude")
+                return brutes, propres
+            try:
+                brutes, propres = lire_avec_reprise(essai, ident, debut)
                 etats[ident] = {"etat": "ok", "nombre": len(propres), "brutes": len(brutes),
                                 "derniere_reussite": maintenant(), "raison": "", "depuis": ""}
                 toutes += propres

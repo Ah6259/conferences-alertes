@@ -111,6 +111,8 @@ def faux_lire(table):
     return lire
 
 
+ATTENTES = []
+R.DORMIR = ATTENTES.append                              # relecture d'une source suspecte : aucune vraie attente dans les tests
 MINIMUM_VRAI, R.MINIMUM_BRUTES = R.MINIMUM_BRUTES, {}   # les sources simulées ont quelques dizaines de fiches
 tmp = tempfile.mkdtemp(prefix="test-conf-")
 try:
@@ -131,6 +133,40 @@ try:
     check(f"collecte normale : {d['nombre']} conférences, statut ok, toutes les sources ok", code == 0 and d["nombre"] == 132 and d["statut_source"]["etat"] == "ok"
           and all(v["etat"] == "ok" for v in d["sources"].values()))
     check("collecte : première collecte notée (rien de « nouveau » ce jour-là)", d["premiere_collecte"] == JOUR)
+
+    # 20/10/2026 (règle commune § 38, venue de Concours) : une lecture suspecte est relue avant de mettre la source en panne
+    def coupee_puis_bonne(n_coupees):
+        appels = []
+        def f():
+            appels.append(1)
+            return jeu(3, "H", "hf") if len(appels) <= n_coupees else jeu(12, "H", "hf")
+        return f
+    def relecture(n_coupees, essais=3, horloge=None):
+        r_ess, r_hor = R.REPRISE_ESSAIS, R.HORLOGE
+        R.REPRISE_ESSAIS = essais
+        if horloge:
+            R.HORLOGE = horloge
+        del ATTENTES[:]
+        s2 = os.path.join(tmp, f"reprise{n_coupees}{essais}{bool(horloge)}", "c.json")
+        os.makedirs(os.path.dirname(s2))
+        shutil.copyfile(sortie, s2)
+        try:
+            silence(R.collecter, s2, JOUR, lire=faux_lire(dict(normal, hf=coupee_puis_bonne(n_coupees))))
+        finally:
+            R.REPRISE_ESSAIS, R.HORLOGE = r_ess, r_hor
+        return json.load(open(s2, encoding="utf-8"))["sources"]["hf"], list(ATTENTES)
+    hf, att = relecture(1)
+    check("liste coupée une fois (3 conférences au lieu de 12) : relue après 2 min, la bonne lecture est gardée (source ok)",
+          hf["etat"] == "ok" and hf["nombre"] == 12 and att == [120])
+    hf, att = relecture(5)
+    check("liste coupée à chaque essai : 3 essais (2 puis 4 min), puis source en panne (anciennes fiches gardées)",
+          hf["etat"] == "panne" and att == [120, 240])
+    _t = iter([0] + [600] * 50)
+    hf, att = relecture(1, horloge=lambda: next(_t))
+    check("collecte déjà longue (10 min) : pas de nouvel essai (le robot GitHub est limité à 30 min)", hf["etat"] == "panne" and att == [])
+    hf, att = relecture(1, essais=1)
+    check("sabotage : sans relecture, la même coupure passagère mettrait la source en panne (le test ci-dessus le voit)",
+          hf["etat"] == "panne" and att == [])
 
     # source injoignable
     t = dict(normal, inspire=OSError("réseau coupé"))
