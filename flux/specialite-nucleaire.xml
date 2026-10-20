@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/specialite-nucleaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-nucleaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-19T06:00:00Z</updated>
+<updated>2026-10-20T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-final-state-interactions-in-2027/</id>
+<title>MITP Topical Workshop: "Final-State Interactions in Neutrino–Nucleus Scattering: Theory-Experiment Synergies"</title>
+<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-final-state-interactions-in-2027/"/>
+<updated>2026-10-20T06:00:00Z</updated>
+<summary>20–24 Sep 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/495/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-constraining-the-nuclear-2027/</id>
+<title>MITP Topical Workshop: "Constraining the Nuclear Matter Equation of State: Status and Perspectives"</title>
+<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-constraining-the-nuclear-2027/"/>
+<updated>2026-10-20T06:00:00Z</updated>
+<summary>24–28 May 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/480/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-from-isotope-shift-to-2027/</id>
+<title>MITP Topical Workshop: "From Isotope Shift to Nuclear Clock Spectroscopy"</title>
+<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-from-isotope-shift-to-2027/"/>
+<updated>2026-10-20T06:00:00Z</updated>
+<summary>3–7 May 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/478/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/fb24-2027/</id>
 <title>FB24 2027 — 24th International Conference on Few-Body Problems in Physics</title>
@@ -174,12 +195,5 @@
 <link href="https://conferences.clicvia.com/conference/coordinating-panel-for-advanced-detectors-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–23 Oct 2026 · Seattle, United States · Deadline: see official website · Official: https://indico.global/event/17230</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-critical-stability-of-few-2026/</id>
-<title>MITP Topical Workshop: Critical Stability of Few-Body Quantum Systems</title>
-<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-critical-stability-of-few-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–23 Oct 2026 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/458/</summary>
 </entry>
 </feed>

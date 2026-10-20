@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-19T06:00:00Z</updated>
+<updated>2026-10-20T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/imc-2027/</id>
+<title>IMC 2027 — ACM Internet Measurement Conference</title>
+<link href="https://conferences.clicvia.com/conference/imc-2027/"/>
+<updated>2026-10-20T06:00:00Z</updated>
+<summary>25–29 Oct 2027 · Atlanta, United States · Deadline: 10 Nov 2026, 17 Nov 2026, 31 Mar 2027 · Official: https://conferences.sigcomm.org/imc/2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icccn-2027/</id>
 <title>ICCCN 2027 — IEEE International Conference on Computer Communications and Networks</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/compsac-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–16 Jul 2027 · Tokyo, Japan · Deadline: 31 Jan 2027 · Official: https://ieeecompsac.computer.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icme-2027/</id>
-<title>ICME 2027 — The IEEE International Conference on Multimedia &amp; Expo</title>
-<link href="https://conferences.clicvia.com/conference/icme-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–17 Jul 2027 · Xiamen, China · Deadline: see official website · Official: https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme</summary>
 </entry>
 </feed>

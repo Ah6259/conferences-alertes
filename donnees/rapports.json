@@ -3,7 +3,7 @@
 "2026-10": {
 "chiffres": {
 "afrique": 3,
-"evenements": 70,
+"evenements": 69,
 "limites": 60,
 "limites_conferences": 47,
 "par_continent": {
@@ -12,20 +12,20 @@
 "amerique-sud": 1,
 "asie": 20,
 "en-ligne": 1,
-"europe": 27
+"europe": 26
 },
 "par_domaine": {
 "comptabilite": 5,
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 19,
+"physique": 18,
 "vie-sante": 2
 },
 "par_mode": {
 "en-ligne": 1,
 "hybride": 2,
-"presentiel": 67
+"presentiel": 66
 },
 "par_pays": {
 "BH": 1,
@@ -33,7 +33,7 @@
 "CL": 1,
 "CN": 7,
 "CY": 1,
-"DE": 4,
+"DE": 3,
 "ES": 4,
 "FR": 2,
 "GB": 4,
@@ -73,9 +73,8 @@
 "info-interdisciplinaire": 2,
 "instrumentation": 6,
 "langage": 5,
-"matiere-condensee": 1,
-"nucleaire": 7,
-"particules": 13,
+"nucleaire": 6,
+"particules": 12,
 "physique-theorique": 1,
 "quantique": 4,
 "reseaux": 4,
@@ -84,7 +83,7 @@
 "zakat-waqf": 1
 },
 "par_type": {
-"atelier": 6,
+"atelier": 5,
 "conference": 63,
 "ecole": 1
 },
@@ -751,29 +750,6 @@
 "titre": "Digital Forensic Research Workshop Asia Pacific",
 "type": "atelier",
 "ville": ""
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-10-19",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-23",
-"id": "mitp-topical-workshop-critical-stability-of-few-2026",
-"lien": "https://indico.mitp.uni-mainz.de/event/458/",
-"limites": [],
-"mode": "presentiel",
-"pays": "DE",
-"specialites": [
-"matiere-condensee",
-"nucleaire",
-"particules"
-],
-"titre": "MITP Topical Workshop: Critical Stability of Few-Body Quantum Systems",
-"type": "atelier",
-"ville": "Mainz"
 },
 {
 "acronyme": "RIARF 2026",
@@ -2523,7 +2499,7 @@
 "lien": "https://icc2027.ieee-icc.org",
 "limites": [
 {
-"date": "2026-10-16",
+"date": "2026-10-30",
 "type": "article"
 }
 ],
@@ -2862,7 +2838,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-19",
+"derniere_date": "2026-10-20",
 "fini": false,
 "premier_jour": "2026-10-09"
 }
