@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-19 10:58",
- "derniere_lecture_reussie": "2026-10-19 10:58",
+ "mis_a_jour": "2026-10-20 10:28",
+ "derniere_lecture_reussie": "2026-10-20 10:28",
  "dernier_passage": {
-  "date": "2026-10-19 10:58",
+  "date": "2026-10-20 10:28",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 273,
    "brutes": 2315,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
@@ -57,70 +57,29 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 122,
-   "brutes": 146,
-   "derniere_reussite": "2026-10-19 10:58",
+   "nombre": 131,
+   "brutes": 155,
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 47,
+   "nombre": 46,
    "brutes": 54,
-   "derniere_reussite": "2026-10-19 10:58",
+   "derniere_reussite": "2026-10-20 10:28",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 474,
+ "nombre": 482,
  "conferences": [
-  {
-   "id": "cicai-2026",
-   "acronyme": "CICAI",
-   "titre": "CAAI International Conference on Artificial Intelligence",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-17",
-   "fin": "2026-10-19",
-   "ville": "Haining",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-08",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC+8"
-    }
-   ],
-   "lien": "https://cicai.caai.cn/index.html",
-   "rang": "",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "inlg-2026",
    "acronyme": "INLG",
@@ -222,82 +181,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "mitp-topical-workshop-critical-stability-of-few-2026",
-   "acronyme": "",
-   "titre": "MITP Topical Workshop: Critical Stability of Few-Body Quantum Systems",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-19",
-   "fin": "2026-10-23",
-   "ville": "Mainz",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "matiere-condensee",
-    "nucleaire",
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.mitp.uni-mainz.de/event/458/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3123093",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "riarf-2026",
-   "acronyme": "RIARF 2026",
-   "titre": "Regional International Accounting Research Forum",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-19",
-   "fin": "2026-10-19",
-   "ville": "Palma de Mallorca",
-   "pays": "ES",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "compta-financiere"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-09-15",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://riarf.uib.es/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://riarf.uib.es/",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -10118,6 +10001,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mitp-topical-workshop-loop-integrals-for-2027",
+   "acronyme": "",
+   "titre": "MITP Topical Workshop: \"Loop Integrals for Practitioners\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-03-15",
+   "fin": "2027-03-19",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "physique-theorique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/476/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216028",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
+  },
+  {
    "id": "sca-hpcasia-2027",
    "acronyme": "SCA/HPCAsia 2027",
    "titre": "Supercomputing Asia and International Conference on High Performance Computing in Asia Pacific Region Workshops 2027",
@@ -12850,6 +12767,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mitp-topical-workshop-from-isotope-shift-to-2027",
+   "acronyme": "",
+   "titre": "MITP Topical Workshop: \"From Isotope Shift to Nuclear Clock Spectroscopy\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-05-03",
+   "fin": "2027-05-07",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "nucleaire",
+    "particules",
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/478/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216029",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
+  },
+  {
    "id": "ias-2027",
    "acronyme": "IAS 2027",
    "titre": "28e Université de printemps de l'audit social (IAS)",
@@ -14334,6 +14286,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mitp-topical-workshop-constraining-the-nuclear-2027",
+   "acronyme": "",
+   "titre": "MITP Topical Workshop: \"Constraining the Nuclear Matter Equation of State: Status and Perspectives\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-05-24",
+   "fin": "2027-05-28",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "nucleaire",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/480/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216030",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
+  },
+  {
    "id": "cscwd-2027",
    "acronyme": "CSCWD",
    "titre": "International Conference on Computer Supported Cooperative Work in Design",
@@ -14474,13 +14460,13 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
+   "date_limite": "2026-10-30",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-7",
    "dates_limites": [
     {
-     "date": "2026-10-16",
+     "date": "2026-10-30",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -14599,6 +14585,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-10"
+  },
+  {
+   "id": "mitp-topical-workshop-strings-symmetries-and-2027",
+   "acronyme": "",
+   "titre": "MITP Topical Workshop: \"Strings, Symmetries, and Singularities\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-05-31",
+   "fin": "2027-06-04",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "physique-theorique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/481/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216031",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
   },
   {
    "id": "susy-2027",
@@ -16700,6 +16720,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mitp-scientific-program-foundations-and-2027",
+   "acronyme": "",
+   "titre": "MITP Scientific Program: \"Foundations and Applications of Generalized Symmetries\"",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-28",
+   "fin": "2027-07-16",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "physique-theorique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/484/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3215813",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
+  },
+  {
    "id": "aim-2027",
    "acronyme": "AIM",
    "titre": "IEEE/ASME International Conference on Advanced Intelligent Mechatronics",
@@ -17684,11 +17738,19 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2026-12-30",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
+   "dates_limites": [
+    {
+     "date": "2026-12-30",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
    "lien": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
    "rang": "CORE A · CCF B",
    "sources": [
@@ -17896,6 +17958,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "mitp-scientific-program-non-equilibrium-systems-2027",
+   "acronyme": "",
+   "titre": "MITP Scientific program: \"Non-equilibrium Systems in Cosmology and Astroparticle Physics: Methods and Applications\"",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-19",
+   "fin": "2027-08-06",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/489/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216024",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
   },
   {
    "id": "pets-2027",
@@ -18511,6 +18607,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mitp-topical-workshop-the-emerging-nanohertz-2027",
+   "acronyme": "",
+   "titre": "MITP Topical Workshop: \"The Emerging Nanohertz Gravitational-Wave Sky: From Massive Black Holes to New Physics\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-08-09",
+   "fin": "2027-08-13",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/491/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216032",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
+  },
+  {
    "id": "usenix-security-2027",
    "acronyme": "USENIX Security",
    "titre": "USENIX Security Symposium",
@@ -18571,6 +18701,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "mitp-scientific-program-bridging-the-gap-between-2027",
+   "acronyme": "",
+   "titre": "MITP Scientific Program: \"Bridging the Gap Between Black Holes, Holography and the Swampland\"",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-16",
+   "fin": "2027-09-03",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "physique-theorique",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/493/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216025",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
   },
   {
    "id": "acl-2027",
@@ -19501,6 +19666,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mitp-topical-workshop-final-state-interactions-in-2027",
+   "acronyme": "",
+   "titre": "MITP Topical Workshop: \"Final-State Interactions in Neutrino–Nucleus Scattering: Theory-Experiment Synergies\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-09-20",
+   "fin": "2027-09-24",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "nucleaire",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/495/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216033",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
+  },
+  {
    "id": "mobilehci-2027",
    "acronyme": "MobileHCI",
    "titre": "ACM International Conference on Mobile Human-Computer Interaction",
@@ -19751,6 +19950,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "mitp-scientific-program-phase-transitions-from-2027",
+   "acronyme": "",
+   "titre": "MITP Scientific Program: \"Phase Transitions from Microscopic to Cosmological Scales\"",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-27",
+   "fin": "2027-10-15",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mitp.uni-mainz.de/event/498/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216027",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
   },
   {
    "id": "ecai-2027",
@@ -20457,6 +20690,68 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "imc-2027",
+   "acronyme": "IMC",
+   "titre": "ACM Internet Measurement Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-25",
+   "fin": "2027-10-29",
+   "ville": "Atlanta",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "reseaux"
+   ],
+   "date_limite": "2026-11-10",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-10",
+     "type": "resume",
+     "libelle": "Abstract · Cycle 1; rebuttal period January 26-February 2, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-11-17",
+     "type": "article",
+     "libelle": "Cycle 1; rebuttal period January 26-February 2, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-03-31",
+     "type": "resume",
+     "libelle": "Abstract · Cycle 2",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-04-07",
+     "type": "article",
+     "libelle": "Cycle 2",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://conferences.sigcomm.org/imc/2027/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-20"
   },
   {
    "id": "icdm-2027",
