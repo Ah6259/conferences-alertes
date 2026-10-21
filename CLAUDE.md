@@ -53,6 +53,7 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 - Bandeau daté si la dernière lecture réussie a ≥ 2 jours (calcul refait avec la date du visiteur).
 
 ## Alertes Pro (payant, comme le site Appels d'offres)
+- **21/10/2026 — ALERTES PRO GRATUITES (décision d'Ahmed : site international, un prix en dinars et un paiement D17/IZI n'ont pas de sens pour l'étranger).** Interrupteur `ABO["gratuit"]` de robot/construire_site.py (page « Gratuit pour le moment », ni formule, ni paiement, ni facture ; conditions 1-6 de la version gratuite) et `GRATUIT` de tools/alertes.py du dépôt privé (inscription active tout de suite, sans fin ni rappel ; code en attente ou terminé qui revient = réactivé). Le code du paiement est gardé : remettre les DEUX à False pour revenir au payant. Tests : blocs « GRATUIT » de test_site.mjs et test_alertes.py.
 - 9 DT / mois ou 79 DT / an, plus d'essai gratuit depuis le 20/10/2026, sans engagement au-delà d'un an, pas de renouvellement automatique.
   Paiement D17 / IZI 24 321 390 + preuve WhatsApp ; ligne « Paiement par carte pour l'étranger : bientôt ».
 - Bouton doré « Alertes Pro » dans l'en-tête (page.js) + gros bouton dans le bandeau de l'accueil ; `abonnement/` + `conditions/`.

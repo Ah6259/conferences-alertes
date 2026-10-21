@@ -440,27 +440,35 @@ if (trouves.length) console.log("   à retirer : " + [...new Set(trouves)].slice
 w = await page("abonnement/index.html", "lang=fr");
 d = w.document;
 const ta = texte(d.querySelector("main"));
-check("abonnement : prix tout de suite (9 DT / mois ou 79 DT / an), alertes dès réception du paiement, sans engagement au-delà d'un an, pas de renouvellement automatique",
-  /9 DT \/ mois ou 79 DT \/ an/.test(texte(d.getElementById("abo-prix"))) && /dès réception du paiement/.test(ta) && /Sans engagement au-delà d'un an/.test(ta) && /Pas de renouvellement automatique/.test(ta));
-const pay = d.getElementById("paiement");
-check("bouton « Paiement » qui déplie D17 et IZI (liens vers les applications officielles, mode d'emploi, plus de Wafacash) au 24 321 390 + montant + motif", pay && pay.tagName === "DETAILS" && !pay.open &&
-  ["D17", "IZI", "Transfert rapide"].every(m => texte(pay).includes(m)) && (texte(pay).match(/24 321 390/g) || []).length >= 1 && /Motif/.test(texte(pay)) && !/Wafacash/i.test(pay.outerHTML) && ["tn.mobipost", "tn.izi.consumer", "id1475640303", "id1603653941"].every(u => pay.querySelector(`a[href*="${u}"]`)));
-check("paiement : logos D17 / IZI dans les boutons, étape 2 pour les deux applications, bouton « ? » avec les deux écrans d'exemple", ["d17.png", "izi.png", "transfert-d17.svg", "transfert-izi.svg"].every(f => existsSync(join(root, "assets/paiement", f))) && /class="appli-btn"[^>]*><img src="\.\.\/assets\/paiement\/d17\.png"/.test(lire("abonnement/index.html")) && /class="aide-transfert"/.test(lire("abonnement/index.html")) && /Transfert d’argent/.test(lire("abonnement/index.html")));
-{ // 18/10/2026 : le motif du paiement est le CODE PERSONNEL donné à l'inscription (#abo-code) — jamais « votre nom » / « nom de l'entreprise » ailleurs sur la page ou dans les conditions
-  const sansBalises = f => lire(f).replace(/<[^>]*>/g, " ");
-  const contradictions = [/pour motif (votre nom|le nom)/, /name as reference/, /motif du paiement et facture/];
-  check("paiement : motif = code personnel partout (page d'abonnement + conditions), aucune phrase « motif = nom »",
-    /id="abo-code"/.test(lire("abonnement/index.html")) && /motif[^.]{0,40}code personnel/.test(sansBalises("abonnement/index.html")) && /code personnel/.test(sansBalises("abonnement/conditions/index.html")) &&
-    ["abonnement/index.html", "abonnement/conditions/index.html"].every(f => contradictions.every(r => !r.test(sansBalises(f)))));
+// 21/10/2026 (décision d'Ahmed, site international) : Alertes Pro GRATUITES pour commencer — interrupteur ABO["gratuit"] de construire_site.py
+const GRATUIT = /"gratuit": True/.test(readFileSync(join(root, "robot/construire_site.py"), "utf8"));
+if (GRATUIT) {
+  check("abonnement GRATUIT : « Gratuit pour le moment », aucun prix, aucun paiement (D17, IZI, preuve, facture) sur la page",
+    /Gratuit pour le moment/.test(texte(d.getElementById("abo-prix"))) && !/\bDT\b|TND|D17|IZI|preuve de paiement|facture|réception du paiement/.test(ta) && !d.getElementById("paiement") && !d.getElementById("abo-preuve"));
+  check("abonnement GRATUIT : accueil et données Google sans prix", !/\d+ DT \/ mois|TND/.test(lire("index.html")) && /gratuit/.test(lire("index.html")));
+} else {
+  check("abonnement : prix tout de suite (9 DT / mois ou 79 DT / an), alertes dès réception du paiement, sans engagement au-delà d'un an, pas de renouvellement automatique",
+    /9 DT \/ mois ou 79 DT \/ an/.test(texte(d.getElementById("abo-prix"))) && /dès réception du paiement/.test(ta) && /Sans engagement au-delà d'un an/.test(ta) && /Pas de renouvellement automatique/.test(ta));
+  const pay = d.getElementById("paiement");
+  check("bouton « Paiement » qui déplie D17 et IZI (liens vers les applications officielles, mode d'emploi, plus de Wafacash) au 24 321 390 + montant + motif", pay && pay.tagName === "DETAILS" && !pay.open &&
+    ["D17", "IZI", "Transfert rapide"].every(m => texte(pay).includes(m)) && (texte(pay).match(/24 321 390/g) || []).length >= 1 && /Motif/.test(texte(pay)) && !/Wafacash/i.test(pay.outerHTML) && ["tn.mobipost", "tn.izi.consumer", "id1475640303", "id1603653941"].every(u => pay.querySelector(`a[href*="${u}"]`)));
+  check("paiement : logos D17 / IZI dans les boutons, étape 2 pour les deux applications, bouton « ? » avec les deux écrans d'exemple", ["d17.png", "izi.png", "transfert-d17.svg", "transfert-izi.svg"].every(f => existsSync(join(root, "assets/paiement", f))) && /class="appli-btn"[^>]*><img src="\.\.\/assets\/paiement\/d17\.png"/.test(lire("abonnement/index.html")) && /class="aide-transfert"/.test(lire("abonnement/index.html")) && /Transfert d’argent/.test(lire("abonnement/index.html")));
+  { // 18/10/2026 : le motif du paiement est le CODE PERSONNEL donné à l'inscription (#abo-code) — jamais « votre nom » / « nom de l'entreprise » ailleurs sur la page ou dans les conditions
+    const sansBalises = f => lire(f).replace(/<[^>]*>/g, " ");
+    const contradictions = [/pour motif (votre nom|le nom)/, /name as reference/, /motif du paiement et facture/];
+    check("paiement : motif = code personnel partout (page d'abonnement + conditions), aucune phrase « motif = nom »",
+      /id="abo-code"/.test(lire("abonnement/index.html")) && /motif[^.]{0,40}code personnel/.test(sansBalises("abonnement/index.html")) && /code personnel/.test(sansBalises("abonnement/conditions/index.html")) &&
+      ["abonnement/index.html", "abonnement/conditions/index.html"].every(f => contradictions.every(r => !r.test(sansBalises(f)))));
+  }
+  check("paiement simple et rassurant (règle commune du 08/10/2026) : 3 étapes numérotées, phrase de confiance, description de l'offre cachée quand « Paiement » est ouvert", /<ol class="paie-etapes">/.test(lire("abonnement/index.html")) && /class="paie-confiance"/.test(lire("abonnement/index.html")) && /class="avantages[^"]*masque-si-paiement/.test(lire("abonnement/index.html")) && lire("assets/style.css").includes(":has(> details.paiement[open]) > .masque-si-paiement{display:none}"));
+  check("paiement : ligne honnête pour l'étranger (carte : bientôt ; WhatsApp)", /Paiement par carte pour l'étranger : bientôt ; écrivez-nous sur WhatsApp/.test(texte(pay)));
+  const wa = d.getElementById("abo-preuve");
+  check("bouton vert « preuve de paiement » vers wa.me/21624321390 avec texte prérempli", wa && /^https:\/\/wa\.me\/21624321390\?text=/.test(wa.href) && /preuve de paiement/.test(decodeURIComponent(wa.href)));
 }
-check("paiement simple et rassurant (règle commune du 08/10/2026) : 3 étapes numérotées, phrase de confiance, description de l'offre cachée quand « Paiement » est ouvert", /<ol class="paie-etapes">/.test(lire("abonnement/index.html")) && /class="paie-confiance"/.test(lire("abonnement/index.html")) && /class="avantages[^"]*masque-si-paiement/.test(lire("abonnement/index.html")) && lire("assets/style.css").includes(":has(> details.paiement[open]) > .masque-si-paiement{display:none}"));
-check("paiement : ligne honnête pour l'étranger (carte : bientôt ; WhatsApp)", /Paiement par carte pour l'étranger : bientôt ; écrivez-nous sur WhatsApp/.test(texte(pay)));
-const wa = d.getElementById("abo-preuve");
-check("bouton vert « preuve de paiement » vers wa.me/21624321390 avec texte prérempli", wa && /^https:\/\/wa\.me\/21624321390\?text=/.test(wa.href) && /preuve de paiement/.test(decodeURIComponent(wa.href)));
 const fa = d.getElementById("abo-form");
-check("formulaire : formule 1 mois (cochée) ou 1 an, plus de formule « essai »", [...fa.querySelectorAll('[name="formule"]')].map(x => x.value + (x.checked ? "*" : "")).join(",") === "1 mois*,1 an");
+check(GRATUIT ? "formulaire GRATUIT : pas de choix de formule" : "formulaire : formule 1 mois (cochée) ou 1 an, plus de formule « essai »", [...fa.querySelectorAll('[name="formule"]')].map(x => x.value + (x.checked ? "*" : "")).join(",") === (GRATUIT ? "" : "1 mois*,1 an"));
 check("formulaire : Formspree mwlpakqj, nom, institution, pays, téléphone, e-mail, spécialités, formule, conditions",
-  fa.getAttribute("action") === "https://formspree.io/f/mwlpakqj" && ["nom", "etablissement", "pays", "telephone", "email", "conditions", "formule"].every(n => fa.querySelector(`[name="${n}"]`)) &&
+  fa.getAttribute("action") === "https://formspree.io/f/mwlpakqj" && ["nom", "etablissement", "pays", "telephone", "email", "conditions", ...(GRATUIT ? [] : ["formule"])].every(n => fa.querySelector(`[name="${n}"]`)) &&
   fa.querySelectorAll('input[name="specialites"]').length === new Set(avenir.flatMap(c => c.specialites)).size);
 // envoi simulé
 const envois = [];
@@ -482,12 +490,14 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
   const spec1 = fa.querySelector('input[name="specialites"]').value;
   check("inscription IMMÉDIATE : code de 6 caractères, « Ouvrir Telegram » avec les spécialités (start=e<CODE>_<spécialités>), code envoyé et dans WhatsApp",
     /^[A-HJ-NP-Z2-9]{6}$/.test(codeC) && lienC === `https://t.me/${fa.getAttribute("data-robot")}?start=e${codeC}_${w.ESSAI_ALERTES.encoder([spec1], fa.getAttribute("data-specs").split(","))}`
-    && lienC.split("start=")[1].length <= 64 && corps.code === codeC && decodeURIComponent(d.getElementById("abo-preuve-apres").href).includes("code " + codeC));
+    && lienC.split("start=")[1].length <= 64 && corps.code === codeC && (GRATUIT || decodeURIComponent(d.getElementById("abo-preuve-apres").href).includes("code " + codeC)));
   check("inscription IMMÉDIATE : 3 gestes avant Telegram (DÉMARRER, réponse le matin suivant), plus d'« activation sous 24 heures »",
     ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap))); }
 w = await page("abonnement/conditions/index.html", "lang=fr");
 const tc = texte(w.document.querySelector("main"));
-check("conditions : vendeur = l'éditeur du site, prix, paiement (période payée dès l'activation), pas de renouvellement, aucun remboursement, données personnelles, INPDP",
+if (GRATUIT) check("conditions GRATUITES : gratuit pour le moment, prévenu avant tout passage au payant, rien prélevé, arrêt /stop, données personnelles, INPDP, ni prix ni paiement ni facture",
+  /Gratuit pour le moment/.test(tc) && /prévenus à l'avance/.test(tc) && /rien n'est jamais prélevé/.test(tc) && /\/stop/.test(tc) && /Données personnelles/.test(tc) && /INPDP/.test(tc) && !/\bDT\b|D17|IZI|facture|remboursée/.test(tc));
+else check("conditions : vendeur = l'éditeur du site, prix, paiement (période payée dès l'activation), pas de renouvellement, aucun remboursement, données personnelles, INPDP",
   /vendu par l'éditeur du site/.test(tc) && /9 DT par mois ou 79 DT par an/.test(tc) && /commence le jour de l'activation/.test(tc) && !/gratuits, sans paiement/.test(tc) && /D17 ou IZI/.test(tc) &&
   /aucun renouvellement automatique/.test(tc) && /Aucune période déjà payée n'est remboursée/.test(tc) && /Données personnelles/.test(tc) && /INPDP/.test(tc));
 

@@ -9,7 +9,7 @@ zakat/waqf, normes AAOIFI et gouvernance charia).
 
 - Adresse : https://conferences.clicvia.com/
 - Alertes **gratuites** sans données personnelles : flux RSS (Atom) par domaine et par spécialité (`flux/`).
-- Alertes **personnalisées** sur Telegram (« Alertes Pro », `abonnement/`) : 9 DT / mois ou 79 DT / an, sans essai gratuit (depuis le 20/10/2026),
+- Alertes **personnalisées** sur Telegram (« Alertes Pro », `abonnement/`) : GRATUITES depuis le 21/10/2026 (avant : 9 DT / mois ou 79 DT / an, sans essai gratuit depuis le 20/10/2026),
   sans renouvellement automatique. La consultation reste gratuite.
 
 ## Sources (licences)

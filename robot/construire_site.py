@@ -170,6 +170,9 @@ ABO = {
     "prix_mois": 9, "prix_an": 79, "rappel_jours": 3,     # plus d'essai gratuit depuis le 20/10/2026 (décision d'Ahmed)
     "numero": "24 321 390", "whatsapp": "21624321390", "paiements": ["D17", "IZI"],
     "formspree": "https://formspree.io/f/mwlpakqj",
+    # 21/10/2026, décision d'Ahmed : site international -> Alertes Pro GRATUITES pour commencer. Le code du paiement (D17/IZI)
+    # est gardé : remettre False pour revenir au payant (même interrupteur dans le robot privé : GRATUIT de tools/alertes.py).
+    "gratuit": True,
 }
 TEXTE_PREUVE = "Bonjour, voici la preuve de paiement de mon abonnement Alertes Pro (Radar des conférences). Nom : "
 TEXTE_ETRANGER = "Bonjour, je souhaite m'abonner aux Alertes Pro (Radar des conférences) depuis l'étranger. Nom : "
@@ -507,6 +510,9 @@ def bouton_pro_accueil(racine=""):
     sous = L(f"Nouvelles conférences et rappels de dates limites · {pm} DT / mois",
              f"New conferences and deadline reminders · {pm} TND / month",
              f"مؤتمرات جديدة وتذكير بآجال الإرسال · {ISO(pm)} دينار / شهر")
+    if ABO["gratuit"]:
+        sous = L("Nouvelles conférences et rappels de dates limites · gratuit", "New conferences and deadline reminders · free",
+                 "مؤتمرات جديدة وتذكير بآجال الإرسال · مجانًا")
     return (f'    <a class="btn-pro-grand" id="btn-pro-accueil" href="{racine}abonnement/">{ICONE_CLOCHE}'
             f'<span>{titre}<small>{sous}</small></span></a>')
 
@@ -744,6 +750,8 @@ def atom(titre, chemin, confs, maj):
 
 # ------------------------------------------------------------ Alertes Pro
 def prix_abo():
+    if ABO["gratuit"]:
+        return L("Gratuit <small>pour le moment</small>", "Free <small>for now</small>", "مجاني <small>حاليًا</small>")
     m, a = ABO["prix_mois"], ABO["prix_an"]
     return L(f"{m} DT / mois <small>ou {a} DT / an</small>", f"{m} TND / month <small>or {a} TND / year</small>",
              f"{ISO(m)} دينار / شهر <small>أو {ISO(a)} دينار / سنة</small>")
@@ -806,6 +814,17 @@ ETAPES_ESSAI = {
 }
 
 
+ETAPES_GRATUIT = {   # 21/10/2026 : Alertes Pro gratuites
+    'fr': "    <li>La page vous donne votre <b>code personnel</b> et un bouton « Ouvrir Telegram » : touchez <b>DÉMARRER</b> (vos choix sont dans le lien). C'est tout : c'est gratuit.</li>",
+    'en': "    <li>The page gives you your <b>personal code</b> and an “Open Telegram” button: tap <b>START</b> (your choices are in the link). That's all: it's free.</li>",
+    'ar': '    <li>تعطيك الصفحة <b>رمزك الشخصي</b> وزر « افتح تيليغرام »: المس <b>ابدأ</b> (اختياراتك موجودة في الرابط). هذا كل شيء: الخدمة مجانية.</li>',
+}
+
+
+def etapes(langue, robot):
+    return ETAPES_GRATUIT[langue] if ABO["gratuit"] and robot else ETAPES_ESSAI[langue, bool(robot)]
+
+
 def bloc_essai_tg(robot):
     """Après l'inscription : code et lien Telegram tout de suite (règle commune § 15) si le robot est réglé ; sinon (robot pas
     encore créé par Ahmed) l'ancien texte honnête : activation à la main au paiement, lien Telegram envoyé à l'activation."""
@@ -815,12 +834,12 @@ def bloc_essai_tg(robot):
     <p id="abo-telegram">{texte_telegram("")}</p>
 '''
     return f'''    <h3>{L("Dernière étape : ouvrez Telegram", "Last step: open Telegram", "الخطوة الأخيرة: افتح تيليغرام")}</h3>
-    <p>{L("Votre inscription est prête. Votre code personnel (motif du paiement) :", "Your sign-up is ready. Your personal code (payment reference):", "تسجيلك جاهز. رمزك الشخصي (سبب الدفع):")}
+    <p>{L("Votre inscription est prête. Votre code personnel :", "Your sign-up is ready. Your personal code:", "تسجيلك جاهز. رمزك الشخصي:") if ABO["gratuit"] else L("Votre inscription est prête. Votre code personnel (motif du paiement) :", "Your sign-up is ready. Your personal code (payment reference):", "تسجيلك جاهز. رمزك الشخصي (سبب الدفع):")}
       <b class="abo-code" id="abo-code" dir="ltr"></b></p>
     <ol class="etapes-tg">
       <li>{L("Touchez « Ouvrir Telegram » : l'application s'ouvre sur notre robot.", "Tap “Open Telegram”: the app opens on our bot.", "المس « افتح تيليغرام »: يفتح التطبيق على برنامجنا.")}</li>
       <li>{L("Touchez <b>DÉMARRER</b> en bas de l'écran. Rien d'autre à écrire : vos choix sont déjà dans le lien.", "Tap <b>START</b> at the bottom of the screen. Nothing else to type: your choices are already in the link.", "المس <b>ابدأ</b> أسفل الشاشة. لا شيء آخر تكتبه: اختياراتك موجودة في الرابط.")}</li>
-      <li>{L("Le robot vous répond <b>le matin suivant, vers 8 h (heure de Tunis)</b>. Vos conférences arrivent chaque matin dès réception de votre paiement (ci-dessous). Vous pouvez fermer Telegram en attendant.", "The bot replies <b>the following morning, around 8 am (Tunis time)</b>. Your conferences arrive every morning as soon as we receive your payment (below). You can close Telegram meanwhile.", "يجيبك البرنامج <b>في الصباح الموالي، حوالي الساعة ⁦8⁩ (توقيت تونس)</b>. تصلك مؤتمراتك كل صباح فور استلام دفعك (أسفله). يمكنك غلق تيليغرام في الأثناء.")}</li>
+      <li>{L("Le robot vous répond <b>le matin suivant, vers 8 h (heure de Tunis)</b>, puis vos conférences arrivent chaque matin. Vous pouvez fermer Telegram en attendant.", "The bot replies <b>the following morning, around 8 am (Tunis time)</b>, then your conferences arrive every morning. You can close Telegram meanwhile.", "يجيبك البرنامج <b>في الصباح الموالي، حوالي الساعة ⁦8⁩ (توقيت تونس)</b>، ثم تصلك مؤتمراتك كل صباح. يمكنك غلق تيليغرام في الأثناء.") if ABO["gratuit"] else L("Le robot vous répond <b>le matin suivant, vers 8 h (heure de Tunis)</b>. Vos conférences arrivent chaque matin dès réception de votre paiement (ci-dessous). Vous pouvez fermer Telegram en attendant.", "The bot replies <b>the following morning, around 8 am (Tunis time)</b>. Your conferences arrive every morning as soon as we receive your payment (below). You can close Telegram meanwhile.", "يجيبك البرنامج <b>في الصباح الموالي، حوالي الساعة ⁦8⁩ (توقيت تونس)</b>. تصلك مؤتمراتك كل صباح فور استلام دفعك (أسفله). يمكنك غلق تيليغرام في الأثناء.")}</li>
     </ol>
     {bouton_essai_tg(robot)}
     <p class="petit">{L("Pas Telegram ? Il s'installe en une minute (Google Play, App Store), puis revenez toucher le bouton. En attendant, toutes les conférences et les flux RSS restent gratuits sur ce site.", "No Telegram? It installs in one minute (Google Play, App Store), then come back and tap the button. Meanwhile, all conferences and RSS feeds stay free on this site.", "ليس لديك تيليغرام؟ يُثبَّت في دقيقة (Google Play، App Store)، ثم عد والمس الزر. في الأثناء، كل المؤتمرات وتدفقات RSS مجانية في هذا الموقع.")}</p>
@@ -847,6 +866,38 @@ def texte_telegram(robot):
 
 def pages_abonnement(confs, adr, v, etat):
     pm, pa, rj = ABO["prix_mois"], ABO["prix_an"], ABO["rappel_jours"]
+    gratuit = ABO["gratuit"]
+    if gratuit:   # 21/10/2026 : ni formule, ni bloc « Paiement », ni facture
+        ruban = L("Gratuit pour le moment", "Free for now", "مجاني حاليًا")
+        avantages_fin = f'    <li><strong>{L("Gratuit pour le moment, sans paiement", "Free for now, no payment", "مجاني حاليًا، دون دفع")}</strong> — {L("arrêt à tout moment en envoyant /stop", "stop at any time by sending /stop", "الإيقاف في أي وقت بإرسال ⁨/stop⁩")}</li>'
+        bloc_paiement = formule = apres_paiement = ""
+    else:
+        ruban = L("Pas de renouvellement automatique", "No automatic renewal", "لا تجديد آلي")
+        avantages_fin = f"""    <li>{L(f"Pas de renouvellement automatique : rappel {rj} jours avant la fin, puis l'alerte s'arrête simplement", f"No automatic renewal: reminder {rj} days before the end, then alerts simply stop", f"لا تجديد آلي: تذكير قبل النهاية بـ{ISO(rj)} أيام، ثم يتوقف التنبيه ببساطة")}</li>
+    <li><strong>{L("Sans engagement au-delà d'un an", "No commitment beyond one year", "دون التزام بعد السنة")}</strong></li>"""
+        bloc_paiement = f"""  <p class="petit masque-si-paiement">{L("Paiement par D17 ou IZI (bouton « Paiement »), avec pour motif votre code personnel : vos alertes commencent dès réception du paiement. Une facture vous est adressée.",
+                      "Payment by D17 or IZI (“Payment” button), with your personal code as reference: your alerts start as soon as we receive the payment. An invoice is sent to you.",
+                      "الدفع عبر ⁨D17⁩ أو ⁨IZI⁩ (زر «الدفع») مع ذكر رمزك الشخصي: تبدأ تنبيهاتك فور استلام الدفع. تُرسل إليك فاتورة.")}</p>
+  <details class="paiement" id="paiement"><summary class="btn-clair">{L("Paiement", "Payment", "الدفع")}</summary>
+    {liste_paiements()}
+    {lien_preuve()}
+    <p class="petit">{L("Payez avec pour motif votre code personnel (donné à l’inscription), puis envoyez la preuve par WhatsApp : vos alertes commencent dès réception du paiement. Une facture vous est adressée.",
+                        "Pay with your personal code (given at sign-up) as reference, then send the proof on WhatsApp: your alerts start as soon as we receive the payment. An invoice is sent to you.",
+                        "ادفع مع ذكر رمزك الشخصي (يُعطى عند التسجيل) كسبب للدفع، ثم أرسل الإثبات عبر واتساب: تبدأ تنبيهاتك فور استلام الدفع. تُرسل إليك فاتورة.")}</p>
+  </details>
+"""
+        formule = f"""    <fieldset class="abo-choix" id="abo-formule">
+      <legend>{L("Votre formule", "Your plan", "صيغتك")}</legend>
+      <label class="case"><input type="radio" name="formule" value="1 mois" checked> <span>{L(f"1 mois ({pm} DT)", f"1 month ({pm} TND)", f"شهر ({ISO(pm)} دينار)")}</span></label>
+      <label class="case"><input type="radio" name="formule" value="1 an"> <span>{L(f"1 an ({pa} DT)", f"1 year ({pa} TND)", f"سنة ({ISO(pa)} دينار)")}</span></label>
+    </fieldset>
+"""
+        apres_paiement = f"""    <h3>{L("Paiement", "Payment", "الدفع")}</h3>
+    <p>{L("Payez par D17 ou IZI, avec pour motif votre code personnel : vos alertes commencent dès réception du paiement.", "Pay by D17 or IZI, with your personal code as reference: your alerts start as soon as we receive the payment.", "ادفع عبر ⁨D17⁩ أو ⁨IZI⁩ مع ذكر رمزك الشخصي كسبب للدفع: تبدأ تنبيهاتك فور استلام الدفع.")}</p>
+    {liste_paiements("abo-etranger-apres")}
+    {lien_preuve("abo-preuve-apres")}
+    <p class="petit">{L(f"Une facture vous est adressée. Pas de renouvellement automatique : nous vous prévenons {rj} jours avant la fin.", f"An invoice is sent to you. No automatic renewal: we warn you {rj} days before the end.", f"تُرسل إليك فاتورة. لا تجديد آلي: نعلمك قبل النهاية بـ{ISO(rj)} أيام.")}</p>
+"""
     cs = compter(confs, "specialites")
     groupes = []
     for d in K.DOMAINES:
@@ -864,7 +915,7 @@ def pages_abonnement(confs, adr, v, etat):
                         "Every morning, only the new conferences in YOUR specialties and reminders of their deadlines, straight to your phone. Browsing the site and the RSS feeds stay free.",
                         "كل صباح، المؤتمرات الجديدة في تخصصاتك فقط وتذكير بآجال الإرسال، مباشرة على هاتفك. تصفح الموقع وخلاصات ⁨RSS⁩ يبقيان مجانيين.")}</p>"""
     contenu = f"""<section class="offre-pro" id="offre">
-  <p class="ruban">{L("Pas de renouvellement automatique", "No automatic renewal", "لا تجديد آلي")}</p>
+  <p class="ruban">{ruban}</p>
   <h2>{L("Abonnement Alertes Pro", "Pro Alerts subscription", "اشتراك تنبيهات Pro")}</h2>
   <p class="prix" id="abo-prix">{prix_abo()}</p>
   <ul class="avantages masque-si-paiement">
@@ -872,36 +923,25 @@ def pages_abonnement(confs, adr, v, etat):
     <li>{L("Rappels des dates limites de soumission à J-7 et J-1", "Submission deadline reminders 7 days and 1 day before", "تذكير بآجال الإرسال قبل 7 أيام وقبل يوم")}</li>
     <li>{L("Plusieurs spécialités au choix, dans tous les domaines", "Several specialties of your choice, in every field", "عدة تخصصات حسب اختيارك في كل المجالات")}</li>
     <li>{L("Sources vérifiées, organisateurs douteux écartés, lien officiel de chaque conférence", "Checked sources, dubious organisers filtered out, official link for every conference", "مصادر موثوقة، استبعاد المنظمين المشبوهين، الرابط الرسمي لكل مؤتمر")}</li>
-    <li>{L(f"Pas de renouvellement automatique : rappel {rj} jours avant la fin, puis l'alerte s'arrête simplement", f"No automatic renewal: reminder {rj} days before the end, then alerts simply stop", f"لا تجديد آلي: تذكير قبل النهاية بـ{ISO(rj)} أيام، ثم يتوقف التنبيه ببساطة")}</li>
-    <li><strong>{L("Sans engagement au-delà d'un an", "No commitment beyond one year", "دون التزام بعد السنة")}</strong></li>
+{avantages_fin}
   </ul>
-  <p class="petit masque-si-paiement">{L("Paiement par D17 ou IZI (bouton « Paiement »), avec pour motif votre code personnel : vos alertes commencent dès réception du paiement. Une facture vous est adressée.",
-                      "Payment by D17 or IZI (“Payment” button), with your personal code as reference: your alerts start as soon as we receive the payment. An invoice is sent to you.",
-                      "الدفع عبر ⁨D17⁩ أو ⁨IZI⁩ (زر «الدفع») مع ذكر رمزك الشخصي: تبدأ تنبيهاتك فور استلام الدفع. تُرسل إليك فاتورة.")}</p>
-  <details class="paiement" id="paiement"><summary class="btn-clair">{L("Paiement", "Payment", "الدفع")}</summary>
-    {liste_paiements()}
-    {lien_preuve()}
-    <p class="petit">{L("Payez avec pour motif votre code personnel (donné à l’inscription), puis envoyez la preuve par WhatsApp : vos alertes commencent dès réception du paiement. Une facture vous est adressée.",
-                        "Pay with your personal code (given at sign-up) as reference, then send the proof on WhatsApp: your alerts start as soon as we receive the payment. An invoice is sent to you.",
-                        "ادفع مع ذكر رمزك الشخصي (يُعطى عند التسجيل) كسبب للدفع، ثم أرسل الإثبات عبر واتساب: تبدأ تنبيهاتك فور استلام الدفع. تُرسل إليك فاتورة.")}</p>
-  </details>
-  <a class="btn-pro" href="#inscription">{L("Je m'inscris", "Sign up", "أسجّل")}</a>
+{bloc_paiement}  <a class="btn-pro" href="#inscription">{L("Je m'inscris", "Sign up", "أسجّل")}</a>
 </section>
 <section class="carte">
   <h2>{L("Comment ça marche ?", "How does it work?", "كيف يعمل؟")}</h2>
   <ol class="etapes" data-l="fr">
     <li>Vous choisissez vos <b>spécialités</b> dans le formulaire ci-dessous.</li>
-{ETAPES_ESSAI['fr', bool(adr['robot'])]}
+{etapes('fr', adr['robot'])}
     <li>Chaque matin : les nouvelles conférences de vos spécialités, et un rappel 7 jours puis 1 jour avant chaque date limite.</li>
   </ol>
   <ol class="etapes" data-l="en">
     <li>Choose your <b>specialties</b> in the form below.</li>
-{ETAPES_ESSAI['en', bool(adr['robot'])]}
+{etapes('en', adr['robot'])}
     <li>Every morning: new conferences in your specialties, plus a reminder 7 days and 1 day before each deadline.</li>
   </ol>
   <ol class="etapes" data-l="ar">
     <li>تختار <b>تخصصاتك</b> في الاستمارة أسفله.</li>
-{ETAPES_ESSAI['ar', bool(adr['robot'])]}
+{etapes('ar', adr['robot'])}
     <li>كل صباح: المؤتمرات الجديدة في تخصصاتك، وتذكير قبل كل أجل بـ⁦7⁩ أيام ثم بيوم.</li>
   </ol>
 </section>
@@ -917,47 +957,38 @@ def pages_abonnement(confs, adr, v, etat):
     <input id="abo-pays" name="pays" required maxlength="60" autocomplete="country-name">
     <label class="abo-etiquette" for="abo-tel">{L("Téléphone (WhatsApp ou Telegram, avec l'indicatif)", "Phone (WhatsApp or Telegram, with country code)", "الهاتف (واتساب أو تيليغرام، مع رمز البلد)")}</label>
     <input id="abo-tel" name="telephone" required inputmode="tel" maxlength="20" autocomplete="tel" placeholder="+216 24 321 390">
-    <label class="abo-etiquette" for="abo-email">{L("E-mail (pour la confirmation et la facture)", "E-mail (for confirmation and invoice)", "البريد الإلكتروني (للتأكيد والفاتورة)")}</label>
+    <label class="abo-etiquette" for="abo-email">{L("E-mail (pour la confirmation)", "E-mail (for confirmation)", "البريد الإلكتروني (للتأكيد)") if gratuit else L("E-mail (pour la confirmation et la facture)", "E-mail (for confirmation and invoice)", "البريد الإلكتروني (للتأكيد والفاتورة)")}</label>
     <input id="abo-email" type="email" name="email" required maxlength="200" autocomplete="email">
     <fieldset class="abo-choix" id="abo-specs">
       <legend>{L("Vos spécialités (une ou plusieurs)", "Your specialties (one or more)", "تخصصاتك (واحد أو أكثر)")}</legend>
       <div class="cases">{cases}</div>
     </fieldset>
-    <fieldset class="abo-choix" id="abo-formule">
-      <legend>{L("Votre formule", "Your plan", "صيغتك")}</legend>
-      <label class="case"><input type="radio" name="formule" value="1 mois" checked> <span>{L(f"1 mois ({pm} DT)", f"1 month ({pm} TND)", f"شهر ({ISO(pm)} دينار)")}</span></label>
-      <label class="case"><input type="radio" name="formule" value="1 an"> <span>{L(f"1 an ({pa} DT)", f"1 year ({pa} TND)", f"سنة ({ISO(pa)} دينار)")}</span></label>
-    </fieldset>
-    <label class="case"><input type="checkbox" name="conditions" value="oui" required id="abo-conditions"> <span>{accepte}</span></label>
+{formule}    <label class="case"><input type="checkbox" name="conditions" value="oui" required id="abo-conditions"> <span>{accepte}</span></label>
     <input type="hidden" name="site" value="Radar des conférences">
     <input type="hidden" name="page" value="">
     <input type="hidden" name="_subject" value="Abonnement Alertes Pro — Radar des conférences">
     <input type="text" name="_gotcha" class="abo-piege" tabindex="-1" autocomplete="off" aria-hidden="true">
     <button type="submit" class="btn-pro">{L("Envoyer mon inscription", "Send my sign-up", "أرسل تسجيلي")}</button>
     <p id="abo-status" role="status" aria-live="polite"></p>
-    <p class="petit">{L("Vos coordonnées servent seulement à l'abonnement et à la facture : elles ne sont jamais publiées ni vendues (envoi par le service Formspree). Rien n'est envoyé sans clic sur « Envoyer ».",
-                        "Your details are only used for the subscription and the invoice: they are never published or sold (sent through the Formspree service). Nothing is sent until you press “Send”.",
-                        "تُستعمل بياناتك للاشتراك والفاتورة فقط: لا تُنشر ولا تُباع أبدًا (إرسال عبر خدمة ⁨Formspree⁩). لا يُرسل أي شيء دون الضغط على «أرسل».")}</p>
+    <p class="petit">{L("Vos coordonnées servent seulement à l'abonnement : elles ne sont jamais publiées ni vendues (envoi par le service Formspree). Rien n'est envoyé sans clic sur « Envoyer ».",
+                        "Your details are only used for the subscription: they are never published or sold (sent through the Formspree service). Nothing is sent until you press “Send”.",
+                        "تُستعمل بياناتك للاشتراك فقط: لا تُنشر ولا تُباع أبدًا (إرسال عبر خدمة ⁨Formspree⁩). لا يُرسل أي شيء دون الضغط على «أرسل».")}</p>
   </form>
   <div class="apres-abo" id="apres-abo" hidden>
-{bloc_essai_tg(adr['robot'])}    <h3>{L("Paiement", "Payment", "الدفع")}</h3>
-    <p>{L("Payez par D17 ou IZI, avec pour motif votre code personnel : vos alertes commencent dès réception du paiement.", "Pay by D17 or IZI, with your personal code as reference: your alerts start as soon as we receive the payment.", "ادفع عبر ⁨D17⁩ أو ⁨IZI⁩ مع ذكر رمزك الشخصي كسبب للدفع: تبدأ تنبيهاتك فور استلام الدفع.")}</p>
-    {liste_paiements("abo-etranger-apres")}
-    {lien_preuve("abo-preuve-apres")}
-    <p class="petit">{L(f"Une facture vous est adressée. Pas de renouvellement automatique : nous vous prévenons {rj} jours avant la fin.", f"An invoice is sent to you. No automatic renewal: we warn you {rj} days before the end.", f"تُرسل إليك فاتورة. لا تجديد آلي: نعلمك قبل النهاية بـ{ISO(rj)} أيام.")}</p>
-  </div>
+{bloc_essai_tg(adr['robot'])}{apres_paiement}  </div>
 </section>
 <p class="avert">{L("La consultation du site reste <b>gratuite, sans inscription</b>, et les flux RSS par domaine restent gratuits. L'abonnement ajoute seulement l'alerte personnalisée sur Telegram.",
                     "Browsing the site stays <b>free, without sign-up</b>, and the RSS feeds by field stay free. The subscription only adds the personalised Telegram alert.",
                     "تصفح الموقع يبقى <b>مجانيًا ودون تسجيل</b>، وخلاصات ⁨RSS⁩ حسب المجال تبقى مجانية. الاشتراك يضيف فقط التنبيه الشخصي على تيليغرام.")}</p>"""
-    titre = f"Pro Alerts: conferences of your specialty on Telegram — {pm} TND / month · Alertes Pro | Conference Radar"
+    prix_titre = "free" if gratuit else f"{pm} TND / month"
+    titre = f"Pro Alerts: conferences of your specialty on Telegram — {prix_titre} · Alertes Pro | Conference Radar"
     desc = (f"Receive every morning on Telegram the new academic conferences of your specialties and deadline reminders. "
-            f"{pm} TND / month or {pa} TND / year, no automatic renewal. Alertes de conférences sur Telegram.")
+            + ("Free for now. " if gratuit else f"{pm} TND / month or {pa} TND / year, no automatic renewal. ") + "Alertes de conférences sur Telegram.")
     res = [("abonnement/", page("abonnement/", "../", titre, desc, hero, contenu, v, etat, scripts=("abonnement.js",)))]
 
     hero = f"""    <p class="fil"><a href="../../">{L("Accueil", "Home", "الرئيسية")}</a> › <a href="../">{L("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a> › {L("Conditions", "Terms", "الشروط")}</p>
     <h1>{L("Conditions de l'abonnement", "Subscription terms", "شروط الاشتراك")}</h1>
-    <p class="intro">{L("Alertes Pro : prix, paiement, données personnelles, arrêt.", "Pro Alerts: price, payment, personal data, cancellation.", "تنبيهات Pro: السعر، الدفع، المعطيات الشخصية، الإيقاف.")}</p>"""
+    <p class="intro">{L("Alertes Pro : prix, données personnelles, arrêt.", "Pro Alerts: price, personal data, cancellation.", "تنبيهات Pro: السعر، المعطيات الشخصية، الإيقاف.") if gratuit else L("Alertes Pro : prix, paiement, données personnelles, arrêt.", "Pro Alerts: price, payment, personal data, cancellation.", "تنبيهات Pro: السعر، الدفع، المعطيات الشخصية، الإيقاف.")}</p>"""
     num = ABO["numero"]
     sections = [
         (("1. Le service et le vendeur", "1. The service and the seller", "1. الخدمة والبائع"),
@@ -990,6 +1021,25 @@ def pages_abonnement(confs, adr, v, etat):
           "نحتفظ فقط بـ: الاسم، المؤسسة، البلد، الهاتف، البريد الإلكتروني، التخصصات المختارة، تواريخ الاشتراك ومعرّف تيليغرام. تُستعمل فقط لإرسال التنبيهات والفاتورة، وتُحفظ في فضاء خاص، ولا تُنشر ولا تُباع أبدًا، وتُحذف بمجرد الطلب (واتساب). تمر الاستمارة عبر خدمة ⁨Formspree⁩ والتنبيهات عبر تيليغرام. معالجة مصرّح بها لدى الهيئة الوطنية لحماية المعطيات الشخصية. للتواصل معك بخصوص اشتراكك، نحتفظ باسمك على تيليغرام، وبرقمك إن شاركته. لا يُنشران ولا يُعطيان لأي أحد أبدًا؛ أرسل ⁨/oublier⁩ إلى البرنامج لحذفهما.")),
         (("8. Contact", "8. Contact", "8. الاتصال"), (f"WhatsApp : {num}.", f"WhatsApp: {num}.", f"واتساب: {ISO(num)}.")),
     ]
+    if gratuit:   # 21/10/2026 : conditions de la version gratuite (ni prix, ni paiement, ni facture)
+        sections = [
+            (("1. Le service", "1. The service", "1. الخدمة"),
+             ("Alertes Pro est proposé par l'éditeur du site « Radar des conférences ». Le service envoie chaque matin sur Telegram les nouvelles conférences correspondant aux spécialités choisies par l'abonné, et des rappels avant leurs dates limites de soumission. La consultation du site et les flux RSS restent gratuits et sans inscription.",
+              "Pro Alerts is offered by the publisher of the “Conference Radar” website. The service sends every morning on Telegram the new conferences matching the specialties chosen by the subscriber, and reminders before their submission deadlines. Browsing the site and the RSS feeds remain free and without sign-up.",
+              "يقدّم ناشرُ موقع «رادار المؤتمرات» خدمةَ تنبيهات Pro. ترسل الخدمة كل صباح على تيليغرام المؤتمرات الجديدة المطابقة للتخصصات التي اختارها المشترك، وتذكيرات قبل آجال الإرسال. تصفح الموقع وخلاصات ⁨RSS⁩ يبقيان مجانيين ودون تسجيل.")),
+            (("2. Prix", "2. Price", "2. السعر"),
+             ("Gratuit pour le moment : aucun paiement n'est demandé. Si le service devient payant un jour, les abonnés seront prévenus à l'avance sur Telegram ; rien n'est jamais prélevé automatiquement et chacun reste libre d'arrêter.",
+              "Free for now: no payment is asked. If the service ever becomes paid, subscribers will be told in advance on Telegram; nothing is ever charged automatically and everyone remains free to stop.",
+              "مجاني حاليًا: لا يُطلب أي دفع. إذا أصبحت الخدمة يومًا ما بمقابل، يُعلَم المشتركون مسبقًا على تيليغرام؛ لا يُقتطع أي مبلغ آليًا أبدًا ويبقى كل مشترك حرًا في الإيقاف.")),
+            (("3. Arrêt", "3. Cancellation", "3. الإيقاف"),
+             ("L'abonné peut arrêter les alertes à tout moment, en envoyant /stop au robot Telegram ou en nous écrivant sur WhatsApp.",
+              "The subscriber can stop the alerts at any time by sending /stop to the Telegram bot or by writing to us on WhatsApp.",
+              "يمكن للمشترك إيقاف التنبيهات في أي وقت بإرسال ⁨/stop⁩ إلى برنامج تيليغرام أو بمراسلتنا عبر واتساب.")),
+            (("4. Limites", "4. Limits", "4. الحدود"), sections[5][1]),
+            (("5. Données personnelles", "5. Personal data", "5. المعطيات الشخصية"),
+             tuple(x.replace(" et la facture", "").replace(" and the invoice", "").replace(" والفاتورة", "") for x in sections[6][1])),
+            (("6. Contact", "6. Contact", "6. الاتصال"), sections[7][1]),
+        ]
     corps = "\n".join(f"  <h2>{LL(t)}</h2>\n  <p>{LL(p)}</p>" for t, p in sections)
     contenu = f"""<section class="carte conditions">
 {corps}
@@ -997,8 +1047,8 @@ def pages_abonnement(confs, adr, v, etat):
   <p><a class="btn-pro" href="../#inscription">{L("Retour à l'inscription", "Back to sign-up", "العودة إلى التسجيل")}</a></p>
 </section>"""
     titre = "Pro Alerts terms (Telegram reminders for conferences) · Conditions de l'abonnement | Conference Radar"
-    desc = (f"Pro Alerts terms: {pm} TND / month or {pa} TND / year, no automatic renewal, payment D17 or IZI, "
-            "personal data and cancellation. Conditions de l'abonnement Alertes Pro.")
+    desc = (("Pro Alerts terms: free for now, " if gratuit else f"Pro Alerts terms: {pm} TND / month or {pa} TND / year, no automatic renewal, payment D17 or IZI, ")
+            + "personal data and cancellation. Conditions de l'abonnement Alertes Pro.")
     res.append(("abonnement/conditions/", page("abonnement/conditions/", "../../", titre, desc, hero, contenu, v, etat)))
     return res
 
@@ -1104,7 +1154,8 @@ def construire(donnees, sortie, jour):
     faq = [
         ("How do I find upcoming conferences in my field?",
          "Choose your field and specialty: the site lists academic conferences of the next 18 months with dates, venue, submission deadline and the official link. The list is updated every day from open sources."),
-        ("Is it free?", "Yes. Browsing the site and the RSS alerts by field are free, without sign-up. Only the personalised Telegram alerts (Pro Alerts) are paid: "
+        ("Is it free?", "Yes. Browsing the site and the RSS alerts by field are free, without sign-up, and the personalised Telegram alerts (Pro Alerts) are free for now."
+         if ABO["gratuit"] else "Yes. Browsing the site and the RSS alerts by field are free, without sign-up. Only the personalised Telegram alerts (Pro Alerts) are paid: "
          f"{ABO['prix_mois']} TND per month or {ABO['prix_an']} TND per year, no automatic renewal."),
         ("How are predatory conferences avoided?",
          "Conferences come only from curated open lists (MIT licence) and the INSPIRE-HEP database (CC0). Organisers known for predatory conferences are filtered out, and every entry links to the official website."),
