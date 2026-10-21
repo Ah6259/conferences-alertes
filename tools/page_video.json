@@ -1,4 +1,5 @@
 {
+  "preload": "none",
  "site": "https://conferences.clicvia.com/",
  "logo": "assets/logo.svg",
  "defaut": "en",
