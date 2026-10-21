@@ -130,6 +130,10 @@ def normaliser(f, jour):
             if (K.S_PAR_SLUG[s][1] in ("comptabilite", "finance-islamique") or s in ("fintech", "banque", "marches")) and s not in specs:
                 specs.append(s)
     if not specs:
+        # 21/10/2026 (Ahmed) : plus jetée en silence -> notée dans donnees/sans-specialite.json ; la routine hebdomadaire
+        # « conferences-nouvelle-specialite » y cherche un thème qui revient et ajoute la spécialité (ou des mots-clés)
+        SANS_SPECIALITE.append({"lien": lien, "titre": titre, "acronyme": acr, "mots": propre(f.get("mots"), 200),
+                                "source": f.get("source") or "", "debut": d1})
         return None
     lims = []
     vus = set()
@@ -236,6 +240,27 @@ def charger(chemin):
     except (OSError, ValueError):
         pass
     return None
+
+
+SANS_SPECIALITE = []          # conférences lisibles mais rangées dans AUCUNE spécialité (voir normaliser)
+GARDE_SANS_SPEC_JOURS = 120   # durée de mémoire du carnet
+
+
+def noter_sans_specialite(sortie, jour):
+    """Carnet donnees/sans-specialite.json : une entrée par lien (premier et dernier jour vu), 120 jours de mémoire, 1000 au plus."""
+    chemin = os.path.join(os.path.dirname(sortie), "sans-specialite.json")
+    ancien = charger(chemin) or {}
+    par_lien = {e["lien"]: e for e in ancien.get("conferences") or [] if isinstance(e, dict) and e.get("lien")}
+    for e in SANS_SPECIALITE:
+        vieux = par_lien.get(e["lien"]) or {}
+        par_lien[e["lien"]] = {**e, "premier_vu": vieux.get("premier_vu") or jour, "dernier_vu": jour}
+    limite = (dt.date.fromisoformat(jour) - dt.timedelta(days=GARDE_SANS_SPEC_JOURS)).isoformat()
+    garde = sorted((e for e in par_lien.values() if (e.get("dernier_vu") or "") >= limite), key=lambda e: e["dernier_vu"], reverse=True)[:1000]
+    ecrire_json(chemin, {"maj": jour, "explication": "Conférences lues mais rangées dans aucune spécialité (gardées 120 jours) : "
+                         "la routine « conferences-nouvelle-specialite » y cherche les thèmes qui reviennent.",
+                         "nombre": len(garde), "conferences": garde})
+    SANS_SPECIALITE.clear()
+    return len(garde)
 
 
 def ecrire_json(chemin, d):
@@ -369,6 +394,8 @@ def collecter(sortie, jour, cache="", lire=None, organisateurs=None):
         "conferences": confs,
     }
     ecrire_json(sortie, d)
+    n_sans = noter_sans_specialite(sortie, jour)
+    print(f"  {n_sans} conférence(s) sans spécialité dans le carnet donnees/sans-specialite.json")
     par = {}
     for c in confs:
         for dm in c["domaines"]:

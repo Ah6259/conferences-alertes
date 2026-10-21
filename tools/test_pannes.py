@@ -252,26 +252,26 @@ try:
     html = open(os.path.join(copie, "index.html"), encoding="utf-8").read()
     check("construction : les textes sont échappés (aucune balise <script> venue des données)", "<script>alert" not in html)
     # JSON corrompu -> sauvegarde
-    open(donnees, "w", encoding="utf-8").write("{corrompu")
+    open(donnees, "w", encoding="utf-8", newline="\n").write("{corrompu")
     code, out = silence(C.construire, donnees, copie, plus(JOUR, 3))
     check("JSON corrompu : dernière sauvegarde utilisée, avertissement, « échec » au journal",
           code == 0 and "sauvegarde utilisée" in out and json.load(open(os.path.join(copie, "donnees", "etat-source.json"), encoding="utf-8"))["source_en_panne"])
     # chute -> sauvegarde
     d = json.load(open(donnees.replace(".json", ".sauvegarde.json"), encoding="utf-8"))
     d2 = dict(d, conferences=d["conferences"][:10])
-    json.dump(d2, open(donnees, "w", encoding="utf-8"))
+    json.dump(d2, open(donnees, "w", encoding="utf-8", newline="\n"))
     code, out = silence(C.construire, donnees, copie, plus(JOUR, 3))
     check("chute brutale (10 au lieu de 132) : sauvegarde utilisée", "données suspectes" in out)
     # aucune donnée, aucune sauvegarde, site existant -> rien n'est touché
     os.remove(donnees.replace(".json", ".sauvegarde.json"))
-    open(donnees, "w", encoding="utf-8").write("")
+    open(donnees, "w", encoding="utf-8", newline="\n").write("")
     avant = open(os.path.join(copie, "index.html"), encoding="utf-8").read()
     code, out = silence(C.construire, donnees, copie, plus(JOUR, 3))
     check("données illisibles sans sauvegarde : le site existant est gardé tel quel (code 1)",
           code == 1 and open(os.path.join(copie, "index.html"), encoding="utf-8").read() == avant)
     # panne d'un jour / de 3 jours
     d["derniere_lecture_reussie"] = plus(JOUR, 3) + " 05:20"
-    json.dump(d, open(donnees, "w", encoding="utf-8"))
+    json.dump(d, open(donnees, "w", encoding="utf-8", newline="\n"))
     silence(C.construire, donnees, copie, plus(JOUR, 4))
     e = json.load(open(os.path.join(copie, "donnees", "etat-source.json"), encoding="utf-8"))
     check("dernière lecture d'hier : pas encore de bandeau", not e["bandeau_visible"])
@@ -308,7 +308,7 @@ try:
     d = json.load(open(sortie, encoding="utf-8"))
     nouv = dict(d["conferences"][0], id="nouvelle-2027", acronyme="NOUV", ajoute_le=plus(JOUR, 3))
     d["conferences"].append(nouv)
-    json.dump(d, open(sortie, "w", encoding="utf-8"))
+    json.dump(d, open(sortie, "w", encoding="utf-8", newline="\n"))
     envois = []
     T.envoyer = lambda j, c, t: (envois.append((c, t)), (True, ""))[1]
     os.environ["TELEGRAM_BOT_TOKEN"] = "123:abc"
@@ -321,7 +321,7 @@ try:
     check("Telegram : jamais deux fois la même annonce", not envois)
     nouv2 = dict(nouv, id="autre-2027", acronyme="AUTRE")
     d["conferences"].append(nouv2)
-    json.dump(d, open(sortie, "w", encoding="utf-8"))
+    json.dump(d, open(sortie, "w", encoding="utf-8", newline="\n"))
     T.envoyer = lambda j, c, t: (False, "code 429 : trop de messages")
     code, out = silence(T.main, ["--donnees", sortie, "--memoire", mem, "--aujourdhui", plus(JOUR, 3)])
     check("Telegram en erreur : « échec » au journal, le robot continue", code == 0 and "échec" in out)
@@ -397,6 +397,29 @@ try:
     check("rapports : historique illisible -> repart de zéro sans planter", RP.charger(os.path.join(tmp_r, "absent.json")) == {"mois": {}})
 finally:
     shutil.rmtree(tmp_r, ignore_errors=True)
+
+# ------------------------------------------------------------------ G. carnet des conférences sans spécialité (21/10/2026, règle commune § 40)
+tmp_s = tempfile.mkdtemp(prefix="test-sans-spec-")
+try:
+    R.MINIMUM_BRUTES = {}
+    inclassable = brute("UBW", spec="", titre="International Symposium on Underwater Basket Weaving", lien="https://ubw.example.org/2027/")
+    s1 = os.path.join(tmp_s, "donnees", "conferences.json")
+    silence(R.collecter, s1, JOUR, lire=faux_lire({"ccfddl": jeu(40) + [inclassable]}))
+    carnet = json.load(open(os.path.join(tmp_s, "donnees", "sans-specialite.json"), encoding="utf-8"))
+    e = next((x for x in carnet["conferences"] if x["lien"] == "https://ubw.example.org/2027/"), None)
+    check("sans spécialité : la conférence n'est pas publiée mais NOTÉE dans le carnet (titre, source, premier et dernier jour vus)",
+          e and "Basket" in e["titre"] and e["source"] == "ccfddl" and e["premier_vu"] == JOUR == e["dernier_vu"]
+          and not any(c["lien"] == e["lien"] for c in json.load(open(s1, encoding="utf-8"))["conferences"]))
+    check("sans spécialité : les conférences classées ne vont pas dans le carnet", carnet["nombre"] == 1)
+    silence(R.collecter, s1, plus(JOUR, 3), lire=faux_lire({"ccfddl": jeu(40) + [inclassable]}))
+    e2 = json.load(open(os.path.join(tmp_s, "donnees", "sans-specialite.json"), encoding="utf-8"))["conferences"][0]
+    check("sans spécialité : revue plus tard -> premier jour gardé, dernier jour mis à jour (pas de doublon)",
+          e2["premier_vu"] == JOUR and e2["dernier_vu"] == plus(JOUR, 3))
+    silence(R.collecter, s1, plus(JOUR, 130), lire=faux_lire({"ccfddl": [brute(f"Z{k}", debut=plus(JOUR, 140 + k), fin=plus(JOUR, 141 + k)) for k in range(40)]}))
+    check("sans spécialité : oubliée après 120 jours sans être revue",
+          json.load(open(os.path.join(tmp_s, "donnees", "sans-specialite.json"), encoding="utf-8"))["nombre"] == 0)
+finally:
+    shutil.rmtree(tmp_s, ignore_errors=True)
 
 print(f"\n{total - erreurs}/{total} scénarios réussis" + (f" — {erreurs} ÉCHEC(S) : ne pas publier." if erreurs else " — tout est bon."))
 sys.exit(1 if erreurs else 0)
