@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-20T06:00:00Z</updated>
+<updated>2026-10-21T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/</id>
+<title>Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
+<link href="https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>28 Jun – 16 Jul 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/</id>
+<title>International School on Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
+<link href="https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>20–25 Jun 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/</id>
+<title>Sim2Science: ML with Imperfect Scientific Models — Cross-domain machine learning for imperfect, misspecified scientific simulators</title>
+<link href="https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>12 Dec 2026 · Paris, France · Deadline: see official website · Official: https://www.sim2science.com/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qcd-meets-ew-2026/</id>
+<title>QCD meets EW 2026</title>
+<link href="https://conferences.clicvia.com/conference/qcd-meets-ew-2026/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>10–13 Nov 2026 · Milan, Italy · Deadline: see official website · Official: https://indico.cern.ch/event/1738942/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mitp-scientific-program-phase-transitions-from-2027/</id>
 <title>MITP Scientific Program: "Phase Transitions from Microscopic to Cosmological Scales"</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/gravity-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–19 Feb 2027 · Tokyo, Japan · Deadline: see official website · Official: https://www.resceu.s.u-tokyo.ac.jp/symposium/gravity2027/index.html</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/joint-phystat-terascale-school-of-statistics-2027/</id>
-<title>Joint PhyStat &amp; Terascale School of Statistics 2027</title>
-<link href="https://conferences.clicvia.com/conference/joint-phystat-terascale-school-of-statistics-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–16 Feb 2027 · Hamburg, Germany · Deadline: see official website · Official: https://indico.cern.ch/event/1711200/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/rose-relational-observables-and-spacetime-2027/</id>
-<title>ROSE — Relational Observables and Spacetime Emergence</title>
-<link href="https://conferences.clicvia.com/conference/rose-relational-observables-and-spacetime-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Feb 2027 · Heidelberg University, Germany · Deadline: see official website · Official: https://indico.global/event/18135/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/massive-precision-bottom-and-charm-at-2027/</id>
-<title>Massive Precision: bottom and charm at colliders</title>
-<link href="https://conferences.clicvia.com/conference/massive-precision-bottom-and-charm-at-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>1–3 Feb 2027 · Genova, Italy · Deadline: see official website · Official: https://indico.cern.ch/event/1733750/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/tg2027/</id>
-<title>TG2027 — 6th Testing Gravity 2027</title>
-<link href="https://conferences.clicvia.com/conference/tg2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>27–30 Jan 2027 · Vancouver, Canada · Deadline: see official website · Official: https://www.sfu.ca/physics/cosmology/TestingGravity2027/</summary>
 </entry>
 </feed>

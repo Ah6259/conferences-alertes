@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-20T06:00:00Z</updated>
+<updated>2026-10-21T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/</id>
+<title>Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
+<link href="https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>28 Jun – 16 Jul 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/</id>
+<title>International School on Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
+<link href="https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>20–25 Jun 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qcd-meets-ew-2026/</id>
+<title>QCD meets EW 2026</title>
+<link href="https://conferences.clicvia.com/conference/qcd-meets-ew-2026/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>10–13 Nov 2026 · Milan, Italy · Deadline: see official website · Official: https://indico.cern.ch/event/1738942/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mitp-scientific-program-phase-transitions-from-2027/</id>
 <title>MITP Scientific Program: "Phase Transitions from Microscopic to Cosmological Scales"</title>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/bangkok-school-on-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–12 Dec 2026 · Bangkok, Thailand · Deadline: see official website · Official: https://indico.ictp.it/event/11129/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/juliacon-local-tokyo-2026/</id>
-<title>JuliaCon Local Tokyo 2026</title>
-<link href="https://conferences.clicvia.com/conference/juliacon-local-tokyo-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>4–5 Dec 2026 · Kashiwa, Chiba, Japan · Deadline: see official website · Official: https://juliacon.org/local/tokyo2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/flavor-lhc-in-2026/</id>
-<title>Flavor@LHC in Orsay</title>
-<link href="https://conferences.clicvia.com/conference/flavor-lhc-in-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>3 Dec 2026 · Orsay, France · Deadline: see official website · Official: https://indico.ijclab.in2p3.fr/event/14191</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/silafae-2026/</id>
-<title>SILAFAE 2026 — Andres Florez — SILAFAE 2026</title>
-<link href="https://conferences.clicvia.com/conference/silafae-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>30 Nov – 4 Dec 2026 · Bogota, Colombia · Deadline: see official website · Official: https://fisindico.uniandes.edu.co/event/18/</summary>
 </entry>
 </feed>

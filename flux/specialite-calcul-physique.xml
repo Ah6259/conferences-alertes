@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-calcul-physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-calcul-physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-20T06:00:00Z</updated>
+<updated>2026-10-21T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/</id>
+<title>Sim2Science: ML with Imperfect Scientific Models — Cross-domain machine learning for imperfect, misspecified scientific simulators</title>
+<link href="https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>12 Dec 2026 · Paris, France · Deadline: see official website · Official: https://www.sim2science.com/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ml4ps-2026/</id>
 <title>ML4PS 2026 — 9th Annual Workshop for Machine Learning and the Physical Sciences</title>
@@ -139,6 +146,13 @@
 <link href="https://conferences.clicvia.com/conference/26th-australian-institute-of-physics-aip-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>7–11 Dec 2026 · Sydney, Australia · Deadline: see official website · Official: https://www.aip.org.au/CONGRESS</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/neurips-2026/</id>
+<title>NeurIPS 2026 — 40th Annual Conference on Neural Information Processing Systems</title>
+<link href="https://conferences.clicvia.com/conference/neurips-2026/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>6–12 Dec 2026 · Sydney, Australia · Deadline: see official website · Official: https://neurips.cc/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/juliacon-local-tokyo-2026/</id>

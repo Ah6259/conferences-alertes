@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-20 10:28",
- "derniere_lecture_reussie": "2026-10-20 10:28",
+ "mis_a_jour": "2026-10-21 10:24",
+ "derniere_lecture_reussie": "2026-10-21 10:24",
  "dernier_passage": {
-  "date": "2026-10-20 10:28",
+  "date": "2026-10-21 10:24",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 273,
    "brutes": 2315,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 26,
    "brutes": 127,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 131,
-   "brutes": 155,
-   "derniere_reussite": "2026-10-20 10:28",
+   "nombre": 133,
+   "brutes": 157,
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 46,
    "brutes": 54,
-   "derniere_reussite": "2026-10-20 10:28",
+   "derniere_reussite": "2026-10-21 10:24",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 482,
+ "nombre": 484,
  "conferences": [
   {
    "id": "inlg-2026",
@@ -184,39 +184,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "3rd-ijmcg-2026",
-   "acronyme": "3rd IJMCG",
-   "titre": "3rd International Joint Meeting on Cosmology and Gravitation",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-20",
-   "fin": "2026-10-23",
-   "ville": "Arica",
-   "pays": "CL",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.global/event/17840/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3162944",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "ashg-2026",
    "acronyme": "ASHG",
    "titre": "American Society of Human Genetics",
@@ -253,76 +220,6 @@
     "bio"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "coordinating-panel-for-advanced-detectors-2026",
-   "acronyme": "",
-   "titre": "Coordinating Panel for Advanced Detectors Workshop: CPAD 2026",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-20",
-   "fin": "2026-10-23",
-   "ville": "Seattle",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "nucleaire",
-    "instrumentation"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.global/event/17230",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3194216",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iocsym2026",
-   "acronyme": "IOCSYM2026",
-   "titre": "The 1st International Online Conference on Symmetry — Recent Advances in Mathematics and Physics",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-20",
-   "fin": "2026-10-22",
-   "ville": "Beijing",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "physique-theorique",
-    "particules",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://sciforum.net/event/IOCSYM2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3086550",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -3029,6 +2926,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "qcd-meets-ew-2026",
+   "acronyme": "",
+   "titre": "QCD meets EW 2026",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-11-10",
+   "fin": "2026-11-13",
+   "ville": "Milan",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1738942/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216441",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-21"
+  },
+  {
    "id": "tcc-2026",
    "acronyme": "TCC",
    "titre": "Theory of Cryptography Conference",
@@ -5629,10 +5559,10 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-10-20",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-09-21",
@@ -5771,6 +5701,39 @@
     "robo"
    ],
    "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "neurips-2026",
+   "acronyme": "NeurIPS 2026",
+   "titre": "40th Annual Conference on Neural Information Processing Systems",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-06",
+   "fin": "2026-12-12",
+   "ville": "Sydney",
+   "pays": "AU",
+   "mode": "presentiel",
+   "continent": "oceanie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://neurips.cc/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216592",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -6250,7 +6213,7 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "neurips-2026",
+   "id": "neurips-2026-2",
    "acronyme": "NeurIPS",
    "titre": "Conference on Neural Information Processing Systems",
    "annee": 2026,
@@ -6674,6 +6637,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "sim2science-ml-with-imperfect-scientific-models-2026",
+   "acronyme": "",
+   "titre": "Sim2Science: ML with Imperfect Scientific Models — Cross-domain machine learning for imperfect, misspecified scientific simulators",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-12",
+   "fin": "2026-12-12",
+   "ville": "Paris",
+   "pays": "FR",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.sim2science.com/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216591",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-21"
   },
   {
    "id": "4th-hot-qcd-matter-2026",
@@ -12526,8 +12522,8 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-10-20",
-   "type_limite": "resume",
+   "date_limite": "2026-10-23",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -15793,6 +15789,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "international-school-on-synergies-in-non-2027",
+   "acronyme": "",
+   "titre": "International School on Synergies in non-equilibrium QFT: from heavy ions to the cosmos",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-06-20",
+   "fin": "2027-06-25",
+   "ville": "Lausanne",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro",
+    "matiere-condensee"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1728745/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216442",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-21"
+  },
+  {
    "id": "gmp-2027",
    "acronyme": "GMP",
    "titre": "International Conference on Geometric Modeling and Processing",
@@ -16752,6 +16783,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-20"
+  },
+  {
+   "id": "synergies-in-non-equilibrium-qft-from-heavy-ions-2027",
+   "acronyme": "",
+   "titre": "Synergies in non-equilibrium QFT: from heavy ions to the cosmos",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-28",
+   "fin": "2027-07-16",
+   "ville": "Lausanne",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro",
+    "matiere-condensee"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1728745/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3216443",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-21"
   },
   {
    "id": "aim-2027",

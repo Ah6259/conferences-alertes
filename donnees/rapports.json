@@ -3,14 +3,13 @@
 "2026-10": {
 "chiffres": {
 "afrique": 3,
-"evenements": 69,
+"evenements": 66,
 "limites": 60,
 "limites_conferences": 47,
 "par_continent": {
 "afrique": 3,
-"amerique-nord": 18,
-"amerique-sud": 1,
-"asie": 20,
+"amerique-nord": 17,
+"asie": 19,
 "en-ligne": 1,
 "europe": 26
 },
@@ -19,19 +18,18 @@
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 18,
+"physique": 15,
 "vie-sante": 2
 },
 "par_mode": {
 "en-ligne": 1,
 "hybride": 2,
-"presentiel": 66
+"presentiel": 63
 },
 "par_pays": {
 "BH": 1,
 "CA": 5,
-"CL": 1,
-"CN": 7,
+"CN": 6,
 "CY": 1,
 "DE": 3,
 "ES": 4,
@@ -52,12 +50,12 @@
 "TN": 1,
 "TR": 2,
 "TW": 2,
-"US": 13,
+"US": 12,
 "ZA": 1
 },
 "par_specialite": {
 "aaoifi-charia": 2,
-"astro": 11,
+"astro": 9,
 "banque-islamique": 2,
 "bioinformatique": 2,
 "compta-financiere": 1,
@@ -71,11 +69,10 @@
 "ia-apprentissage": 2,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 6,
+"instrumentation": 5,
 "langage": 5,
-"nucleaire": 6,
-"particules": 12,
-"physique-theorique": 1,
+"nucleaire": 5,
+"particules": 10,
 "quantique": 4,
 "reseaux": 4,
 "securite": 5,
@@ -83,11 +80,11 @@
 "zakat-waqf": 1
 },
 "par_type": {
-"atelier": 5,
-"conference": 63,
+"atelier": 4,
+"conference": 61,
 "ecole": 1
 },
-"pays": 26,
+"pays": 25,
 "themes_site": 11,
 "tunisie": 1
 },
@@ -773,27 +770,6 @@
 "ville": "Palma de Mallorca"
 },
 {
-"acronyme": "3rd IJMCG",
-"annee": 2026,
-"continent": "amerique-sud",
-"debut": "2026-10-20",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-23",
-"id": "3rd-ijmcg-2026",
-"lien": "https://indico.global/event/17840/",
-"limites": [],
-"mode": "presentiel",
-"pays": "CL",
-"specialites": [
-"astro"
-],
-"titre": "3rd International Joint Meeting on Cosmology and Gravitation",
-"type": "conference",
-"ville": "Arica"
-},
-{
 "acronyme": "ASHG",
 "annee": 2026,
 "continent": "amerique-nord",
@@ -813,52 +789,6 @@
 "titre": "American Society of Human Genetics",
 "type": "conference",
 "ville": "Montreal"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-20",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-23",
-"id": "coordinating-panel-for-advanced-detectors-2026",
-"lien": "https://indico.global/event/17230",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"particules",
-"nucleaire",
-"instrumentation"
-],
-"titre": "Coordinating Panel for Advanced Detectors Workshop: CPAD 2026",
-"type": "atelier",
-"ville": "Seattle"
-},
-{
-"acronyme": "IOCSYM2026",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-10-20",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-22",
-"id": "iocsym2026",
-"lien": "https://sciforum.net/event/IOCSYM2026",
-"limites": [],
-"mode": "presentiel",
-"pays": "CN",
-"specialites": [
-"physique-theorique",
-"particules",
-"astro"
-],
-"titre": "The 1st International Online Conference on Symmetry — Recent Advances in Mathematics and Physics",
-"type": "conference",
-"ville": "Beijing"
 },
 {
 "acronyme": "PACT",
@@ -2838,7 +2768,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-20",
+"derniere_date": "2026-10-21",
 "fini": false,
 "premier_jour": "2026-10-09"
 }

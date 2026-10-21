@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/specialite-astro.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-astro.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-20T06:00:00Z</updated>
+<updated>2026-10-21T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/</id>
+<title>Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
+<link href="https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>28 Jun – 16 Jul 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/</id>
+<title>International School on Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
+<link href="https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/"/>
+<updated>2026-10-21T06:00:00Z</updated>
+<summary>20–25 Jun 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mitp-scientific-program-phase-transitions-from-2027/</id>
 <title>MITP Scientific Program: "Phase Transitions from Microscopic to Cosmological Scales"</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/icppa-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–30 Oct 2026 · Moscow, Russia · Deadline: see official website · Official: https://indico.particle.mephi.ru/e/ICPPA2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/hepmad26-16th-high-energy-physics-conference-2026/</id>
-<title>HEPMAD26 — 16th High-Energy Physics Conference Antananarivo - Madagascar</title>
-<link href="https://conferences.clicvia.com/conference/hepmad26-16th-high-energy-physics-conference-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26–31 Oct 2026 · Antananarivo, Madagascar · Deadline: see official website · Official: https://www.lupm.in2p3.fr/users/qcd/hepmad26/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/relativity-reframed-quantum-reference-frames-and-2026/</id>
-<title>Relativity Reframed: Quantum Reference Frames and Gravity</title>
-<link href="https://conferences.clicvia.com/conference/relativity-reframed-quantum-reference-frames-and-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26–30 Oct 2026 · Waterloo, Canada · Deadline: see official website · Official: https://events.perimeterinstitute.ca/e/relativityreframed</summary>
 </entry>
 </feed>
