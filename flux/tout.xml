@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-21T06:00:00Z</updated>
+<updated>2026-10-22T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icwip-2027/</id>
+<title>ICWIP 2027 — International Conference on Women in Physics</title>
+<link href="https://conferences.clicvia.com/conference/icwip-2027/"/>
+<updated>2026-10-22T06:00:00Z</updated>
+<summary>7–11 Jun 2027 · Singapore, Singapore · Deadline: see official website · Official: https://events.cqt.sg/icwip2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/tools4onium-2027/</id>
+<title>Tools4Onium 2027 — Workshop on Tools for Quarkonia</title>
+<link href="https://conferences.clicvia.com/conference/tools4onium-2027/"/>
+<updated>2026-10-22T06:00:00Z</updated>
+<summary>9–13 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/tools4onium2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/</id>
 <title>Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/miccai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26 Sep – 1 Oct 2027 · Auckland, New Zealand · Deadline: see official website · Official: https://conferences.miccai.org/2027/en/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/14th-international-workshop-on-the-ckm-unitarity-2027/</id>
-<title>14th International Workshop on the CKM Unitarity Triangle — CKM 2027</title>
-<link href="https://conferences.clicvia.com/conference/14th-international-workshop-on-the-ckm-unitarity-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20–24 Sep 2027 · Victoria, Canada · Deadline: see official website · Official: https://indico.cern.ch/e/CKM2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ecml-pkdd-2027/</id>
-<title>ECML-PKDD 2027 — European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases</title>
-<link href="https://conferences.clicvia.com/conference/ecml-pkdd-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20–24 Sep 2027 · Eindhoven, Netherlands · Deadline: see official website · Official: https://ecmlpkdd.org/2027/</summary>
 </entry>
 </feed>

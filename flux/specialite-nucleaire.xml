@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-nucleaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-nucleaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-21T06:00:00Z</updated>
+<updated>2026-10-22T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/tools4onium-2027/</id>
+<title>Tools4Onium 2027 — Workshop on Tools for Quarkonia</title>
+<link href="https://conferences.clicvia.com/conference/tools4onium-2027/"/>
+<updated>2026-10-22T06:00:00Z</updated>
+<summary>9–13 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/tools4onium2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mitp-topical-workshop-final-state-interactions-in-2027/</id>
 <title>MITP Topical Workshop: "Final-State Interactions in Neutrino–Nucleus Scattering: Theory-Experiment Synergies"</title>

@@ -3,36 +3,36 @@
 "2026-10": {
 "chiffres": {
 "afrique": 3,
-"evenements": 66,
+"evenements": 64,
 "limites": 60,
 "limites_conferences": 47,
 "par_continent": {
 "afrique": 3,
-"amerique-nord": 17,
+"amerique-nord": 16,
 "asie": 19,
 "en-ligne": 1,
-"europe": 26
+"europe": 25
 },
 "par_domaine": {
 "comptabilite": 5,
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 15,
+"physique": 13,
 "vie-sante": 2
 },
 "par_mode": {
 "en-ligne": 1,
 "hybride": 2,
-"presentiel": 63
+"presentiel": 61
 },
 "par_pays": {
 "BH": 1,
-"CA": 5,
+"CA": 4,
 "CN": 6,
 "CY": 1,
 "DE": 3,
-"ES": 4,
+"ES": 3,
 "FR": 2,
 "GB": 4,
 "HU": 3,
@@ -55,7 +55,7 @@
 },
 "par_specialite": {
 "aaoifi-charia": 2,
-"astro": 9,
+"astro": 8,
 "banque-islamique": 2,
 "bioinformatique": 2,
 "compta-financiere": 1,
@@ -72,8 +72,8 @@
 "instrumentation": 5,
 "langage": 5,
 "nucleaire": 5,
-"particules": 10,
-"quantique": 4,
+"particules": 9,
+"quantique": 2,
 "reseaux": 4,
 "securite": 5,
 "systemes": 6,
@@ -81,7 +81,7 @@
 },
 "par_type": {
 "atelier": 4,
-"conference": 61,
+"conference": 59,
 "ecole": 1
 },
 "pays": 25,
@@ -831,50 +831,6 @@
 "titre": "International Symposium on Software Reliability Engineering",
 "type": "conference",
 "ville": "Limassol"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-21",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-22",
-"id": "qconnect-2026",
-"lien": "https://io.ucalgary.ca/quantum-city/engagement/qconnect-2026",
-"limites": [],
-"mode": "presentiel",
-"pays": "CA",
-"specialites": [
-"quantique"
-],
-"titre": "qConnect 2026",
-"type": "conference",
-"ville": "Calgary"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-10-21",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-23",
-"id": "vast-2026-from-vacuum-stability-to-gravitational",
-"lien": "https://indico.fis.ucm.es/event/42/",
-"limites": [],
-"mode": "presentiel",
-"pays": "ES",
-"specialites": [
-"particules",
-"astro",
-"quantique"
-],
-"titre": "VAST 2026: From Vacuum Stability to Gravitational Waves",
-"type": "conference",
-"ville": "Madrid"
 },
 {
 "acronyme": "APBC",
@@ -2768,7 +2724,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-21",
+"derniere_date": "2026-10-22",
 "fini": false,
 "premier_jour": "2026-10-09"
 }

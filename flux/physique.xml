@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-21T06:00:00Z</updated>
+<updated>2026-10-22T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icwip-2027/</id>
+<title>ICWIP 2027 — International Conference on Women in Physics</title>
+<link href="https://conferences.clicvia.com/conference/icwip-2027/"/>
+<updated>2026-10-22T06:00:00Z</updated>
+<summary>7–11 Jun 2027 · Singapore, Singapore · Deadline: see official website · Official: https://events.cqt.sg/icwip2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/tools4onium-2027/</id>
+<title>Tools4Onium 2027 — Workshop on Tools for Quarkonia</title>
+<link href="https://conferences.clicvia.com/conference/tools4onium-2027/"/>
+<updated>2026-10-22T06:00:00Z</updated>
+<summary>9–13 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/tools4onium2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/</id>
 <title>Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/14th-tux-winter-workshop-on-quantum-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–19 Feb 2027 · Tux, Austria · Deadline: see official website · Official: https://indico.ecap.work/event/242/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/bcvspin-conference-2027-high-energy-physics-and/</id>
-<title>BCVSPIN Conference 2027: High Energy Physics and Cosmology in the Pearl of the Indian Ocean 15 Feb - 19 Feb</title>
-<link href="https://conferences.clicvia.com/conference/bcvspin-conference-2027-high-energy-physics-and/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>15–19 Feb 2027 · Sri Lankan Foundation Institute, Sri Lanka · Deadline: see official website · Official: https://indico.global/event/16857/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/gravity-2027/</id>
-<title>Gravity 2027 — Gravity 2027: RESCEU International Symposium on Quantum Aspects of Gravity</title>
-<link href="https://conferences.clicvia.com/conference/gravity-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>15–19 Feb 2027 · Tokyo, Japan · Deadline: see official website · Official: https://www.resceu.s.u-tokyo.ac.jp/symposium/gravity2027/index.html</summary>
 </entry>
 </feed>

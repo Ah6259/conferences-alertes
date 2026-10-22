@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-21 10:24",
- "derniere_lecture_reussie": "2026-10-21 10:24",
+ "mis_a_jour": "2026-10-22 10:27",
+ "derniere_lecture_reussie": "2026-10-22 10:27",
  "dernier_passage": {
-  "date": "2026-10-21 10:24",
+  "date": "2026-10-22 10:27",
   "reussi": true
  },
  "statut_source": {
@@ -17,15 +17,15 @@
    "etat": "ok",
    "nombre": 273,
    "brutes": 2315,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 26,
+   "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
    "nombre": 133,
-   "brutes": 157,
-   "derniere_reussite": "2026-10-21 10:24",
+   "brutes": 158,
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   },
@@ -73,68 +73,13 @@
    "etat": "ok",
    "nombre": 46,
    "brutes": 54,
-   "derniere_reussite": "2026-10-21 10:24",
+   "derniere_reussite": "2026-10-22 10:27",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 484,
+ "nombre": 483,
  "conferences": [
-  {
-   "id": "inlg-2026",
-   "acronyme": "INLG",
-   "titre": "International Conference on Natural Language Generation",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-17",
-   "fin": "2026-10-21",
-   "ville": "Utrecht",
-   "pays": "NL",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-18",
-     "type": "autre",
-     "libelle": "Direct submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-05",
-     "type": "autre",
-     "libelle": "Pre-reviewed ARR commitment",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-15",
-     "type": "autre",
-     "libelle": "Author notification date",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2026.inlgmeeting.org/",
-   "rang": "",
-   "sources": [
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "dfrws-apac-2026",
    "acronyme": "DFRWS APAC",
@@ -316,74 +261,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "qconnect-2026",
-   "acronyme": "",
-   "titre": "qConnect 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-21",
-   "fin": "2026-10-22",
-   "ville": "Calgary",
-   "pays": "CA",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://io.ucalgary.ca/quantum-city/engagement/qconnect-2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3127480",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "vast-2026-from-vacuum-stability-to-gravitational",
-   "acronyme": "",
-   "titre": "VAST 2026: From Vacuum Stability to Gravitational Waves",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-21",
-   "fin": "2026-10-23",
-   "ville": "Madrid",
-   "pays": "ES",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "astro",
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.fis.ucm.es/event/42/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3170648",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -7923,6 +7800,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "tools4onium-2027",
+   "acronyme": "Tools4Onium 2027",
+   "titre": "Workshop on Tools for Quarkonia",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-01-09",
+   "fin": "2027-01-13",
+   "ville": "Aussois",
+   "pays": "FR",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "nucleaire"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/e/tools4onium2027",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3217078",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-22"
+  },
+  {
    "id": "group-2027",
    "acronyme": "GROUP",
    "titre": "ACM International Conference on Supporting Group Work",
@@ -15159,6 +15070,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icwip-2027",
+   "acronyme": "ICWIP",
+   "titre": "International Conference on Women in Physics",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-07",
+   "fin": "2027-06-11",
+   "ville": "Singapore",
+   "pays": "SG",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "physique-generale"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://events.cqt.sg/icwip2027/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3217149",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-22"
+  },
+  {
    "id": "is2027",
    "acronyme": "IS2027",
    "titre": "Initial Stages 2027 — The 9th International Conference on the Initial Stages in High-Energy Nuclear Collisions",
@@ -18591,11 +18535,19 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-02-02",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-02-02",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://conferences.sigcomm.org/sigcomm/2027/",
    "rang": "CORE A* · CCF A",
    "sources": [
