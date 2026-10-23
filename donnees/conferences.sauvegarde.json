@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-22 10:27",
- "derniere_lecture_reussie": "2026-10-22 10:27",
+ "mis_a_jour": "2026-10-23 10:23",
+ "derniere_lecture_reussie": "2026-10-23 10:23",
  "dernier_passage": {
-  "date": "2026-10-22 10:27",
+  "date": "2026-10-23 10:23",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 273,
-   "brutes": 2315,
-   "derniere_reussite": "2026-10-22 10:27",
+   "nombre": 275,
+   "brutes": 2343,
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-22 10:27",
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-22 10:27",
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-22 10:27",
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-22 10:27",
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-22 10:27",
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 133,
-   "brutes": 158,
-   "derniere_reussite": "2026-10-22 10:27",
+   "nombre": 129,
+   "brutes": 154,
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   },
@@ -73,61 +73,13 @@
    "etat": "ok",
    "nombre": 46,
    "brutes": 54,
-   "derniere_reussite": "2026-10-22 10:27",
+   "derniere_reussite": "2026-10-23 10:23",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 483,
+ "nombre": 481,
  "conferences": [
-  {
-   "id": "dfrws-apac-2026",
-   "acronyme": "DFRWS APAC",
-   "titre": "Digital Forensic Research Workshop Asia Pacific",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-19",
-   "fin": "2026-10-22",
-   "ville": "",
-   "pays": "SG",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-29",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-05",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://dfrws.org/conferences/dfrws-apac-2026/",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "ashg-2026",
    "acronyme": "ASHG",
@@ -163,54 +115,6 @@
    "rang": "",
    "sources": [
     "bio"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "pact-2026",
-   "acronyme": "PACT",
-   "titre": "International Conference on Parallel Architectures and Compilation Techniques",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-20",
-   "fin": "2026-10-22",
-   "ville": "Chicago",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-23",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-30",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://pact2026.github.io/",
-   "rang": "CORE B · CCF B",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -304,144 +208,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "cepc2026",
-   "acronyme": "CEPC2026",
-   "titre": "The 2026 International Workshop on the High Energy Circular Electron Positron Collider",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-22",
-   "fin": "2026-10-26",
-   "ville": "Shanghai",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "instrumentation"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.ihep.ac.cn/event/28911/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3164570",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "international-workshop-on-baryon-and-lepton-2026",
-   "acronyme": "",
-   "titre": "International Workshop on Baryon and Lepton Number Violation (BLV2026)",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-22",
-   "fin": "2026-10-24",
-   "ville": "New Haven",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "astro",
-    "nucleaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.wlab.yale.edu/event/906/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3100114",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "nuclear-physics-2026",
-   "acronyme": "Nuclear Physics",
-   "titre": "2nd International Conference on Nuclear Physics and its Applications (ICNPA-2026)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-22",
-   "fin": "2026-10-27",
-   "ville": "University of Delhi, Delhi, India",
-   "pays": "IN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "nucleaire",
-    "instrumentation",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://icnpa2026du.in/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3181465",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "psaps-2026",
-   "acronyme": "PSAPS",
-   "titre": "APS Prairie Section Fall Meeting 2026 — American Physical Society Prairie Section Annual Meeting",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-22",
-   "fin": "2026-10-24",
-   "ville": "Iowa City",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "quantique",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://psaps2026meeting.conference.uiowa.edu/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3202676",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -6657,6 +6423,54 @@
    "ajoute_le": "2026-10-09"
   },
   {
+   "id": "sigir-ap-2026",
+   "acronyme": "SIGIR-AP",
+   "titre": "International ACM SIGIR Conference on Information Retrieval in the Asia Pacific",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-13",
+   "fin": "2026-12-15",
+   "ville": "",
+   "pays": "SG",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-07-22",
+     "type": "resume",
+     "libelle": "Abstract · Extended deadlines",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-07-29",
+     "type": "article",
+     "libelle": "Extended deadlines",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.sigir-ap.org/sigir-ap-2026/",
+   "rang": "",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-23"
+  },
+  {
    "id": "slt-2026",
    "acronyme": "SLT",
    "titre": "IEEE Spoken Language Technology (SLT) Workshop",
@@ -9501,6 +9315,54 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "chiir-2027",
+   "acronyme": "CHIIR",
+   "titre": "ACM SIGIR Conference on Human Information Interaction and Retrieval",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-07",
+   "fin": "2027-03-11",
+   "ville": "Berlin",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-10-08",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-10-15",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://chiir2027.github.io/",
+   "rang": "CORE B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-23"
+  },
+  {
    "id": "connecting-theory-to-collider-data-in-the-era-of-2027",
    "acronyme": "",
    "titre": "Connecting Theory to Collider Data in the Era of Precision Saturation Physics",
@@ -11013,10 +10875,10 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-10-22",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-22",
@@ -14861,13 +14723,13 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-10-22",
+   "date_limite": "2026-10-26",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-5",
    "dates_limites": [
     {
-     "date": "2026-10-22",
+     "date": "2026-10-26",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -15168,6 +15030,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "sais-2027",
+   "acronyme": "SAIS",
+   "titre": "USENIX Conference on Secure Agentic-AI Systems",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-07",
+   "fin": "2027-06-08",
+   "ville": "Santa Clara",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "securite"
+   ],
+   "date_limite": "2027-02-04",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-02-04",
+     "type": "article",
+     "libelle": "Paper submission deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.usenix.org/conference/sais27",
+   "rang": "",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-23"
   },
   {
    "id": "sigmetrics-2027",
@@ -17751,17 +17654,17 @@
    "date_limite": "2026-12-30",
    "type_limite": "article",
    "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-12-30",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
-     "fuseau": "UTC-12"
+     "fuseau": "AoE"
     }
    ],
-   "lien": "https://ieee-cas.org/event/conference/2027-ieee-international-conference-multimedia-expo-icme",
+   "lien": "https://2027.ieeeicme.org/",
    "rang": "CORE A · CCF B",
    "sources": [
     "ccfddl"
@@ -19615,6 +19518,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-09"
+  },
+  {
+   "id": "clef-2027",
+   "acronyme": "CLEF",
+   "titre": "Conference and Labs of the Evaluation Forum",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-14",
+   "fin": "2027-09-17",
+   "ville": "Bucharest",
+   "pays": "RO",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://clef2027.clef-initiative.eu/",
+   "rang": "",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-23"
   },
   {
    "id": "14th-international-workshop-on-the-ckm-unitarity-2027",

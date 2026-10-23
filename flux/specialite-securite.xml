@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-securite.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-securite.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-22T06:00:00Z</updated>
+<updated>2026-10-23T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/sais-2027/</id>
+<title>SAIS 2027 — USENIX Conference on Secure Agentic-AI Systems</title>
+<link href="https://conferences.clicvia.com/conference/sais-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>7–8 Jun 2027 · Santa Clara, United States · Deadline: 4 Feb 2027 · Official: https://www.usenix.org/conference/sais27</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/blocksys-2027/</id>
 <title>BlockSys 2027 — International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems</title>
@@ -251,12 +258,5 @@
 <link href="https://conferences.clicvia.com/conference/icics-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–30 Oct 2026 · Fukui, Japan · Deadline: 12 Mar 2026, 1 Jun 2026 · Official: https://sulab-sever.u-aizu.ac.jp/icics2026/cfp.html</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/dfrws-apac-2026/</id>
-<title>DFRWS APAC 2026 — Digital Forensic Research Workshop Asia Pacific</title>
-<link href="https://conferences.clicvia.com/conference/dfrws-apac-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–22 Oct 2026 · Singapore · Deadline: 29 May 2026, 5 Jun 2026 · Official: https://dfrws.org/conferences/dfrws-apac-2026/</summary>
 </entry>
 </feed>

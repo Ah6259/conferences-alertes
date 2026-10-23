@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-22T06:00:00Z</updated>
+<updated>2026-10-23T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/clef-2027/</id>
+<title>CLEF 2027 — Conference and Labs of the Evaluation Forum</title>
+<link href="https://conferences.clicvia.com/conference/clef-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>14–17 Sep 2027 · Bucharest, Romania · Deadline: see official website · Official: https://clef2027.clef-initiative.eu/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sais-2027/</id>
+<title>SAIS 2027 — USENIX Conference on Secure Agentic-AI Systems</title>
+<link href="https://conferences.clicvia.com/conference/sais-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>7–8 Jun 2027 · Santa Clara, United States · Deadline: 4 Feb 2027 · Official: https://www.usenix.org/conference/sais27</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/chiir-2027/</id>
+<title>CHIIR 2027 — ACM SIGIR Conference on Human Information Interaction and Retrieval</title>
+<link href="https://conferences.clicvia.com/conference/chiir-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>7–11 Mar 2027 · Berlin, Germany · Deadline: 8 Oct 2026, 15 Oct 2026 · Official: https://chiir2027.github.io/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sigir-ap-2026/</id>
+<title>SIGIR-AP 2026 — International ACM SIGIR Conference on Information Retrieval in the Asia Pacific</title>
+<link href="https://conferences.clicvia.com/conference/sigir-ap-2026/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>13–15 Dec 2026 · Singapore · Deadline: 22 Jul 2026, 29 Jul 2026 · Official: https://www.sigir-ap.org/sigir-ap-2026/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icwip-2027/</id>
 <title>ICWIP 2027 — International Conference on Women in Physics</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/iccv-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/fb24-2027/</id>
-<title>FB24 2027 — 24th International Conference on Few-Body Problems in Physics</title>
-<link href="https://conferences.clicvia.com/conference/fb24-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>27 Sep – 1 Oct 2027 · Bochum, Germany · Deadline: see official website · Official: https://www.indico.tp2.ruhr-uni-bochum.de/event/5/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icfp-2027/</id>
-<title>ICFP 2027 — International Conference on Function Programming</title>
-<link href="https://conferences.clicvia.com/conference/icfp-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26 Sep – 1 Oct 2027 · Nijmegen, Netherlands · Deadline: 25 Feb 2027 · Official: https://icfp27.sigplan.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iros-2027/</id>
-<title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
-<link href="https://conferences.clicvia.com/conference/iros-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/miccai-2027/</id>
-<title>MICCAI 2027 — International Conference on Medical Image Computing and Computer Assisted Intervention</title>
-<link href="https://conferences.clicvia.com/conference/miccai-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26 Sep – 1 Oct 2027 · Auckland, New Zealand · Deadline: see official website · Official: https://conferences.miccai.org/2027/en/</summary>
 </entry>
 </feed>

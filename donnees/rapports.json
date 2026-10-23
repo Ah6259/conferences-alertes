@@ -3,13 +3,13 @@
 "2026-10": {
 "chiffres": {
 "afrique": 3,
-"evenements": 64,
-"limites": 60,
-"limites_conferences": 47,
+"evenements": 60,
+"limites": 62,
+"limites_conferences": 48,
 "par_continent": {
 "afrique": 3,
-"amerique-nord": 16,
-"asie": 19,
+"amerique-nord": 14,
+"asie": 17,
 "en-ligne": 1,
 "europe": 25
 },
@@ -18,18 +18,18 @@
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 13,
+"physique": 9,
 "vie-sante": 2
 },
 "par_mode": {
 "en-ligne": 1,
 "hybride": 2,
-"presentiel": 61
+"presentiel": 57
 },
 "par_pays": {
 "BH": 1,
 "CA": 4,
-"CN": 6,
+"CN": 5,
 "CY": 1,
 "DE": 3,
 "ES": 3,
@@ -37,7 +37,6 @@
 "GB": 4,
 "HU": 3,
 "ID": 2,
-"IN": 1,
 "IT": 5,
 "JP": 1,
 "KR": 1,
@@ -50,12 +49,12 @@
 "TN": 1,
 "TR": 2,
 "TW": 2,
-"US": 12,
+"US": 10,
 "ZA": 1
 },
 "par_specialite": {
 "aaoifi-charia": 2,
-"astro": 8,
+"astro": 5,
 "banque-islamique": 2,
 "bioinformatique": 2,
 "compta-financiere": 1,
@@ -69,22 +68,22 @@
 "ia-apprentissage": 2,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 5,
+"instrumentation": 3,
 "langage": 5,
-"nucleaire": 5,
-"particules": 9,
-"quantique": 2,
+"nucleaire": 3,
+"particules": 7,
+"quantique": 1,
 "reseaux": 4,
 "securite": 5,
 "systemes": 6,
 "zakat-waqf": 1
 },
 "par_type": {
-"atelier": 4,
-"conference": 59,
+"atelier": 2,
+"conference": 57,
 "ecole": 1
 },
-"pays": 25,
+"pays": 24,
 "themes_site": 11,
 "tunisie": 1
 },
@@ -856,96 +855,6 @@
 "ville": "Hsinchu"
 },
 {
-"acronyme": "CEPC2026",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-10-22",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-26",
-"id": "cepc2026",
-"lien": "https://indico.ihep.ac.cn/event/28911/",
-"limites": [],
-"mode": "presentiel",
-"pays": "CN",
-"specialites": [
-"instrumentation"
-],
-"titre": "The 2026 International Workshop on the High Energy Circular Electron Positron Collider",
-"type": "atelier",
-"ville": "Shanghai"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-22",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-24",
-"id": "international-workshop-on-baryon-and-lepton-2026",
-"lien": "https://indico.wlab.yale.edu/event/906/",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"particules",
-"astro",
-"nucleaire"
-],
-"titre": "International Workshop on Baryon and Lepton Number Violation (BLV2026)",
-"type": "atelier",
-"ville": "New Haven"
-},
-{
-"acronyme": "Nuclear Physics",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-10-22",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-27",
-"id": "nuclear-physics-2026",
-"lien": "https://icnpa2026du.in/",
-"limites": [],
-"mode": "presentiel",
-"pays": "IN",
-"specialites": [
-"nucleaire",
-"instrumentation",
-"astro"
-],
-"titre": "2nd International Conference on Nuclear Physics and its Applications (ICNPA-2026)",
-"type": "conference",
-"ville": "University of Delhi, Delhi, India"
-},
-{
-"acronyme": "PSAPS",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-22",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-24",
-"id": "psaps-2026",
-"lien": "https://psaps2026meeting.conference.uiowa.edu/",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"particules",
-"quantique",
-"astro"
-],
-"titre": "APS Prairie Section Fall Meeting 2026 — American Physical Society Prairie Section Annual Meeting",
-"type": "conference",
-"ville": "Iowa City"
-},
-{
 "acronyme": "CAR Conference 2026",
 "annee": 2026,
 "continent": "amerique-nord",
@@ -1623,6 +1532,36 @@
 "titre": "ACM SIGPLAN Workshop on Partial Evaluation and Program Manipulation",
 "type": "atelier",
 "ville": "Mexico City"
+},
+{
+"acronyme": "CHIIR",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-03-07",
+"domaines": [
+"informatique"
+],
+"fin": "2027-03-11",
+"id": "chiir-2027",
+"lien": "https://chiir2027.github.io/",
+"limites": [
+{
+"date": "2026-10-08",
+"type": "resume"
+},
+{
+"date": "2026-10-15",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "DE",
+"specialites": [
+"donnees"
+],
+"titre": "ACM SIGIR Conference on Human Information Interaction and Retrieval",
+"type": "conference",
+"ville": "Berlin"
 },
 {
 "acronyme": "ALT",
@@ -2468,7 +2407,7 @@
 "lien": "https://2027.ieee-iscas.org/",
 "limites": [
 {
-"date": "2026-10-22",
+"date": "2026-10-26",
 "type": "article"
 }
 ],
@@ -2724,7 +2663,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-22",
+"derniere_date": "2026-10-23",
 "fini": false,
 "premier_jour": "2026-10-09"
 }

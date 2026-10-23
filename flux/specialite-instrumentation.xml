@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-instrumentation.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-instrumentation.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-22T06:00:00Z</updated>
+<updated>2026-10-23T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -139,19 +139,5 @@
 <link href="https://conferences.clicvia.com/conference/soup2026-the-4th-infn-school-on-underground/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–30 Oct 2026 · Bertinoro, Italy · Deadline: see official website · Official: https://soup2026.ca.infn.it/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/cepc2026/</id>
-<title>CEPC2026 — The 2026 International Workshop on the High Energy Circular Electron Positron Collider</title>
-<link href="https://conferences.clicvia.com/conference/cepc2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>22–26 Oct 2026 · Shanghai, China · Deadline: see official website · Official: https://indico.ihep.ac.cn/event/28911/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/nuclear-physics-2026/</id>
-<title>Nuclear Physics 2026 — 2nd International Conference on Nuclear Physics and its Applications (ICNPA-2026)</title>
-<link href="https://conferences.clicvia.com/conference/nuclear-physics-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>22–27 Oct 2026 · University of Delhi, Delhi, India, India · Deadline: see official website · Official: https://icnpa2026du.in/</summary>
 </entry>
 </feed>

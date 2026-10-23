@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-22T06:00:00Z</updated>
+<updated>2026-10-23T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -40,7 +40,7 @@
 <title>ISCAS 2027 — IEEE International Symposium on Circuits and Systems</title>
 <link href="https://conferences.clicvia.com/conference/iscas-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>6–9 Jun 2027 · Bordeaux, France · Deadline: 22 Oct 2026 · Official: https://2027.ieee-iscas.org/</summary>
+<summary>6–9 Jun 2027 · Bordeaux, France · Deadline: 26 Oct 2026 · Official: https://2027.ieee-iscas.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/spaa-2027/</id>
@@ -258,12 +258,5 @@
 <link href="https://conferences.clicvia.com/conference/ica3pp-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–28 Oct 2026 · Exeter, United Kingdom · Deadline: 25 Jul 2026 · Official: https://hpcn.exeter.ac.uk/ica3pp2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/pact-2026/</id>
-<title>PACT 2026 — International Conference on Parallel Architectures and Compilation Techniques</title>
-<link href="https://conferences.clicvia.com/conference/pact-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20–22 Oct 2026 · Chicago, United States · Deadline: 23 Apr 2026, 30 Apr 2026 · Official: https://pact2026.github.io/</summary>
 </entry>
 </feed>

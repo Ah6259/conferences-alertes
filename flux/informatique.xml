@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-22T06:00:00Z</updated>
+<updated>2026-10-23T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/clef-2027/</id>
+<title>CLEF 2027 — Conference and Labs of the Evaluation Forum</title>
+<link href="https://conferences.clicvia.com/conference/clef-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>14–17 Sep 2027 · Bucharest, Romania · Deadline: see official website · Official: https://clef2027.clef-initiative.eu/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sais-2027/</id>
+<title>SAIS 2027 — USENIX Conference on Secure Agentic-AI Systems</title>
+<link href="https://conferences.clicvia.com/conference/sais-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>7–8 Jun 2027 · Santa Clara, United States · Deadline: 4 Feb 2027 · Official: https://www.usenix.org/conference/sais27</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/chiir-2027/</id>
+<title>CHIIR 2027 — ACM SIGIR Conference on Human Information Interaction and Retrieval</title>
+<link href="https://conferences.clicvia.com/conference/chiir-2027/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>7–11 Mar 2027 · Berlin, Germany · Deadline: 8 Oct 2026, 15 Oct 2026 · Official: https://chiir2027.github.io/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sigir-ap-2026/</id>
+<title>SIGIR-AP 2026 — International ACM SIGIR Conference on Information Retrieval in the Asia Pacific</title>
+<link href="https://conferences.clicvia.com/conference/sigir-ap-2026/"/>
+<updated>2026-10-23T06:00:00Z</updated>
+<summary>13–15 Dec 2026 · Singapore · Deadline: 22 Jul 2026, 29 Jul 2026 · Official: https://www.sigir-ap.org/sigir-ap-2026/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/imc-2027/</id>
 <title>IMC 2027 — ACM Internet Measurement Conference</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/pets-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–24 Jul 2027 · Delft, Netherlands · Deadline: 31 May 2026, 31 Aug 2026, 30 Nov 2026 · Official: https://petsymposium.org/cfp27.php</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sacmat-2027/</id>
-<title>SACMAT 2027 — ACM Symposium on Access Control Models and Technologies</title>
-<link href="https://conferences.clicvia.com/conference/sacmat-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–21 Jul 2027 · Durham, United Kingdom · Deadline: 30 Oct 2026, 12 Feb 2027 · Official: https://www.sacmat.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ismb-2027/</id>
-<title>ISMB 2027 — International Conference on Intelligent Systems for Molecular Biology</title>
-<link href="https://conferences.clicvia.com/conference/ismb-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Jul 2027 · Copenhagen, Denmark · Deadline: 14 Jan 2027 · Official: https://www.iscb.org/ismbeccb2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigir-2027/</id>
-<title>SIGIR 2027 — International Conference on Research on Development in Information Retrieval</title>
-<link href="https://conferences.clicvia.com/conference/sigir-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–24 Jul 2027 · San Jose, United States · Deadline: 14 Jan 2027, 21 Jan 2027 · Official: https://sigir2027.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/compsac-2027/</id>
-<title>COMPSAC 2027 — International Computer Software and Applications Conference</title>
-<link href="https://conferences.clicvia.com/conference/compsac-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–16 Jul 2027 · Tokyo, Japan · Deadline: 31 Jan 2027 · Official: https://ieeecompsac.computer.org/2027/</summary>
 </entry>
 </feed>
