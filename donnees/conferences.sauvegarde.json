@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-23 10:23",
- "derniere_lecture_reussie": "2026-10-23 10:23",
+ "mis_a_jour": "2026-10-24 09:55",
+ "derniere_lecture_reussie": "2026-10-24 09:55",
  "dernier_passage": {
-  "date": "2026-10-23 10:23",
+  "date": "2026-10-24 09:55",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 275,
+   "nombre": 274,
    "brutes": 2343,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 3,
    "brutes": 24,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 129,
    "brutes": 154,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 46,
    "brutes": 54,
-   "derniere_reussite": "2026-10-23 10:23",
+   "derniere_reussite": "2026-10-24 09:55",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 481,
+ "nombre": 480,
  "conferences": [
   {
    "id": "ashg-2026",
@@ -115,54 +115,6 @@
    "rang": "",
    "sources": [
     "bio"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "issre-2026",
-   "acronyme": "ISSRE",
-   "titre": "International Symposium on Software Reliability Engineering",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-21",
-   "fin": "2026-10-23",
-   "ville": "Limassol",
-   "pays": "CY",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-24",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-24",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://cyprusconferences.org/issre2026/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -7882,10 +7834,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-10-23",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-23",
@@ -11411,8 +11363,8 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2026-10-23",
-   "type_limite": "resume",
+   "date_limite": "2026-10-26",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC+0",
    "dates_limites": [
@@ -12295,10 +12247,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-10-23",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-20",
