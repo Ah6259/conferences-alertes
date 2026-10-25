@@ -640,5 +640,41 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
   if (mauvaises.length) console.log("   og:locale refusé : " + mauvaises.slice(0, 5).join(", "));
 }
 
+// 25/10/2026 (RÈGLE d'Ahmed : « la page Comment fonctionne le site doit être mise à jour chaque fois qu'on modifie le site », règle commune § 44) :
+// chaque fonction visible du site (repère dans les pages ou le code) doit être expliquée dans a-propos/ (FR, EN, AR) ; nouvelle fonction = une ligne ici + la page
+{ const apx = lire("a-propos/index.html"), acc2 = lire("index.html"), js = lire("assets/app.js") + lire("assets/page.js");
+  const FONCTIONS = [
+    ["résumé du jour", /id="r-avenir"/.test(acc2), /Résumé du jour[\s\S]*Today's summary[\s\S]*ملخص اليوم/],
+    ["dates limites cette semaine", /id="bientot"/.test(acc2), /Dates limites cette semaine[\s\S]*Deadlines this week/],
+    ["recherche (aussi « au son »)", /id="f-q"/.test(acc2) && existsSync(join(root, "assets/son.js")), /Rechercher<\/b>[^<]*écritures proches/],
+    ["filtres domaine, spécialité, continent, format, date limite, mois", ["f-dom", "f-spec", "f-cont", "f-mode", "f-limite", "f-mois"].every(f => acc2.includes(`id="${f}"`)),
+      /Filtres<\/b> : domaine, spécialité, continent, format[^<]*date limite[^<]*mois/],
+    ["tri", /id="f-tri"/.test(acc2), /Tri<\/b> par date limite/],
+    ["prochaine date limite sur chaque carte", true, /prochaine date limite de soumission/],
+    ["une fiche par conférence", existsSync(join(root, "conference")), /Une fiche par conférence/],
+    ["pages domaine / spécialité / continent / pays / mois", ["domaine", "specialite", "continent", "pays", "mois"].every(d => existsSync(join(root, d))), /Pages par domaine, par spécialité, par continent, par pays et par mois/],
+    ["flux RSS gratuits", existsSync(join(root, "flux/index.html")), /Flux RSS gratuits/],
+    ["rapports du mois", existsSync(join(root, "rapports/index.html")), /Rapports du mois<\/b>/],
+    ["signaler une conférence (organisateurs)", existsSync(join(root, "publier/index.html")), /Signaler une conférence<\/b>/],
+    ["Alertes Pro (gratuites pour le moment ou payantes)", existsSync(join(root, "abonnement/index.html")),
+      /Gratuit pour le moment/.test(lire("abonnement/index.html")) ? /Alertes Pro sur Telegram : gratuites pour le moment/ : /Payant : Alertes Pro sur Telegram/],
+    ["bouton Partager", /class="partager"/.test(js), /Partager<\/b>/],
+    ["trois langues FR / EN / AR", /langue-conferences/.test(js), /Trois langues<\/b>/],
+    ["vidéo de présentation", existsSync(join(root, "video/index.html")), /Vidéo de présentation/],
+    ["votre avis", /id="avis-form"/.test(acc2), /Votre avis<\/b>/],
+    ["installation sur le téléphone (service worker)", existsSync(join(root, "sw.js")) && /serviceWorker/.test(js), /Installer le site/],
+    ["sources ouvertes (MIT, INSPIRE-HEP, sélection officielle)", true, /MIT[\s\S]*INSPIRE-HEP[\s\S]*Sélection officielle/],
+    ["vos données (GoatCounter, Formspree)", true, /GoatCounter[\s\S]*Formspree/],
+    ["mises à jour automatiques", true, /Mises à jour automatiques/],
+    ["site indépendant", true, /Ce site est indépendant/]];
+  const manque = FONCTIONS.filter(([, sur, re]) => sur && !re.test(apx)).map(([n]) => n);
+  check(`page « Comment fonctionne le site ? » à jour : chaque fonction du site y est expliquée (${FONCTIONS.length} fonctions)` + (manque.length ? " — manque : " + manque.join(", ") : ""),
+    manque.length === 0);
+  check("page « Comment fonctionne le site ? » : titre h1 (FR, EN, AR), lien dans le pied de page (page.js) et sur l'accueil, dans le plan du site",
+    /<h1><span data-l="fr">Comment fonctionne le site \?<\/span><span data-l="en">How does the site work\?<\/span><span data-l="ar">كيف يعمل الموقع؟<\/span><\/h1>/.test(apx)
+    && /a-propos\/">\$\{T\("Comment fonctionne le site \?"/.test(lire("assets/page.js")) && /<a href="a-propos\/"><span data-l="fr">Comment fonctionne le site \?/.test(acc2)
+    && lire("sitemap.xml").includes("https://conferences.clicvia.com/a-propos/")
+    && !/alertes personnalisées sur Telegram[^<]*sont payantes/.test(apx) === /Gratuit pour le moment/.test(lire("abonnement/index.html"))); }
+
 console.log(`\n${total - erreurs}/${total} vérifications réussies` + (erreurs ? ` — ${erreurs} ÉCHEC(S) : ne pas publier.` : " — tout est bon."));
 process.exit(erreurs ? 1 : 0);

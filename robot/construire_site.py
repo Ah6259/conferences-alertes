@@ -1205,7 +1205,8 @@ def construire(donnees, sortie, jour):
     <li>تُوحَّد صيغة التواريخ وتُدمج المكررات ويُرتَّب كل مؤتمر حسب <b>المجال</b> و<b>التخصص</b> و<b>البلد</b>، مع استبعاد المنظمين المعروفين بالمؤتمرات «المفترسة».</li>
     <li>تفتح <b>الموقع الرسمي</b> للمؤتمر للإرسال. تنبيهات مجانية: خلاصات ⁨RSS⁩ حسب المجال؛ تنبيهات شخصية: <a href="abonnement/">تنبيهات Pro</a>.</li>
   </ol>
-  <p class="avert">{L("Ce site n'est pas officiel et n'est lié à aucun organisateur. Vérifiez toujours le site officiel de la conférence : seul lui fait foi.", "This site is not official and is not affiliated with any organiser. Always check the conference's official website: it alone is authoritative.", "هذا الموقع ليس رسميًا ولا علاقة له بأي جهة منظمة. تثبّت دائمًا من الموقع الرسمي للمؤتمر: هو وحده المرجع.")} <a href="a-propos/">{L("Méthode et sources", "Method and sources", "المنهجية والمصادر")}</a></p>
+  <p class="avert">{L("Ce site n'est pas officiel et n'est lié à aucun organisateur. Vérifiez toujours le site officiel de la conférence : seul lui fait foi.", "This site is not official and is not affiliated with any organiser. Always check the conference's official website: it alone is authoritative.", "هذا الموقع ليس رسميًا ولا علاقة له بأي جهة منظمة. تثبّت دائمًا من الموقع الرسمي للمؤتمر: هو وحده المرجع.")} </p>
+  <p class="lien-comment"><a href="a-propos/">{L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</a></p>
 </section>
 {AVIS}"""
     titre = f"Academic conferences 2026–2027: {len(vis)} upcoming, deadlines & free alerts · Conférences scientifiques | Conference Radar"
@@ -1317,10 +1318,106 @@ def construire(donnees, sortie, jour):
                                 "Free RSS (Atom) feeds of upcoming academic conferences by field and specialty, no sign-up, no personal data. Flux RSS gratuits par domaine.",
                                 hero, contenu, v, etat)))
 
-    # ---- à propos et sources
-    hero = f"""{fil("../", L("À propos", "About", "من نحن"))}
-    <h1>{L("À propos, méthode et sources", "About, method and sources", "من نحن، المنهجية والمصادر")}</h1>
-    <p class="intro">{L("D'où viennent les conférences, comment elles sont vérifiées et classées, et leurs limites.", "Where the conferences come from, how they are checked and classified, and their limits.", "من أين تأتي المؤتمرات، كيف تُراجَع وتُرتَّب، وحدودها.")}</p>"""
+    # ---- « Comment fonctionne le site ? » (règle commune § 44, Ahmed 25/10/2026) : à mettre à jour à CHAQUE modification visible,
+    # dans le même envoi, en FR + EN + AR ; test FONCTIONS dans tools/test_site.mjs (une fonction absente de cette page = test rouge)
+    NB = " "
+    def li(fr, en, ar):
+        return f"<li>{L(fr, en, ar)}</li>"
+    fonctions = "".join(li(*t) for t in [
+        ("<b>Résumé du jour</b> en haut de l'accueil : conférences à venir, dates limites proches et domaines.",
+         "<b>Today's summary</b> at the top of the home page: upcoming conferences, near deadlines and fields.",
+         "<b>ملخص اليوم</b> في أعلى الصفحة الرئيسية: المؤتمرات القادمة، الآجال القريبة والمجالات."),
+        ("<b>Dates limites cette semaine</b> : les soumissions qui ferment dans les 7" + NB + "prochains jours.",
+         "<b>Deadlines this week</b>: submissions closing in the next 7" + NB + "days.",
+         "<b>آجال هذا الأسبوع</b>: الإرسالات التي تُغلق في الأيام الـ" + ISO(7) + " القادمة."),
+        ("<b>Rechercher</b> un nom, un sigle ou une ville : la recherche comprend aussi les écritures proches.",
+         "<b>Search</b> a name, an acronym or a city: the search also understands close spellings.",
+         "<b>البحث</b> عن اسم أو اختصار أو مدينة: البحث يفهم أيضًا الكتابات القريبة."),
+        ("<b>Filtres</b> : domaine, spécialité, continent, format (en présentiel, en ligne, hybride), date limite (encore ouverte, dans 7" + NB + "jours, 30" + NB + "jours, 3" + NB + "mois) et mois.",
+         "<b>Filters</b>: field, specialty, continent, format (in person, online, hybrid), deadline (still open, within 7" + NB + "days, 30" + NB + "days, 3" + NB + "months) and month.",
+         "<b>التصفية</b>: المجال، التخصص، القارة، الصيغة (حضوري، عن بعد، هجين)، آخر أجل (ما زال مفتوحًا، خلال " + ISO(7) + " أيام، " + ISO(30) + " يومًا، " + ISO(3) + " أشهر) والشهر."),
+        ("<b>Tri</b> par date limite la plus proche, par date de l'événement ou par ajout récent.",
+         "<b>Sort</b> by nearest deadline, by event date or by recently added.",
+         "<b>الترتيب</b> حسب أقرب أجل، أو تاريخ المؤتمر، أو الأحدث إضافة."),
+        ("Sur chaque carte : la <b>prochaine date limite de soumission</b> (selon votre date), les dates, le lieu et le lien officiel.",
+         "On each card: the <b>next submission deadline</b> (based on your date), the dates, the venue and the official link.",
+         "في كل بطاقة: <b>آخر أجل الإرسال القادم</b> (حسب تاريخك)، التواريخ، المكان والرابط الرسمي."),
+        ("<b>Une fiche par conférence</b> : dates, lieu, dates limites, lien officiel ; pour la sélection officielle, la date de vérification.",
+         "<b>One page per conference</b>: dates, venue, deadlines, official link; for the official selection, the check date.",
+         "<b>بطاقة لكل مؤتمر</b>: التواريخ، المكان، الآجال، الرابط الرسمي؛ وتاريخ المراجعة للاختيار الرسمي."),
+        ("<b>Pages par domaine, par spécialité, par continent, par pays et par mois.</b>",
+         "<b>Pages by field, specialty, continent, country and month.</b>",
+         "<b>صفحات حسب المجال والتخصص والقارة والبلد والشهر.</b>"),
+        ("<b>Flux RSS gratuits</b> par domaine et par spécialité, pour être prévenu sans inscription.",
+         "<b>Free RSS feeds</b> by field and specialty, to be notified without signing up.",
+         "<b>خلاصات " + ISO("RSS") + " مجانية</b> حسب المجال والتخصص، لتصلك المستجدات دون تسجيل."),
+        ("<b>Rapports du mois</b> : les conférences du mois en chiffres, avec un bouton « Partager ce rapport ».",
+         "<b>Monthly reports</b>: the month's conferences in figures, with a “Share this report” button.",
+         "<b>التقارير الشهرية</b>: مؤتمرات الشهر بالأرقام، مع زر «شارك هذا التقرير»."),
+        ("<b>Signaler une conférence</b> (organisateurs, gratuit) : le formulaire ouvrira bientôt.",
+         "<b>Submit a conference</b> (organisers, free): the form will open soon.",
+         "<b>الإبلاغ عن مؤتمر</b> (للمنظمين، مجانًا): الاستمارة ستُفتح قريبًا.") if not adresses()["formulaire"] else
+        ("<b>Signaler une conférence</b> (organisateurs, gratuit) : elle apparaît après un contrôle automatique.",
+         "<b>Submit a conference</b> (organisers, free): it appears after an automatic check.",
+         "<b>الإبلاغ عن مؤتمر</b> (للمنظمين، مجانًا): يظهر بعد مراقبة آلية."),
+        ("<b>Alertes Pro</b> sur Telegram : voir plus bas.", "<b>Pro Alerts</b> on Telegram: see below.", "<b>تنبيهات Pro</b> على تيليغرام: انظر أسفله."),
+        ("Bouton <b>Partager</b> en haut de chaque page (menu de partage du téléphone).",
+         "<b>Share</b> button at the top of each page (your phone's share menu).",
+         "زر <b>شارك</b> في أعلى كل صفحة (قائمة المشاركة في الهاتف)."),
+        ("<b>Trois langues</b> : français, anglais et arabe (menu FR / EN / ع).", "<b>Three languages</b>: French, English and Arabic (FR / EN / ع menu).",
+         "<b>ثلاث لغات</b>: الفرنسية والإنجليزية والعربية (قائمة " + ISO("FR / EN") + " / ع)."),
+        ("<b>Vidéo de présentation</b> du site (lien en bas de l'accueil).", "<b>Presentation video</b> of the site (link at the bottom of the home page).",
+         "<b>فيديو تقديمي</b> للموقع (رابط أسفل الصفحة الرئيسية)."),
+        ("<b>Votre avis</b> : un petit formulaire pour nous écrire.", "<b>Your feedback</b>: a short form to write to us.", "<b>رأيك</b>: استمارة صغيرة لمراسلتنا."),
+        ("<b>Installer le site</b> sur l'écran d'accueil du téléphone ; les pages déjà vues s'ouvrent même sans connexion.",
+         "<b>Install the site</b> on your phone's home screen; pages already seen open even offline.",
+         "<b>تثبيت الموقع</b> على الشاشة الرئيسية للهاتف؛ الصفحات التي زرتها تفتح حتى دون اتصال."),
+    ])
+    if ABO["gratuit"]:
+        pro = L("<b>Alertes Pro sur Telegram : gratuites pour le moment.</b> Chaque matin, les nouvelles conférences de vos spécialités et les rappels de leurs dates limites (J-7 et J-1). Arrêt à tout moment en envoyant /stop.",
+                "<b>Pro Alerts on Telegram: free for now.</b> Every morning, the new conferences in your specialties and reminders of their deadlines (D-7 and D-1). Stop at any time by sending /stop.",
+                "<b>تنبيهات Pro على تيليغرام: مجانية حاليًا.</b> كل صباح، المؤتمرات الجديدة في تخصصاتك وتذكير بآجالها (قبل " + ISO(7) + " أيام ويوم واحد). التوقف في أي وقت بإرسال " + ISO("/stop") + ".")
+    else:
+        pro = L(f"<b>Payant : Alertes Pro sur Telegram</b> ({ABO['prix_mois']}" + NB + f"DT par mois ou {ABO['prix_an']}" + NB + "DT par an). Chaque matin, les nouvelles conférences de vos spécialités et les rappels de leurs dates limites. Paiement avec votre <b>code personnel</b> ; pas de renouvellement automatique.",
+                f"<b>Paid: Pro Alerts on Telegram</b> ({ABO['prix_mois']}" + NB + f"TND per month or {ABO['prix_an']}" + NB + "TND per year). Every morning, the new conferences in your specialties and deadline reminders. Payment with your <b>personal code</b>; no automatic renewal.",
+                f"<b>بمقابل: تنبيهات Pro على تيليغرام</b> ({ISO(ABO['prix_mois'])} دينار في الشهر أو {ISO(ABO['prix_an'])} دينار في السنة). كل صباح، المؤتمرات الجديدة في تخصصاتك وتذكير بآجالها. الدفع برمزك الشخصي؛ لا تجديد آلي.")
+    hero = f"""{fil("../", L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟"))}
+    <h1>{L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</h1>
+    <p class="intro">{L("Tout ce que fait Radar des conférences, d'où viennent les conférences, comment elles sont vérifiées, et leurs limites.", "Everything Conference Radar does, where the conferences come from, how they are checked, and their limits.", "كل ما يقدمه رادار المؤتمرات، من أين تأتي المؤتمرات، كيف تُراجَع، وحدودها.")}</p>"""
+    apropos_fonctions = f"""<section class="carte">
+  <h2>{L("Comment s'en servir ?", "How to use it?", "كيف تستعمله؟")}</h2>
+  <ol class="etapes">
+  {li("Choisissez votre <b>domaine</b> ou votre <b>spécialité</b>, ou tapez un mot dans « Rechercher ».", "Choose your <b>field</b> or <b>specialty</b>, or type a word in “Search”.", "اختر <b>مجالك</b> أو <b>تخصصك</b>، أو اكتب كلمة في «بحث».")}
+  {li("Regardez la <b>date limite de soumission</b>, les dates et le lieu.", "Check the <b>submission deadline</b>, the dates and the venue.", "انظر إلى <b>آخر أجل للإرسال</b>، التواريخ والمكان.")}
+  {li("Ouvrez le <b>site officiel</b> de la conférence pour soumettre : seul lui fait foi.", "Open the conference's <b>official website</b> to submit: it alone is authoritative.", "افتح <b>الموقع الرسمي</b> للمؤتمر للإرسال: هو وحده المرجع.")}
+  </ol>
+</section>
+<section class="carte">
+  <h2>{L("Ce que vous trouvez sur le site", "What you find on the site", "ما تجده في الموقع")}</h2>
+  <ul>{fonctions}</ul>
+</section>"""
+    apropos_fin = f"""<section class="carte">
+  <h2>{L("Gratuit et payant", "Free and paid", "مجاني وبمقابل")}</h2>
+  <p>{L("<b>Gratuit</b> : la consultation de tout le site, les fiches, les rapports du mois et les flux RSS. Sans inscription.", "<b>Free</b>: browsing the whole site, the conference pages, the monthly reports and the RSS feeds. No sign-up.", "<b>مجانًا</b>: تصفح كل الموقع والبطاقات والتقارير الشهرية وخلاصات " + ISO("RSS") + ". دون تسجيل.")}</p>
+  <p>{pro}</p>
+  <a class="btn" href="../abonnement/">{L("Voir les Alertes Pro", "See Pro Alerts", "اطّلع على تنبيهات Pro")}</a>
+</section>
+<section class="carte">
+  <h2>{L("Vos données", "Your data", "بياناتك")}</h2>
+  <ul>
+  {li("Pas de compte à créer pour consulter le site. Votre navigateur garde seulement la langue choisie.", "No account needed to browse the site. Your browser only keeps the chosen language.", "لا حساب لإنشائه لتصفح الموقع. متصفحك يحفظ فقط اللغة المختارة.")}
+  {li("Statistiques de visite anonymes, sans cookies (GoatCounter).", "Anonymous visit statistics, without cookies (GoatCounter).", "إحصائيات زيارات مجهولة، دون ملفات تعريف الارتباط (⁨GoatCounter⁩).")}
+  {li("Votre avis et l'inscription aux Alertes Pro ne sont envoyés que si vous touchez « Envoyer » (service Formspree). Vos coordonnées servent seulement aux alertes : elles ne sont jamais publiées ni vendues.", "Your feedback and Pro Alerts sign-up are only sent when you tap “Send” (Formspree service). Your details are only used for the alerts: never published or sold.", "رأيك والتسجيل في تنبيهات Pro لا يُرسلان إلا إذا لمست «أرسل» (خدمة ⁨Formspree⁩). بياناتك تُستعمل للتنبيهات فقط: لا تُنشر ولا تُباع أبدًا.")}
+  </ul>
+</section>
+<section class="carte">
+  <h2>{L("Mises à jour automatiques", "Automatic updates", "تحيين آلي")}</h2>
+  <p>{L("Chaque jour, un robot relit les sources et refait toutes les pages, sans intervention à la main. La date de la dernière lecture est écrite sur le site.", "Every day, a robot reads the sources again and rebuilds all pages, with no manual work. The date of the last reading is shown on the site.", "كل يوم، يعيد برنامج آلي قراءة المصادر ويعيد بناء كل الصفحات، دون أي تدخل يدوي. تاريخ آخر قراءة مذكور في الموقع.")}</p>
+</section>
+<section class="carte">
+  <h2>{L("Un site indépendant", "An independent site", "موقع مستقل")}</h2>
+  <p>{L("Ce site est indépendant : il n'est lié à aucun organisateur ni éditeur.", "This site is independent: it is not affiliated with any organiser or publisher.", "هذا الموقع مستقل: لا علاقة له بأي جهة منظمة أو ناشر.")}</p>
+</section>"""
     par_dom = " · ".join(f"{nom_dom(d)[0]} : {cd[d]}" for d in domaines_presents)
     lignes_src = "".join(f'<li><b>{E(S.SOURCES[s]["nom"])}</b> — <a href="{E(S.SOURCES[s]["url"])}" rel="noopener">{E(S.SOURCES[s]["url"].replace("https://", ""))}</a> — '
                          f'{L("licence", "licence", "رخصة")} {E(S.SOURCES[s]["licence"])}</li>' for s in ("ccfddl", "hf", "hci", "neuro", "bio", "robo", "inspire"))
@@ -1328,11 +1425,12 @@ def construire(donnees, sortie, jour):
                               "<b>Official selection (accounting, finance, Islamic finance)</b> — each conference checked one by one on its organiser's official page (learned societies, universities, AAOIFI, central banks…); only facts are used (name, dates, venue, deadline, link). The check date is shown on each page; a robot checks every month that the links still work.",
                               "<b>اختيار رسمي (المحاسبة، المالية، التمويل الإسلامي)</b> — كل مؤتمر رُوجع على الصفحة الرسمية للجهة المنظمة (جمعيات علمية، جامعات، أيوفي، بنوك مركزية…)؛ نأخذ الوقائع فقط (الاسم، التواريخ، المكان، الأجل، الرابط). تاريخ المراجعة مذكور في كل بطاقة، ويتحقق برنامج آلي كل شهر من أن الروابط ما زالت تعمل.") + "</li>")
     contenu = f"""<section class="carte">
-  <h2>{L("Ce que fait ce site", "What this site does", "ماذا يقدّم هذا الموقع")}</h2>
-  <p data-l="fr">Un service <b>gratuit, sans inscription</b>, pour les enseignants-chercheurs : chaque jour, les conférences scientifiques des 18 prochains mois, rangées par <b>domaine</b>, <b>spécialité</b>, <b>pays</b> et <b>mois</b>, avec la <b>date limite de soumission</b> et le <b>lien officiel</b>. Alertes gratuites par flux RSS ; seules les alertes personnalisées sur Telegram (<a href="../abonnement/">Alertes Pro</a>) sont payantes. Aujourd'hui : {E(par_dom)}.</p>
-  <p data-l="en">A <b>free service, without sign-up</b>, for professors and researchers: every day, the academic conferences of the next 18 months, sorted by <b>field</b>, <b>specialty</b>, <b>country</b> and <b>month</b>, with the <b>submission deadline</b> and the <b>official link</b>. Free alerts by RSS feed; only personalised Telegram alerts (<a href="../abonnement/">Pro Alerts</a>) are paid.</p>
-  <p data-l="ar">خدمة <b>مجانية ودون تسجيل</b> للأساتذة والباحثين: كل يوم، المؤتمرات العلمية للأشهر الـ⁦18⁩ القادمة مرتبة حسب <b>المجال</b> و<b>التخصص</b> و<b>البلد</b> و<b>الشهر</b>، مع <b>آخر أجل للإرسال</b> و<b>الرابط الرسمي</b>. تنبيهات مجانية عبر ⁨RSS⁩؛ التنبيهات الشخصية على تيليغرام (<a href="../abonnement/">تنبيهات Pro</a>) وحدها بمقابل.</p>
+  <h2>{L("À quoi sert le site ?", "What is the site for?", "ما فائدة الموقع؟")}</h2>
+  <p data-l="fr">Un service <b>gratuit, sans inscription</b>, pour les enseignants-chercheurs : chaque jour, les conférences scientifiques des 18 prochains mois, rangées par <b>domaine</b>, <b>spécialité</b>, <b>pays</b> et <b>mois</b>, avec la <b>date limite de soumission</b> et le <b>lien officiel</b>. Alertes gratuites par flux RSS et alertes personnalisées sur Telegram (<a href="../abonnement/">Alertes Pro</a>). Aujourd'hui : {E(par_dom)}.</p>
+  <p data-l="en">A <b>free service, without sign-up</b>, for professors and researchers: every day, the academic conferences of the next 18 months, sorted by <b>field</b>, <b>specialty</b>, <b>country</b> and <b>month</b>, with the <b>submission deadline</b> and the <b>official link</b>. Free alerts by RSS feed and personalised Telegram alerts (<a href="../abonnement/">Pro Alerts</a>).</p>
+  <p data-l="ar">خدمة <b>مجانية ودون تسجيل</b> للأساتذة والباحثين: كل يوم، المؤتمرات العلمية للأشهر الـ⁦18⁩ القادمة مرتبة حسب <b>المجال</b> و<b>التخصص</b> و<b>البلد</b> و<b>الشهر</b>، مع <b>آخر أجل للإرسال</b> و<b>الرابط الرسمي</b>. تنبيهات مجانية عبر ⁨RSS⁩ وتنبيهات شخصية على تيليغرام (<a href="../abonnement/">تنبيهات Pro</a>).</p>
 </section>
+{apropos_fonctions}
 <section class="carte">
   <h2>{L("Sources (licences ouvertes)", "Sources (open licences)", "المصادر (رخص مفتوحة)")}</h2>
   <ul class="sources">{lignes_src}</ul>
@@ -1370,12 +1468,13 @@ def construire(donnees, sortie, jour):
                       "<b>Disclaimer:</b> this site is not official and not affiliated with any organiser. Always check the conference's official website (dates, fees, proceedings publisher) before submitting.",
                       "<b>تنبيه:</b> هذا الموقع ليس رسميًا ولا علاقة له بأي جهة منظمة. تثبّت دائمًا من الموقع الرسمي للمؤتمر (التواريخ، الرسوم، ناشر الأعمال) قبل الإرسال.")}</p>
 </section>
+{apropos_fin}
 <section class="carte" id="credits-photos">
   <h2>{L("Crédits des photos", "Photo credits", "حقوق الصور")}</h2>
   <ul class="sources">{"".join(f'<li data-photo="{E(MOSAIQUE)} {E(MOSAIQUE_MOBILE)}">{LL(ph["sujet"])} — {L("photo", "photo", "صورة")} : <b>{E(ph["auteur"])}</b>, {L("licence", "licence", "رخصة")} <a href="{E(ph["licence_url"])}" rel="noopener license">{E(ph["licence"])}</a>, <a href="{E(ph["source_url"])}" rel="noopener">Wikimedia Commons</a> ({L("recadrée", "cropped", "مقصوصة")}).</li>' for ph in PHOTOS)}</ul>
 </section>"""
-    titre = "About, method and open sources · À propos et sources | Conference Radar"
-    desc = "Free service. Where the upcoming conferences come from (open lists under MIT licence, INSPIRE-HEP under CC0), how they are checked and classified."
+    titre = "How does the site work? · Comment fonctionne le site ? | Conference Radar"
+    desc = "How Conference Radar works: where the upcoming conferences come from (open lists under MIT licence, INSPIRE-HEP under CC0, official pages), how to use it, every feature, free alerts, your data."
     pages.append(("a-propos/", page("a-propos/", "../", titre, desc, hero, contenu, v, etat)))
 
     # ---- organisateurs : signaler une conférence (gratuit)

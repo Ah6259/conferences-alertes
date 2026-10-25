@@ -51,7 +51,7 @@
           <a href="${racine}rapports/">${T("Rapports du mois", "Monthly reports", "تقارير الشهر")}</a>
           <a href="${racine}abonnement/">${T("Alertes Pro (abonnement)", "Pro Alerts (subscription)", "تنبيهات Pro (اشتراك)")}</a>
           <a href="${racine}publier/">${T("Signaler une conférence", "Submit a conference", "أضف مؤتمرًا")}</a>
-          <a href="${racine}a-propos/">${T("À propos et sources", "About and sources", "من نحن والمصادر")}</a>
+          <a href="${racine}a-propos/">${T("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</a>
           <a href="${racine}#avis">${T("Votre avis", "Feedback", "رأيك")}</a>
         <a href="https://clicvia.com/" rel="noopener" target="_blank">${T("Tous nos services", "All our services", "كل خدماتنا")}</a>
         </nav>

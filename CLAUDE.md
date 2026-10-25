@@ -117,3 +117,12 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   (cochée) ou 1 an ; le code reste créé sur la page, le robot privé le met « en attente » jusqu'au paiement. Pour refaire les pages :
   `python3.12 robot/construire_site.py` (sans Pillow, les aperçus des rapports sont remplacés par l'image du site : ne pas les envoyer).
   Test : « aucune page ne parle d'essai gratuit » dans test_site.mjs.
+
+- **RÈGLE D'AHMED (25/10/2026, règle commune § 44) : la page « Comment fonctionne le site ? » (`a-propos/`, bloc « Comment fonctionne
+  le site ? » de robot/construire_site.py, FR + EN + AR ; elle sert aussi de modèle à la page `video/`) est mise à jour à CHAQUE
+  modification visible du site, dans le même envoi** : à quoi sert le site, mode d'emploi, une ligne par fonction visible (liste
+  `fonctions`), sources, méthode, gratuit / payant (Alertes Pro : texte selon `ABO["gratuit"]`), vos données, mises à jour, site
+  indépendant, crédits des photos. Lien « Comment fonctionne le site ? » dans le pied de page (page.js) et sur l'accueil (carte
+  « Comment ça marche ? »). Test `FONCTIONS` dans tools/test_site.mjs (repère dans le site -> phrase attendue dans la page) : une
+  fonction absente = test rouge. Nouvelle fonction = une ligne dans `FONCTIONS` + son explication dans `fonctions`.
+  Construire : `uv run --python 3.12 --with pillow python robot/construire_site.py --aujourdhui <date des données>` (Python 3.12 + Pillow).
