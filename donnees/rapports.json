@@ -4,8 +4,8 @@
 "chiffres": {
 "afrique": 3,
 "evenements": 60,
-"limites": 62,
-"limites_conferences": 48,
+"limites": 61,
+"limites_conferences": 47,
 "par_continent": {
 "afrique": 3,
 "amerique-nord": 14,
@@ -1920,33 +1920,6 @@
 "ville": "Sharjah"
 },
 {
-"acronyme": "CVC",
-"annee": 2027,
-"continent": "europe",
-"debut": "2027-04-15",
-"domaines": [
-"informatique"
-],
-"fin": "2027-04-16",
-"id": "cvc-2027",
-"lien": "https://saiconference.com/CVC",
-"limites": [
-{
-"date": "2026-10-01",
-"type": "article"
-}
-],
-"mode": "presentiel",
-"pays": "NL",
-"specialites": [
-"vision",
-"ia-apprentissage"
-],
-"titre": "Computer Vision Conference",
-"type": "conference",
-"ville": "Amsterdam"
-},
-{
 "acronyme": "ICPC",
 "annee": 2027,
 "continent": "europe",
@@ -2663,7 +2636,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-24",
+"derniere_date": "2026-10-25",
 "fini": false,
 "premier_jour": "2026-10-09"
 }

@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-24T06:00:00Z</updated>
+<updated>2026-10-25T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/acml-2026/</id>
+<title>ACML 2026 — Asian Conference on Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/acml-2026/"/>
+<updated>2026-10-25T06:00:00Z</updated>
+<summary>1–4 Dec 2026 · Melbourne, Australia · Deadline: 20 Jun 2026, 5 Jul 2026 · Official: https://www.acml-conf.org/2026/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/clef-2027/</id>
 <title>CLEF 2027 — Conference and Labs of the Evaluation Forum</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/ecai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–7 Oct 2027 · Athens, Greece · Deadline: 14 Apr 2027 · Official: https://ecai2027.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iccv-2027/</id>
-<title>ICCV 2027 — IEEE International Conference on Computer Vision</title>
-<link href="https://conferences.clicvia.com/conference/iccv-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
 </entry>
 </feed>

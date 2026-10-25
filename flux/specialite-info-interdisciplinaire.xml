@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-info-interdisciplinaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-info-interdisciplinaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-24T06:00:00Z</updated>
+<updated>2026-10-25T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -111,12 +111,5 @@
 <link href="https://conferences.clicvia.com/conference/sigspatial-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–6 Nov 2026 · Riverside, United States · Deadline: 29 May 2026, 5 Jun 2026 · Official: https://sigspatial2026.sigspatial.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/apbc-2026/</id>
-<title>APBC 2026 — Asia Pacific Bioinformatics Conference</title>
-<link href="https://conferences.clicvia.com/conference/apbc-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>22–24 Oct 2026 · Hsinchu, Taiwan · Deadline: 17 Jul 2026 · Official: https://www.apbc2026.com/home</summary>
 </entry>
 </feed>

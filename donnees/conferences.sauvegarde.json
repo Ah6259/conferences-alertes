@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-24 09:55",
- "derniere_lecture_reussie": "2026-10-24 09:55",
+ "mis_a_jour": "2026-10-25 10:11",
+ "derniere_lecture_reussie": "2026-10-25 10:11",
  "dernier_passage": {
-  "date": "2026-10-24 09:55",
+  "date": "2026-10-25 10:11",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 274,
    "brutes": 2343,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -41,15 +41,15 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
   "bio": {
    "etat": "ok",
-   "nombre": 3,
+   "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
@@ -65,146 +65,21 @@
    "etat": "ok",
    "nombre": 129,
    "brutes": 154,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 46,
+   "nombre": 45,
    "brutes": 54,
-   "derniere_reussite": "2026-10-24 09:55",
+   "derniere_reussite": "2026-10-25 10:11",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 480,
+ "nombre": 478,
  "conferences": [
-  {
-   "id": "ashg-2026",
-   "acronyme": "ASHG",
-   "titre": "American Society of Human Genetics",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-20",
-   "fin": "2026-10-24",
-   "ville": "Montreal",
-   "pays": "CA",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "vie-sante"
-   ],
-   "specialites": [
-    "bioinformatique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-18",
-     "type": "article",
-     "libelle": "Submission",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://www.ashg.org/annual-meeting-2026/",
-   "rang": "",
-   "sources": [
-    "bio"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "apbc-2026",
-   "acronyme": "APBC",
-   "titre": "Asia Pacific Bioinformatics Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-22",
-   "fin": "2026-10-24",
-   "ville": "Hsinchu",
-   "pays": "TW",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "vie-sante",
-    "informatique"
-   ],
-   "specialites": [
-    "bioinformatique",
-    "info-interdisciplinaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-17",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.apbc2026.com/home",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "car-conference-2026",
-   "acronyme": "CAR Conference 2026",
-   "titre": "41st Annual Contemporary Accounting Research (CAR) Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-23",
-   "fin": "2026-10-24",
-   "ville": "Montréal",
-   "pays": "CA",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "compta-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://www.caaa.ca/journals-and-research/contemporary-accounting-research-car",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.caaa.ca/journals-and-research/contemporary-accounting-research-car",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "emnlp-industry-track-2026",
    "acronyme": "EMNLP (Industry Track)",
@@ -4625,6 +4500,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "acml-2026",
+   "acronyme": "ACML",
+   "titre": "Asian Conference on Machine Learning",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-01",
+   "fin": "2026-12-04",
+   "ville": "Melbourne",
+   "pays": "AU",
+   "mode": "presentiel",
+   "continent": "oceanie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-06-20",
+     "type": "article",
+     "libelle": "Journal Track",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-07-05",
+     "type": "article",
+     "libelle": "Conference Track",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.acml-conf.org/2026/",
+   "rang": "CORE C · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-25"
   },
   {
    "id": "aplas-2026",
@@ -11715,10 +11638,10 @@
     "vision",
     "ia-apprentissage"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
+   "date_limite": "2026-11-01",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-09-01",
@@ -11728,7 +11651,7 @@
      "fuseau": "AoE"
     },
     {
-     "date": "2026-10-01",
+     "date": "2026-11-01",
      "type": "article",
      "libelle": "Round 2",
      "heure": "23:59",

@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-24T06:00:00Z</updated>
+<updated>2026-10-25T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/acml-2026/</id>
+<title>ACML 2026 — Asian Conference on Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/acml-2026/"/>
+<updated>2026-10-25T06:00:00Z</updated>
+<summary>1–4 Dec 2026 · Melbourne, Australia · Deadline: 20 Jun 2026, 5 Jul 2026 · Official: https://www.acml-conf.org/2026/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kr-2027/</id>
 <title>KR 2027 — International Conference on Principles of Knowledge Representation and Reasoning</title>
@@ -187,7 +194,7 @@
 <title>CVC 2027 — Computer Vision Conference</title>
 <link href="https://conferences.clicvia.com/conference/cvc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>15–16 Apr 2027 · Amsterdam, Netherlands · Deadline: 1 Sep 2026, 1 Oct 2026 · Official: https://saiconference.com/CVC</summary>
+<summary>15–16 Apr 2027 · Amsterdam, Netherlands · Deadline: 1 Sep 2026, 1 Nov 2026 · Official: https://saiconference.com/CVC</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/3dv-2027/</id>
