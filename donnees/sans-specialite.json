@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-25",
+ "maj": "2026-10-26",
  "explication": "Conférences lues mais rangées dans aucune spécialité (gardées 120 jours) : la routine « conferences-nouvelle-specialite » y cherche les thèmes qui reviennent.",
  "nombre": 0,
  "conferences": []

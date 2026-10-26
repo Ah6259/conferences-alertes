@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-25T06:00:00Z</updated>
+<updated>2026-10-26T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/</id>
+<title>Mathematical and Statistical Physics in the age of Artificial Intelligence</title>
+<link href="https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/"/>
+<updated>2026-10-26T06:00:00Z</updated>
+<summary>6–8 Jan 2027 · Budapest, Hungary · Deadline: see official website · Official: https://indico.global/e/math-stat-phys-ai</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/tools4onium-2027/</id>
 <title>Tools4Onium 2027 — Workshop on Tools for Quarkonia</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/string-data-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–11 Dec 2026 · Ulsan, South Korea · Deadline: see official website · Official: https://rakkyeongseong.github.io/stringdata2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/upc-2026/</id>
-<title>UPC 2026 — 3rd International Workshop on the physics of Ultra Peripheral Collisions (UPC 2026)</title>
-<link href="https://conferences.clicvia.com/conference/upc-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–12 Dec 2026 · Playa del Carmen, Mexico · Deadline: see official website · Official: https://indico.cern.ch/event/1648300/</summary>
 </entry>
 </feed>

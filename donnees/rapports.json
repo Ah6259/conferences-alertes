@@ -3,12 +3,12 @@
 "2026-10": {
 "chiffres": {
 "afrique": 3,
-"evenements": 60,
+"evenements": 59,
 "limites": 61,
 "limites_conferences": 47,
 "par_continent": {
 "afrique": 3,
-"amerique-nord": 14,
+"amerique-nord": 13,
 "asie": 17,
 "en-ligne": 1,
 "europe": 25
@@ -18,13 +18,13 @@
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 9,
+"physique": 8,
 "vie-sante": 2
 },
 "par_mode": {
 "en-ligne": 1,
 "hybride": 2,
-"presentiel": 57
+"presentiel": 56
 },
 "par_pays": {
 "BH": 1,
@@ -49,7 +49,7 @@
 "TN": 1,
 "TR": 2,
 "TW": 2,
-"US": 10,
+"US": 9,
 "ZA": 1
 },
 "par_specialite": {
@@ -72,7 +72,6 @@
 "langage": 5,
 "nucleaire": 3,
 "particules": 7,
-"quantique": 1,
 "reseaux": 4,
 "securite": 5,
 "systemes": 6,
@@ -80,7 +79,7 @@
 },
 "par_type": {
 "atelier": 2,
-"conference": 57,
+"conference": 56,
 "ecole": 1
 },
 "pays": 24,
@@ -963,27 +962,6 @@
 {
 "acronyme": "",
 "annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-25",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-27",
-"id": "q-ai-3-0-includes-pqc-2026",
-"lien": "https://iqtevent.com/quantumai/",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"quantique"
-],
-"titre": "Q+AI 3.0 (includes PQC+IQT)",
-"type": "conference",
-"ville": "New York"
-},
-{
-"acronyme": "",
-"annee": 2026,
 "continent": "afrique",
 "debut": "2026-10-26",
 "domaines": [
@@ -1849,12 +1827,12 @@
 "lien": "https://iccvm.org/2027/",
 "limites": [
 {
-"date": "2026-10-23",
-"type": "resume"
+"date": "2026-10-26",
+"type": "article"
 },
 {
 "date": "2026-10-26",
-"type": "article"
+"type": "resume"
 }
 ],
 "mode": "presentiel",
@@ -2106,7 +2084,7 @@
 "type": "article"
 }
 ],
-"mode": "presentiel",
+"mode": "hybride",
 "pays": "CN",
 "specialites": [
 "langage",
@@ -2636,7 +2614,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-25",
+"derniere_date": "2026-10-26",
 "fini": false,
 "premier_jour": "2026-10-09"
 }

@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-25 10:11",
- "derniere_lecture_reussie": "2026-10-25 10:11",
+ "mis_a_jour": "2026-10-26 11:12",
+ "derniere_lecture_reussie": "2026-10-26 11:12",
  "dernier_passage": {
-  "date": "2026-10-25 10:11",
+  "date": "2026-10-26 11:12",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 274,
    "brutes": 2343,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 129,
    "brutes": 154,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   },
@@ -73,7 +73,7 @@
    "etat": "ok",
    "nombre": 45,
    "brutes": 54,
-   "derniere_reussite": "2026-10-25 10:11",
+   "derniere_reussite": "2026-10-26 11:12",
    "raison": "",
    "depuis": ""
   }
@@ -306,39 +306,6 @@
     "hf"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "q-ai-3-0-includes-pqc-2026",
-   "acronyme": "",
-   "titre": "Q+AI 3.0 (includes PQC+IQT)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-25",
-   "fin": "2026-10-27",
-   "ville": "New York",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://iqtevent.com/quantumai/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3105936",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -7415,6 +7382,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mathematical-and-statistical-physics-in-the-age-2027",
+   "acronyme": "",
+   "titre": "Mathematical and Statistical Physics in the age of Artificial Intelligence",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-06",
+   "fin": "2027-01-08",
+   "ville": "Budapest",
+   "pays": "HU",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "physique-theorique",
+    "quantique",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.global/e/math-stat-phys-ai",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3218318",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-26"
+  },
+  {
    "id": "aaa-mas-midyear-2027",
    "acronyme": "AAA MAS Midyear 2027",
    "titre": "AAA Management Accounting Section Midyear Meeting",
@@ -11292,16 +11294,16 @@
    "fuseau_limite": "UTC+0",
    "dates_limites": [
     {
-     "date": "2026-10-23",
-     "type": "resume",
-     "libelle": "Abstract",
+     "date": "2026-10-26",
+     "type": "article",
+     "libelle": "Paper",
      "heure": "23:59",
      "fuseau": "UTC+0"
     },
     {
      "date": "2026-10-26",
-     "type": "article",
-     "libelle": "Paper",
+     "type": "resume",
+     "libelle": "Abstract",
      "heure": "23:59",
      "fuseau": "UTC+0"
     }
@@ -11827,6 +11829,20 @@
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
+    {
+     "date": "2026-09-01",
+     "type": "resume",
+     "libelle": "Abstract · Journal track",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-09-08",
+     "type": "article",
+     "libelle": "Journal track",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
     {
      "date": "2026-11-02",
      "type": "resume",
@@ -12593,7 +12609,7 @@
    "fin": "2027-05-14",
    "ville": "Macau SAR",
    "pays": "CN",
-   "mode": "presentiel",
+   "mode": "hybride",
    "continent": "asie",
    "domaines": [
     "informatique"
@@ -12957,10 +12973,10 @@
     "ia-apprentissage",
     "donnees"
    ],
-   "date_limite": "2026-10-25",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-18",
@@ -18968,8 +18984,8 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-10-25",
-   "type_limite": "resume",
+   "date_limite": "2026-11-01",
+   "type_limite": "article",
    "heure_limite": "17:00",
    "fuseau_limite": "PT",
    "dates_limites": [
