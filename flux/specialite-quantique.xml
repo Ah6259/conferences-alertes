@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-quantique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-quantique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-26T06:00:00Z</updated>
+<updated>2026-10-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qai2026/</id>
+<title>QAI2026 — 2nd IEEE International Conference on Quantum Artificial Intelligence</title>
+<link href="https://conferences.clicvia.com/conference/qai2026/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/</id>
 <title>Mathematical and Statistical Physics in the age of Artificial Intelligence</title>
@@ -41,13 +48,6 @@
 <link href="https://conferences.clicvia.com/conference/qtml-2026/"/>
 <updated>2026-10-13T06:00:00Z</updated>
 <summary>6–11 Dec 2026 · Stellenbosch, South Africa · Deadline: see official website · Official: https://qtml2026.nithecs.ac.za/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/qai-2026/</id>
-<title>QAI 2026 — 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence</title>
-<link href="https://conferences.clicvia.com/conference/qai-2026/"/>
-<updated>2026-10-09T06:00:00Z</updated>
-<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icagac2027/</id>

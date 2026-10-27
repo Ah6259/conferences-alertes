@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-26 11:12",
- "derniere_lecture_reussie": "2026-10-26 11:12",
+ "mis_a_jour": "2026-10-27 10:51",
+ "derniere_lecture_reussie": "2026-10-27 10:51",
  "dernier_passage": {
-  "date": "2026-10-26 11:12",
+  "date": "2026-10-27 10:51",
   "reussi": true
  },
  "statut_source": {
@@ -16,8 +16,8 @@
   "ccfddl": {
    "etat": "ok",
    "nombre": 274,
-   "brutes": 2343,
-   "derniere_reussite": "2026-10-26 11:12",
+   "brutes": 2344,
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-26 11:12",
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-26 11:12",
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-26 11:12",
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-26 11:12",
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-26 11:12",
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 129,
-   "brutes": 154,
-   "derniere_reussite": "2026-10-26 11:12",
+   "nombre": 128,
+   "brutes": 151,
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 45,
    "brutes": 54,
-   "derniere_reussite": "2026-10-26 11:12",
+   "derniere_reussite": "2026-10-27 10:51",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 478,
+ "nombre": 477,
  "conferences": [
   {
    "id": "emnlp-industry-track-2026",
@@ -311,75 +311,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "hepmad26-16th-high-energy-physics-conference-2026",
-   "acronyme": "",
-   "titre": "HEPMAD26 — 16th High-Energy Physics Conference Antananarivo - Madagascar",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-26",
-   "fin": "2026-10-31",
-   "ville": "Antananarivo",
-   "pays": "MG",
-   "mode": "presentiel",
-   "continent": "afrique",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "particules",
-    "nucleaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.lupm.in2p3.fr/users/qcd/hepmad26/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3109688",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "hf-hnc-2026",
-   "acronyme": "HF-HNC 2026",
-   "titre": "10th International Symposium on Heavy Flavor Production in Hadron and Nuclear Collisions",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-26",
-   "fin": "2026-10-29",
-   "ville": "Bloomington",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "nucleaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.cern.ch/event/1620073/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3115397",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "ica3pp-2026",
    "acronyme": "ICA3PP",
    "titre": "International Conference on Algorithms and Architectures for Parallel Processing",
@@ -478,74 +409,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "relativity-reframed-quantum-reference-frames-and-2026",
-   "acronyme": "",
-   "titre": "Relativity Reframed: Quantum Reference Frames and Gravity",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-26",
-   "fin": "2026-10-30",
-   "ville": "Waterloo",
-   "pays": "CA",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://events.perimeterinstitute.ca/e/relativityreframed",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3150071",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "soup2026-the-4th-infn-school-on-underground",
-   "acronyme": "",
-   "titre": "SoUP2026 — The 4th INFN school on Underground Physics",
-   "annee": 2026,
-   "type": "ecole",
-   "debut": "2026-10-26",
-   "fin": "2026-10-30",
-   "ville": "Bertinoro",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "particules",
-    "instrumentation"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://soup2026.ca.infn.it/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3075717",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -4786,6 +4649,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "german-fcc-ee-workshop-2026",
+   "acronyme": "",
+   "titre": "German FCC-ee Workshop 2026",
+   "annee": 2026,
+   "type": "atelier",
+   "debut": "2026-12-02",
+   "fin": "2026-12-04",
+   "ville": "Hamburg",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.desy.de/event/54602/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3218698",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-27"
+  },
+  {
    "id": "setta-2026",
    "acronyme": "SETTA",
    "titre": "Symposium on Dependable Software Engineering: Theories, Tools and Applications",
@@ -6232,9 +6129,9 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "qai-2026",
-   "acronyme": "QAI",
-   "titre": "2026 IEEE 2nd International Conference on Quantum Artificial Intelligence",
+   "id": "qai2026",
+   "acronyme": "QAI2026",
+   "titre": "2nd IEEE International Conference on Quantum Artificial Intelligence",
    "annee": 2026,
    "type": "conference",
    "debut": "2026-12-13",
@@ -6262,7 +6159,7 @@
    "identifiant_source": "inspire-3213100",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-09"
+   "ajoute_le": "2026-10-27"
   },
   {
    "id": "sigir-ap-2026",
@@ -7628,6 +7525,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "33rd-cracow-epiphany-conference-advances-in-2027",
+   "acronyme": "",
+   "titre": "33rd Cracow Epiphany Conference — Advances in precission calculations for the LHC",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-11",
+   "fin": "2027-01-15",
+   "ville": "Kraków",
+   "pays": "PL",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://epiphany.ifj.edu.pl",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3213819",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-27"
+  },
+  {
    "id": "vmcai-2027",
    "acronyme": "VMCAI",
    "titre": "International Conference on Verification, Model Checking, and Abstract Interpretation",
@@ -7707,39 +7637,6 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "xxxiii-cracow-epiphany-conference-advances-in-2027",
-   "acronyme": "",
-   "titre": "XXXIII Cracow Epiphany Conference — Advances in precission calculations for the LHC",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-01-11",
-   "fin": "2027-01-15",
-   "ville": "Kraków",
-   "pays": "PL",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://epiphany.ifj.edu.pl",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3213819",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-12"
   },
   {
    "id": "pepm-2027",
@@ -10032,10 +9929,10 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-10-26",
-   "type_limite": "resume",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-12",
@@ -10254,20 +10151,20 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-23",
+   "date_limite": "2026-11-13",
    "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-13",
      "type": "resume",
      "libelle": "Abstract",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
-     "date": "2026-12-05",
+     "date": "2026-11-25",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -11288,10 +11185,10 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2026-10-26",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC+0",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-26",
@@ -11402,6 +11299,39 @@
   },
   {
    "id": "asplos-2027",
+   "acronyme": "ASPLOS 2027",
+   "titre": "32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-11",
+   "fin": "2027-04-15",
+   "ville": "Heraklion",
+   "pays": "GR",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.asplos-conference.org/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3218697",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "asplos-2027-2",
    "acronyme": "ASPLOS",
    "titre": "International Conference on Architectural Support for Programming Languages and Operating Systems",
    "annee": 2027,
@@ -14614,10 +14544,10 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-10-26",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-5",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-26",
@@ -15225,6 +15155,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "2027-michigan-cosmology-summer",
+   "acronyme": "",
+   "titre": "2027 Michigan Cosmology Summer School",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-06-14",
+   "fin": "2027-06-18",
+   "ville": "Ann Arbor",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://huterer.github.io/cosmology-school-2027/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3218684",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-27"
   },
   {
    "id": "codaspy-2027",
@@ -16376,11 +16339,19 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-29",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-29",
+     "type": "article",
+     "libelle": "Expected rebuttal March 29 - April 2; author notification on or before May 3.",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://learningtheory.org/colt2027/",
    "rang": "CORE A* · CCF B",
    "sources": [

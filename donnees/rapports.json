@@ -2,33 +2,33 @@
 "mois": {
 "2026-10": {
 "chiffres": {
-"afrique": 3,
-"evenements": 59,
+"afrique": 2,
+"evenements": 55,
 "limites": 61,
 "limites_conferences": 47,
 "par_continent": {
-"afrique": 3,
-"amerique-nord": 13,
+"afrique": 2,
+"amerique-nord": 11,
 "asie": 17,
 "en-ligne": 1,
-"europe": 25
+"europe": 24
 },
 "par_domaine": {
 "comptabilite": 5,
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 8,
+"physique": 4,
 "vie-sante": 2
 },
 "par_mode": {
 "en-ligne": 1,
 "hybride": 2,
-"presentiel": 56
+"presentiel": 52
 },
 "par_pays": {
 "BH": 1,
-"CA": 4,
+"CA": 3,
 "CN": 5,
 "CY": 1,
 "DE": 3,
@@ -37,10 +37,9 @@
 "GB": 4,
 "HU": 3,
 "ID": 2,
-"IT": 5,
+"IT": 4,
 "JP": 1,
 "KR": 1,
-"MG": 1,
 "NL": 1,
 "PK": 1,
 "PT": 2,
@@ -49,12 +48,12 @@
 "TN": 1,
 "TR": 2,
 "TW": 2,
-"US": 9,
+"US": 8,
 "ZA": 1
 },
 "par_specialite": {
 "aaoifi-charia": 2,
-"astro": 5,
+"astro": 2,
 "banque-islamique": 2,
 "bioinformatique": 2,
 "compta-financiere": 1,
@@ -68,10 +67,10 @@
 "ia-apprentissage": 2,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 3,
+"instrumentation": 2,
 "langage": 5,
-"nucleaire": 3,
-"particules": 7,
+"nucleaire": 1,
+"particules": 4,
 "reseaux": 4,
 "securite": 5,
 "systemes": 6,
@@ -79,10 +78,9 @@
 },
 "par_type": {
 "atelier": 2,
-"conference": 56,
-"ecole": 1
+"conference": 53
 },
-"pays": 24,
+"pays": 23,
 "themes_site": 11,
 "tunisie": 1
 },
@@ -960,51 +958,6 @@
 "ville": "Budapest"
 },
 {
-"acronyme": "",
-"annee": 2026,
-"continent": "afrique",
-"debut": "2026-10-26",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-31",
-"id": "hepmad26-16th-high-energy-physics-conference-2026",
-"lien": "https://www.lupm.in2p3.fr/users/qcd/hepmad26/",
-"limites": [],
-"mode": "presentiel",
-"pays": "MG",
-"specialites": [
-"astro",
-"particules",
-"nucleaire"
-],
-"titre": "HEPMAD26 — 16th High-Energy Physics Conference Antananarivo - Madagascar",
-"type": "conference",
-"ville": "Antananarivo"
-},
-{
-"acronyme": "HF-HNC 2026",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-26",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-29",
-"id": "hf-hnc-2026",
-"lien": "https://indico.cern.ch/event/1620073/",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"particules",
-"nucleaire"
-],
-"titre": "10th International Symposium on Heavy Flavor Production in Hadron and Nuclear Collisions",
-"type": "conference",
-"ville": "Bloomington"
-},
-{
 "acronyme": "ICA3PP",
 "annee": 2026,
 "continent": "europe",
@@ -1045,50 +998,6 @@
 "titre": "ACM Annual International Conference On Mobile Computing And Networking",
 "type": "conference",
 "ville": "Austin"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-10-26",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-30",
-"id": "relativity-reframed-quantum-reference-frames-and-2026",
-"lien": "https://events.perimeterinstitute.ca/e/relativityreframed",
-"limites": [],
-"mode": "presentiel",
-"pays": "CA",
-"specialites": [
-"astro"
-],
-"titre": "Relativity Reframed: Quantum Reference Frames and Gravity",
-"type": "conference",
-"ville": "Waterloo"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-10-26",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-30",
-"id": "soup2026-the-4th-infn-school-on-underground",
-"lien": "https://soup2026.ca.infn.it/",
-"limites": [],
-"mode": "presentiel",
-"pays": "IT",
-"specialites": [
-"astro",
-"particules",
-"instrumentation"
-],
-"titre": "SoUP2026 — The 4th INFN school on Underground Physics",
-"type": "ecole",
-"ville": "Bertinoro"
 },
 {
 "acronyme": "FIFC 2026",
@@ -2614,7 +2523,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-26",
+"derniere_date": "2026-10-27",
 "fini": false,
 "premier_jour": "2026-10-09"
 }

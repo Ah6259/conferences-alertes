@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-calcul-physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-calcul-physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-26T06:00:00Z</updated>
+<updated>2026-10-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -83,6 +83,13 @@
 <link href="https://conferences.clicvia.com/conference/iclr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26–30 Apr 2027 · San Francisco, United States · Deadline: see official website · Official: https://iclr.cc/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/asplos-2027/</id>
+<title>ASPLOS 2027 — 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems</title>
+<link href="https://conferences.clicvia.com/conference/asplos-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–15 Apr 2027 · Heraklion, Greece · Deadline: see official website · Official: https://www.asplos-conference.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/quantum-fields-to-cosmic-signatures-probing-2027/</id>

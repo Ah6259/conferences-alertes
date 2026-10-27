@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-26T06:00:00Z</updated>
+<updated>2026-10-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/</id>
+<title>2027 Michigan Cosmology Summer School</title>
+<link href="https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>14–18 Jun 2027 · Ann Arbor, United States · Deadline: see official website · Official: https://huterer.github.io/cosmology-school-2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/33rd-cracow-epiphany-conference-advances-in-2027/</id>
+<title>33rd Cracow Epiphany Conference — Advances in precission calculations for the LHC</title>
+<link href="https://conferences.clicvia.com/conference/33rd-cracow-epiphany-conference-advances-in-2027/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>11–15 Jan 2027 · Kraków, Poland · Deadline: see official website · Official: https://epiphany.ifj.edu.pl</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qai2026/</id>
+<title>QAI2026 — 2nd IEEE International Conference on Quantum Artificial Intelligence</title>
+<link href="https://conferences.clicvia.com/conference/qai2026/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/</id>
+<title>German FCC-ee Workshop 2026</title>
+<link href="https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>2–4 Dec 2026 · Hamburg, Germany · Deadline: see official website · Official: https://indico.desy.de/event/54602/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/</id>
 <title>Mathematical and Statistical Physics in the age of Artificial Intelligence</title>
@@ -253,13 +281,6 @@
 <summary>23–27 May 2027 · Limassol, Cyprus · Deadline: 10 Dec 2026, 17 Dec 2026 · Official: https://2027.eswc-conferences.org/</summary>
 </entry>
 <entry>
-<id>https://conferences.clicvia.com/conference/xxxiii-cracow-epiphany-conference-advances-in-2027/</id>
-<title>XXXIII Cracow Epiphany Conference — Advances in precission calculations for the LHC</title>
-<link href="https://conferences.clicvia.com/conference/xxxiii-cracow-epiphany-conference-advances-in-2027/"/>
-<updated>2026-10-12T06:00:00Z</updated>
-<summary>11–15 Jan 2027 · Kraków, Poland · Deadline: see official website · Official: https://epiphany.ifj.edu.pl</summary>
-</entry>
-<entry>
 <id>https://conferences.clicvia.com/conference/kr-2027/</id>
 <title>KR 2027 — International Conference on Principles of Knowledge Representation and Reasoning</title>
 <link href="https://conferences.clicvia.com/conference/kr-2027/"/>
@@ -314,13 +335,6 @@
 <link href="https://conferences.clicvia.com/conference/quantum-gravity-2027/"/>
 <updated>2026-10-09T06:00:00Z</updated>
 <summary>13–17 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://www.thphys.uni-heidelberg.de/~qg2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/qai-2026/</id>
-<title>QAI 2026 — 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence</title>
-<link href="https://conferences.clicvia.com/conference/qai-2026/"/>
-<updated>2026-10-09T06:00:00Z</updated>
-<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/acm-siggraph-asia-2027/</id>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/6th-astro-colibri-multi-messenger-astrophysics-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–8 Oct 2027 · Paris-Saclay, France · Deadline: see official website · Official: https://multimessenger-astrophysics.com/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/imwut-resubmission-only-ubicomp-iswc-2027/</id>
-<title>IMWUT - resubmission only (Ubicomp/ISWC) 2027</title>
-<link href="https://conferences.clicvia.com/conference/imwut-resubmission-only-ubicomp-iswc-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>3–7 Oct 2027 · Seoul Dragon City, South Korea · Deadline: 1 Aug 2027 · Official: https://dl.acm.org/journal/imwut/how-to-submit</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/imwut-ubicomp-iswc-2027/</id>
-<title>IMWUT (Ubicomp/ISWC) 2027</title>
-<link href="https://conferences.clicvia.com/conference/imwut-ubicomp-iswc-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>3–7 Oct 2027 · Seoul Dragon City, South Korea · Deadline: 1 Nov 2026, 1 Feb 2027, 1 May 2027 · Official: https://dl.acm.org/journal/imwut/how-to-submit</summary>
 </entry>
 </feed>

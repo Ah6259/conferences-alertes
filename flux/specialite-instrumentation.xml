@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-instrumentation.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-instrumentation.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-26T06:00:00Z</updated>
+<updated>2026-10-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/</id>
+<title>German FCC-ee Workshop 2026</title>
+<link href="https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>2–4 Dec 2026 · Hamburg, Germany · Deadline: see official website · Official: https://indico.desy.de/event/54602/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/eps-hep-2027/</id>
 <title>EPS-HEP 2027 — 2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)</title>
@@ -132,12 +139,5 @@
 <link href="https://conferences.clicvia.com/conference/icppa-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27–30 Oct 2026 · Moscow, Russia · Deadline: see official website · Official: https://indico.particle.mephi.ru/e/ICPPA2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/soup2026-the-4th-infn-school-on-underground/</id>
-<title>SoUP2026 — The 4th INFN school on Underground Physics</title>
-<link href="https://conferences.clicvia.com/conference/soup2026-the-4th-infn-school-on-underground/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26–30 Oct 2026 · Bertinoro, Italy · Deadline: see official website · Official: https://soup2026.ca.infn.it/</summary>
 </entry>
 </feed>

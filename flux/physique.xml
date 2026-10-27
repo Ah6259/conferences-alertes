@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-26T06:00:00Z</updated>
+<updated>2026-10-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/</id>
+<title>2027 Michigan Cosmology Summer School</title>
+<link href="https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>14–18 Jun 2027 · Ann Arbor, United States · Deadline: see official website · Official: https://huterer.github.io/cosmology-school-2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/33rd-cracow-epiphany-conference-advances-in-2027/</id>
+<title>33rd Cracow Epiphany Conference — Advances in precission calculations for the LHC</title>
+<link href="https://conferences.clicvia.com/conference/33rd-cracow-epiphany-conference-advances-in-2027/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>11–15 Jan 2027 · Kraków, Poland · Deadline: see official website · Official: https://epiphany.ifj.edu.pl</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qai2026/</id>
+<title>QAI2026 — 2nd IEEE International Conference on Quantum Artificial Intelligence</title>
+<link href="https://conferences.clicvia.com/conference/qai2026/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/</id>
+<title>German FCC-ee Workshop 2026</title>
+<link href="https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/"/>
+<updated>2026-10-27T06:00:00Z</updated>
+<summary>2–4 Dec 2026 · Hamburg, Germany · Deadline: see official website · Official: https://indico.desy.de/event/54602/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/</id>
 <title>Mathematical and Statistical Physics in the age of Artificial Intelligence</title>
@@ -169,13 +197,6 @@
 <summary>26–30 Jul 2027 · Bucharest, Romania · Deadline: see official website · Official: https://www.eps-hep2027.eu/</summary>
 </entry>
 <entry>
-<id>https://conferences.clicvia.com/conference/xxxiii-cracow-epiphany-conference-advances-in-2027/</id>
-<title>XXXIII Cracow Epiphany Conference — Advances in precission calculations for the LHC</title>
-<link href="https://conferences.clicvia.com/conference/xxxiii-cracow-epiphany-conference-advances-in-2027/"/>
-<updated>2026-10-12T06:00:00Z</updated>
-<summary>11–15 Jan 2027 · Kraków, Poland · Deadline: see official website · Official: https://epiphany.ifj.edu.pl</summary>
-</entry>
-<entry>
 <id>https://conferences.clicvia.com/conference/bttb15-2027/</id>
 <title>BTTB15 2027 — 15th Beam Telescopes and Test Beams workshop</title>
 <link href="https://conferences.clicvia.com/conference/bttb15-2027/"/>
@@ -188,13 +209,6 @@
 <link href="https://conferences.clicvia.com/conference/quantum-gravity-2027/"/>
 <updated>2026-10-09T06:00:00Z</updated>
 <summary>13–17 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://www.thphys.uni-heidelberg.de/~qg2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/qai-2026/</id>
-<title>QAI 2026 — 2026 IEEE 2nd International Conference on Quantum Artificial Intelligence</title>
-<link href="https://conferences.clicvia.com/conference/qai-2026/"/>
-<updated>2026-10-09T06:00:00Z</updated>
-<summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/horizons-in-quantum-2027/</id>
@@ -358,6 +372,13 @@
 <summary>19–24 Apr 2027 · Kielce, Poland · Deadline: see official website · Official: https://indico.cern.ch/event/1715495/</summary>
 </entry>
 <entry>
+<id>https://conferences.clicvia.com/conference/asplos-2027/</id>
+<title>ASPLOS 2027 — 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems</title>
+<link href="https://conferences.clicvia.com/conference/asplos-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>11–15 Apr 2027 · Heraklion, Greece · Deadline: see official website · Official: https://www.asplos-conference.org/</summary>
+</entry>
+<entry>
 <id>https://conferences.clicvia.com/conference/ghp2027/</id>
 <title>GHP2027 — 12th Workshop of the APS Topical Group on Hadronic Physics (GHP 2027)</title>
 <link href="https://conferences.clicvia.com/conference/ghp2027/"/>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/sca-hpcasia-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–19 Mar 2027 · Singapore, Singapore · Deadline: see official website · Official: https://www.sc-asia.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/connecting-theory-to-collider-data-in-the-era-of-2027/</id>
-<title>Connecting Theory to Collider Data in the Era of Precision Saturation Physics</title>
-<link href="https://conferences.clicvia.com/conference/connecting-theory-to-collider-data-in-the-era-of-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–19 Mar 2027 · CCNU, China · Deadline: see official website · Official: https://indico.global/event/18423/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/the-threshold-of-galaxy-formation-a-tinsley-2027/</id>
-<title>The Threshold of Galaxy Formation — A Tinsley Workshop</title>
-<link href="https://conferences.clicvia.com/conference/the-threshold-of-galaxy-formation-a-tinsley-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–10 Mar 2027 · New Haven, United States · Deadline: see official website · Official: https://tinsleyworkshop.yale.edu/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/24th-international-workshop-on-advanced-computing-2027/</id>
-<title>24th International Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT 2027)</title>
-<link href="https://conferences.clicvia.com/conference/24th-international-workshop-on-advanced-computing-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>5–10 Mar 2027 · Setagaya City, Japan · Deadline: see official website · Official: https://indico.cern.ch/e/acat2027</summary>
 </entry>
 </feed>
