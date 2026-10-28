@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-27 10:51",
- "derniere_lecture_reussie": "2026-10-27 10:51",
+ "mis_a_jour": "2026-10-28 11:38",
+ "derniere_lecture_reussie": "2026-10-28 11:38",
  "dernier_passage": {
-  "date": "2026-10-27 10:51",
+  "date": "2026-10-28 11:38",
   "reussi": true
  },
  "statut_source": {
@@ -16,8 +16,8 @@
   "ccfddl": {
    "etat": "ok",
    "nombre": 274,
-   "brutes": 2344,
-   "derniere_reussite": "2026-10-27 10:51",
+   "brutes": 2345,
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 19,
    "brutes": 155,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 128,
    "brutes": 151,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   },
@@ -73,13 +73,103 @@
    "etat": "ok",
    "nombre": 45,
    "brutes": 54,
-   "derniere_reussite": "2026-10-27 10:51",
+   "derniere_reussite": "2026-10-28 11:38",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 477,
+ "nombre": 478,
  "conferences": [
+  {
+   "id": "emnlp-2026",
+   "acronyme": "EMNLP",
+   "titre": "The annual Conference on Empirical Methods in Natural Language Processing",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-10-24",
+   "fin": "2026-10-29",
+   "ville": "Hungexpo",
+   "pays": "HU",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "langage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-05-25",
+     "type": "article",
+     "libelle": "Paper submission deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-05-27",
+     "type": "autre",
+     "libelle": "Reviewer registration deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-07-07",
+     "type": "autre",
+     "libelle": "Author response period start",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-07-13",
+     "type": "autre",
+     "libelle": "Author response period end",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-07-30",
+     "type": "autre",
+     "libelle": "Meta review release",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-02",
+     "type": "autre",
+     "libelle": "EMNLP commitment deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-20",
+     "type": "autre",
+     "libelle": "Author notification date",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-30",
+     "type": "autre",
+     "libelle": "Camera-ready deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://2026.emnlp.org/",
+   "rang": "CCF B · CORE A* · THCPL: A",
+   "sources": [
+    "hf"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
   {
    "id": "emnlp-industry-track-2026",
    "acronyme": "EMNLP (Industry Track)",
@@ -212,98 +302,6 @@
    "sources": [
     "ccfddl",
     "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "emnlp-2026",
-   "acronyme": "EMNLP",
-   "titre": "The annual Conference on Empirical Methods in Natural Language Processing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-25",
-   "fin": "2026-10-27",
-   "ville": "Budapest",
-   "pays": "HU",
-   "mode": "hybride",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-27",
-     "type": "autre",
-     "libelle": "Reviewer registration deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-07",
-     "type": "autre",
-     "libelle": "Author response period start",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-13",
-     "type": "autre",
-     "libelle": "Author response period end",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-30",
-     "type": "autre",
-     "libelle": "Meta review release",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-02",
-     "type": "article",
-     "libelle": "Commitment deadline for papers with ARR reviews and meta-reviews",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-08-02",
-     "type": "autre",
-     "libelle": "EMNLP commitment deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-20",
-     "type": "autre",
-     "libelle": "Author notification date",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-30",
-     "type": "autre",
-     "libelle": "Camera-ready deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2026.emnlp.org/",
-   "rang": "CORE A* · CCF B",
-   "sources": [
-    "ccfddl",
-    "hf"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -496,41 +494,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "icppa-2026",
-   "acronyme": "ICPPA-2026",
-   "titre": "8th International Conference on Particle Physics and Astrophysics",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-27",
-   "fin": "2026-10-30",
-   "ville": "Moscow",
-   "pays": "RU",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "instrumentation",
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.particle.mephi.ru/e/ICPPA2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3176456",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "iswc-2026",
    "acronyme": "ISWC",
    "titre": "International Semantic Web Conference",
@@ -622,40 +585,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "pacificspin-2026",
-   "acronyme": "PacificSPIN 2026",
-   "titre": "Pacific Spin 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-27",
-   "fin": "2026-10-30",
-   "ville": "Taipei",
-   "pays": "TW",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "nucleaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.phys.sinica.edu.tw/event/371/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3098989",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -7028,6 +6957,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "qat2027",
+   "acronyme": "QaT2027",
+   "titre": "Quarkonia As Tools 2027",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-03",
+   "fin": "2027-01-09",
+   "ville": "Aussois",
+   "pays": "FR",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "nucleaire"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/e/oniumtools2027",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3219208",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-28"
+  },
+  {
    "id": "14th-bangkok-workshop-on-high-energy-2027",
    "acronyme": "",
    "titre": "14th Bangkok Workshop on High Energy Theory",
@@ -8274,6 +8237,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "5th-workshop-on-ultra-high-frequency-2027",
+   "acronyme": "",
+   "titre": "5th Workshop on Ultra-high Frequency Gravitational Waves",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-02-08",
+   "fin": "2027-02-12",
+   "ville": "Barcelona",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.ifae.es/event/2660/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3219255",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-28"
+  },
+  {
    "id": "fc-2027",
    "acronyme": "FC",
    "titre": "Financial Cryptography and Data Security",
@@ -8557,7 +8554,7 @@
    "date_limite": "2026-11-17",
    "type_limite": "article",
    "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "fuseau_limite": "UTC-12",
    "dates_limites": [
     {
      "date": "2026-08-17",
@@ -8583,9 +8580,9 @@
     {
      "date": "2026-11-17",
      "type": "article",
-     "libelle": "Paper submission (short papers)",
+     "libelle": "Short Paper",
      "heure": "23:59",
-     "fuseau": "AoE"
+     "fuseau": "UTC-12"
     },
     {
      "date": "2026-12-18",
@@ -12548,22 +12545,15 @@
     "langage",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-12-23",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-12",
      "type": "article",
-     "libelle": "ARR Submission",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-12-23",
-     "type": "article",
-     "libelle": "COLING commitment after ARR meta-reviews; reviewed papers only",
+     "libelle": "Paper",
      "heure": "23:59",
      "fuseau": "UTC-12"
     }
@@ -13146,14 +13136,14 @@
     {
      "date": "2026-06-11",
      "type": "article",
-     "libelle": "first round",
+     "libelle": "first round; notification date is approximate",
      "heure": "17:00",
      "fuseau": "PT"
     },
     {
      "date": "2026-11-11",
      "type": "article",
-     "libelle": "second round",
+     "libelle": "second round; notification date is approximate",
      "heure": "17:00",
      "fuseau": "PT"
     }
@@ -14409,6 +14399,20 @@
      "date": "2026-11-16",
      "type": "article",
      "libelle": "Main Track; rebuttal/revision period: February 16-March 8, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-06",
+     "type": "resume",
+     "libelle": "Abstract · Industry Track; rebuttal period: February 15-26, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-13",
+     "type": "article",
+     "libelle": "Industry Track; rebuttal period: February 15-26, 2027",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -17315,11 +17319,26 @@
     "bioinformatique",
     "ia-apprentissage"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-18",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-18",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-25",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://gecco-2027.sigevo.org/HomePage",
    "rang": "CORE A · CCF C",
    "sources": [
@@ -19347,6 +19366,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "ijcb-2027",
+   "acronyme": "IJCB",
+   "titre": "International Joint Conference on Biometrics",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-13",
+   "fin": "2027-09-17",
+   "ville": "Foz do Iguaçu",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-04-10",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-04-10",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://ijcb2027.ieee-biometrics.org/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-28"
   },
   {
    "id": "quantum-gravity-2027",

@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-27T06:00:00Z</updated>
+<updated>2026-10-28T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ijcb-2027/</id>
+<title>IJCB 2027 — International Joint Conference on Biometrics</title>
+<link href="https://conferences.clicvia.com/conference/ijcb-2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>13–17 Sep 2027 · Foz do Iguaçu, Brazil · Deadline: 10 Apr 2027 · Official: https://ijcb2027.ieee-biometrics.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/</id>
+<title>5th Workshop on Ultra-high Frequency Gravitational Waves</title>
+<link href="https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>8–12 Feb 2027 · Barcelona, Spain · Deadline: see official website · Official: https://indico.ifae.es/event/2660/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qat2027/</id>
+<title>QaT2027 — Quarkonia As Tools 2027</title>
+<link href="https://conferences.clicvia.com/conference/qat2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>3–9 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/oniumtools2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/</id>
 <title>2027 Michigan Cosmology Summer School</title>
@@ -243,7 +264,7 @@
 <title>ISCA 2027 — International Symposium on Computer Architecture</title>
 <link href="https://conferences.clicvia.com/conference/isca-2027/"/>
 <updated>2026-10-13T06:00:00Z</updated>
-<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026 · Official: https://iscaconf.org/isca2027/</summary>
+<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026, 6 Dec 2026 · Official: https://iscaconf.org/isca2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ml4ps-2026/</id>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/spr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–16 Oct 2027 · Rotterdam, Netherlands · Deadline: see official website · Official: https://sprweb.org/futurepastmeetings/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ccs-2027/</id>
-<title>CCS 2027 — ACM Conference on Computer and Communications Security</title>
-<link href="https://conferences.clicvia.com/conference/ccs-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–15 Oct 2027 · Atlanta, United States · Deadline: see official website · Official: https://www.sigsac.org/ccs/CCS2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/oopsla-2027/</id>
-<title>OOPSLA 2027 — Conference on Object-Oriented Programming Systems, Languages, and Applications</title>
-<link href="https://conferences.clicvia.com/conference/oopsla-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>10–15 Oct 2027 · Prague, Czech Republic · Deadline: 14 Oct 2026, 7 Apr 2027 · Official: https://2027.splashcon.org/track/splashoopsla2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/6th-astro-colibri-multi-messenger-astrophysics-2027/</id>
-<title>6th Astro-COLIBRI Multi-Messenger Astrophysics workshop</title>
-<link href="https://conferences.clicvia.com/conference/6th-astro-colibri-multi-messenger-astrophysics-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>4–8 Oct 2027 · Paris-Saclay, France · Deadline: see official website · Official: https://multimessenger-astrophysics.com/</summary>
 </entry>
 </feed>

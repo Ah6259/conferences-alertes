@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-27T06:00:00Z</updated>
+<updated>2026-10-28T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ijcb-2027/</id>
+<title>IJCB 2027 — International Joint Conference on Biometrics</title>
+<link href="https://conferences.clicvia.com/conference/ijcb-2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>13–17 Sep 2027 · Foz do Iguaçu, Brazil · Deadline: 10 Apr 2027 · Official: https://ijcb2027.ieee-biometrics.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/acml-2026/</id>
 <title>ACML 2026 — Asian Conference on Machine Learning</title>
@@ -75,7 +82,7 @@
 <title>ISCA 2027 — International Symposium on Computer Architecture</title>
 <link href="https://conferences.clicvia.com/conference/isca-2027/"/>
 <updated>2026-10-13T06:00:00Z</updated>
-<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026 · Official: https://iscaconf.org/isca2027/</summary>
+<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026, 6 Dec 2026 · Official: https://iscaconf.org/isca2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/conext-2027/</id>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/cav-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–23 Jul 2027 · KIT, Netherlands · Deadline: 20 Jan 2027 · Official: https://conferences.i-cav.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ccc-2027/</id>
-<title>CCC 2027 — Computational Complexity Conference</title>
-<link href="https://conferences.clicvia.com/conference/ccc-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–22 Jul 2027 · Seattle, United States · Deadline: see official website · Official: https://computationalcomplexity.org/</summary>
 </entry>
 </feed>

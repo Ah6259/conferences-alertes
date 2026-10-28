@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-27T06:00:00Z</updated>
+<updated>2026-10-28T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/</id>
+<title>5th Workshop on Ultra-high Frequency Gravitational Waves</title>
+<link href="https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>8–12 Feb 2027 · Barcelona, Spain · Deadline: see official website · Official: https://indico.ifae.es/event/2660/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qat2027/</id>
+<title>QaT2027 — Quarkonia As Tools 2027</title>
+<link href="https://conferences.clicvia.com/conference/qat2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>3–9 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/oniumtools2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/33rd-cracow-epiphany-conference-advances-in-2027/</id>
 <title>33rd Cracow Epiphany Conference — Advances in precission calculations for the LHC</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/dsu-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–18 Dec 2026 · Bangkok, Thailand · Deadline: see official website · Official: https://indico.global/event/16194/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/nudm-2026/</id>
-<title>NuDM- 2026 — 4th International Conference on Neutrinos and Dark Matter</title>
-<link href="https://conferences.clicvia.com/conference/nudm-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>14–17 Dec 2026 · Aswan, Egypt · Deadline: see official website · Official: https://indico.cern.ch/event/1609263/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/4th-hot-qcd-matter-2026/</id>
-<title>4th Hot QCD Matter Conference</title>
-<link href="https://conferences.clicvia.com/conference/4th-hot-qcd-matter-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–15 Dec 2026 · IISER Tirupati, India · Deadline: see official website · Official: https://indico.global/event/18540/</summary>
 </entry>
 </feed>

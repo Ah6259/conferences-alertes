@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-astro.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-astro.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-27T06:00:00Z</updated>
+<updated>2026-10-28T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/</id>
+<title>5th Workshop on Ultra-high Frequency Gravitational Waves</title>
+<link href="https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>8–12 Feb 2027 · Barcelona, Spain · Deadline: see official website · Official: https://indico.ifae.es/event/2660/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/</id>
 <title>2027 Michigan Cosmology Summer School</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/kias-cosmology-wokshop-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–7 Nov 2026 · Seoul, South Korea · Deadline: see official website · Official: https://symposia.kias.re.kr/cosmology2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/testing-aspects-of-general-relativity-2026/</id>
-<title>Testing Aspects of General Relativity-V</title>
-<link href="https://conferences.clicvia.com/conference/testing-aspects-of-general-relativity-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>28–29 Oct 2026 · India · Deadline: see official website · Official: https://sites.google.com/iitgn.ac.in/testing-gr-5/home</summary>
 </entry>
 </feed>

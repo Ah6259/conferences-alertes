@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-27T06:00:00Z</updated>
+<updated>2026-10-28T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/</id>
+<title>5th Workshop on Ultra-high Frequency Gravitational Waves</title>
+<link href="https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>8–12 Feb 2027 · Barcelona, Spain · Deadline: see official website · Official: https://indico.ifae.es/event/2660/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qat2027/</id>
+<title>QaT2027 — Quarkonia As Tools 2027</title>
+<link href="https://conferences.clicvia.com/conference/qat2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>3–9 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/oniumtools2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/2027-michigan-cosmology-summer/</id>
 <title>2027 Michigan Cosmology Summer School</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/bayesian-inference-for-heavy-ion-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–19 Mar 2027 · Seoul, South Korea · Deadline: see official website · Official: https://indico.cern.ch/event/1700990/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/aes-2027/</id>
-<title>AES 2027 — 13th International Conference on Antennas &amp; Electromagnetic Systems</title>
-<link href="https://conferences.clicvia.com/conference/aes-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>16–19 Mar 2027 · Athens, Greece · Deadline: see official website · Official: https://aesconference.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sca-hpcasia-2027/</id>
-<title>SCA/HPCAsia 2027 — Supercomputing Asia and International Conference on High Performance Computing in Asia Pacific Region Workshops 2027</title>
-<link href="https://conferences.clicvia.com/conference/sca-hpcasia-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>15–19 Mar 2027 · Singapore, Singapore · Deadline: see official website · Official: https://www.sc-asia.org/</summary>
 </entry>
 </feed>

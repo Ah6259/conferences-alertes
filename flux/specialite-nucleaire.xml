@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-nucleaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-nucleaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-27T06:00:00Z</updated>
+<updated>2026-10-28T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qat2027/</id>
+<title>QaT2027 — Quarkonia As Tools 2027</title>
+<link href="https://conferences.clicvia.com/conference/qat2027/"/>
+<updated>2026-10-28T06:00:00Z</updated>
+<summary>3–9 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/oniumtools2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/tools4onium-2027/</id>
 <title>Tools4Onium 2027 — Workshop on Tools for Quarkonia</title>
@@ -160,12 +167,5 @@
 <link href="https://conferences.clicvia.com/conference/quark-gluon-dynamics-in-the-nuclear-medium-an-ect-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–13 Nov 2026 · Trento, Italy · Deadline: see official website · Official: https://www.ectstar.eu/workshops/quark-gluon-dynamics-in-the-nuclear-medium/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/pacificspin-2026/</id>
-<title>PacificSPIN 2026 — Pacific Spin 2026</title>
-<link href="https://conferences.clicvia.com/conference/pacificspin-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>27–30 Oct 2026 · Taipei, Taiwan · Deadline: see official website · Official: https://indico.phys.sinica.edu.tw/event/371/</summary>
 </entry>
 </feed>
