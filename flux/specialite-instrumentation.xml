@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-instrumentation.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-instrumentation.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-28T06:00:00Z</updated>
+<updated>2026-10-29T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -125,12 +125,5 @@
 <link href="https://conferences.clicvia.com/conference/ieee-photonics-conference-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Nov 2026 · Denver, United States · Deadline: see official website · Official: https://ieee-ipc.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/nnn26-2026/</id>
-<title>NNN26 2026 — 25th International Workshop on Next Generation Nucleon Decay and Neutrino Detectors</title>
-<link href="https://conferences.clicvia.com/conference/nnn26-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>28–30 Oct 2026 · Seoul, South Korea · Deadline: see official website · Official: https://indico.neutrino.or.kr/event/514/</summary>
 </entry>
 </feed>

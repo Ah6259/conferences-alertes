@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-28 11:38",
- "derniere_lecture_reussie": "2026-10-28 11:38",
+ "mis_a_jour": "2026-10-29 11:55",
+ "derniere_lecture_reussie": "2026-10-29 11:55",
  "dernier_passage": {
-  "date": "2026-10-28 11:38",
+  "date": "2026-10-29 11:55",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 274,
+   "nombre": 272,
    "brutes": 2345,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 25,
    "brutes": 127,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 19,
+   "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 128,
-   "brutes": 151,
-   "derniere_reussite": "2026-10-28 11:38",
+   "nombre": 126,
+   "brutes": 150,
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 45,
+   "nombre": 44,
    "brutes": 54,
-   "derniere_reussite": "2026-10-28 11:38",
+   "derniere_reussite": "2026-10-29 11:55",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 478,
+ "nombre": 473,
  "conferences": [
   {
    "id": "emnlp-2026",
@@ -260,89 +260,6 @@
    "rang": "CCF B · CORE A* · THCPL: A",
    "sources": [
     "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "assets-2026",
-   "acronyme": "ASSETS",
-   "titre": "ACM SIGACCESS Conference on Computers and Accessibility",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-25",
-   "fin": "2026-10-28",
-   "ville": "Porto",
-   "pays": "PT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-22",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://assets26.sigaccess.org/",
-   "rang": "CORE A · CCF C",
-   "sources": [
-    "ccfddl",
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ica3pp-2026",
-   "acronyme": "ICA3PP",
-   "titre": "International Conference on Algorithms and Architectures for Parallel Processing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-26",
-   "fin": "2026-10-28",
-   "ville": "Exeter",
-   "pays": "GB",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-25",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://hpcn.exeter.ac.uk/ica3pp2026/",
-   "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -590,39 +507,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "ifn-pakistan-2026",
-   "acronyme": "IFN Pakistan 2026",
-   "titre": "IFN Pakistan Forum 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-28",
-   "fin": "2026-10-28",
-   "ville": "Karachi",
-   "pays": "PK",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "banque-islamique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://redmoneyevents.com/event/ifnpakistan2026/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://redmoneyevents.com/event/ifnpakistan2026/",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "isc-2026",
    "acronyme": "ISC",
    "titre": "Information Security Conference",
@@ -659,74 +543,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "nnn26-2026",
-   "acronyme": "NNN26",
-   "titre": "25th International Workshop on Next Generation Nucleon Decay and Neutrino Detectors",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-10-28",
-   "fin": "2026-10-30",
-   "ville": "Seoul",
-   "pays": "KR",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "instrumentation"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.neutrino.or.kr/event/514/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3178676",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "testing-aspects-of-general-relativity-2026",
-   "acronyme": "",
-   "titre": "Testing Aspects of General Relativity-V",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-28",
-   "fin": "2026-10-29",
-   "ville": "",
-   "pays": "IN",
-   "mode": "en-ligne",
-   "continent": "en-ligne",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://sites.google.com/iitgn.ac.in/testing-gr-5/home",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3210071",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -11813,16 +11629,16 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-18",
+   "date_limite": "2026-11-19",
    "type_limite": "article",
-   "heure_limite": "23:59",
+   "heure_limite": "03:59",
    "fuseau_limite": "UTC-8",
    "dates_limites": [
     {
-     "date": "2026-11-18",
+     "date": "2026-11-19",
      "type": "article",
      "libelle": "Paper",
-     "heure": "23:59",
+     "heure": "03:59",
      "fuseau": "UTC-8"
     }
    ],
@@ -12496,8 +12312,8 @@
    "specialites": [
     "neurosciences"
    ],
-   "date_limite": "2026-10-28",
-   "type_limite": "resume",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -13252,8 +13068,8 @@
     "bioinformatique",
     "info-interdisciplinaire"
    ],
-   "date_limite": "2026-10-28",
-   "type_limite": "resume",
+   "date_limite": "2026-11-04",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -13917,15 +13733,15 @@
    "specialites": [
     "ihm"
    ],
-   "date_limite": "2026-10-31",
+   "date_limite": "2026-11-30",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-10-31",
+     "date": "2026-11-30",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Paper submission due (extended)",
      "heure": "23:59",
      "fuseau": "AoE"
     }

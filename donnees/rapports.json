@@ -3,14 +3,13 @@
 "2026-10": {
 "chiffres": {
 "afrique": 2,
-"evenements": 53,
-"limites": 61,
-"limites_conferences": 47,
+"evenements": 51,
+"limites": 60,
+"limites_conferences": 46,
 "par_continent": {
 "afrique": 2,
 "amerique-nord": 11,
-"asie": 16,
-"en-ligne": 1,
+"asie": 15,
 "europe": 23
 },
 "par_domaine": {
@@ -18,13 +17,11 @@
 "finance": 1,
 "finance-islamique": 5,
 "informatique": 39,
-"physique": 2,
 "vie-sante": 2
 },
 "par_mode": {
-"en-ligne": 1,
 "hybride": 1,
-"presentiel": 51
+"presentiel": 50
 },
 "par_pays": {
 "BH": 1,
@@ -39,7 +36,6 @@
 "ID": 2,
 "IT": 4,
 "JP": 1,
-"KR": 1,
 "NL": 1,
 "PK": 1,
 "PT": 2,
@@ -52,7 +48,6 @@
 },
 "par_specialite": {
 "aaoifi-charia": 2,
-"astro": 1,
 "banque-islamique": 2,
 "bioinformatique": 2,
 "compta-financiere": 1,
@@ -66,19 +61,17 @@
 "ia-apprentissage": 1,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 1,
 "langage": 5,
-"particules": 2,
 "reseaux": 4,
 "securite": 5,
 "systemes": 6,
 "zakat-waqf": 1
 },
 "par_type": {
-"atelier": 2,
-"conference": 51
+"atelier": 1,
+"conference": 50
 },
-"pays": 22,
+"pays": 21,
 "themes_site": 11,
 "tunisie": 1
 },
@@ -1124,50 +1117,6 @@
 "ville": "Rennes"
 },
 {
-"acronyme": "NNN26",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-10-28",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-30",
-"id": "nnn26-2026",
-"lien": "https://indico.neutrino.or.kr/event/514/",
-"limites": [],
-"mode": "presentiel",
-"pays": "KR",
-"specialites": [
-"particules",
-"instrumentation"
-],
-"titre": "25th International Workshop on Next Generation Nucleon Decay and Neutrino Detectors",
-"type": "atelier",
-"ville": "Seoul"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "en-ligne",
-"debut": "2026-10-28",
-"domaines": [
-"physique"
-],
-"fin": "2026-10-29",
-"id": "testing-aspects-of-general-relativity-2026",
-"lien": "https://sites.google.com/iitgn.ac.in/testing-gr-5/home",
-"limites": [],
-"mode": "en-ligne",
-"pays": "IN",
-"specialites": [
-"particules",
-"astro"
-],
-"titre": "Testing Aspects of General Relativity-V",
-"type": "conference",
-"ville": ""
-},
-{
 "acronyme": "HPCC",
 "annee": 2026,
 "continent": "asie",
@@ -2098,32 +2047,6 @@
 "ville": "Boulder"
 },
 {
-"acronyme": "CSCWD",
-"annee": 2027,
-"continent": "oceanie",
-"debut": "2027-05-26",
-"domaines": [
-"informatique"
-],
-"fin": "2027-05-28",
-"id": "cscwd-2027",
-"lien": "https://2027.cscwd.org",
-"limites": [
-{
-"date": "2026-10-31",
-"type": "article"
-}
-],
-"mode": "presentiel",
-"pays": "AU",
-"specialites": [
-"ihm"
-],
-"titre": "International Conference on Computer Supported Cooperative Work in Design",
-"type": "conference",
-"ville": "Brisbane"
-},
-{
 "acronyme": "ICC",
 "annee": 2027,
 "continent": "amerique-nord",
@@ -2475,7 +2398,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-28",
+"derniere_date": "2026-10-29",
 "fini": false,
 "premier_jour": "2026-10-09"
 }
