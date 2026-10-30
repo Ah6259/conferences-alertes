@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-nucleaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-nucleaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-29T06:00:00Z</updated>
+<updated>2026-10-30T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/</id>
+<title>QIHEP 2027 — Quantum Information &amp; High Energy Physics</title>
+<link href="https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/"/>
+<updated>2026-10-30T06:00:00Z</updated>
+<summary>6–10 Jun 2027 · Evanston, United States · Deadline: see official website · Official: https://events.cels.anl.gov/event/961/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/qat2027/</id>
 <title>QaT2027 — Quarkonia As Tools 2027</title>

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-langage.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-langage.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-29T06:00:00Z</updated>
+<updated>2026-10-30T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -62,26 +62,5 @@
 <link href="https://conferences.clicvia.com/conference/nlpcc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–5 Nov 2026 · Macau, China · Deadline: 20 Jun 2026 · Official: https://tcci.ccf.org.cn/conference/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/emnlp-2026/</id>
-<title>EMNLP 2026 — The annual Conference on Empirical Methods in Natural Language Processing</title>
-<link href="https://conferences.clicvia.com/conference/emnlp-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>24–29 Oct 2026 · Hungexpo, Hungary · Deadline: 25 May 2026 · Official: https://2026.emnlp.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/emnlp-industry-track-2026/</id>
-<title>EMNLP (Industry Track) 2026 — The annual Conference on Empirical Methods in Natural Language Processing (Industry Track)</title>
-<link href="https://conferences.clicvia.com/conference/emnlp-industry-track-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>24–29 Oct 2026 · HUNGEXPO Budapest Congress &amp; Exhibition Center, Hungary · Deadline: see official website · Official: https://2026.emnlp.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/emnlp-system-demonstrations-track-2026/</id>
-<title>EMNLP (System Demonstrations Track) 2026 — The annual Conference on Empirical Methods in Natural Language Processing (System Demonstrations Track)</title>
-<link href="https://conferences.clicvia.com/conference/emnlp-system-demonstrations-track-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>24–29 Oct 2026 · HUNGEXPO Budapest Congress &amp; Exhibition Center, Hungary · Deadline: 10 Jul 2026 · Official: https://2026.emnlp.org/</summary>
 </entry>
 </feed>

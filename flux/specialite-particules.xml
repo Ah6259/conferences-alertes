@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-29T06:00:00Z</updated>
+<updated>2026-10-30T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/</id>
+<title>QIHEP 2027 — Quantum Information &amp; High Energy Physics</title>
+<link href="https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/"/>
+<updated>2026-10-30T06:00:00Z</updated>
+<summary>6–10 Jun 2027 · Evanston, United States · Deadline: see official website · Official: https://events.cels.anl.gov/event/961/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/</id>
 <title>5th Workshop on Ultra-high Frequency Gravitational Waves</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/ai4eic-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>15–18 Dec 2026 · Durham, United States · Deadline: see official website · Official: https://indico.bnl.gov/event/33532/overview</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/dsu-2026/</id>
-<title>DSU 2026 — Dark Side of the Universe 2026</title>
-<link href="https://conferences.clicvia.com/conference/dsu-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>14–18 Dec 2026 · Bangkok, Thailand · Deadline: see official website · Official: https://indico.global/event/16194/</summary>
 </entry>
 </feed>

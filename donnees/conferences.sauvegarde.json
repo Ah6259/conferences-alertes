@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-29 11:55",
- "derniere_lecture_reussie": "2026-10-29 11:55",
+ "mis_a_jour": "2026-10-30 11:53",
+ "derniere_lecture_reussie": "2026-10-30 11:53",
  "dernier_passage": {
-  "date": "2026-10-29 11:55",
+  "date": "2026-10-30 11:53",
   "reussi": true
  },
  "statut_source": {
@@ -15,17 +15,17 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 272,
+   "nombre": 269,
    "brutes": 2345,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 25,
+   "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
@@ -57,311 +57,29 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 126,
-   "brutes": 150,
-   "derniere_reussite": "2026-10-29 11:55",
+   "nombre": 127,
+   "brutes": 151,
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 44,
+   "nombre": 43,
    "brutes": 54,
-   "derniere_reussite": "2026-10-29 11:55",
+   "derniere_reussite": "2026-10-30 11:53",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 473,
+ "nombre": 467,
  "conferences": [
-  {
-   "id": "emnlp-2026",
-   "acronyme": "EMNLP",
-   "titre": "The annual Conference on Empirical Methods in Natural Language Processing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-24",
-   "fin": "2026-10-29",
-   "ville": "Hungexpo",
-   "pays": "HU",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-25",
-     "type": "article",
-     "libelle": "Paper submission deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-27",
-     "type": "autre",
-     "libelle": "Reviewer registration deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-07",
-     "type": "autre",
-     "libelle": "Author response period start",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-13",
-     "type": "autre",
-     "libelle": "Author response period end",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-30",
-     "type": "autre",
-     "libelle": "Meta review release",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-02",
-     "type": "autre",
-     "libelle": "EMNLP commitment deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-20",
-     "type": "autre",
-     "libelle": "Author notification date",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-30",
-     "type": "autre",
-     "libelle": "Camera-ready deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2026.emnlp.org/",
-   "rang": "CCF B · CORE A* · THCPL: A",
-   "sources": [
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "emnlp-industry-track-2026",
-   "acronyme": "EMNLP (Industry Track)",
-   "titre": "The annual Conference on Empirical Methods in Natural Language Processing (Industry Track)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-24",
-   "fin": "2026-10-29",
-   "ville": "HUNGEXPO Budapest Congress & Exhibition Center",
-   "pays": "HU",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-30",
-     "type": "autre",
-     "libelle": "Camera-ready deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2026.emnlp.org/",
-   "rang": "CCF B · CORE A* · THCPL: A",
-   "sources": [
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "emnlp-system-demonstrations-track-2026",
-   "acronyme": "EMNLP (System Demonstrations Track)",
-   "titre": "The annual Conference on Empirical Methods in Natural Language Processing (System Demonstrations Track)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-24",
-   "fin": "2026-10-29",
-   "ville": "HUNGEXPO Budapest Congress & Exhibition Center",
-   "pays": "HU",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-10",
-     "type": "article",
-     "libelle": "Paper submission deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-22",
-     "type": "autre",
-     "libelle": "Notification of acceptance",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-30",
-     "type": "autre",
-     "libelle": "Camera-ready submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2026.emnlp.org/",
-   "rang": "CCF B · CORE A* · THCPL: A",
-   "sources": [
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "mobicom-2026",
-   "acronyme": "MobiCom",
-   "titre": "ACM Annual International Conference On Mobile Computing And Networking",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-26",
-   "fin": "2026-10-29",
-   "ville": "Austin",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-08-27",
-     "type": "resume",
-     "libelle": "Abstract · Summer Deadlines",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2025-09-03",
-     "type": "article",
-     "libelle": "Summer Deadlines",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-06",
-     "type": "resume",
-     "libelle": "Abstract · Winter Deadlines",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-13",
-     "type": "article",
-     "libelle": "Winter Deadlines",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://sigmobile.org/mobicom/2026/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "fifc-2026",
-   "acronyme": "FIFC 2026",
-   "titre": "14th Foundation of Islamic Finance Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-27",
-   "fin": "2026-10-29",
-   "ville": "Cape Town",
-   "pays": "ZA",
-   "mode": "presentiel",
-   "continent": "afrique",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "economie-islamique",
-    "aaoifi-charia"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://fifcsa.co.za/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.uwc.ac.za/news-and-announcements/events/important-conference-update-14th-foundation-of-islamic-finance-conference-fifc-2026",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "icics-2026",
    "acronyme": "ICICS",
@@ -402,102 +120,6 @@
    ],
    "lien": "https://sulab-sever.u-aizu.ac.jp/icics2026/cfp.html",
    "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iswc-2026",
-   "acronyme": "ISWC",
-   "titre": "International Semantic Web Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-27",
-   "fin": "2026-10-29",
-   "ville": "Bari",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-02",
-     "type": "resume",
-     "libelle": "Abstract · ESWC resubmissions must be committed by April 11, 2026",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-07",
-     "type": "article",
-     "libelle": "ESWC resubmissions must be committed by April 11, 2026",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://iswc2026.semanticweb.org/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "mswim-2026",
-   "acronyme": "MSWiM",
-   "titre": "International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-27",
-   "fin": "2026-10-29",
-   "ville": "Paris",
-   "pays": "FR",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-14",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-15",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://mswimconf.com/2026/",
-   "rang": "CORE A · CCF C",
    "sources": [
     "ccfddl"
    ],
@@ -10248,13 +9870,13 @@
     "bioinformatique",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-01",
+   "date_limite": "2026-11-16",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-01",
+     "date": "2026-11-16",
      "type": "article",
      "libelle": "Full papers",
      "heure": "23:59",
@@ -10289,13 +9911,13 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-01",
+   "date_limite": "2026-11-16",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-01",
+     "date": "2026-11-16",
      "type": "article",
      "libelle": "Full papers",
      "heure": "23:59",
@@ -10330,13 +9952,13 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-01",
+   "date_limite": "2026-11-16",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-01",
+     "date": "2026-11-16",
      "type": "article",
      "libelle": "Full papers",
      "heure": "23:59",
@@ -10375,14 +9997,14 @@
    "date_limite": "2026-11-01",
    "type_limite": "article",
    "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "fuseau_limite": "UTC-12",
    "dates_limites": [
     {
      "date": "2026-11-01",
      "type": "article",
-     "libelle": "Full papers",
+     "libelle": "Paper",
      "heure": "23:59",
-     "fuseau": "AoE"
+     "fuseau": "UTC-12"
     },
     {
      "date": "2026-11-01",
@@ -10390,6 +10012,13 @@
      "libelle": "Abstract",
      "heure": "23:59",
      "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-11-16",
+     "type": "article",
+     "libelle": "Full papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
     }
    ],
    "lien": "https://www.evostar.org/2027/evomusart/",
@@ -11670,8 +11299,8 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-10-29",
-   "type_limite": "resume",
+   "date_limite": "2026-11-05",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -12896,8 +12525,8 @@
    "specialites": [
     "theorie"
    ],
-   "date_limite": "2026-10-29",
-   "type_limite": "resume",
+   "date_limite": "2026-11-05",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -13124,7 +12753,7 @@
     {
      "date": "2026-11-05",
      "type": "article",
-     "libelle": "Submission Deadline (Firm)",
+     "libelle": "Submission Deadline (Firm); Author notification date is tentative.",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -13219,8 +12848,8 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-10-29",
-   "type_limite": "resume",
+   "date_limite": "2026-11-05",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -14386,6 +14015,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "qihep-2027-quantum-information-high-energy",
+   "acronyme": "",
+   "titre": "QIHEP 2027 — Quantum Information & High Energy Physics",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-06",
+   "fin": "2027-06-10",
+   "ville": "Evanston",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "nucleaire",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://events.cels.anl.gov/event/961/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3219981",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-30"
   },
   {
    "id": "stoc-2027",
@@ -16785,13 +16449,13 @@
    "specialites": [
     "info-interdisciplinaire"
    ],
-   "date_limite": "2026-12-01",
+   "date_limite": "2026-11-01",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-10-01",
+     "date": "2026-11-01",
      "type": "article",
      "libelle": "Round 1",
      "heure": "23:59",

@@ -4,8 +4,8 @@
 "chiffres": {
 "afrique": 2,
 "evenements": 51,
-"limites": 60,
-"limites_conferences": 46,
+"limites": 59,
+"limites_conferences": 45,
 "par_continent": {
 "afrique": 2,
 "amerique-nord": 11,
@@ -2242,32 +2242,6 @@
 "ville": "Bellevue"
 },
 {
-"acronyme": "SAI",
-"annee": 2027,
-"continent": "europe",
-"debut": "2027-07-08",
-"domaines": [
-"informatique"
-],
-"fin": "2027-07-09",
-"id": "sai-2027",
-"lien": "https://saiconference.com/Computing",
-"limites": [
-{
-"date": "2026-10-01",
-"type": "article"
-}
-],
-"mode": "presentiel",
-"pays": "GB",
-"specialites": [
-"info-interdisciplinaire"
-],
-"titre": "Computing Conference (SAI)",
-"type": "conference",
-"ville": "London"
-},
-{
 "acronyme": "FSE",
 "annee": 2027,
 "continent": "asie",
@@ -2398,7 +2372,7 @@
 "ville": "Prague"
 }
 ],
-"derniere_date": "2026-10-29",
+"derniere_date": "2026-10-30",
 "fini": false,
 "premier_jour": "2026-10-09"
 }
