@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-10-30 11:53",
- "derniere_lecture_reussie": "2026-10-30 11:53",
+ "mis_a_jour": "2026-10-31 11:26",
+ "derniere_lecture_reussie": "2026-10-31 11:26",
  "dernier_passage": {
-  "date": "2026-10-30 11:53",
+  "date": "2026-10-31 11:26",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 269,
-   "brutes": 2345,
-   "derniere_reussite": "2026-10-30 11:53",
+   "nombre": 268,
+   "brutes": 2346,
+   "derniere_reussite": "2026-10-31 11:25",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:25",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:26",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:26",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:26",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:26",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 127,
    "brutes": 151,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:26",
    "raison": "",
    "depuis": ""
   },
@@ -73,102 +73,13 @@
    "etat": "ok",
    "nombre": 43,
    "brutes": 54,
-   "derniere_reussite": "2026-10-30 11:53",
+   "derniere_reussite": "2026-10-31 11:26",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 467,
+ "nombre": 466,
  "conferences": [
-  {
-   "id": "icics-2026",
-   "acronyme": "ICICS",
-   "titre": "International Conference on Information and Communications Security",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-27",
-   "fin": "2026-10-30",
-   "ville": "Fukui",
-   "pays": "JP",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-12",
-     "type": "article",
-     "libelle": "First round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-01",
-     "type": "article",
-     "libelle": "Second round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://sulab-sever.u-aizu.ac.jp/icics2026/cfp.html",
-   "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "isc-2026",
-   "acronyme": "ISC",
-   "titre": "Information Security Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-28",
-   "fin": "2026-10-30",
-   "ville": "Rennes",
-   "pays": "FR",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-02",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://isc2026.github.io/",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "hpcc-2026",
    "acronyme": "HPCC",
@@ -13485,10 +13396,10 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-10-30",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-7",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-30",
@@ -15155,10 +15066,10 @@
    "specialites": [
     "info-interdisciplinaire"
    ],
-   "date_limite": "2026-10-30",
-   "type_limite": "article",
-   "heure_limite": "20:00",
-   "fuseau_limite": "UTC",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-30",
@@ -17347,7 +17258,7 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-10-30",
+   "date_limite": "2027-02-12",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
@@ -19830,6 +19741,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "cscw-2027",
+   "acronyme": "CSCW",
+   "titre": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-16",
+   "fin": "2027-10-20",
+   "ville": "Philadelphia",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ihm"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://cscw.acm.org/2027/",
+   "rang": "CORE A · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-31"
   },
   {
    "id": "fm-2027",

@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-30T06:00:00Z</updated>
+<updated>2026-10-31T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/cscw-2027/</id>
+<title>CSCW 2027 — ACM Conference on Computer Supported Cooperative Work and Social Computing</title>
+<link href="https://conferences.clicvia.com/conference/cscw-2027/"/>
+<updated>2026-10-31T06:00:00Z</updated>
+<summary>16–20 Oct 2027 · Philadelphia, United States · Deadline: see official website · Official: https://cscw.acm.org/2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ijcb-2027/</id>
 <title>IJCB 2027 — International Joint Conference on Biometrics</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/ieee-cec-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 28 Feb 2027 · Official: https://ieeecec.org/2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/cav-2027/</id>
-<title>CAV 2027 — International Conference on Computer-Aided Verification</title>
-<link href="https://conferences.clicvia.com/conference/cav-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–23 Jul 2027 · KIT, Netherlands · Deadline: 20 Jan 2027 · Official: https://conferences.i-cav.org/2027/</summary>
 </entry>
 </feed>
