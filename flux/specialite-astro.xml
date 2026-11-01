@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-astro.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-astro.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-31T06:00:00Z</updated>
+<updated>2026-11-01T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ggi-phd-school-on-theoretical-aspects-of-2027/</id>
+<title>GGI PhD School on Theoretical Aspects of Astroparticle Physics, Cosmology and Gravitation 2027 — TAPCG2027</title>
+<link href="https://conferences.clicvia.com/conference/ggi-phd-school-on-theoretical-aspects-of-2027/"/>
+<updated>2026-11-01T06:00:00Z</updated>
+<summary>1–12 Mar 2027 · Florence, Italy · Deadline: see official website · Official: https://agenda.infn.it/event/54324</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/5th-workshop-on-ultra-high-frequency-2027/</id>
 <title>5th Workshop on Ultra-high Frequency Gravitational Waves</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/third-lsst-latam-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–6 Nov 2026 · São Paulo, Brazil · Deadline: see official website · Official: https://www.ictp-saifr.org/3lsstlatamm2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/kias-cosmology-wokshop-2026/</id>
-<title>KIAS Cosmology Wokshop 2026 — 12th KIAS Workshop on Cosmology and Structure Formation</title>
-<link href="https://conferences.clicvia.com/conference/kias-cosmology-wokshop-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>1–7 Nov 2026 · Seoul, South Korea · Deadline: see official website · Official: https://symposia.kias.re.kr/cosmology2026</summary>
 </entry>
 </feed>

@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-10-31T06:00:00Z</updated>
+<updated>2026-11-01T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ggi-phd-school-on-theoretical-aspects-of-2027/</id>
+<title>GGI PhD School on Theoretical Aspects of Astroparticle Physics, Cosmology and Gravitation 2027 — TAPCG2027</title>
+<link href="https://conferences.clicvia.com/conference/ggi-phd-school-on-theoretical-aspects-of-2027/"/>
+<updated>2026-11-01T06:00:00Z</updated>
+<summary>1–12 Mar 2027 · Florence, Italy · Deadline: see official website · Official: https://agenda.infn.it/event/54324</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/</id>
 <title>QIHEP 2027 — Quantum Information &amp; High Energy Physics</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/xix-black-holes-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>17–18 Dec 2026 · Braga, Portugal · Deadline: see official website · Official: https://indico.lip.pt/event/2241/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ai4eic-2026/</id>
-<title>AI4EIC 2026 — Artificial Intelligence for the Electron Ion Collider (AI4EIC) 2026</title>
-<link href="https://conferences.clicvia.com/conference/ai4eic-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>15–18 Dec 2026 · Durham, United States · Deadline: see official website · Official: https://indico.bnl.gov/event/33532/overview</summary>
 </entry>
 </feed>

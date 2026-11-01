@@ -2373,8 +2373,3164 @@
 }
 ],
 "derniere_date": "2026-10-31",
-"fini": false,
+"fini": true,
 "premier_jour": "2026-10-09"
+},
+"2026-11": {
+"chiffres": {
+"afrique": 1,
+"evenements": 80,
+"limites": 63,
+"limites_conferences": 50,
+"par_continent": {
+"afrique": 1,
+"amerique-nord": 16,
+"amerique-sud": 4,
+"asie": 32,
+"europe": 23,
+"oceanie": 4
+},
+"par_domaine": {
+"comptabilite": 3,
+"finance": 1,
+"finance-islamique": 5,
+"informatique": 43,
+"ingenierie": 1,
+"physique": 27,
+"vie-sante": 1
+},
+"par_mode": {
+"hybride": 1,
+"presentiel": 79
+},
+"par_pays": {
+"AU": 4,
+"BE": 1,
+"BR": 3,
+"CH": 1,
+"CN": 15,
+"CO": 1,
+"DE": 1,
+"FR": 1,
+"GB": 3,
+"GR": 1,
+"HK": 1,
+"HU": 1,
+"IN": 2,
+"IT": 11,
+"JP": 4,
+"KR": 2,
+"KW": 1,
+"NL": 1,
+"OM": 1,
+"QA": 1,
+"RU": 1,
+"SA": 1,
+"SG": 2,
+"SK": 1,
+"TH": 1,
+"TR": 1,
+"US": 16,
+"ZA": 1
+},
+"par_specialite": {
+"astro": 13,
+"banque-islamique": 3,
+"bioinformatique": 1,
+"calcul-physique": 2,
+"compta-generale": 2,
+"compta-gestion": 1,
+"donnees": 5,
+"economie-islamique": 2,
+"fintech": 1,
+"genie-logiciel": 2,
+"graphisme": 4,
+"ia-apprentissage": 11,
+"ihm": 8,
+"info-interdisciplinaire": 2,
+"instrumentation": 4,
+"langage": 2,
+"matiere-condensee": 1,
+"medecine": 1,
+"nucleaire": 3,
+"particules": 11,
+"physique-generale": 2,
+"physique-theorique": 2,
+"quantique": 7,
+"reseaux": 2,
+"robotique": 1,
+"securite": 3,
+"sukuk": 1,
+"systemes": 8,
+"theorie": 1,
+"vision": 2
+},
+"par_type": {
+"atelier": 9,
+"conference": 67,
+"ecole": 4
+},
+"pays": 28,
+"themes_site": 9,
+"tunisie": 0
+},
+"conferences": [
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-01",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-04",
+"id": "2026-asia-communications-and-photonics",
+"lien": "https://acpconf.com/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"physique-generale",
+"quantique"
+],
+"titre": "2026 Asia Communications and Photonics Conference",
+"type": "conference",
+"ville": "Hangzhou"
+},
+{
+"acronyme": "KIAS Cosmology Wokshop 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-01",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-07",
+"id": "kias-cosmology-wokshop-2026",
+"lien": "https://symposia.kias.re.kr/cosmology2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "KR",
+"specialites": [
+"astro",
+"calcul-physique"
+],
+"titre": "12th KIAS Workshop on Cosmology and Structure Formation",
+"type": "atelier",
+"ville": "Seoul"
+},
+{
+"acronyme": "VINCI",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-01",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-04",
+"id": "vinci-2026",
+"lien": "https://vinci-symp.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"graphisme"
+],
+"titre": "International Symposium on Visual Information Communication and Interaction",
+"type": "conference",
+"ville": "Hangzhou"
+},
+{
+"acronyme": "WISE",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-01",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-05",
+"id": "wise-2026",
+"lien": "https://conferences.sigappfr.org/wise2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"donnees"
+],
+"titre": "International Conference on Web Information Systems Engineering",
+"type": "conference",
+"ville": "Venice"
+},
+{
+"acronyme": "ICTAI",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-02",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-04",
+"id": "ictai-2026",
+"lien": "https://ictai.computer.org/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "International Conference on Tools with Artificial Intellignce",
+"type": "conference",
+"ville": "Boca Raton FL"
+},
+{
+"acronyme": "IISFC 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-02",
+"domaines": [
+"finance-islamique"
+],
+"fin": "2026-11-03",
+"id": "iisfc-2026",
+"lien": "https://www.iisfc2026.com/",
+"limites": [],
+"mode": "presentiel",
+"pays": "OM",
+"specialites": [
+"economie-islamique",
+"sukuk"
+],
+"titre": "International Islamic and Sustainable Finance Conference (Muscat University & Rennes School of Business)",
+"type": "ecole",
+"ville": "Muscat"
+},
+{
+"acronyme": "MICRO",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-02",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-04",
+"id": "micro-2026",
+"lien": "https://microarch.org/micro59/",
+"limites": [],
+"mode": "presentiel",
+"pays": "GR",
+"specialites": [
+"systemes"
+],
+"titre": "IEEE/ACM International Symposium on Microarchitecture",
+"type": "conference",
+"ville": "Athens"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "amerique-sud",
+"debut": "2026-11-02",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-06",
+"id": "third-lsst-latam-2026",
+"lien": "https://www.ictp-saifr.org/3lsstlatamm2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "BR",
+"specialites": [
+"astro"
+],
+"titre": "Third LSST@LATAM Meeting",
+"type": "conference",
+"ville": "São Paulo"
+},
+{
+"acronyme": "UIST",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-02",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-05",
+"id": "uist-2026",
+"lien": "https://uist.acm.org/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"ihm"
+],
+"titre": "ACM Symposium on User Interface Software and Technology",
+"type": "conference",
+"ville": "GM Renaissance Center"
+},
+{
+"acronyme": "Performance",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-03",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-05",
+"id": "performance-2026",
+"lien": "https://performance2026.github.io/call/",
+"limites": [],
+"mode": "presentiel",
+"pays": "BE",
+"specialites": [
+"systemes"
+],
+"titre": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
+"type": "conference",
+"ville": "Ghent"
+},
+{
+"acronyme": "SIGSPATIAL",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-03",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-06",
+"id": "sigspatial-2026",
+"lien": "https://sigspatial2026.sigspatial.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"info-interdisciplinaire"
+],
+"titre": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
+"type": "conference",
+"ville": "Riverside"
+},
+{
+"acronyme": "NLPCC",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-04",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-05",
+"id": "nlpcc-2026",
+"lien": "https://tcci.ccf.org.cn/conference/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"langage",
+"ia-apprentissage"
+],
+"titre": "CCF International Conference on Natural Language Processing and Chinese Computing",
+"type": "conference",
+"ville": "Macau"
+},
+{
+"acronyme": "MARG 2026",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-05",
+"domaines": [
+"comptabilite"
+],
+"fin": "2026-11-06",
+"id": "marg-2026",
+"lien": "https://www.conftool.com/marg2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "GB",
+"specialites": [
+"compta-gestion"
+],
+"titre": "Management Accounting Research Group (MARG) Conference",
+"type": "conference",
+"ville": "Birmingham"
+},
+{
+"acronyme": "NCMMSC",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-05",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-08",
+"id": "ncmmsc-2026",
+"lien": "https://www.ncmmsc.org.cn/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"graphisme"
+],
+"titre": "National Conference on Man-Machine Speech Communication",
+"type": "conference",
+"ville": "Hengqin"
+},
+{
+"acronyme": "BRICS-AGAC Symposium 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-06",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-10",
+"id": "brics-agac-symposium-2026",
+"lien": "https://indico.itp.ac.cn/event/417/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"astro"
+],
+"titre": "The 6th Symposium of the BRICS Association on Gravity, Astrophysics, and Cosmology",
+"type": "conference",
+"ville": "Hangzhou"
+},
+{
+"acronyme": "Burton 2026",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-06",
+"domaines": [
+"comptabilite"
+],
+"fin": "2026-11-07",
+"id": "burton-2026",
+"lien": "https://business.columbia.edu/faculty/divisions/accounting/seminars/burton-accounting-conference",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"compta-generale"
+],
+"titre": "45th Columbia Burton Accounting Conference",
+"type": "conference",
+"ville": "New York"
+},
+{
+"acronyme": "IJCNLP",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-06",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-10",
+"id": "ijcnlp-2026",
+"lien": "https://2026.aaclnet.org/",
+"limites": [],
+"mode": "hybride",
+"pays": "CN",
+"specialites": [
+"langage",
+"ia-apprentissage"
+],
+"titre": "International Joint Conference on Natural Language Processing",
+"type": "conference",
+"ville": "Hengqin"
+},
+{
+"acronyme": "INSCRYPT",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-07",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-09",
+"id": "inscrypt-2026",
+"lien": "https://inscrypt2026.comp.polyu.edu.hk",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"securite"
+],
+"titre": "International Conference on Information Security and Cryptology",
+"type": "conference",
+"ville": "Hong Kong SAR"
+},
+{
+"acronyme": "FOCS",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-08",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-11",
+"id": "focs-2026",
+"lien": "https://sanjeevkhanna.org/FOCS2026_CFP.html",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"theorie"
+],
+"titre": "IEEE Symposium on Foundations of Computer Science",
+"type": "conference",
+"ville": "New York City"
+},
+{
+"acronyme": "ICCAD",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-08",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-12",
+"id": "iccad-2026",
+"lien": "https://iccad.com/2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"systemes"
+],
+"titre": "IEEE/ACM International Conference on Computer-Aided Design",
+"type": "conference",
+"ville": "San Jose"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-08",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-12",
+"id": "ieee-photonics-conference-2026",
+"lien": "https://ieee-ipc.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"instrumentation"
+],
+"titre": "IEEE Photonics Conference 2026 (IPC)",
+"type": "conference",
+"ville": "Denver"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "oceanie",
+"debut": "2026-11-09",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-13",
+"id": "21st-patras-workshop-on-axions-wimps-and-2026",
+"lien": "https://indico.global/event/16402/",
+"limites": [],
+"mode": "presentiel",
+"pays": "AU",
+"specialites": [
+"instrumentation",
+"astro",
+"calcul-physique"
+],
+"titre": "21st Patras Workshop on Axions, WIMPs and WISPs",
+"type": "atelier",
+"ville": "Perth"
+},
+{
+"acronyme": "CIKM",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-09",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-11",
+"id": "cikm-2026",
+"lien": "https://cikm2026.diag.uniroma1.it/",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"donnees",
+"ia-apprentissage"
+],
+"titre": "ACM International Conference on Information and Knowledge Management",
+"type": "conference",
+"ville": "Rome"
+},
+{
+"acronyme": "CoRL",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-09",
+"domaines": [
+"ingenierie",
+"informatique"
+],
+"fin": "2026-11-11",
+"id": "corl-2026",
+"lien": "https://www.corl.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"robotique",
+"ia-apprentissage"
+],
+"titre": "The Conference on Robot Learning",
+"type": "conference",
+"ville": "Austin"
+},
+{
+"acronyme": "LCWS2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-09",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-13",
+"id": "lcws2026",
+"lien": "https://agenda.linearcollider.org/e/lcws2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "JP",
+"specialites": [
+"instrumentation",
+"particules"
+],
+"titre": "The 2026 International Workshop on Future Linear Colliders",
+"type": "atelier",
+"ville": "KEK, Tsukuba"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-09",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-13",
+"id": "quark-gluon-dynamics-in-the-nuclear-medium-an-ect-2026",
+"lien": "https://www.ectstar.eu/workshops/quark-gluon-dynamics-in-the-nuclear-medium/",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"nucleaire",
+"particules"
+],
+"titre": "Quark–Gluon Dynamics in the Nuclear Medium — (An ECT Workshop)",
+"type": "atelier",
+"ville": "Trento"
+},
+{
+"acronyme": "SQL26",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-09",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-13",
+"id": "sql26-2026",
+"lien": "https://www.sqlkonferenz.com",
+"limites": [],
+"mode": "presentiel",
+"pays": "DE",
+"specialites": [
+"quantique",
+"matiere-condensee"
+],
+"titre": "Sensing with Quantum Light",
+"type": "conference",
+"ville": "Cologne"
+},
+{
+"acronyme": "VIS",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-09",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-13",
+"id": "vis-2026",
+"lien": "https://ieeevis.org/year/2026/welcome/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"ihm"
+],
+"titre": "VIS",
+"type": "conference",
+"ville": "Boston"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-09",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-20",
+"id": "worldsheet-string-theory-and-string-field-2026",
+"lien": "https://www.icts.res.in/program/wstsft",
+"limites": [],
+"mode": "presentiel",
+"pays": "IN",
+"specialites": [
+"particules"
+],
+"titre": "Worldsheet String Theory and String Field Theory",
+"type": "conference",
+"ville": "Bengaluru"
+},
+{
+"acronyme": "ACM Multimedia",
+"annee": 2026,
+"continent": "amerique-sud",
+"debut": "2026-11-10",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-14",
+"id": "acm-multimedia-2026",
+"lien": "https://2026.acmmm.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "BR",
+"specialites": [
+"ihm"
+],
+"titre": "ACM International Conference on Multimedia",
+"type": "conference",
+"ville": "Rio de Janeiro"
+},
+{
+"acronyme": "IEEE VIS",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-10",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-13",
+"id": "ieee-vis-2026",
+"lien": "https://ieeevis.org/year/2026/welcome",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"graphisme"
+],
+"titre": "IEEE Visualization Conference",
+"type": "conference",
+"ville": "Boston"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-10",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-13",
+"id": "qcd-meets-ew-2026",
+"lien": "https://indico.cern.ch/event/1738942/",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"particules"
+],
+"titre": "QCD meets EW 2026",
+"type": "conference",
+"ville": "Milan"
+},
+{
+"acronyme": "TCC",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-10",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-13",
+"id": "tcc-2026",
+"lien": "https://tcc.iacr.org/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"securite"
+],
+"titre": "Theory of Cryptography Conference",
+"type": "conference",
+"ville": "New York City"
+},
+{
+"acronyme": "WIFAI 2026",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-10",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-13",
+"id": "wifai-2026",
+"lien": "https://agenda.infn.it/event/49033/overview",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"particules"
+],
+"titre": "WIFAI 2026: Workshop Italiano sulla Fisica ad Alta Intensità",
+"type": "atelier",
+"ville": "Perugia"
+},
+{
+"acronyme": "ACM MM",
+"annee": 2026,
+"continent": "amerique-sud",
+"debut": "2026-11-11",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-14",
+"id": "acm-mm-2026",
+"lien": "https://2026.acmmm.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "BR",
+"specialites": [
+"graphisme",
+"vision",
+"ia-apprentissage",
+"ihm"
+],
+"titre": "ACM International Conference on Multimedia",
+"type": "conference",
+"ville": "Rio de Janeiro"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-11",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-19",
+"id": "neutrino-geoscience-2026-and-2026-fall-school-on",
+"lien": "https://ifcen.sysu.edu.cn/nu-geoscience2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"particules",
+"instrumentation",
+"physique-generale"
+],
+"titre": "Neutrino Geoscience 2026 and 2026 Fall School on Interdisciplinary Neutrino Science",
+"type": "ecole",
+"ville": "Zhuhai"
+},
+{
+"acronyme": "ESC Digital & AI Summit",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-12",
+"domaines": [
+"vie-sante"
+],
+"fin": "2026-11-13",
+"id": "esc-digital-ai-summit-2026",
+"lien": "https://www.escardio.org/Congresses-Events/ESC-Digital-AI-Summit",
+"limites": [
+{
+"date": "2026-11-11",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CH",
+"specialites": [
+"medecine",
+"bioinformatique"
+],
+"titre": "ESC Digital & AI Summit 2026",
+"type": "conference",
+"ville": "Basel"
+},
+{
+"acronyme": "ICDM",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-12",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-15",
+"id": "icdm-2026",
+"lien": "https://icdm2026.neu.edu.cn/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"donnees"
+],
+"titre": "IEEE International Conference on Data Mining",
+"type": "conference",
+"ville": "Shenyang"
+},
+{
+"acronyme": "ADMA",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-13",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-15",
+"id": "adma-2026",
+"lien": "https://adma2026.github.io/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"donnees"
+],
+"titre": "The International Conference on Advanced Data Mining and Applications",
+"type": "conference",
+"ville": "Hong Kong"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-13",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-17",
+"id": "discrete-2026-10th-symposium-on-prospects-in-the",
+"lien": "https://conference.uniba.sk/e/discrete2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "SK",
+"specialites": [
+"particules"
+],
+"titre": "DISCRETE 2026 — 10th Symposium on Prospects in the Physics of Discrete Symmetries",
+"type": "conference",
+"ville": "Bratislava"
+},
+{
+"acronyme": "CollaborateCom",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-14",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-15",
+"id": "collaboratecom-2026",
+"lien": "https://collaboratecom.eai-conferences.org/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"ihm"
+],
+"titre": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
+"type": "conference",
+"ville": "Hong Kong SAR"
+},
+{
+"acronyme": "CCS",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-18",
+"id": "ccs-2026",
+"lien": "https://www.sigsac.org/ccs/CCS2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "NL",
+"specialites": [
+"securite"
+],
+"titre": "ACM Conference on Computer and Communications Security",
+"type": "conference",
+"ville": "World Forum"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-16",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-20",
+"id": "cosmogravitas-2nd-international-conference-on-2026",
+"lien": "https://indico.narit.or.th/event/234/",
+"limites": [],
+"mode": "presentiel",
+"pays": "TH",
+"specialites": [
+"astro"
+],
+"titre": "CosmoGravitas; 2nd International Conference on Cosmology and Gravitation",
+"type": "conference",
+"ville": "Pattaya"
+},
+{
+"acronyme": "HotNets",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-17",
+"id": "hotnets-2026",
+"lien": "https://conferences.sigcomm.org/hotnets/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"reseaux"
+],
+"titre": "ACM Workshop on Hot Topics in Networks",
+"type": "atelier",
+"ville": "Salt Lake City"
+},
+{
+"acronyme": "ICAIF",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-17",
+"id": "icaif-2026",
+"lien": "https://icaif2026.org/index.html",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"info-interdisciplinaire"
+],
+"titre": "International Conference on AI in Finance",
+"type": "conference",
+"ville": "Milan"
+},
+{
+"acronyme": "ICCD",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-18",
+"id": "iccd-2026",
+"lien": "https://www.iccd-conf.com/2026/home.html",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"systemes"
+],
+"titre": "International Conference on Computer Design",
+"type": "conference",
+"ville": "Hong Kong SAR"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-16",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-20",
+"id": "loop-the-loop-2026-feynman-calculus-and-its",
+"lien": "https://indico.sns.it/e/loop-the-loop-2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"astro",
+"particules",
+"nucleaire"
+],
+"titre": "Loop-the-Loop 2026 — Feynman Calculus and its Applications to Gravity and Particle Physics",
+"type": "conference",
+"ville": "Pisa"
+},
+{
+"acronyme": "SC",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-20",
+"id": "sc-2026",
+"lien": "https://sc26.supercomputing.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"systemes"
+],
+"titre": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+"type": "conference",
+"ville": "McCormick Place"
+},
+{
+"acronyme": "SIGOPS ATC",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-18",
+"id": "sigops-atc-2026",
+"lien": "https://sigops.org/s/conferences/atc/2026/index.html",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"systemes"
+],
+"titre": "ACM SIGOPS Annual Technical Conference",
+"type": "conference",
+"ville": "Hyatt Hotel"
+},
+{
+"acronyme": "VRST",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-16",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-18",
+"id": "vrst-2026",
+"lien": "https://vrst.acm.org/vrst2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "JP",
+"specialites": [
+"ihm"
+],
+"titre": "VRST",
+"type": "conference",
+"ville": "Sendai"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-17",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-19",
+"id": "open-quantum-universe-workshop-at-the-2026",
+"lien": "https://sites.psu.edu/openquantumuniverse/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"quantique",
+"astro"
+],
+"titre": "Open Quantum Universe Workshop at The Pennsylvania State University",
+"type": "atelier",
+"ville": "University Park"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-17",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-18",
+"id": "quantum-cannes-2026",
+"lien": "https://www.quantumcannesfestival.com",
+"limites": [],
+"mode": "presentiel",
+"pays": "FR",
+"specialites": [
+"quantique"
+],
+"titre": "Quantum Cannes Festival",
+"type": "conference",
+"ville": "Cannes"
+},
+{
+"acronyme": "ICFEM",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-18",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-20",
+"id": "icfem-2026",
+"lien": "https://icfem2026.github.io/",
+"limites": [],
+"mode": "presentiel",
+"pays": "GB",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "International Conference on Formal Engineering Methods",
+"type": "conference",
+"ville": "Southampton"
+},
+{
+"acronyme": "PRICAI",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-18",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-20",
+"id": "pricai-2026",
+"lien": "https://2026.pricai.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "Pacific Rim International Conference on Artificial Intelligence",
+"type": "conference",
+"ville": "Guangzhou"
+},
+{
+"acronyme": "SoCC",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-18",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-20",
+"id": "socc-2026",
+"lien": "https://acmsocc.org/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "SG",
+"specialites": [
+"systemes"
+],
+"titre": "ACM Symposium on Cloud Computing",
+"type": "conference",
+"ville": ""
+},
+{
+"acronyme": "SDM",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-19",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-20",
+"id": "sdm-2026",
+"lien": "https://www.siam.org/conferences-events/siam-conferences/sdm26/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"donnees"
+],
+"titre": "SIAM International Conference on Data Mining",
+"type": "conference",
+"ville": "Salt Lake City"
+},
+{
+"acronyme": "LOG",
+"annee": 2026,
+"continent": "amerique-nord",
+"debut": "2026-11-20",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-22",
+"id": "log-2026",
+"lien": "https://logconference.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "Learning on Graphs Conference",
+"type": "conference",
+"ville": "Northeastern University"
+},
+{
+"acronyme": "NBS AI for Finance 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-20",
+"domaines": [
+"finance"
+],
+"fin": "2026-11-21",
+"id": "nbs-ai-for-finance-2026",
+"lien": "https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "SG",
+"specialites": [
+"fintech"
+],
+"titre": "NBS Conference on AI for Finance & AI and Big Data in Finance Research Forum (ABFR)",
+"type": "conference",
+"ville": "Singapore"
+},
+{
+"acronyme": "ICPADS",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-22",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-26",
+"id": "icpads-2026",
+"lien": "https://www.cloud-conf.net/icpads2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "JP",
+"specialites": [
+"systemes"
+],
+"titre": "IEEE International Conference on Parallel and Distributed Systems",
+"type": "conference",
+"ville": "Tokyo"
+},
+{
+"acronyme": "IFN KSA 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-22",
+"domaines": [
+"finance-islamique"
+],
+"fin": "2026-11-22",
+"id": "ifn-ksa-2026",
+"lien": "https://redmoneyevents.com/event/ifnksa2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "SA",
+"specialites": [
+"banque-islamique"
+],
+"titre": "IFN KSA Dialogues 2026",
+"type": "conference",
+"ville": "Riyadh"
+},
+{
+"acronyme": "BBQ2026",
+"annee": 2026,
+"continent": "oceanie",
+"debut": "2026-11-23",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-27",
+"id": "bbq2026",
+"lien": "https://sites.google.com/view/byron-bay-quantum-workshop/",
+"limites": [],
+"mode": "presentiel",
+"pays": "AU",
+"specialites": [
+"quantique"
+],
+"titre": "Byron Bay Quantum Workshop 2026",
+"type": "atelier",
+"ville": "Byron Bay"
+},
+{
+"acronyme": "BMVC",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-23",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-26",
+"id": "bmvc-2026",
+"lien": "https://bmvc2026.bmva.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "GB",
+"specialites": [
+"vision",
+"ia-apprentissage"
+],
+"titre": "British Machine Vision Conference",
+"type": "conference",
+"ville": "Lancaster"
+},
+{
+"acronyme": "ICECCS",
+"annee": 2026,
+"continent": "oceanie",
+"debut": "2026-11-23",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-24",
+"id": "iceccs-2026",
+"lien": "https://formal-analysis.com/iceccs/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "AU",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "International Conference on Engineering of Complex Computer Systems",
+"type": "conference",
+"ville": "Brisbane"
+},
+{
+"acronyme": "ICONIP",
+"annee": 2026,
+"continent": "oceanie",
+"debut": "2026-11-23",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-27",
+"id": "iconip-2026",
+"lien": "https://www.iconip2026.org/",
+"limites": [],
+"mode": "presentiel",
+"pays": "AU",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "International Conference on Neural Information Processing",
+"type": "conference",
+"ville": "Melbourne"
+},
+{
+"acronyme": "ISS",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-23",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-26",
+"id": "iss-2026",
+"lien": "https://iss.acm.org/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"ihm"
+],
+"titre": "ACM International Conference on Interactive Surfaces and Spaces",
+"type": "conference",
+"ville": "Turin"
+},
+{
+"acronyme": "ISS (Summer round)",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-23",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-26",
+"id": "iss-summer-round-2026",
+"lien": "https://iss.acm.org/2026/authors/papers/",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"ihm"
+],
+"titre": "ISS (Summer round)",
+"type": "conference",
+"ville": "Turin"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-23",
+"domaines": [
+"physique"
+],
+"fin": "2026-12-11",
+"id": "laces-2026-lezioni-avanzate-di-campi-e-stringhe",
+"lien": "https://www.ggi.infn.it/single-school.php?id=566",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"particules",
+"physique-theorique",
+"astro"
+],
+"titre": "LACES 2026 — Lezioni Avanzate di Campi e Stringhe - Advanced lectures on Fields and Strings",
+"type": "conference",
+"ville": "Florence"
+},
+{
+"acronyme": "MobiHoc",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-23",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-25",
+"id": "mobihoc-2026",
+"lien": "https://www.sigmobile.org/mobihoc/2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "JP",
+"specialites": [
+"reseaux"
+],
+"titre": "International Symposium on Mobile Ad Hoc Networking and Computing",
+"type": "conference",
+"ville": "Tokyo"
+},
+{
+"acronyme": "SAGS",
+"annee": 2026,
+"continent": "afrique",
+"debut": "2026-11-23",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-27",
+"id": "sags-2026",
+"lien": "https://indico.global/event/18151/",
+"limites": [],
+"mode": "presentiel",
+"pays": "ZA",
+"specialites": [
+"astro",
+"physique-theorique"
+],
+"titre": "The South African Gravity Society (SAGS) conference — 2026",
+"type": "conference",
+"ville": "Cape Town"
+},
+{
+"acronyme": "HEPFTXXXVIII",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-24",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-26",
+"id": "hepftxxxviii-2026",
+"lien": "https://indico.ihep.su/e/hepftXXXVIII",
+"limites": [],
+"mode": "presentiel",
+"pays": "RU",
+"specialites": [
+"astro"
+],
+"titre": "The XXXVIII International Workshop on High Energy Physics and Field Theory — Current Issues in Gravitation and Cosmology",
+"type": "atelier",
+"ville": "Geneva"
+},
+{
+"acronyme": "IFN Kuwait 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-24",
+"domaines": [
+"finance-islamique"
+],
+"fin": "2026-11-24",
+"id": "ifn-kuwait-2026",
+"lien": "https://redmoneyevents.com/event/ifnkuwait2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "KW",
+"specialites": [
+"banque-islamique"
+],
+"titre": "IFN Kuwait Dialogues 2026",
+"type": "conference",
+"ville": "Kuwait City"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-25",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-27",
+"id": "iqt-2026",
+"lien": "https://iqtevent.com",
+"limites": [],
+"mode": "presentiel",
+"pays": "KR",
+"specialites": [
+"quantique"
+],
+"titre": "IQT Korea",
+"type": "conference",
+"ville": "Incheon"
+},
+{
+"acronyme": "IFN Türkiye 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-26",
+"domaines": [
+"finance-islamique"
+],
+"fin": "2026-11-26",
+"id": "ifn-turkiye-2026",
+"lien": "https://redmoneyevents.com/event/ifnturkiye2026/",
+"limites": [],
+"mode": "presentiel",
+"pays": "TR",
+"specialites": [
+"banque-islamique"
+],
+"titre": "IFN Türkiye Dialogues 2026",
+"type": "conference",
+"ville": "Istanbul"
+},
+{
+"acronyme": "FourA 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-27",
+"domaines": [
+"comptabilite"
+],
+"fin": "2026-11-28",
+"id": "foura-2026",
+"lien": "https://www.foura.org",
+"limites": [],
+"mode": "presentiel",
+"pays": "HK",
+"specialites": [
+"compta-generale"
+],
+"titre": "23rd Asian Academic Accounting Association (FourA) Annual Conference",
+"type": "conference",
+"ville": "Hong Kong"
+},
+{
+"acronyme": "ICIFE 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-29",
+"domaines": [
+"finance-islamique"
+],
+"fin": "2026-11-30",
+"id": "icife-2026",
+"lien": "https://www.hbku.edu.qa/en/CIS-ICIFE2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "QA",
+"specialites": [
+"economie-islamique"
+],
+"titre": "9th International Conference on Islamic Finance and Economy (HBKU, College of Islamic Studies)",
+"type": "conference",
+"ville": "Doha"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-29",
+"domaines": [
+"physique"
+],
+"fin": "2026-12-05",
+"id": "xix-tonale-winter-school-on-2026",
+"lien": "https://indico.physi.uni-heidelberg.de/e/tonale26",
+"limites": [],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"astro"
+],
+"titre": "XIX Tonale Winter School on Cosmology",
+"type": "ecole",
+"ville": "Tonale"
+},
+{
+"acronyme": "DAI",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-30",
+"domaines": [
+"informatique"
+],
+"fin": "2026-12-01",
+"id": "dai-2026",
+"lien": "https://www.adai.ai/dai/2026/index.html",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "International Conference on Distributed Artificial Intelligence",
+"type": "conference",
+"ville": "Hong Kong"
+},
+{
+"acronyme": "",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-30",
+"domaines": [
+"physique"
+],
+"fin": "2026-12-04",
+"id": "icts-meeting-on-magnetic-fields-in-the-primordial-2026",
+"lien": "https://www.icts.res.in/discussion-meeting/MFPU2026",
+"limites": [],
+"mode": "presentiel",
+"pays": "IN",
+"specialites": [
+"astro"
+],
+"titre": "ICTS meeting on Magnetic fields in the primordial universe",
+"type": "conference",
+"ville": "Bengaluru"
+},
+{
+"acronyme": "SILAFAE",
+"annee": 2026,
+"continent": "amerique-sud",
+"debut": "2026-11-30",
+"domaines": [
+"physique"
+],
+"fin": "2026-12-04",
+"id": "silafae-2026",
+"lien": "https://fisindico.uniandes.edu.co/event/18/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CO",
+"specialites": [
+"particules",
+"astro",
+"quantique"
+],
+"titre": "Andres Florez — SILAFAE 2026",
+"type": "conference",
+"ville": "Bogota"
+},
+{
+"acronyme": "Zimanyi 26",
+"annee": 2026,
+"continent": "europe",
+"debut": "2026-11-30",
+"domaines": [
+"physique"
+],
+"fin": "2026-12-04",
+"id": "zimanyi-26-2026",
+"lien": "https://zimanyischool.kfki.hu/26/",
+"limites": [],
+"mode": "presentiel",
+"pays": "HU",
+"specialites": [
+"particules",
+"nucleaire"
+],
+"titre": "26th Zimányi School Winter Workshop on Heavy Ion Physics",
+"type": "ecole",
+"ville": "Budapest"
+},
+{
+"acronyme": "WSDM",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-02-15",
+"domaines": [
+"informatique"
+],
+"fin": "2027-02-19",
+"id": "wsdm-2027",
+"lien": "https://wsdm-conference.org/2027/",
+"limites": [
+{
+"date": "2026-11-17",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"donnees"
+],
+"titre": "International Conference on Web Search and Data Mining",
+"type": "conference",
+"ville": "Cordis"
+},
+{
+"acronyme": "Utah WAC 2027",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-02-18",
+"domaines": [
+"comptabilite"
+],
+"fin": "2027-02-20",
+"id": "utah-wac-2027",
+"lien": "https://www.utah-wac.org",
+"limites": [
+{
+"date": "2026-11-07",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"compta-generale"
+],
+"titre": "Utah Winter Accounting Conference",
+"type": "conference",
+"ville": "Salt Lake City"
+},
+{
+"acronyme": "CNS",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-03-20",
+"domaines": [
+"vie-sante"
+],
+"fin": "2027-03-23",
+"id": "cns-2027",
+"lien": "https://www.cogneurosociety.org/",
+"limites": [
+{
+"date": "2026-11-03",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"neurosciences"
+],
+"titre": "Cognitive Neuroscience Society Annual Meeting",
+"type": "conference",
+"ville": "Boston"
+},
+{
+"acronyme": "CPAL",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-03-23",
+"domaines": [
+"informatique"
+],
+"fin": "2027-03-26",
+"id": "cpal-2027",
+"lien": "https://cpal.cc/",
+"limites": [
+{
+"date": "2026-11-13",
+"type": "resume"
+},
+{
+"date": "2026-11-25",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "JP",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "The Conference on Parsimony and Learning",
+"type": "conference",
+"ville": "Tokyo"
+},
+{
+"acronyme": "MMSys",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-03-30",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-02",
+"id": "mmsys-2027",
+"lien": "https://2027.acmmmsys.org",
+"limites": [
+{
+"date": "2026-11-12",
+"type": "resume"
+},
+{
+"date": "2026-11-19",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "BE",
+"specialites": [
+"reseaux"
+],
+"titre": "ACM International Conference on Multimedia Systems",
+"type": "conference",
+"ville": "Ghent"
+},
+{
+"acronyme": "EuroGP",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-03-31",
+"domaines": [
+"vie-sante",
+"informatique"
+],
+"fin": "2027-04-02",
+"id": "eurogp-2027",
+"lien": "https://www.evostar.org/2027/eurogp/",
+"limites": [
+{
+"date": "2026-11-16",
+"type": "article"
+}
+],
+"mode": "hybride",
+"pays": "DE",
+"specialites": [
+"bioinformatique",
+"ia-apprentissage"
+],
+"titre": "European Conference on Genetic Programming",
+"type": "conference",
+"ville": "Mainz"
+},
+{
+"acronyme": "EvoApplications",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-03-31",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-02",
+"id": "evoapplications-2027",
+"lien": "https://www.evostar.org/2027/evoapps/",
+"limites": [
+{
+"date": "2026-11-16",
+"type": "article"
+}
+],
+"mode": "hybride",
+"pays": "DE",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "International Conference on the Applications of Evolutionary Computation",
+"type": "conference",
+"ville": "Mainz"
+},
+{
+"acronyme": "EvoCOP",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-03-31",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-02",
+"id": "evocop-2027",
+"lien": "https://www.evostar.org/2027/evocop/",
+"limites": [
+{
+"date": "2026-11-16",
+"type": "article"
+}
+],
+"mode": "hybride",
+"pays": "DE",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "European Conference on Evolutionary Computation in Combinatorial Optimisation",
+"type": "conference",
+"ville": "Mainz"
+},
+{
+"acronyme": "EvoMUSART",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-03-31",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-02",
+"id": "evomusart-2027",
+"lien": "https://www.evostar.org/2027/evomusart/",
+"limites": [
+{
+"date": "2026-11-01",
+"type": "article"
+},
+{
+"date": "2026-11-01",
+"type": "resume"
+},
+{
+"date": "2026-11-16",
+"type": "article"
+}
+],
+"mode": "hybride",
+"pays": "DE",
+"specialites": [
+"ia-apprentissage",
+"ihm"
+],
+"titre": "International Conference on Artificial Intelligence in Music, Sound, Art and Design",
+"type": "conference",
+"ville": "Mainz"
+},
+{
+"acronyme": "NICE",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-04-06",
+"domaines": [
+"vie-sante"
+],
+"fin": "2027-04-09",
+"id": "nice-2027",
+"lien": "https://niceworkshop.org/nice-2027/",
+"limites": [
+{
+"date": "2026-11-11",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "GB",
+"specialites": [
+"neurosciences"
+],
+"titre": "Neuro-Inspired Computational Elements Conference",
+"type": "conference",
+"ville": "Brighton"
+},
+{
+"acronyme": "BlockSys",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-04-09",
+"domaines": [
+"informatique",
+"finance"
+],
+"fin": "2027-04-11",
+"id": "blocksys-2027",
+"lien": "https://blocksys.info/2027/",
+"limites": [
+{
+"date": "2026-11-30",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"securite",
+"fintech"
+],
+"titre": "International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems",
+"type": "conference",
+"ville": "Foshan"
+},
+{
+"acronyme": "REFSQ",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-04-12",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-15",
+"id": "refsq-2027",
+"lien": "https://2027.refsq.org/",
+"limites": [
+{
+"date": "2026-11-05",
+"type": "resume"
+},
+{
+"date": "2026-11-12",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CH",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "Requirements Engineering: Foundation for Software Quality",
+"type": "conference",
+"ville": "Basel"
+},
+{
+"acronyme": "CVC",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-04-15",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-16",
+"id": "cvc-2027",
+"lien": "https://saiconference.com/CVC",
+"limites": [
+{
+"date": "2026-11-01",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "NL",
+"specialites": [
+"vision",
+"ia-apprentissage"
+],
+"titre": "Computer Vision Conference",
+"type": "conference",
+"ville": "Amsterdam"
+},
+{
+"acronyme": "PacificVis",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-04-19",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-22",
+"id": "pacificvis-2027",
+"lien": "https://pacificvis2027.github.io/",
+"limites": [
+{
+"date": "2026-11-02",
+"type": "resume"
+},
+{
+"date": "2026-11-09",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "KR",
+"specialites": [
+"graphisme"
+],
+"titre": "IEEE Pacific Visualization Symposium",
+"type": "conference",
+"ville": "Busan"
+},
+{
+"acronyme": "ESANN",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-04-21",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-23",
+"id": "esann-2027",
+"lien": "https://www.esann.org/",
+"limites": [
+{
+"date": "2026-11-19",
+"type": "article"
+}
+],
+"mode": "hybride",
+"pays": "BE",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
+"type": "conference",
+"ville": "Bruges"
+},
+{
+"acronyme": "ICPC",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-04-25",
+"domaines": [
+"informatique"
+],
+"fin": "2027-04-26",
+"id": "icpc-2027",
+"lien": "https://conf.researchr.org/home/icpc-2027",
+"limites": [
+{
+"date": "2026-11-05",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "IE",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "IEEE International Conference on Program Comprehension",
+"type": "conference",
+"ville": "Dublin"
+},
+{
+"acronyme": "Gerzensee FI 2027",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-05-02",
+"domaines": [
+"finance"
+],
+"fin": "2027-05-05",
+"id": "gerzensee-fi-2027",
+"lien": "https://cepr.org/events/bis-cepr-gerzensee-sfi-conference-financial-intermediation-2027",
+"limites": [
+{
+"date": "2026-11-20",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CH",
+"specialites": [
+"banque"
+],
+"titre": "BIS-CEPR-Gerzensee-SFI Conference on Financial Intermediation",
+"type": "conference",
+"ville": "Gerzensee"
+},
+{
+"acronyme": "SECON",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-05-05",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-07",
+"id": "secon-2027",
+"lien": "https://secon2027.ieee-secon.org/",
+"limites": [
+{
+"date": "2026-11-30",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "PT",
+"specialites": [
+"reseaux"
+],
+"titre": "IEEE International Conference on Sensing, Communication, and Networking",
+"type": "conference",
+"ville": "Lisbon"
+},
+{
+"acronyme": "NOMS",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-10",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-14",
+"id": "noms-2027",
+"lien": "https://noms2027.ieee-noms.org/",
+"limites": [
+{
+"date": "2026-11-09",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CA",
+"specialites": [
+"securite"
+],
+"titre": "IEEE/IFIP Network Operations and Management Symposium",
+"type": "conference",
+"ville": "Montreal"
+},
+{
+"acronyme": "HSCC",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-17",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-20",
+"id": "hscc-2027",
+"lien": "https://hscc.acm.org/2027/",
+"limites": [
+{
+"date": "2026-11-05",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"theorie"
+],
+"titre": "International Conference on Hybrid Systems: Computation and Control",
+"type": "conference",
+"ville": "Boulder"
+},
+{
+"acronyme": "ICDE",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-05-17",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-21",
+"id": "icde-2027",
+"lien": "https://icde2027.github.io/",
+"limites": [
+{
+"date": "2026-11-11",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "DK",
+"specialites": [
+"donnees"
+],
+"titre": "IEEE International Conference on Data Engineering",
+"type": "conference",
+"ville": "Copenhagen"
+},
+{
+"acronyme": "ICST",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-05-17",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-21",
+"id": "icst-2027",
+"lien": "https://conf.researchr.org/home/icst-2027",
+"limites": [
+{
+"date": "2026-11-02",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "ES",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "IEEE International Conference on Software Testing, Verification and Validation",
+"type": "conference",
+"ville": "San Sebastian"
+},
+{
+"acronyme": "RECOMB",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-17",
+"domaines": [
+"vie-sante",
+"informatique"
+],
+"fin": "2027-05-20",
+"id": "recomb-2027",
+"lien": "https://recomb.org/recomb2027/",
+"limites": [
+{
+"date": "2026-11-04",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CA",
+"specialites": [
+"bioinformatique",
+"info-interdisciplinaire"
+],
+"titre": "International Conference on Research inComputational Molecular Biology",
+"type": "conference",
+"ville": "Toronto"
+},
+{
+"acronyme": "RTAS",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-17",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-20",
+"id": "rtas-2027",
+"lien": "https://2027.rtas.org/",
+"limites": [
+{
+"date": "2026-11-05",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"systemes"
+],
+"titre": "IEEE Real-Time and Embedded Technology and Applications Symposium",
+"type": "conference",
+"ville": "Boulder"
+},
+{
+"acronyme": "S&P",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-17",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-19",
+"id": "s-p-2027",
+"lien": "https://sp2027.ieee-security.org/index.html",
+"limites": [
+{
+"date": "2026-11-10",
+"type": "resume"
+},
+{
+"date": "2026-11-17",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CA",
+"specialites": [
+"securite"
+],
+"titre": "IEEE Symposium on Security and Privacy",
+"type": "conference",
+"ville": "MONTREAL"
+},
+{
+"acronyme": "SenSys",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-17",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-20",
+"id": "sensys-2027",
+"lien": "https://sensys.acm.org/2027/",
+"limites": [
+{
+"date": "2026-11-05",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"reseaux"
+],
+"titre": "ACM Conference on Embedded Networked Sensor Systems",
+"type": "conference",
+"ville": "Boulder"
+},
+{
+"acronyme": "CCGRID",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-05-24",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-27",
+"id": "ccgrid-2027",
+"lien": "https://hpcclab.org/ccgrid27/",
+"limites": [
+{
+"date": "2026-11-24",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"systemes"
+],
+"titre": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+"type": "conference",
+"ville": "Dallas-Fort Worth"
+},
+{
+"acronyme": "CSCWD",
+"annee": 2027,
+"continent": "oceanie",
+"debut": "2027-05-26",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-28",
+"id": "cscwd-2027",
+"lien": "https://2027.cscwd.org",
+"limites": [
+{
+"date": "2026-11-30",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "AU",
+"specialites": [
+"ihm"
+],
+"titre": "International Conference on Computer Supported Cooperative Work in Design",
+"type": "conference",
+"ville": "Brisbane"
+},
+{
+"acronyme": "DASFAA",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-05-27",
+"domaines": [
+"informatique"
+],
+"fin": "2027-05-30",
+"id": "dasfaa-2027",
+"lien": "https://dasfaa2027.github.io/",
+"limites": [
+{
+"date": "2026-11-25",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"donnees"
+],
+"titre": "Database Systems for Advanced Applications",
+"type": "conference",
+"ville": "Shenyang"
+},
+{
+"acronyme": "ISCA",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-06-05",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-09",
+"id": "isca-2027",
+"lien": "https://iscaconf.org/isca2027/",
+"limites": [
+{
+"date": "2026-11-09",
+"type": "resume"
+},
+{
+"date": "2026-11-16",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"systemes"
+],
+"titre": "International Symposium on Computer Architecture",
+"type": "conference",
+"ville": "Atlanta"
+},
+{
+"acronyme": "PLDI",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-06-05",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-11",
+"id": "pldi-2027",
+"lien": "https://pldi27.sigplan.org/",
+"limites": [
+{
+"date": "2026-11-12",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "ACM SIGPLAN Conference on Programming Language Design & Implementation",
+"type": "conference",
+"ville": "Atlanta"
+},
+{
+"acronyme": "STOC",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-06-06",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-11",
+"id": "stoc-2027",
+"lien": "https://acm-stoc.org/stoc2027/",
+"limites": [
+{
+"date": "2026-11-02",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"theorie"
+],
+"titre": "ACM Symposium on the Theory of Computing",
+"type": "conference",
+"ville": "Atlanta"
+},
+{
+"acronyme": "CAiSE",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-06-07",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-11",
+"id": "caise-2027",
+"lien": "https://deal.us.es/caise27/",
+"limites": [
+{
+"date": "2026-11-04",
+"type": "resume"
+},
+{
+"date": "2026-11-15",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "ES",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "International Conference on Advanced Information Systems Engineering",
+"type": "conference",
+"ville": "Seville"
+},
+{
+"acronyme": "CODASPY",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-06-14",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-17",
+"id": "codaspy-2027",
+"lien": "https://www.codaspy.org/2027/",
+"limites": [
+{
+"date": "2026-11-16",
+"type": "resume"
+},
+{
+"date": "2026-11-23",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"securite"
+],
+"titre": "ACM Conference on Data and Application Security and Privacy",
+"type": "conference",
+"ville": "Fort Collins"
+},
+{
+"acronyme": "CVPR",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-06-20",
+"domaines": [
+"informatique",
+"ingenierie"
+],
+"fin": "2027-06-25",
+"id": "cvpr-2027",
+"lien": "https://cvpr.thecvf.com/Conferences/2027",
+"limites": [
+{
+"date": "2026-11-10",
+"type": "resume"
+},
+{
+"date": "2026-11-16",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"vision",
+"ia-apprentissage",
+"robotique"
+],
+"titre": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+"type": "conference",
+"ville": "Seattle"
+},
+{
+"acronyme": "MobiSys",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-06-21",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-25",
+"id": "mobisys-2027",
+"lien": "https://www.sigmobile.org/mobisys/2027/",
+"limites": [
+{
+"date": "2026-11-27",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "VN",
+"specialites": [
+"reseaux"
+],
+"titre": "ACM International Conference on Mobile Systems, Applications, and Services",
+"type": "conference",
+"ville": "Ho Chi Minh City"
+},
+{
+"acronyme": "DSN",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-06-22",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-25",
+"id": "dsn-2027",
+"lien": "https://dsn2027-berlin.github.io/",
+"limites": [
+{
+"date": "2026-11-25",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "DE",
+"specialites": [
+"securite"
+],
+"titre": "International Conference on Dependable Systems and Networks",
+"type": "conference",
+"ville": "Berlin"
+},
+{
+"acronyme": "WFA 2027",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-06-27",
+"domaines": [
+"finance"
+],
+"fin": "2027-06-30",
+"id": "wfa-2027",
+"lien": "https://westernfinance.org/conference/",
+"limites": [
+{
+"date": "2026-11-18",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"finance-generale",
+"marches"
+],
+"titre": "2027 Western Finance Association (WFA) Annual Meeting",
+"type": "conference",
+"ville": "Indian Wells"
+},
+{
+"acronyme": "ECOOP",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-06-28",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-02",
+"id": "ecoop-2027",
+"lien": "https://2027.ecoop.org/",
+"limites": [
+{
+"date": "2026-11-19",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "IT",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "European Conference on Object-Oriented Programming",
+"type": "conference",
+"ville": "Turin"
+},
+{
+"acronyme": "PAKDD",
+"annee": 2027,
+"continent": "oceanie",
+"debut": "2027-06-29",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-02",
+"id": "pakdd-2027",
+"lien": "https://www.pakdd2027.org/",
+"limites": [
+{
+"date": "2026-11-20",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "NZ",
+"specialites": [
+"donnees"
+],
+"titre": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+"type": "conference",
+"ville": "Wellington"
+},
+{
+"acronyme": "EuroS&P",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-07-05",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-09",
+"id": "euros-p-2027",
+"lien": "https://eurosp2027.ieee-security.org/",
+"limites": [
+{
+"date": "2026-11-25",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "ES",
+"specialites": [
+"securite"
+],
+"titre": "IEEE European Symposium on Security and Privacy",
+"type": "conference",
+"ville": "Madrid"
+},
+{
+"acronyme": "ACISP",
+"annee": 2027,
+"continent": "oceanie",
+"debut": "2027-07-07",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-10",
+"id": "acisp-2027",
+"lien": "https://acisp.org/",
+"limites": [
+{
+"date": "2026-11-30",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "AU",
+"specialites": [
+"securite"
+],
+"titre": "Australasia Conference on Information Security and Privacy",
+"type": "conference",
+"ville": "Melbourne"
+},
+{
+"acronyme": "SAI",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-07-08",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-09",
+"id": "sai-2027",
+"lien": "https://saiconference.com/Computing",
+"limites": [
+{
+"date": "2026-11-01",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "GB",
+"specialites": [
+"info-interdisciplinaire"
+],
+"titre": "Computing Conference (SAI)",
+"type": "conference",
+"ville": "London"
+},
+{
+"acronyme": "DAC",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-07-11",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-14",
+"id": "dac-2027",
+"lien": "https://dac.com/2027/authors/call-for-contributions",
+"limites": [
+{
+"date": "2026-11-11",
+"type": "resume"
+},
+{
+"date": "2026-11-18",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"systemes"
+],
+"titre": "Design Automation Conference",
+"type": "conference",
+"ville": "San Jose"
+},
+{
+"acronyme": "PETS",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-07-19",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-24",
+"id": "pets-2027",
+"lien": "https://petsymposium.org/cfp27.php",
+"limites": [
+{
+"date": "2026-11-30",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "NL",
+"specialites": [
+"securite"
+],
+"titre": "Privacy Enhancing Technologies Symposium",
+"type": "conference",
+"ville": "Delft"
+},
+{
+"acronyme": "VLDB",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-08-23",
+"domaines": [
+"informatique"
+],
+"fin": "2027-08-27",
+"id": "vldb-2027",
+"lien": "https://www.vldb.org/2027/",
+"limites": [
+{
+"date": "2026-11-25",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "GR",
+"specialites": [
+"donnees"
+],
+"titre": "International Conference on Very Large Data Bases",
+"type": "conference",
+"ville": "Athens"
+},
+{
+"acronyme": "IMWUT (Ubicomp/ISWC)",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-10-03",
+"domaines": [
+"informatique"
+],
+"fin": "2027-10-07",
+"id": "imwut-ubicomp-iswc-2027",
+"lien": "https://dl.acm.org/journal/imwut/how-to-submit",
+"limites": [
+{
+"date": "2026-11-01",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "KR",
+"specialites": [
+"ihm"
+],
+"titre": "IMWUT (Ubicomp/ISWC)",
+"type": "conference",
+"ville": "Seoul Dragon City"
+},
+{
+"acronyme": "IMC",
+"annee": 2027,
+"continent": "amerique-nord",
+"debut": "2027-10-25",
+"domaines": [
+"informatique"
+],
+"fin": "2027-10-29",
+"id": "imc-2027",
+"lien": "https://conferences.sigcomm.org/imc/2027/",
+"limites": [
+{
+"date": "2026-11-10",
+"type": "resume"
+},
+{
+"date": "2026-11-17",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "US",
+"specialites": [
+"reseaux"
+],
+"titre": "ACM Internet Measurement Conference",
+"type": "conference",
+"ville": "Atlanta"
+},
+{
+"acronyme": "CoNEXT",
+"annee": 2027,
+"continent": "amerique-sud",
+"debut": "2027-12-06",
+"domaines": [
+"informatique"
+],
+"fin": "2027-12-09",
+"id": "conext-2027",
+"lien": "https://conferences.sigcomm.org/co-next/2027/#!/home",
+"limites": [
+{
+"date": "2026-11-27",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "BR",
+"specialites": [
+"reseaux"
+],
+"titre": "International Conference on Emerging Networking Experiments and Technologies",
+"type": "conference",
+"ville": "Rio de Janeiro"
+}
+],
+"derniere_date": "2026-11-01",
+"fini": false,
+"premier_jour": "2026-11-01"
 }
 }
 }
