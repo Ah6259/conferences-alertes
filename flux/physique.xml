@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-01T06:00:00Z</updated>
+<updated>2026-11-02T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/portoroz-2027-particle-physics-from-early/</id>
+<title>Portorož 2027 — Particle Physics from Early Universe to Future Colliders</title>
+<link href="https://conferences.clicvia.com/conference/portoroz-2027-particle-physics-from-early/"/>
+<updated>2026-11-02T06:00:00Z</updated>
+<summary>30 Mar – 2 Apr 2027 · Portorož, Slovenia · Deadline: see official website · Official: https://hepworkshop.ijs.si</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ggi-phd-school-on-theoretical-aspects-of-2027/</id>
 <title>GGI PhD School on Theoretical Aspects of Astroparticle Physics, Cosmology and Gravitation 2027 — TAPCG2027</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/quantum-fields-to-cosmic-signatures-probing-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–30 Apr 2027 · Boltzmannstr. 2, 85748 Garching, Germany · Deadline: see official website · Official: https://www.munich-iapbp.de/activities/activities-2027/particle-production</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/nushic-2027/</id>
-<title>NuSHIC 2027 — Intersection of nuclear structure and high-energy nuclear collisions 2027 — Nuclear Structure meets HIgh-energy Collisions</title>
-<link href="https://conferences.clicvia.com/conference/nushic-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>29 Mar – 1 Apr 2027 · Saint James, South Korea · Deadline: see official website · Official: https://indico.cern.ch/event/1686349/</summary>
 </entry>
 </feed>

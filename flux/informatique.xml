@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-01T06:00:00Z</updated>
+<updated>2026-11-02T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -225,18 +225,18 @@
 <summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
 </entry>
 <entry>
+<id>https://conferences.clicvia.com/conference/iros-2027/</id>
+<title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
+<link href="https://conferences.clicvia.com/conference/iros-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>27 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
+</entry>
+<entry>
 <id>https://conferences.clicvia.com/conference/icfp-2027/</id>
 <title>ICFP 2027 — International Conference on Function Programming</title>
 <link href="https://conferences.clicvia.com/conference/icfp-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>26 Sep – 1 Oct 2027 · Nijmegen, Netherlands · Deadline: 25 Feb 2027 · Official: https://icfp27.sigplan.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iros-2027/</id>
-<title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
-<link href="https://conferences.clicvia.com/conference/iros-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/miccai-2027/</id>

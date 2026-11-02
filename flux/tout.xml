@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-01T06:00:00Z</updated>
+<updated>2026-11-02T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/portoroz-2027-particle-physics-from-early/</id>
+<title>Portorož 2027 — Particle Physics from Early Universe to Future Colliders</title>
+<link href="https://conferences.clicvia.com/conference/portoroz-2027-particle-physics-from-early/"/>
+<updated>2026-11-02T06:00:00Z</updated>
+<summary>30 Mar – 2 Apr 2027 · Portorož, Slovenia · Deadline: see official website · Official: https://hepworkshop.ijs.si</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ggi-phd-school-on-theoretical-aspects-of-2027/</id>
 <title>GGI PhD School on Theoretical Aspects of Astroparticle Physics, Cosmology and Gravitation 2027 — TAPCG2027</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/icagac2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–19 Oct 2027 · Nice, France · Deadline: see official website · Official: https://astrophysics2027.pagesconferences.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mobicom-2027/</id>
-<title>MobiCom 2027 — ACM Annual International Conference On Mobile Computing And Networking</title>
-<link href="https://conferences.clicvia.com/conference/mobicom-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Oct 2027 ·  · Deadline: 26 Aug 2026, 2 Sep 2026 · Official: https://www.sigmobile.org/mobicom/2027/</summary>
 </entry>
 </feed>

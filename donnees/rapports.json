@@ -2379,14 +2379,14 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 80,
-"limites": 63,
-"limites_conferences": 50,
+"evenements": 78,
+"limites": 64,
+"limites_conferences": 51,
 "par_continent": {
 "afrique": 1,
 "amerique-nord": 16,
 "amerique-sud": 4,
-"asie": 32,
+"asie": 30,
 "europe": 23,
 "oceanie": 4
 },
@@ -2396,19 +2396,19 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 27,
+"physique": 25,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 79
+"presentiel": 77
 },
 "par_pays": {
 "AU": 4,
 "BE": 1,
 "BR": 3,
 "CH": 1,
-"CN": 15,
+"CN": 14,
 "CO": 1,
 "DE": 1,
 "FR": 1,
@@ -2419,7 +2419,7 @@
 "IN": 2,
 "IT": 11,
 "JP": 4,
-"KR": 2,
+"KR": 1,
 "KW": 1,
 "NL": 1,
 "OM": 1,
@@ -2434,10 +2434,10 @@
 "ZA": 1
 },
 "par_specialite": {
-"astro": 13,
+"astro": 12,
 "banque-islamique": 3,
 "bioinformatique": 1,
-"calcul-physique": 2,
+"calcul-physique": 1,
 "compta-generale": 2,
 "compta-gestion": 1,
 "donnees": 5,
@@ -2454,9 +2454,9 @@
 "medecine": 1,
 "nucleaire": 3,
 "particules": 11,
-"physique-generale": 2,
+"physique-generale": 1,
 "physique-theorique": 2,
-"quantique": 7,
+"quantique": 6,
 "reseaux": 2,
 "robotique": 1,
 "securite": 3,
@@ -2466,8 +2466,8 @@
 "vision": 2
 },
 "par_type": {
-"atelier": 9,
-"conference": 67,
+"atelier": 8,
+"conference": 66,
 "ecole": 4
 },
 "pays": 28,
@@ -2475,50 +2475,6 @@
 "tunisie": 0
 },
 "conferences": [
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-01",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-04",
-"id": "2026-asia-communications-and-photonics",
-"lien": "https://acpconf.com/",
-"limites": [],
-"mode": "presentiel",
-"pays": "CN",
-"specialites": [
-"physique-generale",
-"quantique"
-],
-"titre": "2026 Asia Communications and Photonics Conference",
-"type": "conference",
-"ville": "Hangzhou"
-},
-{
-"acronyme": "KIAS Cosmology Wokshop 2026",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-01",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-07",
-"id": "kias-cosmology-wokshop-2026",
-"lien": "https://symposia.kias.re.kr/cosmology2026",
-"limites": [],
-"mode": "presentiel",
-"pays": "KR",
-"specialites": [
-"astro",
-"calcul-physique"
-],
-"titre": "12th KIAS Workshop on Cosmology and Structure Formation",
-"type": "atelier",
-"ville": "Seoul"
-},
 {
 "acronyme": "VINCI",
 "annee": 2026,
@@ -5420,6 +5376,32 @@
 "ville": "Delft"
 },
 {
+"acronyme": "SACMAT",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-07-19",
+"domaines": [
+"informatique"
+],
+"fin": "2027-07-21",
+"id": "sacmat-2027",
+"lien": "https://www.sacmat.org/2027/",
+"limites": [
+{
+"date": "2026-11-04",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "GB",
+"specialites": [
+"securite"
+],
+"titre": "ACM Symposium on Access Control Models and Technologies",
+"type": "conference",
+"ville": "Durham"
+},
+{
 "acronyme": "VLDB",
 "annee": 2027,
 "continent": "europe",
@@ -5528,7 +5510,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-01",
+"derniere_date": "2026-11-02",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

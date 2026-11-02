@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-01 12:19",
- "derniere_lecture_reussie": "2026-11-01 12:19",
+ "mis_a_jour": "2026-11-02 13:30",
+ "derniere_lecture_reussie": "2026-11-02 13:30",
  "dernier_passage": {
-  "date": "2026-11-01 12:19",
+  "date": "2026-11-02 13:30",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 268,
    "brutes": 2346,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 128,
-   "brutes": 152,
-   "derniere_reussite": "2026-11-01 12:19",
+   "nombre": 127,
+   "brutes": 151,
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 43,
+   "nombre": 42,
    "brutes": 54,
-   "derniere_reussite": "2026-11-01 12:19",
+   "derniere_reussite": "2026-11-02 13:30",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 467,
+ "nombre": 465,
  "conferences": [
   {
    "id": "hpcc-2026",
@@ -117,115 +117,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "cigd-2026",
-   "acronyme": "CIGD 2026",
-   "titre": "2e Conférence internationale de la gouvernance et de la durabilité / International Conference on Governance and Sustainability",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-30",
-   "fin": "2026-11-01",
-   "ville": "Hammamet",
-   "pays": "TN",
-   "mode": "presentiel",
-   "continent": "afrique",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "gouvernance"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-15",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://www.afc-cca.com/assets/images/bibli/fichiers/CIGD_2026_Appel_Communications_VF-1-1.pdf",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.afc-cca.com/pages/liste-des-manifestations-appels-communication",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "2026-asia-communications-and-photonics",
-   "acronyme": "",
-   "titre": "2026 Asia Communications and Photonics Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-01",
-   "fin": "2026-11-04",
-   "ville": "Hangzhou",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "physique-generale",
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://acpconf.com/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3113158",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "kias-cosmology-wokshop-2026",
-   "acronyme": "KIAS Cosmology Wokshop 2026",
-   "titre": "12th KIAS Workshop on Cosmology and Structure Formation",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-01",
-   "fin": "2026-11-07",
-   "ville": "Seoul",
-   "pays": "KR",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "calcul-physique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://symposia.kias.re.kr/cosmology2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3162946",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -655,7 +546,7 @@
     {
      "date": "2026-06-20",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Notification expected to be unchanged",
      "heure": "23:59",
      "fuseau": "UTC+8"
     }
@@ -6682,7 +6573,7 @@
    "fuseau_limite": "",
    "dates_limites": [
     {
-     "date": "2026-10-10",
+     "date": "2026-10-25",
      "type": "article",
      "libelle": "Submission Deadline",
      "heure": "23:59",
@@ -9456,14 +9347,14 @@
     {
      "date": "2026-05-06",
      "type": "article",
-     "libelle": "Summer",
+     "libelle": "Summer; author rebuttal date tentative; decision is final major-revision notific",
      "heure": "23:59",
      "fuseau": "UTC-12"
     },
     {
      "date": "2026-08-19",
      "type": "article",
-     "libelle": "Fall",
+     "libelle": "Fall; decision is final major-revision notification",
      "heure": "23:59",
      "fuseau": "UTC-12"
     }
@@ -9796,6 +9687,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "portoroz-2027-particle-physics-from-early",
+   "acronyme": "",
+   "titre": "Portorož 2027 — Particle Physics from Early Universe to Future Colliders",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-30",
+   "fin": "2027-04-02",
+   "ville": "Portorož",
+   "pays": "SI",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://hepworkshop.ijs.si",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3221153",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-02"
+  },
+  {
    "id": "eurogp-2027",
    "acronyme": "EuroGP",
    "titre": "European Conference on Genetic Programming",
@@ -9939,10 +9864,10 @@
     "ia-apprentissage",
     "ihm"
    ],
-   "date_limite": "2026-11-01",
+   "date_limite": "2026-11-16",
    "type_limite": "article",
    "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-11-01",
@@ -10957,10 +10882,10 @@
     "vision",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-01",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-09-01",
@@ -15109,7 +15034,7 @@
      "date": "2026-10-30",
      "type": "article",
      "libelle": "Paper",
-     "heure": "20:00",
+     "heure": "21:00",
      "fuseau": "UTC"
     }
    ],
@@ -16057,16 +15982,16 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2027-04-20",
+   "date_limite": "2027-04-21",
    "type_limite": "article",
-   "heure_limite": "23:59",
+   "heure_limite": "11:59",
    "fuseau_limite": "UTC",
    "dates_limites": [
     {
-     "date": "2027-04-20",
+     "date": "2027-04-21",
      "type": "article",
      "libelle": "Regular conference papers (LNCS proceedings track)",
-     "heure": "23:59",
+     "heure": "11:59",
      "fuseau": "UTC"
     }
    ],
@@ -16394,7 +16319,7 @@
    "specialites": [
     "info-interdisciplinaire"
    ],
-   "date_limite": "2026-11-01",
+   "date_limite": "2026-12-01",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
@@ -17292,13 +17217,13 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2027-02-12",
+   "date_limite": "2026-11-04",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-10-30",
+     "date": "2026-11-04",
      "type": "article",
      "libelle": "First Cycle",
      "heure": "23:59",
@@ -18399,8 +18324,8 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-11-01",
-   "type_limite": "article",
+   "date_limite": "2026-11-25",
+   "type_limite": "resume",
    "heure_limite": "17:00",
    "fuseau_limite": "PT",
    "dates_limites": [
@@ -19138,50 +19063,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "iros-2027",
-   "acronyme": "IROS",
-   "titre": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-09-26",
-   "fin": "2027-10-01",
-   "ville": "Florence",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "ingenierie",
-    "informatique"
-   ],
-   "specialites": [
-    "robotique",
-    "ia-apprentissage"
-   ],
-   "date_limite": "2027-03-01",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
-   "dates_limites": [
-    {
-     "date": "2027-03-01",
-     "type": "article",
-     "libelle": "Paper submission deadline: March 1, 2027; exact cutoff time and timezone not spe",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2027.ieee-iros.org/",
-   "rang": "CORE A · CCF C",
-   "sources": [
-    "ccfddl",
-    "robo"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "miccai-2027",
    "acronyme": "MICCAI",
    "titre": "International Conference on Medical Image Computing and Computer Assisted Intervention",
@@ -19248,6 +19129,50 @@
     "inspire"
    ],
    "identifiant_source": "inspire-3153478",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "iros-2027",
+   "acronyme": "IROS",
+   "titre": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-27",
+   "fin": "2027-10-01",
+   "ville": "Florence",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "ingenierie",
+    "informatique"
+   ],
+   "specialites": [
+    "robotique",
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-03-01",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-03-01",
+     "type": "article",
+     "libelle": "Paper submission deadline: March 1, 2027; exact cutoff time and timezone not spe",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://2027.ieee-iros.org/",
+   "rang": "CORE A · CCF C",
+   "sources": [
+    "ccfddl",
+    "robo"
+   ],
+   "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -19420,7 +19345,7 @@
    "specialites": [
     "ihm"
    ],
-   "date_limite": "2026-11-01",
+   "date_limite": "2027-02-01",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",
