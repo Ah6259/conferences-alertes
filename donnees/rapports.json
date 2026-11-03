@@ -2379,13 +2379,13 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 78,
-"limites": 64,
-"limites_conferences": 51,
+"evenements": 77,
+"limites": 66,
+"limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
 "amerique-nord": 16,
-"amerique-sud": 4,
+"amerique-sud": 3,
 "asie": 30,
 "europe": 23,
 "oceanie": 4
@@ -2396,17 +2396,17 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 25,
+"physique": 24,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 77
+"presentiel": 76
 },
 "par_pays": {
 "AU": 4,
 "BE": 1,
-"BR": 3,
+"BR": 2,
 "CH": 1,
 "CN": 14,
 "CO": 1,
@@ -2434,7 +2434,7 @@
 "ZA": 1
 },
 "par_specialite": {
-"astro": 12,
+"astro": 11,
 "banque-islamique": 3,
 "bioinformatique": 1,
 "calcul-physique": 1,
@@ -2467,7 +2467,7 @@
 },
 "par_type": {
 "atelier": 8,
-"conference": 66,
+"conference": 65,
 "ecole": 4
 },
 "pays": 28,
@@ -2580,27 +2580,6 @@
 "titre": "IEEE/ACM International Symposium on Microarchitecture",
 "type": "conference",
 "ville": "Athens"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-sud",
-"debut": "2026-11-02",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-06",
-"id": "third-lsst-latam-2026",
-"lien": "https://www.ictp-saifr.org/3lsstlatamm2026/",
-"limites": [],
-"mode": "presentiel",
-"pays": "BR",
-"specialites": [
-"astro"
-],
-"titre": "Third LSST@LATAM Meeting",
-"type": "conference",
-"ville": "São Paulo"
 },
 {
 "acronyme": "UIST",
@@ -4936,6 +4915,32 @@
 "ville": "Shenyang"
 },
 {
+"acronyme": "EuroVis",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-05-31",
+"domaines": [
+"informatique"
+],
+"fin": "2027-06-04",
+"id": "eurovis-2027",
+"lien": "https://eurovis27.github.io/web/",
+"limites": [
+{
+"date": "2026-11-23",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "DE",
+"specialites": [
+"graphisme"
+],
+"titre": "Eurographics Conference on Visualization",
+"type": "conference",
+"ville": "Stuttgart"
+},
+{
 "acronyme": "ISCA",
 "annee": 2027,
 "continent": "amerique-nord",
@@ -5402,6 +5407,33 @@
 "ville": "Durham"
 },
 {
+"acronyme": "ICDAR",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-08-18",
+"domaines": [
+"informatique"
+],
+"fin": "2027-08-22",
+"id": "icdar-2027",
+"lien": "https://icdar2027.org/",
+"limites": [
+{
+"date": "2026-11-15",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "MY",
+"specialites": [
+"ia-apprentissage",
+"vision"
+],
+"titre": "International Conference on Document Analysis and Recognition",
+"type": "conference",
+"ville": "Kuala Lumpur"
+},
+{
 "acronyme": "VLDB",
 "annee": 2027,
 "continent": "europe",
@@ -5510,7 +5542,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-02",
+"derniere_date": "2026-11-03",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

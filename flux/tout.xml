@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-02T06:00:00Z</updated>
+<updated>2026-11-03T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icml-2027/</id>
+<title>ICML 2027 — International Conference on Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/icml-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>31 Jul – 6 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/animma-2027/</id>
+<title>ANIMMA 2027 — 10th International Conference on Advancements in Nuclear Instrumentation Measurement Methods and their Applications</title>
+<link href="https://conferences.clicvia.com/conference/animma-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>14–18 Jun 2027 · Prague, Czech Republic · Deadline: see official website · Official: https://animma.com/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sec-2027/</id>
+<title>SEC 2027 — IFIP International Information Security Conference</title>
+<link href="https://conferences.clicvia.com/conference/sec-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>14–16 Jun 2027 · Linköping University, Sweden · Deadline: 15 Dec 2026 · Official: https://ifipsec.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/portoroz-2027-particle-physics-from-early/</id>
 <title>Portorož 2027 — Particle Physics from Early Universe to Future Colliders</title>
@@ -362,7 +383,7 @@
 <title>EuroVis 2027 — Eurographics Conference on Visualization</title>
 <link href="https://conferences.clicvia.com/conference/eurovis-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
-<summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: see official website · Official: https://eurovis27.github.io/web/</summary>
+<summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: 23 Nov 2026, 2 Dec 2026 · Official: https://eurovis27.github.io/web/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/bttb15-2027/</id>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/neuroscience-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Oct 2027 · Chicago, United States · Deadline: see official website · Official: https://www.sfn.org/meetings/past-and-future-sfn-meetings</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/issre-2027/</id>
-<title>ISSRE 2027 — International Symposium on Software Reliability Engineering</title>
-<link href="https://conferences.clicvia.com/conference/issre-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–22 Oct 2027 · Taipa, China · Deadline: see official website · Official: https://conf.researchr.org/home/issre-2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/fm-2027/</id>
-<title>FM 2027 — International Symposium on Formal Methods</title>
-<link href="https://conferences.clicvia.com/conference/fm-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Oct 2027 · Athens, Greece · Deadline: see official website · Official: https://www.fmeurope.org/feature/upcoming_conferences/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icagac2027/</id>
-<title>ICAGAC2027 — 2nd International Conference on Advances in Gravitation, Astrophysics and Cosmology — ICAGAC2027</title>
-<link href="https://conferences.clicvia.com/conference/icagac2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–19 Oct 2027 · Nice, France · Deadline: see official website · Official: https://astrophysics2027.pagesconferences.org/</summary>
 </entry>
 </feed>

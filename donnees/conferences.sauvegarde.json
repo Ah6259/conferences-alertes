@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-02 13:30",
- "derniere_lecture_reussie": "2026-11-02 13:30",
+ "mis_a_jour": "2026-11-03 12:59",
+ "derniere_lecture_reussie": "2026-11-03 12:59",
  "dernier_passage": {
-  "date": "2026-11-02 13:30",
+  "date": "2026-11-03 12:59",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 268,
-   "brutes": 2346,
-   "derniere_reussite": "2026-11-02 13:30",
+   "nombre": 269,
+   "brutes": 2347,
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-02 13:30",
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-11-02 13:30",
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-02 13:30",
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-02 13:30",
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-02 13:30",
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
    "nombre": 127,
-   "brutes": 151,
-   "derniere_reussite": "2026-11-02 13:30",
+   "brutes": 152,
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -73,54 +73,13 @@
    "etat": "ok",
    "nombre": 42,
    "brutes": 54,
-   "derniere_reussite": "2026-11-02 13:30",
+   "derniere_reussite": "2026-11-03 12:59",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 465,
+ "nombre": 466,
  "conferences": [
-  {
-   "id": "hpcc-2026",
-   "acronyme": "HPCC",
-   "titre": "IEEE International Conference on High Performance Computing and Communications",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-10-29",
-   "fin": "2026-11-02",
-   "ville": "Luoyang",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-05",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://ieee-hyper-intelligence.org/2026/hpcc/",
-   "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "vinci-2026",
    "acronyme": "VINCI",
@@ -337,39 +296,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "third-lsst-latam-2026",
-   "acronyme": "",
-   "titre": "Third LSST@LATAM Meeting",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-02",
-   "fin": "2026-11-06",
-   "ville": "São Paulo",
-   "pays": "BR",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.ictp-saifr.org/3lsstlatamm2026/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3179059",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -11066,8 +10992,8 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2026-11-02",
-   "type_limite": "resume",
+   "date_limite": "2026-11-09",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -12090,7 +12016,7 @@
      "date": "2026-10-02",
      "type": "article",
      "libelle": "Paper",
-     "heure": "11:59",
+     "heure": "12:59",
      "fuseau": "UTC"
     },
     {
@@ -12491,10 +12417,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-02",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-02",
@@ -13466,11 +13392,26 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2026-11-23",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-23",
+     "type": "resume",
+     "libelle": "Abstract · Full papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-02",
+     "type": "article",
+     "libelle": "Full papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://eurovis27.github.io/web/",
    "rang": "CORE B · CCF B",
    "sources": [
@@ -13939,10 +13880,10 @@
    "specialites": [
     "theorie"
    ],
-   "date_limite": "2026-11-02",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-02",
@@ -14544,6 +14485,41 @@
    "ajoute_le": "2026-10-27"
   },
   {
+   "id": "animma-2027",
+   "acronyme": "ANIMMA 2027",
+   "titre": "10th International Conference on Advancements in Nuclear Instrumentation Measurement Methods and their Applications",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-14",
+   "fin": "2027-06-18",
+   "ville": "Prague",
+   "pays": "CZ",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation",
+    "astro",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://animma.com/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3221522",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-03"
+  },
+  {
    "id": "codaspy-2027",
    "acronyme": "CODASPY",
    "titre": "ACM Conference on Data and Application Security and Privacy",
@@ -14665,6 +14641,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "sec-2027",
+   "acronyme": "SEC",
+   "titre": "IFIP International Information Security Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-14",
+   "fin": "2027-06-16",
+   "ville": "Linköping University",
+   "pays": "SE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "securite"
+   ],
+   "date_limite": "2026-12-15",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-12-15",
+     "type": "article",
+     "libelle": "Full papers",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://ifipsec.org/",
+   "rang": "CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-03"
   },
   {
    "id": "ease-2027",
@@ -17472,6 +17489,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icml-2027",
+   "acronyme": "ICML",
+   "titre": "International Conference on Machine Learning",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-31",
+   "fin": "2027-08-06",
+   "ville": "Riocentro",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://icml.cc/Conferences/2027",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-03"
+  },
+  {
    "id": "sigkdd-2027",
    "acronyme": "SIGKDD",
    "titre": "ACM Knowledge Discovery and Data Mining",
@@ -17636,11 +17686,26 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-21",
+   "type_limite": "resume",
+   "heure_limite": "22:00",
+   "fuseau_limite": "UTC+0",
+   "dates_limites": [
+    {
+     "date": "2027-01-21",
+     "type": "resume",
+     "libelle": "Abstract · Submissions form & conflicts / paper deadline (upload deadline Jan 29",
+     "heure": "22:00",
+     "fuseau": "UTC+0"
+    },
+    {
+     "date": "2027-01-28",
+     "type": "article",
+     "libelle": "Submissions form & conflicts / paper deadline (upload deadline Jan 29)",
+     "heure": "22:00",
+     "fuseau": "UTC+0"
+    }
+   ],
    "lien": "https://s2027.siggraph.org/",
    "rang": "CORE A* · CCF A",
    "sources": [
@@ -17950,22 +18015,29 @@
     "ia-apprentissage",
     "vision"
    ],
-   "date_limite": "2027-01-31",
-   "type_limite": "resume",
+   "date_limite": "2026-11-15",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
+     "date": "2026-11-15",
+     "type": "article",
+     "libelle": "Journal track; initial decision Jan 15, revised submission Apr 1",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
      "date": "2027-01-31",
      "type": "resume",
-     "libelle": "Abstract",
+     "libelle": "Abstract · Conference track",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2027-02-20",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Conference track",
      "heure": "23:59",
      "fuseau": "AoE"
     }

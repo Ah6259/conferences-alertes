@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-02T06:00:00Z</updated>
+<updated>2026-11-03T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icml-2027/</id>
+<title>ICML 2027 — International Conference on Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/icml-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>31 Jul – 6 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sec-2027/</id>
+<title>SEC 2027 — IFIP International Information Security Conference</title>
+<link href="https://conferences.clicvia.com/conference/sec-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>14–16 Jun 2027 · Linköping University, Sweden · Deadline: 15 Dec 2026 · Official: https://ifipsec.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/cscw-2027/</id>
 <title>CSCW 2027 — ACM Conference on Computer Supported Cooperative Work and Social Computing</title>
@@ -138,7 +152,7 @@
 <title>EuroVis 2027 — Eurographics Conference on Visualization</title>
 <link href="https://conferences.clicvia.com/conference/eurovis-2027/"/>
 <updated>2026-10-10T06:00:00Z</updated>
-<summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: see official website · Official: https://eurovis27.github.io/web/</summary>
+<summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: 23 Nov 2026, 2 Dec 2026 · Official: https://eurovis27.github.io/web/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icpr-2027/</id>
@@ -348,7 +362,7 @@
 <title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
 <link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 31 Jan 2027, 20 Feb 2027 · Official: https://icdar2027.org/</summary>
+<summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 15 Nov 2026, 31 Jan 2027, 20 Feb 2027 · Official: https://icdar2027.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/acl-2027/</id>
@@ -369,7 +383,7 @@
 <title>ACM SIGGRAPH 2027 — ACM SIGGRAPH Annual Conference</title>
 <link href="https://conferences.clicvia.com/conference/acm-siggraph-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Aug 2027 · Anaheim, United States · Deadline: see official website · Official: https://s2027.siggraph.org/</summary>
+<summary>8–12 Aug 2027 · Anaheim, United States · Deadline: 21 Jan 2027, 28 Jan 2027 · Official: https://s2027.siggraph.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sigcomm-2027/</id>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/sigkdd-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>1–5 Aug 2027 · San Jose, United States · Deadline: 19 Jul 2026, 26 Jul 2026 · Official: https://kdd2027.kdd.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/cec-2027/</id>
-<title>CEC 2027 — IEEE Congress on Evolutionary Computation</title>
-<link href="https://conferences.clicvia.com/conference/cec-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 15 Jan 2027 · Official: https://ieeecec.org</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ieee-cec-2027/</id>
-<title>IEEE CEC 2027 — IEEE Congress on Evolutionary Computation</title>
-<link href="https://conferences.clicvia.com/conference/ieee-cec-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>25–28 Jul 2027 · Edinburgh, United Kingdom · Deadline: 28 Feb 2027 · Official: https://ieeecec.org/2027</summary>
 </entry>
 </feed>

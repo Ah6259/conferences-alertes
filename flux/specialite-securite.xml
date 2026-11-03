@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-securite.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-securite.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-02T06:00:00Z</updated>
+<updated>2026-11-03T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/sec-2027/</id>
+<title>SEC 2027 — IFIP International Information Security Conference</title>
+<link href="https://conferences.clicvia.com/conference/sec-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>14–16 Jun 2027 · Linköping University, Sweden · Deadline: 15 Dec 2026 · Official: https://ifipsec.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sais-2027/</id>
 <title>SAIS 2027 — USENIX Conference on Secure Agentic-AI Systems</title>
