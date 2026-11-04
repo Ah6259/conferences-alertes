@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-astro.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-astro.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-03T06:00:00Z</updated>
+<updated>2026-11-04T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/</id>
+<title>Simulating Extreme Spacetimes with SpEC and SpECTRE II: Summer school and developers’ meeting</title>
+<link href="https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>19–23 Jul 2027 · Providence, United States · Deadline: see official website · Official: https://icerm.brown.edu/program/topical_workshop/tw-27-ses2</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/animma-2027/</id>
 <title>ANIMMA 2027 — 10th International Conference on Advancements in Nuclear Instrumentation Measurement Methods and their Applications</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/loop-the-loop-2026-feynman-calculus-and-its/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–20 Nov 2026 · Pisa, Italy · Deadline: see official website · Official: https://indico.sns.it/e/loop-the-loop-2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/21st-patras-workshop-on-axions-wimps-and-2026/</id>
-<title>21st Patras Workshop on Axions, WIMPs and WISPs</title>
-<link href="https://conferences.clicvia.com/conference/21st-patras-workshop-on-axions-wimps-and-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>9–13 Nov 2026 · Perth, Australia · Deadline: see official website · Official: https://indico.global/event/16402/</summary>
 </entry>
 </feed>

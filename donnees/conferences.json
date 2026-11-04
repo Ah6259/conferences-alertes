@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-03 12:59",
- "derniere_lecture_reussie": "2026-11-03 12:59",
+ "mis_a_jour": "2026-11-04 13:13",
+ "derniere_lecture_reussie": "2026-11-04 13:13",
  "dernier_passage": {
-  "date": "2026-11-03 12:59",
+  "date": "2026-11-04 13:13",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 269,
    "brutes": 2347,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 127,
-   "brutes": 152,
-   "derniere_reussite": "2026-11-03 12:59",
+   "nombre": 131,
+   "brutes": 157,
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 42,
+   "nombre": 41,
    "brutes": 54,
-   "derniere_reussite": "2026-11-03 12:59",
+   "derniere_reussite": "2026-11-04 13:13",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 466,
+ "nombre": 469,
  "conferences": [
   {
    "id": "vinci-2026",
@@ -201,55 +201,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iisfc-2026",
-   "acronyme": "IISFC 2026",
-   "titre": "International Islamic and Sustainable Finance Conference (Muscat University & Rennes School of Business)",
-   "annee": 2026,
-   "type": "ecole",
-   "debut": "2026-11-02",
-   "fin": "2026-11-03",
-   "ville": "Muscat",
-   "pays": "OM",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "economie-islamique",
-    "sukuk"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-10-05",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "",
-     "fuseau": ""
-    },
-    {
-     "date": "2026-10-16",
-     "type": "article",
-     "libelle": "Full paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://www.iisfc2026.com/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.iisfc2026.com/",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -7700,6 +7651,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "th-institute-on-quantum-sensing-simulation-and-2027",
+   "acronyme": "",
+   "titre": "TH institute on Quantum Sensing, Simulation and Computation",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-02-15",
+   "fin": "2027-02-26",
+   "ville": "Geenva",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique",
+    "particules",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1739438/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3222028",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-04"
+  },
+  {
    "id": "wsdm-2027",
    "acronyme": "WSDM",
    "titre": "International Conference on Web Search and Data Mining",
@@ -8934,7 +8920,7 @@
    "specialites": [
     "neurosciences"
    ],
-   "date_limite": "2026-11-03",
+   "date_limite": "2027-01-19",
    "type_limite": "resume",
    "heure_limite": "",
    "fuseau_limite": "",
@@ -9246,6 +9232,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "my-favourite-dark-matter-model-2027",
+   "acronyme": "",
+   "titre": "My Favourite Dark Matter Model II",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-22",
+   "fin": "2027-03-25",
+   "ville": "Angra do Heroísmo, Terceira Island",
+   "pays": "PT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1747734/overview",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3222631",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-04"
   },
   {
    "id": "ndss-2027",
@@ -15982,6 +16001,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "13th-workshop-on-flavor-symmetries-and-2027",
+   "acronyme": "",
+   "titre": "13th Workshop on Flavor Symmetries and Consequences in Accelerators and Cosmology (FLASY 2027)",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-07-04",
+   "fin": "2027-07-09",
+   "ville": "Hyderabad",
+   "pays": "IN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.global/e/flasy27",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3222633",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-04"
+  },
+  {
    "id": "cgi-2027",
    "acronyme": "CGI",
    "titre": "Computer Graphics International",
@@ -17265,6 +17317,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "simulating-extreme-spacetimes-with-spec-and-2027",
+   "acronyme": "",
+   "titre": "Simulating Extreme Spacetimes with SpEC and SpECTRE II: Summer school and developers’ meeting",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-07-19",
+   "fin": "2027-07-23",
+   "ville": "Providence",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://icerm.brown.edu/program/topical_workshop/tw-27-ses2",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3222030",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-04"
+  },
+  {
    "id": "icic-2027",
    "acronyme": "ICIC",
    "titre": "International Conference on Intelligent Computing",
@@ -18028,14 +18114,14 @@
      "fuseau": "AoE"
     },
     {
-     "date": "2027-01-31",
+     "date": "2027-02-23",
      "type": "resume",
      "libelle": "Abstract · Conference track",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
-     "date": "2027-02-20",
+     "date": "2027-03-02",
      "type": "article",
      "libelle": "Conference track",
      "heure": "23:59",
@@ -18486,16 +18572,16 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2027-02-09",
+   "date_limite": "2027-02-10",
    "type_limite": "article",
-   "heure_limite": "23:59",
+   "heure_limite": "11:59",
    "fuseau_limite": "UTC+0",
    "dates_limites": [
     {
-     "date": "2027-02-09",
+     "date": "2027-02-10",
      "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
+     "libelle": "Regular papers; rebuttal April 13-20. Date-only milestones use AoE end-of-day co",
+     "heure": "11:59",
      "fuseau": "UTC+0"
     }
    ],

@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-03T06:00:00Z</updated>
+<updated>2026-11-04T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/</id>
+<title>13th Workshop on Flavor Symmetries and Consequences in Accelerators and Cosmology (FLASY 2027)</title>
+<link href="https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>4–9 Jul 2027 · Hyderabad, India · Deadline: see official website · Official: https://indico.global/e/flasy27</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/my-favourite-dark-matter-model-2027/</id>
+<title>My Favourite Dark Matter Model II</title>
+<link href="https://conferences.clicvia.com/conference/my-favourite-dark-matter-model-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>22–25 Mar 2027 · Angra do Heroísmo, Terceira Island, Portugal · Deadline: see official website · Official: https://indico.cern.ch/event/1747734/overview</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/th-institute-on-quantum-sensing-simulation-and-2027/</id>
+<title>TH institute on Quantum Sensing, Simulation and Computation</title>
+<link href="https://conferences.clicvia.com/conference/th-institute-on-quantum-sensing-simulation-and-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>15–26 Feb 2027 · Geenva, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1739438/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/portoroz-2027-particle-physics-from-early/</id>
 <title>Portorož 2027 — Particle Physics from Early Universe to Future Colliders</title>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/xscrc2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–15 Jan 2027 · Prevessin (CERN), Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1686265/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/winter-school-on-experimental-high-energy-2027/</id>
-<title>WINTER SCHOOL ON EXPERIMENTAL HIGH ENERGY PHYSICS</title>
-<link href="https://conferences.clicvia.com/conference/winter-school-on-experimental-high-energy-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–30 Jan 2027 · Mumbai, India · Deadline: see official website · Official: https://www.tifr.res.in/ehep2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/14th-bangkok-workshop-on-high-energy-2027/</id>
-<title>14th Bangkok Workshop on High Energy Theory</title>
-<link href="https://conferences.clicvia.com/conference/14th-bangkok-workshop-on-high-energy-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>4–8 Jan 2027 · Chulalongkorn University, Bangkok, Thailand · Deadline: see official website · Official: https://www.thaihep.phys.sc.chula.ac.th/BKK2027HEPTH/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/spaatind2027/</id>
-<title>Spaatind2027 — Spåtind 2027 - Nordic Conference on Particle Physics — Nordic-Baltic conference series on High Energy Particle and Nuclear Physics</title>
-<link href="https://conferences.clicvia.com/conference/spaatind2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–7 Jan 2027 · Skeikampen, Norway · Deadline: see official website · Official: https://indico.cern.ch/event/1640820/</summary>
 </entry>
 </feed>

@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-03T06:00:00Z</updated>
+<updated>2026-11-04T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/</id>
+<title>Simulating Extreme Spacetimes with SpEC and SpECTRE II: Summer school and developers’ meeting</title>
+<link href="https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>19–23 Jul 2027 · Providence, United States · Deadline: see official website · Official: https://icerm.brown.edu/program/topical_workshop/tw-27-ses2</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/</id>
+<title>13th Workshop on Flavor Symmetries and Consequences in Accelerators and Cosmology (FLASY 2027)</title>
+<link href="https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>4–9 Jul 2027 · Hyderabad, India · Deadline: see official website · Official: https://indico.global/e/flasy27</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/my-favourite-dark-matter-model-2027/</id>
+<title>My Favourite Dark Matter Model II</title>
+<link href="https://conferences.clicvia.com/conference/my-favourite-dark-matter-model-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>22–25 Mar 2027 · Angra do Heroísmo, Terceira Island, Portugal · Deadline: see official website · Official: https://indico.cern.ch/event/1747734/overview</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/th-institute-on-quantum-sensing-simulation-and-2027/</id>
+<title>TH institute on Quantum Sensing, Simulation and Computation</title>
+<link href="https://conferences.clicvia.com/conference/th-institute-on-quantum-sensing-simulation-and-2027/"/>
+<updated>2026-11-04T06:00:00Z</updated>
+<summary>15–26 Feb 2027 · Geenva, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1739438/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/animma-2027/</id>
 <title>ANIMMA 2027 — 10th International Conference on Advancements in Nuclear Instrumentation Measurement Methods and their Applications</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/edsu-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–14 May 2027 · Guadeloupe, Guadeloupe (France) · Deadline: see official website · Official: https://indico.cern.ch/event/1561485/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iclr-2027/</id>
-<title>ICLR 2027 — 15th International Conference on Learning Representations</title>
-<link href="https://conferences.clicvia.com/conference/iclr-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26–30 Apr 2027 · San Francisco, United States · Deadline: see official website · Official: https://iclr.cc/Conferences/2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iso-break-27-2027/</id>
-<title>ISO-BREAK 27 2027 — Workshop on isospin symmetry violation: kaons and beyond</title>
-<link href="https://conferences.clicvia.com/conference/iso-break-27-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>19–24 Apr 2027 · Kielce, Poland · Deadline: see official website · Official: https://indico.cern.ch/event/1715495/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/asplos-2027/</id>
-<title>ASPLOS 2027 — 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems</title>
-<link href="https://conferences.clicvia.com/conference/asplos-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–15 Apr 2027 · Heraklion, Greece · Deadline: see official website · Official: https://www.asplos-conference.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ghp2027/</id>
-<title>GHP2027 — 12th Workshop of the APS Topical Group on Hadronic Physics (GHP 2027)</title>
-<link href="https://conferences.clicvia.com/conference/ghp2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>9–11 Apr 2027 · Atlanta, United States · Deadline: see official website · Official: https://indico.jlab.org/e/GHP2027</summary>
 </entry>
 </feed>
