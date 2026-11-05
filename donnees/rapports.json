@@ -2380,7 +2380,7 @@
 "chiffres": {
 "afrique": 1,
 "evenements": 77,
-"limites": 66,
+"limites": 67,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
@@ -4474,7 +4474,7 @@
 "lien": "https://saiconference.com/CVC",
 "limites": [
 {
-"date": "2026-11-01",
+"date": "2026-11-15",
 "type": "article"
 }
 ],
@@ -4663,6 +4663,10 @@
 {
 "date": "2026-11-05",
 "type": "article"
+},
+{
+"date": "2026-11-05",
+"type": "resume"
 }
 ],
 "mode": "presentiel",
@@ -5542,7 +5546,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-04",
+"derniere_date": "2026-11-05",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

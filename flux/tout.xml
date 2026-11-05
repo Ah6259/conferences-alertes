@@ -4,9 +4,58 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-04T06:00:00Z</updated>
+<updated>2026-11-05T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/fast-2028/</id>
+<title>FAST 2028 — USENIX Conference on File and Storage Technologies</title>
+<link href="https://conferences.clicvia.com/conference/fast-2028/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28 Feb – 1 Mar 2028 · Seattle, United States · Deadline: see official website · Official: https://www.usenix.org/conference/fast28</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/iswc-2027/</id>
+<title>ISWC 2027 — International Semantic Web Conference</title>
+<link href="https://conferences.clicvia.com/conference/iswc-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>24–28 Oct 2027 · Montevideo, Uruguay · Deadline: see official website · Official: https://iswc2027.semanticweb.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/apweb-waim-2027/</id>
+<title>APWeb-WAIM 2027 — APWeb-WAIM joint international conference on Web and Big Data</title>
+<link href="https://conferences.clicvia.com/conference/apweb-waim-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>29–31 Aug 2027 · Guiyang, China · Deadline: 7 Mar 2027, 14 May 2027 · Official: https://conferences.sigappfr.org/apweb2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/cogsci-2027/</id>
+<title>CogSci 2027 — Annual Meeting of the Cognitive Science Society</title>
+<link href="https://conferences.clicvia.com/conference/cogsci-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28–31 Jul 2027 · Euskalduna Bilbao Convention Centre, Spain · Deadline: see official website · Official: https://cognitivesciencesociety.org/cogsci-2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/egsr-2027/</id>
+<title>EGSR 2027 — Eurographics Symposium on Rendering</title>
+<link href="https://conferences.clicvia.com/conference/egsr-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>5–7 Jul 2027 · Università della Svizzera italiana, Switzerland · Deadline: see official website · Official: https://www.egsr2027.usi.ch/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mdm-2027/</id>
+<title>MDM 2027 — IEEE International Conference on Mobile Data Management</title>
+<link href="https://conferences.clicvia.com/conference/mdm-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28 Jun – 1 Jul 2027 · Hamilton, New Zealand · Deadline: 25 Jan 2027 · Official: https://mdm2027.github.io/index.html</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/machine-learning-physics-across-scales-from-2026/</id>
+<title>Machine Learning Physics across Scales: From Elementary Particles to the Universe</title>
+<link href="https://conferences.clicvia.com/conference/machine-learning-physics-across-scales-from-2026/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>1–3 Dec 2026 · Tokyo, Japan · Deadline: see official website · Official: https://indico2.riken.jp/event/5793/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/</id>
 <title>Simulating Extreme Spacetimes with SpEC and SpECTRE II: Summer school and developers’ meeting</title>
@@ -377,54 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/eswc-2027/"/>
 <updated>2026-10-12T06:00:00Z</updated>
 <summary>23–27 May 2027 · Limassol, Cyprus · Deadline: 10 Dec 2026, 17 Dec 2026 · Official: https://2027.eswc-conferences.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/kr-2027/</id>
-<title>KR 2027 — International Conference on Principles of Knowledge Representation and Reasoning</title>
-<link href="https://conferences.clicvia.com/conference/kr-2027/"/>
-<updated>2026-10-11T06:00:00Z</updated>
-<summary>21–24 Sep 2027 · Buenos Aires, Argentina · Deadline: 23 Apr 2027, 28 Apr 2027 · Official: https://kr.org/KR2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icip-2027/</id>
-<title>ICIP 2027 — The IEEE International Conference on Image Processing</title>
-<link href="https://conferences.clicvia.com/conference/icip-2027/"/>
-<updated>2026-10-10T06:00:00Z</updated>
-<summary>29 Nov – 3 Dec 2027 · Singapore · Deadline: 31 Mar 2027 · Official: https://2027.ieeeicip.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icdm-2027/</id>
-<title>ICDM 2027 — IEEE International Conference on Data Mining</title>
-<link href="https://conferences.clicvia.com/conference/icdm-2027/"/>
-<updated>2026-10-10T06:00:00Z</updated>
-<summary>15–18 Nov 2027 · Brisbane, Australia · Deadline: 6 Jun 2027 · Official: https://icdm2027-website.onrender.com/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icic-2027/</id>
-<title>ICIC 2027 — International Conference on Intelligent Computing</title>
-<link href="https://conferences.clicvia.com/conference/icic-2027/"/>
-<updated>2026-10-10T06:00:00Z</updated>
-<summary>22–26 Jul 2027 · Jinan, China · Deadline: 15 Mar 2027 · Official: https://ic-icc.cn/2027/index.php</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/eurovis-2027/</id>
-<title>EuroVis 2027 — Eurographics Conference on Visualization</title>
-<link href="https://conferences.clicvia.com/conference/eurovis-2027/"/>
-<updated>2026-10-10T06:00:00Z</updated>
-<summary>31 May – 4 Jun 2027 · Stuttgart, Germany · Deadline: 23 Nov 2026, 2 Dec 2026 · Official: https://eurovis27.github.io/web/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/bttb15-2027/</id>
-<title>BTTB15 2027 — 15th Beam Telescopes and Test Beams workshop</title>
-<link href="https://conferences.clicvia.com/conference/bttb15-2027/"/>
-<updated>2026-10-10T06:00:00Z</updated>
-<summary>12–16 Apr 2027 · Amsterdam, Netherlands · Deadline: see official website · Official: https://indico.cern.ch/e/bttb15</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icpr-2027/</id>
-<title>ICPR 2027 — International Conference on Pattern Recognition</title>
-<link href="https://conferences.clicvia.com/conference/icpr-2027/"/>
-<updated>2026-10-09T06:00:00Z</updated>
-<summary>4–6 Oct 2027 · Online · Deadline: 1 Mar 2027, 8 Mar 2027 · Official: https://www.icpr2027.com/</summary>
 </entry>
 </feed>

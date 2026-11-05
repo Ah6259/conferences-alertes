@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-04T06:00:00Z</updated>
+<updated>2026-11-05T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/machine-learning-physics-across-scales-from-2026/</id>
+<title>Machine Learning Physics across Scales: From Elementary Particles to the Universe</title>
+<link href="https://conferences.clicvia.com/conference/machine-learning-physics-across-scales-from-2026/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>1–3 Dec 2026 · Tokyo, Japan · Deadline: see official website · Official: https://indico2.riken.jp/event/5793/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/</id>
 <title>13th Workshop on Flavor Symmetries and Consequences in Accelerators and Cosmology (FLASY 2027)</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/mechanical-quantum-sensors-for-new-physics-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Jan 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/472/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/xscrc2027/</id>
-<title>XSCRC2027 — Cross Sections for Cosmic Rays at CERN</title>
-<link href="https://conferences.clicvia.com/conference/xscrc2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–15 Jan 2027 · Prevessin (CERN), Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1686265/</summary>
 </entry>
 </feed>

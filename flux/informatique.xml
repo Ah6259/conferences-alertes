@@ -4,9 +4,51 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-04T06:00:00Z</updated>
+<updated>2026-11-05T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/fast-2028/</id>
+<title>FAST 2028 — USENIX Conference on File and Storage Technologies</title>
+<link href="https://conferences.clicvia.com/conference/fast-2028/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28 Feb – 1 Mar 2028 · Seattle, United States · Deadline: see official website · Official: https://www.usenix.org/conference/fast28</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/iswc-2027/</id>
+<title>ISWC 2027 — International Semantic Web Conference</title>
+<link href="https://conferences.clicvia.com/conference/iswc-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>24–28 Oct 2027 · Montevideo, Uruguay · Deadline: see official website · Official: https://iswc2027.semanticweb.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/apweb-waim-2027/</id>
+<title>APWeb-WAIM 2027 — APWeb-WAIM joint international conference on Web and Big Data</title>
+<link href="https://conferences.clicvia.com/conference/apweb-waim-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>29–31 Aug 2027 · Guiyang, China · Deadline: 7 Mar 2027, 14 May 2027 · Official: https://conferences.sigappfr.org/apweb2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/cogsci-2027/</id>
+<title>CogSci 2027 — Annual Meeting of the Cognitive Science Society</title>
+<link href="https://conferences.clicvia.com/conference/cogsci-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28–31 Jul 2027 · Euskalduna Bilbao Convention Centre, Spain · Deadline: see official website · Official: https://cognitivesciencesociety.org/cogsci-2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/egsr-2027/</id>
+<title>EGSR 2027 — Eurographics Symposium on Rendering</title>
+<link href="https://conferences.clicvia.com/conference/egsr-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>5–7 Jul 2027 · Università della Svizzera italiana, Switzerland · Deadline: see official website · Official: https://www.egsr2027.usi.ch/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mdm-2027/</id>
+<title>MDM 2027 — IEEE International Conference on Mobile Data Management</title>
+<link href="https://conferences.clicvia.com/conference/mdm-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28 Jun – 1 Jul 2027 · Hamilton, New Zealand · Deadline: 25 Jan 2027 · Official: https://mdm2027.github.io/index.html</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icml-2027/</id>
 <title>ICML 2027 — International Conference on Machine Learning</title>
@@ -166,7 +208,7 @@
 <title>ACM SIGGRAPH ASIA 2027 — ACM SIGGRAPH Annual Conference in Asia</title>
 <link href="https://conferences.clicvia.com/conference/acm-siggraph-asia-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>30 Nov – 3 Dec 2027 · Tokyo International Forum, Japan · Deadline: see official website · Official: https://asia.siggraph.org/2027/</summary>
+<summary>30 Nov – 3 Dec 2027 · Tokyo International Forum, Japan · Deadline: see official website · Official: https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/issre-2027/</id>
@@ -384,47 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/acm-siggraph-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Aug 2027 · Anaheim, United States · Deadline: 21 Jan 2027, 28 Jan 2027 · Official: https://s2027.siggraph.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigcomm-2027/</id>
-<title>SIGCOMM 2027 — ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication</title>
-<link href="https://conferences.clicvia.com/conference/sigcomm-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Aug 2027 · Bangkok, Thailand · Deadline: 2 Feb 2027 · Official: https://conferences.sigcomm.org/sigcomm/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/siggraph-2027/</id>
-<title>SIGGRAPH 2027 — Conference on Computer Graphics and Interactive Techniques</title>
-<link href="https://conferences.clicvia.com/conference/siggraph-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Aug 2027 · Anaheim Convention Center, United States · Deadline: see official website · Official: https://www.siggraph.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/soups-2027/</id>
-<title>SOUPS 2027 — Symposium On Usable Privacy and Security</title>
-<link href="https://conferences.clicvia.com/conference/soups-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–10 Aug 2027 · Denver, United States · Deadline: see official website · Official: https://www.usenix.org/conference/soups2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ijcai-2027/</id>
-<title>IJCAI 2027 — International Joint Conference on Artificial Intelligence</title>
-<link href="https://conferences.clicvia.com/conference/ijcai-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–13 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027, 11 Jan 2027 · Official: https://2027.ijcai.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ieee-cog-2027/</id>
-<title>IEEE CoG 2027 — IEEE Conference on Games</title>
-<link href="https://conferences.clicvia.com/conference/ieee-cog-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–5 Aug 2027 · Aizuwakamatsu, Japan · Deadline: 1 Mar 2027, 15 May 2027 · Official: https://cog2027.u-aizu.ac.jp/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigkdd-2027/</id>
-<title>SIGKDD 2027 — ACM Knowledge Discovery and Data Mining</title>
-<link href="https://conferences.clicvia.com/conference/sigkdd-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>1–5 Aug 2027 · San Jose, United States · Deadline: 19 Jul 2026, 26 Jul 2026 · Official: https://kdd2027.kdd.org/</summary>
 </entry>
 </feed>

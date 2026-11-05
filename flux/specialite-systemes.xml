@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-04T06:00:00Z</updated>
+<updated>2026-11-05T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/fast-2028/</id>
+<title>FAST 2028 — USENIX Conference on File and Storage Technologies</title>
+<link href="https://conferences.clicvia.com/conference/fast-2028/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28 Feb – 1 Mar 2028 · Seattle, United States · Deadline: see official website · Official: https://www.usenix.org/conference/fast28</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/isca-2027/</id>
 <title>ISCA 2027 — International Symposium on Computer Architecture</title>
@@ -237,12 +244,5 @@
 <link href="https://conferences.clicvia.com/conference/performance-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–5 Nov 2026 · Ghent, Belgium · Deadline: 15 May 2026, 22 May 2026 · Official: https://performance2026.github.io/call/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/micro-2026/</id>
-<title>MICRO 2026 — IEEE/ACM International Symposium on Microarchitecture</title>
-<link href="https://conferences.clicvia.com/conference/micro-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–4 Nov 2026 · Athens, Greece · Deadline: 31 Mar 2026, 7 Apr 2026 · Official: https://microarch.org/micro59/</summary>
 </entry>
 </feed>

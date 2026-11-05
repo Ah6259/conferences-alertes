@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/specialite-donnees.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-donnees.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-04T06:00:00Z</updated>
+<updated>2026-11-05T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/iswc-2027/</id>
+<title>ISWC 2027 — International Semantic Web Conference</title>
+<link href="https://conferences.clicvia.com/conference/iswc-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>24–28 Oct 2027 · Montevideo, Uruguay · Deadline: see official website · Official: https://iswc2027.semanticweb.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/apweb-waim-2027/</id>
+<title>APWeb-WAIM 2027 — APWeb-WAIM joint international conference on Web and Big Data</title>
+<link href="https://conferences.clicvia.com/conference/apweb-waim-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>29–31 Aug 2027 · Guiyang, China · Deadline: 7 Mar 2027, 14 May 2027 · Official: https://conferences.sigappfr.org/apweb2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mdm-2027/</id>
+<title>MDM 2027 — IEEE International Conference on Mobile Data Management</title>
+<link href="https://conferences.clicvia.com/conference/mdm-2027/"/>
+<updated>2026-11-05T06:00:00Z</updated>
+<summary>28 Jun – 1 Jul 2027 · Hamilton, New Zealand · Deadline: 25 Jan 2027 · Official: https://mdm2027.github.io/index.html</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/clef-2027/</id>
 <title>CLEF 2027 — Conference and Labs of the Evaluation Forum</title>

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-04T06:00:00Z</updated>
+<updated>2026-11-05T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -208,7 +208,7 @@
 <title>CVC 2027 — Computer Vision Conference</title>
 <link href="https://conferences.clicvia.com/conference/cvc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>15–16 Apr 2027 · Amsterdam, Netherlands · Deadline: 1 Sep 2026, 1 Nov 2026 · Official: https://saiconference.com/CVC</summary>
+<summary>15–16 Apr 2027 · Amsterdam, Netherlands · Deadline: 1 Sep 2026, 15 Nov 2026 · Official: https://saiconference.com/CVC</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/3dv-2027/</id>
@@ -363,12 +363,5 @@
 <link href="https://conferences.clicvia.com/conference/nlpcc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>4–5 Nov 2026 · Macau, China · Deadline: 20 Jun 2026 · Official: https://tcci.ccf.org.cn/conference/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ictai-2026/</id>
-<title>ICTAI 2026 — International Conference on Tools with Artificial Intellignce</title>
-<link href="https://conferences.clicvia.com/conference/ictai-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–4 Nov 2026 · Boca Raton FL, United States · Deadline: 21 Jul 2026 · Official: https://ictai.computer.org/2026/</summary>
 </entry>
 </feed>

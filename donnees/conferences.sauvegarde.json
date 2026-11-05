@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-04 13:13",
- "derniere_lecture_reussie": "2026-11-04 13:13",
+ "mis_a_jour": "2026-11-05 13:26",
+ "derniere_lecture_reussie": "2026-11-05 13:26",
  "dernier_passage": {
-  "date": "2026-11-04 13:13",
+  "date": "2026-11-05 13:26",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 269,
-   "brutes": 2347,
-   "derniere_reussite": "2026-11-04 13:13",
+   "nombre": 272,
+   "brutes": 2353,
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-04 13:13",
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 155,
-   "derniere_reussite": "2026-11-04 13:13",
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-04 13:13",
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-04 13:13",
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-04 13:13",
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 131,
-   "brutes": 157,
-   "derniere_reussite": "2026-11-04 13:13",
+   "nombre": 132,
+   "brutes": 158,
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   },
@@ -73,54 +73,13 @@
    "etat": "ok",
    "nombre": 41,
    "brutes": 54,
-   "derniere_reussite": "2026-11-04 13:13",
+   "derniere_reussite": "2026-11-05 13:26",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 469,
+ "nombre": 473,
  "conferences": [
-  {
-   "id": "vinci-2026",
-   "acronyme": "VINCI",
-   "titre": "International Symposium on Visual Information Communication and Interaction",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-01",
-   "fin": "2026-11-04",
-   "ville": "Hangzhou",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "graphisme"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-29",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://vinci-symp.org/",
-   "rang": "CORE C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "wise-2026",
    "acronyme": "WISE",
@@ -154,95 +113,6 @@
    ],
    "lien": "https://conferences.sigappfr.org/wise2026/",
    "rang": "CORE B · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ictai-2026",
-   "acronyme": "ICTAI",
-   "titre": "International Conference on Tools with Artificial Intellignce",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-02",
-   "fin": "2026-11-04",
-   "ville": "Boca Raton FL",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-21",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://ictai.computer.org/2026/",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "micro-2026",
-   "acronyme": "MICRO",
-   "titre": "IEEE/ACM International Symposium on Microarchitecture",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-02",
-   "fin": "2026-11-04",
-   "ville": "Athens",
-   "pays": "GR",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-31",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-4"
-    },
-    {
-     "date": "2026-04-07",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-4"
-    }
-   ],
-   "lien": "https://microarch.org/micro59/",
-   "rang": "CORE A · CCF A",
    "sources": [
     "ccfddl"
    ],
@@ -3652,6 +3522,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "machine-learning-physics-across-scales-from-2026",
+   "acronyme": "",
+   "titre": "Machine Learning Physics across Scales: From Elementary Particles to the Universe",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-01",
+   "fin": "2026-12-03",
+   "ville": "Tokyo",
+   "pays": "JP",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "calcul-physique",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico2.riken.jp/event/5793/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3222759",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
   },
   {
    "id": "wine-2026",
@@ -10827,10 +10732,10 @@
     "vision",
     "ia-apprentissage"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
+   "date_limite": "2026-11-15",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-09-01",
@@ -10840,7 +10745,7 @@
      "fuseau": "AoE"
     },
     {
-     "date": "2026-11-01",
+     "date": "2026-11-15",
      "type": "article",
      "libelle": "Round 2",
      "heure": "23:59",
@@ -12346,16 +12251,16 @@
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-10-29",
-     "type": "resume",
-     "libelle": "Abstract",
+     "date": "2026-11-05",
+     "type": "article",
+     "libelle": "Regular papers; papers submitted by the deadline may be updated until November 6",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-11-05",
-     "type": "article",
-     "libelle": "Paper",
+     "type": "resume",
+     "libelle": "Abstract · Regular papers; papers submitted by the deadline may be updated until",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -12512,10 +12417,10 @@
     "bioinformatique",
     "info-interdisciplinaire"
    ],
-   "date_limite": "2026-11-04",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-28",
@@ -13995,8 +13900,8 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-04",
-   "type_limite": "resume",
+   "date_limite": "2026-11-15",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -15186,21 +15091,21 @@
    "date_limite": "2027-03-01",
    "type_limite": "resume",
    "heure_limite": "23:59",
-   "fuseau_limite": "UTC",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2027-03-01",
      "type": "resume",
      "libelle": "Abstract · Abstract submission is a soft deadline",
      "heure": "23:59",
-     "fuseau": "UTC"
+     "fuseau": "AoE"
     },
     {
      "date": "2027-03-08",
      "type": "article",
      "libelle": "Abstract submission is a soft deadline",
      "heure": "23:59",
-     "fuseau": "UTC"
+     "fuseau": "AoE"
     }
    ],
    "lien": "https://smiconf.github.io/2027/",
@@ -15850,6 +15755,47 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mdm-2027",
+   "acronyme": "MDM",
+   "titre": "IEEE International Conference on Mobile Data Management",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-28",
+   "fin": "2027-07-01",
+   "ville": "Hamilton",
+   "pays": "NZ",
+   "mode": "presentiel",
+   "continent": "oceanie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "2027-01-25",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-25",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://mdm2027.github.io/index.html",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
+  },
+  {
    "id": "mitp-scientific-program-foundations-and-2027",
    "acronyme": "",
    "titre": "MITP Scientific Program: \"Foundations and Applications of Generalized Symmetries\"",
@@ -16107,6 +16053,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "egsr-2027",
+   "acronyme": "EGSR",
+   "titre": "Eurographics Symposium on Rendering",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-05",
+   "fin": "2027-07-07",
+   "ville": "Università della Svizzera italiana",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "graphisme"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.egsr2027.usi.ch/",
+   "rang": "CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
   },
   {
    "id": "euros-p-2027",
@@ -17286,7 +17265,7 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-04",
+   "date_limite": "2027-02-12",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
@@ -17540,6 +17519,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-12"
+  },
+  {
+   "id": "cogsci-2027",
+   "acronyme": "CogSci",
+   "titre": "Annual Meeting of the Cognitive Science Society",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-28",
+   "fin": "2027-07-31",
+   "ville": "Euskalduna Bilbao Convention Centre",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "vie-sante",
+    "informatique"
+   ],
+   "specialites": [
+    "neurosciences",
+    "info-interdisciplinaire"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://cognitivesciencesociety.org/cogsci-2027/",
+   "rang": "CORE B · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
   },
   {
    "id": "aaa-2027",
@@ -18553,6 +18567,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "apweb-waim-2027",
+   "acronyme": "APWeb-WAIM",
+   "titre": "APWeb-WAIM joint international conference on Web and Big Data",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-29",
+   "fin": "2027-08-31",
+   "ville": "Guiyang",
+   "pays": "CN",
+   "mode": "hybride",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "2027-03-07",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-03-07",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-05-14",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://conferences.sigappfr.org/apweb2027/",
+   "rang": "CORE C · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
   },
   {
    "id": "interspeech-2027",
@@ -20075,6 +20137,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "iswc-2027",
+   "acronyme": "ISWC",
+   "titre": "International Semantic Web Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-24",
+   "fin": "2027-10-28",
+   "ville": "Montevideo",
+   "pays": "UY",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://iswc2027.semanticweb.org/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
+  },
+  {
    "id": "horizons-in-quantum-2027",
    "acronyme": "",
    "titre": "Horizons in Quantum Gravity",
@@ -20275,7 +20370,7 @@
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [],
-   "lien": "https://asia.siggraph.org/2027/",
+   "lien": "https://asia.siggraph.org/2026/about-the-event/siggraph-asia-2027/",
    "rang": "CORE A*",
    "sources": [
     "ccfddl"
@@ -20346,6 +20441,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-12"
+  },
+  {
+   "id": "fast-2028",
+   "acronyme": "FAST",
+   "titre": "USENIX Conference on File and Storage Technologies",
+   "annee": 2028,
+   "type": "conference",
+   "debut": "2028-02-28",
+   "fin": "2028-03-01",
+   "ville": "Seattle",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.usenix.org/conference/fast28",
+   "rang": "CORE A · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-05"
   }
  ]
 }
