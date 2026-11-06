@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-theorie.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-theorie.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-05T06:00:00Z</updated>
+<updated>2026-11-06T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/concur-2027/</id>
+<title>CONCUR 2027 — International Conference on Concurrency Theory</title>
+<link href="https://conferences.clicvia.com/conference/concur-2027/"/>
+<updated>2026-11-06T06:00:00Z</updated>
+<summary>6–10 Sep 2027 · Lucca, Italy · Deadline: see official website · Official: https://www.cs.vu.nl/~wanf/profactivities.html</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/fscd-2027/</id>
 <title>FSCD 2027 — International Conference on Formal Structures for Computation and Deduction</title>
@@ -26,7 +33,7 @@
 <title>CAV 2027 — International Conference on Computer-Aided Verification</title>
 <link href="https://conferences.clicvia.com/conference/cav-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>19–23 Jul 2027 · KIT, Netherlands · Deadline: 20 Jan 2027 · Official: https://conferences.i-cav.org/2027/</summary>
+<summary>21–23 Jul 2027 · KIT, Netherlands · Deadline: 20 Jan 2027 · Official: https://conferences.i-cav.org/2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ccc-2027/</id>

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-05T06:00:00Z</updated>
+<updated>2026-11-06T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -237,12 +237,5 @@
 <link href="https://conferences.clicvia.com/conference/iccad-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>8–12 Nov 2026 · San Jose, United States · Deadline: 7 Apr 2026, 14 Apr 2026 · Official: https://iccad.com/2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/performance-2026/</id>
-<title>Performance 2026 — International Symposium on Computer Performance, Modeling, Measurements and Evaluation</title>
-<link href="https://conferences.clicvia.com/conference/performance-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>3–5 Nov 2026 · Ghent, Belgium · Deadline: 15 May 2026, 22 May 2026 · Official: https://performance2026.github.io/call/</summary>
 </entry>
 </feed>

@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-05T06:00:00Z</updated>
+<updated>2026-11-06T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ctd2027/</id>
+<title>CTD2027 — Connecting The DOTs</title>
+<link href="https://conferences.clicvia.com/conference/ctd2027/"/>
+<updated>2026-11-06T06:00:00Z</updated>
+<summary>26–30 Apr 2027 · Frascati, Italy · Deadline: see official website · Official: https://indico.cern.ch/event/1703755/overview</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/machine-learning-physics-across-scales-from-2026/</id>
 <title>Machine Learning Physics across Scales: From Elementary Particles to the Universe</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/charm-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–14 May 2027 · Rio de Janeiro, Brazil · Deadline: see official website · Official: https://indico.cern.ch/event/1720270/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/dis2027/</id>
-<title>DIS2027 — 34th International Workshop on Deep Inelastic Scattering and Related Subjects</title>
-<link href="https://conferences.clicvia.com/conference/dis2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>10–14 May 2027 · Philadelphia, United States · Deadline: see official website · Official: https://indico.bnl.gov/event/30823</summary>
 </entry>
 </feed>

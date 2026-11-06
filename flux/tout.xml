@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-05T06:00:00Z</updated>
+<updated>2026-11-06T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/concur-2027/</id>
+<title>CONCUR 2027 — International Conference on Concurrency Theory</title>
+<link href="https://conferences.clicvia.com/conference/concur-2027/"/>
+<updated>2026-11-06T06:00:00Z</updated>
+<summary>6–10 Sep 2027 · Lucca, Italy · Deadline: see official website · Official: https://www.cs.vu.nl/~wanf/profactivities.html</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ctd2027/</id>
+<title>CTD2027 — Connecting The DOTs</title>
+<link href="https://conferences.clicvia.com/conference/ctd2027/"/>
+<updated>2026-11-06T06:00:00Z</updated>
+<summary>26–30 Apr 2027 · Frascati, Italy · Deadline: see official website · Official: https://indico.cern.ch/event/1703755/overview</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/fast-2028/</id>
 <title>FAST 2028 — USENIX Conference on File and Storage Technologies</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/conext-2027/"/>
 <updated>2026-10-12T06:00:00Z</updated>
 <summary>6–9 Dec 2027 · Rio de Janeiro, Brazil · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://conferences.sigcomm.org/co-next/2027/#!/home</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/eps-hep-2027/</id>
-<title>EPS-HEP 2027 — 2027 European Physical Society Conference on High Energy Physics (EPS-HEP2027)</title>
-<link href="https://conferences.clicvia.com/conference/eps-hep-2027/"/>
-<updated>2026-10-12T06:00:00Z</updated>
-<summary>26–30 Jul 2027 · Bucharest, Romania · Deadline: see official website · Official: https://www.eps-hep2027.eu/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/eswc-2027/</id>
-<title>ESWC 2027 — European Semantic Web Conference</title>
-<link href="https://conferences.clicvia.com/conference/eswc-2027/"/>
-<updated>2026-10-12T06:00:00Z</updated>
-<summary>23–27 May 2027 · Limassol, Cyprus · Deadline: 10 Dec 2026, 17 Dec 2026 · Official: https://2027.eswc-conferences.org/</summary>
 </entry>
 </feed>

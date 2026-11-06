@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-05 13:26",
- "derniere_lecture_reussie": "2026-11-05 13:26",
+ "mis_a_jour": "2026-11-06 13:10",
+ "derniere_lecture_reussie": "2026-11-06 13:10",
  "dernier_passage": {
-  "date": "2026-11-05 13:26",
+  "date": "2026-11-06 13:10",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 272,
-   "brutes": 2353,
-   "derniere_reussite": "2026-11-05 13:26",
+   "nombre": 269,
+   "brutes": 2354,
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-05 13:26",
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 18,
+   "nombre": 17,
    "brutes": 155,
-   "derniere_reussite": "2026-11-05 13:26",
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-05 13:26",
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-05 13:26",
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-05 13:26",
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 132,
-   "brutes": 158,
-   "derniere_reussite": "2026-11-05 13:26",
+   "nombre": 133,
+   "brutes": 159,
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   },
@@ -73,151 +73,13 @@
    "etat": "ok",
    "nombre": 41,
    "brutes": 54,
-   "derniere_reussite": "2026-11-05 13:26",
+   "derniere_reussite": "2026-11-06 13:10",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 473,
+ "nombre": 471,
  "conferences": [
-  {
-   "id": "wise-2026",
-   "acronyme": "WISE",
-   "titre": "International Conference on Web Information Systems Engineering",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-01",
-   "fin": "2026-11-05",
-   "ville": "Venice",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-30",
-     "type": "article",
-     "libelle": "Extended submission deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conferences.sigappfr.org/wise2026/",
-   "rang": "CORE B · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "uist-2026",
-   "acronyme": "UIST",
-   "titre": "ACM Symposium on User Interface Software and Technology",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-02",
-   "fin": "2026-11-05",
-   "ville": "GM Renaissance Center",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-24",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-31",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://uist.acm.org/2026/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl",
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "performance-2026",
-   "acronyme": "Performance",
-   "titre": "International Symposium on Computer Performance, Modeling, Measurements and Evaluation",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-03",
-   "fin": "2026-11-05",
-   "ville": "Ghent",
-   "pays": "BE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-15",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-22",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://performance2026.github.io/call/",
-   "rang": "CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "sigspatial-2026",
    "acronyme": "SIGSPATIAL",
@@ -258,48 +120,6 @@
    ],
    "lien": "https://sigspatial2026.sigspatial.org/",
    "rang": "CORE A · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "nlpcc-2026",
-   "acronyme": "NLPCC",
-   "titre": "CCF International Conference on Natural Language Processing and Chinese Computing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-04",
-   "fin": "2026-11-05",
-   "ville": "Macau",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-20",
-     "type": "article",
-     "libelle": "Notification expected to be unchanged",
-     "heure": "23:59",
-     "fuseau": "UTC+8"
-    }
-   ],
-   "lien": "https://tcci.ccf.org.cn/conference/2026/",
-   "rang": "CCF C",
    "sources": [
     "ccfddl"
    ],
@@ -10634,8 +10454,8 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-05",
-   "type_limite": "resume",
+   "date_limite": "2026-11-12",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -11019,10 +10839,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-05",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-10-29",
@@ -11096,6 +10916,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "ctd2027",
+   "acronyme": "CTD2027",
+   "titre": "Connecting The DOTs",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-26",
+   "fin": "2027-04-30",
+   "ville": "Frascati",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "instrumentation",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1703755/overview",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3223785",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-06"
   },
   {
    "id": "fg-2027",
@@ -12245,10 +12100,10 @@
    "specialites": [
     "theorie"
    ],
-   "date_limite": "2026-11-05",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-05",
@@ -12465,10 +12320,10 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-11-05",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-05",
@@ -12568,10 +12423,10 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-11-05",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-05-29",
@@ -17078,47 +16933,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "cav-2027",
-   "acronyme": "CAV",
-   "titre": "International Conference on Computer-Aided Verification",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-07-19",
-   "fin": "2027-07-23",
-   "ville": "KIT",
-   "pays": "NL",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "theorie"
-   ],
-   "date_limite": "2027-01-20",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
-   "dates_limites": [
-    {
-     "date": "2027-01-20",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://conferences.i-cav.org/2027/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "ccc-2027",
    "acronyme": "CCC",
    "titre": "Computational Complexity Conference",
@@ -17328,6 +17142,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-04"
+  },
+  {
+   "id": "cav-2027",
+   "acronyme": "CAV",
+   "titre": "International Conference on Computer-Aided Verification",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-21",
+   "fin": "2027-07-23",
+   "ville": "KIT",
+   "pays": "NL",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "theorie"
+   ],
+   "date_limite": "2027-01-20",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-20",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://conferences.i-cav.org/2027/",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
   },
   {
    "id": "icic-2027",
@@ -18759,6 +18614,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "concur-2027",
+   "acronyme": "CONCUR",
+   "titre": "International Conference on Concurrency Theory",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-06",
+   "fin": "2027-09-10",
+   "ville": "Lucca",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "theorie"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.cs.vu.nl/~wanf/profactivities.html",
+   "rang": "CORE B · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-06"
   },
   {
    "id": "icsme-2027",

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-donnees.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-donnees.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-05T06:00:00Z</updated>
+<updated>2026-11-06T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -216,12 +216,5 @@
 <link href="https://conferences.clicvia.com/conference/cikm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–11 Nov 2026 · Rome, Italy · Deadline: 16 May 2026, 23 May 2026 · Official: https://cikm2026.diag.uniroma1.it/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/wise-2026/</id>
-<title>WISE 2026 — International Conference on Web Information Systems Engineering</title>
-<link href="https://conferences.clicvia.com/conference/wise-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>1–5 Nov 2026 · Venice, Italy · Deadline: 30 Jun 2026 · Official: https://conferences.sigappfr.org/wise2026/</summary>
 </entry>
 </feed>
