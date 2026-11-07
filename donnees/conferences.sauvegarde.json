@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-06 13:10",
- "derniere_lecture_reussie": "2026-11-06 13:10",
+ "mis_a_jour": "2026-11-07 12:07",
+ "derniere_lecture_reussie": "2026-11-07 12:07",
  "dernier_passage": {
-  "date": "2026-11-06 13:10",
+  "date": "2026-11-07 12:07",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 269,
+   "nombre": 268,
    "brutes": 2354,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 155,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
@@ -57,118 +57,29 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 133,
-   "brutes": 159,
-   "derniere_reussite": "2026-11-06 13:10",
+   "nombre": 136,
+   "brutes": 161,
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 41,
+   "nombre": 40,
    "brutes": 54,
-   "derniere_reussite": "2026-11-06 13:10",
+   "derniere_reussite": "2026-11-07 12:07",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 471,
+ "nombre": 472,
  "conferences": [
-  {
-   "id": "sigspatial-2026",
-   "acronyme": "SIGSPATIAL",
-   "titre": "ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-03",
-   "fin": "2026-11-06",
-   "ville": "Riverside",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "info-interdisciplinaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-29",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    },
-    {
-     "date": "2026-06-05",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-7"
-    }
-   ],
-   "lien": "https://sigspatial2026.sigspatial.org/",
-   "rang": "CORE A · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "marg-2026",
-   "acronyme": "MARG 2026",
-   "titre": "Management Accounting Research Group (MARG) Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-05",
-   "fin": "2026-11-06",
-   "ville": "Birmingham",
-   "pays": "GB",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "compta-gestion"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-09-15",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://www.conftool.com/marg2026",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://www.conftool.com/marg2026",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "ncmmsc-2026",
    "acronyme": "NCMMSC",
@@ -213,39 +124,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "brics-agac-symposium-2026",
-   "acronyme": "BRICS-AGAC Symposium 2026",
-   "titre": "The 6th Symposium of the BRICS Association on Gravity, Astrophysics, and Cosmology",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-06",
-   "fin": "2026-11-10",
-   "ville": "Hangzhou",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.itp.ac.cn/event/417/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3146312",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -1233,69 +1111,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "icdm-2026",
-   "acronyme": "ICDM",
-   "titre": "IEEE International Conference on Data Mining",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-12",
-   "fin": "2026-11-15",
-   "ville": "Shenyang",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-30",
-     "type": "resume",
-     "libelle": "Abstract Submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-06",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-16",
-     "type": "autre",
-     "libelle": "Author Notification",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "autre",
-     "libelle": "Camera Ready Deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://icdm2026.neu.edu.cn/",
-   "rang": "CORE A* · CCF B",
-   "sources": [
-    "ccfddl",
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "adma-2026",
    "acronyme": "ADMA",
    "titre": "The International Conference on Advanced Data Mining and Applications",
@@ -1365,6 +1180,69 @@
     "inspire"
    ],
    "identifiant_source": "inspire-3124114",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icdm-2026",
+   "acronyme": "ICDM",
+   "titre": "IEEE International Conference on Data Mining",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-11-13",
+   "fin": "2026-11-15",
+   "ville": "Shenyang",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-05-30",
+     "type": "resume",
+     "libelle": "Abstract Submission",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-06-06",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-16",
+     "type": "autre",
+     "libelle": "Author Notification",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-09-09",
+     "type": "autre",
+     "libelle": "Camera Ready Deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://icdm2026.neu.edu.cn/",
+   "rang": "CORE A* · CCF B",
+   "sources": [
+    "ccfddl",
+    "hf"
+   ],
+   "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -1880,6 +1758,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icact-2026",
+   "acronyme": "ICACT 2026",
+   "titre": "3rd International Conference on Advanced Computing Technologies",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-11-18",
+   "fin": "2026-11-18",
+   "ville": "Mahenwaththa",
+   "pays": "LK",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://icact.nsbm.ac.lk/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3225369",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-07"
   },
   {
    "id": "icfem-2026",
@@ -8820,13 +8731,61 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "date-2027",
+   "acronyme": "DATE",
+   "titre": "Design, Automation & Test in Europe",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-22",
+   "fin": "2027-03-24",
+   "ville": "Dresden",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-09-13",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-09-20",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.date-conference.com/date-2027-call-papers",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
    "id": "ecir-2027",
    "acronyme": "ECIR",
    "titre": "European Conference on Information Retrieval",
    "annee": 2027,
    "type": "conference",
-   "debut": "2027-03-21",
-   "fin": "2027-03-25",
+   "debut": "2027-03-22",
+   "fin": "2027-03-24",
    "ville": "Southampton",
    "pays": "GB",
    "mode": "presentiel",
@@ -8904,54 +8863,6 @@
    "sources": [
     "ccfddl",
     "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "date-2027",
-   "acronyme": "DATE",
-   "titre": "Design, Automation & Test in Europe",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-03-22",
-   "fin": "2027-03-24",
-   "ville": "Dresden",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-09-13",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-09-20",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.date-conference.com/date-2027-call-papers",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -14991,11 +14902,19 @@
    "specialites": [
     "theorie"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2026-12-02",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-12-02",
+     "type": "article",
+     "libelle": "Submission registration: November 25, 2026, 23:59 AoE",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://cgweek27.computational-geometry.org/",
    "rang": "CORE A · CCF B",
    "sources": [
@@ -17983,14 +17902,14 @@
      "fuseau": "AoE"
     },
     {
-     "date": "2027-02-23",
+     "date": "2027-02-26",
      "type": "resume",
      "libelle": "Abstract · Conference track",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
-     "date": "2027-03-02",
+     "date": "2027-03-05",
      "type": "article",
      "libelle": "Conference track",
      "heure": "23:59",
@@ -18552,6 +18471,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "eucas-2027",
+   "acronyme": "EUCAS 2027",
+   "titre": "18th European Conference on Applied Superconductivity",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-05",
+   "fin": "2027-09-07",
+   "ville": "Heidelberg",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://eucas2027.esas.org/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3225390",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-07"
   },
   {
    "id": "ches-2027",
@@ -19491,6 +19443,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "mt30-2027",
+   "acronyme": "MT30",
+   "titre": "30th International Conference on Magnet Technology",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-03",
+   "fin": "2027-10-08",
+   "ville": "Bexco",
+   "pays": "KR",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://mt-30.org/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3225389",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-07"
+  },
+  {
    "id": "ubicomp-iswc-2027",
    "acronyme": "UbiComp/ISWC",
    "titre": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
@@ -20362,6 +20347,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-05"
+  },
+  {
+   "id": "kitp-program-merging-strong-field-and-2028",
+   "acronyme": "",
+   "titre": "KITP program \"Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era\"",
+   "annee": 2028,
+   "type": "conference",
+   "debut": "2028-05-08",
+   "fin": "2028-06-22",
+   "ville": "Santa Barbara",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.kitp.ucsb.edu/activities/PERFECTWAVE28",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3180294",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-07"
   }
  ]
 }

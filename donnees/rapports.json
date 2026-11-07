@@ -2408,7 +2408,7 @@
 "BE": 1,
 "BR": 2,
 "CH": 1,
-"CN": 14,
+"CN": 13,
 "CO": 1,
 "DE": 1,
 "FR": 1,
@@ -2421,6 +2421,7 @@
 "JP": 4,
 "KR": 1,
 "KW": 1,
+"LK": 1,
 "NL": 1,
 "OM": 1,
 "QA": 1,
@@ -2434,10 +2435,10 @@
 "ZA": 1
 },
 "par_specialite": {
-"astro": 11,
+"astro": 10,
 "banque-islamique": 3,
 "bioinformatique": 1,
-"calcul-physique": 1,
+"calcul-physique": 2,
 "compta-generale": 2,
 "compta-gestion": 1,
 "donnees": 5,
@@ -2470,7 +2471,7 @@
 "conference": 65,
 "ecole": 4
 },
-"pays": 28,
+"pays": 29,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -2707,27 +2708,6 @@
 "titre": "National Conference on Man-Machine Speech Communication",
 "type": "conference",
 "ville": "Hengqin"
-},
-{
-"acronyme": "BRICS-AGAC Symposium 2026",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-06",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-10",
-"id": "brics-agac-symposium-2026",
-"lien": "https://indico.itp.ac.cn/event/417/",
-"limites": [],
-"mode": "presentiel",
-"pays": "CN",
-"specialites": [
-"astro"
-],
-"titre": "The 6th Symposium of the BRICS Association on Gravity, Astrophysics, and Cosmology",
-"type": "conference",
-"ville": "Hangzhou"
 },
 {
 "acronyme": "Burton 2026",
@@ -3212,27 +3192,6 @@
 "ville": "Basel"
 },
 {
-"acronyme": "ICDM",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-12",
-"domaines": [
-"informatique"
-],
-"fin": "2026-11-15",
-"id": "icdm-2026",
-"lien": "https://icdm2026.neu.edu.cn/",
-"limites": [],
-"mode": "presentiel",
-"pays": "CN",
-"specialites": [
-"donnees"
-],
-"titre": "IEEE International Conference on Data Mining",
-"type": "conference",
-"ville": "Shenyang"
-},
-{
 "acronyme": "ADMA",
 "annee": 2026,
 "continent": "asie",
@@ -3273,6 +3232,27 @@
 "titre": "DISCRETE 2026 — 10th Symposium on Prospects in the Physics of Discrete Symmetries",
 "type": "conference",
 "ville": "Bratislava"
+},
+{
+"acronyme": "ICDM",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-13",
+"domaines": [
+"informatique"
+],
+"fin": "2026-11-15",
+"id": "icdm-2026",
+"lien": "https://icdm2026.neu.edu.cn/",
+"limites": [],
+"mode": "presentiel",
+"pays": "CN",
+"specialites": [
+"donnees"
+],
+"titre": "IEEE International Conference on Data Mining",
+"type": "conference",
+"ville": "Shenyang"
 },
 {
 "acronyme": "CollaborateCom",
@@ -3528,6 +3508,27 @@
 "titre": "Quantum Cannes Festival",
 "type": "conference",
 "ville": "Cannes"
+},
+{
+"acronyme": "ICACT 2026",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-18",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-18",
+"id": "icact-2026",
+"lien": "https://icact.nsbm.ac.lk/",
+"limites": [],
+"mode": "presentiel",
+"pays": "LK",
+"specialites": [
+"calcul-physique"
+],
+"titre": "3rd International Conference on Advanced Computing Technologies",
+"type": "conference",
+"ville": "Mahenwaththa"
 },
 {
 "acronyme": "ICFEM",
@@ -5546,7 +5547,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-06",
+"derniere_date": "2026-11-07",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

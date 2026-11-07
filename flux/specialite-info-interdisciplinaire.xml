@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-info-interdisciplinaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-info-interdisciplinaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-06T06:00:00Z</updated>
+<updated>2026-11-07T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -111,12 +111,5 @@
 <link href="https://conferences.clicvia.com/conference/icaif-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–17 Nov 2026 · Milan, Italy · Deadline: 9 Aug 2026 · Official: https://icaif2026.org/index.html</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigspatial-2026/</id>
-<title>SIGSPATIAL 2026 — ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems</title>
-<link href="https://conferences.clicvia.com/conference/sigspatial-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>3–6 Nov 2026 · Riverside, United States · Deadline: 29 May 2026, 5 Jun 2026 · Official: https://sigspatial2026.sigspatial.org/</summary>
 </entry>
 </feed>

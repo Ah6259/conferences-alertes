@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-06T06:00:00Z</updated>
+<updated>2026-11-07T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/</id>
+<title>KITP program "Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era"</title>
+<link href="https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>8 May – 22 Jun 2028 · Santa Barbara, United States · Deadline: see official website · Official: https://www.kitp.ucsb.edu/activities/PERFECTWAVE28</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mt30-2027/</id>
+<title>MT30 2027 — 30th International Conference on Magnet Technology</title>
+<link href="https://conferences.clicvia.com/conference/mt30-2027/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>3–8 Oct 2027 · Bexco, South Korea · Deadline: see official website · Official: https://mt-30.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/eucas-2027/</id>
+<title>EUCAS 2027 — 18th European Conference on Applied Superconductivity</title>
+<link href="https://conferences.clicvia.com/conference/eucas-2027/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>5–7 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://eucas2027.esas.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icact-2026/</id>
+<title>ICACT 2026 — 3rd International Conference on Advanced Computing Technologies</title>
+<link href="https://conferences.clicvia.com/conference/icact-2026/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>18 Nov 2026 · Mahenwaththa, Sri Lanka · Deadline: see official website · Official: https://icact.nsbm.ac.lk/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ctd2027/</id>
 <title>CTD2027 — Connecting The DOTs</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/15th-large-hadron-collider-physics-conference-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>31 May – 4 Jun 2027 · Vancouver, Canada · Deadline: see official website · Official: https://indico.cern.ch/event/1689315/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/dm2027/</id>
-<title>DM2027 — Dark Matter 2027: From the Smallest to the Largest Scales</title>
-<link href="https://conferences.clicvia.com/conference/dm2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>31 May – 4 Jun 2027 · Santander, Spain · Deadline: see official website · Official: https://indico.ifca.es/e/DM2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/susy-2027/</id>
-<title>SUSY 2027 — 34th International Conference on Supersymmetry and Unification of Fundamental Interactions (SUSY 2027)</title>
-<link href="https://conferences.clicvia.com/conference/susy-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>31 May – 4 Jun 2027 · Daejeon, South Korea · Deadline: see official website · Official: https://indico.ibs.re.kr/event/1301</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/pm2027/</id>
-<title>PM2027 — 17th Pisa Meeting on Advanced Detectors: Frontier Detectors for Frontier Physics</title>
-<link href="https://conferences.clicvia.com/conference/pm2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–29 May 2027 · La Biodola, Isola d'Elba, Italy · Deadline: see official website · Official: https://www.pi.infn.it/pm/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/charm-2027/</id>
-<title>CHARM 2027 — 13th International Workshop on Charm Physics</title>
-<link href="https://conferences.clicvia.com/conference/charm-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>10–14 May 2027 · Rio de Janeiro, Brazil · Deadline: see official website · Official: https://indico.cern.ch/event/1720270/</summary>
 </entry>
 </feed>

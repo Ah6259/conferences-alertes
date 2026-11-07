@@ -4,9 +4,37 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-06T06:00:00Z</updated>
+<updated>2026-11-07T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/</id>
+<title>KITP program "Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era"</title>
+<link href="https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>8 May – 22 Jun 2028 · Santa Barbara, United States · Deadline: see official website · Official: https://www.kitp.ucsb.edu/activities/PERFECTWAVE28</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mt30-2027/</id>
+<title>MT30 2027 — 30th International Conference on Magnet Technology</title>
+<link href="https://conferences.clicvia.com/conference/mt30-2027/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>3–8 Oct 2027 · Bexco, South Korea · Deadline: see official website · Official: https://mt-30.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/eucas-2027/</id>
+<title>EUCAS 2027 — 18th European Conference on Applied Superconductivity</title>
+<link href="https://conferences.clicvia.com/conference/eucas-2027/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>5–7 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://eucas2027.esas.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icact-2026/</id>
+<title>ICACT 2026 — 3rd International Conference on Advanced Computing Technologies</title>
+<link href="https://conferences.clicvia.com/conference/icact-2026/"/>
+<updated>2026-11-07T06:00:00Z</updated>
+<summary>18 Nov 2026 · Mahenwaththa, Sri Lanka · Deadline: see official website · Official: https://icact.nsbm.ac.lk/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/concur-2027/</id>
 <title>CONCUR 2027 — International Conference on Concurrency Theory</title>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/blocksys-2027/"/>
 <updated>2026-10-14T06:00:00Z</updated>
 <summary>9–11 Apr 2027 · Foshan, China · Deadline: 30 Nov 2026, 31 Jan 2027 · Official: https://blocksys.info/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/isca-2027/</id>
-<title>ISCA 2027 — International Symposium on Computer Architecture</title>
-<link href="https://conferences.clicvia.com/conference/isca-2027/"/>
-<updated>2026-10-13T06:00:00Z</updated>
-<summary>5–9 Jun 2027 · Atlanta, United States · Deadline: 9 Nov 2026, 16 Nov 2026, 6 Dec 2026 · Official: https://iscaconf.org/isca2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ml4ps-2026/</id>
-<title>ML4PS 2026 — 9th Annual Workshop for Machine Learning and the Physical Sciences</title>
-<link href="https://conferences.clicvia.com/conference/ml4ps-2026/"/>
-<updated>2026-10-13T06:00:00Z</updated>
-<summary>11 Dec 2026 · Atlanta, United States · Deadline: see official website · Official: https://ml4physicalsciences.github.io/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/qtml-2026/</id>
-<title>QTML 2026 — Quantum Techniques in Machine Learning — Bridging Quantum Computing and Machine Learning</title>
-<link href="https://conferences.clicvia.com/conference/qtml-2026/"/>
-<updated>2026-10-13T06:00:00Z</updated>
-<summary>6–11 Dec 2026 · Stellenbosch, South Africa · Deadline: see official website · Official: https://qtml2026.nithecs.ac.za/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/conext-2027/</id>
-<title>CoNEXT 2027 — International Conference on Emerging Networking Experiments and Technologies</title>
-<link href="https://conferences.clicvia.com/conference/conext-2027/"/>
-<updated>2026-10-12T06:00:00Z</updated>
-<summary>6–9 Dec 2027 · Rio de Janeiro, Brazil · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://conferences.sigcomm.org/co-next/2027/#!/home</summary>
 </entry>
 </feed>
