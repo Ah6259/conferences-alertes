@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-07T06:00:00Z</updated>
+<updated>2026-11-08T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/nsdi-2028/</id>
+<title>NSDI 2028 — USENIX Symposium on Networked Systems Design and Implementation</title>
+<link href="https://conferences.clicvia.com/conference/nsdi-2028/"/>
+<updated>2026-11-08T06:00:00Z</updated>
+<summary>9–11 May 2028 · Santa Clara, United States · Deadline: see official website · Official: https://www.usenix.org/conferences/byname/178</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/casa-2027/</id>
+<title>CASA 2027 — International Conference on Computer Animation and Social Agents</title>
+<link href="https://conferences.clicvia.com/conference/casa-2027/"/>
+<updated>2026-11-08T06:00:00Z</updated>
+<summary>4–6 Jun 2027 · Xi'an, China · Deadline: 4 Feb 2027 · Official: https://www.cgs-network.org/casaxr27/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/concur-2027/</id>
 <title>CONCUR 2027 — International Conference on Concurrency Theory</title>
@@ -369,7 +383,7 @@
 <title>FSCD 2027 — International Conference on Formal Structures for Computation and Deduction</title>
 <link href="https://conferences.clicvia.com/conference/fscd-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>23–26 Aug 2027 · Nijmegen, Netherlands · Deadline: see official website · Official: https://fscd-cade.science.ru.nl/</summary>
+<summary>23–26 Aug 2027 · Nijmegen, Netherlands · Deadline: 19 Apr 2027, 26 Apr 2027 · Official: https://fscd-cade.science.ru.nl/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/interact-2027/</id>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 15 Nov 2026, 26 Feb 2027, 5 Mar 2027 · Official: https://icdar2027.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acl-2027/</id>
-<title>ACL 2027 — Annual Meeting of the Association for Computational Linguistics</title>
-<link href="https://conferences.clicvia.com/conference/acl-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>17–22 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027 · Official: https://2027.aclweb.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/usenix-security-2027/</id>
-<title>USENIX Security 2027 — USENIX Security Symposium</title>
-<link href="https://conferences.clicvia.com/conference/usenix-security-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–13 Aug 2027 · Denver, United States · Deadline: 18 Aug 2026, 25 Aug 2026, 19 Jan 2027 · Official: https://www.usenix.org/conference/usenixsecurity27</summary>
 </entry>
 </feed>

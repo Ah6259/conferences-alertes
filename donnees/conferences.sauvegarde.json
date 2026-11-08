@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-07 12:07",
- "derniere_lecture_reussie": "2026-11-07 12:07",
+ "mis_a_jour": "2026-11-08 12:19",
+ "derniere_lecture_reussie": "2026-11-08 12:19",
  "dernier_passage": {
-  "date": "2026-11-07 12:07",
+  "date": "2026-11-08 12:19",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 268,
-   "brutes": 2354,
-   "derniere_reussite": "2026-11-07 12:07",
+   "nombre": 270,
+   "brutes": 2355,
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-07 12:07",
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 155,
-   "derniere_reussite": "2026-11-07 12:07",
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-07 12:07",
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-07 12:07",
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-07 12:07",
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
    "nombre": 136,
-   "brutes": 161,
-   "derniere_reussite": "2026-11-07 12:07",
+   "brutes": 162,
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 40,
+   "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-07 12:07",
+   "derniere_reussite": "2026-11-08 12:19",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 472,
+ "nombre": 473,
  "conferences": [
   {
    "id": "ncmmsc-2026",
@@ -129,54 +129,13 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "burton-2026",
-   "acronyme": "Burton 2026",
-   "titre": "45th Columbia Burton Accounting Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-06",
-   "fin": "2026-11-07",
-   "ville": "New York",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "comptabilite"
-   ],
-   "specialites": [
-    "compta-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-17",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://business.columbia.edu/faculty/divisions/accounting/seminars/burton-accounting-conference",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://business.columbia.edu/faculty/divisions/accounting/seminars/burton-accounting-conference",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "ijcnlp-2026",
    "acronyme": "IJCNLP",
    "titre": "International Joint Conference on Natural Language Processing",
    "annee": 2026,
    "type": "conference",
    "debut": "2026-11-06",
-   "fin": "2026-11-10",
+   "fin": "2026-11-08",
    "ville": "Hengqin",
    "pays": "CN",
    "mode": "hybride",
@@ -7635,8 +7594,8 @@
    "specialites": [
     "compta-generale"
    ],
-   "date_limite": "2026-11-07",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -13312,6 +13271,47 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "casa-2027",
+   "acronyme": "CASA",
+   "titre": "International Conference on Computer Animation and Social Agents",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-04",
+   "fin": "2027-06-06",
+   "ville": "Xi'an",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "graphisme"
+   ],
+   "date_limite": "2027-02-04",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC+0",
+   "dates_limites": [
+    {
+     "date": "2027-02-04",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC+0"
+    }
+   ],
+   "lien": "https://www.cgs-network.org/casaxr27/",
+   "rang": "CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-08"
+  },
+  {
    "id": "isca-2027",
    "acronyme": "ISCA",
    "titre": "International Symposium on Computer Architecture",
@@ -18067,11 +18067,26 @@
    "specialites": [
     "theorie"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-04-19",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-04-19",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-04-26",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://fscd-cade.science.ru.nl/",
    "rang": "CCF C",
    "sources": [
@@ -20381,6 +20396,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-07"
+  },
+  {
+   "id": "nsdi-2028",
+   "acronyme": "NSDI",
+   "titre": "USENIX Symposium on Networked Systems Design and Implementation",
+   "annee": 2028,
+   "type": "conference",
+   "debut": "2028-05-09",
+   "fin": "2028-05-11",
+   "ville": "Santa Clara",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "reseaux"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.usenix.org/conferences/byname/178",
+   "rang": "CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-08"
   }
  ]
 }
