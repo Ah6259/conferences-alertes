@@ -126,3 +126,8 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   « Comment ça marche ? »). Test `FONCTIONS` dans tools/test_site.mjs (repère dans le site -> phrase attendue dans la page) : une
   fonction absente = test rouge. Nouvelle fonction = une ligne dans `FONCTIONS` + son explication dans `fonctions`.
   Construire : `uv run --python 3.12 --with pillow python robot/construire_site.py --aujourdhui <date des données>` (Python 3.12 + Pillow).
+
+- **08/11/2026 — plan SEO d'Ahmed appliqué à ce site (phase 2 ; contrôle commun `outils visibilite/controle_seo.mjs` de projets-ahmed ;
+  plan : `consignes des taches/seo-conferences.md`)** : `titre_seo()` / `desc_seo()` dans `page()` (titre <= 70 caractères : suffixe
+  « | nom du site » retiré puis coupe à un séparateur ; description <= 165 coupée en fin de phrase) ; h2 « La liste » au-dessus des
+  cartes (plus de saut h1 -> h3). Avant : titres de 94 à 122 caractères. Tests verts (5).

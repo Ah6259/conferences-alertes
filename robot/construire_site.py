@@ -443,7 +443,9 @@ def filtres(confs, jour, sans=()):
 def liste_html(confs, racine, jour, vide):
     cartes = "\n".join(carte(c, racine, jour) for c in confs)
     n = len(confs)
-    return f"""<p class="compte" id="compte" aria-live="polite"><span>{L(f"{n} conférence{'s' if n > 1 else ''} à venir", f"{n} upcoming conference{'s' if n > 1 else ''}", f"{ISO(n)} مؤتمر قادم")}</span></p>
+    # SEO (08/11/2026) : un h2 au-dessus des cartes (h3) : aucun niveau de titre sauté après le h1
+    return f"""<h2 class="titre-section titre-liste">{L("La liste", "The list", "القائمة")}</h2>
+<p class="compte" id="compte" aria-live="polite"><span>{L(f"{n} conférence{'s' if n > 1 else ''} à venir", f"{n} upcoming conference{'s' if n > 1 else ''}", f"{ISO(n)} مؤتمر قادم")}</span></p>
 <div class="liste" id="liste">
 {cartes}
 </div>
@@ -548,7 +550,34 @@ AVIS = """<section class="carte avis" id="avis" aria-labelledby="avis-titre">
 </section>"""
 
 
+def titre_seo(t, maxi=70):
+    """SEO (08/11/2026, plan d'Ahmed pour tous les sites) : Google coupe les titres vers 60-70 caractères. Le suffixe « | nom du site »
+    saute si le titre dépasse, puis coupe à un séparateur (« : », « — », « (»), sinon au dernier mot entier avec « … »."""
+    if len(t) <= maxi:
+        return t
+    t = t.split(" | ")[0].strip()
+    if len(t) <= maxi:
+        return t
+    for sep in (" : ", ": ", " — ", " (", " – "):
+        i = t.rfind(sep, 0, maxi)
+        if i >= 25:
+            return t[:i].rstrip(" ,;:—-")
+    return t[:maxi - 1].rsplit(" ", 1)[0].rstrip(" ,;:—-(") + "…"
+
+
+def desc_seo(d, maxi=165):
+    """Description <= 165 caractères : fin de la dernière phrase entière si possible, sinon dernier mot entier + « … »."""
+    if len(d) <= maxi:
+        return d
+    coupe = d[:maxi]
+    i = max(coupe.rfind(". "), coupe.rfind("۔ "))
+    if i >= 60:
+        return coupe[:i + 1]
+    return coupe[:maxi - 1].rsplit(" ", 1)[0].rstrip(" ,;:—-(،") + "…"
+
+
 def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", classe_hero="", scripts=(), alternates=True, og_image=None, og_type="website"):
+    titre, description = titre_seo(titre), desc_seo(description)
     canon = URL_SITE + chemin
     # 14/10/2026 (contrôle de visibilité, règle commune § 8) : PAS de hreflang vers « ?lang=fr/en/ar ». Le serveur renvoie la même
     # page anglaise à ces adresses : Google y voyait des doublons déclarés comme des langues. Une langue n'aura un hreflang que le
