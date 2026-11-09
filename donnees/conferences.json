@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-08 12:19",
- "derniere_lecture_reussie": "2026-11-08 12:19",
+ "mis_a_jour": "2026-11-09 13:56",
+ "derniere_lecture_reussie": "2026-11-09 13:56",
  "dernier_passage": {
-  "date": "2026-11-08 12:19",
+  "date": "2026-11-09 13:56",
   "reussi": true
  },
  "statut_source": {
@@ -16,8 +16,8 @@
   "ccfddl": {
    "etat": "ok",
    "nombre": 270,
-   "brutes": 2355,
-   "derniere_reussite": "2026-11-08 12:19",
+   "brutes": 2357,
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-08 12:19",
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 17,
-   "brutes": 155,
-   "derniere_reussite": "2026-11-08 12:19",
+   "nombre": 18,
+   "brutes": 156,
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-08 12:19",
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-08 12:19",
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-08 12:19",
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 136,
-   "brutes": 162,
-   "derniere_reussite": "2026-11-08 12:19",
+   "nombre": 138,
+   "brutes": 164,
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   },
@@ -73,117 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-08 12:19",
+   "derniere_reussite": "2026-11-09 13:56",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 473,
+ "nombre": 476,
  "conferences": [
-  {
-   "id": "ncmmsc-2026",
-   "acronyme": "NCMMSC",
-   "titre": "National Conference on Man-Machine Speech Communication",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-05",
-   "fin": "2026-11-08",
-   "ville": "Hengqin",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "graphisme"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-05",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-12",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.ncmmsc.org.cn/",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ijcnlp-2026",
-   "acronyme": "IJCNLP",
-   "titre": "International Joint Conference on Natural Language Processing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-06",
-   "fin": "2026-11-08",
-   "ville": "Hengqin",
-   "pays": "CN",
-   "mode": "hybride",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-25",
-     "type": "article",
-     "libelle": "ARR initial submission",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-08-07",
-     "type": "article",
-     "libelle": "Reviewed-paper commitment, round 1",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-08-25",
-     "type": "article",
-     "libelle": "Reviewed-paper commitment, round 2",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://2026.aaclnet.org/",
-   "rang": "CORE B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "inscrypt-2026",
    "acronyme": "INSCRYPT",
@@ -310,39 +206,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ieee-photonics-conference-2026",
-   "acronyme": "",
-   "titre": "IEEE Photonics Conference 2026 (IPC)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-08",
-   "fin": "2026-11-12",
-   "ville": "Denver",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "instrumentation"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://ieee-ipc.org/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3162744",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -5771,98 +5634,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "wacv-2027",
-   "acronyme": "WACV",
-   "titre": "IEEE/CVF Winter Conference on Applications of Computer Vision",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-01-04",
-   "fin": "2027-01-08",
-   "ville": "Disney Springs",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "vision",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-09",
-     "type": "autre",
-     "libelle": "Round 1 Reviews and Decisions To Authors",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-21",
-     "type": "resume",
-     "libelle": "Abstract · Second round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-21",
-     "type": "autre",
-     "libelle": "Round 1 Rebuttal and Revision Submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-28",
-     "type": "article",
-     "libelle": "Second round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-28",
-     "type": "autre",
-     "libelle": "Round 2 Paper Submissions",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-30",
-     "type": "autre",
-     "libelle": "Round 2 Supplemental Material",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-10-09",
-     "type": "autre",
-     "libelle": "Round 2 Reviews and Final Decisions to Authors",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-11-02",
-     "type": "autre",
-     "libelle": "Camera Ready Both Rounds",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://wacv.thecvf.com/",
-   "rang": "CORE A",
-   "sources": [
-    "ccfddl",
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "hicss-2027",
    "acronyme": "HICSS",
    "titre": "Hawaii International Conference on System Sciences",
@@ -5987,6 +5758,98 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-26"
+  },
+  {
+   "id": "wacv-2027",
+   "acronyme": "WACV",
+   "titre": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-06",
+   "fin": "2027-01-08",
+   "ville": "Disney Springs",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "vision",
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-08-09",
+     "type": "autre",
+     "libelle": "Round 1 Reviews and Decisions To Authors",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-21",
+     "type": "resume",
+     "libelle": "Abstract · Second round",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-21",
+     "type": "autre",
+     "libelle": "Round 1 Rebuttal and Revision Submission",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-28",
+     "type": "article",
+     "libelle": "Second round",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-28",
+     "type": "autre",
+     "libelle": "Round 2 Paper Submissions",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-08-30",
+     "type": "autre",
+     "libelle": "Round 2 Supplemental Material",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-10-09",
+     "type": "autre",
+     "libelle": "Round 2 Reviews and Final Decisions to Authors",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-11-02",
+     "type": "autre",
+     "libelle": "Camera Ready Both Rounds",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://wacv.thecvf.com/",
+   "rang": "CORE A",
+   "sources": [
+    "ccfddl",
+    "hf"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
   },
   {
    "id": "aaa-mas-midyear-2027",
@@ -8727,7 +8590,7 @@
      "fuseau": "AoE"
     }
    ],
-   "lien": "https://www.date-conference.com/date-2027-call-papers",
+   "lien": "https://www.date-conference.com/call-for-papers",
    "rang": "CORE A · CCF B",
    "sources": [
     "ccfddl"
@@ -10692,6 +10555,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icpqc-2027",
+   "acronyme": "ICPQC 2027",
+   "titre": "3rd International Conference on Physics and Quantum Computing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-23",
+   "fin": "2027-04-25",
+   "ville": "Harbin",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique",
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ic-pqc.com/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3225756",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-09"
+  },
+  {
    "id": "icpc-2027",
    "acronyme": "ICPC",
    "titre": "IEEE International Conference on Program Comprehension",
@@ -11721,6 +11618,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "fccm-2027",
+   "acronyme": "FCCM",
+   "titre": "IEEE Symposium on Field-Programmable Custom Computing Machines",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-10",
+   "fin": "2027-05-11",
+   "ville": "Provo",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "2027-01-10",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
+   "dates_limites": [
+    {
+     "date": "2027-01-10",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2027-01-17",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
+   "lien": "https://www.fccm.org/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-09"
   },
   {
    "id": "noms-2027",
@@ -13990,6 +13935,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "qsm-2027",
+   "acronyme": "QSM 2027",
+   "titre": "Quantum Sensing and Metrology",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-11",
+   "fin": "2027-06-15",
+   "ville": "Ottawa",
+   "pays": "CA",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique",
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.optica.org/events/congress/optica_imagesense_congress/program/quantum_sensing_and_metrology_(qsm)/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3225757",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-09"
+  },
+  {
    "id": "pods-2027",
    "acronyme": "PODS",
    "titre": "ACM Symposium on Principles of Database Systems",
@@ -15188,13 +15167,20 @@
    "specialites": [
     "ihm"
    ],
-   "date_limite": "2027-01-31",
-   "type_limite": "article",
+   "date_limite": "2027-01-21",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",
    "dates_limites": [
     {
-     "date": "2027-01-31",
+     "date": "2027-01-21",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2027-01-28",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -17363,39 +17349,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "icml-2027",
-   "acronyme": "ICML",
-   "titre": "International Conference on Machine Learning",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-07-31",
-   "fin": "2027-08-06",
-   "ville": "Riocentro",
-   "pays": "BR",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://icml.cc/Conferences/2027",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-11-03"
-  },
-  {
    "id": "sigkdd-2027",
    "acronyme": "SIGKDD",
    "titre": "ACM Knowledge Discovery and Data Mining",
@@ -17442,6 +17395,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icml-2027",
+   "acronyme": "ICML",
+   "titre": "International Conference on Machine Learning",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-02",
+   "fin": "2027-08-04",
+   "ville": "Riocentro",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://icml.cc/Conferences/2027",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-03"
   },
   {
    "id": "ieee-cog-2027",
@@ -19328,40 +19314,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "iccv-2027",
-   "acronyme": "ICCV",
-   "titre": "IEEE International Conference on Computer Vision",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-10-02",
-   "fin": "2027-10-08",
-   "ville": "Hong Kong",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "vision",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://iccv.thecvf.com/Conferences/2027",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "imwut-resubmission-only-ubicomp-iswc-2027",
    "acronyme": "IMWUT - resubmission only (Ubicomp/ISWC)",
    "titre": "IMWUT - resubmission only (Ubicomp/ISWC)",
@@ -19605,6 +19557,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-09"
+  },
+  {
+   "id": "iccv-2027",
+   "acronyme": "ICCV",
+   "titre": "IEEE International Conference on Computer Vision",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-05",
+   "fin": "2027-10-07",
+   "ville": "Hong Kong",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "vision",
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://iccv.thecvf.com/Conferences/2027",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
   },
   {
    "id": "oopsla-2027",
@@ -20154,6 +20140,54 @@
    "ajoute_le": "2026-10-20"
   },
   {
+   "id": "uist-2027",
+   "acronyme": "UIST",
+   "titre": "UIST",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-26",
+   "fin": "2027-10-29",
+   "ville": "Vienna",
+   "pays": "AT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ihm"
+   ],
+   "date_limite": "2027-03-31",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
+   "dates_limites": [
+    {
+     "date": "2027-03-31",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2027-04-07",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
+   "lien": "https://uist.acm.org/2027",
+   "rang": "",
+   "sources": [
+    "hci"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-09"
+  },
+  {
    "id": "icdm-2027",
    "acronyme": "ICDM",
    "titre": "IEEE International Conference on Data Mining",
@@ -20329,6 +20363,81 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-12"
+  },
+  {
+   "id": "icmla-2027",
+   "acronyme": "ICMLA",
+   "titre": "International Conference on Machine Learning and Applications",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-12-14",
+   "fin": "2027-12-16",
+   "ville": "University of Miami",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-05-15",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "PT",
+   "dates_limites": [
+    {
+     "date": "2027-05-15",
+     "type": "article",
+     "libelle": "Main Conference Papers DDL.",
+     "heure": "23:59",
+     "fuseau": "PT"
+    }
+   ],
+   "lien": "https://www.icmla-conference.org/icmla27/",
+   "rang": "CORE C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-09"
+  },
+  {
+   "id": "18th-vienna-conference-on-instrumentation-2028",
+   "acronyme": "",
+   "titre": "18th Vienna Conference on Instrumentation — VCI2028",
+   "annee": 2028,
+   "type": "conference",
+   "debut": "2028-02-21",
+   "fin": "2028-02-25",
+   "ville": "Vienna",
+   "pays": "AT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/e/vci2028",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3225595",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-09"
   },
   {
    "id": "fast-2028",

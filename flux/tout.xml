@@ -4,9 +4,51 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-08T06:00:00Z</updated>
+<updated>2026-11-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/</id>
+<title>18th Vienna Conference on Instrumentation — VCI2028</title>
+<link href="https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>21–25 Feb 2028 · Vienna, Austria · Deadline: see official website · Official: https://indico.cern.ch/e/vci2028</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icmla-2027/</id>
+<title>ICMLA 2027 — International Conference on Machine Learning and Applications</title>
+<link href="https://conferences.clicvia.com/conference/icmla-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>14–16 Dec 2027 · University of Miami, United States · Deadline: 15 May 2027 · Official: https://www.icmla-conference.org/icmla27/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/uist-2027/</id>
+<title>UIST 2027</title>
+<link href="https://conferences.clicvia.com/conference/uist-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>26–29 Oct 2027 · Vienna, Austria · Deadline: 31 Mar 2027, 7 Apr 2027 · Official: https://uist.acm.org/2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qsm-2027/</id>
+<title>QSM 2027 — Quantum Sensing and Metrology</title>
+<link href="https://conferences.clicvia.com/conference/qsm-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>11–15 Jun 2027 · Ottawa, Canada · Deadline: see official website · Official: https://www.optica.org/events/congress/optica_imagesense_congress/program/quantum_sensing_and_metrology_(qsm)/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/fccm-2027/</id>
+<title>FCCM 2027 — IEEE Symposium on Field-Programmable Custom Computing Machines</title>
+<link href="https://conferences.clicvia.com/conference/fccm-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>10–11 May 2027 · Provo, United States · Deadline: 10 Jan 2027, 17 Jan 2027 · Official: https://www.fccm.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icpqc-2027/</id>
+<title>ICPQC 2027 — 3rd International Conference on Physics and Quantum Computing</title>
+<link href="https://conferences.clicvia.com/conference/icpqc-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>23–25 Apr 2027 · Harbin, China · Deadline: see official website · Official: https://www.ic-pqc.com/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/nsdi-2028/</id>
 <title>NSDI 2028 — USENIX Symposium on Networked Systems Design and Implementation</title>
@@ -145,7 +187,7 @@
 <title>ICML 2027 — International Conference on Machine Learning</title>
 <link href="https://conferences.clicvia.com/conference/icml-2027/"/>
 <updated>2026-11-03T06:00:00Z</updated>
-<summary>31 Jul – 6 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
+<summary>2–4 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/animma-2027/</id>
@@ -384,47 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-constraining-the-nuclear-2027/"/>
 <updated>2026-10-20T06:00:00Z</updated>
 <summary>24–28 May 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/480/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-from-isotope-shift-to-2027/</id>
-<title>MITP Topical Workshop: "From Isotope Shift to Nuclear Clock Spectroscopy"</title>
-<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-from-isotope-shift-to-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>3–7 May 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/478/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-loop-integrals-for-2027/</id>
-<title>MITP Topical Workshop: "Loop Integrals for Practitioners"</title>
-<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-loop-integrals-for-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>15–19 Mar 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/476/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icccn-2027/</id>
-<title>ICCCN 2027 — IEEE International Conference on Computer Communications and Networks</title>
-<link href="https://conferences.clicvia.com/conference/icccn-2027/"/>
-<updated>2026-10-17T06:00:00Z</updated>
-<summary>12–15 Jul 2027 · Rome, Italy · Deadline: 12 Feb 2027, 19 Feb 2027 · Official: https://www.icccn.org/ICCCN27/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/open-quantum-universe-workshop-at-the-2026/</id>
-<title>Open Quantum Universe Workshop at The Pennsylvania State University</title>
-<link href="https://conferences.clicvia.com/conference/open-quantum-universe-workshop-at-the-2026/"/>
-<updated>2026-10-16T06:00:00Z</updated>
-<summary>17–19 Nov 2026 · University Park, United States · Deadline: see official website · Official: https://sites.psu.edu/openquantumuniverse/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ubicomp-iswc-2027/</id>
-<title>UbiComp/ISWC 2027 — ACM International Joint Conference on Pervasive and Ubiquitous Computing</title>
-<link href="https://conferences.clicvia.com/conference/ubicomp-iswc-2027/"/>
-<updated>2026-10-15T06:00:00Z</updated>
-<summary>3–7 Oct 2027 · Seoul, South Korea · Deadline: see official website · Official: https://sigchi.org/events/ubicomp-2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/quposium2026/</id>
-<title>QUPosium2026 — QUPosium2026 — Diverse Sensing. New Eyes. New Physics</title>
-<link href="https://conferences.clicvia.com/conference/quposium2026/"/>
-<updated>2026-10-15T06:00:00Z</updated>
-<summary>8–10 Dec 2026 · Tsukuba, Japan · Deadline: see official website · Official: https://conference-indico.kek.jp/event/380/</summary>
 </entry>
 </feed>

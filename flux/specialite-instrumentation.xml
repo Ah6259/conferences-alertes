@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/specialite-instrumentation.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-instrumentation.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-08T06:00:00Z</updated>
+<updated>2026-11-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/</id>
+<title>18th Vienna Conference on Instrumentation — VCI2028</title>
+<link href="https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>21–25 Feb 2028 · Vienna, Austria · Deadline: see official website · Official: https://indico.cern.ch/e/vci2028</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qsm-2027/</id>
+<title>QSM 2027 — Quantum Sensing and Metrology</title>
+<link href="https://conferences.clicvia.com/conference/qsm-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>11–15 Jun 2027 · Ottawa, Canada · Deadline: see official website · Official: https://www.optica.org/events/congress/optica_imagesense_congress/program/quantum_sensing_and_metrology_(qsm)/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/mt30-2027/</id>
 <title>MT30 2027 — 30th International Conference on Magnet Technology</title>
@@ -146,12 +160,5 @@
 <link href="https://conferences.clicvia.com/conference/lcws2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>9–13 Nov 2026 · KEK, Tsukuba, Japan · Deadline: see official website · Official: https://agenda.linearcollider.org/e/lcws2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ieee-photonics-conference-2026/</id>
-<title>IEEE Photonics Conference 2026 (IPC)</title>
-<link href="https://conferences.clicvia.com/conference/ieee-photonics-conference-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>8–12 Nov 2026 · Denver, United States · Deadline: see official website · Official: https://ieee-ipc.org/</summary>
 </entry>
 </feed>

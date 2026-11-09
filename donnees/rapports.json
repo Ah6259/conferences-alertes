@@ -2379,12 +2379,12 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 77,
+"evenements": 76,
 "limites": 67,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
-"amerique-nord": 16,
+"amerique-nord": 15,
 "amerique-sud": 3,
 "asie": 30,
 "europe": 23,
@@ -2396,12 +2396,12 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 24,
+"physique": 23,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 76
+"presentiel": 75
 },
 "par_pays": {
 "AU": 4,
@@ -2431,7 +2431,7 @@
 "SK": 1,
 "TH": 1,
 "TR": 1,
-"US": 16,
+"US": 15,
 "ZA": 1
 },
 "par_specialite": {
@@ -2449,7 +2449,7 @@
 "ia-apprentissage": 11,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 4,
+"instrumentation": 3,
 "langage": 2,
 "matiere-condensee": 1,
 "medecine": 1,
@@ -2468,7 +2468,7 @@
 },
 "par_type": {
 "atelier": 8,
-"conference": 65,
+"conference": 64,
 "ecole": 4
 },
 "pays": 29,
@@ -2814,27 +2814,6 @@
 "titre": "IEEE/ACM International Conference on Computer-Aided Design",
 "type": "conference",
 "ville": "San Jose"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-11-08",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-12",
-"id": "ieee-photonics-conference-2026",
-"lien": "https://ieee-ipc.org/",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"instrumentation"
-],
-"titre": "IEEE Photonics Conference 2026 (IPC)",
-"type": "conference",
-"ville": "Denver"
 },
 {
 "acronyme": "",
@@ -5547,7 +5526,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-08",
+"derniere_date": "2026-11-09",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

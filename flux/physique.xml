@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-08T06:00:00Z</updated>
+<updated>2026-11-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/</id>
+<title>18th Vienna Conference on Instrumentation — VCI2028</title>
+<link href="https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>21–25 Feb 2028 · Vienna, Austria · Deadline: see official website · Official: https://indico.cern.ch/e/vci2028</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qsm-2027/</id>
+<title>QSM 2027 — Quantum Sensing and Metrology</title>
+<link href="https://conferences.clicvia.com/conference/qsm-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>11–15 Jun 2027 · Ottawa, Canada · Deadline: see official website · Official: https://www.optica.org/events/congress/optica_imagesense_congress/program/quantum_sensing_and_metrology_(qsm)/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icpqc-2027/</id>
+<title>ICPQC 2027 — 3rd International Conference on Physics and Quantum Computing</title>
+<link href="https://conferences.clicvia.com/conference/icpqc-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>23–25 Apr 2027 · Harbin, China · Deadline: see official website · Official: https://www.ic-pqc.com/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/</id>
 <title>KITP program "Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era"</title>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/nehop-2027-new-horizons-on-primordial-black-hole/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–18 Jun 2027 · Patras, Greece · Deadline: see official website · Official: https://indico.global/event/17503/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/is2027/</id>
-<title>IS2027 — Initial Stages 2027 — The 9th International Conference on the Initial Stages in High-Energy Nuclear Collisions</title>
-<link href="https://conferences.clicvia.com/conference/is2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–11 Jun 2027 · Jyväskylä, Finland · Deadline: see official website · Official: https://indico.global/event/15638/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mm-universe-2027/</id>
-<title>mm Universe 2027</title>
-<link href="https://conferences.clicvia.com/conference/mm-universe-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–11 Jun 2027 · Grenoble, France · Deadline: see official website · Official: https://lpsc-indico.in2p3.fr/event/4364/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/15th-large-hadron-collider-physics-conference-2027/</id>
-<title>15th Large Hadron Collider Physics Conference (LHCP2027)</title>
-<link href="https://conferences.clicvia.com/conference/15th-large-hadron-collider-physics-conference-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>31 May – 4 Jun 2027 · Vancouver, Canada · Deadline: see official website · Official: https://indico.cern.ch/event/1689315/</summary>
 </entry>
 </feed>

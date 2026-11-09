@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-particules.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-particules.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-08T06:00:00Z</updated>
+<updated>2026-11-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/</id>
+<title>18th Vienna Conference on Instrumentation — VCI2028</title>
+<link href="https://conferences.clicvia.com/conference/18th-vienna-conference-on-instrumentation-2028/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>21–25 Feb 2028 · Vienna, Austria · Deadline: see official website · Official: https://indico.cern.ch/e/vci2028</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/</id>
 <title>KITP program "Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era"</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/dark-matter-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>24–29 Jan 2027 · Saas Fee, Switzerland · Deadline: see official website · Official: https://saasfee2027.ch/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/hepnp-2027/</id>
-<title>HEPNP 2027 — 10th International Conference on High Energy, Particles and Nuclear Physics in the LHC Era</title>
-<link href="https://conferences.clicvia.com/conference/hepnp-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Jan 2027 · Valparaíso, Chile · Deadline: see official website · Official: https://indico.hpc.utfsm.cl/event/2/</summary>
 </entry>
 </feed>

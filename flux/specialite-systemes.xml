@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-08T06:00:00Z</updated>
+<updated>2026-11-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/fccm-2027/</id>
+<title>FCCM 2027 — IEEE Symposium on Field-Programmable Custom Computing Machines</title>
+<link href="https://conferences.clicvia.com/conference/fccm-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>10–11 May 2027 · Provo, United States · Deadline: 10 Jan 2027, 17 Jan 2027 · Official: https://www.fccm.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/fast-2028/</id>
 <title>FAST 2028 — USENIX Conference on File and Storage Technologies</title>
@@ -117,7 +124,7 @@
 <title>DATE 2027 — Design, Automation &amp; Test in Europe</title>
 <link href="https://conferences.clicvia.com/conference/date-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>22–24 Mar 2027 · Dresden, Germany · Deadline: 13 Sep 2026, 20 Sep 2026 · Official: https://www.date-conference.com/date-2027-call-papers</summary>
+<summary>22–24 Mar 2027 · Dresden, Germany · Deadline: 13 Sep 2026, 20 Sep 2026 · Official: https://www.date-conference.com/call-for-papers</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/hpca-2027/</id>

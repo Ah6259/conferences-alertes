@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-08T06:00:00Z</updated>
+<updated>2026-11-09T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icmla-2027/</id>
+<title>ICMLA 2027 — International Conference on Machine Learning and Applications</title>
+<link href="https://conferences.clicvia.com/conference/icmla-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>14–16 Dec 2027 · University of Miami, United States · Deadline: 15 May 2027 · Official: https://www.icmla-conference.org/icmla27/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/uist-2027/</id>
+<title>UIST 2027</title>
+<link href="https://conferences.clicvia.com/conference/uist-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>26–29 Oct 2027 · Vienna, Austria · Deadline: 31 Mar 2027, 7 Apr 2027 · Official: https://uist.acm.org/2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/fccm-2027/</id>
+<title>FCCM 2027 — IEEE Symposium on Field-Programmable Custom Computing Machines</title>
+<link href="https://conferences.clicvia.com/conference/fccm-2027/"/>
+<updated>2026-11-09T06:00:00Z</updated>
+<summary>10–11 May 2027 · Provo, United States · Deadline: 10 Jan 2027, 17 Jan 2027 · Official: https://www.fccm.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/nsdi-2028/</id>
 <title>NSDI 2028 — USENIX Symposium on Networked Systems Design and Implementation</title>
@@ -75,7 +96,7 @@
 <title>ICML 2027 — International Conference on Machine Learning</title>
 <link href="https://conferences.clicvia.com/conference/icml-2027/"/>
 <updated>2026-11-03T06:00:00Z</updated>
-<summary>31 Jul – 6 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
+<summary>2–4 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sec-2027/</id>
@@ -274,6 +295,13 @@
 <summary>10–15 Oct 2027 · Prague, Czech Republic · Deadline: 14 Oct 2026, 7 Apr 2027 · Official: https://2027.splashcon.org/track/splashoopsla2027</summary>
 </entry>
 <entry>
+<id>https://conferences.clicvia.com/conference/iccv-2027/</id>
+<title>ICCV 2027 — IEEE International Conference on Computer Vision</title>
+<link href="https://conferences.clicvia.com/conference/iccv-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>5–7 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
+</entry>
+<entry>
 <id>https://conferences.clicvia.com/conference/imwut-resubmission-only-ubicomp-iswc-2027/</id>
 <title>IMWUT - resubmission only (Ubicomp/ISWC) 2027</title>
 <link href="https://conferences.clicvia.com/conference/imwut-resubmission-only-ubicomp-iswc-2027/"/>
@@ -293,13 +321,6 @@
 <link href="https://conferences.clicvia.com/conference/ecai-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–7 Oct 2027 · Athens, Greece · Deadline: 14 Apr 2027 · Official: https://ecai2027.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iccv-2027/</id>
-<title>ICCV 2027 — IEEE International Conference on Computer Vision</title>
-<link href="https://conferences.clicvia.com/conference/iccv-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>2–8 Oct 2027 · Hong Kong, China · Deadline: see official website · Official: https://iccv.thecvf.com/Conferences/2027</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/iros-2027/</id>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/recsys-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Aug 2027 · Honolulu, United States · Deadline: see official website · Official: https://recsys.acm.org/recsys27/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/vldb-2027/</id>
-<title>VLDB 2027 — International Conference on Very Large Data Bases</title>
-<link href="https://conferences.clicvia.com/conference/vldb-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–27 Aug 2027 · Athens, Greece · Deadline: 25 Nov 2026, 1 Dec 2026, 25 Dec 2026 · Official: https://www.vldb.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/cade-2027/</id>
-<title>CADE 2027 — The Conference on Automated Deduction</title>
-<link href="https://conferences.clicvia.com/conference/cade-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>22–25 Aug 2027 · Nijmegen, Netherlands · Deadline: 15 Feb 2027, 22 Feb 2027 · Official: https://fscd-cade.science.ru.nl/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icdar-2027/</id>
-<title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
-<link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 15 Nov 2026, 26 Feb 2027, 5 Mar 2027 · Official: https://icdar2027.org/</summary>
 </entry>
 </feed>
