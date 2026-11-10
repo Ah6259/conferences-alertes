@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-09 13:56",
- "derniere_lecture_reussie": "2026-11-09 13:56",
+ "mis_a_jour": "2026-11-10 13:42",
+ "derniere_lecture_reussie": "2026-11-10 13:42",
  "dernier_passage": {
-  "date": "2026-11-09 13:56",
+  "date": "2026-11-10 13:42",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 270,
+   "nombre": 269,
    "brutes": 2357,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 156,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 138,
-   "brutes": 164,
-   "derniere_reussite": "2026-11-09 13:56",
+   "nombre": 135,
+   "brutes": 161,
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   },
@@ -73,54 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-09 13:56",
+   "derniere_reussite": "2026-11-10 13:42",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 476,
+ "nombre": 473,
  "conferences": [
-  {
-   "id": "inscrypt-2026",
-   "acronyme": "INSCRYPT",
-   "titre": "International Conference on Information Security and Cryptology",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-07",
-   "fin": "2026-11-09",
-   "ville": "Hong Kong SAR",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-08",
-     "type": "article",
-     "libelle": "1st Round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://inscrypt2026.comp.polyu.edu.hk",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "focs-2026",
    "acronyme": "FOCS",
@@ -206,41 +165,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "21st-patras-workshop-on-axions-wimps-and-2026",
-   "acronyme": "",
-   "titre": "21st Patras Workshop on Axions, WIMPs and WISPs",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-09",
-   "fin": "2026-11-13",
-   "ville": "Perth",
-   "pays": "AU",
-   "mode": "presentiel",
-   "continent": "oceanie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "instrumentation",
-    "astro",
-    "calcul-physique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.global/event/16402/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3120091",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -383,108 +307,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "lcws2026",
-   "acronyme": "LCWS2026",
-   "titre": "The 2026 International Workshop on Future Linear Colliders",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-09",
-   "fin": "2026-11-13",
-   "ville": "KEK, Tsukuba",
-   "pays": "JP",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "instrumentation",
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://agenda.linearcollider.org/e/lcws2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3135413",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "quark-gluon-dynamics-in-the-nuclear-medium-an-ect-2026",
-   "acronyme": "",
-   "titre": "Quark–Gluon Dynamics in the Nuclear Medium — (An ECT Workshop)",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-09",
-   "fin": "2026-11-13",
-   "ville": "Trento",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "nucleaire",
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.ectstar.eu/workshops/quark-gluon-dynamics-in-the-nuclear-medium/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3112843",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sql26-2026",
-   "acronyme": "SQL26",
-   "titre": "Sensing with Quantum Light",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-09",
-   "fin": "2026-11-13",
-   "ville": "Cologne",
-   "pays": "DE",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique",
-    "matiere-condensee"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.sqlkonferenz.com",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3127479",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "vis-2026",
    "acronyme": "VIS",
    "titre": "VIS",
@@ -528,39 +350,6 @@
     "hci"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "worldsheet-string-theory-and-string-field-2026",
-   "acronyme": "",
-   "titre": "Worldsheet String Theory and String Field Theory",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-09",
-   "fin": "2026-11-20",
-   "ville": "Bengaluru",
-   "pays": "IN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.icts.res.in/program/wstsft",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3164760",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -1462,6 +1251,40 @@
     "ccfddl"
    ],
    "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "sql26-2026",
+   "acronyme": "SQL26",
+   "titre": "Open Quantum Systems — from Quantum Information to Condensed Matter",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-11-16",
+   "fin": "2026-11-20",
+   "ville": "Singapore",
+   "pays": "SG",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "matiere-condensee",
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.ictp.it/event/11130/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3127478",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -6471,6 +6294,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "qis-hep-2027",
+   "acronyme": "QIS; HEP",
+   "titre": "\"Quantum Phenomenology at Colliders Workshop (QPC27)\"",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-01-20",
+   "fin": "2027-01-22",
+   "ville": "Upton",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique",
+    "particules",
+    "nucleaire"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.bnl.gov/qpc27/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3226183",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-10"
+  },
+  {
    "id": "aaa-fars-midyear-2027",
    "acronyme": "AAA FARS Midyear 2027",
    "titre": "AAA Financial Accounting and Reporting Section (FARS) Midyear Meeting",
@@ -10469,10 +10327,10 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2026-11-09",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-09-01",
@@ -10807,7 +10665,7 @@
    "annee": 2027,
    "type": "conference",
    "debut": "2027-04-26",
-   "fin": "2027-04-30",
+   "fin": "2027-04-28",
    "ville": "San Francisco",
    "pays": "US",
    "mode": "presentiel",
@@ -11685,10 +11543,10 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-09",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-09",
@@ -13274,8 +13132,8 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-11-09",
-   "type_limite": "resume",
+   "date_limite": "2026-11-16",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -13640,6 +13498,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "exploring-cosmological-phase-transitions-with-2027",
+   "acronyme": "",
+   "titre": "Exploring Cosmological Phase Transitions with Gravitational Waves: Nordita program",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-07",
+   "fin": "2027-07-02",
+   "ville": "Stockholm",
+   "pays": "SE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.fysik.su.se/event/9859/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3226151",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-10"
   },
   {
    "id": "icmr-2027",
@@ -15044,13 +14936,13 @@
    "specialites": [
     "info-interdisciplinaire"
    ],
-   "date_limite": "2027-01-11",
+   "date_limite": "2027-01-10",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2027-01-11",
+     "date": "2027-01-10",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -20044,40 +19936,6 @@
    "ajoute_le": "2026-11-05"
   },
   {
-   "id": "horizons-in-quantum-2027",
-   "acronyme": "",
-   "titre": "Horizons in Quantum Gravity",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-10-25",
-   "fin": "2027-10-28",
-   "ville": "Santa Barbara",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.kitp.ucsb.edu/activities/pathintegrals-c27",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3179572",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "imc-2027",
    "acronyme": "IMC",
    "titre": "ACM Internet Measurement Conference",
@@ -20138,6 +19996,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-20"
+  },
+  {
+   "id": "kitp-program-horizons-in-quantum-2027",
+   "acronyme": "",
+   "titre": "KITP program \"Horizons in Quantum Gravity\"",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-25",
+   "fin": "2027-10-28",
+   "ville": "Santa Barbara",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.kitp.ucsb.edu/activities/pathintegrals-c27",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3179572",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-10"
   },
   {
    "id": "uist-2027",

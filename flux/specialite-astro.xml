@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/specialite-astro.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-astro.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-09T06:00:00Z</updated>
+<updated>2026-11-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/kitp-program-horizons-in-quantum-2027/</id>
+<title>KITP program "Horizons in Quantum Gravity"</title>
+<link href="https://conferences.clicvia.com/conference/kitp-program-horizons-in-quantum-2027/"/>
+<updated>2026-11-10T06:00:00Z</updated>
+<summary>25–28 Oct 2027 · Santa Barbara, United States · Deadline: see official website · Official: https://www.kitp.ucsb.edu/activities/pathintegrals-c27</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/exploring-cosmological-phase-transitions-with-2027/</id>
+<title>Exploring Cosmological Phase Transitions with Gravitational Waves: Nordita program</title>
+<link href="https://conferences.clicvia.com/conference/exploring-cosmological-phase-transitions-with-2027/"/>
+<updated>2026-11-10T06:00:00Z</updated>
+<summary>7 Jun – 2 Jul 2027 · Stockholm, Sweden · Deadline: see official website · Official: https://indico.fysik.su.se/event/9859/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kitp-program-merging-strong-field-and-2028/</id>
 <title>KITP program "Merging Strong-field and Perturbative Gravity for the Precision Gravitational-Wave Era"</title>
@@ -139,13 +153,6 @@
 <link href="https://conferences.clicvia.com/conference/quantum-gravity-2027/"/>
 <updated>2026-10-09T06:00:00Z</updated>
 <summary>13–17 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://www.thphys.uni-heidelberg.de/~qg2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/horizons-in-quantum-2027/</id>
-<title>Horizons in Quantum Gravity</title>
-<link href="https://conferences.clicvia.com/conference/horizons-in-quantum-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>25–28 Oct 2027 · Santa Barbara, United States · Deadline: see official website · Official: https://www.kitp.ucsb.edu/activities/pathintegrals-c27</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icagac2027/</id>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/laces-2026-lezioni-avanzate-di-campi-e-stringhe/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23 Nov – 11 Dec 2026 · Florence, Italy · Deadline: see official website · Official: https://www.ggi.infn.it/single-school.php?id=566</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sags-2026/</id>
-<title>SAGS 2026 — The South African Gravity Society (SAGS) conference — 2026</title>
-<link href="https://conferences.clicvia.com/conference/sags-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–27 Nov 2026 · Cape Town, South Africa · Deadline: see official website · Official: https://indico.global/event/18151/</summary>
 </entry>
 </feed>

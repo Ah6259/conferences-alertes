@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-securite.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-securite.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-09T06:00:00Z</updated>
+<updated>2026-11-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -244,12 +244,5 @@
 <link href="https://conferences.clicvia.com/conference/tcc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>10–13 Nov 2026 · New York City, United States · Deadline: 19 May 2026 · Official: https://tcc.iacr.org/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/inscrypt-2026/</id>
-<title>INSCRYPT 2026 — International Conference on Information Security and Cryptology</title>
-<link href="https://conferences.clicvia.com/conference/inscrypt-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–9 Nov 2026 · Hong Kong SAR, China · Deadline: 8 May 2026 · Official: https://inscrypt2026.comp.polyu.edu.hk</summary>
 </entry>
 </feed>

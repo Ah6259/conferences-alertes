@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-nucleaire.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-nucleaire.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-09T06:00:00Z</updated>
+<updated>2026-11-10T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qis-hep-2027/</id>
+<title>QIS; HEP 2027 — "Quantum Phenomenology at Colliders Workshop (QPC27)"</title>
+<link href="https://conferences.clicvia.com/conference/qis-hep-2027/"/>
+<updated>2026-11-10T06:00:00Z</updated>
+<summary>20–22 Jan 2027 · Upton, United States · Deadline: see official website · Official: https://www.bnl.gov/qpc27/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/</id>
 <title>QIHEP 2027 — Quantum Information &amp; High Energy Physics</title>
@@ -167,12 +174,5 @@
 <link href="https://conferences.clicvia.com/conference/loop-the-loop-2026-feynman-calculus-and-its/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–20 Nov 2026 · Pisa, Italy · Deadline: see official website · Official: https://indico.sns.it/e/loop-the-loop-2026</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/quark-gluon-dynamics-in-the-nuclear-medium-an-ect-2026/</id>
-<title>Quark–Gluon Dynamics in the Nuclear Medium — (An ECT Workshop)</title>
-<link href="https://conferences.clicvia.com/conference/quark-gluon-dynamics-in-the-nuclear-medium-an-ect-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>9–13 Nov 2026 · Trento, Italy · Deadline: see official website · Official: https://www.ectstar.eu/workshops/quark-gluon-dynamics-in-the-nuclear-medium/</summary>
 </entry>
 </feed>

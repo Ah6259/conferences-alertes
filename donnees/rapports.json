@@ -2379,16 +2379,16 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 76,
+"evenements": 72,
 "limites": 67,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
 "amerique-nord": 15,
 "amerique-sud": 3,
-"asie": 30,
-"europe": 23,
-"oceanie": 4
+"asie": 29,
+"europe": 21,
+"oceanie": 3
 },
 "par_domaine": {
 "comptabilite": 3,
@@ -2396,29 +2396,28 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 23,
+"physique": 19,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 75
+"presentiel": 71
 },
 "par_pays": {
-"AU": 4,
+"AU": 3,
 "BE": 1,
 "BR": 2,
 "CH": 1,
 "CN": 13,
 "CO": 1,
-"DE": 1,
 "FR": 1,
 "GB": 3,
 "GR": 1,
 "HK": 1,
 "HU": 1,
-"IN": 2,
-"IT": 11,
-"JP": 4,
+"IN": 1,
+"IT": 10,
+"JP": 3,
 "KR": 1,
 "KW": 1,
 "LK": 1,
@@ -2427,7 +2426,7 @@
 "QA": 1,
 "RU": 1,
 "SA": 1,
-"SG": 2,
+"SG": 3,
 "SK": 1,
 "TH": 1,
 "TR": 1,
@@ -2435,10 +2434,10 @@
 "ZA": 1
 },
 "par_specialite": {
-"astro": 10,
+"astro": 9,
 "banque-islamique": 3,
 "bioinformatique": 1,
-"calcul-physique": 2,
+"calcul-physique": 1,
 "compta-generale": 2,
 "compta-gestion": 1,
 "donnees": 5,
@@ -2449,12 +2448,12 @@
 "ia-apprentissage": 11,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 3,
+"instrumentation": 1,
 "langage": 2,
 "matiere-condensee": 1,
 "medecine": 1,
-"nucleaire": 3,
-"particules": 11,
+"nucleaire": 2,
+"particules": 8,
 "physique-generale": 1,
 "physique-theorique": 2,
 "quantique": 6,
@@ -2467,11 +2466,11 @@
 "vision": 2
 },
 "par_type": {
-"atelier": 8,
-"conference": 64,
+"atelier": 5,
+"conference": 63,
 "ecole": 4
 },
-"pays": 29,
+"pays": 28,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -2816,29 +2815,6 @@
 "ville": "San Jose"
 },
 {
-"acronyme": "",
-"annee": 2026,
-"continent": "oceanie",
-"debut": "2026-11-09",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-13",
-"id": "21st-patras-workshop-on-axions-wimps-and-2026",
-"lien": "https://indico.global/event/16402/",
-"limites": [],
-"mode": "presentiel",
-"pays": "AU",
-"specialites": [
-"instrumentation",
-"astro",
-"calcul-physique"
-],
-"titre": "21st Patras Workshop on Axions, WIMPs and WISPs",
-"type": "atelier",
-"ville": "Perth"
-},
-{
 "acronyme": "CIKM",
 "annee": 2026,
 "continent": "europe",
@@ -2884,72 +2860,6 @@
 "ville": "Austin"
 },
 {
-"acronyme": "LCWS2026",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-09",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-13",
-"id": "lcws2026",
-"lien": "https://agenda.linearcollider.org/e/lcws2026",
-"limites": [],
-"mode": "presentiel",
-"pays": "JP",
-"specialites": [
-"instrumentation",
-"particules"
-],
-"titre": "The 2026 International Workshop on Future Linear Colliders",
-"type": "atelier",
-"ville": "KEK, Tsukuba"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-09",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-13",
-"id": "quark-gluon-dynamics-in-the-nuclear-medium-an-ect-2026",
-"lien": "https://www.ectstar.eu/workshops/quark-gluon-dynamics-in-the-nuclear-medium/",
-"limites": [],
-"mode": "presentiel",
-"pays": "IT",
-"specialites": [
-"nucleaire",
-"particules"
-],
-"titre": "Quark–Gluon Dynamics in the Nuclear Medium — (An ECT Workshop)",
-"type": "atelier",
-"ville": "Trento"
-},
-{
-"acronyme": "SQL26",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-09",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-13",
-"id": "sql26-2026",
-"lien": "https://www.sqlkonferenz.com",
-"limites": [],
-"mode": "presentiel",
-"pays": "DE",
-"specialites": [
-"quantique",
-"matiere-condensee"
-],
-"titre": "Sensing with Quantum Light",
-"type": "conference",
-"ville": "Cologne"
-},
-{
 "acronyme": "VIS",
 "annee": 2026,
 "continent": "amerique-nord",
@@ -2969,27 +2879,6 @@
 "titre": "VIS",
 "type": "conference",
 "ville": "Boston"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-09",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-20",
-"id": "worldsheet-string-theory-and-string-field-2026",
-"lien": "https://www.icts.res.in/program/wstsft",
-"limites": [],
-"mode": "presentiel",
-"pays": "IN",
-"specialites": [
-"particules"
-],
-"titre": "Worldsheet String Theory and String Field Theory",
-"type": "conference",
-"ville": "Bengaluru"
 },
 {
 "acronyme": "ACM Multimedia",
@@ -3423,6 +3312,28 @@
 "titre": "ACM SIGOPS Annual Technical Conference",
 "type": "conference",
 "ville": "Hyatt Hotel"
+},
+{
+"acronyme": "SQL26",
+"annee": 2026,
+"continent": "asie",
+"debut": "2026-11-16",
+"domaines": [
+"physique"
+],
+"fin": "2026-11-20",
+"id": "sql26-2026",
+"lien": "https://indico.ictp.it/event/11130/",
+"limites": [],
+"mode": "presentiel",
+"pays": "SG",
+"specialites": [
+"matiere-condensee",
+"quantique"
+],
+"titre": "Open Quantum Systems — from Quantum Information to Condensed Matter",
+"type": "conference",
+"ville": "Singapore"
 },
 {
 "acronyme": "VRST",
@@ -5526,7 +5437,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-09",
+"derniere_date": "2026-11-10",
 "fini": false,
 "premier_jour": "2026-11-01"
 }
