@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-10T06:00:00Z</updated>
+<updated>2026-11-11T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -379,13 +379,6 @@
 <summary>12 Dec 2026 · Paris, France · Deadline: see official website · Official: https://www.sim2science.com/</summary>
 </entry>
 <entry>
-<id>https://conferences.clicvia.com/conference/qcd-meets-ew-2026/</id>
-<title>QCD meets EW 2026</title>
-<link href="https://conferences.clicvia.com/conference/qcd-meets-ew-2026/"/>
-<updated>2026-10-21T06:00:00Z</updated>
-<summary>10–13 Nov 2026 · Milan, Italy · Deadline: see official website · Official: https://indico.cern.ch/event/1738942/</summary>
-</entry>
-<entry>
 <id>https://conferences.clicvia.com/conference/imc-2027/</id>
 <title>IMC 2027 — ACM Internet Measurement Conference</title>
 <link href="https://conferences.clicvia.com/conference/imc-2027/"/>
@@ -426,5 +419,12 @@
 <link href="https://conferences.clicvia.com/conference/mitp-scientific-program-non-equilibrium-systems-2027/"/>
 <updated>2026-10-20T06:00:00Z</updated>
 <summary>19 Jul – 6 Aug 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/489/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/mitp-scientific-program-foundations-and-2027/</id>
+<title>MITP Scientific Program: "Foundations and Applications of Generalized Symmetries"</title>
+<link href="https://conferences.clicvia.com/conference/mitp-scientific-program-foundations-and-2027/"/>
+<updated>2026-10-20T06:00:00Z</updated>
+<summary>28 Jun – 16 Jul 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/484/</summary>
 </entry>
 </feed>

@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-10 13:42",
- "derniere_lecture_reussie": "2026-11-10 13:42",
+ "mis_a_jour": "2026-11-11 12:55",
+ "derniere_lecture_reussie": "2026-11-11 12:55",
  "dernier_passage": {
-  "date": "2026-11-10 13:42",
+  "date": "2026-11-11 12:55",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 269,
    "brutes": 2357,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 22,
    "brutes": 127,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 156,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 135,
-   "brutes": 161,
-   "derniere_reussite": "2026-11-10 13:42",
+   "nombre": 133,
+   "brutes": 159,
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-10 13:42",
+   "derniere_reussite": "2026-11-11 12:55",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 473,
+ "nombre": 471,
  "conferences": [
   {
    "id": "focs-2026",
@@ -451,39 +451,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "qcd-meets-ew-2026",
-   "acronyme": "",
-   "titre": "QCD meets EW 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-10",
-   "fin": "2026-11-13",
-   "ville": "Milan",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.cern.ch/event/1738942/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3216441",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-21"
-  },
-  {
    "id": "tcc-2026",
    "acronyme": "TCC",
    "titre": "Theory of Cryptography Conference",
@@ -520,39 +487,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "wifai-2026",
-   "acronyme": "WIFAI 2026",
-   "titre": "WIFAI 2026: Workshop Italiano sulla Fisica ad Alta Intensità",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-10",
-   "fin": "2026-11-13",
-   "ville": "Perugia",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://agenda.infn.it/event/49033/overview",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3130428",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -10578,54 +10512,6 @@
    "ajoute_le": "2026-11-06"
   },
   {
-   "id": "fg-2027",
-   "acronyme": "FG",
-   "titre": "International Conference on Automatic Face and Gesture Recognition",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-04-26",
-   "fin": "2027-04-30",
-   "ville": "Marrakesh",
-   "pays": "MA",
-   "mode": "presentiel",
-   "continent": "afrique",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-10-09",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-10-16",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://fg2027.ieee-biometrics.org/",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "iclr-2027",
    "acronyme": "ICLR 2027",
    "titre": "15th International Conference on Learning Representations",
@@ -10789,6 +10675,54 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "fg-2027",
+   "acronyme": "FG",
+   "titre": "International Conference on Automatic Face and Gesture Recognition",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-27",
+   "fin": "2027-04-29",
+   "ville": "Marrakesh",
+   "pays": "MA",
+   "mode": "presentiel",
+   "continent": "afrique",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-10-23",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-10-30",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://fg2027.ieee-biometrics.org/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
    "id": "jar-2027",
    "acronyme": "JAR 2027",
    "titre": "2027 Ray Ball Journal of Accounting Research Conference",
@@ -10890,22 +10824,22 @@
     "ia-apprentissage",
     "robotique"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
+   "date_limite": "2026-12-11",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-10-01",
      "type": "resume",
-     "libelle": "Abstract",
+     "libelle": "Abstract · Main track",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-10-08",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Main track",
      "heure": "23:59",
      "fuseau": "AoE"
     },
@@ -10920,6 +10854,13 @@
      "date": "2026-11-24",
      "type": "autre",
      "libelle": "Rebuttal period end",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-11",
+     "type": "article",
+     "libelle": "AAAI fast track; eligible AAAI-27 Main Technical Track resubmissions only",
      "heure": "23:59",
      "fuseau": "AoE"
     },
@@ -12034,8 +11975,8 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-10",
-   "type_limite": "resume",
+   "date_limite": "2026-11-17",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",
    "dates_limites": [
@@ -14369,59 +14310,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "cvpr-2027",
-   "acronyme": "CVPR",
-   "titre": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-06-20",
-   "fin": "2027-06-25",
-   "ville": "Seattle",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique",
-    "ingenierie"
-   ],
-   "specialites": [
-    "vision",
-    "ia-apprentissage",
-    "robotique"
-   ],
-   "date_limite": "2026-11-10",
-   "type_limite": "resume",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
-   "dates_limites": [
-    {
-     "date": "2026-11-10",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-11-16",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://cvpr.thecvf.com/Conferences/2027",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl",
-    "hf",
-    "robo"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "international-school-on-synergies-in-non-2027",
    "acronyme": "",
    "titre": "International School on Synergies in non-equilibrium QFT: from heavy ions to the cosmos",
@@ -14864,6 +14752,59 @@
    "rang": "CORE B · CCF C",
    "sources": [
     "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "cvpr-2027",
+   "acronyme": "CVPR",
+   "titre": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-22",
+   "fin": "2027-06-25",
+   "ville": "Seattle",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique",
+    "ingenierie"
+   ],
+   "specialites": [
+    "vision",
+    "ia-apprentissage",
+    "robotique"
+   ],
+   "date_limite": "2026-11-16",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
+   "dates_limites": [
+    {
+     "date": "2026-11-10",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-11-16",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
+   "lien": "https://cvpr.thecvf.com/Conferences/2027",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl",
+    "hf",
+    "robo"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -17707,48 +17648,6 @@
    "ajoute_le": "2026-10-20"
   },
   {
-   "id": "acl-2027",
-   "acronyme": "ACL",
-   "titre": "Annual Meeting of the Association for Computational Linguistics",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-08-17",
-   "fin": "2027-08-22",
-   "ville": "Kyoto",
-   "pays": "JP",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "langage",
-    "ia-apprentissage"
-   ],
-   "date_limite": "2027-01-04",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
-   "dates_limites": [
-    {
-     "date": "2027-01-04",
-     "type": "article",
-     "libelle": "ARR Submission",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://2027.aclweb.org/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "icdar-2027",
    "acronyme": "ICDAR",
    "titre": "International Conference on Document Analysis and Recognition",
@@ -17799,6 +17698,48 @@
    "sources": [
     "ccfddl",
     "hf"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "acl-2027",
+   "acronyme": "ACL",
+   "titre": "Annual Meeting of the Association for Computational Linguistics",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-20",
+   "fin": "2027-08-22",
+   "ville": "Kyoto",
+   "pays": "JP",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "langage",
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-01-04",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
+   "dates_limites": [
+    {
+     "date": "2027-01-04",
+     "type": "article",
+     "libelle": "ARR Submission",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
+   "lien": "https://2027.aclweb.org/",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -19953,8 +19894,8 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-11-10",
-   "type_limite": "resume",
+   "date_limite": "2026-11-17",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [

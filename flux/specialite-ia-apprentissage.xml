@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-10T06:00:00Z</updated>
+<updated>2026-11-11T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -71,18 +71,18 @@
 <summary>27 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
 </entry>
 <entry>
+<id>https://conferences.clicvia.com/conference/acl-2027/</id>
+<title>ACL 2027 — Annual Meeting of the Association for Computational Linguistics</title>
+<link href="https://conferences.clicvia.com/conference/acl-2027/"/>
+<updated>2026-10-06T06:00:00Z</updated>
+<summary>20–22 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027 · Official: https://2027.aclweb.org/</summary>
+</entry>
+<entry>
 <id>https://conferences.clicvia.com/conference/icdar-2027/</id>
 <title>ICDAR 2027 — International Conference on Document Analysis and Recognition</title>
 <link href="https://conferences.clicvia.com/conference/icdar-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>18–22 Aug 2027 · Kuala Lumpur, Malaysia · Deadline: 15 Nov 2026, 26 Feb 2027, 5 Mar 2027 · Official: https://icdar2027.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acl-2027/</id>
-<title>ACL 2027 — Annual Meeting of the Association for Computational Linguistics</title>
-<link href="https://conferences.clicvia.com/conference/acl-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>17–22 Aug 2027 · Kyoto, Japan · Deadline: 4 Jan 2027 · Official: https://2027.aclweb.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ijcai-2027/</id>
@@ -138,7 +138,7 @@
 <title>CVPR 2027 — IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
 <link href="https://conferences.clicvia.com/conference/cvpr-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>20–25 Jun 2027 · Seattle, United States · Deadline: 10 Nov 2026, 16 Nov 2026 · Official: https://cvpr.thecvf.com/Conferences/2027</summary>
+<summary>22–25 Jun 2027 · Seattle, United States · Deadline: 10 Nov 2026, 16 Nov 2026 · Official: https://cvpr.thecvf.com/Conferences/2027</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ijcnn-2027/</id>
@@ -180,7 +180,7 @@
 <title>AAMAS 2027 — International Conference on Autonomous Agents and Multiagent Systems</title>
 <link href="https://conferences.clicvia.com/conference/aamas-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>3–7 May 2027 · Hanoi, Vietnam · Deadline: 1 Oct 2026, 8 Oct 2026 · Official: https://warwick.ac.uk/fac/sci/dcs/aamas2027/</summary>
+<summary>3–7 May 2027 · Hanoi, Vietnam · Deadline: 1 Oct 2026, 8 Oct 2026, 11 Dec 2026 · Official: https://warwick.ac.uk/fac/sci/dcs/aamas2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/aistats-2027/</id>
@@ -194,7 +194,7 @@
 <title>FG 2027 — International Conference on Automatic Face and Gesture Recognition</title>
 <link href="https://conferences.clicvia.com/conference/fg-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>26–30 Apr 2027 · Marrakesh, Morocco · Deadline: 9 Oct 2026, 16 Oct 2026 · Official: https://fg2027.ieee-biometrics.org/</summary>
+<summary>27–29 Apr 2027 · Marrakesh, Morocco · Deadline: 23 Oct 2026, 30 Oct 2026 · Official: https://fg2027.ieee-biometrics.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/iclr-2027-2/</id>
