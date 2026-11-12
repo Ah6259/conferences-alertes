@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-11T06:00:00Z</updated>
+<updated>2026-11-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/intellisys-2027/</id>
+<title>IntelliSys 2027 — Intelligent Systems Conference</title>
+<link href="https://conferences.clicvia.com/conference/intellisys-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>2–3 Sep 2027 · Amsterdam, Netherlands · Deadline: 15 Nov 2026, 1 Dec 2026 · Official: https://saiconference.com/IntelliSys</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ics-2027/</id>
+<title>ICS 2027 — ACM International Conference on Supercomputing</title>
+<link href="https://conferences.clicvia.com/conference/ics-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>5–11 Jun 2027 · Atlanta, United States · Deadline: 1 Dec 2026, 7 Dec 2026 · Official: https://klab-ai3.github.io/ics2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icmla-2027/</id>
 <title>ICMLA 2027 — International Conference on Machine Learning and Applications</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/interact-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–27 Aug 2027 · Tallinn, Estonia · Deadline: 25 Jan 2027, 1 Feb 2027 · Official: https://interact2027.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/re-2027/</id>
-<title>RE 2027 — IEEE International Requirements Engineering Conference</title>
-<link href="https://conferences.clicvia.com/conference/re-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–27 Aug 2027 · Milan, Italy · Deadline: 22 Feb 2027, 1 Mar 2027 · Official: https://conf.researchr.org/home/RE-2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/recsys-2027/</id>
-<title>RecSys 2027 — ACM Conference on Recommender Systems</title>
-<link href="https://conferences.clicvia.com/conference/recsys-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–27 Aug 2027 · Honolulu, United States · Deadline: see official website · Official: https://recsys.acm.org/recsys27/</summary>
 </entry>
 </feed>

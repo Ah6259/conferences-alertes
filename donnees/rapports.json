@@ -2379,14 +2379,14 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 70,
-"limites": 67,
+"evenements": 69,
+"limites": 66,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
 "amerique-nord": 15,
 "amerique-sud": 3,
-"asie": 29,
+"asie": 28,
 "europe": 19,
 "oceanie": 3
 },
@@ -2396,19 +2396,19 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 17,
+"physique": 16,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 69
+"presentiel": 68
 },
 "par_pays": {
 "AU": 3,
 "BE": 1,
 "BR": 2,
 "CH": 1,
-"CN": 13,
+"CN": 12,
 "CO": 1,
 "FR": 1,
 "GB": 3,
@@ -2448,13 +2448,11 @@
 "ia-apprentissage": 11,
 "ihm": 8,
 "info-interdisciplinaire": 2,
-"instrumentation": 1,
 "langage": 2,
 "matiere-condensee": 1,
 "medecine": 1,
 "nucleaire": 2,
-"particules": 6,
-"physique-generale": 1,
+"particules": 5,
 "physique-theorique": 2,
 "quantique": 6,
 "reseaux": 2,
@@ -2468,7 +2466,7 @@
 "par_type": {
 "atelier": 4,
 "conference": 62,
-"ecole": 4
+"ecole": 3
 },
 "pays": 28,
 "themes_site": 9,
@@ -2845,7 +2843,7 @@
 "ingenierie",
 "informatique"
 ],
-"fin": "2026-11-11",
+"fin": "2026-11-12",
 "id": "corl-2026",
 "lien": "https://www.corl.org/",
 "limites": [],
@@ -2857,7 +2855,7 @@
 ],
 "titre": "The Conference on Robot Learning",
 "type": "conference",
-"ville": "Austin"
+"ville": "JW Marriott Austin"
 },
 {
 "acronyme": "VIS",
@@ -2966,29 +2964,6 @@
 "titre": "ACM International Conference on Multimedia",
 "type": "conference",
 "ville": "Rio de Janeiro"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-11",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-19",
-"id": "neutrino-geoscience-2026-and-2026-fall-school-on",
-"lien": "https://ifcen.sysu.edu.cn/nu-geoscience2026/",
-"limites": [],
-"mode": "presentiel",
-"pays": "CN",
-"specialites": [
-"particules",
-"instrumentation",
-"physique-generale"
-],
-"titre": "Neutrino Geoscience 2026 and 2026 Fall School on Interdisciplinary Neutrino Science",
-"type": "ecole",
-"ville": "Zhuhai"
 },
 {
 "acronyme": "ESC Digital & AI Summit",
@@ -4050,36 +4025,6 @@
 "titre": "Cognitive Neuroscience Society Annual Meeting",
 "type": "conference",
 "ville": "Boston"
-},
-{
-"acronyme": "CPAL",
-"annee": 2027,
-"continent": "asie",
-"debut": "2027-03-23",
-"domaines": [
-"informatique"
-],
-"fin": "2027-03-26",
-"id": "cpal-2027",
-"lien": "https://cpal.cc/",
-"limites": [
-{
-"date": "2026-11-13",
-"type": "resume"
-},
-{
-"date": "2026-11-25",
-"type": "article"
-}
-],
-"mode": "presentiel",
-"pays": "JP",
-"specialites": [
-"ia-apprentissage"
-],
-"titre": "The Conference on Parsimony and Learning",
-"type": "conference",
-"ville": "Tokyo"
 },
 {
 "acronyme": "MMSys",
@@ -5313,6 +5258,32 @@
 "ville": "Athens"
 },
 {
+"acronyme": "IntelliSys",
+"annee": 2027,
+"continent": "europe",
+"debut": "2027-09-02",
+"domaines": [
+"informatique"
+],
+"fin": "2027-09-03",
+"id": "intellisys-2027",
+"lien": "https://saiconference.com/IntelliSys",
+"limites": [
+{
+"date": "2026-11-15",
+"type": "article"
+}
+],
+"mode": "presentiel",
+"pays": "NL",
+"specialites": [
+"ia-apprentissage"
+],
+"titre": "Intelligent Systems Conference",
+"type": "conference",
+"ville": "Amsterdam"
+},
+{
 "acronyme": "IMWUT (Ubicomp/ISWC)",
 "annee": 2027,
 "continent": "asie",
@@ -5395,7 +5366,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-11",
+"derniere_date": "2026-11-12",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-11 12:55",
- "derniere_lecture_reussie": "2026-11-11 12:55",
+ "mis_a_jour": "2026-11-12 13:48",
+ "derniere_lecture_reussie": "2026-11-12 13:48",
  "dernier_passage": {
-  "date": "2026-11-11 12:55",
+  "date": "2026-11-12 13:48",
   "reussi": true
  },
  "statut_source": {
@@ -15,17 +15,17 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 269,
-   "brutes": 2357,
-   "derniere_reussite": "2026-11-11 12:55",
+   "nombre": 268,
+   "brutes": 2358,
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 22,
+   "nombre": 21,
    "brutes": 127,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 156,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 35,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 133,
    "brutes": 159,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   },
@@ -73,54 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-11 12:55",
+   "derniere_reussite": "2026-11-12 13:48",
    "raison": "",
    "depuis": ""
   }
  },
  "nombre": 471,
  "conferences": [
-  {
-   "id": "focs-2026",
-   "acronyme": "FOCS",
-   "titre": "IEEE Symposium on Foundations of Computer Science",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-08",
-   "fin": "2026-11-11",
-   "ville": "New York City",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "theorie"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "21:00",
-     "fuseau": "UTC"
-    }
-   ],
-   "lien": "https://sanjeevkhanna.org/FOCS2026_CFP.html",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "iccad-2026",
    "acronyme": "ICCAD",
@@ -170,78 +129,14 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "cikm-2026",
-   "acronyme": "CIKM",
-   "titre": "ACM International Conference on Information and Knowledge Management",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-09",
-   "fin": "2026-11-11",
-   "ville": "Rome",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-16",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-23",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-07",
-     "type": "autre",
-     "libelle": "Author notification",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-20",
-     "type": "autre",
-     "libelle": "Camera-ready deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://cikm2026.diag.uniroma1.it/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl",
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "corl-2026",
    "acronyme": "CoRL",
    "titre": "The Conference on Robot Learning",
    "annee": 2026,
    "type": "conference",
    "debut": "2026-11-09",
-   "fin": "2026-11-11",
-   "ville": "Austin",
+   "fin": "2026-11-12",
+   "ville": "JW Marriott Austin",
    "pays": "US",
    "mode": "presentiel",
    "continent": "amerique-nord",
@@ -262,7 +157,7 @@
      "date": "2026-05-25",
      "type": "resume",
      "libelle": "Abstract",
-     "heure": "23:59",
+     "heure": "59:59",
      "fuseau": "AoE"
     },
     {
@@ -276,7 +171,7 @@
      "date": "2026-05-28",
      "type": "article",
      "libelle": "Paper",
-     "heure": "23:59",
+     "heure": "59:59",
      "fuseau": "AoE"
     },
     {
@@ -297,7 +192,6 @@
    "lien": "https://www.corl.org/",
    "rang": "CCF N · CORE N · THCPL: N",
    "sources": [
-    "ccfddl",
     "hf",
     "robo"
    ],
@@ -579,41 +473,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "neutrino-geoscience-2026-and-2026-fall-school-on",
-   "acronyme": "",
-   "titre": "Neutrino Geoscience 2026 and 2026 Fall School on Interdisciplinary Neutrino Science",
-   "annee": 2026,
-   "type": "ecole",
-   "debut": "2026-11-11",
-   "fin": "2026-11-19",
-   "ville": "Zhuhai",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "instrumentation",
-    "physique-generale"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://ifcen.sysu.edu.cn/nu-geoscience2026/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3185090",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "esc-digital-ai-summit-2026",
    "acronyme": "ESC Digital & AI Summit",
    "titre": "ESC Digital & AI Summit 2026",
@@ -632,10 +491,10 @@
     "medecine",
     "bioinformatique"
    ],
-   "date_limite": "2026-11-11",
-   "type_limite": "article",
-   "heure_limite": "00:00",
-   "fuseau_limite": "UTC+1",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-11",
@@ -6604,6 +6463,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "sixth-gevolution-users-2027",
+   "acronyme": "",
+   "titre": "Sixth gevolution users' meeting",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-02-03",
+   "fin": "2027-02-05",
+   "ville": "V Sadech 1/1, 160 00 Praha 6-Bubeneč",
+   "pays": "CZ",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://meeting27.gevolution-code.net/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3227304",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-12"
+  },
+  {
    "id": "5th-workshop-on-ultra-high-frequency-2027",
    "acronyme": "",
    "titre": "5th Workshop on Ultra-high Frequency Gravitational Waves",
@@ -8617,20 +8509,13 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-13",
-   "type_limite": "resume",
+   "date_limite": "2026-12-05",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-13",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-11-25",
+     "date": "2026-12-05",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -9504,8 +9389,8 @@
    "specialites": [
     "neurosciences"
    ],
-   "date_limite": "2026-11-11",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -11762,10 +11647,10 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-11-11",
-   "type_limite": "article",
-   "heure_limite": "17:00",
-   "fuseau_limite": "PT",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-06-11",
@@ -13054,6 +12939,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-08"
+  },
+  {
+   "id": "ics-2027",
+   "acronyme": "ICS",
+   "titre": "ACM International Conference on Supercomputing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-05",
+   "fin": "2027-06-11",
+   "ville": "Atlanta",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "2026-12-01",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-12-01",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-07",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://klab-ai3.github.io/ics2027/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-12"
   },
   {
    "id": "isca-2027",
@@ -16083,8 +16016,8 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-11-11",
-   "type_limite": "resume",
+   "date_limite": "2026-11-18",
+   "type_limite": "article",
    "heure_limite": "17:00",
    "fuseau_limite": "UTC-8",
    "dates_limites": [
@@ -18305,6 +18238,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "intellisys-2027",
+   "acronyme": "IntelliSys",
+   "titre": "Intelligent Systems Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-02",
+   "fin": "2027-09-03",
+   "ville": "Amsterdam",
+   "pays": "NL",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2026-11-15",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-15",
+     "type": "article",
+     "libelle": "Round 1",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-01",
+     "type": "article",
+     "libelle": "Round 2",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://saiconference.com/IntelliSys",
+   "rang": "",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-12"
   },
   {
    "id": "eucas-2027",

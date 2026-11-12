@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-11T06:00:00Z</updated>
+<updated>2026-11-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ics-2027/</id>
+<title>ICS 2027 — ACM International Conference on Supercomputing</title>
+<link href="https://conferences.clicvia.com/conference/ics-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>5–11 Jun 2027 · Atlanta, United States · Deadline: 1 Dec 2026, 7 Dec 2026 · Official: https://klab-ai3.github.io/ics2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/fccm-2027/</id>
 <title>FCCM 2027 — IEEE Symposium on Field-Programmable Custom Computing Machines</title>

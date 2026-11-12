@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-11T06:00:00Z</updated>
+<updated>2026-11-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/intellisys-2027/</id>
+<title>IntelliSys 2027 — Intelligent Systems Conference</title>
+<link href="https://conferences.clicvia.com/conference/intellisys-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>2–3 Sep 2027 · Amsterdam, Netherlands · Deadline: 15 Nov 2026, 1 Dec 2026 · Official: https://saiconference.com/IntelliSys</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icmla-2027/</id>
 <title>ICMLA 2027 — International Conference on Machine Learning and Applications</title>
@@ -257,7 +264,7 @@
 <title>CPAL 2027 — The Conference on Parsimony and Learning</title>
 <link href="https://conferences.clicvia.com/conference/cpal-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>23–26 Mar 2027 · Tokyo, Japan · Deadline: 13 Nov 2026, 25 Nov 2026 · Official: https://cpal.cc/</summary>
+<summary>23–26 Mar 2027 · Tokyo, Japan · Deadline: 5 Dec 2026 · Official: https://cpal.cc/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/alt-2027/</id>
@@ -344,17 +351,10 @@
 <summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
 </entry>
 <entry>
-<id>https://conferences.clicvia.com/conference/cikm-2026/</id>
-<title>CIKM 2026 — ACM International Conference on Information and Knowledge Management</title>
-<link href="https://conferences.clicvia.com/conference/cikm-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>9–11 Nov 2026 · Rome, Italy · Deadline: 16 May 2026, 23 May 2026 · Official: https://cikm2026.diag.uniroma1.it/</summary>
-</entry>
-<entry>
 <id>https://conferences.clicvia.com/conference/corl-2026/</id>
 <title>CoRL 2026 — The Conference on Robot Learning</title>
 <link href="https://conferences.clicvia.com/conference/corl-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>9–11 Nov 2026 · Austin, United States · Deadline: 25 May 2026, 26 May 2026, 28 May 2026 · Official: https://www.corl.org/</summary>
+<summary>9–12 Nov 2026 · JW Marriott Austin, United States · Deadline: 25 May 2026, 26 May 2026, 28 May 2026 · Official: https://www.corl.org/</summary>
 </entry>
 </feed>

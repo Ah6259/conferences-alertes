@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-11T06:00:00Z</updated>
+<updated>2026-11-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/sixth-gevolution-users-2027/</id>
+<title>Sixth gevolution users' meeting</title>
+<link href="https://conferences.clicvia.com/conference/sixth-gevolution-users-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>3–5 Feb 2027 · V Sadech 1/1, 160 00 Praha 6-Bubeneč, Czech Republic · Deadline: see official website · Official: https://meeting27.gevolution-code.net/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kitp-program-horizons-in-quantum-2027/</id>
 <title>KITP program "Horizons in Quantum Gravity"</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/crism-v-cosmic-ray-and-the-interstellar-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>5–9 Jul 2027 · Grenoble, France · Deadline: see official website · Official: https://crism2027.sciencesconf.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/cteq-mcgen-2027/</id>
-<title>CTEQ-MCgen-2027 — 2027 CTEQ Summer School &amp; 2027 MCgen CyberTraining Program — CTEQ Summer School on QCD and Electroweak Phenomenology, &amp; MCgen CyberTraining Program</title>
-<link href="https://conferences.clicvia.com/conference/cteq-mcgen-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20 Jun – 1 Jul 2027 · East Lansing, United States · Deadline: see official website · Official: https://indico.cern.ch/event/1731793/</summary>
 </entry>
 </feed>

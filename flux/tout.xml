@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-11T06:00:00Z</updated>
+<updated>2026-11-12T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/intellisys-2027/</id>
+<title>IntelliSys 2027 — Intelligent Systems Conference</title>
+<link href="https://conferences.clicvia.com/conference/intellisys-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>2–3 Sep 2027 · Amsterdam, Netherlands · Deadline: 15 Nov 2026, 1 Dec 2026 · Official: https://saiconference.com/IntelliSys</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ics-2027/</id>
+<title>ICS 2027 — ACM International Conference on Supercomputing</title>
+<link href="https://conferences.clicvia.com/conference/ics-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>5–11 Jun 2027 · Atlanta, United States · Deadline: 1 Dec 2026, 7 Dec 2026 · Official: https://klab-ai3.github.io/ics2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sixth-gevolution-users-2027/</id>
+<title>Sixth gevolution users' meeting</title>
+<link href="https://conferences.clicvia.com/conference/sixth-gevolution-users-2027/"/>
+<updated>2026-11-12T06:00:00Z</updated>
+<summary>3–5 Feb 2027 · V Sadech 1/1, 160 00 Praha 6-Bubeneč, Czech Republic · Deadline: see official website · Official: https://meeting27.gevolution-code.net/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/kitp-program-horizons-in-quantum-2027/</id>
 <title>KITP program "Horizons in Quantum Gravity"</title>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/mitp-scientific-program-bridging-the-gap-between-2027/"/>
 <updated>2026-10-20T06:00:00Z</updated>
 <summary>16 Aug – 3 Sep 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/493/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-the-emerging-nanohertz-2027/</id>
-<title>MITP Topical Workshop: "The Emerging Nanohertz Gravitational-Wave Sky: From Massive Black Holes to New Physics"</title>
-<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-the-emerging-nanohertz-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>9–13 Aug 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/491/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-scientific-program-non-equilibrium-systems-2027/</id>
-<title>MITP Scientific program: "Non-equilibrium Systems in Cosmology and Astroparticle Physics: Methods and Applications"</title>
-<link href="https://conferences.clicvia.com/conference/mitp-scientific-program-non-equilibrium-systems-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>19 Jul – 6 Aug 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/489/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-scientific-program-foundations-and-2027/</id>
-<title>MITP Scientific Program: "Foundations and Applications of Generalized Symmetries"</title>
-<link href="https://conferences.clicvia.com/conference/mitp-scientific-program-foundations-and-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>28 Jun – 16 Jul 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/484/</summary>
 </entry>
 </feed>
