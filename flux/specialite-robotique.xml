@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-robotique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-robotique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-12T06:00:00Z</updated>
+<updated>2026-11-13T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -111,12 +111,5 @@
 <link href="https://conferences.clicvia.com/conference/humanoids-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>6–9 Dec 2026 · Santa Clara, United States · Deadline: 24 Jul 2026 · Official: https://2026.ieee-humanoids.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/corl-2026/</id>
-<title>CoRL 2026 — The Conference on Robot Learning</title>
-<link href="https://conferences.clicvia.com/conference/corl-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>9–12 Nov 2026 · JW Marriott Austin, United States · Deadline: 25 May 2026, 26 May 2026, 28 May 2026 · Official: https://www.corl.org/</summary>
 </entry>
 </feed>

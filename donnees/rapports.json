@@ -4325,7 +4325,7 @@
 "lien": "https://www.esann.org/",
 "limites": [
 {
-"date": "2026-11-19",
+"date": "2026-11-26",
 "type": "article"
 }
 ],
@@ -5366,7 +5366,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-12",
+"derniere_date": "2026-11-13",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

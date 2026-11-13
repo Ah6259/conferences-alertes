@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-ia-apprentissage.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-12T06:00:00Z</updated>
+<updated>2026-11-13T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -215,7 +215,7 @@
 <title>ESANN 2027 — European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning</title>
 <link href="https://conferences.clicvia.com/conference/esann-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>21–23 Apr 2027 · Bruges, Belgium · Deadline: 19 Nov 2026 · Official: https://www.esann.org/</summary>
+<summary>21–23 Apr 2027 · Bruges, Belgium · Deadline: 26 Nov 2026 · Official: https://www.esann.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/cvc-2027/</id>
@@ -349,12 +349,5 @@
 <link href="https://conferences.clicvia.com/conference/acm-mm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/corl-2026/</id>
-<title>CoRL 2026 — The Conference on Robot Learning</title>
-<link href="https://conferences.clicvia.com/conference/corl-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>9–12 Nov 2026 · JW Marriott Austin, United States · Deadline: 25 May 2026, 26 May 2026, 28 May 2026 · Official: https://www.corl.org/</summary>
 </entry>
 </feed>

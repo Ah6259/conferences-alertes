@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-12 13:48",
- "derniere_lecture_reussie": "2026-11-12 13:48",
+ "mis_a_jour": "2026-11-13 13:18",
+ "derniere_lecture_reussie": "2026-11-13 13:18",
  "dernier_passage": {
-  "date": "2026-11-12 13:48",
+  "date": "2026-11-13 13:18",
   "reussi": true
  },
  "statut_source": {
@@ -15,17 +15,17 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 268,
+   "nombre": 267,
    "brutes": 2358,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 21,
+   "nombre": 20,
    "brutes": 127,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 156,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
@@ -49,15 +49,15 @@
    "etat": "ok",
    "nombre": 2,
    "brutes": 24,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
   "robo": {
    "etat": "ok",
-   "nombre": 16,
+   "nombre": 15,
    "brutes": 35,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 133,
    "brutes": 159,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   },
@@ -73,133 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-12 13:48",
+   "derniere_reussite": "2026-11-13 13:18",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 471,
+ "nombre": 469,
  "conferences": [
-  {
-   "id": "iccad-2026",
-   "acronyme": "ICCAD",
-   "titre": "IEEE/ACM International Conference on Computer-Aided Design",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-08",
-   "fin": "2026-11-12",
-   "ville": "San Jose",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-07",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-04-14",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://iccad.com/2026",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "corl-2026",
-   "acronyme": "CoRL",
-   "titre": "The Conference on Robot Learning",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-09",
-   "fin": "2026-11-12",
-   "ville": "JW Marriott Austin",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "ingenierie",
-    "informatique"
-   ],
-   "specialites": [
-    "robotique",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-25",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "59:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-26",
-     "type": "resume",
-     "libelle": "Abstract submission deadline",
-     "heure": "11:59",
-     "fuseau": "UTC"
-    },
-    {
-     "date": "2026-05-28",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "59:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-29",
-     "type": "article",
-     "libelle": "Paper submission deadline",
-     "heure": "11:59",
-     "fuseau": "UTC"
-    },
-    {
-     "date": "2026-10-12",
-     "type": "autre",
-     "libelle": "Camera-ready deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.corl.org/",
-   "rang": "CCF N · CORE N · THCPL: N",
-   "sources": [
-    "hf",
-    "robo"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "vis-2026",
    "acronyme": "VIS",
@@ -8722,8 +8602,8 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-11-12",
-   "type_limite": "resume",
+   "date_limite": "2026-11-19",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -9864,10 +9744,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-12",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-05",
@@ -10208,13 +10088,13 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-19",
+   "date_limite": "2026-11-26",
    "type_limite": "article",
    "heure_limite": "03:59",
    "fuseau_limite": "UTC-8",
    "dates_limites": [
     {
-     "date": "2026-11-19",
+     "date": "2026-11-26",
      "type": "article",
      "libelle": "Paper",
      "heure": "03:59",
@@ -13068,10 +12948,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-12",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-12",
