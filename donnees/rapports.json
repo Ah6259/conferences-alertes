@@ -2379,7 +2379,7 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 69,
+"evenements": 68,
 "limites": 66,
 "limites_conferences": 53,
 "par_continent": {
@@ -2387,7 +2387,7 @@
 "amerique-nord": 15,
 "amerique-sud": 3,
 "asie": 28,
-"europe": 19,
+"europe": 18,
 "oceanie": 3
 },
 "par_domaine": {
@@ -2396,12 +2396,12 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 16,
+"physique": 15,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 68
+"presentiel": 67
 },
 "par_pays": {
 "AU": 3,
@@ -2427,7 +2427,6 @@
 "RU": 1,
 "SA": 1,
 "SG": 3,
-"SK": 1,
 "TH": 1,
 "TR": 1,
 "US": 15,
@@ -2452,7 +2451,7 @@
 "matiere-condensee": 1,
 "medecine": 1,
 "nucleaire": 2,
-"particules": 5,
+"particules": 4,
 "physique-theorique": 2,
 "quantique": 6,
 "reseaux": 2,
@@ -2465,10 +2464,10 @@
 },
 "par_type": {
 "atelier": 4,
-"conference": 62,
+"conference": 61,
 "ecole": 3
 },
-"pays": 28,
+"pays": 27,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -3012,27 +3011,6 @@
 "titre": "The International Conference on Advanced Data Mining and Applications",
 "type": "conference",
 "ville": "Hong Kong"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-13",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-17",
-"id": "discrete-2026-10th-symposium-on-prospects-in-the",
-"lien": "https://conference.uniba.sk/e/discrete2026",
-"limites": [],
-"mode": "presentiel",
-"pays": "SK",
-"specialites": [
-"particules"
-],
-"titre": "DISCRETE 2026 — 10th Symposium on Prospects in the Physics of Discrete Symmetries",
-"type": "conference",
-"ville": "Bratislava"
 },
 {
 "acronyme": "ICDM",
@@ -5366,7 +5344,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-13",
+"derniere_date": "2026-11-14",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

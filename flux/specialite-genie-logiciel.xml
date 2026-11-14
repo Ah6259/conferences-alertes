@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-genie-logiciel.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-genie-logiciel.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-13T06:00:00Z</updated>
+<updated>2026-11-14T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/cc-2027/</id>
+<title>CC 2027 — International Conference on Compiler Construction</title>
+<link href="https://conferences.clicvia.com/conference/cc-2027/"/>
+<updated>2026-11-14T06:00:00Z</updated>
+<summary>20–21 Mar 2027 · Salt Lake City, United States · Deadline: 1 Dec 2026, 3 Dec 2026 · Official: https://conf.researchr.org/home/CC-2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/issre-2027/</id>
 <title>ISSRE 2027 — International Symposium on Software Reliability Engineering</title>

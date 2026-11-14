@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/ingenierie.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/ingenierie.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-13T06:00:00Z</updated>
+<updated>2026-11-14T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icra-2028/</id>
+<title>ICRA 2028 — IEEE International Conference on Robotics and Automation</title>
+<link href="https://conferences.clicvia.com/conference/icra-2028/"/>
+<updated>2026-11-14T06:00:00Z</updated>
+<summary>15–19 May 2028 · Riocentro, Brazil · Deadline: 15 Sep 2027 · Official: https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icml-2027/</id>
+<title>ICML 2027 — International Conference on Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/icml-2027/"/>
+<updated>2026-11-03T06:00:00Z</updated>
+<summary>2–4 Aug 2027 · Riocentro, Brazil · Deadline: 14 Jan 2027, 22 Jan 2027 · Official: https://icml.cc/Conferences/2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/iros-2027/</id>
 <title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>

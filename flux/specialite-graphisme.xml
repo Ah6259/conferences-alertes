@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-graphisme.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-graphisme.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-13T06:00:00Z</updated>
+<updated>2026-11-14T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -216,12 +216,5 @@
 <link href="https://conferences.clicvia.com/conference/acm-mm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ieee-vis-2026/</id>
-<title>IEEE VIS 2026 — IEEE Visualization Conference</title>
-<link href="https://conferences.clicvia.com/conference/ieee-vis-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>10–13 Nov 2026 · Boston, United States · Deadline: 21 Mar 2026, 31 Mar 2026 · Official: https://ieeevis.org/year/2026/welcome</summary>
 </entry>
 </feed>

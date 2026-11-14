@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-13 13:18",
- "derniere_lecture_reussie": "2026-11-13 13:18",
+ "mis_a_jour": "2026-11-14 12:33",
+ "derniere_lecture_reussie": "2026-11-14 12:33",
  "dernier_passage": {
-  "date": "2026-11-13 13:18",
+  "date": "2026-11-14 12:33",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 267,
-   "brutes": 2358,
-   "derniere_reussite": "2026-11-13 13:18",
+   "nombre": 266,
+   "brutes": 2359,
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 20,
    "brutes": 127,
-   "derniere_reussite": "2026-11-13 13:18",
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 18,
+   "nombre": 17,
    "brutes": 156,
-   "derniere_reussite": "2026-11-13 13:18",
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
@@ -41,31 +41,31 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-13 13:18",
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
   "bio": {
    "etat": "ok",
-   "nombre": 2,
+   "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-13 13:18",
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
   "robo": {
    "etat": "ok",
-   "nombre": 15,
-   "brutes": 35,
-   "derniere_reussite": "2026-11-13 13:18",
+   "nombre": 17,
+   "brutes": 36,
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 133,
-   "brutes": 159,
-   "derniere_reussite": "2026-11-13 13:18",
+   "nombre": 132,
+   "brutes": 158,
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   },
@@ -73,61 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-13 13:18",
+   "derniere_reussite": "2026-11-14 12:33",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 469,
+ "nombre": 466,
  "conferences": [
-  {
-   "id": "vis-2026",
-   "acronyme": "VIS",
-   "titre": "VIS",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-09",
-   "fin": "2026-11-13",
-   "ville": "Boston",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-21",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-03-31",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://ieeevis.org/year/2026/welcome/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "acm-multimedia-2026",
    "acronyme": "ACM Multimedia",
@@ -170,95 +122,6 @@
    "rang": "",
    "sources": [
     "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ieee-vis-2026",
-   "acronyme": "IEEE VIS",
-   "titre": "IEEE Visualization Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-10",
-   "fin": "2026-11-13",
-   "ville": "Boston",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "graphisme"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-21",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-03-31",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://ieeevis.org/year/2026/welcome",
-   "rang": "CORE A · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "tcc-2026",
-   "acronyme": "TCC",
-   "titre": "Theory of Cryptography Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-10",
-   "fin": "2026-11-13",
-   "ville": "New York City",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-19",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://tcc.iacr.org/2026/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -353,48 +216,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "esc-digital-ai-summit-2026",
-   "acronyme": "ESC Digital & AI Summit",
-   "titre": "ESC Digital & AI Summit 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-12",
-   "fin": "2026-11-13",
-   "ville": "Basel",
-   "pays": "CH",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "vie-sante"
-   ],
-   "specialites": [
-    "medecine",
-    "bioinformatique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-11-11",
-     "type": "article",
-     "libelle": "Submission",
-     "heure": "00:00",
-     "fuseau": "UTC+1"
-    }
-   ],
-   "lien": "https://www.escardio.org/Congresses-Events/ESC-Digital-AI-Summit",
-   "rang": "",
-   "sources": [
-    "bio"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "adma-2026",
    "acronyme": "ADMA",
    "titre": "The International Conference on Advanced Data Mining and Applications",
@@ -431,39 +252,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "discrete-2026-10th-symposium-on-prospects-in-the",
-   "acronyme": "",
-   "titre": "DISCRETE 2026 — 10th Symposium on Prospects in the Physics of Discrete Symmetries",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-13",
-   "fin": "2026-11-17",
-   "ville": "Bratislava",
-   "pays": "SK",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://conference.uniba.sk/e/discrete2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3124114",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -7923,6 +7711,54 @@
    "verifie_le": "2026-10-06",
    "page_verifiee": "https://www.midwestfinance.org/2027-annual-meeting",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "cc-2027",
+   "acronyme": "CC",
+   "titre": "International Conference on Compiler Construction",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-20",
+   "fin": "2027-03-21",
+   "ville": "Salt Lake City",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "genie-logiciel"
+   ],
+   "date_limite": "2026-12-01",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-12-01",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-03",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://conf.researchr.org/home/CC-2027",
+   "rang": "CORE B · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-14"
   },
   {
    "id": "cns-2027",
@@ -17055,20 +16891,38 @@
    "mode": "presentiel",
    "continent": "amerique-sud",
    "domaines": [
-    "informatique"
+    "informatique",
+    "ingenierie"
    ],
    "specialites": [
-    "ia-apprentissage"
+    "ia-apprentissage",
+    "robotique"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-14",
+   "type_limite": "resume",
+   "heure_limite": "59:00",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-14",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "59:00",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-22",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "59:00",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://icml.cc/Conferences/2027",
    "rang": "CORE A* · CCF A",
    "sources": [
-    "ccfddl"
+    "ccfddl",
+    "robo"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -20232,6 +20086,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-08"
+  },
+  {
+   "id": "icra-2028",
+   "acronyme": "ICRA",
+   "titre": "IEEE International Conference on Robotics and Automation",
+   "annee": 2028,
+   "type": "conference",
+   "debut": "2028-05-15",
+   "fin": "2028-05-19",
+   "ville": "Riocentro",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "ingenierie"
+   ],
+   "specialites": [
+    "robotique"
+   ],
+   "date_limite": "2027-09-15",
+   "type_limite": "article",
+   "heure_limite": "59:59",
+   "fuseau_limite": "PST",
+   "dates_limites": [
+    {
+     "date": "2027-09-15",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "59:59",
+     "fuseau": "PST"
+    }
+   ],
+   "lien": "https://www.ieee-ras.org/event/2028-ieee-international-conference-on-robotics-and-automation-icra-74101/",
+   "rang": "CCF B",
+   "sources": [
+    "robo"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-14"
   }
  ]
 }

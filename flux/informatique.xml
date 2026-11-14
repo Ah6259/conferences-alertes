@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-13T06:00:00Z</updated>
+<updated>2026-11-14T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/cc-2027/</id>
+<title>CC 2027 — International Conference on Compiler Construction</title>
+<link href="https://conferences.clicvia.com/conference/cc-2027/"/>
+<updated>2026-11-14T06:00:00Z</updated>
+<summary>20–21 Mar 2027 · Salt Lake City, United States · Deadline: 1 Dec 2026, 3 Dec 2026 · Official: https://conf.researchr.org/home/CC-2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/intellisys-2027/</id>
 <title>IntelliSys 2027 — Intelligent Systems Conference</title>
@@ -110,7 +117,7 @@
 <title>ICML 2027 — International Conference on Machine Learning</title>
 <link href="https://conferences.clicvia.com/conference/icml-2027/"/>
 <updated>2026-11-03T06:00:00Z</updated>
-<summary>2–4 Aug 2027 · Riocentro, Brazil · Deadline: see official website · Official: https://icml.cc/Conferences/2027</summary>
+<summary>2–4 Aug 2027 · Riocentro, Brazil · Deadline: 14 Jan 2027, 22 Jan 2027 · Official: https://icml.cc/Conferences/2027</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sec-2027/</id>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/fscd-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–26 Aug 2027 · Nijmegen, Netherlands · Deadline: 19 Apr 2027, 26 Apr 2027 · Official: https://fscd-cade.science.ru.nl/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/interact-2027/</id>
-<title>INTERACT 2027 — IFIP TC13 International Conference on Human-Computer Interaction</title>
-<link href="https://conferences.clicvia.com/conference/interact-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–27 Aug 2027 · Tallinn, Estonia · Deadline: 25 Jan 2027, 1 Feb 2027 · Official: https://interact2027.org/</summary>
 </entry>
 </feed>
