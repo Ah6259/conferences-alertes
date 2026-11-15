@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-14T06:00:00Z</updated>
+<updated>2026-11-15T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/charting-the-dark-tunisia-dark-matter-and-galaxy-2027/</id>
+<title>Charting the Dark - Tunisia — Dark Matter and Galaxy Formation</title>
+<link href="https://conferences.clicvia.com/conference/charting-the-dark-tunisia-dark-matter-and-galaxy-2027/"/>
+<updated>2026-11-15T06:00:00Z</updated>
+<summary>1–6 Aug 2027 · Sousse, Tunisia · Deadline: see official website · Official: https://indico.mit.edu/event/2316/overview</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sixth-gevolution-users-2027/</id>
 <title>Sixth gevolution users' meeting</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/pearc27-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>11–15 Jul 2027 · Raleigh, United States · Deadline: see official website · Official: https://pearc.acm.org/pearc27/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/crism-v-cosmic-ray-and-the-interstellar-2027/</id>
-<title>CRISM V — Cosmic Ray and the InterStellar Medium</title>
-<link href="https://conferences.clicvia.com/conference/crism-v-cosmic-ray-and-the-interstellar-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>5–9 Jul 2027 · Grenoble, France · Deadline: see official website · Official: https://crism2027.sciencesconf.org/</summary>
 </entry>
 </feed>

@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-14 12:33",
- "derniere_lecture_reussie": "2026-11-14 12:33",
+ "mis_a_jour": "2026-11-15 12:59",
+ "derniere_lecture_reussie": "2026-11-15 12:59",
  "dernier_passage": {
-  "date": "2026-11-14 12:33",
+  "date": "2026-11-15 12:59",
   "reussi": true
  },
  "statut_source": {
@@ -15,25 +15,25 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 266,
+   "nombre": 265,
    "brutes": 2359,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 20,
+   "nombre": 19,
    "brutes": 127,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 17,
+   "nombre": 16,
    "brutes": 156,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 132,
-   "brutes": 158,
-   "derniere_reussite": "2026-11-14 12:33",
+   "nombre": 133,
+   "brutes": 159,
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   },
@@ -73,148 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-14 12:33",
+   "derniere_reussite": "2026-11-15 12:59",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 466,
+ "nombre": 465,
  "conferences": [
-  {
-   "id": "acm-multimedia-2026",
-   "acronyme": "ACM Multimedia",
-   "titre": "ACM International Conference on Multimedia",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-10",
-   "fin": "2026-11-14",
-   "ville": "Rio de Janeiro",
-   "pays": "BR",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-25",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-04-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://2026.acmmm.org/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "acm-mm-2026",
-   "acronyme": "ACM MM",
-   "titre": "ACM International Conference on Multimedia",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-11",
-   "fin": "2026-11-14",
-   "ville": "Rio de Janeiro",
-   "pays": "BR",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "graphisme",
-    "vision",
-    "ia-apprentissage",
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-03-25",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-04-08",
-     "type": "autre",
-     "libelle": "Supplementary material submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-04",
-     "type": "autre",
-     "libelle": "Rebuttal period start",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-09",
-     "type": "autre",
-     "libelle": "Author notification",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-06",
-     "type": "autre",
-     "libelle": "Camera-ready submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-20",
-     "type": "autre",
-     "libelle": "Author registration",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2026.acmmm.org/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl",
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "adma-2026",
    "acronyme": "ADMA",
@@ -10732,15 +10597,22 @@
     "langage",
     "ia-apprentissage"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
+   "date_limite": "2026-12-23",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
    "dates_limites": [
     {
      "date": "2026-10-12",
      "type": "article",
      "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-12-23",
+     "type": "article",
+     "libelle": "Commitment deadline for long and short research papers reviewed by ARR",
      "heure": "23:59",
      "fuseau": "UTC-12"
     }
@@ -16829,6 +16701,41 @@
    "verifie_le": "2026-10-06",
    "page_verifiee": "https://aaahq.org/Meetings/2027/AAA-Global-Connect",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "charting-the-dark-tunisia-dark-matter-and-galaxy-2027",
+   "acronyme": "",
+   "titre": "Charting the Dark - Tunisia — Dark Matter and Galaxy Formation",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-01",
+   "fin": "2027-08-06",
+   "ville": "Sousse",
+   "pays": "TN",
+   "mode": "presentiel",
+   "continent": "afrique",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro",
+    "particules",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.mit.edu/event/2316/overview",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3228592",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-15"
   },
   {
    "id": "sigkdd-2027",

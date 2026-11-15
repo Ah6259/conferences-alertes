@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-ihm.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-ihm.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-14T06:00:00Z</updated>
+<updated>2026-11-15T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -195,19 +195,5 @@
 <link href="https://conferences.clicvia.com/conference/collaboratecom-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>14–15 Nov 2026 · Hong Kong SAR, China · Deadline: 1 May 2026 · Official: https://collaboratecom.eai-conferences.org/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acm-mm-2026/</id>
-<title>ACM MM 2026 — ACM International Conference on Multimedia</title>
-<link href="https://conferences.clicvia.com/conference/acm-mm-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acm-multimedia-2026/</id>
-<title>ACM Multimedia 2026 — ACM International Conference on Multimedia</title>
-<link href="https://conferences.clicvia.com/conference/acm-multimedia-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>10–14 Nov 2026 · Rio de Janeiro, Brazil · Deadline: 25 Mar 2026, 1 Apr 2026 · Official: https://2026.acmmm.org/</summary>
 </entry>
 </feed>
