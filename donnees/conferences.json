@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-15 12:59",
- "derniere_lecture_reussie": "2026-11-15 12:59",
+ "mis_a_jour": "2026-11-16 13:50",
+ "derniere_lecture_reussie": "2026-11-16 13:50",
  "dernier_passage": {
-  "date": "2026-11-15 12:59",
+  "date": "2026-11-16 13:50",
   "reussi": true
  },
  "statut_source": {
@@ -15,17 +15,17 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 265,
-   "brutes": 2359,
-   "derniere_reussite": "2026-11-15 12:59",
+   "nombre": 263,
+   "brutes": 2360,
+   "derniere_reussite": "2026-11-16 13:49",
    "raison": "",
    "depuis": ""
   },
   "hf": {
    "etat": "ok",
-   "nombre": 19,
+   "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:49",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 156,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:49",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 133,
    "brutes": 159,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:50",
    "raison": "",
    "depuis": ""
   },
@@ -73,158 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-15 12:59",
+   "derniere_reussite": "2026-11-16 13:50",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 465,
+ "nombre": 463,
  "conferences": [
-  {
-   "id": "adma-2026",
-   "acronyme": "ADMA",
-   "titre": "The International Conference on Advanced Data Mining and Applications",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-13",
-   "fin": "2026-11-15",
-   "ville": "Hong Kong",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-17",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://adma2026.github.io/",
-   "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icdm-2026",
-   "acronyme": "ICDM",
-   "titre": "IEEE International Conference on Data Mining",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-13",
-   "fin": "2026-11-15",
-   "ville": "Shenyang",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-30",
-     "type": "resume",
-     "libelle": "Abstract Submission",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-06",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-16",
-     "type": "autre",
-     "libelle": "Author Notification",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-09-09",
-     "type": "autre",
-     "libelle": "Camera Ready Deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://icdm2026.neu.edu.cn/",
-   "rang": "CORE A* · CCF B",
-   "sources": [
-    "ccfddl",
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "collaboratecom-2026",
-   "acronyme": "CollaborateCom",
-   "titre": "International Conference on Collaborative Computing: Networking, Applications and Worksharing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-14",
-   "fin": "2026-11-15",
-   "ville": "Hong Kong SAR",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-01",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://collaboratecom.eai-conferences.org/2026/",
-   "rang": "CORE C · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "ccs-2026",
    "acronyme": "CCS",
@@ -9543,10 +9398,10 @@
     "vision",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-15",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-09-01",
@@ -10612,7 +10467,7 @@
     {
      "date": "2026-12-23",
      "type": "article",
-     "libelle": "Commitment deadline for long and short research papers reviewed by ARR",
+     "libelle": "Commitment deadline for long research papers reviewed by ARR",
      "heure": "23:59",
      "fuseau": "UTC-12"
     }
@@ -12931,10 +12786,10 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-15",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-04",
@@ -16807,21 +16662,21 @@
    ],
    "date_limite": "2027-01-14",
    "type_limite": "resume",
-   "heure_limite": "59:00",
+   "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2027-01-14",
      "type": "resume",
      "libelle": "Abstract",
-     "heure": "59:00",
+     "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2027-01-22",
      "type": "article",
      "libelle": "Paper",
-     "heure": "59:00",
+     "heure": "23:59",
      "fuseau": "AoE"
     }
    ],
@@ -17240,8 +17095,8 @@
     "ia-apprentissage",
     "vision"
    ],
-   "date_limite": "2026-11-15",
-   "type_limite": "article",
+   "date_limite": "2027-02-26",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -17751,6 +17606,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icann-2027",
+   "acronyme": "ICANN",
+   "titre": "International Conference on Artificial Neural Networks",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-24",
+   "fin": "2027-08-27",
+   "ville": "Linköping",
+   "pays": "SE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://e-nns.org/icann2027/",
+   "rang": "CORE C · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-16"
+  },
+  {
    "id": "apweb-waim-2027",
    "acronyme": "APWeb-WAIM",
    "titre": "APWeb-WAIM joint international conference on Web and Big Data",
@@ -17898,7 +17786,7 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-15",
+   "date_limite": "2026-12-01",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",

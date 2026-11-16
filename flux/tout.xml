@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-15T06:00:00Z</updated>
+<updated>2026-11-16T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/icann-2027/</id>
+<title>ICANN 2027 — International Conference on Artificial Neural Networks</title>
+<link href="https://conferences.clicvia.com/conference/icann-2027/"/>
+<updated>2026-11-16T06:00:00Z</updated>
+<summary>24–27 Aug 2027 · Linköping, Sweden · Deadline: see official website · Official: https://e-nns.org/icann2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/charting-the-dark-tunisia-dark-matter-and-galaxy-2027/</id>
 <title>Charting the Dark - Tunisia — Dark Matter and Galaxy Formation</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/"/>
 <updated>2026-10-21T06:00:00Z</updated>
 <summary>12 Dec 2026 · Paris, France · Deadline: see official website · Official: https://www.sim2science.com/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/imc-2027/</id>
-<title>IMC 2027 — ACM Internet Measurement Conference</title>
-<link href="https://conferences.clicvia.com/conference/imc-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>25–29 Oct 2027 · Atlanta, United States · Deadline: 10 Nov 2026, 17 Nov 2026, 31 Mar 2027 · Official: https://conferences.sigcomm.org/imc/2027/</summary>
 </entry>
 </feed>

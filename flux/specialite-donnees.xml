@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-donnees.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-donnees.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-15T06:00:00Z</updated>
+<updated>2026-11-16T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -195,19 +195,5 @@
 <link href="https://conferences.clicvia.com/conference/sdm-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>19–20 Nov 2026 · Salt Lake City, United States · Deadline: 10 Apr 2026, 17 Apr 2026 · Official: https://www.siam.org/conferences-events/siam-conferences/sdm26/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/adma-2026/</id>
-<title>ADMA 2026 — The International Conference on Advanced Data Mining and Applications</title>
-<link href="https://conferences.clicvia.com/conference/adma-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–15 Nov 2026 · Hong Kong, China · Deadline: 17 Jul 2026 · Official: https://adma2026.github.io/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icdm-2026/</id>
-<title>ICDM 2026 — IEEE International Conference on Data Mining</title>
-<link href="https://conferences.clicvia.com/conference/icdm-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–15 Nov 2026 · Shenyang, China · Deadline: 30 May 2026, 6 Jun 2026 · Official: https://icdm2026.neu.edu.cn/</summary>
 </entry>
 </feed>
