@@ -131,3 +131,9 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   plan : `consignes des taches/seo-conferences.md`)** : `titre_seo()` / `desc_seo()` dans `page()` (titre <= 70 caractères : suffixe
   « | nom du site » retiré puis coupe à un séparateur ; description <= 165 coupée en fin de phrase) ; h2 « La liste » au-dessus des
   cartes (plus de saut h1 -> h3). Avant : titres de 94 à 122 caractères. Tests verts (5).
+
+## Page 404 + Confidentialité / Conditions (17/11/2026, règle commune § 58)
+- `404.html` + `404.js` à la racine = page 404 COMMUNE (`outils communs/page-404/installer.py`, projets-ahmed) : ne pas les modifier ici, réinstaller.
+- Liens « Confidentialité / Privacy / الخصوصية » et « Conditions d'utilisation / Terms of use / شروط الاستعمال » (pages communes clicvia.com,
+  fr / en / ar) dans le pied de CHAQUE page (pied statique de `construire_site.py` + pied de `assets/page.js`). Test qui bloque dans
+  `tools/test_site.mjs` ; test_sw / test_avis ignorent 404.html.

@@ -665,6 +665,7 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
     ["installation sur le téléphone (service worker)", existsSync(join(root, "sw.js")) && /serviceWorker/.test(js), /Installer le site/],
     ["sources ouvertes (MIT, INSPIRE-HEP, sélection officielle)", true, /MIT[\s\S]*INSPIRE-HEP[\s\S]*Sélection officielle/],
     ["vos données (GoatCounter, Formspree)", true, /GoatCounter[\s\S]*Formspree/],
+    ["confidentialité et conditions d'utilisation (pages communes)", true, /Confidentialité et conditions d(&#x27;|&#39;|')utilisation[\s\S]*Privacy and terms of use/],
     ["mises à jour automatiques", true, /Mises à jour automatiques/],
     ["site indépendant", true, /Ce site est indépendant/]];
   const manque = FONCTIONS.filter(([, sur, re]) => sur && !re.test(apx)).map(([n]) => n);
@@ -675,6 +676,25 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
     && /a-propos\/">\$\{T\("Comment fonctionne le site \?"/.test(lire("assets/page.js")) && /<a href="a-propos\/"><span data-l="fr">Comment fonctionne le site \?/.test(acc2)
     && lire("sitemap.xml").includes("https://conferences.clicvia.com/a-propos/")
     && !/alertes personnalisées sur Telegram[^<]*sont payantes/.test(apx) === /Gratuit pour le moment/.test(lire("abonnement/index.html"))); }
+
+// ---- Page 404 du site + liens Confidentialité / Conditions en bas de CHAQUE page (17/11/2026, règle commune § 58 ; § 55 : test qui bloque) ----
+check("page 404 du site : 404.html + 404.js (« Recherche de la page »)", existsSync(join(root, "404.html")) && existsSync(join(root, "404.js"))
+  && /src="\/404\.js"/.test(lire("404.html")) && /Recherche de la page/.test(lire("404.js")));
+{
+  const LIENS = { fr: ["https://clicvia.com/confidentialite/", "https://clicvia.com/conditions/"], en: ["https://clicvia.com/en/confidentialite/", "https://clicvia.com/en/conditions/"],
+                  ar: ["https://clicvia.com/ar/confidentialite/", "https://clicvia.com/ar/conditions/"] };
+  const tous = Object.values(LIENS).flat(), pages = [];
+  const parcourir = d => { for (const n of readdirSync(join(root, d))) { const r = d ? d + "/" + n : n;
+    if (["node_modules", "tools", "captures", ".git"].includes(n)) continue;
+    if (statSync(join(root, r)).isDirectory()) parcourir(r); else if (n === "index.html") pages.push(r); } };
+  parcourir("");
+  const sans = pages.filter(p => { const pied = (lire(p).match(/<footer id="pied">[\s\S]*?<\/footer>/) || [""])[0]; return !tous.every(u => pied.includes(`href="${u}"`)); });
+  check(`pied de page : liens Confidentialité + Conditions d'utilisation (fr, en, ar) sur les ${pages.length} pages` + (sans.length ? " — manquent : " + sans.slice(0, 5).join(", ") : ""), pages.length > 50 && !sans.length);
+  for (const [l, mot] of [["fr", "Confidentialité"], ["en", "Privacy"], ["ar", "الخصوصية"]]) {
+    const w = await page("index.html", "lang=" + l); const p = w.document.getElementById("pied");
+    check(`pied affiché (${l}) : « ${mot} » et conditions vers clicvia.com`, LIENS[l].every(u => p.querySelector(`a[href="${u}"]`)) && texte(p).includes(mot));
+  }
+}
 
 console.log(`\n${total - erreurs}/${total} vérifications réussies` + (erreurs ? ` — ${erreurs} ÉCHEC(S) : ne pas publier.` : " — tout est bon."));
 process.exit(erreurs ? 1 : 0);

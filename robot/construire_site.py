@@ -635,7 +635,8 @@ def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", 
 <div class="alerte-panne{' on' if etat['panne'] else ''}" id="alerte-panne" role="status">{E(etat['message'])}</div>
 {contenu}
 </main>
-<footer id="pied"><div class="wrap"><p>Sources : CCF Deadlines, AI Deadlines, HCI Deadlines, Neuro Deadlines, Bioinformatics Conferences, RoboDDL (MIT) · INSPIRE-HEP (CC0) · official organiser pages · © 2026 Radar des conférences / Conference Radar — tous droits réservés.</p></div></footer>
+<footer id="pied"><div class="wrap"><p>Sources : CCF Deadlines, AI Deadlines, HCI Deadlines, Neuro Deadlines, Bioinformatics Conferences, RoboDDL (MIT) · INSPIRE-HEP (CC0) · official organiser pages · © 2026 Radar des conférences / Conference Radar — tous droits réservés.</p>
+<p>{L('<a href="https://clicvia.com/confidentialite/" rel="noopener">Confidentialité</a> · <a href="https://clicvia.com/conditions/" rel="noopener">Conditions d&#39;utilisation</a>', '<a href="https://clicvia.com/en/confidentialite/" rel="noopener">Privacy</a> · <a href="https://clicvia.com/en/conditions/" rel="noopener">Terms of use</a>', '<a href="https://clicvia.com/ar/confidentialite/" rel="noopener">الخصوصية</a> · <a href="https://clicvia.com/ar/conditions/" rel="noopener">شروط الاستعمال</a>')}</p></div></footer>
 <script data-goatcounter="{COMPTEUR}/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
@@ -1435,6 +1436,7 @@ def construire(donnees, sortie, jour):
   <h2>{L("Vos données", "Your data", "بياناتك")}</h2>
   <ul>
   {li("Pas de compte à créer pour consulter le site. Votre navigateur garde seulement la langue choisie.", "No account needed to browse the site. Your browser only keeps the chosen language.", "لا حساب لإنشائه لتصفح الموقع. متصفحك يحفظ فقط اللغة المختارة.")}
+  {li("Confidentialité et conditions d'utilisation : pages communes à tous nos sites (clicvia.com), liens en bas de chaque page.", "Privacy and terms of use: pages shared by all our sites (clicvia.com), linked at the bottom of every page.", "الخصوصية وشروط الاستعمال: صفحات مشتركة بين كل مواقعنا (⁨clicvia.com⁩)، روابطها أسفل كل صفحة.")}
   {li("Statistiques de visite anonymes, sans cookies (GoatCounter).", "Anonymous visit statistics, without cookies (GoatCounter).", "إحصائيات زيارات مجهولة، دون ملفات تعريف الارتباط (⁨GoatCounter⁩).")}
   {li("Votre avis et l'inscription aux Alertes Pro ne sont envoyés que si vous touchez « Envoyer » (service Formspree). Vos coordonnées servent seulement aux alertes : elles ne sont jamais publiées ni vendues.", "Your feedback and Pro Alerts sign-up are only sent when you tap “Send” (Formspree service). Your details are only used for the alerts: never published or sold.", "رأيك والتسجيل في تنبيهات Pro لا يُرسلان إلا إذا لمست «أرسل» (خدمة ⁨Formspree⁩). بياناتك تُستعمل للتنبيهات فقط: لا تُنشر ولا تُباع أبدًا.")}
   </ul>
