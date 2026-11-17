@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-16 13:50",
- "derniere_lecture_reussie": "2026-11-16 13:50",
+ "mis_a_jour": "2026-11-17 14:31",
+ "derniere_lecture_reussie": "2026-11-17 14:31",
  "dernier_passage": {
-  "date": "2026-11-16 13:50",
+  "date": "2026-11-17 14:31",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 263,
    "brutes": 2360,
-   "derniere_reussite": "2026-11-16 13:49",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-16 13:49",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 156,
-   "derniere_reussite": "2026-11-16 13:49",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-16 13:50",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-16 13:50",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-16 13:50",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 133,
-   "brutes": 159,
-   "derniere_reussite": "2026-11-16 13:50",
+   "nombre": 130,
+   "brutes": 156,
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-16 13:50",
+   "derniere_reussite": "2026-11-17 14:31",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 463,
+ "nombre": 460,
  "conferences": [
   {
    "id": "ccs-2026",
@@ -138,39 +138,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "cosmogravitas-2nd-international-conference-on-2026",
-   "acronyme": "",
-   "titre": "CosmoGravitas; 2nd International Conference on Cosmology and Gravitation",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-20",
-   "ville": "Pattaya",
-   "pays": "TH",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.narit.or.th/event/234/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3128616",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -313,41 +280,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "loop-the-loop-2026-feynman-calculus-and-its",
-   "acronyme": "",
-   "titre": "Loop-the-Loop 2026 — Feynman Calculus and its Applications to Gravity and Particle Physics",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-20",
-   "ville": "Pisa",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "particules",
-    "nucleaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.sns.it/e/loop-the-loop-2026",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3195077",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "sc-2026",
    "acronyme": "SC",
    "titre": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
@@ -432,40 +364,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sql26-2026",
-   "acronyme": "SQL26",
-   "titre": "Open Quantum Systems — from Quantum Information to Condensed Matter",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-20",
-   "ville": "Singapore",
-   "pays": "SG",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "matiere-condensee",
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.ictp.it/event/11130/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3127478",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -8256,10 +8154,10 @@
     "bioinformatique",
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-16",
@@ -8297,10 +8195,10 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-16",
@@ -8338,10 +8236,10 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-16",
@@ -8380,10 +8278,10 @@
     "ia-apprentissage",
     "ihm"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-01",
@@ -12449,8 +12347,8 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "article",
+   "date_limite": "2026-12-06",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -13415,8 +13313,8 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "resume",
+   "date_limite": "2026-11-23",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -14155,10 +14053,10 @@
     "ia-apprentissage",
     "robotique"
    ],
-   "date_limite": "2026-11-16",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-10",

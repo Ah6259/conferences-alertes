@@ -2379,15 +2379,15 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 68,
+"evenements": 65,
 "limites": 66,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
 "amerique-nord": 15,
 "amerique-sud": 3,
-"asie": 28,
-"europe": 18,
+"asie": 26,
+"europe": 17,
 "oceanie": 3
 },
 "par_domaine": {
@@ -2396,12 +2396,12 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 15,
+"physique": 12,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 67
+"presentiel": 64
 },
 "par_pays": {
 "AU": 3,
@@ -2416,7 +2416,7 @@
 "HK": 1,
 "HU": 1,
 "IN": 1,
-"IT": 8,
+"IT": 7,
 "JP": 3,
 "KR": 1,
 "KW": 1,
@@ -2426,14 +2426,13 @@
 "QA": 1,
 "RU": 1,
 "SA": 1,
-"SG": 3,
-"TH": 1,
+"SG": 2,
 "TR": 1,
 "US": 15,
 "ZA": 1
 },
 "par_specialite": {
-"astro": 9,
+"astro": 7,
 "banque-islamique": 3,
 "bioinformatique": 1,
 "calcul-physique": 1,
@@ -2448,12 +2447,11 @@
 "ihm": 8,
 "info-interdisciplinaire": 2,
 "langage": 2,
-"matiere-condensee": 1,
 "medecine": 1,
-"nucleaire": 2,
-"particules": 4,
+"nucleaire": 1,
+"particules": 3,
 "physique-theorique": 2,
-"quantique": 6,
+"quantique": 5,
 "reseaux": 2,
 "robotique": 1,
 "securite": 3,
@@ -2464,10 +2462,10 @@
 },
 "par_type": {
 "atelier": 4,
-"conference": 61,
+"conference": 58,
 "ecole": 3
 },
-"pays": 27,
+"pays": 26,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -3076,27 +3074,6 @@
 "ville": "World Forum"
 },
 {
-"acronyme": "",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-16",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-20",
-"id": "cosmogravitas-2nd-international-conference-on-2026",
-"lien": "https://indico.narit.or.th/event/234/",
-"limites": [],
-"mode": "presentiel",
-"pays": "TH",
-"specialites": [
-"astro"
-],
-"titre": "CosmoGravitas; 2nd International Conference on Cosmology and Gravitation",
-"type": "conference",
-"ville": "Pattaya"
-},
-{
 "acronyme": "HotNets",
 "annee": 2026,
 "continent": "amerique-nord",
@@ -3160,29 +3137,6 @@
 "ville": "Hong Kong SAR"
 },
 {
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-16",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-20",
-"id": "loop-the-loop-2026-feynman-calculus-and-its",
-"lien": "https://indico.sns.it/e/loop-the-loop-2026",
-"limites": [],
-"mode": "presentiel",
-"pays": "IT",
-"specialites": [
-"astro",
-"particules",
-"nucleaire"
-],
-"titre": "Loop-the-Loop 2026 — Feynman Calculus and its Applications to Gravity and Particle Physics",
-"type": "conference",
-"ville": "Pisa"
-},
-{
 "acronyme": "SC",
 "annee": 2026,
 "continent": "amerique-nord",
@@ -3223,28 +3177,6 @@
 "titre": "ACM SIGOPS Annual Technical Conference",
 "type": "conference",
 "ville": "Hyatt Hotel"
-},
-{
-"acronyme": "SQL26",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-16",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-20",
-"id": "sql26-2026",
-"lien": "https://indico.ictp.it/event/11130/",
-"limites": [],
-"mode": "presentiel",
-"pays": "SG",
-"specialites": [
-"matiere-condensee",
-"quantique"
-],
-"titre": "Open Quantum Systems — from Quantum Information to Condensed Matter",
-"type": "conference",
-"ville": "Singapore"
 },
 {
 "acronyme": "VRST",
@@ -5344,7 +5276,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-16",
+"derniere_date": "2026-11-17",
 "fini": false,
 "premier_jour": "2026-11-01"
 }
