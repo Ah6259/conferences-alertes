@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-17 14:31",
- "derniere_lecture_reussie": "2026-11-17 14:31",
+ "mis_a_jour": "2026-11-18 14:08",
+ "derniere_lecture_reussie": "2026-11-18 14:08",
  "dernier_passage": {
-  "date": "2026-11-17 14:31",
+  "date": "2026-11-18 14:08",
   "reussi": true
  },
  "statut_source": {
@@ -16,8 +16,8 @@
   "ccfddl": {
    "etat": "ok",
    "nombre": 263,
-   "brutes": 2360,
-   "derniere_reussite": "2026-11-17 14:31",
+   "brutes": 2362,
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-17 14:31",
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 16,
    "brutes": 156,
-   "derniere_reussite": "2026-11-17 14:31",
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-17 14:31",
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-17 14:31",
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-17 14:31",
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 130,
-   "brutes": 156,
-   "derniere_reussite": "2026-11-17 14:31",
+   "nombre": 129,
+   "brutes": 155,
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-17 14:31",
+   "derniere_reussite": "2026-11-18 14:08",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 460,
+ "nombre": 459,
  "conferences": [
   {
    "id": "ccs-2026",
@@ -134,95 +134,6 @@
    ],
    "lien": "https://www.sigsac.org/ccs/CCS2026/",
    "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "hotnets-2026",
-   "acronyme": "HotNets",
-   "titre": "ACM Workshop on Hot Topics in Networks",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-16",
-   "fin": "2026-11-17",
-   "ville": "Salt Lake City",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-16",
-     "type": "article",
-     "libelle": "Registration / full paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-07-16",
-     "type": "resume",
-     "libelle": "Abstract · Registration / full paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://conferences.sigcomm.org/hotnets/2026/",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icaif-2026",
-   "acronyme": "ICAIF",
-   "titre": "International Conference on AI in Finance",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-17",
-   "ville": "Milan",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "info-interdisciplinaire"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-09",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://icaif2026.org/index.html",
-   "rang": "",
    "sources": [
     "ccfddl"
    ],
@@ -412,73 +323,6 @@
     "hci"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "open-quantum-universe-workshop-at-the-2026",
-   "acronyme": "",
-   "titre": "Open Quantum Universe Workshop at The Pennsylvania State University",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-17",
-   "fin": "2026-11-19",
-   "ville": "University Park",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://sites.psu.edu/openquantumuniverse/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3215398",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-16"
-  },
-  {
-   "id": "quantum-cannes-2026",
-   "acronyme": "",
-   "titre": "Quantum Cannes Festival",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-17",
-   "fin": "2026-11-18",
-   "ville": "Cannes",
-   "pays": "FR",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.quantumcannesfestival.com",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3105938",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -5941,6 +5785,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "many-facets-of-precision-fcc-ee-2027-winter",
+   "acronyme": "",
+   "titre": "Many facets of precision: FCC-ee 2027 winter meeting",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-02-08",
+   "fin": "2027-02-12",
+   "ville": "Geneva",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1727272",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3229773",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-18"
+  },
+  {
    "id": "rose-relational-observables-and-spacetime-2027",
    "acronyme": "",
    "titre": "ROSE — Relational Observables and Spacetime Emergence",
@@ -6131,10 +6009,10 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-11-17",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-08-17",
@@ -11201,10 +11079,10 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-17",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-06-04",
@@ -14695,6 +14573,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-20"
+  },
+  {
+   "id": "sigops-atc-2027",
+   "acronyme": "SIGOPS ATC",
+   "titre": "ACM SIGOPS Annual Technical Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-28",
+   "fin": "2027-07-01",
+   "ville": "Rennes",
+   "pays": "FR",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "2027-01-19",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-19",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://atc.sigops.org/2027/",
+   "rang": "CORE A · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-18"
   },
   {
    "id": "synergies-in-non-equilibrium-qft-from-heavy-ions-2027",
@@ -19302,8 +19221,8 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-11-17",
-   "type_limite": "article",
+   "date_limite": "2027-03-31",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -19427,6 +19346,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-09"
+  },
+  {
+   "id": "acm-mm-2027",
+   "acronyme": "ACM MM",
+   "titre": "ACM International Conference on Multimedia",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-11-08",
+   "fin": "2027-11-12",
+   "ville": "Hong Kong SAR",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "graphisme"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://2027.acmmm.org/",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-18"
   },
   {
    "id": "icdm-2027",

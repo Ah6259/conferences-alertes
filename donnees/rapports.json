@@ -2379,15 +2379,15 @@
 "2026-11": {
 "chiffres": {
 "afrique": 1,
-"evenements": 65,
+"evenements": 63,
 "limites": 66,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
-"amerique-nord": 15,
+"amerique-nord": 14,
 "amerique-sud": 3,
 "asie": 26,
-"europe": 17,
+"europe": 16,
 "oceanie": 3
 },
 "par_domaine": {
@@ -2396,12 +2396,12 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 12,
+"physique": 10,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 64
+"presentiel": 62
 },
 "par_pays": {
 "AU": 3,
@@ -2410,7 +2410,6 @@
 "CH": 1,
 "CN": 12,
 "CO": 1,
-"FR": 1,
 "GB": 3,
 "GR": 1,
 "HK": 1,
@@ -2428,11 +2427,11 @@
 "SA": 1,
 "SG": 2,
 "TR": 1,
-"US": 15,
+"US": 14,
 "ZA": 1
 },
 "par_specialite": {
-"astro": 7,
+"astro": 6,
 "banque-islamique": 3,
 "bioinformatique": 1,
 "calcul-physique": 1,
@@ -2451,7 +2450,7 @@
 "nucleaire": 1,
 "particules": 3,
 "physique-theorique": 2,
-"quantique": 5,
+"quantique": 3,
 "reseaux": 2,
 "robotique": 1,
 "securite": 3,
@@ -2461,11 +2460,11 @@
 "vision": 2
 },
 "par_type": {
-"atelier": 4,
-"conference": 58,
+"atelier": 3,
+"conference": 57,
 "ecole": 3
 },
-"pays": 26,
+"pays": 25,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -3198,49 +3197,6 @@
 "titre": "VRST",
 "type": "conference",
 "ville": "Sendai"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "amerique-nord",
-"debut": "2026-11-17",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-19",
-"id": "open-quantum-universe-workshop-at-the-2026",
-"lien": "https://sites.psu.edu/openquantumuniverse/",
-"limites": [],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"quantique",
-"astro"
-],
-"titre": "Open Quantum Universe Workshop at The Pennsylvania State University",
-"type": "atelier",
-"ville": "University Park"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-17",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-18",
-"id": "quantum-cannes-2026",
-"lien": "https://www.quantumcannesfestival.com",
-"limites": [],
-"mode": "presentiel",
-"pays": "FR",
-"specialites": [
-"quantique"
-],
-"titre": "Quantum Cannes Festival",
-"type": "conference",
-"ville": "Cannes"
 },
 {
 "acronyme": "ICACT 2026",
@@ -5276,7 +5232,7 @@
 "ville": "Rio de Janeiro"
 }
 ],
-"derniere_date": "2026-11-17",
+"derniere_date": "2026-11-18",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

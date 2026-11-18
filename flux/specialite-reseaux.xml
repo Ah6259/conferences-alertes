@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-reseaux.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-reseaux.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-17T06:00:00Z</updated>
+<updated>2026-11-18T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -146,12 +146,5 @@
 <link href="https://conferences.clicvia.com/conference/mobihoc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>23–25 Nov 2026 · Tokyo, Japan · Deadline: 13 Apr 2026 · Official: https://www.sigmobile.org/mobihoc/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/hotnets-2026/</id>
-<title>HotNets 2026 — ACM Workshop on Hot Topics in Networks</title>
-<link href="https://conferences.clicvia.com/conference/hotnets-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>16–17 Nov 2026 · Salt Lake City, United States · Deadline: 16 Jul 2026, 16 Jul 2026 · Official: https://conferences.sigcomm.org/hotnets/2026/</summary>
 </entry>
 </feed>

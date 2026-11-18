@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-17T06:00:00Z</updated>
+<updated>2026-11-18T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/many-facets-of-precision-fcc-ee-2027-winter/</id>
+<title>Many facets of precision: FCC-ee 2027 winter meeting</title>
+<link href="https://conferences.clicvia.com/conference/many-facets-of-precision-fcc-ee-2027-winter/"/>
+<updated>2026-11-18T06:00:00Z</updated>
+<summary>8–12 Feb 2027 · Geneva, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1727272</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/charting-the-dark-tunisia-dark-matter-and-galaxy-2027/</id>
 <title>Charting the Dark - Tunisia — Dark Matter and Galaxy Formation</title>
@@ -314,13 +321,6 @@
 <link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-loop-integrals-for-2027/"/>
 <updated>2026-10-20T06:00:00Z</updated>
 <summary>15–19 Mar 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/476/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/open-quantum-universe-workshop-at-the-2026/</id>
-<title>Open Quantum Universe Workshop at The Pennsylvania State University</title>
-<link href="https://conferences.clicvia.com/conference/open-quantum-universe-workshop-at-the-2026/"/>
-<updated>2026-10-16T06:00:00Z</updated>
-<summary>17–19 Nov 2026 · University Park, United States · Deadline: see official website · Official: https://sites.psu.edu/openquantumuniverse/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/quposium2026/</id>

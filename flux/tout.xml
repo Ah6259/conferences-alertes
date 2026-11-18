@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-17T06:00:00Z</updated>
+<updated>2026-11-18T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/acm-mm-2027/</id>
+<title>ACM MM 2027 — ACM International Conference on Multimedia</title>
+<link href="https://conferences.clicvia.com/conference/acm-mm-2027/"/>
+<updated>2026-11-18T06:00:00Z</updated>
+<summary>8–12 Nov 2027 · Hong Kong SAR, China · Deadline: see official website · Official: https://2027.acmmm.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/sigops-atc-2027/</id>
+<title>SIGOPS ATC 2027 — ACM SIGOPS Annual Technical Conference</title>
+<link href="https://conferences.clicvia.com/conference/sigops-atc-2027/"/>
+<updated>2026-11-18T06:00:00Z</updated>
+<summary>28 Jun – 1 Jul 2027 · Rennes, France · Deadline: 19 Jan 2027 · Official: https://atc.sigops.org/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/many-facets-of-precision-fcc-ee-2027-winter/</id>
+<title>Many facets of precision: FCC-ee 2027 winter meeting</title>
+<link href="https://conferences.clicvia.com/conference/many-facets-of-precision-fcc-ee-2027-winter/"/>
+<updated>2026-11-18T06:00:00Z</updated>
+<summary>8–12 Feb 2027 · Geneva, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1727272</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/icann-2027/</id>
 <title>ICANN 2027 — International Conference on Artificial Neural Networks</title>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/tools4onium-2027/"/>
 <updated>2026-10-22T06:00:00Z</updated>
 <summary>9–13 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/tools4onium2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/</id>
-<title>Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
-<link href="https://conferences.clicvia.com/conference/synergies-in-non-equilibrium-qft-from-heavy-ions-2027/"/>
-<updated>2026-10-21T06:00:00Z</updated>
-<summary>28 Jun – 16 Jul 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/</id>
-<title>International School on Synergies in non-equilibrium QFT: from heavy ions to the cosmos</title>
-<link href="https://conferences.clicvia.com/conference/international-school-on-synergies-in-non-2027/"/>
-<updated>2026-10-21T06:00:00Z</updated>
-<summary>20–25 Jun 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1728745/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/</id>
-<title>Sim2Science: ML with Imperfect Scientific Models — Cross-domain machine learning for imperfect, misspecified scientific simulators</title>
-<link href="https://conferences.clicvia.com/conference/sim2science-ml-with-imperfect-scientific-models-2026/"/>
-<updated>2026-10-21T06:00:00Z</updated>
-<summary>12 Dec 2026 · Paris, France · Deadline: see official website · Official: https://www.sim2science.com/</summary>
 </entry>
 </feed>
