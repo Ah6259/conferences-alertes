@@ -137,3 +137,9 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 - Liens « Confidentialité / Privacy / الخصوصية » et « Conditions d'utilisation / Terms of use / شروط الاستعمال » (pages communes clicvia.com,
   fr / en / ar) dans le pied de CHAQUE page (pied statique de `construire_site.py` + pied de `assets/page.js`). Test qui bloque dans
   `tools/test_site.mjs` ; test_sw / test_avis ignorent 404.html.
+
+- **19/11/2026 — ACCUEIL LÉGER (Ahmed, CV.3)** : l'accueil écrivait ses 459 conférences (876 Ko, 20 000 éléments : 13 s avant d'être utilisable
+  sur un téléphone moyen). Toute liste de plus de `SEUIL_LISTE` (60) conférences n'écrit que les `PREMIERES_LISTE` (30) plus proches (date limite) ;
+  les autres vont dans `liste.json` à côté de la page (accueil, Informatique, Physique, Europe, Asie…), chargé par app.js au 1er geste (filtre,
+  recherche, « Afficher plus », lien #conférence), puis TRADUIT (data-t, dates) comme le reste ; compteurs des filtres et résumé = chiffres de la
+  construction tant que le reste n'est pas là. Tests : page() du test charge le reste (sauf { leger: true }), vérification de l'état de départ.

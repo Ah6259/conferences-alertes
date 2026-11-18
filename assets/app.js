@@ -23,6 +23,30 @@
   const RAPPEL = 7;
   const FILTRES = ["f-dom", "f-spec", "f-cont", "f-mode", "f-limite", "f-mois", "f-tri"];
   let pret = false, cartes = [], liste = null, montrees = PAR_PAGE, cible = "";
+  // 19/11/2026 (accueil léger, CV.3) : une longue liste n'a dans la page que ses premières conférences ; le reste (data-reste,
+  // liste.json) est chargé au 1er geste, puis tout est recalculé. Avant : compteurs et résumé écrits par la construction.
+  let charge = true, enCours = null;
+  function charger() {
+    if (charge) return Promise.resolve();
+    if (!enCours) enCours = fetch(liste.dataset.reste).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+      const avant = liste.querySelectorAll(".cf").length;
+      liste.insertAdjacentHTML("beforeend", d.html);
+      cartes = Array.from(liste.querySelectorAll(".cf"));
+      // les cartes arrivées traduites comme celles de la page (petits textes data-t, dates) : même règle que traduire() de page.js
+      const i = { fr: 0, en: 1, ar: 2 }[document.documentElement.lang] ?? 1, X = window.TEXTES || {};
+      cartes.slice(avant).forEach(c => {
+        c.querySelectorAll("[data-t]").forEach(el => { const t = X[el.dataset.t]; if (t) el.textContent = t[i]; });
+        if (window.fdate) {
+          c.querySelectorAll(".dt[data-d1]").forEach(el => { el.textContent = window.fdate(el.dataset.d1, el.dataset.d2); });
+          c.querySelectorAll(".dl[data-d]").forEach(el => { el.textContent = window.fdate(el.dataset.d); });
+        }
+      });
+      charge = true;
+      appliquer();
+      if (location.hash) allerA();
+    }).catch(() => { enCours = null; });
+    return enCours;
+  }
 
   function rappel(reste) {
     if (reste === null || reste < 0 || reste > RAPPEL) return null;
@@ -64,7 +88,7 @@
     sel.querySelectorAll("option").forEach(o => {
       const base = T(o.dataset.fr, o.dataset.en, o.dataset.ar);
       if (sel.id === "f-tri" || sel.id === "f-limite") { o.textContent = base; return; }
-      const n = cartes.filter(c => garde(c, sel.id, o.value)).length;
+      const n = charge ? cartes.filter(c => garde(c, sel.id, o.value)).length : o.dataset.n;
       o.textContent = base + " (" + n + ")";
     });
   }
@@ -109,6 +133,8 @@
       }
       return cherche(c, mots, tape);
     };
+    const filtre = FILTRES.some(id => id !== "f-tri" && v[id]) || mots.length > 0 || (v["f-tri"] || "limite") !== "limite";
+    if (!charge && filtre) charger();
     FILTRES.forEach(id => remplirOptions(document.getElementById(id), garde));
     let visibles = 0;
     cartes.forEach(c => { const ok = garde(c); c.dataset.ok = ok ? "1" : ""; if (ok) visibles++; });
@@ -119,6 +145,7 @@
       return a.dataset.debut.localeCompare(b.dataset.debut) || a.id.localeCompare(b.id);
     });
     tries.forEach(c => liste.appendChild(c));
+    if (!charge && !filtre) visibles = +liste.dataset.total;   // vrai total tant que le reste n'est pas chargé
     let rang = 0;
     tries.forEach(c => { c.hidden = !c.dataset.ok || (rang++ >= montrees && c.id !== cible); });
     const plus = document.getElementById("plus");
@@ -144,9 +171,9 @@
 
     // Résumé (accueil), recalculé avec la date du visiteur
     const encore = cartes.filter(c => !c.dataset.fini);
-    const rA = document.getElementById("r-avenir");
+    const rA = charge && document.getElementById("r-avenir");
     if (rA) rA.querySelector("b").textContent = encore.length;
-    const rL = document.getElementById("r-limites");
+    const rL = charge && document.getElementById("r-limites");
     if (rL) rL.querySelector("b").textContent = encore.filter(c => c.dataset.prochaine && +c.dataset.reste <= 30).length;
 
     // « Dates limites cette semaine » : les 6 plus proches dans les 7 jours
@@ -207,6 +234,7 @@
     let id = "";
     try { id = decodeURIComponent((location.hash || "").slice(1)); } catch (e) { return; }
     const c = id && document.getElementById(id);
+    if (!charge && id && !c) { charger(); return; }           // conférence dans le reste de la liste : chargée puis visée
     if (!c || !c.classList.contains("cf") || c.parentNode !== liste) return;
     cible = id;
     appliquer();
@@ -220,6 +248,10 @@
       liste = document.getElementById("liste");
       if (!liste) { fiche(); return; }
       cartes = Array.from(liste.querySelectorAll(".cf"));
+      if (liste.dataset.reste) {
+        charge = false;
+        FILTRES.forEach(id => { const s = document.getElementById(id); if (s) s.querySelectorAll("option").forEach(o => { o.dataset.n = (o.textContent.match(/\((\d+)\)\s*$/) || [])[1] || ""; }); });
+      }
       cartes.forEach(texteCarte);
       FILTRES.forEach(id => {
         const s = document.getElementById(id);
@@ -229,9 +261,10 @@
       if (fq) {
         if (params.get("q")) fq.value = params.get("q").slice(0, 100);
         fq.addEventListener("input", () => { montrees = PAR_PAGE; appliquer(); });
+        fq.addEventListener("focus", charger, { once: true });
       }
       const plus = document.getElementById("plus");
-      if (plus) plus.addEventListener("click", () => { montrees += PAR_PAGE; appliquer(); });
+      if (plus) plus.addEventListener("click", () => { montrees += PAR_PAGE; charger().then(appliquer); appliquer(); });
       document.addEventListener("click", e => {
         if (e.target.id !== "effacer") return;
         FILTRES.concat("f-q").forEach(id => { const s = document.getElementById(id); if (s && id !== "f-tri") s.value = ""; });

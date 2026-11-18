@@ -440,13 +440,32 @@ def filtres(confs, jour, sans=()):
     return f'<section class="carte filtres">{"".join(blocs)}</section>'
 
 
-def liste_html(confs, racine, jour, vide):
-    cartes = "\n".join(carte(c, racine, jour) for c in confs)
+# 19/11/2026 (Ahmed, CV.3 « accueils lourds ») : l'accueil écrivait ses 459 conférences (876 Ko, 20 000 éléments) : 13 s avant d'être
+# utilisable sur un téléphone moyen. Une liste de plus de SEUIL_LISTE conférences n'écrit que les PREMIERES_LISTE plus proches (date
+# limite) ; les autres vont dans « liste.json » à côté de la page (même HTML de cartes), chargé par app.js au 1er geste (filtre,
+# recherche, « Afficher plus », lien #conférence). Chaque conférence garde sa fiche, liée depuis les pages et le plan du site.
+SEUIL_LISTE, PREMIERES_LISTE = 60, 30
+RESTES = {}          # chemin de la page -> {"total", "html"} (écrit à côté de son index.html)
+
+
+def ordre_limite(c, jour):
+    lims = limites_soumission(c, jour)
+    return (lims[0]["date"] if lims else "9999", c["debut"])
+
+
+def liste_html(confs, racine, jour, vide, chemin=None):
     n = len(confs)
+    reste = ""
+    if chemin is not None and n > SEUIL_LISTE:
+        tries = sorted(confs, key=lambda c: ordre_limite(c, jour))
+        confs, autres = tries[:PREMIERES_LISTE], tries[PREMIERES_LISTE:]
+        RESTES[chemin] = {"total": n, "html": "\n".join(carte(c, racine, jour) for c in autres)}
+        reste = f' data-reste="liste.json?v=__V__" data-total="{n}"'
+    cartes = "\n".join(carte(c, racine, jour) for c in confs)
     # SEO (08/11/2026) : un h2 au-dessus des cartes (h3) : aucun niveau de titre sauté après le h1
     return f"""<h2 class="titre-section titre-liste">{L("La liste", "The list", "القائمة")}</h2>
 <p class="compte" id="compte" aria-live="polite"><span>{L(f"{n} conférence{'s' if n > 1 else ''} à venir", f"{n} upcoming conference{'s' if n > 1 else ''}", f"{ISO(n)} مؤتمر قادم")}</span></p>
-<div class="liste" id="liste">
+<div class="liste" id="liste"{reste}>
 {cartes}
 </div>
 <button type="button" class="plus" id="plus" hidden>Show more</button>
@@ -663,7 +682,7 @@ def page_liste(chemin, racine, titre, desc, hero, confs, jour, v, etat, sans=(),
     vide = ("Aucune conférence à venir pour ce choix. Essayez un autre filtre.", "No upcoming conference for this choice. Try another filter.",
             "لا يوجد مؤتمر قادم لهذا الاختيار. جرّب تصفية أخرى.")
     contenu = f"""{avant}{filtres(confs, jour, sans)}
-{liste_html(confs, racine, jour, vide)}
+{liste_html(confs, racine, jour, vide, chemin)}
 {apres}"""
     return chemin, page(chemin, racine, titre, desc, hero, contenu, v, etat, jsonld, classe_hero)
 
@@ -1546,6 +1565,10 @@ def construire(donnees, sortie, jour):
     v = version_assets(sortie)
     for chemin, contenu in pages:
         ecrire(sortie, chemin + "index.html", contenu.replace("__V__", v))
+        if chemin in RESTES:           # reste de la liste (accueil léger, 19/11/2026)
+            ecrire(sortie, chemin + "liste.json", json.dumps(RESTES[chemin], ensure_ascii=False, separators=(",", ":")))
+        elif os.path.exists(os.path.join(sortie, chemin + "liste.json")):
+            os.remove(os.path.join(sortie, chemin + "liste.json"))
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for chemin, _ in pages:
         sitemap.append(f"  <url><loc>{URL_SITE}{chemin}</loc><lastmod>{lastmod.get(chemin, jour)}</lastmod></url>")

@@ -56,12 +56,17 @@ check("finance islamique : des spécialités dédiées dans la sélection (banqu
   ["banque-islamique", "sukuk", "zakat-waqf", "aaoifi-charia", "economie-islamique"].every(s => SEL.some(c => c.specialites.includes(s))));
 
 // ---- Chargement d'une page comme un navigateur ---------------------------------------------
-async function page(chemin, params = "") {
+// 19/11/2026 (accueil léger, CV.3) : une longue liste n'a que ses 30 premières conférences dans la page, le reste dans liste.json
+// chargé au 1er geste. Le faux navigateur lit ce fichier (fetch) ; page() charge la liste complète sauf avec { leger: true }.
+async function page(chemin, params = "", { leger = false } = {}) {
   const dossier = dirname(join(root, chemin));
   const html = lire(chemin).replace(/<script([^>]*) src="(?!https?:)([^"?]+)(\?[^"]*)?"([^>]*)><\/script>/g,
     (_, a, src) => `<script>${readFileSync(join(dossier, src), "utf8")}</script>`);
   const dom = new JSDOM(html, { url: URL_SITE + chemin.replace("index.html", "") + "?" + params, runScripts: "dangerously", pretendToBeVisual: true });
+  dom.window.fetch = async u => { const f = join(dossier, String(u).split("?")[0]); return existsSync(f) ? { ok: true, json: async () => JSON.parse(readFileSync(f, "utf8")) } : { ok: false, status: 404 }; };
   await new Promise(ok => dom.window.addEventListener("load", ok));
+  const l = dom.window.document.getElementById("liste"), q = dom.window.document.getElementById("f-q");
+  if (!leger && l && l.dataset.reste && q) { q.dispatchEvent(new dom.window.Event("focus")); await new Promise(r => setTimeout(r, 80)); }
   return dom.window;
 }
 const texte = el => (el ? el.textContent : "").replace(/[⁦-⁩ ]/g, " ").replace(/\s+/g, " ").trim();
@@ -71,6 +76,13 @@ const changer = (w, id, v) => { const s = w.document.getElementById(id); s.value
 const prochaine = (c, jour) => (c.dates_limites || []).filter(x => (x.type === "article" || x.type === "resume") && x.date >= jour).map(x => x.date).sort()[0] || "";
 
 // ---- 1. Accueil ----------------------------------------------------------------------------
+{ const wl = await page("index.html", `lang=fr&jour=${JOUR}`, { leger: true }), dl = wl.document, l = dl.getElementById("liste");
+  check(`accueil léger : 30 conférences au plus dans la page, le reste dans liste.json, vrai total affiché (${avenir.length})`,
+    !!l.dataset.reste && dl.querySelectorAll("#liste .cf").length <= 30 && texte(dl.getElementById("compte")).startsWith(String(avenir.length))
+    && JSON.parse(lire("liste.json")).total === avenir.length && !dl.getElementById("plus").hidden);
+  changer(wl, "f-mode", [...dl.getElementById("f-mode").options].map(o => o.value).find(Boolean) || "");
+  await new Promise(r => setTimeout(r, 80));
+  check("accueil léger : un filtre charge toute la liste", dl.querySelectorAll("#liste .cf").length === avenir.length); }
 let w = await page("index.html", `lang=fr&jour=${JOUR}`);
 let d = w.document;
 let cartes = visibles(d);
@@ -333,7 +345,8 @@ for (const u of urls.filter(x => /\/(domaine|specialite|continent|pays|mois)\//.
   const [, type, slug] = chemin.match(/^(domaine|specialite|continent|pays|mois)\/([^/]+)\//);
   const attendu = avenir.filter(c => type === "domaine" ? c.domaines.includes(slug) : type === "specialite" ? c.specialites.includes(slug) :
     type === "continent" ? c.continent === slug : type === "pays" ? c.pays === slug.toUpperCase() && c.mode !== "en-ligne" : c.debut.slice(0, 7) === slug).length;
-  const h = lire(chemin);
+  const reste = chemin.replace("index.html", "liste.json");          // accueil léger (19/11/2026) : page + reste de la liste
+  const h = lire(chemin) + (existsSync(join(root, reste)) ? JSON.parse(lire(reste)).html : "");
   const n = (h.match(/<article class="cf/g) || []).length;
   if (n !== attendu || n === 0) { okListes = false; console.log(`   ${chemin} : ${n} cartes au lieu de ${attendu}`); }
 }
