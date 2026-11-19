@@ -4,9 +4,44 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-18T06:00:00Z</updated>
+<updated>2026-11-19T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/middleware-2027/</id>
+<title>Middleware 2027 — International Middleware Conference</title>
+<link href="https://conferences.clicvia.com/conference/middleware-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>13–17 Dec 2027 · Kyoto, Japan · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://middleware-conf.github.io/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ecaf-2027/</id>
+<title>ECAF 2027 — European Conference on Algorithmic Fairness</title>
+<link href="https://conferences.clicvia.com/conference/ecaf-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>25–27 Aug 2027 · Vilnius, Lithuania · Deadline: 25 Mar 2027 · Official: https://2027.ecafconference.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icse-chase-2027/</id>
+<title>ICSE-CHASE 2027 — International Conference on Cooperative and Human Aspects of Software Engineering</title>
+<link href="https://conferences.clicvia.com/conference/icse-chase-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>26–27 Apr 2027 · Dublin, Ireland · Deadline: 23 Oct 2026, 30 Oct 2026 · Official: https://conf.researchr.org/home/chase-2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/qcnc-2027/</id>
+<title>QCNC 2027 — International Conference on Quantum Communications, Networking, and Computing</title>
+<link href="https://conferences.clicvia.com/conference/qcnc-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>22–26 Mar 2027 · Hokkaido, Japan · Deadline: see official website · Official: https://qcnc.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ising-field-theory-cft-integrability-and-2027/</id>
+<title>Ising Field Theory — CFT, Integrability, and Simulation</title>
+<link href="https://conferences.clicvia.com/conference/ising-field-theory-cft-integrability-and-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>25–29 Jan 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.epfl.ch/event/36/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/acm-mm-2027/</id>
 <title>ACM MM 2027 — ACM International Conference on Multimedia</title>
@@ -174,13 +209,6 @@
 <link href="https://conferences.clicvia.com/conference/eucas-2027/"/>
 <updated>2026-11-07T06:00:00Z</updated>
 <summary>5–7 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://eucas2027.esas.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icact-2026/</id>
-<title>ICACT 2026 — 3rd International Conference on Advanced Computing Technologies</title>
-<link href="https://conferences.clicvia.com/conference/icact-2026/"/>
-<updated>2026-11-07T06:00:00Z</updated>
-<summary>18 Nov 2026 · Mahenwaththa, Sri Lanka · Deadline: see official website · Official: https://icact.nsbm.ac.lk/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/concur-2027/</id>
@@ -398,33 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/sais-2027/"/>
 <updated>2026-10-23T06:00:00Z</updated>
 <summary>7–8 Jun 2027 · Santa Clara, United States · Deadline: 4 Feb 2027 · Official: https://www.usenix.org/conference/sais27</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/chiir-2027/</id>
-<title>CHIIR 2027 — ACM SIGIR Conference on Human Information Interaction and Retrieval</title>
-<link href="https://conferences.clicvia.com/conference/chiir-2027/"/>
-<updated>2026-10-23T06:00:00Z</updated>
-<summary>7–11 Mar 2027 · Berlin, Germany · Deadline: 8 Oct 2026, 15 Oct 2026 · Official: https://chiir2027.github.io/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigir-ap-2026/</id>
-<title>SIGIR-AP 2026 — International ACM SIGIR Conference on Information Retrieval in the Asia Pacific</title>
-<link href="https://conferences.clicvia.com/conference/sigir-ap-2026/"/>
-<updated>2026-10-23T06:00:00Z</updated>
-<summary>13–15 Dec 2026 · Singapore · Deadline: 22 Jul 2026, 29 Jul 2026 · Official: https://www.sigir-ap.org/sigir-ap-2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icwip-2027/</id>
-<title>ICWIP 2027 — International Conference on Women in Physics</title>
-<link href="https://conferences.clicvia.com/conference/icwip-2027/"/>
-<updated>2026-10-22T06:00:00Z</updated>
-<summary>7–11 Jun 2027 · Singapore, Singapore · Deadline: see official website · Official: https://events.cqt.sg/icwip2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/tools4onium-2027/</id>
-<title>Tools4Onium 2027 — Workshop on Tools for Quarkonia</title>
-<link href="https://conferences.clicvia.com/conference/tools4onium-2027/"/>
-<updated>2026-10-22T06:00:00Z</updated>
-<summary>9–13 Jan 2027 · Aussois, France · Deadline: see official website · Official: https://indico.cern.ch/e/tools4onium2027</summary>
 </entry>
 </feed>

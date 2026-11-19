@@ -2380,7 +2380,7 @@
 "chiffres": {
 "afrique": 1,
 "evenements": 63,
-"limites": 66,
+"limites": 65,
 "limites_conferences": 53,
 "par_continent": {
 "afrique": 1,
@@ -3905,12 +3905,12 @@
 "lien": "https://2027.acmmmsys.org",
 "limites": [
 {
-"date": "2026-11-12",
-"type": "resume"
+"date": "2026-11-19",
+"type": "article"
 },
 {
 "date": "2026-11-19",
-"type": "article"
+"type": "resume"
 }
 ],
 "mode": "presentiel",
@@ -4729,12 +4729,8 @@
 "lien": "https://www.codaspy.org/2027/",
 "limites": [
 {
-"date": "2026-11-16",
+"date": "2026-11-30",
 "type": "resume"
-},
-{
-"date": "2026-11-23",
-"type": "article"
 }
 ],
 "mode": "presentiel",
@@ -4883,32 +4879,6 @@
 "titre": "European Conference on Object-Oriented Programming",
 "type": "conference",
 "ville": "Turin"
-},
-{
-"acronyme": "PAKDD",
-"annee": 2027,
-"continent": "oceanie",
-"debut": "2027-06-29",
-"domaines": [
-"informatique"
-],
-"fin": "2027-07-02",
-"id": "pakdd-2027",
-"lien": "https://www.pakdd2027.org/",
-"limites": [
-{
-"date": "2026-11-20",
-"type": "article"
-}
-],
-"mode": "presentiel",
-"pays": "NZ",
-"specialites": [
-"donnees"
-],
-"titre": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
-"type": "conference",
-"ville": "Wellington"
 },
 {
 "acronyme": "EuroS&P",
@@ -5230,9 +5200,35 @@
 "titre": "International Conference on Emerging Networking Experiments and Technologies",
 "type": "conference",
 "ville": "Rio de Janeiro"
+},
+{
+"acronyme": "Middleware",
+"annee": 2027,
+"continent": "asie",
+"debut": "2027-12-13",
+"domaines": [
+"informatique"
+],
+"fin": "2027-12-17",
+"id": "middleware-2027",
+"lien": "https://middleware-conf.github.io/2027/",
+"limites": [
+{
+"date": "2026-11-27",
+"type": "resume"
 }
 ],
-"derniere_date": "2026-11-18",
+"mode": "presentiel",
+"pays": "JP",
+"specialites": [
+"genie-logiciel"
+],
+"titre": "International Middleware Conference",
+"type": "conference",
+"ville": "Kyoto"
+}
+],
+"derniere_date": "2026-11-19",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

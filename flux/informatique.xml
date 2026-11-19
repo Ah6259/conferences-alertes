@@ -4,9 +4,30 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-18T06:00:00Z</updated>
+<updated>2026-11-19T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/middleware-2027/</id>
+<title>Middleware 2027 — International Middleware Conference</title>
+<link href="https://conferences.clicvia.com/conference/middleware-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>13–17 Dec 2027 · Kyoto, Japan · Deadline: 27 Nov 2026, 4 Dec 2026, 28 May 2027 · Official: https://middleware-conf.github.io/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ecaf-2027/</id>
+<title>ECAF 2027 — European Conference on Algorithmic Fairness</title>
+<link href="https://conferences.clicvia.com/conference/ecaf-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>25–27 Aug 2027 · Vilnius, Lithuania · Deadline: 25 Mar 2027 · Official: https://2027.ecafconference.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/icse-chase-2027/</id>
+<title>ICSE-CHASE 2027 — International Conference on Cooperative and Human Aspects of Software Engineering</title>
+<link href="https://conferences.clicvia.com/conference/icse-chase-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>26–27 Apr 2027 · Dublin, Ireland · Deadline: 23 Oct 2026, 30 Oct 2026 · Official: https://conf.researchr.org/home/chase-2027</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/acm-mm-2027/</id>
 <title>ACM MM 2027 — ACM International Conference on Multimedia</title>
@@ -405,26 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/csfw-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>13–17 Sep 2027 · Tokyo, Japan · Deadline: 3 Aug 2026, 15 Oct 2026, 28 Jan 2027 · Official: https://www.ieee-security.org/TC/CSF2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icsme-2027/</id>
-<title>ICSME 2027 — International Conference on Software Maintenance and Evolution</title>
-<link href="https://conferences.clicvia.com/conference/icsme-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–11 Sep 2027 · Toronto, Canada · Deadline: 5 Mar 2027 · Official: https://conf.researchr.org/home/icsme-2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/issta-2027/</id>
-<title>ISSTA 2027 — ACM SIGSOFT International Symposium on Software Testing and Analysis</title>
-<link href="https://conferences.clicvia.com/conference/issta-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>7–10 Sep 2027 · Singapore · Deadline: 8 Jan 2027, 11 Jan 2027 · Official: https://conf.researchr.org/home/issta-2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ches-2027/</id>
-<title>CHES 2027 — International Conference on Cryptographic Hardware and Embedded Systems</title>
-<link href="https://conferences.clicvia.com/conference/ches-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>6–9 Sep 2027 · Cancún, Mexico · Deadline: 15 Jul 2026, 15 Oct 2026, 15 Jan 2027 · Official: https://ches.iacr.org/2027/</summary>
 </entry>
 </feed>

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-systemes.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-systemes.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-18T06:00:00Z</updated>
+<updated>2026-11-19T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -54,7 +54,7 @@
 <title>ICDCS 2027 — IEEE International Conference on Distributed Computing Systems</title>
 <link href="https://conferences.clicvia.com/conference/icdcs-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
-<summary>5–8 Jul 2027 · Melbourne, Australia · Deadline: see official website · Official: https://icdcs2027.icdcs.org/</summary>
+<summary>5–8 Jul 2027 · Melbourne, Australia · Deadline: 6 Jan 2027, 13 Jan 2027 · Official: https://icdcs2027.icdcs.org/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/sigmetrics-2027/</id>
@@ -232,24 +232,10 @@
 <summary>18–20 Nov 2026 · Singapore · Deadline: 6 Feb 2026, 13 Feb 2026, 7 Jul 2026 · Official: https://acmsocc.org/2026/</summary>
 </entry>
 <entry>
-<id>https://conferences.clicvia.com/conference/iccd-2026/</id>
-<title>ICCD 2026 — International Conference on Computer Design</title>
-<link href="https://conferences.clicvia.com/conference/iccd-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>16–18 Nov 2026 · Hong Kong SAR, China · Deadline: 3 Jun 2026, 10 Jun 2026 · Official: https://www.iccd-conf.com/2026/home.html</summary>
-</entry>
-<entry>
 <id>https://conferences.clicvia.com/conference/sc-2026/</id>
 <title>SC 2026 — International Conference for High Performance Computing, Networking, Storage, and Analysis</title>
 <link href="https://conferences.clicvia.com/conference/sc-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–20 Nov 2026 · McCormick Place, United States · Deadline: 1 Apr 2026, 8 Apr 2026 · Official: https://sc26.supercomputing.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sigops-atc-2026/</id>
-<title>SIGOPS ATC 2026 — ACM SIGOPS Annual Technical Conference</title>
-<link href="https://conferences.clicvia.com/conference/sigops-atc-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>16–18 Nov 2026 · Hyatt Hotel, China · Deadline: 11 Jun 2026 · Official: https://sigops.org/s/conferences/atc/2026/index.html</summary>
 </entry>
 </feed>

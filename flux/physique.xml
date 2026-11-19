@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-18T06:00:00Z</updated>
+<updated>2026-11-19T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/qcnc-2027/</id>
+<title>QCNC 2027 — International Conference on Quantum Communications, Networking, and Computing</title>
+<link href="https://conferences.clicvia.com/conference/qcnc-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>22–26 Mar 2027 · Hokkaido, Japan · Deadline: see official website · Official: https://qcnc.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ising-field-theory-cft-integrability-and-2027/</id>
+<title>Ising Field Theory — CFT, Integrability, and Simulation</title>
+<link href="https://conferences.clicvia.com/conference/ising-field-theory-cft-integrability-and-2027/"/>
+<updated>2026-11-19T06:00:00Z</updated>
+<summary>25–29 Jan 2027 · Lausanne, Switzerland · Deadline: see official website · Official: https://indico.epfl.ch/event/36/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/many-facets-of-precision-fcc-ee-2027-winter/</id>
 <title>Many facets of precision: FCC-ee 2027 winter meeting</title>
@@ -90,13 +104,6 @@
 <link href="https://conferences.clicvia.com/conference/eucas-2027/"/>
 <updated>2026-11-07T06:00:00Z</updated>
 <summary>5–7 Sep 2027 · Heidelberg, Germany · Deadline: see official website · Official: https://eucas2027.esas.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icact-2026/</id>
-<title>ICACT 2026 — 3rd International Conference on Advanced Computing Technologies</title>
-<link href="https://conferences.clicvia.com/conference/icact-2026/"/>
-<updated>2026-11-07T06:00:00Z</updated>
-<summary>18 Nov 2026 · Mahenwaththa, Sri Lanka · Deadline: see official website · Official: https://icact.nsbm.ac.lk/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ctd2027/</id>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/icdms2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>12–14 Jul 2027 · Cambridge, United States · Deadline: see official website · Official: https://indico.cern.ch/event/1606005</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/pearc27-2027/</id>
-<title>PEARC27 2027 — Practice and Experience in Advanced Research Computing</title>
-<link href="https://conferences.clicvia.com/conference/pearc27-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>11–15 Jul 2027 · Raleigh, United States · Deadline: see official website · Official: https://pearc.acm.org/pearc27/</summary>
 </entry>
 </feed>

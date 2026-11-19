@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-18 14:08",
- "derniere_lecture_reussie": "2026-11-18 14:08",
+ "mis_a_jour": "2026-11-19 14:19",
+ "derniere_lecture_reussie": "2026-11-19 14:19",
  "dernier_passage": {
-  "date": "2026-11-18 14:08",
+  "date": "2026-11-19 14:19",
   "reussi": true
  },
  "statut_source": {
@@ -16,8 +16,8 @@
   "ccfddl": {
    "etat": "ok",
    "nombre": 263,
-   "brutes": 2362,
-   "derniere_reussite": "2026-11-18 14:08",
+   "brutes": 2368,
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-18 14:08",
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 16,
+   "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-18 14:08",
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-18 14:08",
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-18 14:08",
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-18 14:08",
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 129,
-   "brutes": 155,
-   "derniere_reussite": "2026-11-18 14:08",
+   "nombre": 130,
+   "brutes": 156,
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   },
@@ -73,123 +73,13 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-18 14:08",
+   "derniere_reussite": "2026-11-19 14:19",
    "raison": "",
    "depuis": ""
   }
  },
  "nombre": 459,
  "conferences": [
-  {
-   "id": "ccs-2026",
-   "acronyme": "CCS",
-   "titre": "ACM Conference on Computer and Communications Security",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-18",
-   "ville": "World Forum",
-   "pays": "NL",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-01-07",
-     "type": "resume",
-     "libelle": "Abstract · Cycle 1",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-01-14",
-     "type": "article",
-     "libelle": "Cycle 1",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-04-22",
-     "type": "resume",
-     "libelle": "Abstract · Cycle 2",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-04-29",
-     "type": "article",
-     "libelle": "Cycle 2",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://www.sigsac.org/ccs/CCS2026/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iccd-2026",
-   "acronyme": "ICCD",
-   "titre": "International Conference on Computer Design",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-18",
-   "ville": "Hong Kong SAR",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-03",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-06-10",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.iccd-conf.com/2026/home.html",
-   "rang": "CORE C · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "sc-2026",
    "acronyme": "SC",
@@ -237,128 +127,6 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sigops-atc-2026",
-   "acronyme": "SIGOPS ATC",
-   "titre": "ACM SIGOPS Annual Technical Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-18",
-   "ville": "Hyatt Hotel",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-11",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "11:59",
-     "fuseau": "UTC+0"
-    }
-   ],
-   "lien": "https://sigops.org/s/conferences/atc/2026/index.html",
-   "rang": "CORE A · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "vrst-2026",
-   "acronyme": "VRST",
-   "titre": "VRST",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-16",
-   "fin": "2026-11-18",
-   "ville": "Sendai",
-   "pays": "JP",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-06-17",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-06-24",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://vrst.acm.org/vrst2026/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "icact-2026",
-   "acronyme": "ICACT 2026",
-   "titre": "3rd International Conference on Advanced Computing Technologies",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-18",
-   "fin": "2026-11-18",
-   "ville": "Mahenwaththa",
-   "pays": "LK",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "calcul-physique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://icact.nsbm.ac.lk/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3225369",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-11-07"
   },
   {
    "id": "icfem-2026",
@@ -5492,6 +5260,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ising-field-theory-cft-integrability-and-2027",
+   "acronyme": "",
+   "titre": "Ising Field Theory — CFT, Integrability, and Simulation",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-25",
+   "fin": "2027-01-29",
+   "ville": "Lausanne",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "quantique",
+    "matiere-condensee"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.epfl.ch/event/36/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3230870",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-19"
+  },
+  {
    "id": "tg2027",
    "acronyme": "TG2027",
    "titre": "6th Testing Gravity 2027",
@@ -7669,6 +7472,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "qcnc-2027",
+   "acronyme": "QCNC 2027",
+   "titre": "International Conference on Quantum Communications, Networking, and Computing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-22",
+   "fin": "2027-03-26",
+   "ville": "Hokkaido",
+   "pays": "JP",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique",
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://qcnc.org/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3230867",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-19"
+  },
+  {
    "id": "worldline-leshouches-2027",
    "acronyme": "Worldline@LesHouches",
    "titre": "Worldlines and path integrals in QFT — Wavefunctions, particles and fields",
@@ -7954,16 +7791,16 @@
      "fuseau": "AoE"
     },
     {
-     "date": "2026-11-12",
-     "type": "resume",
-     "libelle": "Abstract · Research Track - Second Round",
+     "date": "2026-11-19",
+     "type": "article",
+     "libelle": "Research Track - Second Round",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-11-19",
-     "type": "article",
-     "libelle": "Research Track - Second Round",
+     "type": "resume",
+     "libelle": "Abstract · Research Track - Second Round",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -9722,6 +9559,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "icse-chase-2027",
+   "acronyme": "ICSE-CHASE",
+   "titre": "International Conference on Cooperative and Human Aspects of Software Engineering",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-26",
+   "fin": "2027-04-27",
+   "ville": "Dublin",
+   "pays": "IE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "genie-logiciel"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-10-23",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-10-30",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://conf.researchr.org/home/chase-2027",
+   "rang": "CORE B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-19"
   },
   {
    "id": "msr-2027",
@@ -13191,20 +13076,20 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-23",
-   "type_limite": "article",
+   "date_limite": "2026-11-30",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-16",
+     "date": "2026-11-30",
      "type": "resume",
      "libelle": "Abstract",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
-     "date": "2026-11-23",
+     "date": "2026-12-07",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -14290,8 +14175,8 @@
     "finance-generale",
     "marches"
    ],
-   "date_limite": "2026-11-18",
-   "type_limite": "article",
+   "date_limite": "",
+   "type_limite": "",
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [
@@ -14709,13 +14594,13 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-11-20",
+   "date_limite": "2026-12-04",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-20",
+     "date": "2026-12-04",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
@@ -14980,11 +14865,26 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-06",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-06",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-13",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://icdcs2027.icdcs.org/",
    "rang": "CORE A · CCF B",
    "sources": [
@@ -15276,10 +15176,10 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-11-18",
-   "type_limite": "article",
-   "heure_limite": "17:00",
-   "fuseau_limite": "UTC-8",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-11",
@@ -17456,6 +17356,47 @@
    "ajoute_le": "2026-11-16"
   },
   {
+   "id": "ecaf-2027",
+   "acronyme": "ECAF",
+   "titre": "European Conference on Algorithmic Fairness",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-25",
+   "fin": "2027-08-27",
+   "ville": "Vilnius",
+   "pays": "LT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-03-25",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-03-25",
+     "type": "article",
+     "libelle": "Regular full research papers. The 5 May 2027 notification publishes a date only;",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://2027.ecafconference.org/",
+   "rang": "",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-19"
+  },
+  {
    "id": "apweb-waim-2027",
    "acronyme": "APWeb-WAIM",
    "titre": "APWeb-WAIM joint international conference on Web and Big Data",
@@ -18696,14 +18637,14 @@
     {
      "date": "2027-03-01",
      "type": "resume",
-     "libelle": "Abstract · All dates tentative; March 1 is paper registration; author rebuttal A",
+     "libelle": "Abstract · All dates tentative; March 1 is paper registration; author rebuttal M",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2027-03-08",
      "type": "article",
-     "libelle": "All dates tentative; March 1 is paper registration; author rebuttal April 23 (pr",
+     "libelle": "All dates tentative; March 1 is paper registration; author rebuttal May 17 (prov",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -19556,6 +19497,68 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-12"
+  },
+  {
+   "id": "middleware-2027",
+   "acronyme": "Middleware",
+   "titre": "International Middleware Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-12-13",
+   "fin": "2027-12-17",
+   "ville": "Kyoto",
+   "pays": "JP",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "genie-logiciel"
+   ],
+   "date_limite": "2026-11-27",
+   "type_limite": "resume",
+   "heure_limite": "00:00",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-11-27",
+     "type": "resume",
+     "libelle": "Abstract · Winter cycle",
+     "heure": "00:00",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-04",
+     "type": "article",
+     "libelle": "Winter cycle",
+     "heure": "00:00",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-05-28",
+     "type": "resume",
+     "libelle": "Abstract · Summer cycle",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-06-04",
+     "type": "article",
+     "libelle": "Summer cycle",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://middleware-conf.github.io/2027/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-19"
   },
   {
    "id": "icmla-2027",
