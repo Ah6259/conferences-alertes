@@ -421,5 +421,24 @@ try:
 finally:
     shutil.rmtree(tmp_s, ignore_errors=True)
 
+# ------------------------------------------------------------------ H. Espagne (21/11/2026, Ahmed : « pas de conférences en Espagne »)
+# Lieux espagnols écrits en anglais, en espagnol ou sans le pays : toujours reconnus ; une ville homonyme d'un autre pays écrit reste à ce pays.
+for lieu, attendu in [("Madrid, España", "ES"), ("Barcelona, Espanya", "ES"), ("Sevilla", "ES"), ("Seville", "ES"), ("Valencia", "ES"),
+                      ("Granada", "ES"), ("Málaga", "ES"), ("Bilbao", "ES"), ("Donostia", "ES"), ("Palma de Mallorca", "ES"),
+                      ("Las Palmas de Gran Canaria", "ES"), ("Burgos", "ES"), ("Valladolid", "ES"), ("Universitat Rovira i Virgili, Tarragona", "ES"),
+                      ("Valencia, Venezuela", "VE"), ("Granada, Nicaragua", "NI"), ("Santiago, Chile", "CL")]:
+    check(f"Espagne : « {lieu} » -> {attendu}", K.lire_lieu(lieu)[1] == attendu)
+import verifier_officiels as V  # noqa: E402
+_sel = {"conferences": [{"fin": "2027-05-01", "code_pays": "ES", "specialites": ["compta-generale"]}]}
+check("couverture : pays suivi (Espagne) avec une conférence à venir -> pas de manque pour l'Espagne",
+      not any(m.startswith("pays ES") for m in V.couverture(_sel, "2027-01-01")))
+check("couverture : Espagne sans conférence à venir (la seule est passée) -> « à enrichir »",
+      any(m.startswith("pays ES") for m in V.couverture(_sel, "2027-06-01")))
+check("couverture : thème trop maigre -> « à enrichir » (comptabilité, finance, finance islamique)",
+      all(any(m.startswith(f"thème {t} ") for m in V.couverture(_sel, "2027-01-01")) for t in ("comptabilite", "finance", "finance-islamique")))
+_vraie = json.load(open(os.path.join(SITE, "donnees", "selection-officielle.json"), encoding="utf-8"))
+check("sélection officielle : au moins 5 conférences en Espagne vérifiées (fichier qui ne fait que grandir)",
+      sum(1 for c in _vraie["conferences"] if c.get("code_pays") == "ES") >= 5)
+
 print(f"\n{total - erreurs}/{total} scénarios réussis" + (f" — {erreurs} ÉCHEC(S) : ne pas publier." if erreurs else " — tout est bon."))
 sys.exit(1 if erreurs else 0)

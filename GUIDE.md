@@ -32,6 +32,10 @@ bientôt, écrivez-nous sur WhatsApp ». Choix à faire : Konnect (carte) ou un 
    `lien` (https), `dates_limites` (date + type `article` ou `resume`), `page_verifiee`, `verifie_le` (date du jour).
 4. « Commit changes ». Le robot de tests vérifie tout ; la conférence apparaît au prochain passage du robot quotidien.
 Ne jamais deviner une date : si elle n'est pas publiée, ne pas mettre la conférence (ou laisser `dates_limites` vide).
+Organisateurs « en série » (même conférence annoncée dans plusieurs villes d'Espagne la même année, sur des sites de listes) :
+jamais ajoutés (organisateurs douteux). Pas de page officielle trouvée = pas ajoutée.
+**Couverture surveillée (21/11/2026)** : le robot du 3 du mois (`verifier_officiels.py`, `THEMES_SUIVIS` / `PAYS_SUIVIS`) ouvre l'issue
+« Sélection officielle : à enrichir » quand un thème manque de conférences à venir ou qu'un pays suivi (Espagne) n'en a plus aucune.
 
 ## 5. Formulaire des organisateurs (gratuit, plus tard)
 Créer un formulaire Google « Signaler une conférence » avec ces questions (mots à garder) : *Nom de la conférence*, *Sigle*,
@@ -43,6 +47,7 @@ Créer un formulaire Google « Signaler une conférence » avec ces questions (m
 - « Sources des conférences en panne » : rien à faire en général (l'issue se ferme seule quand la source remarche).
 - « Sélection officielle : liens à revérifier » : ouvrir le lien indiqué, retrouver la nouvelle page officielle, corriger
   `donnees/selection-officielle.json` (étape 4).
+- « Sélection officielle : à enrichir » : demander à Claude de chercher les nouvelles éditions (étape 4) ; l'issue se ferme seule ensuite.
 - Un test en échec : rien n'est publié tant que ce n'est pas corrigé ; demander à Claude.
 
 ## 7. Search Console

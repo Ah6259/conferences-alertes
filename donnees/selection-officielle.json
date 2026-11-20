@@ -1,6 +1,6 @@
 {
  "description": "Sélection éditoriale : conférences de comptabilité, finance et finance islamique, vérifiées une à une sur la page officielle de l'organisateur (faits : nom, dates, lieu, date limite, lien). Mise à jour à la main ou par le formulaire des organisateurs ; le robot mensuel verifier_officiels.py vérifie que chaque lien répond encore.",
- "verifie_le": "2026-10-06",
+ "verifie_le": "2026-11-20",
  "conferences": [
   {
    "acronyme": "MODAV-ICA 2026",
@@ -1193,6 +1193,93 @@
    ],
    "page_verifiee": "https://www.alkhaleej.ae/2026-08-06/%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D8%A7%D8%B1/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D8%B3%D9%85%D9%8A%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-%D8%A8%D8%A7%D8%A8-%D8%AA%D9%82%D8%AF%D9%8A%D9%85-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D8%A7%D9%82-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB%D9%8A%D8%A9",
    "verifie_le": "2026-10-06"
+  },
+  {
+   "acronyme": "IPA 2027",
+   "titre": "15th Interdisciplinary Perspectives on Accounting (IPA) Conference",
+   "annee": 2027,
+   "debut": "2027-07-14",
+   "fin": "2027-07-16",
+   "ville": "Burgos",
+   "code_pays": "ES",
+   "mode": "presentiel",
+   "specialites": [
+    "compta-generale"
+   ],
+   "lien": "https://www2.ubu.es/ipa2027/en",
+   "dates_limites": [
+    {
+     "date": "2027-01-31",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://www.ubu.es/noticias/15th-interdisciplinary-perspectives-accounting-ipa-conference-university-burgos-14-16-july-2027",
+   "verifie_le": "2026-11-20"
+  },
+  {
+   "acronyme": "IESE-ECGI 2027",
+   "titre": "2027 IESE–ECGI Corporate Governance Conference: Corporate Governance and Boards of Directors in the Age of AI",
+   "annee": 2027,
+   "debut": "2027-04-19",
+   "fin": "2027-04-19",
+   "ville": "Madrid",
+   "code_pays": "ES",
+   "mode": "presentiel",
+   "specialites": [
+    "gouvernance"
+   ],
+   "lien": "https://www.ecgi.global/events/corporate-governance-and-boards-of-directors-in-the-age-of-ai",
+   "dates_limites": [],
+   "page_verifiee": "https://www.ecgi.global/events/corporate-governance-and-boards-of-directors-in-the-age-of-ai",
+   "verifie_le": "2026-11-20"
+  },
+  {
+   "acronyme": "SJFA ESG Workshop 2027",
+   "titre": "Spanish Journal of Finance and Accounting (SJFA) Special Issue Workshop: The Value of ESG",
+   "annee": 2027,
+   "debut": "2027-06-11",
+   "fin": "2027-06-11",
+   "ville": "Valladolid",
+   "code_pays": "ES",
+   "mode": "presentiel",
+   "specialites": [
+    "gouvernance",
+    "finance-entreprise"
+   ],
+   "lien": "https://callforpapers.taylorandfrancis.com/special_issues/the-value-of-esg/",
+   "dates_limites": [
+    {
+     "date": "2027-01-15",
+     "type": "article",
+     "libelle": "Paper"
+    }
+   ],
+   "page_verifiee": "https://callforpapers.taylorandfrancis.com/special_issues/the-value-of-esg/",
+   "verifie_le": "2026-11-20"
+  },
+  {
+   "acronyme": "AMaMeF 2027",
+   "titre": "13th Advanced Mathematical Methods for Finance (AMaMeF) Conference",
+   "annee": 2027,
+   "debut": "2027-07-05",
+   "fin": "2027-07-09",
+   "ville": "Barcelona",
+   "code_pays": "ES",
+   "mode": "presentiel",
+   "specialites": [
+    "marches"
+   ],
+   "lien": "https://www.iese.edu/faculty-research/13-amamef-conference/",
+   "dates_limites": [
+    {
+     "date": "2027-01-31",
+     "type": "resume",
+     "libelle": "Abstract"
+    }
+   ],
+   "page_verifiee": "https://www.iese.edu/faculty-research/13-amamef-conference/",
+   "verifie_le": "2026-11-20"
   }
  ]
 }

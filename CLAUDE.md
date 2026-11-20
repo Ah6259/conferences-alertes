@@ -143,3 +143,13 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   les autres vont dans `liste.json` à côté de la page (accueil, Informatique, Physique, Europe, Asie…), chargé par app.js au 1er geste (filtre,
   recherche, « Afficher plus », lien #conférence), puis TRADUIT (data-t, dates) comme le reste ; compteurs des filtres et résumé = chiffres de la
   construction tant que le reste n'est pas là. Tests : page() du test charge le reste (sauf { leger: true }), vérification de l'état de départ.
+
+- **21/11/2026 — Espagne (Ahmed : « pas de conférences en Espagne »)** : cause = l'Espagne avait 8 conférences (informatique, physique,
+  neurosciences) mais AUCUNE en comptabilité / finance / finance islamique : ces thèmes ne viennent QUE de la sélection officielle faite à
+  la main (vérifiée le 06/10, jamais complétée depuis) dont la seule conférence espagnole (RIARF, Palma, 19/10/2026) était passée.
+  Ajoutées après vérification de la page officielle : IPA 2027 (Burgos), IESE–ECGI 2027 (Madrid), atelier SJFA « The Value of ESG »
+  (Valladolid), AMaMeF 2027 (Barcelone). Les « Islamic Banking… » annoncées en Espagne (organisateur en série) ne sont PAS ajoutées.
+  Lecture des lieux : « España / Espanya » + ~50 villes espagnoles (Sevilla/Seville, Valencia, Bilbao, Málaga, Palma…) ; Venezuela et
+  Nicaragua ajoutés (Valencia, Granada homonymes). Garde-fous : section H de test_pannes.py (lieux espagnols, couverture, ≥ 5 conférences
+  ES dans la sélection) ; `couverture()` de robot/verifier_officiels.py (`THEMES_SUIVIS`, `PAYS_SUIVIS`) -> issue « Sélection officielle :
+  à enrichir » le 3 du mois (refermée seule).

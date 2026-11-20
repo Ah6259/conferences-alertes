@@ -121,7 +121,7 @@ PAYS = {
     "FR": ("France", "France", "فرنسا", "europe", ["FX"]),
     "DE": ("Allemagne", "Germany", "ألمانيا", "europe", []),
     "IT": ("Italie", "Italy", "إيطاليا", "europe", []),
-    "ES": ("Espagne", "Spain", "إسبانيا", "europe", []),
+    "ES": ("Espagne", "Spain", "إسبانيا", "europe", ["España", "Espanya", "Kingdom of Spain", "Reino de España"]),
     "PT": ("Portugal", "Portugal", "البرتغال", "europe", []),
     "GB": ("Royaume-Uni", "United Kingdom", "المملكة المتحدة", "europe", ["UK", "England", "Scotland", "Wales", "Great Britain", "Northern Ireland"]),
     "IE": ("Irlande", "Ireland", "أيرلندا", "europe", []),
@@ -199,6 +199,9 @@ PAYS = {
     "OM": ("Oman", "Oman", "عُمان", "asie", ["Sultanate of Oman"]),
     "MU": ("Maurice", "Mauritius", "موريشيوس", "afrique", []),
     "PA": ("Panama", "Panama", "بنما", "amerique-sud", []),
+    # Pays qui ont une ville du même nom qu'une ville espagnole (Valencia, Granada) : écrits, ils l'emportent sur la ville (21/11/2026)
+    "VE": ("Venezuela", "Venezuela", "فنزويلا", "amerique-sud", []),
+    "NI": ("Nicaragua", "Nicaragua", "نيكاراغوا", "amerique-sud", []),
     "AU": ("Australie", "Australia", "أستراليا", "oceanie", []),
     "NZ": ("Nouvelle-Zélande", "New Zealand", "نيوزيلندا", "oceanie", []),
 }
@@ -230,6 +233,15 @@ VILLES = {
     "new delhi": "IN", "mumbai": "IN", "chennai": "IN", "kolkata": "IN", "jerusalem": "IL", "tel aviv": "IL", "riyadh": "SA", "bruges": "BE", "brugge": "BE",
     "hsinchu": "TW", "phoenix": "US", "siem reap": "KH", "panama city": "PA", "austin": "US", "atlanta": "US", "denver": "US",
     "vienna, austria": "AT", "kraków": "PL", "krakow": "PL", "warsaw": "PL", "dublin": "IE", "glasgow": "GB", "porto alegre": "BR",
+    # Espagne (21/11/2026, Ahmed : « pas de conférences en Espagne ») : villes universitaires, en anglais ET en espagnol/catalan/basque
+    "seville": "ES", "sevilla": "ES", "valencia": "ES", "valència": "ES", "granada": "ES", "malaga": "ES", "málaga": "ES",
+    "bilbao": "ES", "san sebastian": "ES", "san sebastián": "ES", "donostia": "ES", "donostia-san sebastián": "ES",
+    "zaragoza": "ES", "salamanca": "ES", "santander": "ES", "valladolid": "ES", "burgos": "ES", "pamplona": "ES",
+    "alicante": "ES", "murcia": "ES", "oviedo": "ES", "gijón": "ES", "gijon": "ES", "cadiz": "ES", "cádiz": "ES",
+    "girona": "ES", "tarragona": "ES", "lleida": "ES", "palma": "ES", "palma de mallorca": "ES", "mallorca": "ES",
+    "tenerife": "ES", "gran canaria": "ES", "las palmas de gran canaria": "ES", "a coruña": "ES", "la coruña": "ES",
+    "santiago de compostela": "ES", "vigo": "ES", "toledo, spain": "ES", "almería": "ES", "almeria": "ES", "jaén": "ES",
+    "huelva": "ES", "castellón": "ES", "castellon": "ES", "elche": "ES", "logroño": "ES", "león, spain": "ES", "osuna": "ES",
 }
 
 _NOMS = {}

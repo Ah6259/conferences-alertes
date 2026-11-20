@@ -58,3 +58,26 @@ jobs:
           elif [ -n "$NUM" ]; then
             gh issue close "$NUM" --comment "Tous les liens officiels répondent. Fermeture automatique."
           fi
+      # 21/11/2026 (Ahmed : « pas de conférences en Espagne ») : la sélection est faite à la main et se vide seule avec le temps.
+      # Thème trop maigre ou pays suivi (Espagne) sans conférence à venir -> issue « Sélection officielle : à enrichir »,
+      # lue par Claude en début de session (GUIDE § 4) ; refermée seule quand tout est couvert. Jamais de rouge (§ 55.6).
+      - name: Issue si la sélection officielle est à enrichir
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          LISTE=$(python -c "import json;d=json.load(open('donnees/verification-officielle.json',encoding='utf-8'));print(chr(10).join('- '+m for m in d.get('a_enrichir') or []))")
+          NUM=$(gh issue list --state open --search "Sélection officielle : à enrichir in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$LISTE" ]; then
+            if [ -z "$NUM" ]; then
+              gh issue create --title "Sélection officielle : à enrichir" --body "La sélection officielle (comptabilité, finance, finance islamique) manque de conférences à venir :
+
+          $LISTE
+
+          Que faire (Claude) : chercher les nouvelles éditions sur les pages OFFICIELLES des organisateurs et les ajouter à donnees/selection-officielle.json (GUIDE § 4)."
+            else
+              gh issue comment "$NUM" --body "Toujours à enrichir :
+          $LISTE"
+            fi
+          elif [ -n "$NUM" ]; then
+            gh issue close "$NUM" --comment "La sélection officielle couvre de nouveau tous les thèmes et pays suivis. Fermeture automatique."
+          fi

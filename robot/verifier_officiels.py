@@ -30,6 +30,27 @@ import sources as S   # noqa: E402
 SELECTION = os.path.join(RACINE, "donnees", "selection-officielle.json")
 SORTIE = os.path.join(RACINE, "donnees", "verification-officielle.json")
 
+# Couverture (21/11/2026, Ahmed : « le site n'a pas de conférences en Espagne ») : la sélection est faite À LA MAIN et se vide
+# toute seule quand les conférences passent. Chaque mois, on note ce qui manque : un thème avec trop peu de conférences à venir,
+# ou un pays suivi sans aucune conférence à venir. L'issue « Sélection officielle : à enrichir » dit à Claude de chercher
+# de nouvelles éditions sur les pages officielles (GUIDE § 4). Ajouter un pays ici = il sera surveillé lui aussi.
+THEMES_SUIVIS = {"comptabilite": 8, "finance": 6, "finance-islamique": 6}   # minimum de conférences à venir par thème
+PAYS_SUIVIS = {"ES": "Espagne (demande d'Ahmed du 21/11/2026)"}             # au moins 1 conférence à venir (tous thèmes de la sélection)
+
+
+def couverture(sel, jour):
+    """Liste des manques de la sélection officielle (vide = rien à enrichir)."""
+    avenir = [c for c in sel.get("conferences") or [] if str(c.get("fin") or "") >= jour]
+    manques = []
+    for theme, mini in THEMES_SUIVIS.items():
+        n = sum(1 for c in avenir if any((S.K.S_PAR_SLUG.get(sp) or ("", ""))[1] == theme for sp in c.get("specialites") or []))
+        if n < mini:
+            manques.append(f"thème {theme} : {n} conférence(s) à venir (minimum {mini})")
+    for code, nom in PAYS_SUIVIS.items():
+        if not any(c.get("code_pays") == code for c in avenir):
+            manques.append(f"pays {code} — {nom} : aucune conférence à venir")
+    return manques
+
 
 def autorise(url, cache):
     p = urllib.parse.urlparse(url)
@@ -96,8 +117,11 @@ def main(jour=None, tester_url=tester, pause=3):
         res.append({"acronyme": c.get("acronyme"), "lien": url, "etat": etat, "detail": detail})
         print(f"  {etat:12} {c.get('acronyme')} — {detail}")
     casses = [r for r in res if r["etat"] == "casse"]       # injoignable 2 mois de suite = alerte
+    manques = couverture(sel, jour)
+    for m in manques:
+        print(f"  À ENRICHIR   {m}")
     d = {"verifie_le": jour, "nombre": len(res), "injoignables": len(casses),
-         "a_verifier_a_la_main": sum(1 for r in res if r["etat"] == "protege"), "resultats": res}
+         "a_verifier_a_la_main": sum(1 for r in res if r["etat"] == "protege"), "a_enrichir": manques, "resultats": res}
     tmp = SORTIE + ".tmp"
     with open(tmp, "w", encoding="utf-8", newline="\n") as f:
         json.dump(d, f, ensure_ascii=False, indent=1)
