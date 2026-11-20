@@ -4,9 +4,44 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-19T06:00:00Z</updated>
+<updated>2026-11-20T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ecscw-2027/</id>
+<title>ECSCW 2027 — European Conference on Computer Supported Cooperative Work</title>
+<link href="https://conferences.clicvia.com/conference/ecscw-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>5–9 Jul 2027 · Limassol, Cyprus · Deadline: see official website · Official: https://ecscw.eusset.eu/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/networking-2027/</id>
+<title>Networking 2027 — IFIP International Conference on Networking</title>
+<link href="https://conferences.clicvia.com/conference/networking-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>13–16 Jun 2027 · Dublin, Ireland · Deadline: 15 Jan 2027, 22 Jan 2027 · Official: https://networking.ifip.org/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/hpdc-2027/</id>
+<title>HPDC 2027 — ACM Symposium on High-Performance Parallel and Distributed Computing</title>
+<link href="https://conferences.clicvia.com/conference/hpdc-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>7–9 Jun 2027 · Atlanta, United States · Deadline: 11 Jan 2027, 18 Jan 2027 · Official: https://hpdc.sci.utah.edu/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/cf-2027/</id>
+<title>CF 2027 — ACM International Conference on Computing Frontiers</title>
+<link href="https://conferences.clicvia.com/conference/cf-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>25–27 May 2027 · Trento, Italy · Deadline: 18 Jan 2027, 25 Jan 2027 · Official: https://www.computingfrontiers.org/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ispass-2027/</id>
+<title>ISPASS 2027 — International Symposium on Performance Analysis of Systems and Software</title>
+<link href="https://conferences.clicvia.com/conference/ispass-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>9–11 May 2027 · New York City, United States · Deadline: 11 Dec 2026, 18 Dec 2026 · Official: https://ispass.org/2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/middleware-2027/</id>
 <title>Middleware 2027 — International Middleware Conference</title>
@@ -79,10 +114,10 @@
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/uist-2027/</id>
-<title>UIST 2027</title>
+<title>UIST 2027 — ACM Symposium on User Interface Software and Technology</title>
 <link href="https://conferences.clicvia.com/conference/uist-2027/"/>
 <updated>2026-11-09T06:00:00Z</updated>
-<summary>26–29 Oct 2027 · Vienna, Austria · Deadline: 31 Mar 2027, 7 Apr 2027 · Official: https://uist.acm.org/2027</summary>
+<summary>27–29 Oct 2027 · VIECON - Vienna Congress &amp; Convention Center, Austria · Deadline: 31 Mar 2027, 7 Apr 2027 · Official: https://uist.acm.org/2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/fccm-2027/</id>
@@ -391,40 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/iros-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>27 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/icfp-2027/</id>
-<title>ICFP 2027 — International Conference on Function Programming</title>
-<link href="https://conferences.clicvia.com/conference/icfp-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26 Sep – 1 Oct 2027 · Nijmegen, Netherlands · Deadline: 25 Feb 2027 · Official: https://icfp27.sigplan.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/miccai-2027/</id>
-<title>MICCAI 2027 — International Conference on Medical Image Computing and Computer Assisted Intervention</title>
-<link href="https://conferences.clicvia.com/conference/miccai-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>26 Sep – 1 Oct 2027 · Auckland, New Zealand · Deadline: see official website · Official: https://conferences.miccai.org/2027/en/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/ecml-pkdd-2027/</id>
-<title>ECML-PKDD 2027 — European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases</title>
-<link href="https://conferences.clicvia.com/conference/ecml-pkdd-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20–24 Sep 2027 · Eindhoven, Netherlands · Deadline: see official website · Official: https://ecmlpkdd.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mobilehci-2027/</id>
-<title>MobileHCI 2027 — ACM International Conference on Mobile Human-Computer Interaction</title>
-<link href="https://conferences.clicvia.com/conference/mobilehci-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>20–23 Sep 2027 · Limassol, Cyprus · Deadline: 10 Feb 2027, 17 Feb 2027 · Official: https://mobilehci.acm.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/csfw-2027/</id>
-<title>CSFW 2027 — IEEE Computer Security Foundations Symposium</title>
-<link href="https://conferences.clicvia.com/conference/csfw-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>13–17 Sep 2027 · Tokyo, Japan · Deadline: 3 Aug 2026, 15 Oct 2026, 28 Jan 2027 · Official: https://www.ieee-security.org/TC/CSF2027/</summary>
 </entry>
 </feed>

@@ -4,9 +4,44 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-19T06:00:00Z</updated>
+<updated>2026-11-20T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ecscw-2027/</id>
+<title>ECSCW 2027 — European Conference on Computer Supported Cooperative Work</title>
+<link href="https://conferences.clicvia.com/conference/ecscw-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>5–9 Jul 2027 · Limassol, Cyprus · Deadline: see official website · Official: https://ecscw.eusset.eu/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/networking-2027/</id>
+<title>Networking 2027 — IFIP International Conference on Networking</title>
+<link href="https://conferences.clicvia.com/conference/networking-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>13–16 Jun 2027 · Dublin, Ireland · Deadline: 15 Jan 2027, 22 Jan 2027 · Official: https://networking.ifip.org/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/hpdc-2027/</id>
+<title>HPDC 2027 — ACM Symposium on High-Performance Parallel and Distributed Computing</title>
+<link href="https://conferences.clicvia.com/conference/hpdc-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>7–9 Jun 2027 · Atlanta, United States · Deadline: 11 Jan 2027, 18 Jan 2027 · Official: https://hpdc.sci.utah.edu/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/cf-2027/</id>
+<title>CF 2027 — ACM International Conference on Computing Frontiers</title>
+<link href="https://conferences.clicvia.com/conference/cf-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>25–27 May 2027 · Trento, Italy · Deadline: 18 Jan 2027, 25 Jan 2027 · Official: https://www.computingfrontiers.org/2027/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/ispass-2027/</id>
+<title>ISPASS 2027 — International Symposium on Performance Analysis of Systems and Software</title>
+<link href="https://conferences.clicvia.com/conference/ispass-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>9–11 May 2027 · New York City, United States · Deadline: 11 Dec 2026, 18 Dec 2026 · Official: https://ispass.org/2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/middleware-2027/</id>
 <title>Middleware 2027 — International Middleware Conference</title>
@@ -149,10 +184,10 @@
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/uist-2027/</id>
-<title>UIST 2027</title>
+<title>UIST 2027 — ACM Symposium on User Interface Software and Technology</title>
 <link href="https://conferences.clicvia.com/conference/uist-2027/"/>
 <updated>2026-11-09T06:00:00Z</updated>
-<summary>26–29 Oct 2027 · Vienna, Austria · Deadline: 31 Mar 2027, 7 Apr 2027 · Official: https://uist.acm.org/2027</summary>
+<summary>27–29 Oct 2027 · VIECON - Vienna Congress &amp; Convention Center, Austria · Deadline: 31 Mar 2027, 7 Apr 2027 · Official: https://uist.acm.org/2027/</summary>
 </entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/qsm-2027/</id>
@@ -391,40 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/qai2026/"/>
 <updated>2026-10-27T06:00:00Z</updated>
 <summary>13–16 Dec 2026 · Nottingham, United Kingdom · Deadline: see official website · Official: https://attend.ieee.org/qai-2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/</id>
-<title>German FCC-ee Workshop 2026</title>
-<link href="https://conferences.clicvia.com/conference/german-fcc-ee-workshop-2026/"/>
-<updated>2026-10-27T06:00:00Z</updated>
-<summary>2–4 Dec 2026 · Hamburg, Germany · Deadline: see official website · Official: https://indico.desy.de/event/54602/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/</id>
-<title>Mathematical and Statistical Physics in the age of Artificial Intelligence</title>
-<link href="https://conferences.clicvia.com/conference/mathematical-and-statistical-physics-in-the-age-2027/"/>
-<updated>2026-10-26T06:00:00Z</updated>
-<summary>6–8 Jan 2027 · Budapest, Hungary · Deadline: see official website · Official: https://indico.global/e/math-stat-phys-ai</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/acml-2026/</id>
-<title>ACML 2026 — Asian Conference on Machine Learning</title>
-<link href="https://conferences.clicvia.com/conference/acml-2026/"/>
-<updated>2026-10-25T06:00:00Z</updated>
-<summary>1–4 Dec 2026 · Melbourne, Australia · Deadline: 20 Jun 2026, 5 Jul 2026 · Official: https://www.acml-conf.org/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/clef-2027/</id>
-<title>CLEF 2027 — Conference and Labs of the Evaluation Forum</title>
-<link href="https://conferences.clicvia.com/conference/clef-2027/"/>
-<updated>2026-10-23T06:00:00Z</updated>
-<summary>14–17 Sep 2027 · Bucharest, Romania · Deadline: see official website · Official: https://clef2027.clef-initiative.eu/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/sais-2027/</id>
-<title>SAIS 2027 — USENIX Conference on Secure Agentic-AI Systems</title>
-<link href="https://conferences.clicvia.com/conference/sais-2027/"/>
-<updated>2026-10-23T06:00:00Z</updated>
-<summary>7–8 Jun 2027 · Santa Clara, United States · Deadline: 4 Feb 2027 · Official: https://www.usenix.org/conference/sais27</summary>
 </entry>
 </feed>

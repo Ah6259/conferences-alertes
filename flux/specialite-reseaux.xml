@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/specialite-reseaux.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-reseaux.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-19T06:00:00Z</updated>
+<updated>2026-11-20T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/networking-2027/</id>
+<title>Networking 2027 — IFIP International Conference on Networking</title>
+<link href="https://conferences.clicvia.com/conference/networking-2027/"/>
+<updated>2026-11-20T06:00:00Z</updated>
+<summary>13–16 Jun 2027 · Dublin, Ireland · Deadline: 15 Jan 2027, 22 Jan 2027 · Official: https://networking.ifip.org/2027/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/nsdi-2028/</id>
 <title>NSDI 2028 — USENIX Symposium on Networked Systems Design and Implementation</title>

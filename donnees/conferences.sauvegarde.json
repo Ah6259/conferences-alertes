@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-19 14:19",
- "derniere_lecture_reussie": "2026-11-19 14:19",
+ "mis_a_jour": "2026-11-20 13:59",
+ "derniere_lecture_reussie": "2026-11-20 13:59",
  "dernier_passage": {
-  "date": "2026-11-19 14:19",
+  "date": "2026-11-20 13:59",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 263,
-   "brutes": 2368,
-   "derniere_reussite": "2026-11-19 14:19",
+   "nombre": 269,
+   "brutes": 2374,
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -65,7 +65,7 @@
    "etat": "ok",
    "nombre": 130,
    "brutes": 156,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 39,
    "brutes": 54,
-   "derniere_reussite": "2026-11-19 14:19",
+   "derniere_reussite": "2026-11-20 13:59",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 459,
+ "nombre": 464,
  "conferences": [
   {
    "id": "sc-2026",
@@ -7771,10 +7771,10 @@
    "specialites": [
     "reseaux"
    ],
-   "date_limite": "2026-11-19",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-09-17",
@@ -10144,6 +10144,54 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ispass-2027",
+   "acronyme": "ISPASS",
+   "titre": "International Symposium on Performance Analysis of Systems and Software",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-09",
+   "fin": "2027-05-11",
+   "ville": "New York City",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "genie-logiciel"
+   ],
+   "date_limite": "2026-12-11",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2026-12-11",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-12-18",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://ispass.org/2027/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
+  },
+  {
    "id": "charm-2027",
    "acronyme": "CHARM 2027",
    "titre": "13th International Workshop on Charm Physics",
@@ -11523,6 +11571,54 @@
    "ajoute_le": "2026-10-20"
   },
   {
+   "id": "cf-2027",
+   "acronyme": "CF",
+   "titre": "ACM International Conference on Computing Frontiers",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-25",
+   "fin": "2027-05-27",
+   "ville": "Trento",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "2027-01-18",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-18",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-25",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://www.computingfrontiers.org/2027/",
+   "rang": "CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
+  },
+  {
    "id": "cscwd-2027",
    "acronyme": "CSCWD",
    "titre": "International Conference on Computer Supported Cooperative Work in Design",
@@ -12512,6 +12608,54 @@
    "ajoute_le": "2026-11-10"
   },
   {
+   "id": "hpdc-2027",
+   "acronyme": "HPDC",
+   "titre": "ACM Symposium on High-Performance Parallel and Distributed Computing",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-07",
+   "fin": "2027-06-09",
+   "ville": "Atlanta",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "systemes"
+   ],
+   "date_limite": "2027-01-11",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-11",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-18",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://hpdc.sci.utah.edu/2027/",
+   "rang": "CORE A · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
+  },
+  {
    "id": "icmr-2027",
    "acronyme": "ICMR",
    "titre": "ACM SIGMM International Conference on Multimedia Retrieval",
@@ -12837,6 +12981,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-09"
+  },
+  {
+   "id": "networking-2027",
+   "acronyme": "Networking",
+   "titre": "IFIP International Conference on Networking",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-13",
+   "fin": "2027-06-16",
+   "ville": "Dublin",
+   "pays": "IE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "reseaux"
+   ],
+   "date_limite": "2027-01-15",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-15",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-22",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://networking.ifip.org/2027/",
+   "rang": "CORE B · CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
   },
   {
    "id": "pods-2027",
@@ -13495,11 +13687,26 @@
    "specialites": [
     "theorie"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-14",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-14",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-21",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
    "lien": "https://lics.siglog.org/lics27/",
    "rang": "CORE A* · CCF A",
    "sources": [
@@ -14354,7 +14561,7 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-11-19",
+   "date_limite": "2027-02-11",
    "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
@@ -14724,6 +14931,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "ecscw-2027",
+   "acronyme": "ECSCW",
+   "titre": "European Conference on Computer Supported Cooperative Work",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-05",
+   "fin": "2027-07-09",
+   "ville": "Limassol",
+   "pays": "CY",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ihm"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://ecscw.eusset.eu/2027/",
+   "rang": "CORE B · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
   },
   {
    "id": "egsr-2027",
@@ -15716,54 +15956,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "sigir-2027",
-   "acronyme": "SIGIR",
-   "titre": "International Conference on Research on Development in Information Retrieval",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-07-18",
-   "fin": "2027-07-24",
-   "ville": "San Jose",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "2027-01-14",
-   "type_limite": "resume",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
-   "dates_limites": [
-    {
-     "date": "2027-01-14",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2027-01-21",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://sigir2027.org/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "ccc-2027",
    "acronyme": "CCC",
    "titre": "Computational Complexity Conference",
@@ -15973,6 +16165,54 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-04"
+  },
+  {
+   "id": "sigir-2027",
+   "acronyme": "SIGIR",
+   "titre": "International Conference on Research on Development in Information Retrieval",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-20",
+   "fin": "2027-07-22",
+   "ville": "San Jose",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "2027-01-14",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-14",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-01-21",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://sigir2027.org/",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
   },
   {
    "id": "cav-2027",
@@ -17720,13 +17960,20 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2027-03-05",
-   "type_limite": "article",
+   "date_limite": "2027-02-19",
+   "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2027-03-05",
+     "date": "2027-02-19",
+     "type": "resume",
+     "libelle": "Abstract · Research Papers Track",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-02-26",
      "type": "article",
      "libelle": "Research Papers Track",
      "heure": "23:59",
@@ -19243,12 +19490,12 @@
   {
    "id": "uist-2027",
    "acronyme": "UIST",
-   "titre": "UIST",
+   "titre": "ACM Symposium on User Interface Software and Technology",
    "annee": 2027,
    "type": "conference",
-   "debut": "2027-10-26",
+   "debut": "2027-10-27",
    "fin": "2027-10-29",
-   "ville": "Vienna",
+   "ville": "VIECON - Vienna Congress & Convention Center",
    "pays": "AT",
    "mode": "presentiel",
    "continent": "europe",
@@ -19261,26 +19508,27 @@
    "date_limite": "2027-03-31",
    "type_limite": "resume",
    "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2027-03-31",
      "type": "resume",
      "libelle": "Abstract",
      "heure": "23:59",
-     "fuseau": "UTC-12"
+     "fuseau": "AoE"
     },
     {
      "date": "2027-04-07",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",
-     "fuseau": "UTC-12"
+     "fuseau": "AoE"
     }
    ],
-   "lien": "https://uist.acm.org/2027",
-   "rang": "",
+   "lien": "https://uist.acm.org/2027/",
+   "rang": "CORE A* · CCF A",
    "sources": [
+    "ccfddl",
     "hci"
    ],
    "identifiant_source": "",
