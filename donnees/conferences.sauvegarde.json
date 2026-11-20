@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-20 13:59",
- "derniere_lecture_reussie": "2026-11-20 13:59",
+ "mis_a_jour": "2026-11-20 18:48",
+ "derniere_lecture_reussie": "2026-11-20 18:48",
  "dernier_passage": {
-  "date": "2026-11-20 13:59",
+  "date": "2026-11-20 18:48",
   "reussi": true
  },
  "statut_source": {
@@ -16,8 +16,8 @@
   "ccfddl": {
    "etat": "ok",
    "nombre": 269,
-   "brutes": 2374,
-   "derniere_reussite": "2026-11-20 13:59",
+   "brutes": 2375,
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-20 13:59",
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-20 13:59",
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-20 13:59",
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-20 13:59",
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-20 13:59",
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 130,
-   "brutes": 156,
-   "derniere_reussite": "2026-11-20 13:59",
+   "nombre": 132,
+   "brutes": 158,
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 39,
-   "brutes": 54,
-   "derniere_reussite": "2026-11-20 13:59",
+   "nombre": 43,
+   "brutes": 58,
+   "derniere_reussite": "2026-11-20 18:48",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 464,
+ "nombre": 470,
  "conferences": [
   {
    "id": "sc-2026",
@@ -5429,6 +5429,39 @@
    "ajoute_le": "2026-11-12"
   },
   {
+   "id": "5th-iagrg-school-on-gravitation-and-2027",
+   "acronyme": "",
+   "titre": "5th IAGRG School on Gravitation and Cosmology",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-02-08",
+   "fin": "2027-02-19",
+   "ville": "IISER, Kolkata",
+   "pays": "IN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://sites.google.com/view/5thiagrgschool/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3231489",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
+  },
+  {
    "id": "5th-workshop-on-ultra-high-frequency-2027",
    "acronyme": "",
    "titre": "5th Workshop on Ultra-high Frequency Gravitational Waves",
@@ -5795,76 +5828,6 @@
    "ajoute_le": "2026-11-04"
   },
   {
-   "id": "wsdm-2027",
-   "acronyme": "WSDM",
-   "titre": "International Conference on Web Search and Data Mining",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-02-15",
-   "fin": "2027-02-19",
-   "ville": "Cordis",
-   "pays": "CN",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-17",
-     "type": "resume",
-     "libelle": "Abstract · Full Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-08-24",
-     "type": "article",
-     "libelle": "Full Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-11-02",
-     "type": "autre",
-     "libelle": "Author notification (full papers)",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-11-17",
-     "type": "article",
-     "libelle": "Short Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-12-18",
-     "type": "autre",
-     "libelle": "Author notification (short papers)",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://wsdm-conference.org/2027/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl",
-    "hf"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "aaai-2027",
    "acronyme": "AAAI",
    "titre": "AAAI Conference on Artificial Intelligence",
@@ -5954,6 +5917,76 @@
     "ccfddl",
     "hf",
     "robo"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "wsdm-2027",
+   "acronyme": "WSDM",
+   "titre": "International Conference on Web Search and Data Mining",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-02-16",
+   "fin": "2027-02-18",
+   "ville": "Cordis",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-08-17",
+     "type": "resume",
+     "libelle": "Abstract · Full Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-08-24",
+     "type": "article",
+     "libelle": "Full Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-11-02",
+     "type": "autre",
+     "libelle": "Author notification (full papers)",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2026-11-17",
+     "type": "article",
+     "libelle": "Short Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-12-18",
+     "type": "autre",
+     "libelle": "Author notification (short papers)",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://wsdm-conference.org/2027/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl",
+    "hf"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -8779,7 +8812,7 @@
    "type": "conference",
    "debut": "2027-04-11",
    "fin": "2027-04-15",
-   "ville": "Crete",
+   "ville": "Heraklion",
    "pays": "GR",
    "mode": "presentiel",
    "continent": "europe",
@@ -9143,6 +9176,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "iese-ecgi-2027",
+   "acronyme": "IESE-ECGI 2027",
+   "titre": "2027 IESE–ECGI Corporate Governance Conference: Corporate Governance and Boards of Directors in the Age of AI",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-19",
+   "fin": "2027-04-19",
+   "ville": "Madrid",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "comptabilite"
+   ],
+   "specialites": [
+    "gouvernance"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ecgi.global/events/corporate-governance-and-boards-of-directors-in-the-age-of-ai",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-20",
+   "page_verifiee": "https://www.ecgi.global/events/corporate-governance-and-boards-of-directors-in-the-age-of-ai",
+   "ajoute_le": "2026-11-20"
   },
   {
    "id": "iso-break-27-2027",
@@ -12844,7 +12910,7 @@
    "annee": 2027,
    "type": "conference",
    "debut": "2027-06-07",
-   "fin": "2027-06-11",
+   "fin": "2027-06-10",
    "ville": "Atlanta",
    "pays": "US",
    "mode": "presentiel",
@@ -12981,6 +13047,49 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-09"
+  },
+  {
+   "id": "sjfa-esg-workshop-2027",
+   "acronyme": "SJFA ESG Workshop 2027",
+   "titre": "Spanish Journal of Finance and Accounting (SJFA) Special Issue Workshop: The Value of ESG",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-06-11",
+   "fin": "2027-06-11",
+   "ville": "Valladolid",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "comptabilite",
+    "finance"
+   ],
+   "specialites": [
+    "gouvernance",
+    "finance-entreprise"
+   ],
+   "date_limite": "2027-01-15",
+   "type_limite": "article",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2027-01-15",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "",
+     "fuseau": ""
+    }
+   ],
+   "lien": "https://callforpapers.taylorandfrancis.com/special_issues/the-value-of-esg/",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-20",
+   "page_verifiee": "https://callforpapers.taylorandfrancis.com/special_issues/the-value-of-esg/",
+   "ajoute_le": "2026-11-20"
   },
   {
    "id": "networking-2027",
@@ -14275,54 +14384,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "icaps-2027",
-   "acronyme": "ICAPS",
-   "titre": "International Conference on Automated Planning and Scheduling",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-06-27",
-   "fin": "2027-07-02",
-   "ville": "Columbia",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "2026-12-07",
-   "type_limite": "resume",
-   "heure_limite": "23:59",
-   "fuseau_limite": "UTC-12",
-   "dates_limites": [
-    {
-     "date": "2026-12-07",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    },
-    {
-     "date": "2026-12-14",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://icaps27.icaps-conference.org/",
-   "rang": "CORE A* · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "isit-2027",
    "acronyme": "ISIT",
    "titre": "IEEE International Symposium on Information Theory",
@@ -14825,6 +14886,54 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icaps-2027",
+   "acronyme": "ICAPS",
+   "titre": "International Conference on Automated Planning and Scheduling",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-06-30",
+   "fin": "2027-07-02",
+   "ville": "Columbia",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2026-12-07",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "UTC-12",
+   "dates_limites": [
+    {
+     "date": "2026-12-07",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-12-14",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
+   "lien": "https://icaps27.icaps-conference.org/",
+   "rang": "CORE A* · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
    "id": "13th-workshop-on-flavor-symmetries-and-2027",
    "acronyme": "",
    "titre": "13th Workshop on Flavor Symmetries and Consequences in Accelerators and Cosmology (FLASY 2027)",
@@ -14856,6 +14965,47 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-04"
+  },
+  {
+   "id": "amamef-2027",
+   "acronyme": "AMaMeF 2027",
+   "titre": "13th Advanced Mathematical Methods for Finance (AMaMeF) Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-05",
+   "fin": "2027-07-09",
+   "ville": "Barcelona",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "finance"
+   ],
+   "specialites": [
+    "marches"
+   ],
+   "date_limite": "2027-01-31",
+   "type_limite": "resume",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2027-01-31",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "",
+     "fuseau": ""
+    }
+   ],
+   "lien": "https://www.iese.edu/faculty-research/13-amamef-conference/",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-20",
+   "page_verifiee": "https://www.iese.edu/faculty-research/13-amamef-conference/",
+   "ajoute_le": "2026-11-20"
   },
   {
    "id": "cgi-2027",
@@ -15757,47 +15907,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "whc-2027",
-   "acronyme": "WHC",
-   "titre": "IEEE World Haptics Conference",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-07-12",
-   "fin": "2027-07-15",
-   "ville": "Boston",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "2027-01-29",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
-   "dates_limites": [
-    {
-     "date": "2027-01-29",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://2027.worldhaptics.org/",
-   "rang": "CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "compsac-2027",
    "acronyme": "COMPSAC",
    "titre": "International Computer Software and Applications Conference",
@@ -15911,6 +16020,95 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "whc-2027",
+   "acronyme": "WHC",
+   "titre": "IEEE World Haptics Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-13",
+   "fin": "2027-07-16",
+   "ville": "Boston",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ihm"
+   ],
+   "date_limite": "2027-01-29",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-29",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-02-05",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://2027.worldhaptics.org/",
+   "rang": "CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "ipa-2027",
+   "acronyme": "IPA 2027",
+   "titre": "15th Interdisciplinary Perspectives on Accounting (IPA) Conference",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-07-14",
+   "fin": "2027-07-16",
+   "ville": "Burgos",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "comptabilite"
+   ],
+   "specialites": [
+    "compta-generale"
+   ],
+   "date_limite": "2027-01-31",
+   "type_limite": "article",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2027-01-31",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "",
+     "fuseau": ""
+    }
+   ],
+   "lien": "https://www2.ubu.es/ipa2027/en",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-20",
+   "page_verifiee": "https://www.ubu.es/noticias/15th-interdisciplinary-perspectives-accounting-ipa-conference-university-burgos-14-16-july-2027",
+   "ajoute_le": "2026-11-20"
   },
   {
    "id": "ismb-2027",
@@ -17133,6 +17331,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ccpqt-2027",
+   "acronyme": "CCPQT 2027",
+   "titre": "6th International Conference on Computing, Communication, Perception and Quantum Technology",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-20",
+   "fin": "2027-08-22",
+   "ville": "Beijing",
+   "pays": "CN",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique",
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ccpqt.org/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3231487",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-20"
+  },
+  {
    "id": "cade-2027",
    "acronyme": "CADE",
    "titre": "The Conference on Automated Deduction",
@@ -17726,6 +17958,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ecml-pkdd-2027",
+   "acronyme": "ECML-PKDD",
+   "titre": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-30",
+   "fin": "2027-09-03",
+   "ville": "Eindhoven",
+   "pays": "NL",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "donnees"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://ecmlpkdd.org/2027/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
    "id": "eusipco-2027",
    "acronyme": "EUSIPCO",
    "titre": "European Signal Processing Conference",
@@ -18268,39 +18533,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "ecml-pkdd-2027",
-   "acronyme": "ECML-PKDD",
-   "titre": "European Conference on Machine Learning and 25th Principles and Practice of Knowledge Discovery in Databases",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-09-20",
-   "fin": "2027-09-24",
-   "ville": "Eindhoven",
-   "pays": "NL",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "donnees"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://ecmlpkdd.org/2027/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "mitp-topical-workshop-final-state-interactions-in-2027",
    "acronyme": "",
    "titre": "MITP Topical Workshop: \"Final-State Interactions in Neutrino–Nucleus Scattering: Theory-Experiment Synergies\"",
@@ -18621,47 +18853,6 @@
    "ajoute_le": "2026-10-20"
   },
   {
-   "id": "ecai-2027",
-   "acronyme": "ECAI",
-   "titre": "European Conference on Artificial Intelligence",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-10-02",
-   "fin": "2027-10-07",
-   "ville": "Athens",
-   "pays": "GR",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "2027-04-14",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
-   "dates_limites": [
-    {
-     "date": "2027-04-14",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://ecai2027.org/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "imwut-resubmission-only-ubicomp-iswc-2027",
    "acronyme": "IMWUT - resubmission only (Ubicomp/ISWC)",
    "titre": "IMWUT - resubmission only (Ubicomp/ISWC)",
@@ -18853,6 +19044,47 @@
     "inspire"
    ],
    "identifiant_source": "inspire-3209504",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "ecai-2027",
+   "acronyme": "ECAI",
+   "titre": "European Conference on Artificial Intelligence",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-04",
+   "fin": "2027-10-07",
+   "ville": "Athens",
+   "pays": "GR",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "ia-apprentissage"
+   ],
+   "date_limite": "2027-04-14",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-04-14",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://ecai2027.org/",
+   "rang": "CORE A · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
