@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-20T06:00:00Z</updated>
+<updated>2026-11-21T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/nthep-2027/</id>
+<title>NTHEP 2027 — New Trends in High-Energy Physics 2027</title>
+<link href="https://conferences.clicvia.com/conference/nthep-2027/"/>
+<updated>2026-11-21T06:00:00Z</updated>
+<summary>13–17 Sep 2027 · Sofia, Bulgaria · Deadline: see official website · Official: https://indico.cern.ch/event/1734082</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ccpqt-2027/</id>
 <title>CCPQT 2027 — 6th International Conference on Computing, Communication, Perception and Quantum Technology</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/14th-international-workshop-on-the-ckm-unitarity-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>20–24 Sep 2027 · Victoria, Canada · Deadline: see official website · Official: https://indico.cern.ch/e/CKM2027</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/emerging-directions-in-neutral-atom-quantum-2027/</id>
-<title>Emerging Directions in Neutral‐Atom Quantum Information Science</title>
-<link href="https://conferences.clicvia.com/conference/emerging-directions-in-neutral-atom-quantum-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>22–26 Aug 2027 · Bad Honnef, Germany · Deadline: see official website · Official: https://www.we-heraeus-stiftung.de/veranstaltungen/emerging-directions-in-neutral-atom-quantum-information-science/</summary>
 </entry>
 </feed>

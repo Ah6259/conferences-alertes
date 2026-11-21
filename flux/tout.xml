@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-20T06:00:00Z</updated>
+<updated>2026-11-21T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/nthep-2027/</id>
+<title>NTHEP 2027 — New Trends in High-Energy Physics 2027</title>
+<link href="https://conferences.clicvia.com/conference/nthep-2027/"/>
+<updated>2026-11-21T06:00:00Z</updated>
+<summary>13–17 Sep 2027 · Sofia, Bulgaria · Deadline: see official website · Official: https://indico.cern.ch/event/1734082</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ccpqt-2027/</id>
 <title>CCPQT 2027 — 6th International Conference on Computing, Communication, Perception and Quantum Technology</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/cscw-2027/"/>
 <updated>2026-10-31T06:00:00Z</updated>
 <summary>16–20 Oct 2027 · Philadelphia, United States · Deadline: see official website · Official: https://cscw.acm.org/2027/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/</id>
-<title>QIHEP 2027 — Quantum Information &amp; High Energy Physics</title>
-<link href="https://conferences.clicvia.com/conference/qihep-2027-quantum-information-high-energy/"/>
-<updated>2026-10-30T06:00:00Z</updated>
-<summary>6–10 Jun 2027 · Evanston, United States · Deadline: see official website · Official: https://events.cels.anl.gov/event/961/</summary>
 </entry>
 </feed>
