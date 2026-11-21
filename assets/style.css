@@ -2,7 +2,7 @@
 :root{
   --bg:#F4F4FA; --carte:#FFFFFF; --texte:#14132B; --doux:#5D5C78; --ligne:#E2E1EE;
   --bleu:#4A3DB0; --bleu-fonce:#2E2470; --bleu-clair:#E9E7FA; --bleu-tres-clair:#F4F3FC;
-  --accent:#4A3DB0; --rouge:#C2412F; --rouge-clair:#FBEAE7; --or:#A8701A; --or-clair:#FBF1DF; --vert:#0B7A53; --vert-clair:#E3F3EC;
+  --accent:#4A3DB0; --rouge:#B23A29; --rouge-clair:#FBEAE7; --or:#8F5D14; --or-clair:#FBF1DF; --vert:#0B7A53; --vert-clair:#E3F3EC;
   --hero1:#4B3DB5; --hero2:#231B5C;
   --ombre:0 1px 2px rgba(20,19,43,.06),0 8px 24px rgba(20,19,43,.07);
   --rayon:18px;
@@ -207,7 +207,7 @@ input[type="search"]:focus{outline:0;border-color:var(--bleu);box-shadow:0 0 0 4
 .alertes-btn{display:grid;gap:8px;margin:0 0 14px}
 .btn-alerte{display:flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;font-weight:800;font-size:15px;border-radius:14px;padding:12px 14px;color:#fff;background:#229ED9}
 .btn-alerte svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
-.btn-rss{background:#E8730C}
+.btn-rss{background:#B4530A}
 
 .sources{font-size:14px;color:var(--doux);padding-inline-start:20px;margin:0}
 .sources li{margin:4px 0}
@@ -277,7 +277,7 @@ img,svg{-webkit-user-drag:none}
 .btn-pro:disabled{opacity:.55;cursor:default}
 .btn-clair{display:block;text-align:center;font-weight:800;font-size:15px;color:var(--bleu);background:var(--carte);border:1.5px solid var(--bleu);
   border-radius:12px;padding:11px 14px;cursor:pointer}
-.btn-wa{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:800;font-size:15px;color:#fff;background:#1F9D55;
+.btn-wa{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:800;font-size:15px;color:#fff;background:#15803D;
   border-radius:12px;padding:12px 14px;margin:10px 0}
 .btn-wa svg{width:20px;height:20px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .offre-pro{position:relative;background:var(--carte);border:2px solid #F2B33D;border-radius:var(--rayon);padding:22px 18px 18px;margin:12px 0 14px;box-shadow:var(--ombre)}
