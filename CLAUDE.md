@@ -153,3 +153,8 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   Nicaragua ajoutés (Valencia, Granada homonymes). Garde-fous : section H de test_pannes.py (lieux espagnols, couverture, ≥ 5 conférences
   ES dans la sélection) ; `couverture()` de robot/verifier_officiels.py (`THEMES_SUIVIS`, `PAYS_SUIVIS`) -> issue « Sélection officielle :
   à enrichir » le 3 du mois (refermée seule).
+
+- **21/11/2026 — mode sombre lisible (Ahmed : « en sombre on ne peut pas lire certains mots », tous ses sites)** : bloc final de
+  `assets/style.css` (`@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) … }`) : noms de spécialité des pastilles en
+  `--texte` (contraste 1.0 avant), sigles en `--bleu`, « D-2 » / bouton « Send » / `.btn-publier` / `.btn-video-site` en texte foncé sur l'accent
+  clair. Mode clair inchangé. Contrôle « contraste < 3 en sombre » : 25 -> 0 (accueil, abonnement, domaine, fiche, rapport, vidéo).
