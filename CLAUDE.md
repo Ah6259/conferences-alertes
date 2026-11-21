@@ -158,3 +158,5 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   `assets/style.css` (`@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]) … }`) : noms de spécialité des pastilles en
   `--texte` (contraste 1.0 avant), sigles en `--bleu`, « D-2 » / bouton « Send » / `.btn-publier` / `.btn-video-site` en texte foncé sur l'accent
   clair. Mode clair inchangé. Contrôle « contraste < 3 en sombre » : 25 -> 0 (accueil, abonnement, domaine, fiche, rapport, vidéo).
+- **21/11/2026 — mode CLAIR plus lisible (accord d'Ahmed : « foncer un peu »)** : bloc clair `:root` de `assets/style.css` : `--rouge` #C2412F -> #B23A29
+  (dates limites `b.dl`, « in N days »), `--or` #A8701A -> #8F5D14 (D-3/D-4), `.btn-rss` #E8730C -> #B4530A, WhatsApp #1F9D55 -> #15803D. Contrôle `--clair --seuil 4.5` : 0 ; sombre : 0.
