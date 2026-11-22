@@ -1129,6 +1129,7 @@ DOSSIERS_GENERES = ("domaine", "specialite", "continent", "pays", "mois", "confe
 
 
 def construire(donnees, sortie, jour):
+    ANS = f"{jour[:4]}–{int(jour[:4]) + 1}"   # années des titres, suivent la date du jour (plus jamais « 2026–2027 » figé)
     sauvegarde = donnees.replace(".json", ".sauvegarde.json")
     brut, confs = charger(donnees)
     brut_s, confs_s = charger(sauvegarde)
@@ -1215,6 +1216,14 @@ def construire(donnees, sortie, jour):
         "@context": "https://schema.org", "@type": "FAQPage",
         "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": r}} for q, r in faq]},
         ensure_ascii=False) + "\n</script>\n")
+    # 22/11/2026 (Google + IA) : le site et son éditeur, Clicvia (même @id que le portail clicvia.com)
+    jsonld += ('<script type="application/ld+json">\n' + json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "WebSite", "@id": URL_SITE + "#site", "name": "Conference Radar", "alternateName": ["Radar des conférences", "رادار المؤتمرات"],
+         "url": URL_SITE, "inLanguage": ["en", "fr", "ar"],
+         "description": "Upcoming academic conferences worldwide by field and specialty, with submission deadlines and official links.",
+         "publisher": {"@id": "https://clicvia.com/#organisation"}},
+        {"@type": "Organization", "@id": "https://clicvia.com/#organisation", "name": "Clicvia", "url": "https://clicvia.com/",
+         "sameAs": ["https://www.facebook.com/1327283777142447"]}]}, ensure_ascii=False) + "\n</script>\n")
     avant = f"""<section class="carte resume" aria-label="Summary">
   <div class="r-avenir" id="r-avenir"><b>{len(vis)}</b><span>{L("conférences à venir", "upcoming conferences", "مؤتمر قادم")}</span></div>
   <div class="r-limites" id="r-limites"><b>{n_lim30}</b><span>{L("dates limites sous 30 jours", "deadlines within 30 days", "آجال خلال 30 يومًا")}</span></div>
@@ -1258,7 +1267,7 @@ def construire(donnees, sortie, jour):
   <p class="lien-comment"><a href="a-propos/">{L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</a></p>
 </section>
 {AVIS}"""
-    titre = f"Academic conferences 2026–2027: {len(vis)} upcoming, deadlines & free alerts · Conférences scientifiques | Conference Radar"
+    titre = f"Academic conferences {ANS}: {len(vis)} upcoming, deadlines & free alerts · Conférences scientifiques | Conference Radar"
     desc = ("Upcoming academic conferences worldwide by field and specialty, with submission deadlines and official links. Free, no sign-up. "
             "Conférences scientifiques à venir, dates limites, alertes gratuites. المؤتمرات العلمية القادمة.")
     pages.append(page_liste("", "", titre, desc, hero, vis, jour, v, etat, avant=avant, apres=apres, jsonld=jsonld, classe_hero=" hero-photo"))
@@ -1274,7 +1283,7 @@ def construire(donnees, sortie, jour):
         avant = (f'<section class="carte"><h2>{L("Spécialités", "Specialties", "التخصصات")}</h2>{grille(paires_specs(sel, d), "../../", "specialite", "grille-specs")}</section>'
                  f'{boutons_alertes(adr, [d], "../../")}')
         apres = f'<h2 class="titre-section">{L("Autres domaines", "Other fields", "مجالات أخرى")}</h2>{tuiles_domaines(vis, "../../", d)}'
-        titre = f"{n3[1]} conferences 2026–2027: {len(sel)} upcoming, deadlines · Conférences {n3[0]} | Conference Radar"
+        titre = f"{n3[1]} conferences {ANS}: {len(sel)} upcoming, deadlines · Conférences {n3[0]} | Conference Radar"
         desc = f"Upcoming {n3[1].lower()} conferences with submission deadlines and official links. Free. Conférences à venir : {n3[0].lower()}. {n3[2]}."
         pages.append(page_liste(f"domaine/{d}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("domaine",), avant=avant, apres=apres))
 
@@ -1290,7 +1299,7 @@ def construire(donnees, sortie, jour):
     <p class="intro">{L(f"{len(sel)} conférences à venir dans cette spécialité, avec leur date limite de soumission.", f"{len(sel)} upcoming conferences in this specialty, with their submission deadline.", f"{ISO(len(sel))} مؤتمر قادم في هذا التخصص مع آخر أجل للإرسال.")}</p>"""
         apres = f'<h2 class="titre-section">{L("Autres spécialités du domaine", "Other specialties in this field", "تخصصات أخرى في المجال")}</h2>{grille(paires_specs(vis, s[1]), "../../", "specialite", "grille-specs", s[0])}'
         avant = f'<p class="alertes-btn"><a class="btn-alerte btn-rss" href="../../flux/specialite-{s[0]}.xml">{ICONE_RSS}{L("Flux RSS gratuit de cette spécialité", "Free RSS feed for this specialty", "خلاصة ⁨RSS⁩ مجانية لهذا التخصص")}</a></p>'
-        titre = f"{n3[1]} conferences 2026–2027: {len(sel)} upcoming, CFP deadlines · {n3[0]} | Conference Radar"
+        titre = f"{n3[1]} conferences {ANS}: {len(sel)} upcoming, CFP deadlines · {n3[0]} | Conference Radar"
         desc = f"Upcoming {n3[1]} conferences and calls for papers with deadlines and official links. Conférences {n3[0].lower()} à venir. {n3[2]}."
         pages.append(page_liste(f"specialite/{s[0]}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("domaine", "specialite"), avant=avant, apres=apres))
 
@@ -1306,7 +1315,7 @@ def construire(donnees, sortie, jour):
         pays_ici = [p for p in paires_pays(vis) if K.PAYS[p[0].upper()][3] == x[0]]
         apres = (f'<h2 class="titre-section">{L("Pays", "Countries", "البلدان")}</h2>{grille(pays_ici, "../../", "pays", "grille-pays")}' if pays_ici else "") + \
                 f'<h2 class="titre-section">{L("Autres continents", "Other continents", "قارات أخرى")}</h2>{grille(paires_conts(vis), "../../", "continent", "grille-continents", x[0])}'
-        titre = f"Academic conferences in {n3[1]} 2026–2027: {len(sel)} upcoming · Conférences {n3[0]} | Conference Radar"
+        titre = f"Academic conferences in {n3[1]} {ANS}: {len(sel)} upcoming · Conférences {n3[0]} | Conference Radar"
         desc = f"Upcoming academic conferences in {n3[1]} with submission deadlines and official links. Conférences scientifiques : {n3[0]}. {n3[2]}."
         pages.append(page_liste(f"continent/{x[0]}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("continent",), apres=apres))
     for code_bas, n3, n in paires_pays(vis):
@@ -1317,7 +1326,7 @@ def construire(donnees, sortie, jour):
     <h1>{L(f"Conférences : {n3[0]}", f"Conferences in {n3[1]}", f"مؤتمرات في {n3[2]}")}</h1>
     <p class="intro">{L(f"{len(sel)} conférences à venir.", f"{len(sel)} upcoming conferences.", f"{ISO(len(sel))} مؤتمر قادم.")}</p>"""
         apres = f'<h2 class="titre-section">{L("Autres pays", "Other countries", "بلدان أخرى")}</h2>{grille(paires_pays(vis), "../../", "pays", "grille-pays", code_bas)}'
-        titre = f"Academic conferences in {n3[1]} 2026–2027: {len(sel)} upcoming · Conférences {n3[0]} | Conference Radar"
+        titre = f"Academic conferences in {n3[1]} {ANS}: {len(sel)} upcoming · Conférences {n3[0]} | Conference Radar"
         desc = f"Upcoming academic conferences in {n3[1]} with submission deadlines and official links. Conférences scientifiques : {n3[0]}. {n3[2]}."
         pages.append(page_liste(f"pays/{code_bas}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("continent",), apres=apres))
 
@@ -1467,6 +1476,7 @@ def construire(donnees, sortie, jour):
 <section class="carte">
   <h2>{L("Un site indépendant", "An independent site", "موقع مستقل")}</h2>
   <p>{L("Ce site est indépendant : il n'est lié à aucun organisateur ni éditeur.", "This site is independent: it is not affiliated with any organiser or publisher.", "هذا الموقع مستقل: لا علاقة له بأي جهة منظمة أو ناشر.")}</p>
+  <p>{L('Publié par <a href="https://clicvia.com/" rel="noopener">Clicvia</a>, des services gratuits et pratiques ; pour nous écrire : « Votre avis » en bas de l’accueil.', 'Published by <a href="https://clicvia.com/" rel="noopener">Clicvia</a>, free practical services; to write to us: “Your feedback” at the bottom of the home page.', 'ينشره <a href="https://clicvia.com/" rel="noopener">Clicvia</a>، خدمات مجانية وعملية؛ للتواصل معنا: «رأيك» أسفل الصفحة الرئيسية.')}</p>
 </section>"""
     par_dom = " · ".join(f"{nom_dom(d)[0]} : {cd[d]}" for d in domaines_presents)
     lignes_src = "".join(f'<li><b>{E(S.SOURCES[s]["nom"])}</b> — <a href="{E(S.SOURCES[s]["url"])}" rel="noopener">{E(S.SOURCES[s]["url"].replace("https://", ""))}</a> — '

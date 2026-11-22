@@ -160,3 +160,12 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   clair. Mode clair inchangé. Contrôle « contraste < 3 en sombre » : 25 -> 0 (accueil, abonnement, domaine, fiche, rapport, vidéo).
 - **21/11/2026 — mode CLAIR plus lisible (accord d'Ahmed : « foncer un peu »)** : bloc clair `:root` de `assets/style.css` : `--rouge` #C2412F -> #B23A29
   (dates limites `b.dl`, « in N days »), `--or` #A8701A -> #8F5D14 (D-3/D-4), `.btn-rss` #E8730C -> #B4530A, WhatsApp #1F9D55 -> #15803D. Contrôle `--clair --seuil 4.5` : 0 ; sombre : 0.
+
+## 22/11/2026 — Google + IA (demande d'Ahmed : « que Google et les IA indexent nos sites »)
+- État Search Console (21/11) : accueil « Crawled - currently not indexed » (dernière visite de Google le 12/10) ; affichages réels sur des noms
+  de conférences (« indocrypt 2026 » position ~8,7, « cscwd 2027 », « laces 2026 », « mobicom2027 » position 3,5).
+- Accueil : 2e JSON-LD WebSite + éditeur `Organization` Clicvia (@id https://clicvia.com/#organisation, page Facebook), à côté de la FAQ.
+- Titres « … 2026–2027 » : années tirées de la date du jour (`ANS` de construire(), plus jamais figées).
+- « Comment fonctionne le site ? » (FR + EN + AR) : « Publié par Clicvia… pour nous écrire : Votre avis » + ligne `FONCTIONS` (éditeur Clicvia).
+- `llms.txt` réécrit à la main SANS chiffre ni conférence datée (l'ancien, de l'outil commun du 20/10, disait « 485 upcoming » et listait des
+  conférences d'octobre déjà passées). Si l'outil commun `outils visibilite/llms.py` est relancé, relire ce fichier.
