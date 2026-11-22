@@ -31,6 +31,7 @@ Aucune base d'un autre site n'est recopiée ; aucun robots.txt ni protection n'e
 | 4 | `robot/telegram.py` | canaux Telegram gratuits par domaine (inactif tant que les secrets n'existent pas) |
 | 5 | `.github/workflows/maj.yml` | 1 → 4 chaque jour à 5h20 (Tunis), puis commit ; GitHub Pages republie |
 | 6 | `robot/verifier_officiels.py` + `verif-officiels.yml` | chaque mois : les liens de la sélection officielle répondent-ils encore ? |
+| 6 bis | `robot/surveiller_organisateurs.py` (même robot, le 3 du mois) | pages « événements » des organisateurs sérieux de finance islamique (`donnees/organisateurs-suivis.json`) : annonce nouvelle -> issue « Finance islamique : nouvelles éditions à vérifier » (22/11/2026) |
 
 Réglages d'Ahmed : **un seul fichier**, `robot/reglages.py` (canaux Telegram publics, robot des Alertes Pro, formulaire des
 organisateurs). Les jetons secrets vont dans les **Secrets GitHub**, jamais dans un fichier.
