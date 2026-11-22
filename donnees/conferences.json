@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-21 13:43",
- "derniere_lecture_reussie": "2026-11-21 13:43",
+ "mis_a_jour": "2026-11-22 13:39",
+ "derniere_lecture_reussie": "2026-11-22 13:39",
  "dernier_passage": {
-  "date": "2026-11-21 13:43",
+  "date": "2026-11-22 13:39",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 264,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
@@ -65,20 +65,20 @@
    "etat": "ok",
    "nombre": 133,
    "brutes": 159,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 43,
+   "nombre": 42,
    "brutes": 58,
-   "derniere_reussite": "2026-11-21 13:43",
+   "derniere_reussite": "2026-11-22 13:39",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 466,
+ "nombre": 465,
  "conferences": [
   {
    "id": "log-2026",
@@ -126,47 +126,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "nbs-ai-for-finance-2026",
-   "acronyme": "NBS AI for Finance 2026",
-   "titre": "NBS Conference on AI for Finance & AI and Big Data in Finance Research Forum (ABFR)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-20",
-   "fin": "2026-11-21",
-   "ville": "Singapore",
-   "pays": "SG",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance"
-   ],
-   "specialites": [
-    "fintech"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-09-20",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "",
-     "fuseau": ""
-    }
-   ],
-   "lien": "https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://event.ntu.edu.sg/call-for-papers-ai-for-finance-2026",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -6815,22 +6774,15 @@
    "specialites": [
     "genie-logiciel"
    ],
-   "date_limite": "2026-12-01",
-   "type_limite": "resume",
+   "date_limite": "2026-12-03",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-12-01",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
      "date": "2026-12-03",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Optional abstract registration: December 1, 2026 (AoE)",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -11468,7 +11420,7 @@
      "fuseau": "AoE"
     }
    ],
-   "lien": "https://2027.cscwd.org",
+   "lien": "https://cscwd2027.dailyeliteevents.com.au/",
    "rang": "CORE C · CCF C",
    "sources": [
     "ccfddl"
