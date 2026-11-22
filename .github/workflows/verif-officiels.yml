@@ -28,11 +28,15 @@ jobs:
         run: |
           pip install --quiet pyyaml
           python robot/verifier_officiels.py
+      # 22/11/2026 (« fais 2 » d'Ahmed) : pages « événements » des organisateurs SÉRIEUX de finance islamique
+      # (donnees/organisateurs-suivis.json) : annonces nouvelles -> issue « Finance islamique : nouvelles éditions à vérifier ».
+      - name: Surveillance des organisateurs de finance islamique
+        run: python robot/surveiller_organisateurs.py || echo "surveillance non faite ce mois-ci (réessai le mois prochain)"
       - name: Enregistrer le résultat
         run: |
           git config user.name "robot-conferences"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add donnees/verification-officielle.json
+          git add donnees/verification-officielle.json donnees/surveillance-organisateurs.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Vérification des liens officiels du $(date +'%d/%m/%Y')"
           git pull --rebase -X theirs --autostash
@@ -80,4 +84,22 @@ jobs:
             fi
           elif [ -n "$NUM" ]; then
             gh issue close "$NUM" --comment "La sélection officielle couvre de nouveau tous les thèmes et pays suivis. Fermeture automatique."
+          fi
+      - name: Issue si des organisateurs annoncent de nouvelles conférences
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f donnees/surveillance-organisateurs.json ] || exit 0
+          LISTE=$(python -c "import json;d=json.load(open('donnees/surveillance-organisateurs.json',encoding='utf-8'));print(chr(10).join('- '+n['nom']+' : '+n['ligne']+' ('+n['url']+')' for n in d.get('nouveautes') or []))")
+          [ -n "$LISTE" ] || exit 0
+          NUM=$(gh issue list --state open --search "Finance islamique : nouvelles éditions à vérifier in:title" --json number --jq '.[0].number // empty')
+          if [ -z "$NUM" ]; then
+            gh issue create --title "Finance islamique : nouvelles éditions à vérifier" --body "Des organisateurs sérieux annoncent sur leur page :
+
+          $LISTE
+
+          Que faire (Claude) : ouvrir la page officielle de chaque conférence, lire dates, lieu et date limite (jamais devinées), puis l'ajouter à donnees/selection-officielle.json (GUIDE § 4). Fermer cette issue ensuite."
+          else
+            gh issue comment "$NUM" --body "Nouvelles annonces ce mois-ci :
+          $LISTE"
           fi

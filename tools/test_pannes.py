@@ -440,5 +440,43 @@ _vraie = json.load(open(os.path.join(SITE, "donnees", "selection-officielle.json
 check("sélection officielle : au moins 5 conférences en Espagne vérifiées (fichier qui ne fait que grandir)",
       sum(1 for c in _vraie["conferences"] if c.get("code_pays") == "ES") >= 5)
 
+# ------------------------------------------------------------------ I. Surveillance des organisateurs de finance islamique (22/11/2026, « fais 2 »)
+import surveiller_organisateurs as SO  # noqa: E402
+_page = """<html><head><style>.x{}</style><script>var a="Conference 2027";</script></head><body><ul>
+<li>12th World Islamic Finance Conference 2027 — Kuala Lumpur, 14-15 April 2027</li>
+<li>Annual Report 2026</li><li>Islamic Banking Summit 2023 (archive)</li>
+<li>المؤتمر الدولي للمالية الإسلامية 2027</li><li>IFN KSA Dialogues 2026 – Riyadh</li></ul></body></html>"""
+_l = SO.lignes_evenements(SO.texte_de(_page), 2026)
+check("surveillance : lignes d'événement à venir trouvées (anglais + arabe), sans script, rapport ni archive",
+      any("World Islamic Finance Conference 2027" in x for x in _l) and any("المؤتمر" in x for x in _l)
+      and not any("Annual Report" in x or "2023" in x for x in _l) and not any("var a" in x for x in _l))
+_sel_so = {"conferences": [{"acronyme": "IFN KSA 2026", "titre": "IFN KSA Dialogues 2026"}]}
+check("surveillance : une conférence déjà dans la sélection n'est pas une nouveauté",
+      SO.deja_dans_selection("IFN KSA Dialogues 2026 – Riyadh", _sel_so) and not SO.deja_dans_selection(_l[0], _sel_so))
+_tmp_so = tempfile.mkdtemp()
+try:
+    _vieux = (SO.SUIVIS, SO.SELECTION, SO.MEMOIRE, SO.V.autorise)
+    SO.SUIVIS, SO.SELECTION, SO.MEMOIRE = (os.path.join(_tmp_so, n) for n in ("suivis.json", "sel.json", "memoire.json"))
+    json.dump({"organisateurs": [{"nom": "Org A", "page_evenements": "https://a.example/events"},
+                                 {"nom": "Org B", "page_evenements": "https://b.example/events"}]}, open(SO.SUIVIS, "w", encoding="utf-8"))
+    json.dump(_sel_so, open(SO.SELECTION, "w", encoding="utf-8"))
+    SO.V.autorise = lambda url, cache: True
+    _pages = {"https://a.example/events": ("ok", _page), "https://b.example/events": ("protege", "")}
+    SO.main("2026-11-23", lire_url=lambda u: _pages[u], pause=0)
+    _m1 = json.load(open(SO.MEMOIRE, encoding="utf-8"))
+    SO.main("2026-12-23", lire_url=lambda u: _pages[u], pause=0)
+    _m2 = json.load(open(SO.MEMOIRE, encoding="utf-8"))
+    _pages["https://a.example/events"] = ("ok", _page.replace("</ul>", "<li>3rd Sukuk Symposium 2028, Durham</li></ul>"))
+    SO.main("2027-01-23", lire_url=lambda u: _pages[u], pause=0)
+    _m3 = json.load(open(SO.MEMOIRE, encoding="utf-8"))
+    check("surveillance : 1er mois -> annonces nouvelles notées (pas celle déjà dans la sélection) ; page protégée notée, jamais contournée",
+          len(_m1["nouveautes"]) == 2 and any(e["etat"] == "protege" for e in _m1["etats"]))
+    check("surveillance : mois suivant sans changement -> aucune nouveauté (pas d'alerte en double)", _m2["nouveautes"] == [])
+    check("surveillance : nouvelle annonce sur la page -> une seule nouveauté, avec l'organisateur et son lien",
+          [n["ligne"] for n in _m3["nouveautes"]] == ["3rd Sukuk Symposium 2028, Durham"] and _m3["nouveautes"][0]["nom"] == "Org A")
+finally:
+    SO.SUIVIS, SO.SELECTION, SO.MEMOIRE, SO.V.autorise = _vieux
+    shutil.rmtree(_tmp_so, ignore_errors=True)
+
 print(f"\n{total - erreurs}/{total} scénarios réussis" + (f" — {erreurs} ÉCHEC(S) : ne pas publier." if erreurs else " — tout est bon."))
 sys.exit(1 if erreurs else 0)
