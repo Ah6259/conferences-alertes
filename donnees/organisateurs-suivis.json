@@ -1,5 +1,5 @@
 {
- "description": "Organisateurs SÉRIEUX de finance islamique dont la page « événements » est lue chaque mois par robot/surveiller_organisateurs.py (22/11/2026, « fais 2 » d'Ahmed). Jamais d'organisateur en série (WASET, agrégateurs). « pause » = secondes à attendre après la page (Crawl-delay de robots.txt). « filtrer » = page qui annonce aussi d'autres sujets : seules les lignes de finance islamique comptent.",
+ "description": "Organisateurs SÉRIEUX de finance islamique dont la page « événements » est lue chaque mois par robot/surveiller_organisateurs.py (22/11/2026, « fais 2 » d'Ahmed). Jamais d'organisateur en série ni de site de listes. « pause » = secondes d'attente après la lecture (délai demandé par robots.txt). « filtrer » = page qui annonce aussi d'autres sujets : seules les lignes de finance islamique comptent.",
  "verifie_le": "2026-11-22",
  "organisateurs": [
   {

@@ -3,7 +3,7 @@
 Surveillance MENSUELLE des organisateurs SÉRIEUX de finance islamique (22/11/2026, « fais 2 » d'Ahmed).
 
 Pourquoi : la sélection officielle (donnees/selection-officielle.json) est faite à la main, conférence par conférence, sur la page
-officielle de l'organisateur (les annonces en série du type WASET sont écartées). Ce robot lit chaque mois la page « événements » des
+officielle de l'organisateur (les organisateurs en série sont écartés). Ce robot lit chaque mois la page « événements » des
 organisateurs sérieux listés dans donnees/organisateurs-suivis.json et repère les LIGNES NOUVELLES qui annoncent une conférence
 (un mot comme conference / forum / symposium / summit / مؤتمر + une année à venir) et qui ne sont pas déjà dans la sélection.
 

@@ -172,8 +172,8 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 
 ## 22/11/2026 — Finance islamique dans le monde entier (Ahmed : « pas de conférences en Espagne ni en finance islamique », « fais 1 et 2 »)
 - Cause : la finance islamique ne vient QUE de la sélection officielle faite à la main (6 conférences à venir, toutes Golfe / Turquie).
-  Les « Islamic Banking, Finance and… » de Barcelone, Madrid, Séville, Rome… vues par Ahmed sur un site de listes = WASET (organisateur
-  en série, même conférence plusieurs mois et plusieurs villes) : JAMAIS ajoutées (expliqué à Ahmed).
+  Les « Islamic Banking, Finance and… » de Barcelone, Madrid, Séville, Rome… vues par Ahmed sur un site de listes = un organisateur
+  en série (nom dans l'étude privée ; même conférence plusieurs mois et plusieurs villes) : JAMAIS ajoutées (expliqué à Ahmed).
 - 1 : 6 conférences vérifiées sur leur page officielle ajoutées à `donnees/selection-officielle.json` : WIEFC 2027 (Lahore), ICIFS 2027
   (Brunéi), IFN Middle East 2027 (Dubaï), KazanForum 2027 (Kazan, volet finance islamique), IFN Asia 2027 (Kuala Lumpur), séminaire CILE
   2027 (HBKU, Doha). Les grands organisateurs (AAOIFI, IFSB, Durham, INCEIF/ISRA, IsDB, Al Baraka) n'avaient pas encore publié leurs dates 2027.
