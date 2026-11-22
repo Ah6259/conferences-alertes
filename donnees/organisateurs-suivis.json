@@ -1,0 +1,83 @@
+{
+ "description": "Organisateurs SÉRIEUX de finance islamique dont la page « événements » est lue chaque mois par robot/surveiller_organisateurs.py (22/11/2026, « fais 2 » d'Ahmed). Jamais d'organisateur en série (WASET, agrégateurs). « pause » = secondes à attendre après la page (Crawl-delay de robots.txt). « filtrer » = page qui annonce aussi d'autres sujets : seules les lignes de finance islamique comptent.",
+ "verifie_le": "2026-11-22",
+ "organisateurs": [
+  {
+   "nom": "AAOIFI (Shari'ah Boards Conference, AAOIFI-IsDB Conference)",
+   "page_evenements": "https://aaoifi.com/events/?lang=en",
+   "pause": 3
+  },
+  {
+   "nom": "AAOIFI — conférences",
+   "page_evenements": "https://shariahconference.aaoifi.com/",
+   "pause": 3
+  },
+  {
+   "nom": "IFSB (IFSB Summit)",
+   "page_evenements": "https://www.ifsb.org/events/",
+   "pause": 10
+  },
+  {
+   "nom": "HBKU — CILE",
+   "page_evenements": "https://cile.hbku.edu.qa/public-outreach/announcements",
+   "pause": 3
+  },
+  {
+   "nom": "HBKU — College of Islamic Studies (ICIF / ICIFE)",
+   "page_evenements": "https://www.hbku.edu.qa/en/cis",
+   "pause": 3
+  },
+  {
+   "nom": "Durham Centre for Islamic Economics and Finance",
+   "page_evenements": "https://dur.ac.uk/research/institutes-and-centres/islamic-economics-and-finance/durham-islamic-finance-summer-school",
+   "pause": 3
+  },
+  {
+   "nom": "REDmoney / Islamic Finance News (IFN Forums & Dialogues)",
+   "page_evenements": "https://redmoneyevents.com/",
+   "pause": 3
+  },
+  {
+   "nom": "Minhaj University Lahore (WIEFC)",
+   "page_evenements": "https://www.mul.edu.pk/en/conferences/",
+   "pause": 3
+  },
+  {
+   "nom": "ConfBay (universités de Malaisie et du Brunéi : iBAF, AICIF, ICIFS, ICONIE…)",
+   "page_evenements": "https://submit.confbay.com/",
+   "pause": 3,
+   "filtrer": true
+  },
+  {
+   "nom": "Bank Negara Malaysia — MIFC (KLIFF, GIFF)",
+   "page_evenements": "https://www.bnm.gov.my/web/mifc/events",
+   "pause": 3
+  },
+  {
+   "nom": "IsDB Institute (IsDB Global Forum)",
+   "page_evenements": "https://isdbinstitute.org/",
+   "pause": 10
+  },
+  {
+   "nom": "AICIF — ASEAN Universities International Conference on Islamic Finance",
+   "page_evenements": "https://aicif.uinjkt.ac.id/en",
+   "pause": 3
+  },
+  {
+   "nom": "USIM — I-iECONS",
+   "page_evenements": "https://iiecons.usim.edu.my/",
+   "pause": 3
+  },
+  {
+   "nom": "KazanForum (Russie – Monde islamique)",
+   "page_evenements": "https://kazanforum.ru/en/program/",
+   "pause": 3,
+   "filtrer": true
+  },
+  {
+   "nom": "Islamic Fintech Forum",
+   "page_evenements": "https://islamicfintechforum.com/",
+   "pause": 3
+  }
+ ]
+}

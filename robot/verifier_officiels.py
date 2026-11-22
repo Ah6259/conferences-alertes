@@ -34,7 +34,8 @@ SORTIE = os.path.join(RACINE, "donnees", "verification-officielle.json")
 # toute seule quand les conférences passent. Chaque mois, on note ce qui manque : un thème avec trop peu de conférences à venir,
 # ou un pays suivi sans aucune conférence à venir. L'issue « Sélection officielle : à enrichir » dit à Claude de chercher
 # de nouvelles éditions sur les pages officielles (GUIDE § 4). Ajouter un pays ici = il sera surveillé lui aussi.
-THEMES_SUIVIS = {"comptabilite": 8, "finance": 6, "finance-islamique": 6}   # minimum de conférences à venir par thème
+THEMES_SUIVIS = {"comptabilite": 8, "finance": 6, "finance-islamique": 8}   # finance islamique 6 -> 8 le 22/11/2026 (Ahmed : « monde entier »)
+#   # minimum de conférences à venir par thème
 PAYS_SUIVIS = {"ES": "Espagne (demande d'Ahmed du 21/11/2026)"}             # au moins 1 conférence à venir (tous thèmes de la sélection)
 
 

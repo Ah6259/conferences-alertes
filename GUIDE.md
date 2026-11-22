@@ -36,6 +36,11 @@ Organisateurs « en série » (même conférence annoncée dans plusieurs villes
 jamais ajoutés (organisateurs douteux). Pas de page officielle trouvée = pas ajoutée.
 **Couverture surveillée (21/11/2026)** : le robot du 3 du mois (`verifier_officiels.py`, `THEMES_SUIVIS` / `PAYS_SUIVIS`) ouvre l'issue
 « Sélection officielle : à enrichir » quand un thème manque de conférences à venir ou qu'un pays suivi (Espagne) n'en a plus aucune.
+**Organisateurs surveillés (22/11/2026)** : le même robot lit la page « événements » des organisateurs SÉRIEUX de finance islamique
+(`donnees/organisateurs-suivis.json` : AAOIFI, IFSB, HBKU, Durham, IFN, IsDB, ConfBay, KazanForum…) et ouvre l'issue
+« Finance islamique : nouvelles éditions à vérifier » quand une annonce nouvelle apparaît. Ajouter un organisateur = une ligne dans ce
+fichier (nom, page_evenements, pause ; `filtrer: true` si la page annonce aussi d'autres sujets). Une page qui refuse les robots est
+notée « à vérifier à la main », jamais contournée.
 
 ## 5. Formulaire des organisateurs (gratuit, plus tard)
 Créer un formulaire Google « Signaler une conférence » avec ces questions (mots à garder) : *Nom de la conférence*, *Sigle*,
@@ -48,6 +53,8 @@ Créer un formulaire Google « Signaler une conférence » avec ces questions (m
 - « Sélection officielle : liens à revérifier » : ouvrir le lien indiqué, retrouver la nouvelle page officielle, corriger
   `donnees/selection-officielle.json` (étape 4).
 - « Sélection officielle : à enrichir » : demander à Claude de chercher les nouvelles éditions (étape 4) ; l'issue se ferme seule ensuite.
+- « Finance islamique : nouvelles éditions à vérifier » : demander à Claude de vérifier chaque annonce sur sa page officielle et de
+  l'ajouter (étape 4), puis de fermer l'issue.
 - Un test en échec : rien n'est publié tant que ce n'est pas corrigé ; demander à Claude.
 
 ## 7. Search Console

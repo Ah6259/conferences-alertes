@@ -444,12 +444,12 @@ check("sélection officielle : au moins 5 conférences en Espagne vérifiées (f
 import surveiller_organisateurs as SO  # noqa: E402
 _page = """<html><head><style>.x{}</style><script>var a="Conference 2027";</script></head><body><ul>
 <li>12th World Islamic Finance Conference 2027 — Kuala Lumpur, 14-15 April 2027</li>
-<li>Annual Report 2026</li><li>Islamic Banking Summit 2023 (archive)</li>
+<li>Annual Report 2026</li><li>© 2026 Islamic Finance Forum. All Rights Reserved.</li><li>Islamic Banking Summit 2023 (archive)</li>
 <li>المؤتمر الدولي للمالية الإسلامية 2027</li><li>IFN KSA Dialogues 2026 – Riyadh</li></ul></body></html>"""
 _l = SO.lignes_evenements(SO.texte_de(_page), 2026)
 check("surveillance : lignes d'événement à venir trouvées (anglais + arabe), sans script, rapport ni archive",
       any("World Islamic Finance Conference 2027" in x for x in _l) and any("المؤتمر" in x for x in _l)
-      and not any("Annual Report" in x or "2023" in x for x in _l) and not any("var a" in x for x in _l))
+      and not any("Annual Report" in x or "2023" in x or "©" in x for x in _l) and not any("var a" in x for x in _l))
 _sel_so = {"conferences": [{"acronyme": "IFN KSA 2026", "titre": "IFN KSA Dialogues 2026"}]}
 check("surveillance : une conférence déjà dans la sélection n'est pas une nouveauté",
       SO.deja_dans_selection("IFN KSA Dialogues 2026 – Riyadh", _sel_so) and not SO.deja_dans_selection(_l[0], _sel_so))

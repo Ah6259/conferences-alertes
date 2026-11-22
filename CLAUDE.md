@@ -169,3 +169,19 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 - « Comment fonctionne le site ? » (FR + EN + AR) : « Publié par Clicvia… pour nous écrire : Votre avis » + ligne `FONCTIONS` (éditeur Clicvia).
 - `llms.txt` réécrit à la main SANS chiffre ni conférence datée (l'ancien, de l'outil commun du 20/10, disait « 485 upcoming » et listait des
   conférences d'octobre déjà passées). Si l'outil commun `outils visibilite/llms.py` est relancé, relire ce fichier.
+
+## 22/11/2026 — Finance islamique dans le monde entier (Ahmed : « pas de conférences en Espagne ni en finance islamique », « fais 1 et 2 »)
+- Cause : la finance islamique ne vient QUE de la sélection officielle faite à la main (6 conférences à venir, toutes Golfe / Turquie).
+  Les « Islamic Banking, Finance and… » de Barcelone, Madrid, Séville, Rome… vues par Ahmed sur un site de listes = WASET (organisateur
+  en série, même conférence plusieurs mois et plusieurs villes) : JAMAIS ajoutées (expliqué à Ahmed).
+- 1 : 6 conférences vérifiées sur leur page officielle ajoutées à `donnees/selection-officielle.json` : WIEFC 2027 (Lahore), ICIFS 2027
+  (Brunéi), IFN Middle East 2027 (Dubaï), KazanForum 2027 (Kazan, volet finance islamique), IFN Asia 2027 (Kuala Lumpur), séminaire CILE
+  2027 (HBKU, Doha). Les grands organisateurs (AAOIFI, IFSB, Durham, INCEIF/ISRA, IsDB, Al Baraka) n'avaient pas encore publié leurs dates 2027.
+  `THEMES_SUIVIS["finance-islamique"]` 6 -> 8.
+- 2 : `robot/surveiller_organisateurs.py` (appelé par verif-officiels.yml le 3 du mois) lit la page « événements » des 15 organisateurs de
+  `donnees/organisateurs-suivis.json` (robots.txt respecté, pause / Crawl-delay, `filtrer` pour les pages multi-sujets, lignes « © » ignorées),
+  garde les lignes vues dans `donnees/surveillance-organisateurs.json` et ouvre l'issue « Finance islamique : nouvelles éditions à vérifier »
+  (Claude vérifie la page officielle puis ajoute ; rien n'est ajouté au site par le robot). 1er passage le 03/12/2026 : il signalera les
+  annonces de ConfBay (iBAF, ICONIE, ZAWED, ISHEC 2027…) et le 5e Islamic Fintech Forum (Médine, janvier 2027, jours pas encore publiés).
+  5 sites refusent les robots dans leur robots.txt (AAOIFI events, IFSB, REDmoney, Bank Negara, IsDB Institute) : notés « à vérifier à la main ».
+  Tests : section I de tools/test_pannes.py (5).

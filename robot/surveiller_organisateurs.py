@@ -35,8 +35,14 @@ SUIVIS = os.path.join(RACINE, "donnees", "organisateurs-suivis.json")
 SELECTION = os.path.join(RACINE, "donnees", "selection-officielle.json")
 MEMOIRE = os.path.join(RACINE, "donnees", "surveillance-organisateurs.json")
 
+# Sur une page qui annonce AUSSI d'autres sujets (plateforme d'universités, forum économique général : « filtrer » dans
+# organisateurs-suivis.json), seules les lignes qui parlent de finance islamique comptent.
+MOTS_FINANCE_ISLAMIQUE = re.compile(r"islam|shari'?a|syariah|halal|sukuk|takaful|zakat|zakah|waqf|wakaf|muamalat|إسلام|الصكوك|التكافل|الزكاة|الوقف", re.I)
 MOTS_EVENEMENT = re.compile(r"\b(conference|conférence|forum|symposium|summit|congress|congrès|colloque|colloquium|workshop|dialogues?|"
                             r"roundtable|seminar|séminaire)\b|مؤتمر|ملتقى|ندوة|منتدى", re.I)
+
+
+PIED = re.compile(r"©|copyright|all rights reserved|tous droits", re.I)   # ligne de bas de page (« © 2026 … Forum »), jamais une annonce
 
 
 def texte_de(page_html):
@@ -52,7 +58,7 @@ def lignes_evenements(lignes, annee):
     annees = {str(annee + i) for i in range(3)}
     vues, res = set(), []
     for l in lignes:
-        if not (10 <= len(l) <= 220) or not MOTS_EVENEMENT.search(l) or not any(a in l for a in annees):
+        if not (10 <= len(l) <= 220) or not MOTS_EVENEMENT.search(l) or not any(a in l for a in annees) or PIED.search(l):
             continue
         cle = re.sub(r"\W+", " ", l.lower()).strip()
         if cle not in vues:
@@ -110,11 +116,13 @@ def main(jour=None, lire_url=lire, pause=3):
             etats.append({"nom": o.get("nom"), "url": url, "etat": "protege", "detail": "robots.txt interdit la lecture automatique"})
             continue
         etat, page = lire_url(url)
-        time.sleep(pause)
+        time.sleep(max(pause, o.get("pause") or 0) if pause else 0)
         if etat != "ok":
             etats.append({"nom": o.get("nom"), "url": url, "etat": etat, "detail": "à vérifier à la main" if etat == "protege" else "ne répond pas"})
             continue
         lignes = lignes_evenements(texte_de(page), annee)
+        if o.get("filtrer"):
+            lignes = [l for l in lignes if MOTS_FINANCE_ISLAMIQUE.search(l)]
         avant = (memoire.get(url) or {}).get("lignes")
         connues = set(avant or [])
         nouvelles = [l for l in lignes if l not in connues and not deja_dans_selection(l, sel)]
