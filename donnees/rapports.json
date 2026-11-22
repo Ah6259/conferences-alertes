@@ -2380,8 +2380,8 @@
 "chiffres": {
 "afrique": 1,
 "evenements": 63,
-"limites": 65,
-"limites_conferences": 53,
+"limites": 66,
+"limites_conferences": 54,
 "par_continent": {
 "afrique": 1,
 "amerique-nord": 14,
@@ -4036,6 +4036,35 @@
 "titre": "International Conference on Artificial Intelligence in Music, Sound, Art and Design",
 "type": "conference",
 "ville": "Mainz"
+},
+{
+"acronyme": "ICIFS 2027",
+"annee": 2027,
+"continent": "",
+"debut": "2027-04-06",
+"domaines": [
+"finance-islamique",
+"comptabilite"
+],
+"fin": "2027-04-07",
+"id": "icifs-2027",
+"lien": "https://submit.confbay.com/conf/icifs2027",
+"limites": [
+{
+"date": "2026-11-30",
+"type": "resume"
+}
+],
+"mode": "presentiel",
+"pays": "",
+"specialites": [
+"economie-islamique",
+"banque-islamique",
+"compta-financiere"
+],
+"titre": "2nd International Conference on Islamic Finance & Sustainability (Universiti Brunei Darussalam)",
+"type": "conference",
+"ville": "Bandar Seri Begawan"
 },
 {
 "acronyme": "NICE",

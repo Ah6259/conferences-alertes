@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Conference Radar — Takaful (Islamic insurance)</title>
+<id>https://conferences.clicvia.com/flux/specialite-takaful.xml</id>
+<link rel="self" href="https://conferences.clicvia.com/flux/specialite-takaful.xml"/>
+<link href="https://conferences.clicvia.com/"/>
+<updated>2026-11-22T06:00:00Z</updated>
+<author><name>Conference Radar / Radar des conférences</name></author>
+<rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ifn-asia-2027/</id>
+<title>IFN Asia 2027 — IFN Asia Forum 2027</title>
+<link href="https://conferences.clicvia.com/conference/ifn-asia-2027/"/>
+<updated>2026-11-22T06:00:00Z</updated>
+<summary>5 May 2027 · Kuala Lumpur, Malaysia · Deadline: see official website · Official: https://redmoneyevents.com/event/ifnasia2027/</summary>
+</entry>
+</feed>

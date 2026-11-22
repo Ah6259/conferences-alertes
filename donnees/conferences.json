@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-22 13:39",
- "derniere_lecture_reussie": "2026-11-22 13:39",
+ "mis_a_jour": "2026-11-22 22:08",
+ "derniere_lecture_reussie": "2026-11-22 22:08",
  "dernier_passage": {
-  "date": "2026-11-22 13:39",
+  "date": "2026-11-22 22:08",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 264,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
@@ -57,7 +57,7 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
@@ -65,20 +65,20 @@
    "etat": "ok",
    "nombre": 133,
    "brutes": 159,
-   "derniere_reussite": "2026-11-22 13:39",
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 42,
-   "brutes": 58,
-   "derniere_reussite": "2026-11-22 13:39",
+   "nombre": 48,
+   "brutes": 64,
+   "derniere_reussite": "2026-11-22 22:08",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 465,
+ "nombre": 471,
  "conferences": [
   {
    "id": "log-2026",
@@ -4773,6 +4773,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "wiefc-2027",
+   "acronyme": "WIEFC 2027",
+   "titre": "10th World Islamic Economics & Finance Conference (Minhaj University Lahore)",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-23",
+   "fin": "2027-01-24",
+   "ville": "Lahore",
+   "pays": "PK",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "finance-islamique"
+   ],
+   "specialites": [
+    "economie-islamique",
+    "zakat-waqf"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://submit.confbay.com/conf/wiefc2027",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-22",
+   "page_verifiee": "https://submit.confbay.com/conf/wiefc2027",
+   "ajoute_le": "2026-11-22"
+  },
+  {
    "id": "cidr-2027",
    "acronyme": "CIDR",
    "titre": "International Conference on Innovative Data Systems Research",
@@ -8159,6 +8193,57 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "icifs-2027",
+   "acronyme": "ICIFS 2027",
+   "titre": "2nd International Conference on Islamic Finance & Sustainability (Universiti Brunei Darussalam)",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-06",
+   "fin": "2027-04-07",
+   "ville": "Bandar Seri Begawan",
+   "pays": "",
+   "mode": "presentiel",
+   "continent": "",
+   "domaines": [
+    "finance-islamique",
+    "comptabilite"
+   ],
+   "specialites": [
+    "economie-islamique",
+    "banque-islamique",
+    "compta-financiere"
+   ],
+   "date_limite": "2026-11-30",
+   "type_limite": "resume",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-11-30",
+     "type": "resume",
+     "libelle": "",
+     "heure": "",
+     "fuseau": ""
+    },
+    {
+     "date": "2027-02-15",
+     "type": "article",
+     "libelle": "",
+     "heure": "",
+     "fuseau": ""
+    }
+   ],
+   "lien": "https://submit.confbay.com/conf/icifs2027",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-22",
+   "page_verifiee": "https://submit.confbay.com/conf/icifs2027",
+   "ajoute_le": "2026-11-22"
+  },
+  {
    "id": "nice-2027",
    "acronyme": "NICE",
    "titre": "Neuro-Inspired Computational Elements Conference",
@@ -8914,6 +8999,40 @@
    "verifie_le": "2026-11-20",
    "page_verifiee": "https://www.ecgi.global/events/corporate-governance-and-boards-of-directors-in-the-age-of-ai",
    "ajoute_le": "2026-11-20"
+  },
+  {
+   "id": "ifn-me-2027",
+   "acronyme": "IFN ME 2027",
+   "titre": "IFN Middle East Forum 2027",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-19",
+   "fin": "2027-04-19",
+   "ville": "Dubai",
+   "pays": "AE",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "finance-islamique"
+   ],
+   "specialites": [
+    "banque-islamique",
+    "sukuk"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://redmoneyevents.com/event/ifnme2027/",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-22",
+   "page_verifiee": "https://redmoneyevents.com/event/ifnme2027/",
+   "ajoute_le": "2026-11-22"
   },
   {
    "id": "iso-break-27-2027",
@@ -9728,6 +9847,42 @@
    "ajoute_le": "2026-10-20"
   },
   {
+   "id": "kazanforum-2027",
+   "acronyme": "KazanForum 2027",
+   "titre": "KazanForum 2027 — Russia – Islamic World International Economic Forum (Islamic finance track)",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-04",
+   "fin": "2027-05-06",
+   "ville": "Kazan",
+   "pays": "RU",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "finance",
+    "finance-islamique"
+   ],
+   "specialites": [
+    "fintech",
+    "sukuk",
+    "banque-islamique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://kazanforum.ru/en",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-22",
+   "page_verifiee": "https://kazanforum.ru/en/program/",
+   "ajoute_le": "2026-11-22"
+  },
+  {
    "id": "ias-2027",
    "acronyme": "IAS 2027",
    "titre": "28e Université de printemps de l'audit social (IAS)",
@@ -9777,6 +9932,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ifn-asia-2027",
+   "acronyme": "IFN Asia 2027",
+   "titre": "IFN Asia Forum 2027",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-05",
+   "fin": "2027-05-05",
+   "ville": "Kuala Lumpur",
+   "pays": "MY",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "finance-islamique"
+   ],
+   "specialites": [
+    "banque-islamique",
+    "sukuk",
+    "takaful"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://redmoneyevents.com/event/ifnasia2027/",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-22",
+   "page_verifiee": "https://redmoneyevents.com/event/ifnasia2027/",
+   "ajoute_le": "2026-11-22"
+  },
+  {
    "id": "secon-2027",
    "acronyme": "SECON",
    "titre": "IEEE International Conference on Sensing, Communication, and Networking",
@@ -9802,7 +9992,7 @@
     {
      "date": "2026-11-30",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Acceptance results: February 15 (date-only; AoE end-of-day default converted to ",
      "heure": "23:59",
      "fuseau": "UTC-5"
     }
@@ -11918,7 +12108,7 @@
    "annee": 2027,
    "type": "conference",
    "debut": "2027-06-05",
-   "fin": "2027-06-11",
+   "fin": "2027-06-08",
    "ville": "Atlanta",
    "pays": "US",
    "mode": "presentiel",
@@ -13598,14 +13788,14 @@
     {
      "date": "2026-11-27",
      "type": "resume",
-     "libelle": "Abstract",
+     "libelle": "Abstract · Acceptance is conditional on shepherding. March 6 is date-only; clock",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-12-04",
      "type": "article",
-     "libelle": "Paper",
+     "libelle": "Acceptance is conditional on shepherding. March 6 is date-only; clock and time z",
      "heure": "23:59",
      "fuseau": "AoE"
     }
@@ -18204,6 +18394,55 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-09"
+  },
+  {
+   "id": "cile-2027",
+   "acronyme": "CILE 2027",
+   "titre": "Research Seminar on Economic Cosmologies and Ethics in Islamic Scholarship (CILE, Hamad Bin Khalifa University)",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-09-14",
+   "fin": "2027-09-16",
+   "ville": "Doha",
+   "pays": "QA",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "finance-islamique"
+   ],
+   "specialites": [
+    "economie-islamique",
+    "aaoifi-charia"
+   ],
+   "date_limite": "2026-12-31",
+   "type_limite": "resume",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-12-31",
+     "type": "resume",
+     "libelle": "",
+     "heure": "",
+     "fuseau": ""
+    },
+    {
+     "date": "2027-04-30",
+     "type": "article",
+     "libelle": "",
+     "heure": "",
+     "fuseau": ""
+    }
+   ],
+   "lien": "https://cile.hbku.edu.qa/public-outreach/announcements/call-papers-research-seminar-economic-cosmologies-and-ethics-islamic",
+   "rang": "",
+   "sources": [
+    "officiel"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "2026-11-22",
+   "page_verifiee": "https://cile.hbku.edu.qa/public-outreach/announcements/call-papers-research-seminar-economic-cosmologies-and-ethics-islamic",
+   "ajoute_le": "2026-11-22"
   },
   {
    "id": "clef-2027",
