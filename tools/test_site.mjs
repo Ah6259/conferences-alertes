@@ -680,7 +680,8 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
     ["vos données (GoatCounter, Formspree)", true, /GoatCounter[\s\S]*Formspree/],
     ["confidentialité et conditions d'utilisation (pages communes)", true, /Confidentialité et conditions d(&#x27;|&#39;|')utilisation[\s\S]*Privacy and terms of use/],
     ["mises à jour automatiques", true, /Mises à jour automatiques/],
-    ["site indépendant", true, /Ce site est indépendant/]];
+    ["site indépendant", true, /Ce site est indépendant/],
+    ["éditeur Clicvia (données pour Google, 22/11/2026)", /clicvia\.com\/#organisation/.test(acc2), /Publié par <a href="https:\/\/clicvia\.com\/"/]];
   const manque = FONCTIONS.filter(([, sur, re]) => sur && !re.test(apx)).map(([n]) => n);
   check(`page « Comment fonctionne le site ? » à jour : chaque fonction du site y est expliquée (${FONCTIONS.length} fonctions)` + (manque.length ? " — manque : " + manque.join(", ") : ""),
     manque.length === 0);
