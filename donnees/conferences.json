@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-22 22:08",
- "derniere_lecture_reussie": "2026-11-22 22:08",
+ "mis_a_jour": "2026-11-23 15:46",
+ "derniere_lecture_reussie": "2026-11-23 15:46",
  "dernier_passage": {
-  "date": "2026-11-22 22:08",
+  "date": "2026-11-23 15:46",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 264,
+   "nombre": 263,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
@@ -57,77 +57,29 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 133,
-   "brutes": 159,
-   "derniere_reussite": "2026-11-22 22:08",
+   "nombre": 135,
+   "brutes": 161,
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 48,
+   "nombre": 47,
    "brutes": 64,
-   "derniere_reussite": "2026-11-22 22:08",
+   "derniere_reussite": "2026-11-23 15:46",
    "raison": "",
    "depuis": ""
   }
  },
  "nombre": 471,
  "conferences": [
-  {
-   "id": "log-2026",
-   "acronyme": "LOG",
-   "titre": "Learning on Graphs Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-20",
-   "fin": "2026-11-22",
-   "ville": "Northeastern University",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-05",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-08-07",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://logconference.org/",
-   "rang": "",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "icpads-2026",
    "acronyme": "ICPADS",
@@ -167,39 +119,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ifn-ksa-2026",
-   "acronyme": "IFN KSA 2026",
-   "titre": "IFN KSA Dialogues 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-22",
-   "fin": "2026-11-22",
-   "ville": "Riyadh",
-   "pays": "SA",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "banque-islamique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://redmoneyevents.com/event/ifnksa2026/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://redmoneyevents.com/event/ifnksa2026/",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -7921,6 +7840,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "string-field-theory-and-related-2027",
+   "acronyme": "",
+   "titre": "String Field Theory and related aspects",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-04-05",
+   "fin": "2027-04-09",
+   "ville": "Munich",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.theorie.physik.uni-muenchen.de/activities/workshops/sft_2027/index.html",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3231897",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-23"
+  },
+  {
    "id": "wcnc-2027",
    "acronyme": "WCNC",
    "titre": "IEEE Wireless Communications and Networking Conference",
@@ -10151,6 +10103,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-20"
+  },
+  {
+   "id": "alphas-2027",
+   "acronyme": "alphas-2027",
+   "titre": "alphas-2027: Workshop on Precision Measurements of the Strong Coupling Constant",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-05-10",
+   "fin": "2027-05-14",
+   "ville": "ECT*, Trento",
+   "pays": "IT",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/e/alphas2027",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3231929",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-23"
   },
   {
    "id": "charm-2027",

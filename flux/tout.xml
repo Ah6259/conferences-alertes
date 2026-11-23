@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-22T06:00:00Z</updated>
+<updated>2026-11-23T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/alphas-2027/</id>
+<title>alphas-2027 — alphas-2027: Workshop on Precision Measurements of the Strong Coupling Constant</title>
+<link href="https://conferences.clicvia.com/conference/alphas-2027/"/>
+<updated>2026-11-23T06:00:00Z</updated>
+<summary>10–14 May 2027 · ECT*, Trento, Italy · Deadline: see official website · Official: https://indico.cern.ch/e/alphas2027</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/string-field-theory-and-related-2027/</id>
+<title>String Field Theory and related aspects</title>
+<link href="https://conferences.clicvia.com/conference/string-field-theory-and-related-2027/"/>
+<updated>2026-11-23T06:00:00Z</updated>
+<summary>5–9 Apr 2027 · Munich, Germany · Deadline: see official website · Official: https://www.theorie.physik.uni-muenchen.de/activities/workshops/sft_2027/index.html</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/cile-2027/</id>
 <title>CILE 2027 — Research Seminar on Economic Cosmologies and Ethics in Islamic Scholarship (CILE, Hamad Bin Khalifa University)</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/"/>
 <updated>2026-11-04T06:00:00Z</updated>
 <summary>4–9 Jul 2027 · Hyderabad, India · Deadline: see official website · Official: https://indico.global/e/flasy27</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/my-favourite-dark-matter-model-2027/</id>
-<title>My Favourite Dark Matter Model II</title>
-<link href="https://conferences.clicvia.com/conference/my-favourite-dark-matter-model-2027/"/>
-<updated>2026-11-04T06:00:00Z</updated>
-<summary>22–25 Mar 2027 · Angra do Heroísmo, Terceira Island, Portugal · Deadline: see official website · Official: https://indico.cern.ch/event/1747734/overview</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/th-institute-on-quantum-sensing-simulation-and-2027/</id>
-<title>TH institute on Quantum Sensing, Simulation and Computation</title>
-<link href="https://conferences.clicvia.com/conference/th-institute-on-quantum-sensing-simulation-and-2027/"/>
-<updated>2026-11-04T06:00:00Z</updated>
-<summary>15–26 Feb 2027 · Geenva, Switzerland · Deadline: see official website · Official: https://indico.cern.ch/event/1739438/</summary>
 </entry>
 </feed>
