@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-23 15:46",
- "derniere_lecture_reussie": "2026-11-23 15:46",
+ "mis_a_jour": "2026-11-24 15:55",
+ "derniere_lecture_reussie": "2026-11-24 15:55",
  "dernier_passage": {
-  "date": "2026-11-23 15:46",
+  "date": "2026-11-24 15:55",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 263,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
@@ -57,15 +57,15 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 135,
-   "brutes": 161,
-   "derniere_reussite": "2026-11-23 15:46",
+   "nombre": 132,
+   "brutes": 158,
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 47,
    "brutes": 64,
-   "derniere_reussite": "2026-11-23 15:46",
+   "derniere_reussite": "2026-11-24 15:55",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 471,
+ "nombre": 468,
  "conferences": [
   {
    "id": "icpads-2026",
@@ -117,39 +117,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "bbq2026",
-   "acronyme": "BBQ2026",
-   "titre": "Byron Bay Quantum Workshop 2026",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-23",
-   "fin": "2026-11-27",
-   "ville": "Byron Bay",
-   "pays": "AU",
-   "mode": "presentiel",
-   "continent": "oceanie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://sites.google.com/view/byron-bay-quantum-workshop/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3105939",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -396,41 +363,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "laces-2026-lezioni-avanzate-di-campi-e-stringhe",
-   "acronyme": "",
-   "titre": "LACES 2026 — Lezioni Avanzate di Campi e Stringhe - Advanced lectures on Fields and Strings",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-12-11",
-   "ville": "Florence",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "particules",
-    "physique-theorique",
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.ggi.infn.it/single-school.php?id=566",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3182432",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "mobihoc-2026",
    "acronyme": "MobiHoc",
    "titre": "International Symposium on Mobile Ad Hoc Networking and Computing",
@@ -467,40 +399,6 @@
     "ccfddl"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "sags-2026",
-   "acronyme": "SAGS",
-   "titre": "The South African Gravity Society (SAGS) conference — 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-11-27",
-   "ville": "Cape Town",
-   "pays": "ZA",
-   "mode": "presentiel",
-   "continent": "afrique",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro",
-    "physique-theorique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.global/event/18151/",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3168642",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -8786,10 +8684,10 @@
     "vision",
     "ia-apprentissage"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
+   "date_limite": "2026-12-01",
+   "type_limite": "article",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-09-01",
@@ -8799,7 +8697,7 @@
      "fuseau": "AoE"
     },
     {
-     "date": "2026-11-15",
+     "date": "2026-12-01",
      "type": "article",
      "libelle": "Round 2",
      "heure": "23:59",
@@ -11816,8 +11714,8 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "2026-11-23",
-   "type_limite": "resume",
+   "date_limite": "2026-12-02",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -13998,7 +13896,7 @@
    "annee": 2027,
    "type": "conference",
    "debut": "2027-06-22",
-   "fin": "2027-06-25",
+   "fin": "2027-06-24",
    "ville": "Seattle",
    "pays": "US",
    "mode": "presentiel",

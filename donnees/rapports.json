@@ -2378,17 +2378,16 @@
 },
 "2026-11": {
 "chiffres": {
-"afrique": 1,
-"evenements": 63,
-"limites": 66,
-"limites_conferences": 54,
+"afrique": 0,
+"evenements": 60,
+"limites": 65,
+"limites_conferences": 53,
 "par_continent": {
-"afrique": 1,
 "amerique-nord": 14,
 "amerique-sud": 3,
 "asie": 26,
-"europe": 16,
-"oceanie": 3
+"europe": 15,
+"oceanie": 2
 },
 "par_domaine": {
 "comptabilite": 3,
@@ -2396,15 +2395,15 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 10,
+"physique": 7,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 62
+"presentiel": 59
 },
 "par_pays": {
-"AU": 3,
+"AU": 2,
 "BE": 1,
 "BR": 2,
 "CH": 1,
@@ -2415,7 +2414,7 @@
 "HK": 1,
 "HU": 1,
 "IN": 1,
-"IT": 7,
+"IT": 6,
 "JP": 3,
 "KR": 1,
 "KW": 1,
@@ -2427,11 +2426,10 @@
 "SA": 1,
 "SG": 2,
 "TR": 1,
-"US": 14,
-"ZA": 1
+"US": 14
 },
 "par_specialite": {
-"astro": 6,
+"astro": 4,
 "banque-islamique": 3,
 "bioinformatique": 1,
 "calcul-physique": 1,
@@ -2448,9 +2446,8 @@
 "langage": 2,
 "medecine": 1,
 "nucleaire": 1,
-"particules": 3,
-"physique-theorique": 2,
-"quantique": 3,
+"particules": 2,
+"quantique": 2,
 "reseaux": 2,
 "robotique": 1,
 "securite": 3,
@@ -2460,11 +2457,11 @@
 "vision": 2
 },
 "par_type": {
-"atelier": 3,
-"conference": 57,
+"atelier": 2,
+"conference": 55,
 "ecole": 3
 },
-"pays": 25,
+"pays": 24,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -3388,27 +3385,6 @@
 "ville": "Riyadh"
 },
 {
-"acronyme": "BBQ2026",
-"annee": 2026,
-"continent": "oceanie",
-"debut": "2026-11-23",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-27",
-"id": "bbq2026",
-"lien": "https://sites.google.com/view/byron-bay-quantum-workshop/",
-"limites": [],
-"mode": "presentiel",
-"pays": "AU",
-"specialites": [
-"quantique"
-],
-"titre": "Byron Bay Quantum Workshop 2026",
-"type": "atelier",
-"ville": "Byron Bay"
-},
-{
 "acronyme": "BMVC",
 "annee": 2026,
 "continent": "europe",
@@ -3515,29 +3491,6 @@
 "ville": "Turin"
 },
 {
-"acronyme": "",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-23",
-"domaines": [
-"physique"
-],
-"fin": "2026-12-11",
-"id": "laces-2026-lezioni-avanzate-di-campi-e-stringhe",
-"lien": "https://www.ggi.infn.it/single-school.php?id=566",
-"limites": [],
-"mode": "presentiel",
-"pays": "IT",
-"specialites": [
-"particules",
-"physique-theorique",
-"astro"
-],
-"titre": "LACES 2026 — Lezioni Avanzate di Campi e Stringhe - Advanced lectures on Fields and Strings",
-"type": "conference",
-"ville": "Florence"
-},
-{
 "acronyme": "MobiHoc",
 "annee": 2026,
 "continent": "asie",
@@ -3557,28 +3510,6 @@
 "titre": "International Symposium on Mobile Ad Hoc Networking and Computing",
 "type": "conference",
 "ville": "Tokyo"
-},
-{
-"acronyme": "SAGS",
-"annee": 2026,
-"continent": "afrique",
-"debut": "2026-11-23",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-27",
-"id": "sags-2026",
-"lien": "https://indico.global/event/18151/",
-"limites": [],
-"mode": "presentiel",
-"pays": "ZA",
-"specialites": [
-"astro",
-"physique-theorique"
-],
-"titre": "The South African Gravity Society (SAGS) conference — 2026",
-"type": "conference",
-"ville": "Cape Town"
 },
 {
 "acronyme": "HEPFTXXXVIII",
@@ -4149,33 +4080,6 @@
 "titre": "Requirements Engineering: Foundation for Software Quality",
 "type": "conference",
 "ville": "Basel"
-},
-{
-"acronyme": "CVC",
-"annee": 2027,
-"continent": "europe",
-"debut": "2027-04-15",
-"domaines": [
-"informatique"
-],
-"fin": "2027-04-16",
-"id": "cvc-2027",
-"lien": "https://saiconference.com/CVC",
-"limites": [
-{
-"date": "2026-11-15",
-"type": "article"
-}
-],
-"mode": "presentiel",
-"pays": "NL",
-"specialites": [
-"vision",
-"ia-apprentissage"
-],
-"titre": "Computer Vision Conference",
-"type": "conference",
-"ville": "Amsterdam"
 },
 {
 "acronyme": "PacificVis",
@@ -4806,7 +4710,7 @@
 "informatique",
 "ingenierie"
 ],
-"fin": "2027-06-25",
+"fin": "2027-06-24",
 "id": "cvpr-2027",
 "lien": "https://cvpr.thecvf.com/Conferences/2027",
 "limites": [
@@ -5257,7 +5161,7 @@
 "ville": "Kyoto"
 }
 ],
-"derniere_date": "2026-11-23",
+"derniere_date": "2026-11-24",
 "fini": false,
 "premier_jour": "2026-11-01"
 }
