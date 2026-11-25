@@ -505,7 +505,35 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
     /^[A-HJ-NP-Z2-9]{6}$/.test(codeC) && lienC === `https://t.me/${fa.getAttribute("data-robot")}?start=e${codeC}_${w.ESSAI_ALERTES.encoder([spec1], fa.getAttribute("data-specs").split(","))}`
     && lienC.split("start=")[1].length <= 64 && corps.code === codeC && (GRATUIT || decodeURIComponent(d.getElementById("abo-preuve-apres").href).includes("code " + codeC)));
   check("inscription IMMÉDIATE : 3 gestes avant Telegram (DÉMARRER, réponse le matin suivant), plus d'« activation sous 24 heures »",
-    ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap))); }
+    ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap)));
+  // 25/11/2026 (parcours commun des Pass, règle commune § 70) : code en gros + « reçu aussi par e-mail » + mémoire « pass-commande » (FR, EN, AR)
+  check("après l'envoi (FR) : code en GROS ; « Vous le recevez aussi par e-mail » CACHÉ (e-mail automatique pas encore en service, EMAIL_AUTO = false) ; code dans « pour_activer »" + (GRATUIT ? " ; gratuit : aucune phrase « motif »" : ""),
+    ap.querySelector(".code-commande #abo-code").textContent === codeC && ap.querySelectorAll("[data-email-auto]").length === 1 && ap.querySelector("[data-email-auto]").hidden && /var EMAIL_AUTO = false;/.test(lire("assets/abonnement.js"))
+    && corps.pour_activer.endsWith("code: " + codeC) && (!GRATUIT || !/motif|D17|IZI/.test(texte(ap)) && !ap.querySelector(".paie-etapes")));
+  const memo = w.localStorage.getItem("pass-commande"), m = JSON.parse(memo || "{}");
+  check("mémoire pass-commande : code, formule, date, lien Telegram — rien de personnel (ni nom, ni institution, ni pays, ni téléphone, ni e-mail)",
+    m.code === codeC && m.formule === (GRATUIT ? "" : "1 mois") && /^\d{4}-\d{2}-\d{2}$/.test(m.date) && m.tg === lienC && Object.keys(m).sort().join() === "code,date,formule,tg"
+    && !/Pr Test|Université X|Tunisie|24 000 000|24000000|prof@example/.test(JSON.stringify(Object.assign({}, w.localStorage))));
+  const abo = lire("abonnement/index.html");
+  const revenir = (lang, valeur) => { const dd = new JSDOM(abo, { runScripts: "outside-only", url: URL_SITE + "abonnement/?lang=" + lang, pretendToBeVisual: true });
+    if (valeur) dd.window.localStorage.setItem("pass-commande", valeur); dd.window.fetch = () => Promise.resolve({ ok: true });
+    dd.window.eval(lire("assets/page.js")); dd.window.eval(lire("assets/abonnement.js")); dd.window.document.dispatchEvent(new dd.window.Event("DOMContentLoaded")); return dd.window; };
+  const visible = (el, lang) => texte(el).length && [...el.querySelectorAll(`[data-l="${lang}"]`)].map(texte).join(" ");
+  for (const [lang, titre, ouvrir, nouv] of [["fr", "Votre commande en attente :", "Ouvrir Telegram", "Nouvelle commande"], ["en", "Your pending order:", "Open Telegram", "New order"], ["ar", "طلبك في الانتظار:", "افتح تيليغرام", "طلب جديد"]]) {
+    const w2 = revenir(lang, memo), d2 = w2.document, at = d2.getElementById("abo-attente"), vu = visible(at, lang);
+    check(`retour sur la page (${lang.toUpperCase()}) : bandeau « ${titre} code … » + « ${ouvrir} » (même lien) + « ${nouv} », formulaire caché`,
+      w2.document.documentElement.lang === lang && !at.hidden && d2.getElementById("abo-form").hidden && vu.includes(titre) && vu.includes(ouvrir) && vu.includes(nouv)
+      && at.querySelector("[data-code]").textContent === codeC && d2.getElementById("abo-attente-tg").getAttribute("href") === lienC
+      && (!GRATUIT || !at.querySelector(".paie-etapes") && !at.querySelector(".btn-wa")));
+    if (lang === "fr") { d2.getElementById("abo-nouvelle").dispatchEvent(new w2.Event("click"));
+      check("« Nouvelle commande » : mémoire effacée, bandeau caché, formulaire de nouveau visible", w2.localStorage.getItem("pass-commande") === null && at.hidden && !d2.getElementById("abo-form").hidden); } }
+  check("« reçu aussi par e-mail » (FR, EN, AR) : présent seulement en caché (hidden) tant que l'e-mail automatique n'est pas en service", [...abo.matchAll(/<p class="petit" data-email-auto hidden>/g)].length >= 1
+    && /You also receive it by e-mail\./.test(abo) && abo.includes("يصلك أيضًا عبر البريد الإلكتروني.") && !/<p[^>]*>(?:(?!<\/p>)[\s\S])*receive it by e-mail/.test(abo.replace(/<p class="petit" data-email-auto hidden>[\s\S]*?<\/p>/g, "")));
+  { const vieux = JSON.stringify(Object.assign({}, m, { date: new Date(Date.now() - 61 * 864e5).toISOString().slice(0, 10) }));
+    const w3 = revenir("fr", vieux), w4 = revenir("fr", JSON.stringify(Object.assign({}, m, { code: "abc" })));
+    check("mémoire pass-commande : gardée 60 jours (au-delà : effacée, pas de bandeau) ; code au mauvais format ignoré",
+      w3.document.getElementById("abo-attente").hidden && w3.localStorage.getItem("pass-commande") === null && !w3.document.getElementById("abo-form").hidden
+      && w4.document.getElementById("abo-attente").hidden && w4.localStorage.getItem("pass-commande") === null); } }
 w = await page("abonnement/conditions/index.html", "lang=fr");
 const tc = texte(w.document.querySelector("main"));
 if (GRATUIT) check("conditions GRATUITES : gratuit pour le moment, prévenu avant tout passage au payant, rien prélevé, arrêt /stop, données personnelles, INPDP, ni prix ni paiement ni facture",
@@ -671,6 +699,8 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
     ["signaler une conférence (organisateurs)", existsSync(join(root, "publier/index.html")), /Signaler une conférence<\/b>/],
     ["Alertes Pro (gratuites pour le moment ou payantes)", existsSync(join(root, "abonnement/index.html")),
       /Gratuit pour le moment/.test(lire("abonnement/index.html")) ? /Alertes Pro sur Telegram : gratuites pour le moment/ : /Payant : Alertes Pro sur Telegram/],
+    ["commande en attente gardée par le téléphone (code, Telegram)", /pass-commande/.test(lire("assets/abonnement.js")) && /id="abo-attente"/.test(lire("abonnement/index.html")),
+      /Commande en attente<\/b>[\s\S]*60.jours[\s\S]*Nouvelle commande[\s\S]*Pending order<\/b>[\s\S]*طلب في الانتظار/],
     ["bouton Partager", /class="partager"/.test(js), /Partager<\/b>/],
     ["trois langues FR / EN / AR", /langue-conferences/.test(js), /Trois langues<\/b>/],
     ["vidéo de présentation", existsSync(join(root, "video/index.html")), /Vidéo de présentation/],

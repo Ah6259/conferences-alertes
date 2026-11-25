@@ -174,8 +174,9 @@ ABO = {
     # est gardé : remettre False pour revenir au payant (même interrupteur dans le robot privé : GRATUIT de tools/alertes.py).
     "gratuit": True,
 }
-TEXTE_PREUVE = "Bonjour, voici la preuve de paiement de mon abonnement Alertes Pro (Radar des conférences). Nom : "
-TEXTE_ETRANGER = "Bonjour, je souhaite m'abonner aux Alertes Pro (Radar des conférences) depuis l'étranger. Nom : "
+# 25/11/2026 (parcours commun des Pass, règle commune § 70) : après l'inscription, assets/abonnement.js refait ces messages avec le code
+TEXTE_PREUVE = "Voici ma preuve de paiement — Radar des conférences — code "
+TEXTE_ETRANGER = "Bonjour, je souhaite m'abonner aux Alertes Pro (Radar des conférences) depuis l'étranger. Ma commande : "
 
 
 def reglage(nom, motif):
@@ -833,7 +834,8 @@ def logo_appli(m):
 AIDE_TRANSFERT = '<details class="aide-transfert"><summary title="Voir comment faire" aria-label="Voir comment faire">?</summary><div class="aide-images"><figure><img src="../assets/paiement/transfert-d17.svg" alt="Exemple D17 : Transfert rapide, numéro 24 321 390, montant, Envoyer" width="240" height="300" loading="lazy"><figcaption>D17</figcaption></figure><figure><img src="../assets/paiement/transfert-izi.svg" alt="Exemple IZI : Transfert, montant, numéro 24 321 390, Suivant" width="240" height="300" loading="lazy"><figcaption>IZI</figcaption></figure></div></details>'
 
 
-def liste_paiements(ident="abo-etranger"):
+def liste_paiements(ident="abo-etranger", avec_code=False):
+    """avec_code : le motif affiche le code de la commande (rempli par assets/abonnement.js, attribut data-code)."""
     # paiement en 3 étapes numérotées + phrase de confiance (demande d'Ahmed, 08/10/2026 : simple, rassurant)
     applis = "".join(f'<a class="appli-btn" href="{APPLIS[m][0]}" target="_blank" rel="noopener noreferrer">{logo_appli(m)}</a>' for m in ABO["paiements"])
     ios = " · ".join(f'<a class="appli" href="{APPLIS[m][1]}" target="_blank" rel="noopener noreferrer">{m}</a>' for m in ABO["paiements"])
@@ -843,6 +845,8 @@ def liste_paiements(ident="abo-etranger"):
     e3b = L('Puis envoyez la capture du paiement par WhatsApp (bouton vert).', 'Then send the payment screenshot on WhatsApp (green button).', 'ثم أرسل لقطة الدفع عبر واتساب (الزر الأخضر).')
     conf = L("Vous payez directement dans l'application officielle de La Poste Tunisienne (D17) ou de Zitouna Paiement (IZI) : nous ne voyons jamais vos codes.", 'You pay directly in the official app of La Poste Tunisienne (D17) or Zitouna Paiement (IZI): we never see your codes.', 'تدفع مباشرة في التطبيق الرسمي للبريد التونسي (D17) أو لزيتونة للدفع (IZI): لا نطّلع أبدًا على رموزك.')
     motif = L('votre code personnel (donné à l’inscription)', 'your personal code (given at sign-up)', 'رمزك الشخصي (يُعطى عند التسجيل)')
+    if avec_code:
+        motif = L('votre numéro de commande', 'your order number', 'رقم طلبك') + ' <bdi class="code-motif" data-code dir="ltr"></bdi>'
     paie = (f'<div class="paie"><ol class="paie-etapes"><li>{e1} <span class="applis">{applis}</span><br><span class="petit">{e1b} {ios}</span></li>'
             f'<li>{e2} <strong><bdi dir="ltr">{ABO["numero"]}</bdi></strong>.<br>{e2b} <strong>{prix_abo()}</strong>{AIDE_TRANSFERT}</li>'
             f'<li>{e3} <strong>{motif}</strong>. {e3b}</li></ol><p class="paie-confiance">{conf}</p></div>')
@@ -874,6 +878,49 @@ def etapes(langue, robot):
     return ETAPES_GRATUIT[langue] if ABO["gratuit"] and robot else ETAPES_ESSAI[langue, bool(robot)]
 
 
+# Parcours commun des Pass (règle commune § 70, 25/11/2026) : code en gros, « reçu aussi par e-mail » (CACHÉ tant que EMAIL_AUTO = false
+# dans assets/abonnement.js : l'e-mail automatique n'est pas encore en service), commande gardée par le téléphone.
+# Alertes GRATUITES pour le moment : ni paiement ni phrase « motif » ; elles reviennent seules si ABO["gratuit"] repasse à False.
+PHRASE_CODE = L("C'est votre numéro de commande : écrivez-le dans le motif du paiement, il nous sert à reconnaître votre paiement.",
+                "This is your order number: write it in the payment reference, it helps us recognise your payment.",
+                "هذا رقم طلبك: اكتبه في خانة سبب الدفع، يساعدنا على التعرّف على دفعتك.")
+PHRASE_EMAIL = L("Vous le recevez aussi par e-mail.", "You also receive it by e-mail.", "يصلك أيضًا عبر البريد الإلكتروني.")
+FILET = L("Vous avez oublié le code dans le motif ? Ce n'est pas grave : envoyez quand même la preuve sur WhatsApp, nous retrouvons votre demande.",
+          "Forgot the code in the payment reference? No problem: send the proof on WhatsApp anyway, we will find your request.",
+          "نسيت الرمز في سبب الدفع؟ لا بأس: أرسل الوصل على واتساب وسنجد طلبك.")
+
+
+def bloc_code():
+    """Le code en GROS, juste sous « Votre inscription est prête »."""
+    motif = "" if ABO["gratuit"] else f"\n      <p>{PHRASE_CODE}</p>"
+    return f"""    <div class="code-commande">
+      <b class="abo-code" id="abo-code" data-code dir="ltr"></b>{motif}
+      <p class="petit" data-email-auto hidden>{PHRASE_EMAIL}</p>
+    </div>
+"""
+
+
+def bandeau_attente(robot):
+    """Bandeau « Votre commande en attente » (caché ; montré par assets/abonnement.js si le téléphone garde une commande)."""
+    if not robot:
+        return ""
+    gratuit = ABO["gratuit"]
+    formule = "" if gratuit else " — <span data-formule></span>"
+    paiement = "" if gratuit else f"""    <p class="petit">{PHRASE_CODE}</p>
+    {liste_paiements("abo-etranger-attente", avec_code=True)}
+    {lien_preuve("abo-preuve-attente")}
+    <p class="petit filet">{FILET}</p>
+"""
+    return f"""  <div class="abo-attente" id="abo-attente" hidden>
+    <p class="attente-titre"><b>{L("Votre commande en attente :", "Your pending order:", "طلبك في الانتظار:")}</b> {L("code", "code", "الرمز")} <b class="abo-code" data-code dir="ltr"></b>{formule}</p>
+    <p class="petit" data-email-auto hidden>{PHRASE_EMAIL}</p>
+{paiement}    <p>{L("Pas encore touché <b>DÉMARRER</b> dans Telegram ? Le bouton ci-dessous ouvre notre robot avec vos choix.", "Not tapped <b>START</b> in Telegram yet? The button below opens our bot with your choices.", "لم تلمس <b>ابدأ</b> في تيليغرام بعد؟ الزر أسفله يفتح برنامجنا باختياراتك.")}</p>
+    <a class="btn-tg-essai" id="abo-attente-tg" data-tg href="https://t.me/{E(robot)}" target="_blank" rel="noopener">{L("Ouvrir Telegram", "Open Telegram", "افتح تيليغرام")}</a>
+    <button type="button" class="btn-clair abo-nouvelle" id="abo-nouvelle">{L("Nouvelle commande", "New order", "طلب جديد")}</button>
+  </div>
+"""
+
+
 def bloc_essai_tg(robot):
     """Après l'inscription : code et lien Telegram tout de suite (règle commune § 15) si le robot est réglé ; sinon (robot pas
     encore créé par Ahmed) l'ancien texte honnête : activation à la main au paiement, lien Telegram envoyé à l'activation."""
@@ -883,9 +930,8 @@ def bloc_essai_tg(robot):
     <p id="abo-telegram">{texte_telegram("")}</p>
 '''
     return f'''    <h3>{L("Dernière étape : ouvrez Telegram", "Last step: open Telegram", "الخطوة الأخيرة: افتح تيليغرام")}</h3>
-    <p>{L("Votre inscription est prête. Votre code personnel :", "Your sign-up is ready. Your personal code:", "تسجيلك جاهز. رمزك الشخصي:") if ABO["gratuit"] else L("Votre inscription est prête. Votre code personnel (motif du paiement) :", "Your sign-up is ready. Your personal code (payment reference):", "تسجيلك جاهز. رمزك الشخصي (سبب الدفع):")}
-      <b class="abo-code" id="abo-code" dir="ltr"></b></p>
-    <ol class="etapes-tg">
+    <p>{L("Votre inscription est prête. Votre code personnel :", "Your sign-up is ready. Your personal code:", "تسجيلك جاهز. رمزك الشخصي:") if ABO["gratuit"] else L("Votre inscription est prête. Votre code personnel (motif du paiement) :", "Your sign-up is ready. Your personal code (payment reference):", "تسجيلك جاهز. رمزك الشخصي (سبب الدفع):")}</p>
+{bloc_code()}    <ol class="etapes-tg">
       <li>{L("Touchez « Ouvrir Telegram » : l'application s'ouvre sur notre robot.", "Tap “Open Telegram”: the app opens on our bot.", "المس « افتح تيليغرام »: يفتح التطبيق على برنامجنا.")}</li>
       <li>{L("Touchez <b>DÉMARRER</b> en bas de l'écran. Rien d'autre à écrire : vos choix sont déjà dans le lien.", "Tap <b>START</b> at the bottom of the screen. Nothing else to type: your choices are already in the link.", "المس <b>ابدأ</b> أسفل الشاشة. لا شيء آخر تكتبه: اختياراتك موجودة في الرابط.")}</li>
       <li>{L("Le robot vous répond <b>le matin suivant, vers 8 h (heure de Tunis)</b>, puis vos conférences arrivent chaque matin. Vous pouvez fermer Telegram en attendant.", "The bot replies <b>the following morning, around 8 am (Tunis time)</b>, then your conferences arrive every morning. You can close Telegram meanwhile.", "يجيبك البرنامج <b>في الصباح الموالي، حوالي الساعة ⁦8⁩ (توقيت تونس)</b>، ثم تصلك مؤتمراتك كل صباح. يمكنك غلق تيليغرام في الأثناء.") if ABO["gratuit"] else L("Le robot vous répond <b>le matin suivant, vers 8 h (heure de Tunis)</b>. Vos conférences arrivent chaque matin dès réception de votre paiement (ci-dessous). Vous pouvez fermer Telegram en attendant.", "The bot replies <b>the following morning, around 8 am (Tunis time)</b>. Your conferences arrive every morning as soon as we receive your payment (below). You can close Telegram meanwhile.", "يجيبك البرنامج <b>في الصباح الموالي، حوالي الساعة ⁦8⁩ (توقيت تونس)</b>. تصلك مؤتمراتك كل صباح فور استلام دفعك (أسفله). يمكنك غلق تيليغرام في الأثناء.")}</li>
@@ -899,7 +945,7 @@ def bouton_essai_tg(robot):
     """Bouton « Ouvrir Telegram » après l'inscription (règle commune § 15) ; robot non réglé -> ancien texte."""
     if not robot:
         return f'<p id="abo-telegram">{texte_telegram("")}</p>'
-    return f'''<a class="btn-tg-essai" id="abo-ouvrir-tg" href="https://t.me/{E(robot)}" target="_blank" rel="noopener">{L("Ouvrir Telegram", "Open Telegram", "افتح تيليغرام")}</a>'''
+    return f'''<a class="btn-tg-essai" id="abo-ouvrir-tg" data-tg href="https://t.me/{E(robot)}" target="_blank" rel="noopener">{L("Ouvrir Telegram", "Open Telegram", "افتح تيليغرام")}</a>'''
 
 
 def texte_telegram(robot):
@@ -943,8 +989,9 @@ def pages_abonnement(confs, adr, v, etat):
 """
         apres_paiement = f"""    <h3>{L("Paiement", "Payment", "الدفع")}</h3>
     <p>{L("Payez par D17 ou IZI, avec pour motif votre code personnel : vos alertes commencent dès réception du paiement.", "Pay by D17 or IZI, with your personal code as reference: your alerts start as soon as we receive the payment.", "ادفع عبر ⁨D17⁩ أو ⁨IZI⁩ مع ذكر رمزك الشخصي كسبب للدفع: تبدأ تنبيهاتك فور استلام الدفع.")}</p>
-    {liste_paiements("abo-etranger-apres")}
+    {liste_paiements("abo-etranger-apres", avec_code=True)}
     {lien_preuve("abo-preuve-apres")}
+    <p class="petit filet">{FILET}</p>
     <p class="petit">{L(f"Une facture vous est adressée. Pas de renouvellement automatique : nous vous prévenons {rj} jours avant la fin.", f"An invoice is sent to you. No automatic renewal: we warn you {rj} days before the end.", f"تُرسل إليك فاتورة. لا تجديد آلي: نعلمك قبل النهاية بـ{ISO(rj)} أيام.")}</p>
 """
     cs = compter(confs, "specialites")
@@ -979,24 +1026,24 @@ def pages_abonnement(confs, adr, v, etat):
 <section class="carte">
   <h2>{L("Comment ça marche ?", "How does it work?", "كيف يعمل؟")}</h2>
   <ol class="etapes" data-l="fr">
-    <li>Vous choisissez vos <b>spécialités</b> dans le formulaire ci-dessous.</li>
+    <li>Vous indiquez votre nom, votre institution, votre pays, votre téléphone WhatsApp ou Telegram et votre e-mail, puis vous choisissez vos <b>spécialités</b> dans le formulaire ci-dessous.</li>
 {etapes('fr', adr['robot'])}
     <li>Chaque matin : les nouvelles conférences de vos spécialités, et un rappel 7 jours puis 1 jour avant chaque date limite.</li>
   </ol>
   <ol class="etapes" data-l="en">
-    <li>Choose your <b>specialties</b> in the form below.</li>
+    <li>Enter your name, institution, country, WhatsApp or Telegram phone and e-mail, then choose your <b>specialties</b> in the form below.</li>
 {etapes('en', adr['robot'])}
     <li>Every morning: new conferences in your specialties, plus a reminder 7 days and 1 day before each deadline.</li>
   </ol>
   <ol class="etapes" data-l="ar">
-    <li>تختار <b>تخصصاتك</b> في الاستمارة أسفله.</li>
+    <li>تكتب اسمك ومؤسستك وبلدك وهاتف واتساب أو تيليغرام وبريدك الإلكتروني، ثم تختار <b>تخصصاتك</b> في الاستمارة أسفله.</li>
 {etapes('ar', adr['robot'])}
     <li>كل صباح: المؤتمرات الجديدة في تخصصاتك، وتذكير قبل كل أجل بـ⁦7⁩ أيام ثم بيوم.</li>
   </ol>
 </section>
 <section class="carte abo" id="inscription" aria-labelledby="abo-titre">
   <h2 id="abo-titre">{L("Inscription", "Sign-up", "التسجيل")}</h2>
-  <form id="abo-form" action="{ABO['formspree']}" method="POST" novalidate data-robot="{E(adr['robot'])}"
+{bandeau_attente(adr['robot'])}  <form id="abo-form" action="{ABO['formspree']}" method="POST" novalidate data-robot="{E(adr['robot'])}"
         data-specs="{','.join(sorted(s[0] for s in K.SPECIALITES))}">
     <label class="abo-etiquette" for="abo-nom">{L("Votre nom", "Your name", "اسمك")}</label>
     <input id="abo-nom" name="nom" required maxlength="100" autocomplete="name">
@@ -1439,6 +1486,10 @@ def construire(donnees, sortie, jour):
         pro = L(f"<b>Payant : Alertes Pro sur Telegram</b> ({ABO['prix_mois']}" + NB + f"DT par mois ou {ABO['prix_an']}" + NB + "DT par an). Chaque matin, les nouvelles conférences de vos spécialités et les rappels de leurs dates limites. Paiement avec votre <b>code personnel</b> ; pas de renouvellement automatique.",
                 f"<b>Paid: Pro Alerts on Telegram</b> ({ABO['prix_mois']}" + NB + f"TND per month or {ABO['prix_an']}" + NB + "TND per year). Every morning, the new conferences in your specialties and deadline reminders. Payment with your <b>personal code</b>; no automatic renewal.",
                 f"<b>بمقابل: تنبيهات Pro على تيليغرام</b> ({ISO(ABO['prix_mois'])} دينار في الشهر أو {ISO(ABO['prix_an'])} دينار في السنة). كل صباح، المؤتمرات الجديدة في تخصصاتك وتذكير بآجالها. الدفع برمزك الشخصي؛ لا تجديد آلي.")
+    # 25/11/2026 (parcours commun des Pass, règle commune § 70) : code en gros et commande gardée par le téléphone
+    pro += " " + L("<b>Commande en attente</b> : après l'inscription, votre code s'affiche en gros. Votre téléphone se souvient de la commande pendant 60" + NB + "jours (seulement le code, la formule et la date, jamais votre nom, institution, pays, téléphone ou e-mail) : en revenant sur la page Alertes Pro, vous retrouvez votre code et le bouton « Ouvrir Telegram » ; « Nouvelle commande » l'efface.",
+                   "<b>Pending order</b>: after sign-up, your code is shown in large type. Your phone remembers the order for 60" + NB + "days (only the code, the plan and the date, never your name, institution, country, phone or e-mail): when you come back to the Pro Alerts page, you find your code and the “Open Telegram” button; “New order” clears it.",
+                   "<b>طلب في الانتظار</b>: بعد التسجيل، يظهر رمزك بخط كبير. يتذكر هاتفك الطلب مدة " + ISO(60) + " يومًا (الرمز والصيغة والتاريخ فقط، لا اسمك ولا مؤسستك ولا بلدك ولا هاتفك ولا بريدك أبدًا): عند العودة إلى صفحة تنبيهات Pro تجد رمزك وزر «افتح تيليغرام»؛ و«طلب جديد» يمحوه.")
     hero = f"""{fil("../", L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟"))}
     <h1>{L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</h1>
     <p class="intro">{L("Tout ce que fait Radar des conférences, d'où viennent les conférences, comment elles sont vérifiées, et leurs limites.", "Everything Conference Radar does, where the conferences come from, how they are checked, and their limits.", "كل ما يقدمه رادار المؤتمرات، من أين تأتي المؤتمرات، كيف تُراجَع، وحدودها.")}</p>"""
