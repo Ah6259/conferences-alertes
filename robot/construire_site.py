@@ -161,8 +161,9 @@ PHOTOS = [{
 
 COMPTEUR = "https://prix-eaux-tunisie.goatcounter.com"
 FORMSPREE = "https://formspree.io"
+EMAIL_API = "https://api-email.clicvia.com"   # e-mail automatique au visiteur (A.17, 25/11/2026)
 CSP = ("default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
-       f"font-src 'self' https://fonts.gstatic.com; img-src 'self' data: {COMPTEUR}; connect-src 'self' {COMPTEUR} {FORMSPREE}; "
+       f"font-src 'self' https://fonts.gstatic.com; img-src 'self' data: {COMPTEUR}; connect-src 'self' {COMPTEUR} {FORMSPREE} {EMAIL_API}; "
        f"form-action 'self' https://docs.google.com {FORMSPREE}; frame-src 'none'; object-src 'none'; base-uri 'self'")
 
 # ------------------------------------------------------------ Alertes Pro (abonnement payant, comme le site Appels d'offres)
@@ -878,8 +879,8 @@ def etapes(langue, robot):
     return ETAPES_GRATUIT[langue] if ABO["gratuit"] and robot else ETAPES_ESSAI[langue, bool(robot)]
 
 
-# Parcours commun des Pass (règle commune § 70, 25/11/2026) : code en gros, « reçu aussi par e-mail » (CACHÉ tant que EMAIL_AUTO = false
-# dans assets/abonnement.js : l'e-mail automatique n'est pas encore en service), commande gardée par le téléphone.
+# Parcours commun des Pass (règle commune § 70, 25/11/2026) : code en gros, « reçu aussi par e-mail » (affiché par assets/abonnement.js
+# quand EMAIL_AUTO = true : e-mail automatique EN SERVICE depuis le 25/11/2026, A.17), commande gardée par le téléphone.
 # Alertes GRATUITES pour le moment : ni paiement ni phrase « motif » ; elles reviennent seules si ABO["gratuit"] repasse à False.
 PHRASE_CODE = L("C'est votre numéro de commande : écrivez-le dans le motif du paiement, il nous sert à reconnaître votre paiement.",
                 "This is your order number: write it in the payment reference, it helps us recognise your payment.",
@@ -1487,9 +1488,9 @@ def construire(donnees, sortie, jour):
                 f"<b>Paid: Pro Alerts on Telegram</b> ({ABO['prix_mois']}" + NB + f"TND per month or {ABO['prix_an']}" + NB + "TND per year). Every morning, the new conferences in your specialties and deadline reminders. Payment with your <b>personal code</b>; no automatic renewal.",
                 f"<b>بمقابل: تنبيهات Pro على تيليغرام</b> ({ISO(ABO['prix_mois'])} دينار في الشهر أو {ISO(ABO['prix_an'])} دينار في السنة). كل صباح، المؤتمرات الجديدة في تخصصاتك وتذكير بآجالها. الدفع برمزك الشخصي؛ لا تجديد آلي.")
     # 25/11/2026 (parcours commun des Pass, règle commune § 70) : code en gros et commande gardée par le téléphone
-    pro += " " + L("<b>Commande en attente</b> : après l'inscription, votre code s'affiche en gros. Votre téléphone se souvient de la commande pendant 60" + NB + "jours (seulement le code, la formule et la date, jamais votre nom, institution, pays, téléphone ou e-mail) : en revenant sur la page Alertes Pro, vous retrouvez votre code et le bouton « Ouvrir Telegram » ; « Nouvelle commande » l'efface.",
-                   "<b>Pending order</b>: after sign-up, your code is shown in large type. Your phone remembers the order for 60" + NB + "days (only the code, the plan and the date, never your name, institution, country, phone or e-mail): when you come back to the Pro Alerts page, you find your code and the “Open Telegram” button; “New order” clears it.",
-                   "<b>طلب في الانتظار</b>: بعد التسجيل، يظهر رمزك بخط كبير. يتذكر هاتفك الطلب مدة " + ISO(60) + " يومًا (الرمز والصيغة والتاريخ فقط، لا اسمك ولا مؤسستك ولا بلدك ولا هاتفك ولا بريدك أبدًا): عند العودة إلى صفحة تنبيهات Pro تجد رمزك وزر «افتح تيليغرام»؛ و«طلب جديد» يمحوه.")
+    pro += " " + L("<b>Commande en attente</b> : après l'inscription, votre code s'affiche en gros. Votre téléphone se souvient de la commande pendant 60" + NB + "jours (seulement le code, la formule et la date, jamais votre nom, institution, pays, téléphone ou e-mail) : en revenant sur la page Alertes Pro, vous retrouvez votre code et le bouton « Ouvrir Telegram » ; « Nouvelle commande » l'efface. <b>E-mail de confirmation</b> : dans la minute qui suit l'inscription, vous recevez aussi tout cela par e-mail (code, spécialités choisies, bouton « Ouvrir Telegram »), dans la langue de la page.",
+                   "<b>Pending order</b>: after sign-up, your code is shown in large type. Your phone remembers the order for 60" + NB + "days (only the code, the plan and the date, never your name, institution, country, phone or e-mail): when you come back to the Pro Alerts page, you find your code and the “Open Telegram” button; “New order” clears it. <b>Confirmation e-mail</b>: within a minute of signing up, you also receive all of this by e-mail (code, chosen specialties, “Open Telegram” button), in the language of the page.",
+                   "<b>طلب في الانتظار</b>: بعد التسجيل، يظهر رمزك بخط كبير. يتذكر هاتفك الطلب مدة " + ISO(60) + " يومًا (الرمز والصيغة والتاريخ فقط، لا اسمك ولا مؤسستك ولا بلدك ولا هاتفك ولا بريدك أبدًا): عند العودة إلى صفحة تنبيهات Pro تجد رمزك وزر «افتح تيليغرام»؛ و«طلب جديد» يمحوه. <b>بريد التأكيد</b>: خلال دقيقة من التسجيل يصلك كل هذا أيضًا عبر البريد الإلكتروني (الرمز، التخصصات المختارة، زر «افتح تيليغرام») بلغة الصفحة.")
     hero = f"""{fil("../", L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟"))}
     <h1>{L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</h1>
     <p class="intro">{L("Tout ce que fait Radar des conférences, d'où viennent les conférences, comment elles sont vérifiées, et leurs limites.", "Everything Conference Radar does, where the conferences come from, how they are checked, and their limits.", "كل ما يقدمه رادار المؤتمرات، من أين تأتي المؤتمرات، كيف تُراجَع، وحدودها.")}</p>"""
@@ -1517,7 +1518,7 @@ def construire(donnees, sortie, jour):
   {li("Pas de compte à créer pour consulter le site. Votre navigateur garde seulement la langue choisie.", "No account needed to browse the site. Your browser only keeps the chosen language.", "لا حساب لإنشائه لتصفح الموقع. متصفحك يحفظ فقط اللغة المختارة.")}
   {li("Confidentialité et conditions d'utilisation : pages communes à tous nos sites (clicvia.com), liens en bas de chaque page.", "Privacy and terms of use: pages shared by all our sites (clicvia.com), linked at the bottom of every page.", "الخصوصية وشروط الاستعمال: صفحات مشتركة بين كل مواقعنا (⁨clicvia.com⁩)، روابطها أسفل كل صفحة.")}
   {li("Statistiques de visite anonymes, sans cookies (GoatCounter).", "Anonymous visit statistics, without cookies (GoatCounter).", "إحصائيات زيارات مجهولة، دون ملفات تعريف الارتباط (⁨GoatCounter⁩).")}
-  {li("Votre avis et l'inscription aux Alertes Pro ne sont envoyés que si vous touchez « Envoyer » (service Formspree). Vos coordonnées servent seulement aux alertes : elles ne sont jamais publiées ni vendues.", "Your feedback and Pro Alerts sign-up are only sent when you tap “Send” (Formspree service). Your details are only used for the alerts: never published or sold.", "رأيك والتسجيل في تنبيهات Pro لا يُرسلان إلا إذا لمست «أرسل» (خدمة ⁨Formspree⁩). بياناتك تُستعمل للتنبيهات فقط: لا تُنشر ولا تُباع أبدًا.")}
+  {li("Votre avis et l'inscription aux Alertes Pro ne sont envoyés que si vous touchez « Envoyer » (service Formspree). Vos coordonnées servent seulement aux alertes : elles ne sont jamais publiées ni vendues. L'e-mail de confirmation part par notre service d'envoi (Resend) ; rien n'est gardé.", "Your feedback and Pro Alerts sign-up are only sent when you tap “Send” (Formspree service). Your details are only used for the alerts: never published or sold. The confirmation e-mail goes through our sending service (Resend); nothing is kept.", "رأيك والتسجيل في تنبيهات Pro لا يُرسلان إلا إذا لمست «أرسل» (خدمة ⁨Formspree⁩). بياناتك تُستعمل للتنبيهات فقط: لا تُنشر ولا تُباع أبدًا. بريد التأكيد يُرسل عبر خدمة الإرسال لدينا (⁨Resend⁩)؛ ولا يُحفظ شيء.")}
   </ul>
 </section>
 <section class="carte">

@@ -194,3 +194,12 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   annonces de ConfBay (iBAF, ICONIE, ZAWED, ISHEC 2027…) et le 5e Islamic Fintech Forum (Médine, janvier 2027, jours pas encore publiés).
   5 sites refusent les robots dans leur robots.txt (AAOIFI events, IFSB, REDmoney, Bank Negara, IsDB Institute) : notés « à vérifier à la main ».
   Tests : section I de tools/test_pannes.py (5).
+
+## 25/11/2026 — e-mail de confirmation automatique EN SERVICE (A.17, méthode `outils communs/email-clients/BRANCHER-UN-SITE.md` de projets-ahmed)
+- `assets/abonnement.js` : `EMAIL_AUTO = true` ; à l'inscription (après les vérifications, jamais si le piège anti-robot est rempli),
+  `envoyerEmail()` envoie en JSON à `https://api-email.clicvia.com/inscription` (sans attendre, jamais bloquant) : site `conferences`,
+  langue de la page (fr / en / ar), nom, e-mail, code, spécialités, établissement, pays, formule (vide : gratuit), lien Telegram.
+  Service en panne -> `EMAIL_AUTO = false` (tout caché, rien envoyé). CSP `connect-src` + `EMAIL_API` dans robot/construire_site.py.
+- « Vous le recevez aussi par e-mail » affiché ; « Comment fonctionne le site ? » : « E-mail de confirmation » + Resend dans « Vos données ».
+- Tests (test_site.mjs) : sans e-mail = message long et rien envoyé ; JSON FR / EN / AR ; CSP ; JSON ACCEPTÉ par le vrai `verifier()` du
+  Worker (lu dans ../projets-ahmed s'il existe, sinon « SAUTÉ », jamais rouge sur GitHub) ; ligne FONCTIONS. Aucune phrase de paiement.

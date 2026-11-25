@@ -3,9 +3,10 @@
 //   node tools/test_site.mjs --racine X      (teste une copie, ex. pour le sabotage volontaire)
 // jsdom s'installe une fois par PC (dans ce dossier) :  npm install --no-save --no-package-lock jsdom
 import { JSDOM } from "jsdom";
-import { readFileSync, existsSync, readdirSync, statSync } from "fs";
-import { fileURLToPath } from "url";
-import { dirname, join } from "path";
+import { readFileSync, existsSync, readdirSync, statSync, mkdtempSync, writeFileSync } from "fs";
+import { tmpdir } from "os";
+import { fileURLToPath, pathToFileURL } from "url";
+import { dirname, join, resolve } from "path";
 import { createHash } from "crypto";
 
 const i = process.argv.indexOf("--racine");
@@ -484,10 +485,15 @@ check("formulaire : Formspree mwlpakqj, nom, institution, pays, téléphone, e-m
   fa.getAttribute("action") === "https://formspree.io/f/mwlpakqj" && ["nom", "etablissement", "pays", "telephone", "email", "conditions", ...(GRATUIT ? [] : ["formule"])].every(n => fa.querySelector(`[name="${n}"]`)) &&
   fa.querySelectorAll('input[name="specialites"]').length === new Set(avenir.flatMap(c => c.specialites)).size);
 // envoi simulé
-const envois = [];
-w.fetch = (u, o) => { envois.push({ u, o }); return Promise.resolve({ ok: true, status: 200 }); };
+const envois = [], emails = [];   // emails = demandes au service d'e-mail automatique (A.17, 25/11/2026), gardées à part de Formspree
+w.fetch = (u, o) => { if (/api-email\.clicvia\.com/.test(u)) emails.push({ u, o }); else envois.push({ u, o }); return Promise.resolve({ ok: true, status: 200 }); };
 fa.querySelector('[name="nom"]').value = "Pr Test"; fa.querySelector('[name="etablissement"]').value = "Université X"; fa.querySelector('[name="pays"]').value = "Tunisie";
-fa.querySelector('[name="telephone"]').value = "+216 24 000 000"; fa.querySelector('[name="email"]').value = "prof@example.org";
+fa.querySelector('[name="telephone"]').value = "+216 24 000 000";
+fa.dispatchEvent(new w.Event("submit", { bubbles: true, cancelable: true }));
+await new Promise(r => setTimeout(r, 30));
+check("inscription sans e-mail : message long « Indiquez une adresse e-mail valide : vous y recevez votre code et le lien Telegram. », rien n'est envoyé (ni Formspree ni e-mail automatique)",
+  envois.length === 0 && emails.length === 0 && d.getElementById("abo-status").textContent === "Indiquez une adresse e-mail valide : vous y recevez votre code et le lien Telegram.");
+fa.querySelector('[name="email"]').value = "prof@example.org";
 fa.querySelector('input[name="specialites"]').checked = true; fa.querySelector('#abo-conditions').checked = true;
 fa.dispatchEvent(new w.Event("submit", { bubbles: true, cancelable: true }));
 await new Promise(r => setTimeout(r, 30));
@@ -507,14 +513,50 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
   check("inscription IMMÉDIATE : 3 gestes avant Telegram (DÉMARRER, réponse le matin suivant), plus d'« activation sous 24 heures »",
     ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap)));
   // 25/11/2026 (parcours commun des Pass, règle commune § 70) : code en gros + « reçu aussi par e-mail » + mémoire « pass-commande » (FR, EN, AR)
-  check("après l'envoi (FR) : code en GROS ; « Vous le recevez aussi par e-mail » CACHÉ (e-mail automatique pas encore en service, EMAIL_AUTO = false) ; code dans « pour_activer »" + (GRATUIT ? " ; gratuit : aucune phrase « motif »" : ""),
-    ap.querySelector(".code-commande #abo-code").textContent === codeC && ap.querySelectorAll("[data-email-auto]").length === 1 && ap.querySelector("[data-email-auto]").hidden && /var EMAIL_AUTO = false;/.test(lire("assets/abonnement.js"))
+  check("après l'envoi (FR) : code en GROS ; « Vous le recevez aussi par e-mail » AFFICHÉ (e-mail automatique en service, EMAIL_AUTO = true) ; code dans « pour_activer »" + (GRATUIT ? " ; gratuit : aucune phrase « motif »" : ""),
+    ap.querySelector(".code-commande #abo-code").textContent === codeC && ap.querySelectorAll("[data-email-auto]").length === 1 && !ap.querySelector("[data-email-auto]").hidden && /var EMAIL_AUTO = true;/.test(lire("assets/abonnement.js"))
     && corps.pour_activer.endsWith("code: " + codeC) && (!GRATUIT || !/motif|D17|IZI/.test(texte(ap)) && !ap.querySelector(".paie-etapes")));
   const memo = w.localStorage.getItem("pass-commande"), m = JSON.parse(memo || "{}");
   check("mémoire pass-commande : code, formule, date, lien Telegram — rien de personnel (ni nom, ni institution, ni pays, ni téléphone, ni e-mail)",
     m.code === codeC && m.formule === (GRATUIT ? "" : "1 mois") && /^\d{4}-\d{2}-\d{2}$/.test(m.date) && m.tg === lienC && Object.keys(m).sort().join() === "code,date,formule,tg"
     && !/Pr Test|Université X|Tunisie|24 000 000|24000000|prof@example/.test(JSON.stringify(Object.assign({}, w.localStorage))));
   const abo = lire("abonnement/index.html");
+  // e-mail automatique (A.17, 25/11/2026) : UNE demande JSON au service, avec les champs attendus par verifier() du Worker (sites.json « conferences »)
+  const jFr = emails[0] ? JSON.parse(emails[0].o.body) : {};
+  check("e-mail automatique (FR) : UNE demande à https://api-email.clicvia.com/inscription (POST JSON) avec site conferences, langue fr, nom, e-mail, CE code, spécialités, établissement, pays, lien Telegram",
+    emails.length === 1 && emails[0].u === "https://api-email.clicvia.com/inscription" && emails[0].o.method === "POST" && /application\/json/.test(emails[0].o.headers["Content-Type"])
+    && jFr.site === "conferences" && jFr.langue === "fr" && jFr.nom === "Pr Test" && jFr.email === "prof@example.org" && jFr.code === codeC
+    && Array.isArray(jFr.specialites) && jFr.specialites.join() === spec1 && jFr.etablissement === "Université X" && jFr.pays === "Tunisie" && jFr.lien_telegram === lienC && !("piege" in jFr));
+  check("CSP de la page abonnement/ : connect-src autorise https://api-email.clicvia.com (sinon le navigateur bloque l'e-mail automatique)",
+    /connect-src[^;"]*https:\/\/api-email\.clicvia\.com/.test(abo));
+  // inscription dans chaque langue de la page : la langue envoyée = celle choisie par le visiteur
+  const inscrire = async (lang, valeurs) => { const dd = new JSDOM(abo, { runScripts: "outside-only", url: URL_SITE + "abonnement/?lang=" + lang, pretendToBeVisual: true }), ww = dd.window, em = [], fs2 = [];
+    ww.fetch = (u, o) => { if (/api-email\.clicvia\.com/.test(u)) em.push(JSON.parse(o.body)); else fs2.push(u); return Promise.resolve({ ok: true, status: 200 }); };
+    ww.eval(lire("assets/page.js")); ww.eval(lire("assets/abonnement.js")); ww.document.dispatchEvent(new ww.Event("DOMContentLoaded"));
+    const f2 = ww.document.getElementById("abo-form");
+    for (const [k, v] of Object.entries(valeurs)) f2.querySelector(`[name="${k}"]`).value = v;
+    [...f2.querySelectorAll('input[name="specialites"]')].slice(0, 2).forEach(c => { c.checked = true; }); ww.document.getElementById("abo-conditions").checked = true;
+    f2.dispatchEvent(new ww.Event("submit", { bubbles: true, cancelable: true })); await new Promise(r => setTimeout(r, 30));
+    return { em, fs2, code: ww.document.getElementById("abo-code").textContent, lang: ww.document.documentElement.lang }; };
+  const jsons = { fr: jFr };
+  for (const [lang, nom] of [["en", "Dr Smith"], ["ar", "د. سامي"]]) {
+    const r = await inscrire(lang, { nom, etablissement: "Univ Y", pays: "Maroc", telephone: "+212 600 000 000", email: "x@example.org" });
+    jsons[lang] = r.em[0] || {};
+    check(`e-mail automatique (${lang.toUpperCase()}) : une demande au service en langue ${lang} (langue de la page), avec CE code, le nom, 2 spécialités`,
+      r.lang === lang && r.em.length === 1 && r.fs2.length === 1 && jsons[lang].langue === lang && jsons[lang].code === r.code && jsons[lang].nom === nom && jsons[lang].specialites.length === 2 && jsons[lang].site === "conferences");
+  }
+  { // le JSON envoyé est ACCEPTÉ par le vrai verifier() du Worker (dépôt projets-ahmed voisin ; absent sur GitHub : test sauté, jamais en échec)
+    const dossier = ["../projets-ahmed", "../../projets-ahmed"].map(x => resolve(root, x)).find(x => existsSync(join(x, "outils communs/email-clients/test_worker.mjs")));
+    if (dossier) {   // même paquet que deployer.py / test_worker.mjs : sites.json inséré dans worker.js à la place de SITES_ICI
+      const ec = join(dossier, "outils communs/email-clients"), wk = readFileSync(join(ec, "worker.js"), "utf8");
+      const tmp = join(mkdtempSync(join(tmpdir(), "email-")), "worker.mjs");
+      writeFileSync(tmp, wk.replace("/*SITES_ICI*/ {}", readFileSync(join(ec, "sites.json"), "utf8").trim()));
+      const W = await import(pathToFileURL(tmp).href), ORI = "https://conferences.clicvia.com";
+      for (const lang of ["fr", "en", "ar"]) { const v = W.verifier(jsons[lang], ORI);
+        check(`e-mail automatique (${lang.toUpperCase()}) : le JSON envoyé est ACCEPTÉ par le vrai verifier() du service (langue ${lang}, lien Telegram du robot avec CE code gardé)` + (v.erreur ? " — refus : " + v.erreur : ""),
+          !!v.d && v.d.langue === lang && v.d.lienTg === jsons[lang].lien_telegram && v.d.valeurs.specialites.length === jsons[lang].specialites.length && v.d.valeurs.pays && v.d.valeurs.etablissement); }
+    } else console.log("SAUTÉ e-mail automatique : verifier() du service (dépôt projets-ahmed absent, normal sur GitHub)");
+  }
   const revenir = (lang, valeur) => { const dd = new JSDOM(abo, { runScripts: "outside-only", url: URL_SITE + "abonnement/?lang=" + lang, pretendToBeVisual: true });
     if (valeur) dd.window.localStorage.setItem("pass-commande", valeur); dd.window.fetch = () => Promise.resolve({ ok: true });
     dd.window.eval(lire("assets/page.js")); dd.window.eval(lire("assets/abonnement.js")); dd.window.document.dispatchEvent(new dd.window.Event("DOMContentLoaded")); return dd.window; };
@@ -527,7 +569,7 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
       && (!GRATUIT || !at.querySelector(".paie-etapes") && !at.querySelector(".btn-wa")));
     if (lang === "fr") { d2.getElementById("abo-nouvelle").dispatchEvent(new w2.Event("click"));
       check("« Nouvelle commande » : mémoire effacée, bandeau caché, formulaire de nouveau visible", w2.localStorage.getItem("pass-commande") === null && at.hidden && !d2.getElementById("abo-form").hidden); } }
-  check("« reçu aussi par e-mail » (FR, EN, AR) : présent seulement en caché (hidden) tant que l'e-mail automatique n'est pas en service", [...abo.matchAll(/<p class="petit" data-email-auto hidden>/g)].length >= 1
+  check("« reçu aussi par e-mail » (FR, EN, AR) : seulement dans les éléments [data-email-auto] (affichés par abonnement.js quand EMAIL_AUTO = true)", [...abo.matchAll(/<p class="petit" data-email-auto hidden>/g)].length >= 1
     && /You also receive it by e-mail\./.test(abo) && abo.includes("يصلك أيضًا عبر البريد الإلكتروني.") && !/<p[^>]*>(?:(?!<\/p>)[\s\S])*receive it by e-mail/.test(abo.replace(/<p class="petit" data-email-auto hidden>[\s\S]*?<\/p>/g, "")));
   { const vieux = JSON.stringify(Object.assign({}, m, { date: new Date(Date.now() - 61 * 864e5).toISOString().slice(0, 10) }));
     const w3 = revenir("fr", vieux), w4 = revenir("fr", JSON.stringify(Object.assign({}, m, { code: "abc" })));
@@ -685,6 +727,8 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
 // chaque fonction visible du site (repère dans les pages ou le code) doit être expliquée dans a-propos/ (FR, EN, AR) ; nouvelle fonction = une ligne ici + la page
 { const apx = lire("a-propos/index.html"), acc2 = lire("index.html"), js = lire("assets/app.js") + lire("assets/page.js");
   const FONCTIONS = [
+    ["e-mail de confirmation automatique (A.17, 25/11/2026)", /var EMAIL_AUTO = true;/.test(lire("assets/abonnement.js")),
+      /E-mail de confirmation<\/b>[\s\S]*Confirmation e-mail<\/b>[\s\S]*بريد التأكيد<\/b>[\s\S]*Resend/],
     ["résumé du jour", /id="r-avenir"/.test(acc2), /Résumé du jour[\s\S]*Today's summary[\s\S]*ملخص اليوم/],
     ["dates limites cette semaine", /id="bientot"/.test(acc2), /Dates limites cette semaine[\s\S]*Deadlines this week/],
     ["recherche (aussi « au son »)", /id="f-q"/.test(acc2) && existsSync(join(root, "assets/son.js")), /Rechercher<\/b>[^<]*écritures proches/],

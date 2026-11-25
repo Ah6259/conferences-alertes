@@ -3,6 +3,7 @@
    - Envoi à Formspree (formulaire mwlpakqj, le même que « Votre avis ») sans quitter la page.
    - Les spécialités cochées sont envoyées en UNE ligne (ex. « vision, langage »), et une ligne « pour_activer »
      prête à recopier dans le bouton GitHub « activer-abonne » du dépôt privé.
+   - E-mail automatique (A.17, 25/11/2026) : la même demande part en JSON au service api-email.clicvia.com (jamais bloquant).
    - Après l'envoi : confirmation, code en GROS + « Vous le recevez aussi par e-mail » (parcours commun des Pass, règle commune § 70,
      25/11/2026), instructions Telegram (et, si le site redevient payant : paiement avec le code pour motif, WhatsApp pré-rempli).
    - Le téléphone se souvient de la commande (localStorage « pass-commande » : code, formule, date, lien Telegram ; JAMAIS nom,
@@ -15,9 +16,19 @@
   var T = function (fr, en, a) { return lg() === "ar" ? a : lg() === "fr" ? fr : en; };
   var SITE = ["Radar des conférences", "Conference Radar", "رادار المؤتمرات"], WA = "21624321390";
   var FORMULES = { "1 mois": ["1 mois", "1 month", "شهر"], "1 an": ["1 an", "1 year", "سنة"] };
-  // « Vous le recevez aussi par e-mail » : l'e-mail automatique n'est pas encore en service (25/11/2026) -> phrase cachée.
-  // Le jour où il marche : EMAIL_AUTO = true (les éléments [data-email-auto] s'affichent).
-  var EMAIL_AUTO = false;
+  // E-mail automatique au visiteur (A.17) : EN SERVICE depuis le 25/11/2026 (Worker « email-clients » + Resend, copie à Ahmed).
+  // EMAIL_AUTO = true : phrase « Vous le recevez aussi par e-mail » affichée ([data-email-auto]) et demande envoyée au service ;
+  // false = tout caché, rien envoyé (retour en arrière en un mot si le service tombe).
+  var EMAIL_AUTO = true;
+  var EMAIL_API = "https://api-email.clicvia.com/inscription";
+  // envoi au service d'e-mail : sans attendre la réponse, jamais bloquant (Formspree et le code restent la voie principale)
+  function envoyerEmail(d) {
+    if (!EMAIL_AUTO || !window.fetch) return;
+    try {
+      fetch(EMAIL_API, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(d), keepalive: true })
+        .catch(function () {});
+    } catch (e) {}
+  }
   var CLE = "pass-commande", JOURS = 60, FORMAT = /^[A-HJ-NP-Z2-9]{6}$/;
   var formuleLue = function (f) { var x = FORMULES[f]; return x ? T(x[0], x[1], x[2]) : (f || ""); };
   // message WhatsApp de la preuve de paiement (seulement si le site redevient payant) : code + formule déjà dedans
@@ -125,7 +136,11 @@
       if (!val("etablissement")) { dire("err", "Indiquez votre université ou institution.", "Enter your university or institution.", "اكتب جامعتك أو مؤسستك."); champ("etablissement").focus(); return; }
       if (!val("pays")) { dire("err", "Indiquez votre pays.", "Enter your country.", "اكتب بلدك."); champ("pays").focus(); return; }
       if (!tel) { dire("err", "Téléphone : 8 à 15 chiffres, avec l'indicatif (ex. +216 24 321 390).", "Phone: 8 to 15 digits, with country code (e.g. +216 24 321 390).", "الهاتف: من ⁦8⁩ إلى ⁦15⁩ رقمًا مع رمز البلد."); champ("telephone").focus(); return; }
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(val("email"))) { dire("err", "Indiquez une adresse e-mail valide.", "Enter a valid e-mail address.", "اكتب بريدًا إلكترونيًا صحيحًا."); champ("email").focus(); return; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(val("email"))) {
+        if (EMAIL_AUTO) dire("err", "Indiquez une adresse e-mail valide : vous y recevez votre code et le lien Telegram.", "Enter a valid e-mail address: you receive your code and the Telegram link there.", "اكتب بريدًا إلكترونيًا صحيحًا: يصلك عليه رمزك ورابط تيليغرام.");
+        else dire("err", "Indiquez une adresse e-mail valide.", "Enter a valid e-mail address.", "اكتب بريدًا إلكترونيًا صحيحًا.");
+        champ("email").focus(); return;
+      }
       if (!specs.length) { dire("err", "Cochez au moins une spécialité.", "Tick at least one specialty.", "اختر تخصصًا واحدًا على الأقل."); return; }
       if (!champ("conditions").checked) { dire("err", "Cochez « J'accepte les conditions de l'abonnement ».", "Tick “I accept the subscription terms”.", "يجب الموافقة على شروط الاشتراك."); return; }
 
@@ -152,6 +167,9 @@
       donnees.set("pour_activer", "nom: " + val("nom") + " (" + val("etablissement") + ", " + val("pays") + ") ; telephone: " + tel +
         " ; specialites: " + specs.join(",") + " ; langue: " + lg() + " ; code: " + code);
       donnees.set("code", code);                               // code personnel (motif du paiement)
+      // e-mail automatique au visiteur (code, spécialités, lien Telegram ; langue choisie sur la page ; Ahmed en copie)
+      envoyerEmail({ site: "conferences", langue: lg(), nom: val("nom"), email: val("email"), code: code, specialites: specs,
+        etablissement: val("etablissement"), pays: val("pays"), formule: formule, lien_telegram: tg });
       bouton.disabled = true;
       dire("", "Envoi…", "Sending…", "جارٍ الإرسال…");
       fetch(ADRESSE, { method: "POST", body: donnees, headers: { "Accept": "application/json" } })
