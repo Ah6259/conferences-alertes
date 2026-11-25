@@ -217,3 +217,13 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   envoyer CHAQUE site (LISEZMOI.md du module). Rien n'a changé pour le visiteur (comparaison avant / après en EN, FR et AR, gratuit ET payant
   simulé, e-mail automatique en service et coupé : 330 étapes identiques ; seule différence voulue : piège anti-robot rempli = la commande
   n'est plus gardée dans le téléphone).
+
+## 25/11/2026 — plan Google (chute d'octobre, fiche `memoire claude/chute-google-octobre-2026.md` de projets-ahmed)
+- **B.2 lastmod honnête** : `robot/lastmod.py` (même fichier que dans Appels d'offres et Concours) appelé par construire_site.py : date d'une
+  page = dernier VRAI changement (empreinte du HTML sans dates, heure, ?v=, `data-maj`, compte à rebours ni bandeau de panne ; mémoire
+  `donnees/lastmod.json` ; page inconnue = date retrouvée dans git) ; les rapports gardent la date de leurs chiffres ; la page vidéo a sa date.
+- **B.1 pages maigres** : `fiche_maigre()` = fiche SANS date limite, SANS rang et NON vérifiée sur le site officiel (surtout INSPIRE) ;
+  catégorie (spécialité, pays, mois, continent, domaine) de moins de 2 conférences. En ligne, mais `noindex, follow` et hors du plan du site ;
+  elles reviennent seules. Le 25/11 : 139 fiches sur 466 + 2 catégories ; plan du site 579 -> 438 adresses.
+- Tests (test_site.mjs, vérifiés par sabotage) : dates pas toutes du jour, date = donnees/lastmod.json, aucune page noindex dans le plan,
+  accueil / domaines / alertes… jamais noindex, règle des fiches et des catégories recalculée, lastmod.py avec données inventées.

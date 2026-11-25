@@ -597,7 +597,18 @@ def desc_seo(d, maxi=165):
     return coupe[:maxi - 1].rsplit(" ", 1)[0].rstrip(" ,;:—-(،") + "…"
 
 
-def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", classe_hero="", scripts=(), alternates=True, og_image=None, og_type="website"):
+def fiche_maigre(c):
+    """Plan Google B.1 (25/11/2026) : fiche de conférence MAIGRE = rien de propre à ce site au-delà du titre, des dates et du lieu :
+    AUCUNE date limite publiée, AUCUN rang (CORE, CCF…) et pas vérifiée sur le site officiel. Elle reste en ligne pour le visiteur
+    (liens depuis les listes), mais en noindex et hors du plan du site ; elle revient seule dès qu'une date limite ou un rang apparaît."""
+    return not (c.get("dates_limites") or c.get("date_limite") or c.get("rang") or c.get("verifie_le"))
+
+
+CATEGORIES = ("specialite/", "pays/", "mois/", "continent/", "domaine/")   # page de catégorie avec moins de 2 conférences = maigre (B.1)
+
+
+def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", classe_hero="", scripts=(), alternates=True, og_image=None, og_type="website",
+         indexer=True):
     titre, description = titre_seo(titre), desc_seo(description)
     canon = URL_SITE + chemin
     # 14/10/2026 (contrôle de visibilité, règle commune § 8) : PAS de hreflang vers « ?lang=fr/en/ar ». Le serveur renvoie la même
@@ -612,7 +623,7 @@ def page(chemin, racine, titre, description, hero, contenu, v, etat, jsonld="", 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="{CSP}">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="robots" content="noai, noimageai">
+<meta name="robots" content="{'noai, noimageai' if indexer else 'noindex, follow, noai, noimageai'}">
 <title>{E(titre)}</title>
 <meta name="description" content="{E(description)}">
 <link rel="canonical" href="{canon}">
@@ -764,7 +775,8 @@ def page_fiche(c, jour, v, etat, adr):
     desc = (f"{sigle}: {p[1]}{', ' + lieu_txt if lieu_txt else ''}. "
             + (f"Submission deadline {d3(limites_soumission(c, jour)[0]['date'])[1]}. " if limites_soumission(c, jour) else "")
             + f"Dates, deadlines, official link. Dates limites et lien officiel ({nom_spec(s0)[0]}).")
-    return f"conference/{c['id']}/", page(f"conference/{c['id']}/", racine, titre_page, desc, hero, contenu, v, etat, jsonld_event(c))
+    return f"conference/{c['id']}/", page(f"conference/{c['id']}/", racine, titre_page, desc, hero, contenu, v, etat, jsonld_event(c),
+                                          indexer=not fiche_maigre(c))
 
 
 # ------------------------------------------------------------ flux Atom (alertes gratuites sans données personnelles)
@@ -1626,22 +1638,34 @@ def construire(donnees, sortie, jour):
     ecrire_textes(sortie)
     v = version_assets(sortie)
     for chemin, contenu in pages:
+        if chemin.startswith(CATEGORIES) and contenu.count('<article class="cf') < 2:      # B.1 : catégorie d'une seule conférence
+            contenu = contenu.replace('<meta name="robots" content="noai, noimageai">', '<meta name="robots" content="noindex, follow, noai, noimageai">', 1)
         ecrire(sortie, chemin + "index.html", contenu.replace("__V__", v))
         if chemin in RESTES:           # reste de la liste (accueil léger, 19/11/2026)
             ecrire(sortie, chemin + "liste.json", json.dumps(RESTES[chemin], ensure_ascii=False, separators=(",", ":")))
         elif os.path.exists(os.path.join(sortie, chemin + "liste.json")):
             os.remove(os.path.join(sortie, chemin + "liste.json"))
-    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for chemin, _ in pages:
-        sitemap.append(f"  <url><loc>{URL_SITE}{chemin}</loc><lastmod>{lastmod.get(chemin, jour)}</lastmod></url>")
-    sitemap.append("</urlset>")
-    ecrire(sortie, "sitemap.xml", "\n".join(sitemap) + "\n")
     R.sauver(chemin_hist, hist)
     # pages vidéo (video/) tirées de la page À propos : mêmes en-tête, pied, CSP et ?v= (tools/page_video.py)
     sys.path.insert(0, os.path.join(RACINE_SITE, "tools"))
     from page_video import pages_video
     with open(os.path.join(RACINE_SITE, "tools", "page_video.json"), encoding="utf-8") as fv:
-        pages_video(sortie, json.load(fv))
+        videos = pages_video(sortie, json.load(fv))
+    # plan du site (25/11/2026, plan Google) : B.1 une page en noindex n'y est jamais ; B.2 date = dernier VRAI changement de chaque
+    # page (robot/lastmod.py, mémoire donnees/lastmod.json : empreinte sans dates, heure, ?v=, compte à rebours ni bandeau de panne),
+    # jamais « aujourd'hui » pour tout ; un rapport du mois garde la date de ses chiffres
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import lastmod as LM
+    noindex = lambda c: re.search(r'<meta name="robots" content="[^"]*noindex', open(os.path.join(sortie, c + "index.html"), encoding="utf-8").read())
+    chemins_sm = [c for c in [c for c, _ in pages] + list(videos) if os.path.exists(os.path.join(sortie, c + "index.html")) and not noindex(c)]
+    ignorer = [re.compile(r'<small class="reste">.*?</small>', re.S), re.compile(r'data-panne="\d"'), re.compile(r'data-maj(?:-texte)?="[^"]*"'),
+               re.compile(r'<div class="alerte-panne[^"]*" id="alerte-panne"[^>]*>.*?</div>', re.S)]
+    DATES = LM.dates(sortie, [c + "index.html" for c in chemins_sm], jour, "donnees/lastmod.json", ignorer)
+    sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    for chemin in chemins_sm:
+        sitemap.append(f"  <url><loc>{URL_SITE}{chemin}</loc><lastmod>{lastmod.get(chemin) or DATES.get(chemin + 'index.html') or jour}</lastmod></url>")
+    sitemap.append("</urlset>")
+    ecrire(sortie, "sitemap.xml", "\n".join(sitemap) + "\n")
     print(f"  {len(pages)} pages, {len(vis)} conférences à venir (sur {len(confs)} en mémoire), version {v}"
           f"{', AVERTISSEMENT : ' + raison if panne else ''}")
     return 0
