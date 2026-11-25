@@ -62,7 +62,7 @@ check("finance islamique : des spécialités dédiées dans la sélection (banqu
 async function page(chemin, params = "", { leger = false } = {}) {
   const dossier = dirname(join(root, chemin));
   const html = lire(chemin).replace(/<script([^>]*) src="(?!https?:)([^"?]+)(\?[^"]*)?"([^>]*)><\/script>/g,
-    (_, a, src) => `<script>${readFileSync(join(dossier, src), "utf8")}</script>`);
+    (_, a, src) => `<script>${readFileSync(join(dossier, src), "utf8").replace(/<\/script/gi, "<\\/script")}</script>`);   // « </script> » écrit dans un commentaire ne coupe pas la balise
   const dom = new JSDOM(html, { url: URL_SITE + chemin.replace("index.html", "") + "?" + params, runScripts: "dangerously", pretendToBeVisual: true });
   dom.window.fetch = async u => { const f = join(dossier, String(u).split("?")[0]); return existsSync(f) ? { ok: true, json: async () => JSON.parse(readFileSync(f, "utf8")) } : { ok: false, status: 404 }; };
   await new Promise(ok => dom.window.addEventListener("load", ok));
@@ -271,7 +271,21 @@ const sitemap = lire("sitemap.xml");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
 const nFiches = urls.filter(u => /\/conference\//.test(u)).length;
 check(`sitemap : ${urls.length} pages dont ${nFiches} fiches (une par conférence à venir)`, nFiches === avenir.length && urls.includes(URL_SITE) && urls.includes(URL_SITE + "abonnement/"));
-const v = createHash("sha1").update(Buffer.concat(["style.css", "textes.js", "page.js", "son.js", "app.js", "avis.js", "abonnement.js"].map(f =>
+// 25/11/2026 (PASS.1, module commun du parcours d'achat) : assets/pass-commun.js = COPIE EXACTE du module de projets-ahmed
+// (« outils communs/pass-commun/pass-commun.js », recopié par synchroniser.py) ; assets/pass-reglages.js = ce qui est propre au site.
+const PASS_JS = lire("assets/pass-commun.js") + "\n" + lire("assets/pass-reglages.js");
+check("abonnement : module commun du Pass (pass-commun.js) puis réglage du site (pass-reglages.js), seulement sur cette page, ancien abonnement.js retiré",
+  /<script src="\.\.\/assets\/pass-commun\.js\?v=[^"]+"><\/script>\s*<script src="\.\.\/assets\/pass-reglages\.js\?v=/.test(lire("abonnement/index.html"))
+  && !/pass-commun\.js|pass-reglages\.js|abonnement\.js/.test(lire("index.html")) && !existsSync(join(root, "assets/abonnement.js")) && !/abonnement\.js/.test(lire("abonnement/index.html")));
+{ // la copie du module n'est jamais modifiée dans le site : empreinte écrite par synchroniser.py ; projets-ahmed à côté (PC, cloud) = copie identique au module ; absent (GitHub) = contrôle sauté
+  const copie = readFileSync(join(root, "assets/pass-commun.js")), emp = createHash("sha256").update(copie).digest("hex");
+  const attendue = existsSync(join(root, "assets/pass-commun.empreinte")) ? lire("assets/pass-commun.empreinte").trim() : "";
+  check("module commun du Pass : assets/pass-commun.js NON modifié dans le site (empreinte écrite par synchroniser.py)", emp === attendue);
+  const original = [process.env.PROJETS_AHMED, join(root, "..", "projets-ahmed"), join(root, "..", "..", "projets-ahmed"), join(root, "..", "..")]   // dépôts VOISINS seulement (un vieux clone ailleurs ne compte pas)
+    .filter(Boolean).map(x => join(x, "outils communs", "pass-commun", "pass-commun.js")).find(x => existsSync(x));
+  if (original) check("module commun du Pass : copie identique au module de projets-ahmed (sinon : python3 synchroniser.py)", readFileSync(original).equals(copie));
+  else console.log("SAUTÉ copie du module commun : projets-ahmed absent (normal sur GitHub)"); }
+const v = createHash("sha1").update(Buffer.concat(["style.css", "textes.js", "page.js", "son.js", "app.js", "avis.js", "pass-commun.js", "pass-reglages.js"].map(f =>
   Buffer.from(readFileSync(join(root, "assets", f), "latin1").replace(/\r\n/g, "\n"), "latin1")))).digest("hex").slice(0, 8);
 let ok = { en: true, seo: true, v: true, h1: true, fichiers: true, copy: true, trad: true, src: true, meta: true, gc: true, ios: true, ext: true };
 for (const u of urls) {
@@ -514,7 +528,7 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
     ap.querySelectorAll(".etapes-tg li").length === 3 && /DÉMARRER/.test(texte(ap)) && /le matin suivant/.test(texte(ap)));
   // 25/11/2026 (parcours commun des Pass, règle commune § 70) : code en gros + « reçu aussi par e-mail » + mémoire « pass-commande » (FR, EN, AR)
   check("après l'envoi (FR) : code en GROS ; « Vous le recevez aussi par e-mail » AFFICHÉ (e-mail automatique en service, EMAIL_AUTO = true) ; code dans « pour_activer »" + (GRATUIT ? " ; gratuit : aucune phrase « motif »" : ""),
-    ap.querySelector(".code-commande #abo-code").textContent === codeC && ap.querySelectorAll("[data-email-auto]").length === 1 && !ap.querySelector("[data-email-auto]").hidden && /var EMAIL_AUTO = true;/.test(lire("assets/abonnement.js"))
+    ap.querySelector(".code-commande #abo-code").textContent === codeC && ap.querySelectorAll("[data-email-auto]").length === 1 && !ap.querySelector("[data-email-auto]").hidden && /var EMAIL_AUTO = true;/.test(lire("assets/pass-reglages.js"))
     && corps.pour_activer.endsWith("code: " + codeC) && (!GRATUIT || !/motif|D17|IZI/.test(texte(ap)) && !ap.querySelector(".paie-etapes")));
   const memo = w.localStorage.getItem("pass-commande"), m = JSON.parse(memo || "{}");
   check("mémoire pass-commande : code, formule, date, lien Telegram — rien de personnel (ni nom, ni institution, ni pays, ni téléphone, ni e-mail)",
@@ -532,7 +546,7 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
   // inscription dans chaque langue de la page : la langue envoyée = celle choisie par le visiteur
   const inscrire = async (lang, valeurs) => { const dd = new JSDOM(abo, { runScripts: "outside-only", url: URL_SITE + "abonnement/?lang=" + lang, pretendToBeVisual: true }), ww = dd.window, em = [], fs2 = [];
     ww.fetch = (u, o) => { if (/api-email\.clicvia\.com/.test(u)) em.push(JSON.parse(o.body)); else fs2.push(u); return Promise.resolve({ ok: true, status: 200 }); };
-    ww.eval(lire("assets/page.js")); ww.eval(lire("assets/abonnement.js")); ww.document.dispatchEvent(new ww.Event("DOMContentLoaded"));
+    ww.eval(lire("assets/page.js")); ww.eval(PASS_JS); ww.document.dispatchEvent(new ww.Event("DOMContentLoaded"));
     const f2 = ww.document.getElementById("abo-form");
     for (const [k, v] of Object.entries(valeurs)) f2.querySelector(`[name="${k}"]`).value = v;
     [...f2.querySelectorAll('input[name="specialites"]')].slice(0, 2).forEach(c => { c.checked = true; }); ww.document.getElementById("abo-conditions").checked = true;
@@ -546,7 +560,7 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
       r.lang === lang && r.em.length === 1 && r.fs2.length === 1 && jsons[lang].langue === lang && jsons[lang].code === r.code && jsons[lang].nom === nom && jsons[lang].specialites.length === 2 && jsons[lang].site === "conferences");
   }
   { // le JSON envoyé est ACCEPTÉ par le vrai verifier() du Worker (dépôt projets-ahmed voisin ; absent sur GitHub : test sauté, jamais en échec)
-    const dossier = ["../projets-ahmed", "../../projets-ahmed"].map(x => resolve(root, x)).find(x => existsSync(join(x, "outils communs/email-clients/test_worker.mjs")));
+    const dossier = [process.env.PROJETS_AHMED, "../projets-ahmed", "../../projets-ahmed"].filter(Boolean).map(x => resolve(root, x)).find(x => existsSync(join(x, "outils communs/email-clients/test_worker.mjs")));
     if (dossier) {   // même paquet que deployer.py / test_worker.mjs : sites.json inséré dans worker.js à la place de SITES_ICI
       const ec = join(dossier, "outils communs/email-clients"), wk = readFileSync(join(ec, "worker.js"), "utf8");
       const tmp = join(mkdtempSync(join(tmpdir(), "email-")), "worker.mjs");
@@ -559,7 +573,7 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
   }
   const revenir = (lang, valeur) => { const dd = new JSDOM(abo, { runScripts: "outside-only", url: URL_SITE + "abonnement/?lang=" + lang, pretendToBeVisual: true });
     if (valeur) dd.window.localStorage.setItem("pass-commande", valeur); dd.window.fetch = () => Promise.resolve({ ok: true });
-    dd.window.eval(lire("assets/page.js")); dd.window.eval(lire("assets/abonnement.js")); dd.window.document.dispatchEvent(new dd.window.Event("DOMContentLoaded")); return dd.window; };
+    dd.window.eval(lire("assets/page.js")); dd.window.eval(PASS_JS); dd.window.document.dispatchEvent(new dd.window.Event("DOMContentLoaded")); return dd.window; };
   const visible = (el, lang) => texte(el).length && [...el.querySelectorAll(`[data-l="${lang}"]`)].map(texte).join(" ");
   for (const [lang, titre, ouvrir, nouv] of [["fr", "Votre commande en attente :", "Ouvrir Telegram", "Nouvelle commande"], ["en", "Your pending order:", "Open Telegram", "New order"], ["ar", "طلبك في الانتظار:", "افتح تيليغرام", "طلب جديد"]]) {
     const w2 = revenir(lang, memo), d2 = w2.document, at = d2.getElementById("abo-attente"), vu = visible(at, lang);
@@ -569,7 +583,7 @@ if (!fa.getAttribute("data-robot")) {      // robot Telegram pas encore créé :
       && (!GRATUIT || !at.querySelector(".paie-etapes") && !at.querySelector(".btn-wa")));
     if (lang === "fr") { d2.getElementById("abo-nouvelle").dispatchEvent(new w2.Event("click"));
       check("« Nouvelle commande » : mémoire effacée, bandeau caché, formulaire de nouveau visible", w2.localStorage.getItem("pass-commande") === null && at.hidden && !d2.getElementById("abo-form").hidden); } }
-  check("« reçu aussi par e-mail » (FR, EN, AR) : seulement dans les éléments [data-email-auto] (affichés par abonnement.js quand EMAIL_AUTO = true)", [...abo.matchAll(/<p class="petit" data-email-auto hidden>/g)].length >= 1
+  check("« reçu aussi par e-mail » (FR, EN, AR) : seulement dans les éléments [data-email-auto] (affichés par le module commun quand EMAIL_AUTO = true)", [...abo.matchAll(/<p class="petit" data-email-auto hidden>/g)].length >= 1
     && /You also receive it by e-mail\./.test(abo) && abo.includes("يصلك أيضًا عبر البريد الإلكتروني.") && !/<p[^>]*>(?:(?!<\/p>)[\s\S])*receive it by e-mail/.test(abo.replace(/<p class="petit" data-email-auto hidden>[\s\S]*?<\/p>/g, "")));
   { const vieux = JSON.stringify(Object.assign({}, m, { date: new Date(Date.now() - 61 * 864e5).toISOString().slice(0, 10) }));
     const w3 = revenir("fr", vieux), w4 = revenir("fr", JSON.stringify(Object.assign({}, m, { code: "abc" })));
@@ -727,7 +741,7 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
 // chaque fonction visible du site (repère dans les pages ou le code) doit être expliquée dans a-propos/ (FR, EN, AR) ; nouvelle fonction = une ligne ici + la page
 { const apx = lire("a-propos/index.html"), acc2 = lire("index.html"), js = lire("assets/app.js") + lire("assets/page.js");
   const FONCTIONS = [
-    ["e-mail de confirmation automatique (A.17, 25/11/2026)", /var EMAIL_AUTO = true;/.test(lire("assets/abonnement.js")),
+    ["e-mail de confirmation automatique (A.17, 25/11/2026)", /var EMAIL_AUTO = true;/.test(lire("assets/pass-reglages.js")),
       /E-mail de confirmation<\/b>[\s\S]*Confirmation e-mail<\/b>[\s\S]*بريد التأكيد<\/b>[\s\S]*Resend/],
     ["résumé du jour", /id="r-avenir"/.test(acc2), /Résumé du jour[\s\S]*Today's summary[\s\S]*ملخص اليوم/],
     ["dates limites cette semaine", /id="bientot"/.test(acc2), /Dates limites cette semaine[\s\S]*Deadlines this week/],
@@ -743,7 +757,7 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
     ["signaler une conférence (organisateurs)", existsSync(join(root, "publier/index.html")), /Signaler une conférence<\/b>/],
     ["Alertes Pro (gratuites pour le moment ou payantes)", existsSync(join(root, "abonnement/index.html")),
       /Gratuit pour le moment/.test(lire("abonnement/index.html")) ? /Alertes Pro sur Telegram : gratuites pour le moment/ : /Payant : Alertes Pro sur Telegram/],
-    ["commande en attente gardée par le téléphone (code, Telegram)", /pass-commande/.test(lire("assets/abonnement.js")) && /id="abo-attente"/.test(lire("abonnement/index.html")),
+    ["commande en attente gardée par le téléphone (code, Telegram)", /pass-commande/.test(PASS_JS) && /id="abo-attente"/.test(lire("abonnement/index.html")),
       /Commande en attente<\/b>[\s\S]*60.jours[\s\S]*Nouvelle commande[\s\S]*Pending order<\/b>[\s\S]*طلب في الانتظار/],
     ["bouton Partager", /class="partager"/.test(js), /Partager<\/b>/],
     ["trois langues FR / EN / AR", /langue-conferences/.test(js), /Trois langues<\/b>/],

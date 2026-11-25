@@ -175,7 +175,7 @@ ABO = {
     # est gardé : remettre False pour revenir au payant (même interrupteur dans le robot privé : GRATUIT de tools/alertes.py).
     "gratuit": True,
 }
-# 25/11/2026 (parcours commun des Pass, règle commune § 70) : après l'inscription, assets/abonnement.js refait ces messages avec le code
+# 25/11/2026 (parcours commun des Pass, règle commune § 70) : après l'inscription, le module commun assets/pass-commun.js (réglé par assets/pass-reglages.js) refait ces messages avec le code
 TEXTE_PREUVE = "Voici ma preuve de paiement — Radar des conférences — code "
 TEXTE_ETRANGER = "Bonjour, je souhaite m'abonner aux Alertes Pro (Radar des conférences) depuis l'étranger. Ma commande : "
 
@@ -836,7 +836,7 @@ AIDE_TRANSFERT = '<details class="aide-transfert"><summary title="Voir comment f
 
 
 def liste_paiements(ident="abo-etranger", avec_code=False):
-    """avec_code : le motif affiche le code de la commande (rempli par assets/abonnement.js, attribut data-code)."""
+    """avec_code : le motif affiche le code de la commande (rempli par le module commun assets/pass-commun.js, attribut data-code)."""
     # paiement en 3 étapes numérotées + phrase de confiance (demande d'Ahmed, 08/10/2026 : simple, rassurant)
     applis = "".join(f'<a class="appli-btn" href="{APPLIS[m][0]}" target="_blank" rel="noopener noreferrer">{logo_appli(m)}</a>' for m in ABO["paiements"])
     ios = " · ".join(f'<a class="appli" href="{APPLIS[m][1]}" target="_blank" rel="noopener noreferrer">{m}</a>' for m in ABO["paiements"])
@@ -879,8 +879,8 @@ def etapes(langue, robot):
     return ETAPES_GRATUIT[langue] if ABO["gratuit"] and robot else ETAPES_ESSAI[langue, bool(robot)]
 
 
-# Parcours commun des Pass (règle commune § 70, 25/11/2026) : code en gros, « reçu aussi par e-mail » (affiché par assets/abonnement.js
-# quand EMAIL_AUTO = true : e-mail automatique EN SERVICE depuis le 25/11/2026, A.17), commande gardée par le téléphone.
+# Parcours commun des Pass (règle commune § 70, 25/11/2026) : code en gros, « reçu aussi par e-mail » (affiché par le module commun assets/pass-commun.js
+# quand EMAIL_AUTO = true dans assets/pass-reglages.js : e-mail automatique EN SERVICE depuis le 25/11/2026, A.17), commande gardée par le téléphone.
 # Alertes GRATUITES pour le moment : ni paiement ni phrase « motif » ; elles reviennent seules si ABO["gratuit"] repasse à False.
 PHRASE_CODE = L("C'est votre numéro de commande : écrivez-le dans le motif du paiement, il nous sert à reconnaître votre paiement.",
                 "This is your order number: write it in the payment reference, it helps us recognise your payment.",
@@ -902,7 +902,7 @@ def bloc_code():
 
 
 def bandeau_attente(robot):
-    """Bandeau « Votre commande en attente » (caché ; montré par assets/abonnement.js si le téléphone garde une commande)."""
+    """Bandeau « Votre commande en attente » (caché ; montré par le module commun assets/pass-commun.js si le téléphone garde une commande)."""
     if not robot:
         return ""
     gratuit = ABO["gratuit"]
@@ -1081,7 +1081,7 @@ def pages_abonnement(confs, adr, v, etat):
     titre = f"Pro Alerts: conferences of your specialty on Telegram — {prix_titre} · Alertes Pro | Conference Radar"
     desc = (f"Receive every morning on Telegram the new academic conferences of your specialties and deadline reminders. "
             + ("Free for now. " if gratuit else f"{pm} TND / month or {pa} TND / year, no automatic renewal. ") + "Alertes de conférences sur Telegram.")
-    res = [("abonnement/", page("abonnement/", "../", titre, desc, hero, contenu, v, etat, scripts=("abonnement.js",)))]
+    res = [("abonnement/", page("abonnement/", "../", titre, desc, hero, contenu, v, etat, scripts=("pass-commun.js", "pass-reglages.js")))]
 
     hero = f"""    <p class="fil"><a href="../../">{L("Accueil", "Home", "الرئيسية")}</a> › <a href="../">{L("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a> › {L("Conditions", "Terms", "الشروط")}</p>
     <h1>{L("Conditions de l'abonnement", "Subscription terms", "شروط الاشتراك")}</h1>
@@ -1153,7 +1153,7 @@ def pages_abonnement(confs, adr, v, etat):
 # ------------------------------------------------------------ construction
 def version_assets(sortie):
     h = hashlib.sha1()
-    for f in ("style.css", "textes.js", "page.js", "son.js", "app.js", "avis.js", "abonnement.js"):
+    for f in ("style.css", "textes.js", "page.js", "son.js", "app.js", "avis.js", "pass-commun.js", "pass-reglages.js"):
         p = os.path.join(sortie, "assets", f)
         if os.path.exists(p):
             with open(p, "rb") as fh:

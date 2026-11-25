@@ -112,7 +112,7 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
 - `python tools/visiteur_simule.py` (outil COMMUN, copie identique dans chaque site : ne pas le modifier ici) : liens/images morts, puis Chromium à 390 px (page trop large, image cassée, « NaN/undefined », page vide) + scénarios `tools/scenarios-visiteur.json` (recherche, filtres, résultat affiché, groupes « croissant »). Lancé par tests.yml. Nouvelle recherche, nouveau filtre ou nouveau formulaire → ajouter un scénario. Page `video/` : `preload="none"` (la couverture reste affichée ; la page finit de charger sans attendre la vidéo, moins de données sur téléphone ; le visiteur simulé la voyait « non chargée » avec `metadata`).
 
 ## Code personnel des Alertes Pro (18/10/2026, contrôle commun « case du code »)
-- Ce site n'a AUCUNE case où le visiteur tape un code : `abonnement/` CRÉE le code (6 caractères, `assets/abonnement.js`), l'affiche
+- Ce site n'a AUCUNE case où le visiteur tape un code : `abonnement/` CRÉE le code (6 caractères, module commun `assets/pass-commun.js` réglé par `assets/pass-reglages.js`), l'affiche
   (`#abo-code`) et le met dans le lien Telegram ; rien dans localStorage. Plus d'essai gratuit depuis le 20/10/2026.
 - Corrigé : la page (bloc « Paiement » et après l'inscription) et les conditions disaient « motif = votre nom » alors que les étapes
   disent « Motif : votre code personnel » -> partout « code personnel » (FR, EN, AR ; test dans test_site.mjs).
@@ -196,10 +196,24 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   Tests : section I de tools/test_pannes.py (5).
 
 ## 25/11/2026 — e-mail de confirmation automatique EN SERVICE (A.17, méthode `outils communs/email-clients/BRANCHER-UN-SITE.md` de projets-ahmed)
-- `assets/abonnement.js` : `EMAIL_AUTO = true` ; à l'inscription (après les vérifications, jamais si le piège anti-robot est rempli),
+- `assets/pass-reglages.js` (avant le 25/11 : `assets/abonnement.js`) : `EMAIL_AUTO = true` ; à l'inscription (après les vérifications, jamais si le piège anti-robot est rempli),
   `envoyerEmail()` envoie en JSON à `https://api-email.clicvia.com/inscription` (sans attendre, jamais bloquant) : site `conferences`,
   langue de la page (fr / en / ar), nom, e-mail, code, spécialités, établissement, pays, formule (vide : gratuit), lien Telegram.
   Service en panne -> `EMAIL_AUTO = false` (tout caché, rien envoyé). CSP `connect-src` + `EMAIL_API` dans robot/construire_site.py.
 - « Vous le recevez aussi par e-mail » affiché ; « Comment fonctionne le site ? » : « E-mail de confirmation » + Resend dans « Vos données ».
 - Tests (test_site.mjs) : sans e-mail = message long et rien envoyé ; JSON FR / EN / AR ; CSP ; JSON ACCEPTÉ par le vrai `verifier()` du
   Worker (lu dans ../projets-ahmed s'il existe, sinon « SAUTÉ », jamais rouge sur GitHub) ; ligne FONCTIONS. Aucune phrase de paiement.
+
+## 25/11/2026 — PASS.1 : parcours d'achat par le MODULE COMMUN (règle commune § 70.8, 3e site migré après Concours et Appels d'offres)
+- `assets/abonnement.js` est SUPPRIMÉ. La page `abonnement/` charge `assets/pass-commun.js` (COPIE EXACTE du module
+  `outils communs/pass-commun/pass-commun.js` de projets-ahmed : **ne jamais la modifier ici**) puis `assets/pass-reglages.js` (ce qui est
+  propre au site : 3 langues en / fr / ar, alertes GRATUITES (`type: "alertes-gratuit"`, formules 1 mois / 1 an prêtes si le site redevient
+  payant), code 6 caractères sans O/0/I/1, téléphone international, établissement, pays, spécialités, lien Telegram, ligne `pour_activer`
+  avec la langue, champs de l'e-mail, message e-mail « … vous y recevez votre code et le lien Telegram. », WhatsApp sans nom, liens
+  « depuis l'étranger » ; `var EMAIL_AUTO = true`).
+  `assets/pass-commun.empreinte` = empreinte écrite par `synchroniser.py` ; test_site.mjs échoue si la copie est modifiée (et, si projets-ahmed
+  est à côté — ou `PROJETS_AHMED=<dossier>` —, si elle diffère du module) ; la demande d'e-mail reste vérifiée par le vrai `verifier()`.
+- Améliorer le parcours : modifier le module dans projets-ahmed, `python3 "outils communs/pass-commun/synchroniser.py"`, reconstruire, tests,
+  envoyer CHAQUE site (LISEZMOI.md du module). Rien n'a changé pour le visiteur (comparaison avant / après en EN, FR et AR, gratuit ET payant
+  simulé, e-mail automatique en service et coupé : 330 étapes identiques ; seule différence voulue : piège anti-robot rempli = la commande
+  n'est plus gardée dans le téléphone).
