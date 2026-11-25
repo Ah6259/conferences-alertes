@@ -2379,14 +2379,14 @@
 "2026-11": {
 "chiffres": {
 "afrique": 0,
-"evenements": 60,
-"limites": 65,
-"limites_conferences": 53,
+"evenements": 59,
+"limites": 64,
+"limites_conferences": 52,
 "par_continent": {
 "amerique-nord": 14,
 "amerique-sud": 3,
 "asie": 26,
-"europe": 15,
+"europe": 14,
 "oceanie": 2
 },
 "par_domaine": {
@@ -2395,12 +2395,12 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 7,
+"physique": 6,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 59
+"presentiel": 58
 },
 "par_pays": {
 "AU": 2,
@@ -2422,14 +2422,13 @@
 "NL": 1,
 "OM": 1,
 "QA": 1,
-"RU": 1,
 "SA": 1,
 "SG": 2,
 "TR": 1,
 "US": 14
 },
 "par_specialite": {
-"astro": 4,
+"astro": 3,
 "banque-islamique": 3,
 "bioinformatique": 1,
 "calcul-physique": 1,
@@ -2457,11 +2456,11 @@
 "vision": 2
 },
 "par_type": {
-"atelier": 2,
+"atelier": 1,
 "conference": 55,
 "ecole": 3
 },
-"pays": 24,
+"pays": 23,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -3512,27 +3511,6 @@
 "ville": "Tokyo"
 },
 {
-"acronyme": "HEPFTXXXVIII",
-"annee": 2026,
-"continent": "europe",
-"debut": "2026-11-24",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-26",
-"id": "hepftxxxviii-2026",
-"lien": "https://indico.ihep.su/e/hepftXXXVIII",
-"limites": [],
-"mode": "presentiel",
-"pays": "RU",
-"specialites": [
-"astro"
-],
-"titre": "The XXXVIII International Workshop on High Energy Physics and Field Theory — Current Issues in Gravitation and Cosmology",
-"type": "atelier",
-"ville": "Geneva"
-},
-{
 "acronyme": "IFN Kuwait 2026",
 "annee": 2026,
 "continent": "asie",
@@ -4432,32 +4410,6 @@
 "titre": "ACM Conference on Embedded Networked Sensor Systems",
 "type": "conference",
 "ville": "Boulder"
-},
-{
-"acronyme": "CCGRID",
-"annee": 2027,
-"continent": "amerique-nord",
-"debut": "2027-05-24",
-"domaines": [
-"informatique"
-],
-"fin": "2027-05-27",
-"id": "ccgrid-2027",
-"lien": "https://hpcclab.org/ccgrid27/",
-"limites": [
-{
-"date": "2026-11-24",
-"type": "resume"
-}
-],
-"mode": "presentiel",
-"pays": "US",
-"specialites": [
-"systemes"
-],
-"titre": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
-"type": "conference",
-"ville": "Dallas-Fort Worth"
 },
 {
 "acronyme": "CSCWD",

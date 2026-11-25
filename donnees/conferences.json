@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-24 15:55",
- "derniere_lecture_reussie": "2026-11-24 15:55",
+ "mis_a_jour": "2026-11-25 15:29",
+ "derniere_lecture_reussie": "2026-11-25 15:29",
  "dernier_passage": {
-  "date": "2026-11-24 15:55",
+  "date": "2026-11-25 15:29",
   "reussi": true
  },
  "statut_source": {
@@ -17,7 +17,7 @@
    "etat": "ok",
    "nombre": 263,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
@@ -57,28 +57,28 @@
    "etat": "ok",
    "nombre": 17,
    "brutes": 36,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
    "nombre": 132,
-   "brutes": 158,
-   "derniere_reussite": "2026-11-24 15:55",
+   "brutes": 157,
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 47,
+   "nombre": 46,
    "brutes": 64,
-   "derniere_reussite": "2026-11-24 15:55",
+   "derniere_reussite": "2026-11-25 15:29",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 468,
+ "nombre": 467,
  "conferences": [
   {
    "id": "icpads-2026",
@@ -162,54 +162,6 @@
    ],
    "lien": "https://bmvc2026.bmva.org/",
    "rang": "CORE A · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iceccs-2026",
-   "acronyme": "ICECCS",
-   "titre": "International Conference on Engineering of Complex Computer Systems",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-11-24",
-   "ville": "Brisbane",
-   "pays": "AU",
-   "mode": "presentiel",
-   "continent": "oceanie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-20",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-20",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://formal-analysis.com/iceccs/2026/",
-   "rang": "CORE B · CCF C",
    "sources": [
     "ccfddl"
    ],
@@ -401,72 +353,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "hepftxxxviii-2026",
-   "acronyme": "HEPFTXXXVIII",
-   "titre": "The XXXVIII International Workshop on High Energy Physics and Field Theory — Current Issues in Gravitation and Cosmology",
-   "annee": 2026,
-   "type": "atelier",
-   "debut": "2026-11-24",
-   "fin": "2026-11-26",
-   "ville": "Geneva",
-   "pays": "RU",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "astro"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://indico.ihep.su/e/hepftXXXVIII",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3172793",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ifn-kuwait-2026",
-   "acronyme": "IFN Kuwait 2026",
-   "titre": "IFN Kuwait Dialogues 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-24",
-   "fin": "2026-11-24",
-   "ville": "Kuwait City",
-   "pays": "KW",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "banque-islamique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://redmoneyevents.com/event/ifnkuwait2026/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://redmoneyevents.com/event/ifnkuwait2026/",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -4512,6 +4398,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "winter-workshop-on-geometry-mechanics-information-2027",
+   "acronyme": "",
+   "titre": "Winter Workshop on Geometry, Mechanics, Information and Quantum Mechanics",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-01-18",
+   "fin": "2027-01-22",
+   "ville": "Madrid",
+   "pays": "ES",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "physique-theorique",
+    "quantique",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.icmat.es/congresos/2027/GMIQM/index.php",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3233695",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-25"
   },
   {
    "id": "qis-hep-2027",
@@ -9733,6 +9654,54 @@
    "ajoute_le": "2026-11-22"
   },
   {
+   "id": "satml-2027",
+   "acronyme": "SATML",
+   "titre": "IEEE Conference on Secure and Trustworthy Machine Learning",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-04",
+   "fin": "2027-05-06",
+   "ville": "Reykjavik",
+   "pays": "IS",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "securite"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-09-22",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    },
+    {
+     "date": "2026-09-29",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "23:59",
+     "fuseau": "UTC-12"
+    }
+   ],
+   "lien": "https://satml.org/",
+   "rang": "",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-25"
+  },
+  {
    "id": "ias-2027",
    "acronyme": "IAS 2027",
    "titre": "28e Université de printemps de l'audit social (IAS)",
@@ -11096,20 +11065,20 @@
    "specialites": [
     "systemes"
    ],
-   "date_limite": "2026-11-24",
+   "date_limite": "2026-12-01",
    "type_limite": "resume",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
-     "date": "2026-11-24",
+     "date": "2026-12-01",
      "type": "resume",
      "libelle": "Abstract",
      "heure": "23:59",
      "fuseau": "AoE"
     },
     {
-     "date": "2026-12-01",
+     "date": "2026-12-08",
      "type": "article",
      "libelle": "Paper",
      "heure": "23:59",

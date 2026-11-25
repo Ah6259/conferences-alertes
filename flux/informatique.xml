@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/informatique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/informatique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-24T06:00:00Z</updated>
+<updated>2026-11-25T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/satml-2027/</id>
+<title>SATML 2027 — IEEE Conference on Secure and Trustworthy Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/satml-2027/"/>
+<updated>2026-11-25T06:00:00Z</updated>
+<summary>4–6 May 2027 · Reykjavik, Iceland · Deadline: 22 Sep 2026, 29 Sep 2026 · Official: https://satml.org/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/ecscw-2027/</id>
 <title>ECSCW 2027 — European Conference on Computer Supported Cooperative Work</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/imwut-ubicomp-iswc-2027/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>3–7 Oct 2027 · Seoul Dragon City, South Korea · Deadline: 1 Nov 2026, 1 Feb 2027, 1 May 2027 · Official: https://dl.acm.org/journal/imwut/how-to-submit</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/iros-2027/</id>
-<title>IROS 2027 — IEEE/RSJ International Conference on Intelligent Robots and Systems</title>
-<link href="https://conferences.clicvia.com/conference/iros-2027/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>27 Sep – 1 Oct 2027 · Florence, Italy · Deadline: 1 Mar 2027 · Official: https://2027.ieee-iros.org/</summary>
 </entry>
 </feed>

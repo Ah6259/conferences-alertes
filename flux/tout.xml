@@ -4,9 +4,23 @@
 <id>https://conferences.clicvia.com/flux/tout.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/tout.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-24T06:00:00Z</updated>
+<updated>2026-11-25T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/satml-2027/</id>
+<title>SATML 2027 — IEEE Conference on Secure and Trustworthy Machine Learning</title>
+<link href="https://conferences.clicvia.com/conference/satml-2027/"/>
+<updated>2026-11-25T06:00:00Z</updated>
+<summary>4–6 May 2027 · Reykjavik, Iceland · Deadline: 22 Sep 2026, 29 Sep 2026 · Official: https://satml.org/</summary>
+</entry>
+<entry>
+<id>https://conferences.clicvia.com/conference/winter-workshop-on-geometry-mechanics-information-2027/</id>
+<title>Winter Workshop on Geometry, Mechanics, Information and Quantum Mechanics</title>
+<link href="https://conferences.clicvia.com/conference/winter-workshop-on-geometry-mechanics-information-2027/"/>
+<updated>2026-11-25T06:00:00Z</updated>
+<summary>18–22 Jan 2027 · Madrid, Spain · Deadline: see official website · Official: https://www.icmat.es/congresos/2027/GMIQM/index.php</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/alphas-2027/</id>
 <title>alphas-2027 — alphas-2027: Workshop on Precision Measurements of the Strong Coupling Constant</title>
@@ -412,19 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/machine-learning-physics-across-scales-from-2026/"/>
 <updated>2026-11-05T06:00:00Z</updated>
 <summary>1–3 Dec 2026 · Tokyo, Japan · Deadline: see official website · Official: https://indico2.riken.jp/event/5793/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/</id>
-<title>Simulating Extreme Spacetimes with SpEC and SpECTRE II: Summer school and developers’ meeting</title>
-<link href="https://conferences.clicvia.com/conference/simulating-extreme-spacetimes-with-spec-and-2027/"/>
-<updated>2026-11-04T06:00:00Z</updated>
-<summary>19–23 Jul 2027 · Providence, United States · Deadline: see official website · Official: https://icerm.brown.edu/program/topical_workshop/tw-27-ses2</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/</id>
-<title>13th Workshop on Flavor Symmetries and Consequences in Accelerators and Cosmology (FLASY 2027)</title>
-<link href="https://conferences.clicvia.com/conference/13th-workshop-on-flavor-symmetries-and-2027/"/>
-<updated>2026-11-04T06:00:00Z</updated>
-<summary>4–9 Jul 2027 · Hyderabad, India · Deadline: see official website · Official: https://indico.global/e/flasy27</summary>
 </entry>
 </feed>
