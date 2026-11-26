@@ -1,8 +1,8 @@
 {
  "_version": 2,
  "a-propos/index.html": {
-  "empreinte": "068716a08fe2152b",
-  "date": "2026-11-25"
+  "empreinte": "002db82fc95c90a0",
+  "date": "2026-11-26"
  },
  "abonnement/conditions/index.html": {
   "empreinte": "4e95c675203109fd",
@@ -333,8 +333,8 @@
   "date": "2026-11-25"
  },
  "conference/dasfaa-2027/index.html": {
-  "empreinte": "21083e1d923bac08",
-  "date": "2026-11-25"
+  "empreinte": "7edfb45f6beffeac",
+  "date": "2026-11-26"
  },
  "conference/date-2027/index.html": {
   "empreinte": "5900d4760f88ef57",
@@ -353,8 +353,8 @@
   "date": "2026-11-25"
  },
  "conference/dsn-2027/index.html": {
-  "empreinte": "0b7dc9e59f7faf9c",
-  "date": "2026-11-25"
+  "empreinte": "3f4cb2925d33caf1",
+  "date": "2026-11-26"
  },
  "conference/eaa-2027/index.html": {
   "empreinte": "00dc787b8fb8e093",
@@ -441,8 +441,8 @@
   "date": "2026-11-25"
  },
  "conference/euros-p-2027/index.html": {
-  "empreinte": "0473c80afc33ca90",
-  "date": "2026-11-25"
+  "empreinte": "abeb384faf1aeed4",
+  "date": "2026-11-26"
  },
  "conference/eurosys-2027/index.html": {
   "empreinte": "f63450687041e50b",
@@ -980,10 +980,6 @@
   "empreinte": "f3e3ec3f5a5727c9",
   "date": "2026-11-25"
  },
- "conference/mobihoc-2026/index.html": {
-  "empreinte": "a3ad3a7ba71c041f",
-  "date": "2026-11-25"
- },
  "conference/mobilehci-2027/index.html": {
   "empreinte": "c8f27e44ebb6b7c9",
   "date": "2026-11-25"
@@ -1041,8 +1037,8 @@
   "date": "2026-11-25"
  },
  "conference/oopsla-2027/index.html": {
-  "empreinte": "44a8eb03247e99de",
-  "date": "2026-11-25"
+  "empreinte": "9a8c6eb59b80c62f",
+  "date": "2026-11-26"
  },
  "conference/osdi-2027/index.html": {
   "empreinte": "844159e160dab86d",
@@ -1085,8 +1081,8 @@
   "date": "2026-11-25"
  },
  "conference/popl-2027/index.html": {
-  "empreinte": "59f8daf41a7a1696",
-  "date": "2026-11-25"
+  "empreinte": "4047a1cd22f09fef",
+  "date": "2026-11-26"
  },
  "conference/ppopp-2027/index.html": {
   "empreinte": "3ff743c31e0b7eb7",
@@ -1149,8 +1145,8 @@
   "date": "2026-11-25"
  },
  "conference/saner-2027/index.html": {
-  "empreinte": "4a2da85b1e684aeb",
-  "date": "2026-11-25"
+  "empreinte": "1dc8eb4e3193cf01",
+  "date": "2026-11-26"
  },
  "conference/sarac-2027/index.html": {
   "empreinte": "d63b358876142c86",
@@ -1185,8 +1181,8 @@
   "date": "2026-11-25"
  },
  "conference/sgp-2027/index.html": {
-  "empreinte": "a9fd7b599ca1f9d9",
-  "date": "2026-11-25"
+  "empreinte": "adefd6739865cfaa",
+  "date": "2026-11-26"
  },
  "conference/sigcomm-2027/index.html": {
   "empreinte": "b3cc244b113d42ad",
@@ -1195,6 +1191,10 @@
  "conference/sigcse-2027/index.html": {
   "empreinte": "5569e4b86ad8d48b",
   "date": "2026-11-25"
+ },
+ "conference/siggraph-2027/index.html": {
+  "empreinte": "8f6a563f086e04bb",
+  "date": "2026-11-26"
  },
  "conference/sigir-2027/index.html": {
   "empreinte": "52c22d2e6cf89d5b",
@@ -1249,8 +1249,8 @@
   "date": "2026-11-25"
  },
  "conference/spm-2027/index.html": {
-  "empreinte": "21d4f5fdb87dc899",
-  "date": "2026-11-25"
+  "empreinte": "234e08ed8d9478f5",
+  "date": "2026-11-26"
  },
  "conference/stoc-2027/index.html": {
   "empreinte": "5e1f74f9058df712",
@@ -1277,8 +1277,8 @@
   "date": "2026-11-25"
  },
  "conference/vldb-2027/index.html": {
-  "empreinte": "697f9ac789096667",
-  "date": "2026-11-25"
+  "empreinte": "989065f4bc649480",
+  "date": "2026-11-26"
  },
  "conference/vmcai-2027/index.html": {
   "empreinte": "b083a8884feaf6cf",
@@ -1325,256 +1325,256 @@
   "date": "2026-11-25"
  },
  "continent/afrique/index.html": {
-  "empreinte": "7dac7fc78623bd97",
-  "date": "2026-11-25"
+  "empreinte": "3badccb1d6d8789e",
+  "date": "2026-11-26"
  },
  "continent/amerique-nord/index.html": {
-  "empreinte": "c5d9ac63a7ff193b",
-  "date": "2026-11-25"
+  "empreinte": "3c1bdeec8443821f",
+  "date": "2026-11-26"
  },
  "continent/amerique-sud/index.html": {
-  "empreinte": "33266c110e71a9ee",
-  "date": "2026-11-25"
+  "empreinte": "4c5634caafbefff2",
+  "date": "2026-11-26"
  },
  "continent/asie/index.html": {
-  "empreinte": "bc09985bc8d8f564",
-  "date": "2026-11-25"
+  "empreinte": "5ec4158983b37113",
+  "date": "2026-11-26"
  },
  "continent/europe/index.html": {
-  "empreinte": "8542e64df980dbef",
-  "date": "2026-11-25"
+  "empreinte": "3a9d4c1538dfba86",
+  "date": "2026-11-26"
  },
  "continent/oceanie/index.html": {
-  "empreinte": "a2d3dc6feb3a0786",
-  "date": "2026-11-25"
+  "empreinte": "808f306830537667",
+  "date": "2026-11-26"
  },
  "domaine/comptabilite/index.html": {
-  "empreinte": "7b369cd668ee563d",
-  "date": "2026-11-25"
+  "empreinte": "266530d2df4fa38b",
+  "date": "2026-11-26"
  },
  "domaine/finance-islamique/index.html": {
-  "empreinte": "03c50ea1a5161f53",
-  "date": "2026-11-25"
+  "empreinte": "957c9b74a09d7c57",
+  "date": "2026-11-26"
  },
  "domaine/finance/index.html": {
-  "empreinte": "b8eba013fdd254d6",
-  "date": "2026-11-25"
+  "empreinte": "f4187a56a789d7fc",
+  "date": "2026-11-26"
  },
  "domaine/informatique/index.html": {
-  "empreinte": "1e2c1720e647e153",
-  "date": "2026-11-25"
+  "empreinte": "04199aeebfea3943",
+  "date": "2026-11-26"
  },
  "domaine/ingenierie/index.html": {
-  "empreinte": "88217a0f8977b1bc",
-  "date": "2026-11-25"
+  "empreinte": "41613e1df26d6178",
+  "date": "2026-11-26"
  },
  "domaine/physique/index.html": {
-  "empreinte": "da979ae21781e02d",
-  "date": "2026-11-25"
+  "empreinte": "84e9e59ea2831eee",
+  "date": "2026-11-26"
  },
  "domaine/vie-sante/index.html": {
-  "empreinte": "767b19417b5a0f53",
-  "date": "2026-11-25"
+  "empreinte": "dbc9000c26c4a0d9",
+  "date": "2026-11-26"
  },
  "flux/index.html": {
   "empreinte": "0659bbb6052e8ef8",
   "date": "2026-11-25"
  },
  "index.html": {
-  "empreinte": "4713e01c87beaf0b",
-  "date": "2026-11-25"
+  "empreinte": "68c368fd25fa2b42",
+  "date": "2026-11-26"
  },
  "mois/2026-11/index.html": {
-  "empreinte": "05edea7b2eafa315",
-  "date": "2026-11-25"
+  "empreinte": "c3428670bbce8662",
+  "date": "2026-11-26"
  },
  "mois/2026-12/index.html": {
-  "empreinte": "46dcab03648edbdd",
-  "date": "2026-11-25"
+  "empreinte": "32adfa1d0297cc8d",
+  "date": "2026-11-26"
  },
  "mois/2027-01/index.html": {
-  "empreinte": "210f230e02e57e2c",
-  "date": "2026-11-25"
+  "empreinte": "a24e4917b1cb5bba",
+  "date": "2026-11-26"
  },
  "mois/2027-02/index.html": {
-  "empreinte": "925f4b43c37feda2",
-  "date": "2026-11-25"
+  "empreinte": "a5221f991091d3e7",
+  "date": "2026-11-26"
  },
  "mois/2027-03/index.html": {
-  "empreinte": "4273e300e136755a",
-  "date": "2026-11-25"
+  "empreinte": "b921a18f99b3ade4",
+  "date": "2026-11-26"
  },
  "mois/2027-04/index.html": {
-  "empreinte": "eb1a0578bcabca05",
-  "date": "2026-11-25"
+  "empreinte": "119d89b038a94edf",
+  "date": "2026-11-26"
  },
  "mois/2027-05/index.html": {
-  "empreinte": "8e0240f9673a6254",
-  "date": "2026-11-25"
+  "empreinte": "2dc3acd89bb60fe3",
+  "date": "2026-11-26"
  },
  "mois/2027-06/index.html": {
-  "empreinte": "fbe8f1a7da6a68a1",
-  "date": "2026-11-25"
+  "empreinte": "38831de505e2fc4a",
+  "date": "2026-11-26"
  },
  "mois/2027-07/index.html": {
-  "empreinte": "4ba61b330effc162",
-  "date": "2026-11-25"
+  "empreinte": "c7ebfabce60b42c7",
+  "date": "2026-11-26"
  },
  "mois/2027-08/index.html": {
-  "empreinte": "4c28c2e6cbb6e10b",
-  "date": "2026-11-25"
+  "empreinte": "520a56bda1767793",
+  "date": "2026-11-26"
  },
  "mois/2027-09/index.html": {
-  "empreinte": "e4bd13851bc9b9c8",
-  "date": "2026-11-25"
+  "empreinte": "b550701ea712366a",
+  "date": "2026-11-26"
  },
  "mois/2027-10/index.html": {
-  "empreinte": "807481baf2357cc6",
-  "date": "2026-11-25"
+  "empreinte": "217d5d78c13b9f9b",
+  "date": "2026-11-26"
  },
  "mois/2027-11/index.html": {
-  "empreinte": "a7390887d26e4950",
-  "date": "2026-11-25"
+  "empreinte": "7f9091efc5c5f547",
+  "date": "2026-11-26"
  },
  "mois/2027-12/index.html": {
-  "empreinte": "4470f7c94f694d51",
-  "date": "2026-11-25"
+  "empreinte": "4b435cc17f398622",
+  "date": "2026-11-26"
  },
  "mois/2028-02/index.html": {
-  "empreinte": "6740831d77c2a457",
-  "date": "2026-11-25"
+  "empreinte": "de11bea48bf62d60",
+  "date": "2026-11-26"
  },
  "mois/2028-05/index.html": {
-  "empreinte": "c36ec37aa9482ed3",
-  "date": "2026-11-25"
+  "empreinte": "fb8f1ca9c34d15ed",
+  "date": "2026-11-26"
  },
  "pays/at/index.html": {
-  "empreinte": "96fd0431e98c3e76",
-  "date": "2026-11-25"
+  "empreinte": "9c00b28876c0834a",
+  "date": "2026-11-26"
  },
  "pays/au/index.html": {
-  "empreinte": "6e7afeb94c3a63d0",
-  "date": "2026-11-25"
+  "empreinte": "7559e570de18cace",
+  "date": "2026-11-26"
  },
  "pays/br/index.html": {
-  "empreinte": "16b6945941dc906c",
-  "date": "2026-11-25"
+  "empreinte": "a1cb14eceecbc2ca",
+  "date": "2026-11-26"
  },
  "pays/ca/index.html": {
-  "empreinte": "32b0262c624d1ae8",
-  "date": "2026-11-25"
+  "empreinte": "85b0f8b3d8db3893",
+  "date": "2026-11-26"
  },
  "pays/ch/index.html": {
-  "empreinte": "96f804b4a91e7b45",
-  "date": "2026-11-25"
+  "empreinte": "05cbf05c8b17f6b5",
+  "date": "2026-11-26"
  },
  "pays/cl/index.html": {
-  "empreinte": "3781c244b4dc4bea",
-  "date": "2026-11-25"
+  "empreinte": "bbcce58615dae142",
+  "date": "2026-11-26"
  },
  "pays/cn/index.html": {
-  "empreinte": "4ad4d01ec363c36f",
-  "date": "2026-11-25"
+  "empreinte": "49edae8dbbd5005f",
+  "date": "2026-11-26"
  },
  "pays/cy/index.html": {
-  "empreinte": "56e1bbf5c74cbf8b",
-  "date": "2026-11-25"
+  "empreinte": "d99d7cc04448bd4b",
+  "date": "2026-11-26"
  },
  "pays/cz/index.html": {
-  "empreinte": "c815408c26daf328",
-  "date": "2026-11-25"
+  "empreinte": "c1ae5e6cba322135",
+  "date": "2026-11-26"
  },
  "pays/de/index.html": {
-  "empreinte": "de0c706b5b452fc8",
-  "date": "2026-11-25"
+  "empreinte": "96dd4d08e5dc8c11",
+  "date": "2026-11-26"
  },
  "pays/dk/index.html": {
-  "empreinte": "c80615b6fe483bc5",
-  "date": "2026-11-25"
+  "empreinte": "772299a3e1f88d56",
+  "date": "2026-11-26"
  },
  "pays/es/index.html": {
-  "empreinte": "da4e1d684d4dd625",
-  "date": "2026-11-25"
+  "empreinte": "1861751733f784c1",
+  "date": "2026-11-26"
  },
  "pays/fr/index.html": {
-  "empreinte": "01a531a9966cc180",
-  "date": "2026-11-25"
+  "empreinte": "58be624e4511d337",
+  "date": "2026-11-26"
  },
  "pays/gb/index.html": {
-  "empreinte": "8b086b86daa491c5",
-  "date": "2026-11-25"
+  "empreinte": "520e6b01e95106a6",
+  "date": "2026-11-26"
  },
  "pays/gr/index.html": {
-  "empreinte": "af7bc6b2af75f4ad",
-  "date": "2026-11-25"
+  "empreinte": "d9f7a7e877908f49",
+  "date": "2026-11-26"
  },
  "pays/ie/index.html": {
-  "empreinte": "5c7fefed6c4263ea",
-  "date": "2026-11-25"
+  "empreinte": "81fd16acef687d49",
+  "date": "2026-11-26"
  },
  "pays/in/index.html": {
-  "empreinte": "4e022d1291fc3f82",
-  "date": "2026-11-25"
+  "empreinte": "d6e77e3beb2c8d9f",
+  "date": "2026-11-26"
  },
  "pays/it/index.html": {
-  "empreinte": "725a771dba70769b",
-  "date": "2026-11-25"
+  "empreinte": "55ef044bf0511e1b",
+  "date": "2026-11-26"
  },
  "pays/jp/index.html": {
-  "empreinte": "dcf82a4c15160a85",
-  "date": "2026-11-25"
+  "empreinte": "1d1abcc95ab59524",
+  "date": "2026-11-26"
  },
  "pays/kr/index.html": {
-  "empreinte": "14c62c2a3fef8186",
-  "date": "2026-11-25"
+  "empreinte": "05f6fdd879cac767",
+  "date": "2026-11-26"
  },
  "pays/mx/index.html": {
-  "empreinte": "a96987fd3fb0b439",
-  "date": "2026-11-25"
+  "empreinte": "0a5f4d8663a6e2e3",
+  "date": "2026-11-26"
  },
  "pays/my/index.html": {
-  "empreinte": "10944005d2aca0f3",
-  "date": "2026-11-25"
+  "empreinte": "5be0e306f4ecdd34",
+  "date": "2026-11-26"
  },
  "pays/nl/index.html": {
-  "empreinte": "5cbf71e2b65a07d6",
-  "date": "2026-11-25"
+  "empreinte": "795daf8f9c9364a5",
+  "date": "2026-11-26"
  },
  "pays/nz/index.html": {
-  "empreinte": "a2a6cb7c67007145",
-  "date": "2026-11-25"
+  "empreinte": "d9ddc36bef865dd1",
+  "date": "2026-11-26"
  },
  "pays/pl/index.html": {
-  "empreinte": "4fded74aacba299f",
-  "date": "2026-11-25"
+  "empreinte": "b523817c048cbfda",
+  "date": "2026-11-26"
  },
  "pays/pt/index.html": {
-  "empreinte": "f39677c10a4443ab",
-  "date": "2026-11-25"
+  "empreinte": "3e71acaf5b2d077d",
+  "date": "2026-11-26"
  },
  "pays/se/index.html": {
-  "empreinte": "4db23e003b81407d",
-  "date": "2026-11-25"
+  "empreinte": "066b90c129b4500a",
+  "date": "2026-11-26"
  },
  "pays/sg/index.html": {
-  "empreinte": "d8a00c69fa6c52d4",
-  "date": "2026-11-25"
+  "empreinte": "b49fcf02622c8ef4",
+  "date": "2026-11-26"
  },
  "pays/th/index.html": {
-  "empreinte": "b60e044e4dea2c01",
-  "date": "2026-11-25"
+  "empreinte": "9d6ce993a6b4d443",
+  "date": "2026-11-26"
  },
  "pays/tw/index.html": {
-  "empreinte": "02ae14ba3e6fddcb",
-  "date": "2026-11-25"
+  "empreinte": "34186585bbaf87b2",
+  "date": "2026-11-26"
  },
  "pays/us/index.html": {
-  "empreinte": "a13d4ac0c4acb9b7",
-  "date": "2026-11-25"
+  "empreinte": "ef87109c5c7feccc",
+  "date": "2026-11-26"
  },
  "pays/vn/index.html": {
-  "empreinte": "322e2d0078d9c309",
-  "date": "2026-11-25"
+  "empreinte": "40e1a6ac64d0eb2b",
+  "date": "2026-11-26"
  },
  "publier/index.html": {
   "empreinte": "7c42d0a5936e28c3",
@@ -1585,20 +1585,20 @@
   "date": "2026-11-25"
  },
  "rapports/2026-11/index.html": {
-  "empreinte": "8523e95ca75e4378",
-  "date": "2026-11-25"
+  "empreinte": "82dd0693326210e3",
+  "date": "2026-11-26"
  },
  "rapports/index.html": {
-  "empreinte": "8027215cc06dd61b",
-  "date": "2026-11-25"
+  "empreinte": "a42b5a40cc9f7a7d",
+  "date": "2026-11-26"
  },
  "specialite/aaoifi-charia/index.html": {
   "empreinte": "29aa87bb798e7ed3",
   "date": "2026-11-25"
  },
  "specialite/astro/index.html": {
-  "empreinte": "80a1bfe58e39f77f",
-  "date": "2026-11-25"
+  "empreinte": "6217ec90d6b9d977",
+  "date": "2026-11-26"
  },
  "specialite/audit/index.html": {
   "empreinte": "8340bc3efac21fe5",
@@ -1617,8 +1617,8 @@
   "date": "2026-11-25"
  },
  "specialite/calcul-physique/index.html": {
-  "empreinte": "76b932e326ac73f2",
-  "date": "2026-11-25"
+  "empreinte": "4ede3ee1e51b85dc",
+  "date": "2026-11-26"
  },
  "specialite/compta-financiere/index.html": {
   "empreinte": "1b3ec099ee1e3d21",
@@ -1629,12 +1629,12 @@
   "date": "2026-11-25"
  },
  "specialite/compta-gestion/index.html": {
-  "empreinte": "7a9c28f37a9a8d66",
-  "date": "2026-11-25"
+  "empreinte": "04e32545e31d7839",
+  "date": "2026-11-26"
  },
  "specialite/donnees/index.html": {
-  "empreinte": "5641cba44c93d0d3",
-  "date": "2026-11-25"
+  "empreinte": "19195c3507127597",
+  "date": "2026-11-26"
  },
  "specialite/economie-islamique/index.html": {
   "empreinte": "f4bad3737c7c4340",
@@ -1653,44 +1653,44 @@
   "date": "2026-11-25"
  },
  "specialite/genie-logiciel/index.html": {
-  "empreinte": "e7cf45fc2a189846",
-  "date": "2026-11-25"
+  "empreinte": "64a3e4a704937557",
+  "date": "2026-11-26"
  },
  "specialite/gouvernance/index.html": {
   "empreinte": "37bf825ca48809b8",
   "date": "2026-11-25"
  },
  "specialite/graphisme/index.html": {
-  "empreinte": "93f98ef527f908fa",
-  "date": "2026-11-25"
+  "empreinte": "aec51a19710bafe4",
+  "date": "2026-11-26"
  },
  "specialite/ia-apprentissage/index.html": {
-  "empreinte": "834157b64e7dff7e",
-  "date": "2026-11-25"
+  "empreinte": "a6c8641e8a480d7a",
+  "date": "2026-11-26"
  },
  "specialite/ihm/index.html": {
-  "empreinte": "714812e1ec83e7e2",
-  "date": "2026-11-25"
+  "empreinte": "5e8d5f261909bd85",
+  "date": "2026-11-26"
  },
  "specialite/info-interdisciplinaire/index.html": {
-  "empreinte": "7a3509d2b9b40f2a",
-  "date": "2026-11-25"
+  "empreinte": "21a4d92afc449074",
+  "date": "2026-11-26"
  },
  "specialite/instrumentation/index.html": {
-  "empreinte": "1047524088faf9fa",
-  "date": "2026-11-25"
+  "empreinte": "e91030db11f70e61",
+  "date": "2026-11-26"
  },
  "specialite/langage/index.html": {
-  "empreinte": "da60504295c51b9a",
-  "date": "2026-11-25"
+  "empreinte": "7f2bef782c55e9aa",
+  "date": "2026-11-26"
  },
  "specialite/marches/index.html": {
   "empreinte": "5051df6d0a8dcb31",
   "date": "2026-11-25"
  },
  "specialite/matiere-condensee/index.html": {
-  "empreinte": "32654990d15a2c87",
-  "date": "2026-11-25"
+  "empreinte": "aa0823704c01643e",
+  "date": "2026-11-26"
  },
  "specialite/medecine/index.html": {
   "empreinte": "ca3222e209d0841f",
@@ -1701,52 +1701,52 @@
   "date": "2026-11-25"
  },
  "specialite/nucleaire/index.html": {
-  "empreinte": "b2f2bddbd7eecab3",
-  "date": "2026-11-25"
+  "empreinte": "0ac7b38596ce9033",
+  "date": "2026-11-26"
  },
  "specialite/particules/index.html": {
-  "empreinte": "64c388f9fe382b28",
-  "date": "2026-11-25"
+  "empreinte": "ff93c688684c1a34",
+  "date": "2026-11-26"
  },
  "specialite/physique-generale/index.html": {
-  "empreinte": "f5970f549fb9946a",
-  "date": "2026-11-25"
+  "empreinte": "02259bbf63e19452",
+  "date": "2026-11-26"
  },
  "specialite/physique-theorique/index.html": {
-  "empreinte": "d73eb60532d24615",
-  "date": "2026-11-25"
+  "empreinte": "c19cba424085ea97",
+  "date": "2026-11-26"
  },
  "specialite/quantique/index.html": {
-  "empreinte": "74cf59d628d7affd",
-  "date": "2026-11-25"
+  "empreinte": "58b654b95d0519fc",
+  "date": "2026-11-26"
  },
  "specialite/reseaux/index.html": {
-  "empreinte": "fbfc4c64f68673df",
-  "date": "2026-11-25"
+  "empreinte": "11dfccfdfe8b2312",
+  "date": "2026-11-26"
  },
  "specialite/robotique/index.html": {
-  "empreinte": "cd931b30b003d5c3",
-  "date": "2026-11-25"
+  "empreinte": "f6c634a7806d65bc",
+  "date": "2026-11-26"
  },
  "specialite/securite/index.html": {
-  "empreinte": "4896f979c51e9ddd",
-  "date": "2026-11-25"
+  "empreinte": "4de5fa1700e0c71f",
+  "date": "2026-11-26"
  },
  "specialite/sukuk/index.html": {
   "empreinte": "762c8361804f5b6c",
   "date": "2026-11-25"
  },
  "specialite/systemes/index.html": {
-  "empreinte": "d34cab510d680567",
-  "date": "2026-11-25"
+  "empreinte": "9941ae7a69578aff",
+  "date": "2026-11-26"
  },
  "specialite/theorie/index.html": {
-  "empreinte": "737fc3617e924895",
-  "date": "2026-11-25"
+  "empreinte": "51aa47b1c5aaa674",
+  "date": "2026-11-26"
  },
  "specialite/vision/index.html": {
-  "empreinte": "c8a49cbceaea30bf",
-  "date": "2026-11-25"
+  "empreinte": "7336a5d4a9653ea4",
+  "date": "2026-11-26"
  },
  "specialite/zakat-waqf/index.html": {
   "empreinte": "84da2d519b3c0a49",

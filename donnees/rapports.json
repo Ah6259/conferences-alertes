@@ -2379,13 +2379,13 @@
 "2026-11": {
 "chiffres": {
 "afrique": 0,
-"evenements": 59,
+"evenements": 58,
 "limites": 64,
 "limites_conferences": 52,
 "par_continent": {
 "amerique-nord": 14,
 "amerique-sud": 3,
-"asie": 26,
+"asie": 25,
 "europe": 14,
 "oceanie": 2
 },
@@ -2395,12 +2395,12 @@
 "finance-islamique": 5,
 "informatique": 43,
 "ingenierie": 1,
-"physique": 6,
+"physique": 5,
 "vie-sante": 1
 },
 "par_mode": {
 "hybride": 1,
-"presentiel": 58
+"presentiel": 57
 },
 "par_pays": {
 "AU": 2,
@@ -2416,7 +2416,6 @@
 "IN": 1,
 "IT": 6,
 "JP": 3,
-"KR": 1,
 "KW": 1,
 "LK": 1,
 "NL": 1,
@@ -2446,7 +2445,7 @@
 "medecine": 1,
 "nucleaire": 1,
 "particules": 2,
-"quantique": 2,
+"quantique": 1,
 "reseaux": 2,
 "robotique": 1,
 "securite": 3,
@@ -2457,10 +2456,10 @@
 },
 "par_type": {
 "atelier": 1,
-"conference": 55,
+"conference": 54,
 "ecole": 3
 },
-"pays": 23,
+"pays": 22,
 "themes_site": 9,
 "tunisie": 0
 },
@@ -3530,27 +3529,6 @@
 "titre": "IFN Kuwait Dialogues 2026",
 "type": "conference",
 "ville": "Kuwait City"
-},
-{
-"acronyme": "",
-"annee": 2026,
-"continent": "asie",
-"debut": "2026-11-25",
-"domaines": [
-"physique"
-],
-"fin": "2026-11-27",
-"id": "iqt-2026",
-"lien": "https://iqtevent.com",
-"limites": [],
-"mode": "presentiel",
-"pays": "KR",
-"specialites": [
-"quantique"
-],
-"titre": "IQT Korea",
-"type": "conference",
-"ville": "Incheon"
 },
 {
 "acronyme": "IFN Türkiye 2026",
@@ -5113,7 +5091,7 @@
 "ville": "Kyoto"
 }
 ],
-"derniere_date": "2026-11-25",
+"derniere_date": "2026-11-26",
 "fini": false,
 "premier_jour": "2026-11-01"
 }

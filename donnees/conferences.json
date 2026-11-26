@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-25 15:29",
- "derniere_lecture_reussie": "2026-11-25 15:29",
+ "mis_a_jour": "2026-11-26 14:57",
+ "derniere_lecture_reussie": "2026-11-26 14:57",
  "dernier_passage": {
-  "date": "2026-11-25 15:29",
+  "date": "2026-11-26 14:57",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 263,
+   "nombre": 262,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-25 15:29",
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
@@ -25,7 +25,7 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-25 15:29",
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
@@ -33,7 +33,7 @@
    "etat": "ok",
    "nombre": 15,
    "brutes": 156,
-   "derniere_reussite": "2026-11-25 15:29",
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-25 15:29",
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
@@ -49,23 +49,23 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-25 15:29",
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
   "robo": {
    "etat": "ok",
-   "nombre": 17,
-   "brutes": 36,
-   "derniere_reussite": "2026-11-25 15:29",
+   "nombre": 18,
+   "brutes": 37,
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 132,
-   "brutes": 157,
-   "derniere_reussite": "2026-11-25 15:29",
+   "nombre": 145,
+   "brutes": 170,
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   },
@@ -73,12 +73,12 @@
    "etat": "ok",
    "nombre": 46,
    "brutes": 64,
-   "derniere_reussite": "2026-11-25 15:29",
+   "derniere_reussite": "2026-11-26 14:57",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 467,
+ "nombre": 479,
  "conferences": [
   {
    "id": "icpads-2026",
@@ -310,80 +310,6 @@
     "hci"
    ],
    "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "mobihoc-2026",
-   "acronyme": "MobiHoc",
-   "titre": "International Symposium on Mobile Ad Hoc Networking and Computing",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-11-25",
-   "ville": "Tokyo",
-   "pays": "JP",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "reseaux"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-04-13",
-     "type": "resume",
-     "libelle": "Abstract · Registration per CFP; full cutoff unresolved",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.sigmobile.org/mobihoc/2026/",
-   "rang": "CORE A · CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iqt-2026",
-   "acronyme": "",
-   "titre": "IQT Korea",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-25",
-   "fin": "2026-11-27",
-   "ville": "Incheon",
-   "pays": "KR",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "physique"
-   ],
-   "specialites": [
-    "quantique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://iqtevent.com",
-   "rang": "",
-   "sources": [
-    "inspire"
-   ],
-   "identifiant_source": "inspire-3105940",
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
@@ -2120,6 +2046,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "petra-colloquium-celebrating-petra-the-positron-2026",
+   "acronyme": "",
+   "titre": "PETRA Colloquium — Celebrating PETRA - The “Positron-Elektron-Tandem-Ring-Anlage”",
+   "annee": 2026,
+   "type": "conference",
+   "debut": "2026-12-08",
+   "fin": "2026-12-08",
+   "ville": "Hamburg",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.desy.de/event/54481/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234066",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "q2b-2026",
@@ -3951,47 +3911,6 @@
    "ajoute_le": "2026-10-06"
   },
   {
-   "id": "popl-2027",
-   "acronyme": "POPL",
-   "titre": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-01-10",
-   "fin": "2027-01-16",
-   "ville": "Mexico City",
-   "pays": "MX",
-   "mode": "presentiel",
-   "continent": "amerique-sud",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "genie-logiciel"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-09",
-     "type": "article",
-     "libelle": "Submission Deadline",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://popl27.sigplan.org/",
-   "rang": "CORE A* · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
    "id": "33rd-cracow-epiphany-conference-advances-in-2027",
    "acronyme": "",
    "titre": "33rd Cracow Epiphany Conference — Advances in precission calculations for the LHC",
@@ -4138,6 +4057,47 @@
    ],
    "lien": "https://popl27.sigplan.org/home/pepm-2027",
    "rang": "CCF C",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "popl-2027",
+   "acronyme": "POPL",
+   "titre": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-01-13",
+   "fin": "2027-01-15",
+   "ville": "Mexico City",
+   "pays": "MX",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "genie-logiciel"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [
+    {
+     "date": "2026-07-09",
+     "type": "article",
+     "libelle": "Submission Deadline",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://popl27.sigplan.org/",
+   "rang": "CORE A* · CCF A",
    "sources": [
     "ccfddl"
    ],
@@ -4878,6 +4838,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "wispp-2027",
+   "acronyme": "WISPP 2027",
+   "titre": "ECFA Winter Instrumentation School in Particle Physics",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-02-01",
+   "fin": "2027-02-12",
+   "ville": "Genf",
+   "pays": "CH",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1683986/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234068",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "sixth-gevolution-users-2027",
@@ -6207,7 +6200,7 @@
    "titre": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
    "annee": 2027,
    "type": "conference",
-   "debut": "2027-03-09",
+   "debut": "2027-03-10",
    "fin": "2027-03-12",
    "ville": "Richmond",
    "pays": "US",
@@ -6418,6 +6411,40 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-06"
+  },
+  {
+   "id": "smuk-2027",
+   "acronyme": "SMuK",
+   "titre": "DPG Spring Meeting: Section: Matter and Cosmos",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-03-15",
+   "fin": "2027-03-19",
+   "ville": "Mainz",
+   "pays": "DE",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://mainz27.dpg-tagungen.de/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234067",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "aes-2027",
@@ -8070,6 +8097,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "clashep2027",
+   "acronyme": "CLASHEP2027",
+   "titre": "13th CERN Latin-American School of High-Energy Physics",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-04-07",
+   "fin": "2027-04-20",
+   "ville": "Bento Gonçalves",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://indico.cern.ch/event/1734340/page/44456-home",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234054",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "efa-eastern-2027",
    "acronyme": "EFA Eastern 2027",
    "titre": "63rd Annual Eastern Finance Association Meeting",
@@ -9583,6 +9644,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "claf-ctp-saifr-latin-american-school-on-neutrino-2027",
+   "acronyme": "",
+   "titre": "CLAF/CTP-SAIFR Latin-American School On Neutrino Physics And Astrophysics",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-05-03",
+   "fin": "2027-05-14",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234056",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "mitp-topical-workshop-from-isotope-shift-to-2027",
    "acronyme": "",
    "titre": "MITP Topical Workshop: \"From Isotope Shift to Nuclear Clock Spectroscopy\"",
@@ -10547,6 +10642,41 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "electron-ion-collider-as-a-probe-of-quantum-2027",
+   "acronyme": "",
+   "titre": "Electron-Ion Collider as a Probe of Quantum Chromodynamics (School)",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-05-17",
+   "fin": "2027-05-19",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "nucleaire",
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/seic2027/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234058",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "hscc-2027",
    "acronyme": "HSCC",
    "titre": "International Conference on Hybrid Systems: Computation and Control",
@@ -10963,6 +11093,41 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-14"
+  },
+  {
+   "id": "electron-ion-collider-as-a-probe-of-quantum-2027-2",
+   "acronyme": "",
+   "titre": "Electron-Ion Collider as a Probe of Quantum Chromodynamics (Workshop)",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-05-19",
+   "fin": "2027-05-21",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules",
+    "nucleaire",
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/weic2027/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234059",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "eswc-2027",
@@ -11531,10 +11696,10 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-11-25",
-   "type_limite": "article",
-   "heure_limite": "23:59",
-   "fuseau_limite": "AoE",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-25",
@@ -13685,7 +13850,7 @@
    "heure_limite": "",
    "fuseau_limite": "",
    "dates_limites": [],
-   "lien": "https://igs2027singapore.github.io/",
+   "lien": "https://sgp2027.github.io/",
    "rang": "CORE B · CCF B",
    "sources": [
     "ccfddl"
@@ -13802,12 +13967,27 @@
    "specialites": [
     "graphisme"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://igs2027singapore.github.io/",
+   "date_limite": "2027-01-31",
+   "type_limite": "resume",
+   "heure_limite": "23:59",
+   "fuseau_limite": "AoE",
+   "dates_limites": [
+    {
+     "date": "2027-01-31",
+     "type": "resume",
+     "libelle": "Abstract · First review notification: Mar 26, 2027; revised paper due: Apr 23, 2",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    },
+    {
+     "date": "2027-02-07",
+     "type": "article",
+     "libelle": "First review notification: Mar 26, 2027; revised paper due: Apr 23, 2027",
+     "heure": "23:59",
+     "fuseau": "AoE"
+    }
+   ],
+   "lien": "https://spmconf2027.github.io/",
    "rang": "CORE C · CCF B",
    "sources": [
     "ccfddl"
@@ -13929,8 +14109,8 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-25",
-   "type_limite": "resume",
+   "date_limite": "2026-12-02",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
@@ -14913,8 +15093,8 @@
    "specialites": [
     "securite"
    ],
-   "date_limite": "2026-11-25",
-   "type_limite": "resume",
+   "date_limite": "2026-12-02",
+   "type_limite": "article",
    "heure_limite": "23:59",
    "fuseau_limite": "UTC-12",
    "dates_limites": [
@@ -16324,6 +16504,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "6th-joint-ictp-trieste-ictp-saifr-cosmology-2027",
+   "acronyme": "",
+   "titre": "6th Joint ICTP-Trieste/ICTP-SAIFR Cosmology School",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-07-26",
+   "fin": "2027-08-06",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234055",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "ccn-2027",
    "acronyme": "CCN",
    "titre": "Cognitive Computational Neuroscience",
@@ -16794,20 +17007,38 @@
    "mode": "presentiel",
    "continent": "amerique-nord",
    "domaines": [
-    "informatique"
+    "informatique",
+    "ingenierie"
    ],
    "specialites": [
-    "graphisme"
+    "graphisme",
+    "robotique"
    ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
+   "date_limite": "2027-01-21",
+   "type_limite": "resume",
+   "heure_limite": "00:00",
+   "fuseau_limite": "UTC",
+   "dates_limites": [
+    {
+     "date": "2027-01-21",
+     "type": "resume",
+     "libelle": "Abstract",
+     "heure": "00:00",
+     "fuseau": "UTC"
+    },
+    {
+     "date": "2027-01-28",
+     "type": "article",
+     "libelle": "Paper",
+     "heure": "00:00",
+     "fuseau": "UTC"
+    }
+   ],
    "lien": "https://www.siggraph.org/",
-   "rang": "",
+   "rang": "CCF A",
    "sources": [
-    "hf"
+    "hf",
+    "robo"
    ],
    "identifiant_source": "",
    "verifie_le": "",
@@ -16848,6 +17079,40 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "exploring-new-physics-with-cosmic-2027",
+   "acronyme": "",
+   "titre": "Exploring New Physics with Cosmic Messengers",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-09",
+   "fin": "2027-08-13",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro",
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234057",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "mitp-topical-workshop-the-emerging-nanohertz-2027",
    "acronyme": "",
    "titre": "MITP Topical Workshop: \"The Emerging Nanohertz Gravitational-Wave Sky: From Massive Black Holes to New Physics\"",
@@ -16880,6 +17145,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-20"
+  },
+  {
+   "id": "workshop-on-precision-2027",
+   "acronyme": "",
+   "titre": "Workshop on Precision Cosmology",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-08-09",
+   "fin": "2027-08-13",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "astro"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234062",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "usenix-security-2027",
@@ -16944,6 +17242,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "quantum-computing-in-light-matter-interfaces-2027",
+   "acronyme": "",
+   "titre": "Quantum Computing in Light-Matter Interfaces (School)",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-08-14",
+   "fin": "2027-08-16",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234060",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "mitp-scientific-program-bridging-the-gap-between-2027",
    "acronyme": "",
    "titre": "MITP Scientific Program: \"Bridging the Gap Between Black Holes, Holography and the Swampland\"",
@@ -16977,6 +17308,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-20"
+  },
+  {
+   "id": "quantum-computing-in-light-matter-interfaces-2027-2",
+   "acronyme": "",
+   "titre": "Quantum Computing in Light-Matter Interfaces (Workshop)",
+   "annee": 2027,
+   "type": "atelier",
+   "debut": "2027-08-17",
+   "fin": "2027-08-20",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "calcul-physique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234061",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "icdar-2027",
@@ -17330,6 +17694,39 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "quantum-chaos-from-many-body-dynamics-to-black-2027",
+   "acronyme": "",
+   "titre": "Quantum Chaos: From Many-Body Dynamics to Black Holes",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-08-23",
+   "fin": "2027-08-27",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "quantique"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234063",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
+  },
+  {
    "id": "re-2027",
    "acronyme": "RE",
    "titre": "IEEE International Requirements Engineering Conference",
@@ -17469,8 +17866,8 @@
    "specialites": [
     "donnees"
    ],
-   "date_limite": "2026-11-25",
-   "type_limite": "resume",
+   "date_limite": "2026-12-01",
+   "type_limite": "article",
    "heure_limite": "17:00",
    "fuseau_limite": "PT",
    "dates_limites": [
@@ -18178,6 +18575,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-10-28"
+  },
+  {
+   "id": "joint-ictp-saifr-mitp-school-on-quantum-sensors-2027",
+   "acronyme": "",
+   "titre": "Joint ICTP-SAIFR/MITP School on Quantum Sensors for Fundamental Physics",
+   "annee": 2027,
+   "type": "ecole",
+   "debut": "2027-09-13",
+   "fin": "2027-09-19",
+   "ville": "São Paulo",
+   "pays": "BR",
+   "mode": "presentiel",
+   "continent": "amerique-sud",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "instrumentation"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.ictp-saifr.org/2027-activities/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234064",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-26"
   },
   {
    "id": "nthep-2027",
@@ -19004,12 +19434,45 @@
    "ajoute_le": "2026-10-06"
   },
   {
+   "id": "ccs-2027",
+   "acronyme": "CCS",
+   "titre": "ACM Conference on Computer and Communications Security",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-10-11",
+   "fin": "2027-10-15",
+   "ville": "Atlanta",
+   "pays": "US",
+   "mode": "presentiel",
+   "continent": "amerique-nord",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "securite"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://www.sigsac.org/ccs/CCS2027/",
+   "rang": "CORE A* · CCF A",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-10-06"
+  },
+  {
    "id": "oopsla-2027",
    "acronyme": "OOPSLA",
    "titre": "Conference on Object-Oriented Programming Systems, Languages, and Applications",
    "annee": 2027,
    "type": "conference",
-   "debut": "2027-10-10",
+   "debut": "2027-10-13",
    "fin": "2027-10-15",
    "ville": "Prague",
    "pays": "CZ",
@@ -19043,39 +19506,6 @@
    ],
    "lien": "https://2027.splashcon.org/track/splashoopsla2027",
    "rang": "CORE A · CCF A",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ccs-2027",
-   "acronyme": "CCS",
-   "titre": "ACM Conference on Computer and Communications Security",
-   "annee": 2027,
-   "type": "conference",
-   "debut": "2027-10-11",
-   "fin": "2027-10-15",
-   "ville": "Atlanta",
-   "pays": "US",
-   "mode": "presentiel",
-   "continent": "amerique-nord",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "securite"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://www.sigsac.org/ccs/CCS2027/",
-   "rang": "CORE A* · CCF A",
    "sources": [
     "ccfddl"
    ],
@@ -19829,21 +20259,21 @@
    ],
    "date_limite": "2026-11-27",
    "type_limite": "resume",
-   "heure_limite": "00:00",
+   "heure_limite": "23:59",
    "fuseau_limite": "AoE",
    "dates_limites": [
     {
      "date": "2026-11-27",
      "type": "resume",
      "libelle": "Abstract · Winter cycle",
-     "heure": "00:00",
+     "heure": "23:59",
      "fuseau": "AoE"
     },
     {
      "date": "2026-12-04",
      "type": "article",
      "libelle": "Winter cycle",
-     "heure": "00:00",
+     "heure": "23:59",
      "fuseau": "AoE"
     },
     {

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-reseaux.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-reseaux.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-25T06:00:00Z</updated>
+<updated>2026-11-26T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -146,12 +146,5 @@
 <link href="https://conferences.clicvia.com/conference/wicon-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>2–4 Dec 2026 · Bratislava, Slovakia · Deadline: 30 Sep 2026 · Official: https://wicon.eai-conferences.org/2026/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mobihoc-2026/</id>
-<title>MobiHoc 2026 — International Symposium on Mobile Ad Hoc Networking and Computing</title>
-<link href="https://conferences.clicvia.com/conference/mobihoc-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–25 Nov 2026 · Tokyo, Japan · Deadline: 13 Apr 2026 · Official: https://www.sigmobile.org/mobihoc/2026/</summary>
 </entry>
 </feed>
