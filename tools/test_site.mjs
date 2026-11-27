@@ -271,7 +271,13 @@ const sitemap = lire("sitemap.xml");
 const urls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
 const nFiches = urls.filter(u => /\/conference\//.test(u)).length;
 const maigre = c => !((c.dates_limites || []).length || c.date_limite || c.rang || c.verifie_le);   // plan Google B.1 (25/11/2026)
-check(`sitemap : ${urls.length} pages dont ${nFiches} fiches (une par conférence à venir, sauf fiches maigres en noindex)`, nFiches === avenir.filter(c => !maigre(c)).length && urls.includes(URL_SITE) && urls.includes(URL_SITE + "abonnement/"));
+// VIS.3 (27/11/2026) : plan RÉDUIT — aucune fiche de conférence (elles restent en ligne, ouvertes à Google, sans noindex), pages
+// principales + catégories + DERNIER rapport du mois, au plus 160 adresses
+const fichesEnLigne = avenir.filter(c => !maigre(c)).length;
+const rapportsMois = urls.filter(u => /\/rapports\/\d{4}-\d{2}\/$/.test(u));
+check(`sitemap RÉDUIT (VIS.3) : ${urls.length} adresses, aucune fiche de conférence (${fichesEnLigne} fiches en ligne hors du plan), un seul rapport du mois, accueil et catégories présents`,
+  nFiches === 0 && fichesEnLigne > 0 && urls.length >= 40 && urls.length <= 160 && rapportsMois.length === 1 && urls.includes(URL_SITE) && urls.includes(URL_SITE + "abonnement/")
+  && ["domaine/", "specialite/", "continent/", "pays/", "mois/"].every(k => urls.some(u => u.includes("/" + k))));
 // 25/11/2026 (PASS.1, module commun du parcours d'achat) : assets/pass-commun.js = COPIE EXACTE du module de projets-ahmed
 // (« outils communs/pass-commun/pass-commun.js », recopié par synchroniser.py) ; assets/pass-reglages.js = ce qui est propre au site.
 const PASS_JS = lire("assets/pass-commun.js") + "\n" + lire("assets/pass-reglages.js");
@@ -613,8 +619,9 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
   const avecPage = Object.keys(H).filter(k => (H[k].conferences || []).filter(c => c.debut.slice(0, 7) === k).length >= MIN).sort();
   const lm = Object.fromEntries([...sitemap.matchAll(/<loc>([^<]+)<\/loc><lastmod>([^<]+)<\/lastmod>/g)].map(m => [m[1], m[2]]));
   check(`rapports : ${avecPage.length} mois avec rapport (au moins ${MIN} événements)`, avecPage.length >= 1);
-  check("rapports : liste rapports/ et chaque mois dans le plan du site, date = date des chiffres, adresse « rapports/AAAA-MM/ »",
-    urls.includes(URL_SITE + "rapports/") && avecPage.every(k => lm[URL_SITE + `rapports/${k}/`] === H[k].derniere_date) &&
+  check("rapports : liste rapports/ et le DERNIER mois dans le plan du site (réduit, VIS.3), les autres en ligne, date = date des chiffres, adresse « rapports/AAAA-MM/ »",
+    urls.includes(URL_SITE + "rapports/") && lm[URL_SITE + `rapports/${avecPage[avecPage.length - 1]}/`] === H[avecPage[avecPage.length - 1]].derniere_date   // VIS.3 : DERNIER mois seul dans le plan réduit
+    && avecPage.every(k => existsSync(join(root, `rapports/${k}/index.html`))) &&
     urls.filter(u => u.includes("/rapports/") && u !== URL_SITE + "rapports/").every(u => /^\/rapports\/\d{4}-\d{2}\/$/.test(new URL(u).pathname) && avecPage.includes(new URL(u).pathname.slice(10, 17))));
   check("rapports : aucun mois sous le minimum n'a de page", Object.keys(H).filter(k => !avecPage.includes(k)).every(k => !existsSync(join(root, `rapports/${k}/index.html`))));
   check("rapports : un mois fini a toujours sa date des chiffres dans ce mois-là, et seul le mois en cours n'est pas figé",

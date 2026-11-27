@@ -246,7 +246,7 @@ try:
     shutil.copy(sortie, donnees)
     code, out = silence(C.construire, donnees, copie, plus(JOUR, 3))
     e = json.load(open(os.path.join(copie, "donnees", "etat-source.json"), encoding="utf-8"))
-    n_pages = len(open(os.path.join(copie, "sitemap.xml"), encoding="utf-8").read().split("<url>")) - 1
+    n_pages = sum(1 for _r, _d, fs in os.walk(copie) for f in fs if f == "index.html")   # pages écrites (le plan du site est réduit, VIS.3)
     check(f"construction normale : {n_pages} pages, pas d'avertissement, sauvegarde faite", code == 0 and not e["bandeau_visible"]
           and os.path.exists(donnees.replace(".json", ".sauvegarde.json")) and n_pages > 100)
     html = open(os.path.join(copie, "index.html"), encoding="utf-8").read()

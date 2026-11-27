@@ -1660,6 +1660,12 @@ def construire(donnees, sortie, jour):
     chemins_sm = [c for c in [c for c, _ in pages] + list(videos) if os.path.exists(os.path.join(sortie, c + "index.html")) and not noindex(c)]
     ignorer = [re.compile(r'<small class="reste">.*?</small>', re.S), re.compile(r'data-panne="\d"'), re.compile(r'data-maj(?:-texte)?="[^"]*"'),
                re.compile(r'<div class="alerte-panne[^"]*" id="alerte-panne"[^>]*>.*?</div>', re.S)]
+    # PLAN DU SITE RÉDUIT (VIS.3 point 2, 27/11/2026 ; « fais tout le plan » d'Ahmed du 26/11 ; règle commune § 72) : Google ne prenait
+    # que 3 pages de nos sites ; ici l'accueil était « explorée, non indexée » sur 439 adresses. Le plan garde les pages principales, les
+    # catégories (domaines, spécialités, continents, pays, mois) et le DERNIER rapport du mois ; les fiches des conférences (vie courte,
+    # retirées une fois passées) restent EN LIGNE sans noindex, trouvées par les liens des catégories.
+    mois_rap = sorted(c for c in chemins_sm if re.fullmatch(r"rapports/\d{4}-\d{2}/", c))
+    chemins_sm = [c for c in chemins_sm if not c.startswith("conference/") and (c not in mois_rap or c == mois_rap[-1])]
     DATES = LM.dates(sortie, [c + "index.html" for c in chemins_sm], jour, "donnees/lastmod.json", ignorer)
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for chemin in chemins_sm:
