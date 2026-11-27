@@ -29,6 +29,7 @@ import sys
 import tempfile
 import time
 import unicodedata
+import unicodedata
 
 ICI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ICI)
@@ -73,9 +74,31 @@ def domaine_lien(lien):
     return ".".join(parties[-2:]) if len(parties) >= 2 else h
 
 
+# Noms de concurrents (empreintes de tools/concurrents.sha256, celles du test « aucun nom de concurrent dans le dépôt public ») :
+# une fiche dont le lien ou le texte en contient un est ÉCARTÉE à la récolte (robot arrêté le 27/11/2026 : « ICMCIS 2026 » avec un
+# lien vers un agrégateur concurrent ; règle § 55 : la cause est réglée à la source, le test reste le garde-fou).
+try:
+    CONCURRENTS = set(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools", "concurrents.sha256"), encoding="utf-8").read().split())
+except OSError:
+    CONCURRENTS = set()
+
+
+def nomme_un_concurrent(texte):
+    """Même découpage que le test du site : mots seuls, paires de mots et paires collées, sans accents, en minuscules."""
+    mots = re.findall(r"[a-z0-9]+", unicodedata.normalize("NFKD", (texte or "").lower()).encode("ascii", "ignore").decode())
+    for k, m in enumerate(mots):
+        s = mots[k + 1] if k + 1 < len(mots) else "undefined"
+        for g in (m, m + " " + s, m + s):
+            if hashlib.sha256(g.encode()).hexdigest()[:16] in CONCURRENTS:
+                return True
+    return False
+
+
 def ecarte(f):
     d = domaine_lien(f["lien"])
-    return hashlib.sha256(d.encode()).hexdigest()[:16] in ECARTES or bool(MOTIF_ECARTE.search(f["titre"] or ""))
+    texte = " ".join(str(v) for v in f.values() if isinstance(v, str))
+    return (hashlib.sha256(d.encode()).hexdigest()[:16] in ECARTES or bool(MOTIF_ECARTE.search(f["titre"] or ""))
+            or nomme_un_concurrent(texte))
 
 
 def slug(t):
