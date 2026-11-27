@@ -1,10 +1,10 @@
 {
  "site": "Conference Radar",
  "premiere_collecte": "2026-10-06",
- "mis_a_jour": "2026-11-26 14:57",
- "derniere_lecture_reussie": "2026-11-26 14:57",
+ "mis_a_jour": "2026-11-27 15:57",
+ "derniere_lecture_reussie": "2026-11-27 15:57",
  "dernier_passage": {
-  "date": "2026-11-26 14:57",
+  "date": "2026-11-27 15:57",
   "reussi": true
  },
  "statut_source": {
@@ -15,9 +15,9 @@
  "sources": {
   "ccfddl": {
    "etat": "ok",
-   "nombre": 262,
+   "nombre": 260,
    "brutes": 2375,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
@@ -25,15 +25,15 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 127,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
   "hci": {
    "etat": "ok",
-   "nombre": 15,
+   "nombre": 14,
    "brutes": 156,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
@@ -41,7 +41,7 @@
    "etat": "ok",
    "nombre": 12,
    "brutes": 12,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
@@ -49,7 +49,7 @@
    "etat": "ok",
    "nombre": 1,
    "brutes": 24,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
@@ -57,119 +57,29 @@
    "etat": "ok",
    "nombre": 18,
    "brutes": 37,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
   "inspire": {
    "etat": "ok",
-   "nombre": 145,
-   "brutes": 170,
-   "derniere_reussite": "2026-11-26 14:57",
+   "nombre": 146,
+   "brutes": 172,
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   },
   "officiel": {
    "etat": "ok",
-   "nombre": 46,
+   "nombre": 45,
    "brutes": 64,
-   "derniere_reussite": "2026-11-26 14:57",
+   "derniere_reussite": "2026-11-27 15:57",
    "raison": "",
    "depuis": ""
   }
  },
- "nombre": 479,
+ "nombre": 476,
  "conferences": [
-  {
-   "id": "icpads-2026",
-   "acronyme": "ICPADS",
-   "titre": "IEEE International Conference on Parallel and Distributed Systems",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-22",
-   "fin": "2026-11-26",
-   "ville": "Tokyo",
-   "pays": "JP",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "systemes"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-08-15",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://www.cloud-conf.net/icpads2026",
-   "rang": "CORE B · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "bmvc-2026",
-   "acronyme": "BMVC",
-   "titre": "British Machine Vision Conference",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-11-26",
-   "ville": "Lancaster",
-   "pays": "GB",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "vision",
-    "ia-apprentissage"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-05-22",
-     "type": "resume",
-     "libelle": "Abstract",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-05-29",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://bmvc2026.bmva.org/",
-   "rang": "CORE A · CCF C",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
   {
    "id": "iconip-2026",
    "acronyme": "ICONIP",
@@ -209,142 +119,6 @@
    "identifiant_source": "",
    "verifie_le": "",
    "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iss-2026",
-   "acronyme": "ISS",
-   "titre": "ACM International Conference on Interactive Surfaces and Spaces",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-11-26",
-   "ville": "Turin",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2025-03-14",
-     "type": "article",
-     "libelle": "First round 2025",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2025-07-25",
-     "type": "article",
-     "libelle": "Second round 2025",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-02-12",
-     "type": "article",
-     "libelle": "Winter round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    },
-    {
-     "date": "2026-07-22",
-     "type": "article",
-     "libelle": "Summer round",
-     "heure": "23:59",
-     "fuseau": "AoE"
-    }
-   ],
-   "lien": "https://iss.acm.org/2026/",
-   "rang": "CCF B",
-   "sources": [
-    "ccfddl"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "iss-summer-round-2026",
-   "acronyme": "ISS (Summer round)",
-   "titre": "ISS (Summer round)",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-23",
-   "fin": "2026-11-26",
-   "ville": "Turin",
-   "pays": "IT",
-   "mode": "presentiel",
-   "continent": "europe",
-   "domaines": [
-    "informatique"
-   ],
-   "specialites": [
-    "ihm"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [
-    {
-     "date": "2026-07-22",
-     "type": "article",
-     "libelle": "Paper",
-     "heure": "23:59",
-     "fuseau": "UTC-12"
-    }
-   ],
-   "lien": "https://iss.acm.org/2026/authors/papers/",
-   "rang": "",
-   "sources": [
-    "hci"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "",
-   "page_verifiee": "",
-   "ajoute_le": "2026-10-06"
-  },
-  {
-   "id": "ifn-turkiye-2026",
-   "acronyme": "IFN Türkiye 2026",
-   "titre": "IFN Türkiye Dialogues 2026",
-   "annee": 2026,
-   "type": "conference",
-   "debut": "2026-11-26",
-   "fin": "2026-11-26",
-   "ville": "Istanbul",
-   "pays": "TR",
-   "mode": "presentiel",
-   "continent": "asie",
-   "domaines": [
-    "finance-islamique"
-   ],
-   "specialites": [
-    "banque-islamique"
-   ],
-   "date_limite": "",
-   "type_limite": "",
-   "heure_limite": "",
-   "fuseau_limite": "",
-   "dates_limites": [],
-   "lien": "https://redmoneyevents.com/event/ifnturkiye2026/",
-   "rang": "",
-   "sources": [
-    "officiel"
-   ],
-   "identifiant_source": "",
-   "verifie_le": "2026-10-06",
-   "page_verifiee": "https://redmoneyevents.com/event/ifnturkiye2026/",
    "ajoute_le": "2026-10-06"
   },
   {
@@ -8979,10 +8753,10 @@
    "specialites": [
     "ia-apprentissage"
    ],
-   "date_limite": "2026-11-26",
-   "type_limite": "article",
-   "heure_limite": "03:59",
-   "fuseau_limite": "UTC-8",
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
    "dates_limites": [
     {
      "date": "2026-11-26",
@@ -10410,6 +10184,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-09"
+  },
+  {
+   "id": "ml4lattice-2027",
+   "acronyme": "ML4Lattice",
+   "titre": "Machine Learning Approaches in Lattice QCD — 3rd Edition",
+   "annee": 2027,
+   "type": "conference",
+   "debut": "2027-05-10",
+   "fin": "2027-05-14",
+   "ville": "Edinburgh",
+   "pays": "GB",
+   "mode": "presentiel",
+   "continent": "europe",
+   "domaines": [
+    "physique"
+   ],
+   "specialites": [
+    "particules"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://higgs.ph.ed.ac.uk/workshops/Machine-Learning-Approaches-in-Lattice-QCD/",
+   "rang": "",
+   "sources": [
+    "inspire"
+   ],
+   "identifiant_source": "inspire-3234269",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-27"
   },
   {
    "id": "noms-2027",
@@ -20516,6 +20323,39 @@
    "verifie_le": "",
    "page_verifiee": "",
    "ajoute_le": "2026-11-14"
+  },
+  {
+   "id": "icassp-2028",
+   "acronyme": "ICASSP",
+   "titre": "IEEE International Conference on Acoustics, Speech, and Signal Processing",
+   "annee": 2028,
+   "type": "conference",
+   "debut": "2028-05-28",
+   "fin": "2028-06-02",
+   "ville": "Tokyo",
+   "pays": "JP",
+   "mode": "presentiel",
+   "continent": "asie",
+   "domaines": [
+    "informatique"
+   ],
+   "specialites": [
+    "graphisme"
+   ],
+   "date_limite": "",
+   "type_limite": "",
+   "heure_limite": "",
+   "fuseau_limite": "",
+   "dates_limites": [],
+   "lien": "https://2028.ieeeicassp.org/",
+   "rang": "CORE B · CCF B",
+   "sources": [
+    "ccfddl"
+   ],
+   "identifiant_source": "",
+   "verifie_le": "",
+   "page_verifiee": "",
+   "ajoute_le": "2026-11-27"
   }
  ]
 }

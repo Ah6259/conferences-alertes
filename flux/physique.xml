@@ -4,9 +4,16 @@
 <id>https://conferences.clicvia.com/flux/physique.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/physique.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-26T06:00:00Z</updated>
+<updated>2026-11-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
+<entry>
+<id>https://conferences.clicvia.com/conference/ml4lattice-2027/</id>
+<title>ML4Lattice 2027 — Machine Learning Approaches in Lattice QCD — 3rd Edition</title>
+<link href="https://conferences.clicvia.com/conference/ml4lattice-2027/"/>
+<updated>2026-11-27T06:00:00Z</updated>
+<summary>10–14 May 2027 · Edinburgh, United Kingdom · Deadline: see official website · Official: https://higgs.ph.ed.ac.uk/workshops/Machine-Learning-Approaches-in-Lattice-QCD/</summary>
+</entry>
 <entry>
 <id>https://conferences.clicvia.com/conference/joint-ictp-saifr-mitp-school-on-quantum-sensors-2027/</id>
 <title>Joint ICTP-SAIFR/MITP School on Quantum Sensors for Fundamental Physics</title>
@@ -419,12 +426,5 @@
 <link href="https://conferences.clicvia.com/conference/mitp-scientific-program-bridging-the-gap-between-2027/"/>
 <updated>2026-10-20T06:00:00Z</updated>
 <summary>16 Aug – 3 Sep 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/493/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/mitp-topical-workshop-the-emerging-nanohertz-2027/</id>
-<title>MITP Topical Workshop: "The Emerging Nanohertz Gravitational-Wave Sky: From Massive Black Holes to New Physics"</title>
-<link href="https://conferences.clicvia.com/conference/mitp-topical-workshop-the-emerging-nanohertz-2027/"/>
-<updated>2026-10-20T06:00:00Z</updated>
-<summary>9–13 Aug 2027 · Mainz, Germany · Deadline: see official website · Official: https://indico.mitp.uni-mainz.de/event/491/</summary>
 </entry>
 </feed>

@@ -4,7 +4,7 @@
 <id>https://conferences.clicvia.com/flux/specialite-vision.xml</id>
 <link rel="self" href="https://conferences.clicvia.com/flux/specialite-vision.xml"/>
 <link href="https://conferences.clicvia.com/"/>
-<updated>2026-11-26T06:00:00Z</updated>
+<updated>2026-11-27T06:00:00Z</updated>
 <author><name>Conference Radar / Radar des conférences</name></author>
 <rights>© 2026 Conference Radar. Sources: open lists (MIT) and INSPIRE-HEP (CC0).</rights>
 <entry>
@@ -83,12 +83,5 @@
 <link href="https://conferences.clicvia.com/conference/accv-2026/"/>
 <updated>2026-10-06T06:00:00Z</updated>
 <summary>16–18 Dec 2026 · Osaka, Japan · Deadline: 3 Jul 2026, 5 Jul 2026 · Official: https://accv2026.org/</summary>
-</entry>
-<entry>
-<id>https://conferences.clicvia.com/conference/bmvc-2026/</id>
-<title>BMVC 2026 — British Machine Vision Conference</title>
-<link href="https://conferences.clicvia.com/conference/bmvc-2026/"/>
-<updated>2026-10-06T06:00:00Z</updated>
-<summary>23–26 Nov 2026 · Lancaster, United Kingdom · Deadline: 22 May 2026, 29 May 2026 · Official: https://bmvc2026.bmva.org/</summary>
 </entry>
 </feed>
