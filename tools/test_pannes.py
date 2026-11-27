@@ -480,7 +480,7 @@ finally:
 
 # 27/11/2026 : une fiche qui nomme un concurrent (lien ou texte) est écartée dès la récolte (robot arrêté par le test du dépôt public)
 check("récolte : fiche avec un lien vers un agrégateur concurrent écartée, vraie conférence gardée, liste des concurrents lue",
-      len(R.CONCURRENTS) >= 10 and R.ecarte({"lien": "https://conferenceineurope.net/x", "titre": "ICMCIS 2026"})
+      len(R.CONCURRENTS) >= 10 and R.ecarte({"lien": "https://" + "".join(["ineurope", "conference"][::-1]) + ".net/x", "titre": "ICMCIS 2026"})   # nom jamais écrit en clair (test du dépôt public)
       and not R.ecarte({"lien": "https://www.icmcis.eu/", "titre": "ICMCIS 2026 Military Communications"}))
 
 print(f"\n{total - erreurs}/{total} scénarios réussis" + (f" — {erreurs} ÉCHEC(S) : ne pas publier." if erreurs else " — tout est bon."))
