@@ -11,6 +11,9 @@ zakat/waqf, normes AAOIFI et gouvernance charia).
 - Alertes **gratuites** sans données personnelles : flux RSS (Atom) par domaine et par spécialité (`flux/`).
 - Alertes **personnalisées** sur Telegram (« Alertes Pro », `abonnement/`) : GRATUITES depuis le 21/10/2026 (avant : 9 DT / mois ou 79 DT / an, sans essai gratuit depuis le 20/10/2026),
   sans renouvellement automatique. La consultation reste gratuite.
+- Depuis le 28/11/2026 (règle commune § 71) : chaque page spécialité, domaine, continent, pays et mois a un **encadré « Recevoir ces alertes »**
+  (nombre de conférences de la page, offre du moment) dont le bouton ouvre `abonnement/` avec la spécialité ou le domaine **déjà coché** ;
+  chaque clic vers `abonnement/` est compté dans GoatCounter (`/conferences-alertes/clic/<endroit>`).
 
 ## Sources (licences)
 | Source | Domaines | Licence / conditions |

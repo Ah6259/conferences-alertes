@@ -227,3 +227,23 @@ Fichier lu automatiquement par Claude Code au début de chaque session dans ce d
   elles reviennent seules. Le 25/11 : 139 fiches sur 466 + 2 catégories ; plan du site 579 -> 438 adresses.
 - Tests (test_site.mjs, vérifiés par sabotage) : dates pas toutes du jour, date = donnees/lastmod.json, aucune page noindex dans le plan,
   accueil / domaines / alertes… jamais noindex, règle des fiches et des catégories recalculée, lastmod.py avec données inventées.
+
+## 28/11/2026 — ENCADRÉS VERS LES ALERTES PRO + CLICS COMPTÉS (règle commune § 71, « fais tout » d'Ahmed ; modèle : Alerte Concours)
+- Constat de l'audit du 28/11 : aucune page n'amenait aux Alertes Pro (seulement le menu) et aucun clic vers `abonnement/` n'était compté.
+- **Encadré « 🔔 … Recevoir ces alertes »** (`encadre_pro()` de robot/construire_site.py, + `encadre_specialite / encadre_domaine / encadre_lieu`,
+  FR + EN + AR, classe `.encadre-pro`, `data-n` = nombre de la liste de la page) sur CHAQUE page `specialite/`, `domaine/`, `continent/`, `pays/`, `mois/` :
+  spécialité / domaine : « N conférences à venir en « … ». Ne ratez plus une conférence de cette spécialité (ce domaine) : les nouvelles conférences
+  et les rappels des dates limites, chaque matin sur Telegram. » ; pays / continent / mois : « … Ne ratez aucune conférence de VOTRE spécialité, où
+  qu'elle ait lieu : … » (les Alertes Pro suivent des SPÉCIALITÉS, jamais un pays ni un mois : pas de fausse promesse). Ligne d'offre `offre_pro()` =
+  l'interrupteur `ABO["gratuit"]` (aujourd'hui « Alertes Pro sur Telegram : gratuites pour le moment. », sinon le prix) ; aucune gratuité ajoutée.
+- Bouton (`.btn-pro`) -> `abonnement/?specialite=<clé>#inscription` ou `?domaine=<clé>` (`lien_abo()`) ; pays / continent / mois : `abonnement/#inscription`.
+  Fiche d'une conférence : son bouton Alertes Pro coche la 1re spécialité de la fiche.
+- `assets/pass-reglages.js`, crochet `brancher` du module commun (pass-commun.js JAMAIS modifié) : coche les spécialités demandées (domaine = cases
+  `data-domaine`) ; valeur inconnue ignorée ; phrase `#abo-repris` « Vos choix de la page précédente sont déjà cochés plus bas… » (FR, EN, AR).
+- **Clics comptés** : chaque lien vers `abonnement/` a `data-clic` (abonnement-specialite, -domaine, -pays, -continent, -mois, -accueil, -entete pour le
+  bouton doré, -pied, -fiche, -flux, -apropos) ; `assets/page.js` envoie l'ÉVÉNEMENT GoatCounter `/conferences-alertes/clic/<nom>` seulement si
+  `goatcounter.count` existe (aucun script en ligne). Nouveau lien vers abonnement/ = un `data-clic` (le test le bloque sinon).
+- « Comment fonctionne le site ? » (FR, EN, AR) : ligne « Encadré « Recevoir ces alertes » » + clics comptés dans « Vos données » ; 2 lignes FONCTIONS (27).
+- Tests (bloc « 7 bis » de tools/test_site.mjs, chacun vérifié par sabotage) : encadré sur chaque page des 5 sortes en 3 langues, nombre = liste,
+  bouton et pré-sélection, offre vraie, pas de « gratuit » dans le texte, data-clic partout, clic compté avec un FAUX goatcounter et rien sans lui,
+  cases pré-cochées (spécialité, domaine), valeur inconnue ignorée.

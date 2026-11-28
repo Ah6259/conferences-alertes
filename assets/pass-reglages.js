@@ -34,8 +34,26 @@
       },
       function (c) { return c.extra.specs.length ? null : { fr: "Cochez au moins une spécialité.", en: "Tick at least one specialty.", ar: "اختر تخصصًا واحدًا على الأقل." }; },
       "conditions"],
+    // 28/11/2026 (règle commune § 71) : venu d'une page spécialité ou domaine (abonnement/?specialite=…  ou  ?domaine=…) -> ces
+    // spécialités sont déjà cochées (domaine = toutes ses spécialités). Seules les cases qui existent sont cochées : valeur inconnue ignorée.
+    brancher: function (p) {
+      var form = p.form, q;
+      try { q = new URLSearchParams(location.search); } catch (e) { return; }
+      function liste(n) { return (q.get(n) || "").toLowerCase().split(",").filter(function (x) { return /^[a-z0-9-]{2,40}$/.test(x); }).slice(0, 12); }
+      var specs = liste("specialite"), doms = liste("domaine"), fait = false;
+      var cases = form.querySelectorAll('input[name="specialites"]');
+      for (var i = 0; i < cases.length; i++)
+        if (specs.indexOf(cases[i].value) >= 0 || doms.indexOf(cases[i].getAttribute("data-domaine") || "") >= 0) { cases[i].checked = true; fait = true; }
+      var info = document.getElementById("abo-repris");
+      if (fait && info) {
+        info.hidden = false;
+        // l'arrivée sur #inscription a lieu avant la fin du chargement : on montre la phrase une fois la page prête
+        var voir = function () { if (typeof info.scrollIntoView === "function") info.scrollIntoView({ block: "start" }); };
+        if (document.readyState === "complete") setTimeout(voir, 50); else window.addEventListener("load", function () { setTimeout(voir, 50); });
+      }
+    },
     // champs du site : spécialités cochées
-    lire: function (c) { c.extra.specs = PC.coches(c.form, "specialites"); },
+    lire:function (c) { c.extra.specs = PC.coches(c.form, "specialites"); },
     // lien Telegram qui contient les choix (vide si le robot n'est pas réglé) : le robot crée l'inscription
     telegram: function (c) {
       var f = c.form, robot = f.getAttribute("data-robot");

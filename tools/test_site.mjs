@@ -358,7 +358,8 @@ if (exO) {
     /Checked on the official page on \d/.test(texte(w.document.querySelector(".fiche-dl"))) && [...w.document.querySelectorAll(".fiche-dl a")].some(a => a.href === new URL(exO.page_verifiee).href));
 }
 w = await page(`conference/${exF.id}/index.html`, `lang=en&jour=${JOUR}`);
-check("fiche : bouton Alertes Pro et alerte RSS gratuite du domaine", !!w.document.querySelector('a.btn-pro[href="../../abonnement/"]') && !!w.document.querySelector(".btn-rss"));
+check("fiche : bouton Alertes Pro (spécialité de la fiche déjà cochée, clic compté « abonnement-fiche ») et alerte RSS gratuite du domaine",
+  !!w.document.querySelector('a.btn-pro[href^="../../abonnement/?specialite="][href$="#inscription"][data-clic="abonnement-fiche"]') && !!w.document.querySelector(".btn-rss"));
 
 // ---- 7. Pages de domaine, spécialité, continent, pays, mois ------------------------------------
 let okListes = true;
@@ -382,6 +383,80 @@ check("page domaine : pas de filtre domaine, spécialités du domaine seulement,
   [...w.document.querySelectorAll("#grille-specs a")].every(a => /specialite\//.test(a.getAttribute("href"))) && (() => {
     const o = [...w.document.querySelectorAll("#f-spec option")].find(x => x.value); changer(w, "f-spec", o.value);
     return visibles(w.document).every(c => c.dataset.spec.split(" ").includes(o.value)) && visibles(w.document).length > 0; })());
+
+// ---- 7 bis. Encadrés vers les Alertes Pro + clics comptés (28/11/2026, règle commune § 71) ------------------------------------
+// Chaque page spécialité / domaine / continent / pays / mois a un encadré lié à son contenu (FR, EN, AR) : nombre = celui de la liste de la page,
+// bouton vers abonnement/ avec la spécialité ou le domaine déjà coché, offre VRAIE (selon ABO["gratuit"]), jamais une nouvelle gratuité.
+{ const GRAT = /"gratuit": True/.test(readFileSync(join(root, "robot/construire_site.py"), "utf8"));
+  const OFFRE = GRAT ? ["Alertes Pro sur Telegram : gratuites pour le moment.", "Pro Alerts on Telegram: free for now.", "تنبيهات Pro على تيليغرام: مجانية حاليًا."]
+    : [/^Alertes Pro sur Telegram : \d+ DT \/ mois ou \d+ DT \/ an\.$/, /^Pro Alerts on Telegram: \d+ TND \/ month or \d+ TND \/ year\.$/, /^تنبيهات Pro على تيليغرام: \d+ دينار \/ شهر أو \d+ دينار \/ سنة\.$/];
+  const sorte = { domaine: 0, specialite: 0, continent: 0, pays: 0, mois: 0 }, fautes = [];
+  for (const type of Object.keys(sorte)) for (const slug of readdirSync(join(root, type))) {
+    const chemin = `${type}/${slug}/index.html`;
+    if (!existsSync(join(root, chemin))) continue;
+    const doc = new JSDOM(lire(chemin)).window.document, enc = doc.getElementById("encadre-pro"), faute = m => fautes.push(`${chemin} : ${m}`);
+    if (!enc) { faute("pas d'encadré"); continue; }
+    sorte[type]++;
+    const attendu = avenir.filter(c => type === "domaine" ? c.domaines.includes(slug) : type === "specialite" ? c.specialites.includes(slug) :
+      type === "continent" ? c.continent === slug : type === "pays" ? c.pays === slug.toUpperCase() && c.mode !== "en-ligne" : c.debut.slice(0, 7) === slug).length;
+    const reste = chemin.replace("index.html", "liste.json");
+    const cartesPage = ((lire(chemin) + (existsSync(join(root, reste)) ? JSON.parse(lire(reste)).html : "")).match(/<article class="cf/g) || []).length;
+    const tx = ["fr", "en", "ar"].map(l => texte(enc.querySelector(`.encadre-texte [data-l="${l}"]`))), px = ["fr", "en", "ar"].map(l => texte(enc.querySelector(`.encadre-prix [data-l="${l}"]`)));
+    if (+enc.dataset.n !== attendu || +enc.dataset.n !== cartesPage) faute(`nombre ${enc.dataset.n} au lieu de ${cartesPage} (liste de la page)`);
+    if (!tx[0].startsWith(`${attendu} conférence`) || !tx[1].startsWith(`${attendu} upcoming conference`) || !tx[2].startsWith(`${attendu} مؤتمر`)) faute(`nombre du texte ≠ ${attendu} : ${tx[0].slice(0, 40)}`);
+    if (!/Telegram/.test(tx[0] + tx[1]) || !/تيليغرام/.test(tx[2])) faute("texte sans Telegram");
+    if (/gratuit|free|مجان/i.test(tx.join(" "))) faute("le texte de l'encadré promet une gratuité");
+    if (!px.every((x, k) => typeof OFFRE[k] === "string" ? x === OFFRE[k] : OFFRE[k].test(x))) faute("offre fausse : " + px[0]);
+    const a = enc.querySelector("a#encadre-btn"), href = a && a.getAttribute("href");
+    const voulu = type === "specialite" ? `../../abonnement/?specialite=${slug}#inscription` : type === "domaine" ? `../../abonnement/?domaine=${slug}#inscription` : "../../abonnement/#inscription";
+    if (!a || href !== voulu || a.getAttribute("data-clic") !== "abonnement-" + type || !/btn-pro/.test(a.className)) faute(`bouton faux (${href}, ${a && a.getAttribute("data-clic")})`);
+    if (["fr", "en", "ar"].some(l => !texte(a && a.querySelector(`[data-l="${l}"]`)))) faute("bouton sans texte dans une langue");
+  }
+  if (fautes.length) console.log("   " + fautes.slice(0, 8).join("\n   "));
+  check(`encadrés Alertes Pro (§ 71) sur CHAQUE page spécialité (${sorte.specialite}), domaine (${sorte.domaine}), continent (${sorte.continent}), pays (${sorte.pays}), mois (${sorte.mois}) en FR, EN, AR : nombre = liste de la page, bouton vers abonnement/ avec le choix déjà coché, offre vraie, aucune gratuité ajoutée`,
+    fautes.length === 0 && Object.values(sorte).every(n => n > 0));
+  // chaque lien vers abonnement/ (hors des pages abonnement/) est compté : data-clic="abonnement-…" (pages construites + en-tête / pied de page.js)
+  const NOMS = /^abonnement-(specialite|domaine|pays|continent|mois|accueil|entete|pied|fiche|flux|apropos)$/, sansClic = [];
+  const fouillerAbo = dd => { for (const n of readdirSync(join(root, dd), { withFileTypes: true })) {
+    const f = join(dd, n.name);
+    if (n.isDirectory() && !/^(node_modules|\.git|assets|donnees|captures|abonnement|tools|robot)$/.test(n.name)) fouillerAbo(f);
+    else if (n.name === "index.html") for (const m of lire(f).matchAll(/<a\b[^>]*href="(?:\.\.\/)*abonnement\/[^"]*"[^>]*>/g)) {
+      const c = (m[0].match(/data-clic="([^"]*)"/) || [])[1]; if (!c || !NOMS.test(c)) sansClic.push(f + " : " + m[0].slice(0, 90)); } } };
+  fouillerAbo(".");
+  const pj = lire("assets/page.js"), liensJs = [...pj.matchAll(/<a\b[^>]*href="\$\{racine\}abonnement\/"[^>]*>/g)].map(m => m[0]);
+  if (sansClic.length) console.log("   " + sansClic.slice(0, 6).join("\n   "));
+  check("chaque lien vers abonnement/ a son data-clic (pages construites, bouton doré de l'en-tête « abonnement-entete », pied de page « abonnement-pied »)",
+    sansClic.length === 0 && liensJs.length === 2 && liensJs.some(x => /class="entete-pro"[^>]*data-clic="abonnement-entete"/.test(x)) && liensJs.some(x => /data-clic="abonnement-pied"/.test(x)));
+  // clic compté avec un FAUX goatcounter (jamais le vrai compteur), rien sans goatcounter
+  const wc = await page("specialite/banque-islamique/index.html", `lang=fr&jour=${JOUR}`, { leger: true }), dc = wc.document, vus = [];
+  wc.addEventListener("click", e => e.preventDefault());           // jsdom ne navigue pas
+  wc.goatcounter.count = o => vus.push(o);
+  dc.getElementById("encadre-btn").dispatchEvent(new wc.MouseEvent("click", { bubbles: true, cancelable: true }));
+  dc.querySelector("#entete a.entete-pro").dispatchEvent(new wc.MouseEvent("click", { bubbles: true, cancelable: true }));
+  dc.querySelector('#pied a[data-clic="abonnement-pied"]').dispatchEvent(new wc.MouseEvent("click", { bubbles: true, cancelable: true }));
+  dc.querySelector("h1").dispatchEvent(new wc.MouseEvent("click", { bubbles: true, cancelable: true }));      // clic ailleurs : rien
+  check("clic compté (faux goatcounter) : événements /conferences-alertes/clic/abonnement-specialite, …-entete, …-pied (event: true) ; un clic ailleurs ne compte rien",
+    vus.map(o => o.path).join() === "/conferences-alertes/clic/abonnement-specialite,/conferences-alertes/clic/abonnement-entete,/conferences-alertes/clic/abonnement-pied" && vus.every(o => o.event === true && o.title));
+  let erreurJs = null; wc.addEventListener("error", e => { erreurJs = e; });
+  delete wc.goatcounter.count; dc.getElementById("encadre-btn").dispatchEvent(new wc.MouseEvent("click", { bubbles: true, cancelable: true }));
+  delete wc.goatcounter; dc.getElementById("encadre-btn").dispatchEvent(new wc.MouseEvent("click", { bubbles: true, cancelable: true }));
+  check("sans GoatCounter (absent ou bloqué) : aucun comptage, aucune erreur, le lien reste un vrai lien", vus.length === 3 && !erreurJs && /^\.\.\/\.\.\/abonnement\//.test(dc.getElementById("encadre-btn").getAttribute("href")));
+  // abonnement/ : les choix de la page précédente sont DÉJÀ COCHÉS (assets/pass-reglages.js, crochet brancher du module commun) ; valeur inconnue ignorée
+  const coches = ww => [...ww.document.querySelectorAll('#abo-form input[name="specialites"]')].filter(x => x.checked).map(x => x.value);
+  const repris = ww => !ww.document.getElementById("abo-repris").hidden;
+  const toutes = [...new JSDOM(lire("abonnement/index.html")).window.document.querySelectorAll('input[name="specialites"]')];
+  const spec1 = toutes[0].value, dom1 = "finance-islamique", deDom = toutes.filter(x => x.getAttribute("data-domaine") === dom1).map(x => x.value);
+  let wa = await page("abonnement/index.html", `lang=fr&specialite=${spec1}`);
+  check(`abonnement/?specialite=${spec1} : seule cette spécialité est cochée, phrase « Vos choix de la page précédente sont déjà cochés » affichée`,
+    coches(wa).join() === spec1 && repris(wa) && /Vos choix de la page précédente sont déjà cochés/.test(texte(wa.document.getElementById("abo-repris"))));
+  wa = await page("abonnement/index.html", `lang=en&domaine=${dom1}`);
+  check(`abonnement/?domaine=${dom1} : toutes ses spécialités (${deDom.length}) cochées, aucune autre (EN : « already ticked »)`,
+    deDom.length > 0 && coches(wa).sort().join() === deDom.sort().join() && repris(wa) && /already ticked/.test(wa.document.getElementById("abo-repris").textContent));
+  wa = await page("abonnement/index.html", `lang=fr&specialite=zzz-inconnue,${spec1}`);
+  const wb = await page("abonnement/index.html", "lang=fr&specialite=zzz-inconnue&domaine=pas-un-domaine"), wn = await page("abonnement/index.html", "lang=fr");
+  check("valeur inconnue ignorée (rien coché, pas de phrase, pas d'erreur) ; mélange connu + inconnu : seule la connue est cochée ; sans paramètre : rien coché",
+    coches(wa).join() === spec1 && coches(wb).length === 0 && !repris(wb) && coches(wn).length === 0 && !repris(wn));
+}
 
 // ---- 8. Flux RSS (Atom) gratuits ------------------------------------------------------------------
 const flux = readdirSync(join(root, "flux")).filter(f => f.endsWith(".xml"));
@@ -777,6 +852,9 @@ else check("conditions : vendeur = l'éditeur du site, prix, paiement (période 
     ["confidentialité et conditions d'utilisation (pages communes)", true, /Confidentialité et conditions d(&#x27;|&#39;|')utilisation[\s\S]*Privacy and terms of use/],
     ["mises à jour automatiques", true, /Mises à jour automatiques/],
     ["site indépendant", true, /Ce site est indépendant/],
+    ["encadré « Recevoir ces alertes » des pages spécialité, domaine, continent, pays, mois (§ 71, 28/11/2026)", /id="encadre-pro"/.test(lire("specialite/banque-islamique/index.html")),
+      /Encadré « Recevoir ces alertes »<\/b>[^<]*déjà coché[\s\S]*“Get these alerts” box<\/b>[\s\S]*إطار «تلقَّ هذه التنبيهات»<\/b>/],
+    ["clics vers les Alertes Pro comptés (GoatCounter, § 71)", /\/conferences-alertes\/clic\//.test(js), /Les clics vers la page des Alertes Pro[^<]*GoatCounter[\s\S]*Clicks towards the Pro Alerts page[\s\S]*النقرات نحو صفحة تنبيهات Pro/],
     ["éditeur Clicvia (données pour Google, 22/11/2026)", /clicvia\.com\/#organisation/.test(acc2), /Publié par <a href="https:\/\/clicvia\.com\/"/]];
   const manque = FONCTIONS.filter(([, sur, re]) => sur && !re.test(apx)).map(([n]) => n);
   check(`page « Comment fonctionne le site ? » à jour : chaque fonction du site y est expliquée (${FONCTIONS.length} fonctions)` + (manque.length ? " — manque : " + manque.join(", ") : ""),

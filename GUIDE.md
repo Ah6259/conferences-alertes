@@ -24,6 +24,10 @@ bouton `activer-abonne` depuis l'application GitHub du téléphone.
 **Paiement international** : aujourd'hui D17 / IZI (Tunisie) ; pour l'étranger le site dit « carte bancaire :
 bientôt, écrivez-nous sur WhatsApp ». Choix à faire : Konnect (carte) ou un autre service (voir l'étude privée).
 
+**Voir si les visiteurs vont vers les Alertes Pro (28/11/2026)** : GoatCounter (lien « Statistiques » du portail) → chercher
+`conferences-alertes/clic/` : `abonnement-specialite`, `-domaine`, `-pays`, `-continent`, `-mois` (encadrés des pages), `-entete` (bouton doré),
+`-pied`, `-accueil`, `-fiche`, `-flux`, `-apropos`. Ce sont des clics, pas des inscriptions (les inscriptions arrivent par Formspree / e-mail).
+
 ## 4. Ajouter une conférence de comptabilité, finance ou finance islamique (sélection officielle)
 1. Ouvrir la **page officielle** de la conférence (site de l'association, de l'université, de l'AAOIFI…).
 2. GitHub (téléphone ou PC) → dépôt `conferences-alertes` → `donnees/selection-officielle.json` → crayon (modifier).

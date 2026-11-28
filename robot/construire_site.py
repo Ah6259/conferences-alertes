@@ -536,8 +536,78 @@ def bouton_pro_accueil(racine=""):
     if ABO["gratuit"]:
         sous = L("Nouvelles conférences et rappels de dates limites · gratuit", "New conferences and deadline reminders · free",
                  "مؤتمرات جديدة وتذكير بآجال الإرسال · مجانًا")
-    return (f'    <a class="btn-pro-grand" id="btn-pro-accueil" href="{racine}abonnement/">{ICONE_CLOCHE}'
+    return (f'    <a class="btn-pro-grand" id="btn-pro-accueil" href="{racine}abonnement/" data-clic="abonnement-accueil">{ICONE_CLOCHE}'
             f'<span>{titre}<small>{sous}</small></span></a>')
+
+
+def offre_pro():
+    """Offre VRAIE du moment (règle commune § 71) : « gratuites pour le moment » tant que ABO["gratuit"] est True, sinon le prix.
+    Jamais une nouvelle gratuité : c'est l'interrupteur déjà en place qui décide (21/10/2026, décision d'Ahmed)."""
+    if ABO["gratuit"]:
+        return L("Alertes Pro sur Telegram : gratuites pour le moment.", "Pro Alerts on Telegram: free for now.", "تنبيهات Pro على تيليغرام: مجانية حاليًا.")
+    pm, pa = ABO["prix_mois"], ABO["prix_an"]
+    return L(f"Alertes Pro sur Telegram : {pm} DT / mois ou {pa} DT / an.", f"Pro Alerts on Telegram: {pm} TND / month or {pa} TND / year.",
+             f"تنبيهات Pro على تيليغرام: {ISO(pm)} دينار / شهر أو {ISO(pa)} دينار / سنة.")
+
+
+def lien_abo(racine, specialite="", domaine=""):
+    """Lien vers abonnement/ avec le choix de la page DÉJÀ COCHÉ (lu par assets/pass-reglages.js ; valeur inconnue ignorée)."""
+    q = f"?specialite={specialite}" if specialite in K.S_PAR_SLUG else f"?domaine={domaine}" if domaine in {d[0] for d in K.DOMAINES} else ""
+    return f"{racine}abonnement/{q}#inscription"
+
+
+def encadre_pro(racine, texte, clic, specialite="", domaine="", n=None):
+    """Encadré « 🔔 … » lié au contenu de la page (règle commune § 71, 28/11/2026, modèle d'Alerte Concours) : pages spécialité, domaine,
+    continent, pays et mois. texte = (fr, en, ar). Le bouton ouvre abonnement/ avec la spécialité ou le domaine de la page déjà coché ;
+    le clic est compté dans GoatCounter par assets/page.js (attribut data-clic). n = nombre de la liste de la page (data-n, vérifié par le test)."""
+    dn = f' data-n="{n}"' if n is not None else ""
+    return (f'<section class="carte encadre-pro" id="encadre-pro"{dn}>'
+            f'<p class="encadre-texte">🔔 {L(*texte)}</p>'
+            f'<p class="encadre-boutons"><a class="btn-pro" id="encadre-btn" href="{E(lien_abo(racine, specialite, domaine))}" data-clic="{clic}">'
+            f'{L("Recevoir ces alertes", "Get these alerts", "تلقَّ هذه التنبيهات")}</a></p>'
+            f'<p class="encadre-prix">{offre_pro()}</p></section>')
+
+
+def n_conf(n):
+    """« 1 conférence à venir » / « 12 conférences à venir » (FR, EN, AR)."""
+    s = "s" if n > 1 else ""
+    return (f"{n} conférence{s} à venir", f"{n} upcoming conference{s}", f"{ISO(n)} مؤتمر قادم")
+
+
+SUITE_PRO = ("les nouvelles conférences et les rappels des dates limites, chaque matin sur Telegram.",
+             "new conferences and deadline reminders, every morning on Telegram.",
+             "المؤتمرات الجديدة وتذكير بآجال الإرسال، كل صباح على تيليغرام.")
+# pays, continent, mois : les Alertes Pro suivent des SPÉCIALITÉS (jamais un pays ni un mois) : on le dit, pas de fausse promesse
+SUITE_LIEU = ("Ne ratez aucune conférence de VOTRE spécialité, où qu'elle ait lieu : " + SUITE_PRO[0],
+              "Never miss a conference in YOUR specialty, wherever it takes place: " + SUITE_PRO[1],
+              "لا تفوّت أي مؤتمر في تخصصك، أينما انعقد: " + SUITE_PRO[2])
+
+
+def encadre_specialite(s, sel):
+    fr, en, ar = nom_spec(s)
+    a, b, c = n_conf(len(sel))
+    return encadre_pro("../../", (f"{a} en « {E(fr)} ». Ne ratez plus une conférence de cette spécialité : {SUITE_PRO[0]}",
+                                  f"{b} in “{E(en)}”. Never miss a conference in this specialty again: {SUITE_PRO[1]}",
+                                  f"{c} في «{E(ar)}». لا تفوّت أي مؤتمر في هذا التخصص: {SUITE_PRO[2]}"),
+                       "abonnement-specialite", specialite=s, n=len(sel))
+
+
+def encadre_domaine(d, sel):
+    fr, en, ar = nom_dom(d)
+    a, b, c = n_conf(len(sel))
+    return encadre_pro("../../", (f"{a} en « {E(fr)} ». Ne ratez plus une conférence de ce domaine (toutes ses spécialités sont cochées, à vous de choisir) : {SUITE_PRO[0]}",
+                                  f"{b} in “{E(en)}”. Never miss a conference in this field again (all its specialties are ticked, you choose): {SUITE_PRO[1]}",
+                                  f"{c} في «{E(ar)}». لا تفوّت أي مؤتمر في هذا المجال (كل تخصصاته محدّدة، والاختيار لك): {SUITE_PRO[2]}"),
+                       "abonnement-domaine", domaine=d, n=len(sel))
+
+
+def encadre_lieu(n3, sel, clic, mois=False):
+    a, b, c = n_conf(len(sel))
+    if mois:
+        t = (f"{a} commençant en {E(n3[0].lower())}. {SUITE_LIEU[0]}", f"{b} starting in {E(n3[1])}. {SUITE_LIEU[1]}", f"{c} يبدأ في {E(n3[2])}. {SUITE_LIEU[2]}")
+    else:
+        t = (f"{a} : {E(n3[0])}. {SUITE_LIEU[0]}", f"{b}: {E(n3[1])}. {SUITE_LIEU[1]}", f"{c}: {E(n3[2])}. {SUITE_LIEU[2]}")
+    return encadre_pro("../../", t, clic, n=len(sel))
 
 
 AVIS = """<section class="carte avis" id="avis" aria-labelledby="avis-titre">
@@ -769,7 +839,7 @@ def page_fiche(c, jour, v, etat, adr):
                       "قد تتغير التواريخ (تمديد، تأجيل): الموقع الرسمي للمؤتمر هو المرجع الوحيد. هذا الموقع لا علاقة له بأي جهة منظمة.")}</p>
 </section>
 {boutons_alertes(adr, [d0], racine)}
-<a class="btn-pro" href="{racine}abonnement/">{L("Recevoir les rappels de cette spécialité sur Telegram (Alertes Pro)", "Get reminders for this specialty on Telegram (Pro Alerts)", "تلقَّ تذكيرات هذا التخصص على تيليغرام (تنبيهات Pro)")}</a>"""
+<a class="btn-pro" href="{E(lien_abo(racine, specialite=s0))}" data-clic="abonnement-fiche">{L("Recevoir les rappels de cette spécialité sur Telegram (Alertes Pro)", "Get reminders for this specialty on Telegram (Pro Alerts)", "تلقَّ تذكيرات هذا التخصص على تيليغرام (تنبيهات Pro)")}</a>"""
     titre_page = f"{sigle}{(' — ' + titre) if titre else ''}"[:90] + f" · {p[1]} | Conference Radar"
     lieu_txt = ", ".join(x for x in (c["ville"], nom_pays(c["pays"])[1]) if x) or ("online" if c["mode"] == "en-ligne" else "")
     desc = (f"{sigle}: {p[1]}{', ' + lieu_txt if lieu_txt else ''}. "
@@ -1014,7 +1084,7 @@ def pages_abonnement(confs, adr, v, etat):
         if not specs:
             continue
         groupes.append(f'<p class="groupe">{LL(nom_dom(d[0]))}</p>' + "".join(
-            f'<label class="case"><input type="checkbox" name="specialites" value="{s[0]}"> <span>{LL(nom_spec(s[0]))}</span></label>' for s in specs))
+            f'<label class="case"><input type="checkbox" name="specialites" value="{s[0]}" data-domaine="{d[0]}"> <span>{LL(nom_spec(s[0]))}</span></label>' for s in specs))
     cases = "".join(groupes)
     accepte = L('J\'accepte les <a href="conditions/">conditions de l\'abonnement</a>.', 'I accept the <a href="conditions/">subscription terms</a>.',
                 'أوافق على <a href="conditions/">شروط الاشتراك</a>.')
@@ -1058,6 +1128,7 @@ def pages_abonnement(confs, adr, v, etat):
   <h2 id="abo-titre">{L("Inscription", "Sign-up", "التسجيل")}</h2>
 {bandeau_attente(adr['robot'])}  <form id="abo-form" action="{ABO['formspree']}" method="POST" novalidate data-robot="{E(adr['robot'])}"
         data-specs="{','.join(sorted(s[0] for s in K.SPECIALITES))}">
+    <p class="avert abo-repris" id="abo-repris" hidden>{L("Vos choix de la page précédente sont déjà cochés plus bas (spécialités) : vérifiez-les, puis remplissez le reste.", "Your choices from the previous page are already ticked below (specialties): check them, then fill in the rest.", "اختياراتك من الصفحة السابقة محدّدة أسفله (التخصصات): تحقّق منها ثم أكمل الباقي.")}</p>
     <label class="abo-etiquette" for="abo-nom">{L("Votre nom", "Your name", "اسمك")}</label>
     <input id="abo-nom" name="nom" required maxlength="100" autocomplete="name">
     <label class="abo-etiquette" for="abo-etab">{L("Université ou institution", "University or institution", "الجامعة أو المؤسسة")}</label>
@@ -1311,17 +1382,17 @@ def construire(donnees, sortie, jour):
   <ol class="etapes" data-l="fr">
     <li>Chaque jour, un robot lit des <b>listes ouvertes</b> de conférences tenues par des chercheurs (licence MIT) et la base publique <b>INSPIRE-HEP</b> (CC0).</li>
     <li>Les dates sont mises au même format, les doublons fusionnés, chaque conférence rangée par <b>domaine</b>, <b>spécialité</b> et <b>pays</b>. Les organisateurs connus pour leurs conférences « prédatrices » sont écartés.</li>
-    <li>Vous ouvrez le <b>site officiel</b> de la conférence pour soumettre. Alertes gratuites : flux RSS par domaine ; alertes personnalisées : <a href="abonnement/">Alertes Pro</a>.</li>
+    <li>Vous ouvrez le <b>site officiel</b> de la conférence pour soumettre. Alertes gratuites : flux RSS par domaine ; alertes personnalisées : <a href="abonnement/" data-clic="abonnement-accueil">Alertes Pro</a>.</li>
   </ol>
   <ol class="etapes" data-l="en">
     <li>Every day, a robot reads <b>open conference lists</b> maintained by researchers (MIT licence) and the public <b>INSPIRE-HEP</b> database (CC0).</li>
     <li>Dates are normalised, duplicates merged, each conference sorted by <b>field</b>, <b>specialty</b> and <b>country</b>. Organisers known for predatory conferences are filtered out.</li>
-    <li>You open the conference's <b>official website</b> to submit. Free alerts: RSS feeds by field; personalised alerts: <a href="abonnement/">Pro Alerts</a>.</li>
+    <li>You open the conference's <b>official website</b> to submit. Free alerts: RSS feeds by field; personalised alerts: <a href="abonnement/" data-clic="abonnement-accueil">Pro Alerts</a>.</li>
   </ol>
   <ol class="etapes" data-l="ar">
     <li>كل يوم، يقرأ برنامج آلي <b>قوائم مفتوحة</b> للمؤتمرات يحررها باحثون (رخصة ⁨MIT⁩) وقاعدة <b>⁨INSPIRE-HEP⁩</b> العمومية (⁨CC0⁩).</li>
     <li>تُوحَّد صيغة التواريخ وتُدمج المكررات ويُرتَّب كل مؤتمر حسب <b>المجال</b> و<b>التخصص</b> و<b>البلد</b>، مع استبعاد المنظمين المعروفين بالمؤتمرات «المفترسة».</li>
-    <li>تفتح <b>الموقع الرسمي</b> للمؤتمر للإرسال. تنبيهات مجانية: خلاصات ⁨RSS⁩ حسب المجال؛ تنبيهات شخصية: <a href="abonnement/">تنبيهات Pro</a>.</li>
+    <li>تفتح <b>الموقع الرسمي</b> للمؤتمر للإرسال. تنبيهات مجانية: خلاصات ⁨RSS⁩ حسب المجال؛ تنبيهات شخصية: <a href="abonnement/" data-clic="abonnement-accueil">تنبيهات Pro</a>.</li>
   </ol>
   <p class="avert">{L("Ce site n'est pas officiel et n'est lié à aucun organisateur. Vérifiez toujours le site officiel de la conférence : seul lui fait foi.", "This site is not official and is not affiliated with any organiser. Always check the conference's official website: it alone is authoritative.", "هذا الموقع ليس رسميًا ولا علاقة له بأي جهة منظمة. تثبّت دائمًا من الموقع الرسمي للمؤتمر: هو وحده المرجع.")} </p>
   <p class="lien-comment"><a href="a-propos/">{L("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</a></p>
@@ -1341,7 +1412,7 @@ def construire(donnees, sortie, jour):
     <h1>{LL(n3)}</h1>
     <p class="intro">{L(f"{len(sel)} conférences à venir, avec leur date limite de soumission et leur lien officiel.", f"{len(sel)} upcoming conferences, with their submission deadline and official link.", f"{ISO(len(sel))} مؤتمر قادم مع آخر أجل للإرسال والرابط الرسمي.")}</p>"""
         avant = (f'<section class="carte"><h2>{L("Spécialités", "Specialties", "التخصصات")}</h2>{grille(paires_specs(sel, d), "../../", "specialite", "grille-specs")}</section>'
-                 f'{boutons_alertes(adr, [d], "../../")}')
+                 f'{boutons_alertes(adr, [d], "../../")}{encadre_domaine(d, sel)}')
         apres = f'<h2 class="titre-section">{L("Autres domaines", "Other fields", "مجالات أخرى")}</h2>{tuiles_domaines(vis, "../../", d)}'
         titre = f"{n3[1]} conferences {ANS}: {len(sel)} upcoming, deadlines · Conférences {n3[0]} | Conference Radar"
         desc = f"Upcoming {n3[1].lower()} conferences with submission deadlines and official links. Free. Conférences à venir : {n3[0].lower()}. {n3[2]}."
@@ -1358,7 +1429,7 @@ def construire(donnees, sortie, jour):
     <h1>{LL(n3)}</h1>
     <p class="intro">{L(f"{len(sel)} conférences à venir dans cette spécialité, avec leur date limite de soumission.", f"{len(sel)} upcoming conferences in this specialty, with their submission deadline.", f"{ISO(len(sel))} مؤتمر قادم في هذا التخصص مع آخر أجل للإرسال.")}</p>"""
         apres = f'<h2 class="titre-section">{L("Autres spécialités du domaine", "Other specialties in this field", "تخصصات أخرى في المجال")}</h2>{grille(paires_specs(vis, s[1]), "../../", "specialite", "grille-specs", s[0])}'
-        avant = f'<p class="alertes-btn"><a class="btn-alerte btn-rss" href="../../flux/specialite-{s[0]}.xml">{ICONE_RSS}{L("Flux RSS gratuit de cette spécialité", "Free RSS feed for this specialty", "خلاصة ⁨RSS⁩ مجانية لهذا التخصص")}</a></p>'
+        avant = f'<p class="alertes-btn"><a class="btn-alerte btn-rss" href="../../flux/specialite-{s[0]}.xml">{ICONE_RSS}{L("Flux RSS gratuit de cette spécialité", "Free RSS feed for this specialty", "خلاصة ⁨RSS⁩ مجانية لهذا التخصص")}</a></p>' + encadre_specialite(s[0], sel)
         titre = f"{n3[1]} conferences {ANS}: {len(sel)} upcoming, CFP deadlines · {n3[0]} | Conference Radar"
         desc = f"Upcoming {n3[1]} conferences and calls for papers with deadlines and official links. Conférences {n3[0].lower()} à venir. {n3[2]}."
         pages.append(page_liste(f"specialite/{s[0]}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("domaine", "specialite"), avant=avant, apres=apres))
@@ -1377,7 +1448,8 @@ def construire(donnees, sortie, jour):
                 f'<h2 class="titre-section">{L("Autres continents", "Other continents", "قارات أخرى")}</h2>{grille(paires_conts(vis), "../../", "continent", "grille-continents", x[0])}'
         titre = f"Academic conferences in {n3[1]} {ANS}: {len(sel)} upcoming · Conférences {n3[0]} | Conference Radar"
         desc = f"Upcoming academic conferences in {n3[1]} with submission deadlines and official links. Conférences scientifiques : {n3[0]}. {n3[2]}."
-        pages.append(page_liste(f"continent/{x[0]}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("continent",), apres=apres))
+        pages.append(page_liste(f"continent/{x[0]}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("continent",), apres=apres,
+                                avant=encadre_lieu(n3, sel, "abonnement-continent")))
     for code_bas, n3, n in paires_pays(vis):
         code = code_bas.upper()
         sel = [c for c in vis if c["pays"] == code and c["mode"] != "en-ligne"]
@@ -1388,7 +1460,8 @@ def construire(donnees, sortie, jour):
         apres = f'<h2 class="titre-section">{L("Autres pays", "Other countries", "بلدان أخرى")}</h2>{grille(paires_pays(vis), "../../", "pays", "grille-pays", code_bas)}'
         titre = f"Academic conferences in {n3[1]} {ANS}: {len(sel)} upcoming · Conférences {n3[0]} | Conference Radar"
         desc = f"Upcoming academic conferences in {n3[1]} with submission deadlines and official links. Conférences scientifiques : {n3[0]}. {n3[2]}."
-        pages.append(page_liste(f"pays/{code_bas}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("continent",), apres=apres))
+        pages.append(page_liste(f"pays/{code_bas}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("continent",), apres=apres,
+                                avant=encadre_lieu(n3, sel, "abonnement-pays")))
 
     # ---- mois
     for cle, n3, n in paires_mois(vis):
@@ -1401,7 +1474,8 @@ def construire(donnees, sortie, jour):
         apres = f'<h2 class="titre-section">{L("Autres mois", "Other months", "أشهر أخرى")}</h2>{grille(paires_mois(vis), "../../", "mois", "grille-mois", cle, "mois")}'
         titre = f"Academic conferences {n3[1]}: {len(sel)} conferences · Conférences {n3[0].lower()} | Conference Radar"
         desc = f"Academic conferences starting in {n3[1]}, with submission deadlines and official links. Conférences scientifiques de {n3[0].lower()}."
-        pages.append(page_liste(f"mois/{cle}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("mois",), apres=apres))
+        pages.append(page_liste(f"mois/{cle}/", "../../", titre, desc, hero, sel, jour, v, etat, sans=("mois",), apres=apres,
+                                avant=encadre_lieu(n3, sel, "abonnement-mois", mois=True)))
 
     # ---- fiches
     for c in vis:
@@ -1431,7 +1505,7 @@ def construire(donnees, sortie, jour):
 {f'<section class="carte"><h2>{L("Canaux Telegram gratuits", "Free Telegram channels", "قنوات تيليغرام مجانية")}</h2><ul class="flux">{canaux}</ul></section>' if canaux else ''}
 <section class="carte"><h2>{L("Alertes personnalisées", "Personalised alerts", "تنبيهات شخصية")}</h2>
 <p>{L("Pour recevoir seulement VOS spécialités sur Telegram, avec les rappels J-7 et J-1 des dates limites :", "To receive only YOUR specialties on Telegram, with 7-day and 1-day deadline reminders:", "لتلقي تخصصاتك فقط على تيليغرام مع تذكير قبل الآجال بـ⁦7⁩ أيام وبيوم:")}</p>
-<a class="btn-pro" href="../abonnement/">{L("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a></section>"""
+<a class="btn-pro" href="../abonnement/" data-clic="abonnement-flux">{L("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a></section>"""
     pages.append(("flux/", page("flux/", "../", "Free RSS alerts for upcoming conferences, by field and specialty · Alertes gratuites | Conference Radar",
                                 "Free RSS (Atom) feeds of upcoming academic conferences by field and specialty, no sign-up, no personal data. Flux RSS gratuits par domaine.",
                                 hero, contenu, v, etat)))
@@ -1478,6 +1552,9 @@ def construire(donnees, sortie, jour):
         ("<b>Signaler une conférence</b> (organisateurs, gratuit) : elle apparaît après un contrôle automatique.",
          "<b>Submit a conference</b> (organisers, free): it appears after an automatic check.",
          "<b>الإبلاغ عن مؤتمر</b> (للمنظمين، مجانًا): يظهر بعد مراقبة آلية."),
+        ("<b>Encadré « Recevoir ces alertes »</b> sur les pages par spécialité, domaine, continent, pays et mois : il reprend le nombre de conférences de la page ; depuis une spécialité ou un domaine, le bouton ouvre les Alertes Pro avec ce choix déjà coché.",
+         "<b>“Get these alerts” box</b> on the pages by specialty, field, continent, country and month: it shows the page's number of conferences; from a specialty or a field, the button opens Pro Alerts with that choice already ticked.",
+         "<b>إطار «تلقَّ هذه التنبيهات»</b> في صفحات التخصص والمجال والقارة والبلد والشهر: يذكر عدد مؤتمرات الصفحة؛ ومن صفحة تخصص أو مجال يفتح الزر تنبيهات Pro مع هذا الاختيار محدّدًا مسبقًا."),
         ("<b>Alertes Pro</b> sur Telegram : voir plus bas.", "<b>Pro Alerts</b> on Telegram: see below.", "<b>تنبيهات Pro</b> على تيليغرام: انظر أسفله."),
         ("Bouton <b>Partager</b> en haut de chaque page (menu de partage du téléphone).",
          "<b>Share</b> button at the top of each page (your phone's share menu).",
@@ -1522,7 +1599,7 @@ def construire(donnees, sortie, jour):
   <h2>{L("Gratuit et payant", "Free and paid", "مجاني وبمقابل")}</h2>
   <p>{L("<b>Gratuit</b> : la consultation de tout le site, les fiches, les rapports du mois et les flux RSS. Sans inscription.", "<b>Free</b>: browsing the whole site, the conference pages, the monthly reports and the RSS feeds. No sign-up.", "<b>مجانًا</b>: تصفح كل الموقع والبطاقات والتقارير الشهرية وخلاصات " + ISO("RSS") + ". دون تسجيل.")}</p>
   <p>{pro}</p>
-  <a class="btn" href="../abonnement/">{L("Voir les Alertes Pro", "See Pro Alerts", "اطّلع على تنبيهات Pro")}</a>
+  <a class="btn" href="../abonnement/" data-clic="abonnement-apropos">{L("Voir les Alertes Pro", "See Pro Alerts", "اطّلع على تنبيهات Pro")}</a>
 </section>
 <section class="carte">
   <h2>{L("Vos données", "Your data", "بياناتك")}</h2>
@@ -1530,6 +1607,7 @@ def construire(donnees, sortie, jour):
   {li("Pas de compte à créer pour consulter le site. Votre navigateur garde seulement la langue choisie.", "No account needed to browse the site. Your browser only keeps the chosen language.", "لا حساب لإنشائه لتصفح الموقع. متصفحك يحفظ فقط اللغة المختارة.")}
   {li("Confidentialité et conditions d'utilisation : pages communes à tous nos sites (clicvia.com), liens en bas de chaque page.", "Privacy and terms of use: pages shared by all our sites (clicvia.com), linked at the bottom of every page.", "الخصوصية وشروط الاستعمال: صفحات مشتركة بين كل مواقعنا (⁨clicvia.com⁩)، روابطها أسفل كل صفحة.")}
   {li("Statistiques de visite anonymes, sans cookies (GoatCounter).", "Anonymous visit statistics, without cookies (GoatCounter).", "إحصائيات زيارات مجهولة، دون ملفات تعريف الارتباط (⁨GoatCounter⁩).")}
+  {li("Les clics vers la page des Alertes Pro (encadrés, bouton de l'en-tête, pied de page) sont comptés de la même façon, sans savoir qui clique (GoatCounter) ; aucune inscription n'y apparaît.", "Clicks towards the Pro Alerts page (boxes, header button, footer) are counted the same way, without knowing who clicks (GoatCounter); no sign-up appears there.", "النقرات نحو صفحة تنبيهات Pro (الإطارات، زر الترويسة، أسفل الصفحة) تُحسب بالطريقة نفسها، دون معرفة من ينقر (⁨GoatCounter⁩)؛ ولا يظهر فيها أي تسجيل.")}
   {li("Votre avis et l'inscription aux Alertes Pro ne sont envoyés que si vous touchez « Envoyer » (service Formspree). Vos coordonnées servent seulement aux alertes : elles ne sont jamais publiées ni vendues. L'e-mail de confirmation part par notre service d'envoi (Resend) ; rien n'est gardé.", "Your feedback and Pro Alerts sign-up are only sent when you tap “Send” (Formspree service). Your details are only used for the alerts: never published or sold. The confirmation e-mail goes through our sending service (Resend); nothing is kept.", "رأيك والتسجيل في تنبيهات Pro لا يُرسلان إلا إذا لمست «أرسل» (خدمة ⁨Formspree⁩). بياناتك تُستعمل للتنبيهات فقط: لا تُنشر ولا تُباع أبدًا. بريد التأكيد يُرسل عبر خدمة الإرسال لدينا (⁨Resend⁩)؛ ولا يُحفظ شيء.")}
   </ul>
 </section>
@@ -1550,9 +1628,9 @@ def construire(donnees, sortie, jour):
                               "<b>اختيار رسمي (المحاسبة، المالية، التمويل الإسلامي)</b> — كل مؤتمر رُوجع على الصفحة الرسمية للجهة المنظمة (جمعيات علمية، جامعات، أيوفي، بنوك مركزية…)؛ نأخذ الوقائع فقط (الاسم، التواريخ، المكان، الأجل، الرابط). تاريخ المراجعة مذكور في كل بطاقة، ويتحقق برنامج آلي كل شهر من أن الروابط ما زالت تعمل.") + "</li>")
     contenu = f"""<section class="carte">
   <h2>{L("À quoi sert le site ?", "What is the site for?", "ما فائدة الموقع؟")}</h2>
-  <p data-l="fr">Un service <b>gratuit, sans inscription</b>, pour les enseignants-chercheurs : chaque jour, les conférences scientifiques des 18 prochains mois, rangées par <b>domaine</b>, <b>spécialité</b>, <b>pays</b> et <b>mois</b>, avec la <b>date limite de soumission</b> et le <b>lien officiel</b>. Alertes gratuites par flux RSS et alertes personnalisées sur Telegram (<a href="../abonnement/">Alertes Pro</a>). Aujourd'hui : {E(par_dom)}.</p>
-  <p data-l="en">A <b>free service, without sign-up</b>, for professors and researchers: every day, the academic conferences of the next 18 months, sorted by <b>field</b>, <b>specialty</b>, <b>country</b> and <b>month</b>, with the <b>submission deadline</b> and the <b>official link</b>. Free alerts by RSS feed and personalised Telegram alerts (<a href="../abonnement/">Pro Alerts</a>).</p>
-  <p data-l="ar">خدمة <b>مجانية ودون تسجيل</b> للأساتذة والباحثين: كل يوم، المؤتمرات العلمية للأشهر الـ⁦18⁩ القادمة مرتبة حسب <b>المجال</b> و<b>التخصص</b> و<b>البلد</b> و<b>الشهر</b>، مع <b>آخر أجل للإرسال</b> و<b>الرابط الرسمي</b>. تنبيهات مجانية عبر ⁨RSS⁩ وتنبيهات شخصية على تيليغرام (<a href="../abonnement/">تنبيهات Pro</a>).</p>
+  <p data-l="fr">Un service <b>gratuit, sans inscription</b>, pour les enseignants-chercheurs : chaque jour, les conférences scientifiques des 18 prochains mois, rangées par <b>domaine</b>, <b>spécialité</b>, <b>pays</b> et <b>mois</b>, avec la <b>date limite de soumission</b> et le <b>lien officiel</b>. Alertes gratuites par flux RSS et alertes personnalisées sur Telegram (<a href="../abonnement/" data-clic="abonnement-apropos">Alertes Pro</a>). Aujourd'hui : {E(par_dom)}.</p>
+  <p data-l="en">A <b>free service, without sign-up</b>, for professors and researchers: every day, the academic conferences of the next 18 months, sorted by <b>field</b>, <b>specialty</b>, <b>country</b> and <b>month</b>, with the <b>submission deadline</b> and the <b>official link</b>. Free alerts by RSS feed and personalised Telegram alerts (<a href="../abonnement/" data-clic="abonnement-apropos">Pro Alerts</a>).</p>
+  <p data-l="ar">خدمة <b>مجانية ودون تسجيل</b> للأساتذة والباحثين: كل يوم، المؤتمرات العلمية للأشهر الـ⁦18⁩ القادمة مرتبة حسب <b>المجال</b> و<b>التخصص</b> و<b>البلد</b> و<b>الشهر</b>، مع <b>آخر أجل للإرسال</b> و<b>الرابط الرسمي</b>. تنبيهات مجانية عبر ⁨RSS⁩ وتنبيهات شخصية على تيليغرام (<a href="../abonnement/" data-clic="abonnement-apropos">تنبيهات Pro</a>).</p>
 </section>
 {apropos_fonctions}
 <section class="carte">

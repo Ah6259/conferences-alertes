@@ -29,7 +29,7 @@
         </a>
         <div class="entete-boutons">
           <button class="partager" type="button" aria-label="${T("Partager cette page", "Share this page", "شارك هذه الصفحة")}" title="${T("Partager", "Share", "شارك")}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg></button>
-          <a class="entete-pro" href="${racine}abonnement/">${T("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a>
+          <a class="entete-pro" href="${racine}abonnement/" data-clic="abonnement-entete">${T("Alertes Pro", "Pro Alerts", "تنبيهات Pro")}</a>
           <select class="langue" aria-label="Langue / Language / اللغة">
             <option value="fr"${html.lang === "fr" ? " selected" : ""}>FR</option>
             <option value="en"${html.lang === "en" ? " selected" : ""}>EN</option>
@@ -49,7 +49,7 @@
           <a href="${racine}#lieux">${T("Par pays", "By country", "حسب البلد")}</a>
           <a href="${racine}flux/">${T("Alertes gratuites (RSS)", "Free alerts (RSS)", "تنبيهات مجانية (RSS)")}</a>
           <a href="${racine}rapports/">${T("Rapports du mois", "Monthly reports", "تقارير الشهر")}</a>
-          <a href="${racine}abonnement/">${T("Alertes Pro (abonnement)", "Pro Alerts (subscription)", "تنبيهات Pro (اشتراك)")}</a>
+          <a href="${racine}abonnement/" data-clic="abonnement-pied">${T("Alertes Pro (abonnement)", "Pro Alerts (subscription)", "تنبيهات Pro (اشتراك)")}</a>
           <a href="${racine}publier/">${T("Signaler une conférence", "Submit a conference", "أضف مؤتمرًا")}</a>
           <a href="${racine}a-propos/">${T("Comment fonctionne le site ?", "How does the site work?", "كيف يعمل الموقع؟")}</a>
           <a href="${racine}#avis">${T("Votre avis", "Feedback", "رأيك")}</a>
@@ -143,6 +143,26 @@ if ("serviceWorker" in navigator && location.protocol === "https:") {
     try { navigator.serviceWorker.register(BASE_SITE + "sw.js", { scope: BASE_SITE }).catch(() => {}); } catch (e) { /* rien : le site marche sans */ }
   });
 }
+
+/* Clics vers les Alertes Pro (28/11/2026, règle commune § 71) : tout lien data-clic="<nom>" (encadrés des pages spécialité, domaine,
+   continent, pays, mois ; bouton doré de l'en-tête ; pied de page ; accueil ; fiches…) est compté dans GoatCounter comme un ÉVÉNEMENT
+   « /conferences-alertes/clic/<nom> » (préfixe du site dans le compteur commun). Rien si GoatCounter est absent ou bloqué ; le lien s'ouvre toujours. */
+(function () {
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest && e.target.closest("a[data-clic]");
+    if (!a) return;
+    var nom = (a.getAttribute("data-clic") || "").replace(/[^a-z-]/g, "");
+    if (!nom) return;
+    var titres = { "abonnement-specialite": "Clic vers les Alertes Pro (page d'une spécialité)", "abonnement-domaine": "Clic vers les Alertes Pro (page d'un domaine)",
+      "abonnement-pays": "Clic vers les Alertes Pro (page d'un pays)", "abonnement-continent": "Clic vers les Alertes Pro (page d'un continent)",
+      "abonnement-mois": "Clic vers les Alertes Pro (page d'un mois)", "abonnement-accueil": "Clic vers les Alertes Pro (accueil)",
+      "abonnement-entete": "Clic vers les Alertes Pro (bouton de l'en-tête)", "abonnement-pied": "Clic vers les Alertes Pro (pied de page)",
+      "abonnement-fiche": "Clic vers les Alertes Pro (fiche d'une conférence)", "abonnement-flux": "Clic vers les Alertes Pro (page des flux RSS)",
+      "abonnement-apropos": "Clic vers les Alertes Pro (Comment fonctionne le site ?)" };
+    try { if (window.goatcounter && typeof window.goatcounter.count === "function")
+      window.goatcounter.count({ path: "/conferences-alertes/clic/" + nom, title: titres[nom] || "Clic " + nom, event: true }); } catch (x) {}
+  });
+})();
 
 /* >>> vidéo de présentation : page video/ partagée par le bouton « Partager » (outil vidéos d'Ahmed) */
 /* Adresse du site (11 octobre 2026) : conferences.clicvia.com (racine « / ») ; l'ancienne adresse ah6259.github.io/conferences-alertes/ redirige

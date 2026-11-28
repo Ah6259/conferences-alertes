@@ -214,6 +214,15 @@ input[type="search"]:focus{outline:0;border-color:var(--bleu);box-shadow:0 0 0 4
 ol.etapes{padding-inline-start:20px;margin:0}
 ol.etapes li{margin:0 0 8px}
 .avert{font-size:13.5px;color:var(--texte);background:var(--or-clair);border-radius:12px;padding:10px 12px;margin:12px 0 0}
+/* Encadré « 🔔 … » des pages spécialité, domaine, continent, pays, mois vers les Alertes Pro (28/11/2026, règle commune § 71) */
+.encadre-pro{border-left:5px solid #F2B33D;background:var(--or-clair)}
+html[dir="rtl"] .encadre-pro{border-left:1px solid var(--ligne);border-right:5px solid #F2B33D}
+.encadre-pro p{margin:0 0 10px}
+.encadre-texte{font-weight:700;font-size:16px;line-height:1.45;color:var(--texte)}
+.encadre-boutons .btn-pro{max-width:380px}
+.encadre-pro .encadre-prix{font-size:13.5px;color:var(--texte);margin:0}
+.abo-repris{margin:0 0 12px}
+#inscription,#encadre-pro,.abo-repris{scroll-margin-top:76px}
 .btn-publier{display:block;text-align:center;text-decoration:none;font-weight:800;color:#fff;background:var(--bleu);border-radius:12px;padding:12px 14px;margin:12px 0 0}
 .bientot-pub{text-align:center;font-weight:800;color:var(--or);background:var(--or-clair);border-radius:12px;padding:12px 14px;margin:12px 0 0}
 
